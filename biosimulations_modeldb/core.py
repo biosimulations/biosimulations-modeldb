@@ -43,7 +43,7 @@ for model_id in model_ids:
     for keywords in keyword_list:
         keyword.append(keywords['object_name'])
 
-    #taxon_id = model['neurons']['value'][0]['object_id'] 
+    taxon_id = model['neurons']['value'][0]['object_id'] 
     #taxon_response.raise_for_status()
     #taxon_response_model = taxon_response.json()
     #taxon = taxon_response_model['organism']['value'][0]['object_name']
@@ -114,6 +114,6 @@ for model_id in model_ids:
 
     metadata_filename = str(model_id) + '.yml'
     with open(metadata_filename, 'w') as file:
-        file.write(yaml.dump(metadata, default_flow_style=False))
-        file.write(yaml.dump(md, default_flow_style=False))
+        file.write(yaml.dump(metadata, sort_keys = False, default_flow_style=False))
+        file.write(yaml.dump(metadata, sort_keys = False))
 print("Success")
