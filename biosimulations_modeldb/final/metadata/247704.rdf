@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/247704.omex">
+    <dc:title>Thalamocortical  loop with delay for investigation of absence epilepsy (Liu et al 2019)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/247704.omex">
+    <dc:abstract>Conductance based network model of one thalamic reticular neuron, one thalamic pyramidal neuron and one cortical pyramidal neuron. Used to show that large delay in the corticothalamic connection can lead to multistability.</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Neuron or other electrically excitable cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/247704.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=115951">http://modeldb.science/ModelList?id=115951</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Thalamus</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/247704.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=263">http://modeldb.science/ModelList?id=263</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>Thalamus reticular nucleus GABA cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/247704.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>Thalamic relay, cortical pyramidal</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/247704.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=245">http://modeldb.science/ModelList?id=245</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>I T low threshold</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/247704.omex">
+    <bqbiol:encodes rdf:resource="local:00005">local:00005</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=250">http://modeldb.science/ModelList?id=250</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>I M</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/247704.omex">
+    <bqbiol:encodes rdf:resource="local:00006">local:00006</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=251">http://modeldb.science/ModelList?id=251</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>I h</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/247704.omex">
+    <bqbiol:encodes rdf:resource="local:00007">local:00007</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=2395">http://modeldb.science/ModelList?id=2395</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>I Sodium</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/247704.omex">
+    <bqbiol:encodes rdf:resource="local:00008">local:00008</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=2405">http://modeldb.science/ModelList?id=2405</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>I Potassium</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/247704.omex">
+    <bqbiol:encodes rdf:resource="local:00009">local:00009</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=232">http://modeldb.science/ModelList?id=232</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <rdfs:label>Gaba</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/247704.omex">
+    <bqbiol:encodes rdf:resource="local:00010">local:00010</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=233">http://modeldb.science/ModelList?id=233</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <rdfs:label>Glutamate</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/247704.omex">
+    <bqbiol:encodes rdf:resource="local:00011">local:00011</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=202">http://modeldb.science/ModelList?id=202</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <rdfs:label>GabaA</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/247704.omex">
+    <bqbiol:encodes rdf:resource="local:00012">local:00012</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=203">http://modeldb.science/ModelList?id=203</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <rdfs:label>GabaB</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/247704.omex">
+    <bqbiol:encodes rdf:resource="local:00013">local:00013</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=205">http://modeldb.science/ModelList?id=205</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <rdfs:label>AMPA</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/247704.omex">
+    <bqbiol:encodes rdf:resource="local:00014">local:00014</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <rdfs:label>Yu  Liu</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <foaf:name>Yu  Liu</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/247704.omex">
+    <dc:creator rdf:resource="local:00015">local:00015</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <dc:identifier rdf:resource="mailto:sacampbell@uwaterloo.ca">mailto:sacampbell@uwaterloo.ca</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <rdfs:label>Sue Ann Campbell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <foaf:accountName rdf:resource="mailto:sacampbell@uwaterloo.ca">mailto:sacampbell@uwaterloo.ca</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <foaf:name>Sue Ann Campbell</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/247704.omex">
+    <dc:creator rdf:resource="local:00016">local:00016</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <dc:identifier rdf:resource="mailto:sacampbell@uwaterloo.ca">mailto:sacampbell@uwaterloo.ca</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <rdfs:label>Sue Ann Campbell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <foaf:accountName rdf:resource="mailto:sacampbell@uwaterloo.ca">mailto:sacampbell@uwaterloo.ca</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <foaf:name>Sue Ann Campbell</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/247704.omex">
+    <dc:contributor rdf:resource="local:00017">local:00017</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/247704.omex">
+    <dc:contributor rdf:resource="local:00018">local:00018</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00019">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00019">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00019">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00019">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/247704.omex">
+    <dc:contributor rdf:resource="local:00019">local:00019</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00020">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:247704">https://identifiers.org/modeldb:247704</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00020">
+    <rdfs:label>modeldb:247704</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/247704.omex">
+    <bqmodel:is rdf:resource="local:00020">local:00020</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00021">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1007/s10827-019-00711-x">http://identifiers.org/doi:10.1007/s10827-019-00711-x</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00021">
+    <rdfs:label>Yue Liu, John Milton &amp; Sue Ann Campbell. Outgrowing seizures in Childhood Absence Epilepsy: time delays and bistability. Journal of Computational Neuroscience 46, 2: 197-209 (2019).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/247704.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00021">local:00021</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/247704.omex">
+    <dc:created>2018-12-05</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/247704.omex">
+    <dc:modified>2019-02-15</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,148 @@
+references:
+- label: "Anatoly Buchin, Sarah Rieubland, Michael H\xE4usser, Boris S. Gutkin & Arnd\
+    \ Roth. Inverse Stochastic Resonance in Cerebellar Purkinje Cells. PLOS Computational\
+    \ Biology 12, 8: e1005000 (2016)."
+  uri: http://identifiers.org/doi:10.1371/journal.pcbi.1005000
+taxa: []
+thumbnails:
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Cerebellar
+    Purkinje cells show inverse stochastic resonance (ISR).</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">A. Whole-cell patch-clamp recording
+    from a Purkinje cell in a cerebellar slice, showing current injection of 1 s noise
+    waveform periods with increasing amplitude, and recorded membrane potential <italic>V</italic><sub><italic>m</italic></sub>.
+    Holding current is <italic>I</italic> = &#8722;290 pA. The firing rate of the
+    Purkinje cell (PC) is reduced for intermediary noise amplitude. B. Firing frequency
+    during 1 s noise injection vs. noise amplitude <italic>&#963;</italic> corresponding
+    to the trace in A. Error bars indicate standard deviation. The firing rate is
+    minimal for <italic>&#963;</italic> = 100 pA. C. ISR is observed in all Purkinje
+    cells tested. Summary of optimal noise amplitude &#963; = 152.60 &#177; 64.42
+    pA (n = 19). D. ISR curve of a different PC, generated with a current injection
+    protocol of continuously changing noise amplitude and for a series of holding
+    currents, exploring the full range of the <italic>f-I</italic> curve (E). The
+    firing rate is most reduced when the cell is hyperpolarized to the edge of the
+    <italic>f-I</italic> curve step. The optimal noise amplitude for inhibition of
+    firing is &#963; = 200 pA. E. Frequency vs. current generated with 1 s step current
+    injections. The color code corresponds to the region explored for the ISR curve
+    in D. F. Membrane potential distributions computed from a somatic whole-cell patch-clamp
+    recording from a Purkinje cell during injection of a stimulus current evoking
+    transitions between spiking and silent states (A).</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4991839/PMC4991839/pcbi.1005000.g001.jpg
+  id: pcbi.1005000/pcbi.1005000.g001
+  label: Fig 1
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Experimental
+    characterization of Purkinje cell bistability.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">A. Whole-cell patch-clamp recording
+    from a Purkinje cell, showing a representative hysteresis measurement with slow
+    current ramp injection (0.9 nA/s) ascending (red) and descending (blue), and the
+    resulting PC membrane potential response. B. Instantaneous firing frequency and
+    current for each spike. Linear fits of the ascending ramp (red) and the descending
+    ramp (blue) are averages of 10 trials. C. Characterization of the hysteresis using
+    the difference in frequency between first and last spike &#916;<italic>f</italic>
+    and difference in current &#916;<italic>I</italic>. The color code illustrates
+    the region explored for the ISR curve. Red corresponds to both the hysteresis
+    and the optimal ISR region (<xref ref-type="fig" rid="pcbi.1005000.g001">Fig 1D
+    and 1E</xref>). D. Distribution of hysteresis parameters across the population
+    of recorded Purkinje cells. E. Correlation between the width of the hysteresis
+    range &#916;<italic>I</italic> and the optimal noise level for ISR <italic>&#963;</italic><sub><italic>opt</italic></sub>.
+    Error bars indicate standard deviation, <italic>R</italic><sup>2</sup> = 0.79
+    (n = 19).</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4991839/PMC4991839/pcbi.1005000.g002.jpg
+  id: pcbi.1005000/pcbi.1005000.g002
+  label: Fig 2
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">aEIF
+    model fitting procedure to Purkinje cell experimental data.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">A. Double somatic whole-cell patch-clamp
+    recording from a representative Purkinje cell: one electrode for current injection
+    and one for voltage recording (scale bar, 100 <italic>&#956;</italic> m). B. Traces
+    of injected noise current <italic>I</italic><sub><italic>in</italic></sub>(<italic>t</italic>),
+    recorded membrane potential <italic>V</italic><sub><italic>m</italic></sub>(<italic>t</italic>),
+    in a spontaneously active PC, calculated membrane current <italic>I</italic><sub><italic>m</italic></sub>(<italic>t</italic>),
+    and calculated spike-dependent adaptation current <italic>w</italic><sub><italic>sp</italic></sub>(<italic>t</italic>).
+    C. <italic>I</italic><sub><italic>m</italic></sub> vs. <italic>V</italic><sub><italic>m</italic></sub>
+    and dynamic IV curve as the average over <italic>V</italic><sub><italic>m</italic></sub>.
+    Error bars indicate SEM. Inset, the distribution of data points at <italic>V</italic><sub><italic>m</italic></sub>
+    = -52 mV is Gaussian. D. Fitting the dynamic IV curve F(<italic>V</italic>) =
+    &#8722;<italic>I</italic><sub><italic>dyn</italic></sub>/<italic>C</italic> with
+    the EIF model function. Parameters are: resting potential <italic>E</italic><sub><italic>m</italic></sub>,
+    membrane time constant <italic>&#964;</italic><sub><italic>m</italic></sub>, threshold
+    potential <italic>V</italic><sub><italic>T</italic></sub>, and spike slope factor
+    &#916;<sub><italic>T</italic></sub>. Error bars indicate SD. Inset, capacitance
+    determination by minimizing the variance of <italic>I</italic><sub><italic>m</italic></sub>.
+    E. Spike triggered adaptation <italic>w</italic><sub><italic>sp</italic></sub>(<italic>t</italic>)
+    plotted versus time after the last spike. Error bars indicate SEM. Inset, the
+    distribution of data points at <italic>t</italic> = 12 ms is Gaussian. F. The
+    spike-triggered adaptation is fitted to a single exponential, with time constant
+    <italic>&#964;</italic><sub><italic>w</italic></sub> and <italic>w</italic><sub><italic>sp</italic></sub>
+    (t = 0) = b. Error bars indicate SD.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4991839/PMC4991839/pcbi.1005000.g003.jpg
+  id: pcbi.1005000/pcbi.1005000.g003
+  label: Fig 3
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Hysteresis
+    and ISR of the aEIF model.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">A Voltage response of the aEIF
+    model to Ornstein-Uhlenbeck current noise injection with increasing amplitude.
+    B. Mean firing rate of the aEIF model in response to current noise stimulation
+    with amplitude <italic>&#963;</italic> and mean <italic>I</italic> (color code).
+    C. Hysteresis of the aEIF model. Top, voltage response to ascending (red) and
+    descending (blue) ramp of current. Bottom, instantaneous firing rate vs. instantaneous
+    injected current. Color code is the same as in B. D. Parameter space of the rescaled
+    aEIF model, white region: type I excitability, gray region: type II excitability.
+    The 7 fitted cells are in the type II region. E, F. Dependence of the hysteresis
+    size &#916;<italic>I</italic> on the parameters <italic>T &#964;</italic><sub><italic>w</italic></sub>/<italic>&#964;</italic><sub><italic>m</italic></sub>
+    (E) and <italic>A</italic> = <italic>a</italic>/<italic>g</italic><sub><italic>L</italic></sub>
+    (F). G. Membrane potential distribution in the aEIF model during spiking and silent
+    states.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4991839/PMC4991839/pcbi.1005000.g004.jpg
+  id: pcbi.1005000/pcbi.1005000.g004
+  label: Fig 4
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Bifurcation
+    diagram and phase plane of the aEIF model.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">A. Phase-plane of the model. Gray
+    lines are the null-clines of the model. Drop-like set (black) corresponds to the
+    basin of attraction of a stable fixed point. Red and blue trajectories correspond
+    to rest and spiking respectively (inset). B. Bifurcation diagram of the aEIF model.
+    Solid and thin lines represent stable and unstable fixed points for different
+    values of <italic>I</italic>. Inset shows the intersection of the null-clines
+    before and after the Andronov-Hopf bifurcation (HB) point. Point corresponds to
+    HB. C. Probability of spiking during the stimulation by noise with various means
+    (compare <xref ref-type="fig" rid="pcbi.1005000.g004">Fig 4B</xref>). D, E, F.
+    Phase plane of the model with the corresponding trajectories and voltage traces
+    (inset) when stimulated by Ornstein-Uhlenbeck noise for 1000 ms with mean <italic>I</italic>
+    = &#8722;150 pA and noise amplitudes <italic>&#963;</italic> = 10 pA, 30 pA and
+    60 pA.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4991839/PMC4991839/pcbi.1005000.g005.jpg
+  id: pcbi.1005000/pcbi.1005000.g005
+  label: Fig 5
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">ISR
+    transforms brief inputs into long-term firing states depending on background noise.</title><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">A,
+    B, C. Characteristic voltage traces of the aEIF model in response to a single
+    synaptic excitatory input in the presence of different levels of background noise
+    with amplitude <italic>&#963;</italic> = 10 pA, 30 pA and 60 pA. Bottom, corresponding
+    probability of spiking for a range of input amplitudes (color code). D. Maximal
+    probability of state transition vs. synaptic input amplitude for 3 background
+    noise amplitudes, E. Decay time constant for the duration of the spiking state
+    induced by a synaptic input of 100 pA. Remark: two data points corresponding to
+    <italic>&#963;</italic> = 0 pA, 100 pA are not shown because for <italic>&#963;</italic>
+    = 0 pA the duration of stimulus-induced spiking state is infinite, while for <italic>&#963;</italic>
+    = 100 pA the duration of this state could not be distinguished from the firing
+    baseline.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4991839/PMC4991839/pcbi.1005000.g006.jpg
+  id: pcbi.1005000/pcbi.1005000.g006
+  label: Fig 6
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">ISR
+    leads to local optimum of mutual information between the input and output spike
+    train.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">A,
+    B, C. Voltage traces (top) of the aEIF model in response to series of excitatory
+    synaptic inputs (middle, amplitude Am = 100 pA), in addition to background stimulation
+    by noise with amplitude <italic>&#963;</italic> = 10 pA, 30 pA and 60 pA (bottom).
+    D. Mutual Information (MI) of the input and output spike train of the aEIF model.
+    E. MI as a function of the decay time constant (duration of a spiking state).
+    Remark: two data points corresponding to <italic>&#963;</italic> = 0 pA, 100 pA
+    are not shown (as in <xref ref-type="fig" rid="pcbi.1005000.g006">Fig 6E</xref>).
+    For <italic>&#963;</italic> = 0 pA the duration of the stimulus-induced spiking
+    state is infinite, while for <italic>&#963;</italic> = 100 pA the duration of
+    this state could not be distinguished from the firing baseline.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4991839/PMC4991839/pcbi.1005000.g007.jpg
+  id: pcbi.1005000/pcbi.1005000.g007
+  label: Fig 7

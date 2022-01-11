@@ -1,0 +1,112 @@
+references:
+- label: 'MyungSook Kim, Ted Huang, Ted Abel & Kim T. Blackwell. Temporal sensitivity
+    of protein kinase a activation in late-phase long term potentiation. PLoS Computational
+    Biology 6, 2: e1000691 (2010).'
+  uri: http://identifiers.org/doi:10.1371/journal.pcbi.1000691
+taxa: []
+thumbnails:
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Model
+    of L-LTP induction in hippocampal CA1 pyramidal neurons.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(A) Signaling pathways in model
+    activated by pre-synaptic stimulation. Calcium (from glutamate activation of NMDA
+    receptors) binds to Calmodulin (CaM). Calcium-calmodulin can bind to and activate
+    protein phosphatase 2B (PP2B), adenylyl cyclase types 1 and 8 (AC), phosphodiesterase
+    type 1B (PDE1B), or CaMKII. Gs-coupled receptors, such as dopamine D1 and &#946;-adrenergic
+    receptors, synergistically activate adenylyl cyclase, which produces cAMP, which
+    binds to PKA. Two types of phosphodiesterase (PDE1B and PDE4) degrade cAMP leading
+    to PKA de-activation. Active PKA phosphorylates inhibitor-1 (I1), which then binds
+    to and inhibits protein phosphatase 1 (PP1). CaMKII can autophosphorylate itself,
+    and is dephosphorylated by PP1. (B) Stimulation protocols used for induction of
+    L-LTP in the model. A single Ca<sup>2+</sup> pulse rises instantaneously to an
+    amplitude of 0.7 &#181;M and decays with a time constant of 0.14 sec. Summation
+    of Ca<sup>2+</sup> pulses in the train gives a maximum elevation of Ca<sup>2+</sup>
+    of &#8764;10 &#181;M (top panel). A spaced pattern consisted of four 100 Hz trains
+    (each 1 sec duration and fixed total number of pulses (400)) with an inter-train
+    interval of 300 sec. The massed pattern provides the same four 100 Hz trains,
+    but with an inter-train interval of 3 sec. Time intervals shown are not to scale.
+    (C) Simulated time course of Ca<sup>2+</sup> and dopamine input for a single 1
+    sec train of synaptic input at 100 Hz with the magnitude of 10 &#181;M and 1 &#181;M
+    respectively.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2829045/PMC2829045/pcbi.1000691.g001.jpg
+  id: pcbi.1000691/pcbi-1000691-g001
+  label: Figure 1
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Temporal
+    sensitivity of PKA and CaMKII activation during L-LTP induction.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(A) Activation of PKA by different
+    temporal patterns of stimulation. A1 shows 1400 sec of simulation time and A2
+    shows the first 200 sec to better show the four trains of massed stimulation.
+    Though the peak is 1.4 times greater for massed trains, the cumulative activity
+    of PKA activity is &#8764;60% greater for spaced trains (2321 nM-sec versus 1455
+    nM-sec). (B) The increase in phosphoCaMKII activity (sum of Ca<sub>4</sub>-calmodulin
+    trapped and autonomous forms) is smaller for spaced than massed stimulations.
+    The positive feedback loop is visible in the spaced case, in which increments
+    of phosphorylated CaMKII increase with subsequent trains. (C) Cumulative PKA activity
+    (measured as area under the curve) shows an exponential increase (&#964;&#8202;=&#8202;8.5
+    sec) as inter-train interval is increased. The peak phosphoCaMKII decreases exponentially
+    with temporal interval, exhibiting a frequency sensitivity opposite to that of
+    PKA. The time constant of the decrease, &#964;, is 20.8 sec. The sum of the normalized
+    kinase activity (divided by two for graphical purposes) is constant for inter-train
+    intervals greater than 3 sec, suggesting that the increase in PKA is compensating
+    for a phosphoCaMKII deficit with larger for inter-train intervals.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2829045/PMC2829045/pcbi.1000691.g002.jpg
+  id: pcbi.1000691/pcbi-1000691-g002
+  label: Figure 2
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Experiments
+    to verify that the critical inter-train interval for the PKA-dependence of L-
+    LTP is &#8764;60 sec.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(A)
+    LTP induced using a 80 sec inter-train interval (n&#8202;=&#8202;7) is blocked
+    by KT5720 (<italic>p</italic>&lt;0.05), which demonstrates PKA dependence. (B)
+    In contrast, when using a 40 sec inter-train interval (bottom; n&#8202;=&#8202;7),
+    LTP in KT5720 slices is not different from vehicle control (<italic>p</italic>&gt;0.05),
+    demonstrating PKA independence. In both panels, fEPSPs for KT5720 treated slices
+    are shown with red circles, and vehicle controls with blue circles. (C) Summary
+    of temporal sensitivity of PKA dependence of L-LTP. Data for 3 sec, 20 sec and
+    300 sec are from <xref rid="pcbi.1000691-Woo1" ref-type="bibr">[3]</xref>.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2829045/PMC2829045/pcbi.1000691.g003.jpg
+  id: pcbi.1000691/pcbi-1000691-g003
+  label: Figure 3
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulations
+    were repeated with the dopamine receptor blocked, to evaluate the contribution
+    of dopamine to L-LTP.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Cumulative
+    PKA activity is reduced significantly with both massed and spaced stimulation
+    intervals. The PKA activity with spaced stimulation and dopamine blocked is comparable
+    to PKA activity with massed stimulation and dopamine unblocked. The reduction
+    in PKA activity for the massed stimulation case is not functionally significant
+    because PKA is not needed for L-LTP produced by massed stimulation.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2829045/PMC2829045/pcbi.1000691.g004.jpg
+  id: pcbi.1000691/pcbi-1000691-g004
+  label: Figure 4
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Mechanism
+    underlying sensitivity of PKA activation to different temporal patterns of stimulation.</title><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">In
+    both (A) and (B) the left column (A1, B1) shows 1400 sec of simulation time and
+    the right column (A2, B2) shows the first 180 sec to better show the four tetani
+    of massed stimulation. (A) With massed trains, activation of adenylyl cyclase
+    begins to saturate with the first train, leading to sublinear summation of adenylyl
+    cyclase activity in response to subsequent trains; (B) cAMP concentration exhibits
+    sub-linear summation with massed stimuli; thus less cAMP is produced with massed
+    than with spaced trains. (C) Depletion of adenylyl cyclase and calmodulin contribute
+    to the non-linear summation. Fractions of unbound adenylyl cyclase 1 and calmodulin
+    are much lower for the second stimulus train for massed stimulation (C1), but
+    not for spaced stimulation (C2). Dashed horizontal line allows comparison of unbound
+    calmodulin between first and second train. Dotted horizontal line allows comparison
+    of unbound adenylyl cyclase 1 between first and second train.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2829045/PMC2829045/pcbi.1000691.g005.jpg
+  id: pcbi.1000691/pcbi-1000691-g005
+  label: Figure 5
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
+    increase in PKA activity due to spaced stimulation propagates to downstream targets
+    inhibitor-1 and protein phosphatase 1.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(A) The amount of phosphorylated
+    inhibitor-1 is &#8764;50% higher for spaced than massed stimulation. The initial
+    decrease in phosphorylated inhibitor-1 (below baseline) is due to activation of
+    protein phosphatase 2B. (B) The sharp peaks of protein phosphatase 1 during stimulation
+    are caused by the initial decrease of phosphorylated inhibitor-1. These transient
+    increases are followed by longer periods of decrease in free protein phosphatase
+    1 below basal level, caused by an increase of phosphorylated inhibitor-1. This
+    simulation shows the concentration of protein phosphatase 1 is reduced &#8764;50%
+    more by the spaced stimulation protocol than the massed protocol (in the legend
+    a negative value of area under the curve denotes a decrease in activity).</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2829045/PMC2829045/pcbi.1000691.g006.jpg
+  id: pcbi.1000691/pcbi-1000691-g006
+  label: Figure 6

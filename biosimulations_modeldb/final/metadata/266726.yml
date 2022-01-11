@@ -1,0 +1,221 @@
+references:
+- label: 'Ping-Chung Kuo, Zi-Han Kao, Shih-Wei Lee & Sheng-Nan Wu. Effects of Sesamin,
+    the Major Furofuran Lignan of Sesame Oil, on the Amplitude and Gating of Voltage-Gated
+    Na<sup>+</sup> and K<sup>+</sup> Currents. Molecules 25, 13: 3062 (2020).'
+  uri: http://identifiers.org/doi:10.3390/molecules25133062
+taxa: []
+thumbnails:
+- caption: <p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Effect
+    of sesamine (SSM) on voltage-gated Na<sup>+</sup> currents (<italic>I</italic><sub>Na</sub>)
+    in pituitary GH<sub>3</sub> cells. The whole-cell recordings were undertaken in
+    cells bathed in Ca<sup>2+</sup>-free Tyrode&#8217;s solution containing 10 mM
+    tetraethylammonium chloride (TEA) and the patch pipette was filled with K<sup>+</sup>-containing
+    solution. (<bold>A</bold>) Representative <italic>I</italic><sub>Na</sub> traces
+    obtained in the absence (a) and presence of 3 &#956;M SSM (b) or 10 &#956;M SSM
+    (c). Inset shows the voltage-clamp profile applied. (<bold>B</bold>) Concentration-dependent
+    effects of SSM on the peak and sustained components of <italic>I</italic><sub>Na</sub>.
+    <italic>I</italic><sub>Na</sub> was evoked by abrupt depolarization from &#8722;80
+    to &#8722;10 mV. Current amplitudes obtained during cell exposure to different
+    concentrations (0.1&#8211;100 &#956;M) of SSM were measured at the beginning (&#9675;,
+    peak <italic>I</italic><sub>Na</sub>) and end (&#9632;, sustained <italic>I</italic><sub>Na</sub>),
+    evoked by depolarizing voltage. Each point presented in the figure depicts the
+    mean &#177; standard error of the mean (SEM, n = 9&#8211;12). The values of IC<sub>50</sub>
+    and n<sub>H</sub> for SSM-induced inhibition of sustained <italic>I</italic><sub>Na</sub>
+    were calculated to be 0.6 &#956;M and 1.2, respectively, whereas those for peak
+    <italic>I</italic><sub>Na</sub> were 7.2 &#956;M and 1.2, respectively. The vertical
+    dashed line indicates the IC<sub>50</sub> value required for SSM-perturbed inhibition
+    of peak or sustained <italic>I</italic><sub>Na</sub> amplitude. Of note, the SSM
+    addition is capable of differentially and concentration-dependently decreasing
+    the amplitude of peak and sustained <italic>I</italic><sub>Na</sub> in GH<sub>3</sub>
+    cells, without any modifications to the Hill coefficient of the curve. (<bold>C</bold>)
+    Time-dependent block of <italic>I</italic><sub>Na</sub> inactivation caused by
+    SSM in GH<sub>3</sub> cells. The reciprocal of the time constant of the rate of
+    block (i.e., &#964;<sub>inact(S)</sub><sup>&#8722;1</sup>) achieved by exponential
+    fits of the slow component of <italic>I</italic><sub>Na</sub> inactivation (&#964;<sub>inact(S)</sub>)
+    was constructed and plotted against the different concentrations of SSM applied.
+    Data points were well fitted to a linear regression, reflecting that SSM-perturbed
+    blocking occurs with a molecularity of 1. (<bold>D</bold>) Average <italic>I-V</italic>
+    relationship of peak <italic>I</italic><sub>Na</sub> achieved in the absence (&#9632;)
+    and presence (&#9675;) of 3 &#956;M SSM (mean &#177; SEM; n = 8 for each point).
+    Of note, no conceivable modification in the overall <italic>I-V</italic> relationship
+    of peak <italic>I</italic><sub>Na</sub> in the absence and presence of SSM was
+    demonstrated in GH<sub>3</sub> cells. The statistical analyses were made by ANOVA-2
+    for repeated measures, <italic>P</italic>(factor 1) &lt; 0.05, <italic>P</italic>(factor
+    2) &lt; 0.05, <italic>P</italic>(interaction) &lt; 0.05, followed by Duncan&#8217;s
+    post hoc test, <italic>P</italic> &lt; 0.05. * Significantly different from controls
+    measured at the same level of membrane potential (<italic>P</italic> &lt; 0.05).</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC7411736/PMC7411736/molecules-25-03062-g001.jpg
+  id: molecules-25-03062/molecules-25-03062-f001
+  label: Figure 1
+- caption: '<p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Comparison
+    among the effects of SSM, SesA, SSM plus tefluthrin (Tef), and SSM plus telmisartan
+    (Tel) on the peak amplitude of <italic>I</italic><sub>Na</sub>. Experiments were
+    conducted to measure the <italic>I</italic><sub>Na</sub> in cells which were immersed
+    in Ca<sup>2+</sup> Tyrode&#8217;s solution, and once the whole-cell configuration
+    was achieved, cells were rapidly depolarized to &#8722;10 mV from a holding potential
+    of &#8722;80 mV. Current amplitude was measured at the start of a brief depolarizing
+    pulse. (<bold>A</bold>) Representative <italic>I</italic><sub>Na</sub> traces
+    obtained in the control (a, both sides), during cell exposure to 3 &#956;M SSM
+    (b, both sides), and then to 3 &#956;M SSM plus 10 &#956;M tefluthrin (left side)
+    or 3 &#956;M SSM plus 10 &#956;M telmisartan (right side). The upper part denotes
+    the voltage protocol applied. In (<bold>B</bold>), each bar represents the mean
+    &#177; SEM (n = 9). The statistical analyses were done by ANOVA-1, <italic>P</italic>
+    &lt; 0.05, followed by Duncan&#8217;s post hoc test, <italic>P</italic> &lt; 0.05.
+    Tef: tefluthrin; Tel: telmisartan. * Significantly different from control (<italic>P</italic>
+    &lt; 0.05) and <sup>&#8224;</sup> significantly different from the SSM (3 &#956;M)
+    alone group (<italic>P</italic> &lt; 0.05).</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC7411736/PMC7411736/molecules-25-03062-g002.jpg
+  id: molecules-25-03062/molecules-25-03062-f002
+  label: Figure 2
+- caption: <p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Concentration-dependent
+    inhibition of peak and sustained <italic>I</italic><sub>Na</sub> by sesamolin
+    (SesA) in GH<sub>3</sub> cells. (<bold>A</bold>) Representative <italic>I</italic><sub>Na</sub>
+    traces obtained in the control (a), during cell exposure to 3 &#956;M SesA (b)
+    or 10 &#956;M SesA and washout of the compound (d). In (<bold>B</bold>), the relations
+    between the percentage inhibition of the peak and sustained components of <italic>I</italic><sub>Na</sub>
+    in response to brief depolarizing pulse are illustrated. Current amplitudes measured
+    at the beginning or end of a depolarizing step from &#8722;80 to &#8722;10 mV
+    in the absence or presence of different SesA concentrations were compared with
+    the control values. The continuous lines overlaid were reasonably fitted by a
+    modified Hill function (see text for details). The IC<sub>50</sub> values (indicated
+    by the vertical dashed line) needed for the inhibition of the peak (&#9675;) or
+    sustained (&#9632;) <italic>I</italic><sub>Na</sub> in the presence of SesA were
+    9.8 and 2.5 &#956;M, respectively.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC7411736/PMC7411736/molecules-25-03062-g003.jpg
+  id: molecules-25-03062/molecules-25-03062-f003
+  label: Figure 3
+- caption: '<p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Inhibitory
+    effect of SSM on resurgent <italic>I</italic><sub>Na</sub> (<italic>I</italic><sub>Na(R)</sub>)
+    recorded from GH<sub>3</sub> cells. (<bold>A</bold>) Representative <italic>I</italic><sub>Na(R)</sub>
+    achieved when the examined cell was depolarized from &#8722;80 to +20 mV for 40
+    msec, then repolarized to various potentials ranging between &#8722;50 and 0 mV.
+    a: control; b: 1 &#956;M SSM. (<bold>B</bold>) Average <italic>I&#8211;V</italic>
+    relationship of <italic>I</italic><sub>Na(R)</sub> attained in the control (&#9632;)
+    or during cell exposure to 1 &#956;M SSM (&#9675;) (mean &#177; SEM; n = 8 for
+    each point). Of note, the overall <italic>I&#8211;V</italic> relationship of <italic>I</italic><sub>Na(R)</sub>
+    remains unaltered in the presence of SSM, though this agent is able to decrease
+    the amplitude of <italic>I</italic><sub>Na(R)</sub>. Data analyses were done by
+    ANOVA-2 for repeated measures, <italic>P</italic>(factor 1) &lt; 0.05, <italic>P</italic>(factor
+    2) &lt; 0.05, <italic>P</italic>(interaction) &lt; 0.05, followed by Duncan&#8217;s
+    post hoc test, <italic>P</italic> &lt; 0.05. * Significantly different from controls
+    measured at the same level of membrane potential (<italic>P</italic> &lt; 0.05).</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC7411736/PMC7411736/molecules-25-03062-g004.jpg
+  id: molecules-25-03062/molecules-25-03062-f004
+  label: Figure 4
+- caption: '<p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Inhibitory
+    effect of SSM on M-type K<sup>+</sup> currents (<italic>I</italic><sub>K(M)</sub>)
+    in GH<sub>3</sub> cells. In these whole-cell experiments, we bathed cells in high-K<sup>+</sup>,
+    Ca<sup>2+</sup>-free solution and the electrode was filled with K<sup>+</sup>-containing
+    solution. (<bold>A</bold>) Original <italic>I</italic><sub>K(M)</sub> traces elicited
+    by membrane depolarization from &#8722;50 to &#8722;10 mV (as indicated in the
+    upper part). a: control; b: 1 &#956;M SSM; c: 3 &#956;M SSM. (<bold>B</bold>)
+    Concentration&#8211;response relationship for the SSM-perturbed inhibition of
+    <italic>I</italic><sub>K(M)</sub> amplitude (mean &#177; SEM; n = 8&#8211;9 for
+    each point). Each cell was voltage clamped at &#8722;50 mV and was thereafter
+    depolarized from &#8722;50 to &#8722;10 mV with a duration of 1 sec, and current
+    amplitudes in different concentrations of SSM were obtained at the end of the
+    depolarizing pulse delivered. The continuous line shows the best fit to the modified
+    Hill equation, while the vertical dashed line indicates the IC<sub>50</sub> value.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC7411736/PMC7411736/molecules-25-03062-g005.jpg
+  id: molecules-25-03062/molecules-25-03062-f005
+  label: Figure 5
+- caption: <p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Inhibitory
+    effect of SSM on <italic>erg</italic>-mediated K<sup>+</sup> currents (<italic>I</italic><sub>K(erg)</sub>)
+    in GH<sub>3</sub> cells. Cells were immersed in high-K<sup>+</sup>, Ca<sup>2+</sup>-free
+    solution and the recording pipette was filled up with K<sup>+</sup>-containing
+    solution. (<bold>A</bold>) Representative <italic>I</italic><sub>K(erg)</sub>
+    traces obtained in the control (a, SSM was not present) or during the exposure
+    to 30 &#956;M SSM. The inset in the upper part shows the voltage protocol delivered.
+    (<bold>B</bold>) Average <italic>I&#8211;V</italic> relationship of <italic>I</italic><sub>K(erg)</sub>
+    obtained without (&#9632;) or with (&#9675;) the addition of 30 &#956;M SSM (mean
+    &#177; SEM; n = 9 for each point). Each <italic>I</italic><sub>K(erg)</sub> amplitude
+    was measured at the beginning of a 1-sec hyperpolarization from &#8722;10 mV to
+    various voltages ranging between &#8722;100 and &#8722;10 mV in 10-mV increments.
+    Data analyses were done by ANOVA-2 for repeated measures, <italic>P</italic>(factor
+    1) &lt; 0.05, <italic>P</italic>(factor 2) &lt; 0.05, <italic>P</italic>(interaction)
+    &lt; 0.05, followed by Duncan&#8217;s post hoc test, <italic>P</italic> &lt; 0.05.
+    * Significantly different from controls measured at the same level of membrane
+    potential (<italic>P</italic> &lt; 0.05).</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC7411736/PMC7411736/molecules-25-03062-g006.jpg
+  id: molecules-25-03062/molecules-25-03062-f006
+  label: Figure 6
+- caption: <p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Inhibitory
+    effect of SSM on delayed rectifier K<sup>+</sup> currents (<italic>I</italic><sub>K(DR)</sub>)
+    in GH<sub>3</sub> cells. The experiments were undertaken in cells bathed in Ca<sup>2+</sup>-free
+    Tyrode&#8217;s solution containing 1 &#956;M TTX, and the recording electrode
+    was filled with K<sup>+</sup>-containing solution. (<bold>A</bold>) Representative
+    <italic>I</italic><sub>K(DR)</sub> traces obtained in the control (a) and during
+    the exposure to 10 &#956;M SSM. The voltage profile used is illustrated in the
+    inset of the upper part. (<bold>B</bold>) Average <italic>I&#8211;V</italic> relationship
+    of <italic>I</italic><sub>K(DR)</sub> taken in the absence (&#9632;) or presence
+    (&#9675;) or 10 &#956;M SSM (mean &#177; SEM; n = 8 for each point). Current amplitudes
+    were measured at the end of each depolarizing pulse. * Significantly different
+    from controls measured at the same level of membrane potential (<italic>P</italic>
+    &lt; 0.05).</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC7411736/PMC7411736/molecules-25-03062-g007.jpg
+  id: molecules-25-03062/molecules-25-03062-f007
+  label: Figure 7
+- caption: <p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Failure
+    of SSM to modify hyperpolarization-activated cation currents (<italic>I</italic><sub>h</sub>)
+    identified in GH<sub>3</sub> cells. In this set of whole-cell current recordings,
+    we immersed cells in Ca<sup>2+</sup>-free Tyrode&#8217;s solution and filled up
+    the electrode by using K<sup>+</sup>-containing solution. (<bold>A</bold>) Representative
+    <italic>I</italic><sub>h</sub> traces obtained in the absence (a) and the presence
+    of 10 &#956;M SSM (b) or 10 &#956;M SSM plus 3 &#956;M cilobradine (c). The upper
+    part shows the voltage protocol applied. (<bold>B</bold>) Bar graph showing the
+    effect of SSM and SSM plus cilobradine (CIL) on the <italic>I</italic><sub>h</sub>
+    amplitude in GH<sub>3</sub> cells (mean &#177; SEM; n = 9 for each bar). The examined
+    cell was 1-sec hyperpolarized from &#8722;40 to &#8722;110 mV and the current
+    amplitude was taken at the end of the hyperpolarizing command step. Data analysis
+    was done by ANOVA-1. * Significantly different from control or SSM (10 &#956;M)
+    alone (<italic>P</italic> &lt; 0.05) and <sup>&#8224;</sup> significantly different
+    from the SSM (10 &#956;M) plus cilobradine (3 &#956;M) group (<italic>P</italic>
+    &lt; 0.05).</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC7411736/PMC7411736/molecules-25-03062-g008.jpg
+  id: molecules-25-03062/molecules-25-03062-f008
+  label: Figure 8
+- caption: '<p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Numerical
+    simulations of the SSM-mediated inhibition of voltage-gated Na<sup>+</sup> currents
+    (<italic>I</italic><sub>Na</sub>). The state diagram of a Markovian model for
+    the Na<sub>V</sub> channel (i.e., <italic>SCN8A</italic> channel) depicted in
+    (<bold>A</bold>) was adopted from a recent study [<xref rid="B42-molecules-25-03062"
+    ref-type="bibr">42</xref>]. The solutions to the ordinary differential equations
+    in the current study were implemented in the XPP software package, and the default
+    values for detailed numerical parameters are identical to those demonstrated previously
+    [<xref rid="B42-molecules-25-03062" ref-type="bibr">42</xref>], except that the
+    values of &#949; (i.e., voltage-independent transition rate from the open to blocked
+    state) and maximal conductance of <italic>I</italic><sub>Na</sub> in the control
+    (i.e., SSM was not present) were arbitrarily assigned to be 0.3 msec<sup>&#8722;1</sup>
+    and 3.6 nS, respectively. In (<bold>A</bold>), C: closed state; O: open state;
+    OB: blocked state; I: inactivated state. Oon and Ooff represent the on and off
+    transition rates for the normal inactivation of Na<sub>V</sub> channels from the
+    open (O) state, respectively, and are independent of voltage, while Con and Coff
+    are the on and off rates for normal inactivation from the C1&#8211;C5 states and
+    is also independent of voltage. a = (Oon/Con)<sup>1/4</sup> and b = (Ooff/Coff)<sup>1/4</sup>.
+    In (<bold>B</bold>), the model cell was abruptly depolarized from &#8722;80 to
+    &#8722;10 mV, then repolarized to -50 mV (as indicated in the inset). When the
+    value of Oon was raised to 3.5 msec<sup>&#8722;1</sup> (b) or 4.6 msec<sup>&#8722;1</sup>
+    (c) from a control value of 2.3 msec<sup>&#8722;1</sup> (a), and the value of
+    maximal conductance was simultaneously reduced to 2.7 nS (b) or 1.8 nS (c) from
+    a control value of 3.6 nS (a), there was a noticeable reduction in the peak amplitude
+    of simulated <italic>I</italic><sub>Na</sub> in combination with the slowed inactivation
+    time constant of the current. Trace (a) is the control, and those labeled (b)
+    and (c) were created to mimic the inhibitory effect of 0.3 and 1 &#956;M SSM on
+    <italic>I</italic><sub>Na</sub> in response to brief depolarization, respectively.
+    (<bold>C</bold>) State probability of simulated Na<sub>V</sub> channel. The blue
+    continuous and red dashed lines indicated in each panel denote the occupancy probability
+    of the open (O) or blocked (OB) state of the Na<sub>V</sub> channel existing in
+    (<bold>A</bold>), respectively. Noticeably, OB entered by the second mechanism
+    of inactivation, which denotes that the channel is probably not blocked. Panels
+    (Ca), (Cb), and (Cc) were achieved in the control (i.e., SSM was not present),
+    and in the presence of 0.3 and 1 &#956;M SSM. Of note, in the presence of SSM,
+    the probability of the blocked (OB) state of the channel was suppressed to a greater
+    extent than that in the open (O) state.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC7411736/PMC7411736/molecules-25-03062-g009.jpg
+  id: molecules-25-03062/molecules-25-03062-f009
+  label: Figure 9
+- caption: <p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simple
+    scheme for simulation of the <italic>SCN8A</italic>-encoded channel</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC7411736/PMC7411736/molecules-25-03062-sch001.jpg
+  id: molecules-25-03062/molecules-25-03062-sch001
+  label: Scheme 1

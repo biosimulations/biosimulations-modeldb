@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/62661.omex">
+    <dc:title>Markovian model for cardiac sodium channel (Clancy, Rudy 2002)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62661.omex">
+    <dc:abstract>Complex physiological interactions determine the functional consequences of gene abnormalities and make mechanistic interpretation of phenotypes extremely difficult. A recent example is a single mutation in the C terminus of the cardiac Na(+) channel, 1795insD. The mutation causes two distinct clinical syndromes, long QT (LQT) and Brugada, leading to life-threatening cardiac arrhythmias. Coexistence of these syndromes is seemingly paradoxical; LQT is associated with enhanced Na(+) channel function, and Brugada with reduced function.  Using a computational approach, we demonstrate that the 1795insD mutation exerts variable effects depending on the myocardial substrate. We develop Markov models of the wild-type and 1795insD cardiac Na(+) channels.  See reference for more and details. The model files were submitted by: Dr. Jiun-Shian Wu, Dr. Sheng-Nan Wu, Dr. Ruey J. Sung, Han-Dong Chang.</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3540">http://modeldb.science/ModelList?id=3540</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Channel/Receptor</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62661.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Heart cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62661.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=2395">http://modeldb.science/ModelList?id=2395</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>I Sodium</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62661.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3631">http://modeldb.science/ModelList?id=3631</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>Ion Channel Kinetics</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62661.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=52404">http://modeldb.science/ModelList?id=52404</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>Pathophysiology</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62661.omex">
+    <bqbiol:encodes rdf:resource="local:00005">local:00005</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=52407">http://modeldb.science/ModelList?id=52407</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>Heart disease</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62661.omex">
+    <bqbiol:encodes rdf:resource="local:00006">local:00006</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=88213">http://modeldb.science/ModelList?id=88213</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>Brugada</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62661.omex">
+    <bqbiol:encodes rdf:resource="local:00007">local:00007</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=88214">http://modeldb.science/ModelList?id=88214</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>Long-QT</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62661.omex">
+    <bqbiol:encodes rdf:resource="local:00008">local:00008</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=238957">http://modeldb.science/ModelList?id=238957</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>Markov-type model</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62661.omex">
+    <bqbiol:encodes rdf:resource="local:00009">local:00009</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <dc:identifier rdf:resource="mailto:snwu@mail.ncku.edu.tw">mailto:snwu@mail.ncku.edu.tw</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <rdfs:label>Sheng-Nan Wu</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <foaf:accountName rdf:resource="mailto:snwu@mail.ncku.edu.tw">mailto:snwu@mail.ncku.edu.tw</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <foaf:name>Sheng-Nan Wu</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62661.omex">
+    <dc:creator rdf:resource="local:00010">local:00010</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <rdfs:label>Han-Dong Chang</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <foaf:name>Han-Dong Chang</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62661.omex">
+    <dc:creator rdf:resource="local:00011">local:00011</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <dc:identifier rdf:resource="mailto:coolneon@gmail.com">mailto:coolneon@gmail.com</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <rdfs:label>Jiun-Shian Wu</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <foaf:accountName rdf:resource="mailto:coolneon@gmail.com">mailto:coolneon@gmail.com</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <foaf:name>Jiun-Shian Wu</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62661.omex">
+    <dc:creator rdf:resource="local:00012">local:00012</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <rdfs:label>Ruey J  Sung</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <foaf:name>Ruey J  Sung</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62661.omex">
+    <dc:creator rdf:resource="local:00013">local:00013</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62661.omex">
+    <dc:contributor rdf:resource="local:00014">local:00014</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62661.omex">
+    <dc:contributor rdf:resource="local:00015">local:00015</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:62661">https://identifiers.org/modeldb:62661</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <rdfs:label>modeldb:62661</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62661.omex">
+    <bqmodel:is rdf:resource="local:00016">local:00016</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1161/hc1002.105183">http://identifiers.org/doi:10.1161/hc1002.105183</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <rdfs:label>Colleen E. Clancy &amp; Yoram Rudy. Na(+) channel mutation that causes both Brugada and long-QT syndrome phenotypes: a simulation study of mechanism. Circulation 105, 10: 1208-1213 (2002).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62661.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00017">local:00017</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62661.omex">
+    <dc:created>2006-01-11</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62661.omex">
+    <dc:modified>2018-02-26</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,166 @@
+references:
+- label: "Cengiz G\xFCnay, Fred H. Sieling, Logesh Dharmar, Wei-Hsiang Lin, Verena\
+    \ Wolfram, Richard Marley, Richard A. Baines & Astrid A. Prinz. Distal spike initiation\
+    \ zone location estimation by morphological simulation of ionic current filtering\
+    \ demonstrated in a novel model of an identified Drosophila motoneuron. PLOS Computational\
+    \ Biology 11, 5: e1004189 (2015)."
+  uri: http://identifiers.org/doi:10.1371/journal.pcbi.1004189
+taxa:
+- label: Drosophila
+  uri: http://identifiers.org/taxonomy:7215
+thumbnails:
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Ionic
+    currents modeled from identified larval aCC motoneurons.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) Simulated voltage
+    clamp Na<sup>+</sup> current to replicate previously published responses by [<xref
+    rid="pcbi.1004189.ref066" ref-type="bibr">66</xref>] recorded in cultured <italic>Drosophila</italic>
+    motoneurons. (<bold>B</bold>) Isolated Na<sup>+</sup> current recorded under voltage
+    clamp from a 3rd instar aCC motoneuron was slower with large onset delays caused
+    by poor space clamp. (<bold>C</bold>) Persistent Na<sup>+</sup> current (NaP)
+    estimated from response to voltage ramp applied to a <italic>Xenopus</italic>
+    oocyte, after subtracting endogenous current (see <xref ref-type="sec" rid="sec014">Methods</xref>).
+    (<bold>D</bold>) Slow (Ks) and fast (Kf) K<sup>+</sup> currents modeled from voltage
+    clamp recordings, simulated as a single cumulative trace (smooth lines). Together
+    they were simulated with two voltage clamp protocols shown superimposed, one with
+    a preholding voltage at &#8722;10 mV (purple) to inactivate the fast component
+    and another one preholding at &#8722;90 mV (light blue). (<bold>E</bold>) Voltage
+    clamp recordings in presence of Cd<sup>2+</sup> for measuring K<sup>+</sup> channel
+    inactivation by using a 500 ms varying-level preholding voltage. Peak current
+    plotted in the inset shows voltage-dependence of inactivation. (<bold>F</bold>)
+    Summary of modeled currents (also see <xref rid="pcbi.1004189.t005" ref-type="table">Table
+    5</xref>.); voltage dependence of time constants and the gates of activation (m)
+    and inactivation (h). The Kf current model also included a second, slow inactivation
+    with a time constant of 135 ms (not shown).</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4433181/PMC4433181/pcbi.1004189.g001.jpg
+  id: pcbi.1004189/pcbi.1004189.g001
+  label: Fig 1
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Isopotential
+    and two-compartment models compared to recordings.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) Third instar aCC
+    motoneuron recording (i.) in presence of 0.2 mM Cd<sup>+2</sup> to block Ca<sup>+2</sup>
+    channels missing from models. Voltage response to three current injection levels.
+    Isopotential (ii.) and two-compartment (iii.) models&#8217; voltage responses
+    to same current injection. (<bold>B</bold>) Recorded and simulated firing responses
+    to current injection were similar. Firing rate was calculated as the inverse of
+    mean interspike interval (ISI). iso-model: isopotential model; 2c-model: two-compartment
+    model. (<bold>C</bold>) Models also approximated aCC motoneuron delay to first
+    spike in response to current injection. (<bold>D</bold>) The firing rate-membrane
+    voltage (f-V) response of only the two-compartment model qualitatively mimicked
+    the inter-spike voltage depolarizations that appeared for high firing rates.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4433181/PMC4433181/pcbi.1004189.g002.jpg
+  id: pcbi.1004189/pcbi.1004189.g002
+  label: Fig 2
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Morphological
+    reconstruction of the 3rd instar aCC motoneuron.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) Schematic muscle
+    projections of aCC motoneurons based on their location in the nerve cord segment.
+    (<bold>B</bold>) Stack of microscope images was reconstructed using Amira software
+    (Visage Imaging GmbH, Berlin, Germany) and then imported into the Neuron simulator
+    [<xref rid="pcbi.1004189.ref072" ref-type="bibr">72</xref>]. The rightmost schema
+    indicates the major morphological components in an idealized depiction. &#8220;ext.
+    axon&#8221; indicates the missing extended axon from the reconstruction (not drawn
+    to scale). (<bold>C</bold>) Equivalent circuit of the measured passive properties
+    including an electrode model for voltage clamp. (<bold>D</bold>) Passive response
+    to voltage-clamp step to &#8722;90 mV from a holding potential of &#8722;60 mV
+    is simulated in Neuron with the fitted parameters (see <xref rid="pcbi.1004189.t002"
+    ref-type="table">Table 2</xref>).</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4433181/PMC4433181/pcbi.1004189.g003.jpg
+  id: pcbi.1004189/pcbi.1004189.g003
+  label: Fig 3
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulations
+    of the passive morphology showed its compactness and filtering properties.</title><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>)
+    Simulation setup for the ipsilateral dendritic field of the reconstructed morphology
+    (thick line is the primary neurite), where a 50 pA current clamp (CC) stimulus
+    was applied at the model electrode compartment. (<bold>B</bold>) Voltage across
+    model morphology locations marked in panel <bold>A</bold> in response to the current
+    stimulus. (<bold>C</bold>) Electrotonic structure of the morphology compared at
+    different stimulus frequencies. Lambda scale bar shows one length constant, at
+    which voltage changes to about 37% of its initial value. For a step input (0 Hz),
+    the length constant was several times larger than the arbor size, meaning voltages
+    will travel across the arbor unimpeded. At a higher input frequency of 100 Hz,
+    the span across the morphology was larger than one electrotonic length. (<bold>D</bold>)
+    Ionic-like currents were simulated on the passive morphology by varying current
+    injection location and responses were recorded holding the soma in voltage clamp
+    at -60 mV. (<bold>E</bold>) Voltage clamp current evoked in response to exponentially
+    decaying stimulus of 2 nA magnitude and 2 ms time constant injected at six locations
+    in panel <bold>A</bold> starting at the electrode, and numbered in aquamarine
+    as they went distally. (<bold>F</bold>) When same stimulus is injected at middle
+    of compartment axon (prox), compartments far from the electrode escaped from the
+    voltage clamp to various degrees. (<bold>G</bold>) By varying the time-constant
+    of the same exponentially decaying stimulus applied to a fixed location axon (prox)
+    in simulated morphology, we showed that the membrane response is filtered dependent
+    on frequency. Dashed gray line shows the fastest (<italic>&#964;</italic> = 0.3
+    ms) current stimulus applied distally.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4433181/PMC4433181/pcbi.1004189.g004.jpg
+  id: pcbi.1004189/pcbi.1004189.g004
+  label: Fig 4
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulated
+    and observed evidence for delayed rectifier Ks channel activity and distribution.</title><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>)
+    Simulating voltage clamp (VC) to 0 mV at the soma and observing voltage distribution
+    over the morphology reflected effects of different Ks channel distributions, whose
+    locations were indicated with red on the schematic in the insets. <bold>i</bold>.
+    When a large Ks channel density of <italic>G</italic>
+
+    <sub>Ks</sub> = 30 mS/cm<sup>2</sup> was applied uniformly to the cell (total
+    <italic>g</italic>
+
+    <sub>Ks</sub> &#8771; 1<italic>&#956;</italic>S, slightly larger than the two-compartment
+    model total <italic>g</italic>
+
+    <sub>Ks</sub> = 700 <italic>nS</italic>), VC affected only the soma. <bold>ii</bold>.
+    The voltage could spread through the rest of the cell only when Ks density was
+    reduced by three orders of magnitude, to <italic>G</italic>
+
+    <sub>Ks</sub> = 30 &#956;S/cm<sup>2</sup> (total <italic>g</italic>
+
+    <sub>Ks</sub> &#8771; 1 nS). <bold>iii</bold>. Expression of an even higher density
+    of <italic>G</italic>
+
+    <sub>Ks</sub> = 90 mS/cm<sup>2</sup> in only the most distal 8 main neurite compartments
+    (over an area of 43.37 &#956;m<sup>2</sup>, giving a total <italic>g</italic>
+
+    <sub>Ks</sub> = 390.33 nS), while keeping the Ks level in the rest of the cell
+    same as in Panel <bold>ii</bold>, confined voltage clamp to the soma and contralateral
+    neurites. (<bold>B</bold>) Current clamp recordings, in the presence of Cd<sup>2+</sup>
+    as before, hinted at low somatic Ks density in example larval motoneurons. Mean
+    and standard error of voltage change with input current (I-V curve) between aCC
+    and RP2 motoneurons were similar (top). Slopes of the individual data points in
+    the I-V curves (showing input conductance) were also similar (bottom; using markers
+    instead of lines). The input conductance at the soma only increased by about 1
+    nS in the presumed Ks activation voltage range.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4433181/PMC4433181/pcbi.1004189.g005.jpg
+  id: pcbi.1004189/pcbi.1004189.g005
+  label: Fig 5
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Different
+    distributions of NaT/Ks channels on the constructed morphology predicted SIZ location
+    that can reproduce firing activity characteristics.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>-<bold>C</bold>)
+    Skeletal model reconstructions showing high density of NaT/Ks channels in red.
+    (<bold>D</bold>) Axon extension with NaT/Ks channels placed on the distal segment.
+    (<bold>F</bold>-<bold>I</bold>) Simulated responses to the three-step current
+    clamp of each model corresponding to channel distributions in panels A-D. (<bold>E</bold>,
+    <bold>J</bold>) Morphology and recorded responses of aCC to same input current
+    levels, repeated from <xref ref-type="fig" rid="pcbi.1004189.g002">Fig 2Ai</xref>
+    for comparison. Change of voltage offset (<bold>K</bold>) and spike amplitude
+    (<bold>L</bold>) with current injection compared between the NaT/Ks placements
+    in (<bold>A</bold>-<bold>D</bold>) and the biological recording (aCC w/ Cd<sup>2+</sup>).</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4433181/PMC4433181/pcbi.1004189.g006.jpg
+  id: pcbi.1004189/pcbi.1004189.g006
+  label: Fig 6
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">NaT
+    sodium current component was filtered more than NaP in the simulated morphology.</title><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>)
+    Total axial sodium currents (top) recorded at several color-coded locations on
+    the main neurite (axon) in response to voltage clamp. Voltage traces of the selected
+    locations (bottom) showed that the quality of voltage clamp weakens distally.
+    Model NaP (<bold>B</bold>) and NaT (<bold>C</bold>) current components recorded
+    where they originated in the extended axon SIZ segment for in the original model
+    (black), in models where the NaT (green) or NaP (blue) component was increased
+    5-fold. (<bold>D</bold>) Clamp currents recorded at the soma for the same three
+    conditions and in a model where the SIZ was 20 &#956;m closer to the soma (50
+    &#956;m).</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4433181/PMC4433181/pcbi.1004189.g007.jpg
+  id: pcbi.1004189/pcbi.1004189.g007
+  label: Fig 7

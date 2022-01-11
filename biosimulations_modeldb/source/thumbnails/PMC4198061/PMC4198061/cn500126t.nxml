@@ -1,0 +1,790 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="EN"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">ACS Chem Neurosci</journal-id><journal-id journal-id-type="iso-abbrev">ACS Chem Neurosci</journal-id><journal-id journal-id-type="publisher-id">cn</journal-id><journal-id journal-id-type="coden">acncdm</journal-id><journal-title-group><journal-title>ACS Chemical Neuroscience</journal-title></journal-title-group><issn pub-type="ppub">1948-7193</issn><issn pub-type="epub">1948-7193</issn><publisher><publisher-name>American Chemical
+Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">25147933</article-id><article-id pub-id-type="pmc">4198061</article-id><article-id pub-id-type="doi">10.1021/cn500126t</article-id><article-categories><subj-group><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Understanding the Role &#x003b1;7 Nicotinic Receptors
+Play in Dopamine Efflux in Nucleus Accumbens</article-title></title-group><contrib-group><contrib contrib-type="author" corresp="yes" id="ath1"><name><surname>Maex</surname><given-names>Reinoud</given-names></name><xref rid="cor1" ref-type="other">*</xref><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath2"><name><surname>Grinevich</surname><given-names>Vladimir
+P.</given-names></name><xref rid="aff2" ref-type="aff">&#x02021;</xref><xref rid="aff3" ref-type="aff">&#x000a7;</xref></contrib><contrib contrib-type="author" id="ath3"><name><surname>Grinevich</surname><given-names>Valentina</given-names></name><xref rid="aff3" ref-type="aff">&#x000a7;</xref></contrib><contrib contrib-type="author" id="ath4"><name><surname>Budygin</surname><given-names>Evgeny</given-names></name><xref rid="aff3" ref-type="aff">&#x000a7;</xref><xref rid="aff4" ref-type="aff">||</xref></contrib><contrib contrib-type="author" id="ath5"><name><surname>Bencherif</surname><given-names>Merouane</given-names></name><xref rid="aff2" ref-type="aff">&#x02021;</xref></contrib><contrib contrib-type="author" id="ath6"><name><surname>Gutkin</surname><given-names>Boris</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="aff5" ref-type="aff">&#x022a5;</xref></contrib><aff id="aff1"><label>&#x02020;</label>Department
+of Cognitive Sciences, <institution>&#x000c9;cole Normale
+Sup&#x000e9;rieure</institution>, Paris 75005, <country>France</country></aff><aff id="aff2"><label>&#x02021;</label><institution>Targacept
+Inc.</institution>, Winston-Salem, North Carolina 27101, <country>United States</country></aff><aff id="aff3"><label>&#x000a7;</label><institution>Wake
+Forest School of Medicine</institution>, Winston-Salem, North Carolina 27157, <country>United States</country></aff><aff id="aff4"><label>||</label><institution>St. Petersburg
+State University</institution>, St. Petersburg 199034, <country>Russia</country></aff><aff id="aff5"><label>&#x022a5;</label>Center
+for Cognition and Decision Making, <institution>National
+Research University Higher School of Economics</institution>, Moscow 101000, <country>Russia</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>E-mail: <email>reinoud.maex@ens.fr</email>.</corresp></author-notes><pub-date pub-type="pmc-release"><day>22</day><month>08</month><year>2015</year></pub-date><pub-date pub-type="epub"><day>22</day><month>08</month><year>2014</year></pub-date><pub-date pub-type="collection"><day>15</day><month>10</month><year>2014</year></pub-date><volume>5</volume><issue>10</issue><fpage>1032</fpage><lpage>1040</lpage><history><date date-type="received"><day>06</day><month>06</month><year>2014</year></date><date date-type="accepted"><day>22</day><month>08</month><year>2014</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2014 American Chemical
+Society</copyright-statement><copyright-year>2014</copyright-year><copyright-holder>American Chemical
+Society</copyright-holder></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cn-2014-00126t_0008" id="ab-tgr1"/></p><p>Neuronal nicotinic acetylcholine
+receptors (NNRs) of the &#x003b1;7
+subtype have been shown to contribute to the release of dopamine in
+the nucleus accumbens. The site of action and the underlying mechanism,
+however, are unclear. Here we applied a circuit modeling approach,
+supported by electrochemical in vivo recordings, to clarify this issue.
+Modeling revealed two potential mechanisms for the drop in accumbal
+dopamine efflux evoked by the selective &#x003b1;7 partial agonist TC-7020.
+TC-7020 could desensitize &#x003b1;7 NNRs located predominantly on dopamine
+neurons or glutamatergic afferents to them or, alternatively, activate
+&#x003b1;7 NNRs located on the glutamatergic afferents to GABAergic
+interneurons in the ventral tegmental area. Only the model based on
+desensitization, however, was able to explain the neutralizing effect
+of coapplied PNU-120596, a positive allosteric modulator. According
+to our results, the most likely sites of action are the preterminal
+&#x003b1;7 NNRs controlling glutamate release from cortical afferents
+to the nucleus accumbens. These findings offer a rationale for the
+further investigation of &#x003b1;7 NNR agonists as therapy for diseases
+associated with enhanced mesolimbic dopaminergic tone, such as schizophrenia
+and addiction.</p></abstract><kwd-group><kwd>&#x003b1;7-Nicotinic receptor agonist</kwd><kwd>acetylcholine</kwd><kwd>desensitization</kwd><kwd>ventral tegmental area</kwd><kwd>mesolimbic
+pathway</kwd><kwd>modeling</kwd></kwd-group><funding-group><funding-statement><funding-source>National Institutes of Health, United States</funding-source></funding-statement></funding-group><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>cn500126t</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>cn-2014-00126t</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><p id="sec1">Ligands of
+neuronal nicotinic
+receptors (NNRs) are seen as promising therapeutics for a range of
+CNS disorders, including Alzheimer&#x02019;s disease, Parkinson&#x02019;s
+disease, schizophrenia, and addiction.<sup><xref ref-type="bibr" rid="ref1">1</xref>&#x02212;<xref ref-type="bibr" rid="ref4">4</xref></sup> NNRs are members of the class of Cys-loop
+cationic ion channels, yet predicting the systemic effects of their
+ligands has proven difficult for several reasons: NNRs of varying
+subunit composition are expressed on different neuron types, locate
+extrasynaptically, and quickly desensitize to varying degrees in the
+continued presence of the agonist.</p><p>NNRs are abundant in the
+basal ganglia,<sup><xref ref-type="bibr" rid="ref5">5</xref></sup> and acute systemic nicotine
+administration stimulates the efflux
+of dopamine in rat nucleus accumbens in vivo.<sup><xref ref-type="bibr" rid="ref6">6</xref>,<xref ref-type="bibr" rid="ref7">7</xref></sup> Most
+studies on the cholinergic control of accumbal dopamine release have
+focused on the effect of activation of different NNR subtypes on the
+spiking activity of either dopaminergic<sup><xref ref-type="bibr" rid="ref8">8</xref>&#x02212;<xref ref-type="bibr" rid="ref10">10</xref></sup> or GABAergic neurons<sup><xref ref-type="bibr" rid="ref11">11</xref>,<xref ref-type="bibr" rid="ref12">12</xref></sup> in the ventral tegmental area (VTA)<sup><xref ref-type="bibr" rid="ref11">11</xref></sup> or have measured changes in accumbal dopamine levels after electrical
+stimulation of midbrain nuclei.<sup><xref ref-type="bibr" rid="ref13">13</xref></sup> For short,
+&#x003b1;7 NNRs are thought to exert presynaptic control over inputs
+to VTA neurons,<sup><xref ref-type="bibr" rid="ref10">10</xref>,<xref ref-type="bibr" rid="ref14">14</xref></sup> and consistent with this modulatory
+role, dopamine neurons of &#x003b1;7&#x02013;/&#x02013; mice showed less
+prominent changes in their spontaneous or evoked spike patterns than
+those of &#x003b2;2&#x02013;/&#x02013; mice.<sup><xref ref-type="bibr" rid="ref8">8</xref></sup></p><p>More recently, optogenetic stimulation of the accumbal cholinergic
+interneurons was found to evoke dopamine efflux in vitro without a
+concomitant change of the spike rate or pattern of the dopamine neurons.<sup><xref ref-type="bibr" rid="ref15">15</xref>,<xref ref-type="bibr" rid="ref16">16</xref></sup> Although this accumbal control of dopamine efflux is mediated by
+preterminal &#x003b2;2* NNRs on the axons of dopamine neurons,<sup><xref ref-type="bibr" rid="ref17">17</xref></sup> cholinergic stimulation may also activate nearby
+&#x003b1;7 NNRs located on corticofugal axons and, through the intermediary
+of ionotropic receptors on dopamine axons, indirectly stimulate dopamine
+release.<sup><xref ref-type="bibr" rid="ref18">18</xref>,<xref ref-type="bibr" rid="ref19">19</xref></sup></p><p>TC-7020 is a selective partial agonist
+of the homomeric &#x003b1;7-type
+NNR<sup><xref ref-type="bibr" rid="ref20">20</xref></sup> with an efficacy of 30% and an EC<sub>50</sub> of 30 nM in rats. Its selectivity for the &#x003b1;7 NNR is
+evidenced by an IC<sub>50</sub> of 2 nM, compared with 4200 nM for
+&#x003b1;4&#x003b2;2* NNRs,<sup><xref ref-type="bibr" rid="ref21">21</xref></sup> and an IC<sub>50</sub> &#x0003e; 10 &#x003bc;M for non-nicotinic receptors.<sup><xref ref-type="bibr" rid="ref20">20</xref></sup> In a microdialysis study of a mouse model of
+schizophrenia,
+systemic administration of TC-7020 (0.1&#x02013;1.0 mg/kg ip) normalized
+the increased striatal extracellular dopamine level.<sup><xref ref-type="bibr" rid="ref22">22</xref></sup> The mechanism of action underlying this suppression of
+dopamine concentration, however, remains elusive. Since microdialysis
+measures dopamine fluctuations only on a time scale of minutes, these
+data cannot be effectively used for the computational modeling of
+the targeted circuitry. Importantly, &#x003b1;7 NNRs rapidly desensitize
+during agonist exposure, and preterminal receptors interact with glutamatergic
+transmission in VTA,<sup><xref ref-type="bibr" rid="ref11">11</xref>,<xref ref-type="bibr" rid="ref23">23</xref>,<xref ref-type="bibr" rid="ref24">24</xref></sup> ventral and dorsal striatum,<sup><xref ref-type="bibr" rid="ref19">19</xref></sup> and prefrontal
+cortex.<sup><xref ref-type="bibr" rid="ref25">25</xref>,<xref ref-type="bibr" rid="ref26">26</xref></sup></p><p>In contrast to microdialysis measurements,
+real-time voltammetry
+is particularly useful for evaluating the fast dopamine dynamics,
+due its subsecond-scale temporal resolution. Here, we used a computational
+modeling approach to understand the observation that TC-7020 acutely
+reduced dopamine efflux measured by fast-scan cyclic voltammetry (FSCV).
+In particular, we examine how real-time dopamine signaling depends
+on the activation and desensitization properties of the &#x003b1;7 NNRs
+and on their differential distribution on GABA and dopamine neurons
+or their glutamatergic afferents. The present analysis models only
+acute effects, up to 1 min after agonist injection, since the circuit
+may change its dynamics owing to synaptic plasticity<sup><xref ref-type="bibr" rid="ref27">27</xref></sup> or adaptation of the expression of other NNR subtypes.<sup><xref ref-type="bibr" rid="ref28">28</xref></sup></p><sec id="sec2"><title>Results and Discussion</title><p>We first
+present the in vivo voltammetric recording of dopamine
+efflux in rat nucleus accumbens in response to the iv injection of
+nicotine and the partial &#x003b1;7 agonist TC-7020. Next we explain
+how two alternative models, based on desensitization versus activation
+of the &#x003b1;7 receptor, generated a drop in dopamine release similar
+to that after TC-7020 injection. Finally, we argue that only one particular
+implementation of the desensitization model explains the observed
+response to the combined injection of the positive allosteric modulator
+PNU-120596.</p><sec id="sec2.1"><title>In Vivo Voltammetry of Dopamine Efflux in Rat Nucleus Accumbens</title><p>Intravenous administration of nicotine (0.3 mg/kg) induced a fast
+and potent increase in accumbal dopamine measured by real-time FSCV
+in anesthetized rats (Figure <xref rid="fig1" ref-type="fig">1</xref>A). The averaged
+dopamine concentration was 0.82 &#x000b1; 0.08 &#x003bc;M (<italic>n</italic> = 4). The effect appeared approximately 7 s after drug administration.
+Importantly, an identical nicotine-induced dopamine concentration
+increase had been observed in freely moving rats using the same technique
+(FSCV).<sup><xref ref-type="bibr" rid="ref7">7</xref></sup> No changes were observed after
+saline injection (Figure <xref rid="fig1" ref-type="fig">1</xref>A,B). Using the same
+experimental design, we explored the effects of the &#x003b1;7-selective
+partial agonist TC-7020 (1 mg/kg iv) on real-time dopamine dynamics
+(Figure <xref rid="fig1" ref-type="fig">1</xref>B,C). In contrast to nicotine, this
+compound induced a drop in baseline dopamine recordings. This inhibitory
+effect could be reversed by nicotine (Figure <xref rid="fig1" ref-type="fig">1</xref>B). The TC-7020-induced drop was nearly abolished by pretreatment
+with MLA (10 mg/kg ip), an &#x003b1;7 nicotinic receptor antagonist
+(Figure <xref rid="fig1" ref-type="fig">1</xref>C), ruling out the possibility that
+the observed dopamine changes were nonspecific or nonreceptor mediated.
+No changes were observed when MLA was administered alone (Figure <xref rid="fig1" ref-type="fig">1</xref>C). A previous microdialysis study also had provided
+clear evidence that systemic (ip) administration of TC-7020 could
+suppress extracellular dopamine levels on a prolonged time scale.<sup><xref ref-type="bibr" rid="ref22">22</xref></sup> Interestingly, in the present experiments, pretreatment
+with the &#x003b1;7 type-2 positive allosteric modulator PNU-120596
+(5 mg/kg, sc),<sup><xref ref-type="bibr" rid="ref29">29</xref></sup> rather than enhancing
+dopamine release, also blocked the effects of TC-7020 on dopamine
+transmission, through an expected reduction or elimination of desensitization
+(see Figure <xref rid="fig4" ref-type="fig">4</xref>A). Qualitatively similar observations
+were made in the dorsal striatum.</p><fig id="fig1" position="float"><label>Figure 1</label><caption><p>Representative voltammetric recordings
+of real-time dopamine signaling
+in nucleus accumbens of anaesthetized rats before and after administration
+(arrows) of (A) nicotine (0.3 mg/kg iv), (B) TC-7020 (1 mg/kg iv)
+followed by nicotine, and (C) TC-7020 alone (blue trace) or TC-7020
+after pretreatment with MLA (10 mg/kg ip) (green trace) or MLA alone
+(black trace). Black traces in A and B are controls after saline injection.
+Inset to panel A is representative background-subtracted voltammogram
+obtained at peak of response, showing characteristic oxidation and
+reduction peak potentials (approximately +0.6 V and approximately
+&#x02212;0.2 V, respectively) that identify dopamine.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cn-2014-00126t_0002" id="gr1" position="float"/></fig></sec><sec id="sec2.2"><title>Analysis of the Drop in Dopamine Release
+Produced in Models
+Based on the Desensitization versus Activation of &#x003b1;7 NNRs</title><p>In order to explain these observations, we compared two classes
+of models based either on the activation or on the desensitization
+of &#x003b1;7 NNRs. The models differed by the relative distribution
+of &#x003b1;7 NNRs on dopamine versus GABA-neurons (or their glutamatergic
+afferents), and as will be shown below, they functioned optimally
+at different TC-7020 concentrations and different cholinergic tones.</p><p>In the first class of models, NNRs were primarily expressed on
+dopamine neurons and glutamatergic fibers afferent to them (Figure <xref rid="fig2" ref-type="fig">2</xref>A). The channels were located, first, within the
+VTA on the glutamatergic afferents to dopamine neurons, where they
+potentiate glutamate release;<sup><xref ref-type="bibr" rid="ref10">10</xref>,<xref ref-type="bibr" rid="ref24">24</xref>,<xref ref-type="bibr" rid="ref30">30</xref></sup> second, on the dendrites and somata of (a subpopulation of) dopamine
+neurons;<sup><xref ref-type="bibr" rid="ref23">23</xref>,<xref ref-type="bibr" rid="ref31">31</xref>&#x02212;<xref ref-type="bibr" rid="ref33">33</xref></sup> and, third, within the
+nucleus accumbens, on the glutamatergic afferents to the medium-sized
+spiny neurons, where they potentiate glutamate release and subsequent
+dopamine release through a process involving ionotropic glutamate
+receptors presumably located on the dopamine axons.<sup><xref ref-type="bibr" rid="ref18">18</xref>,<xref ref-type="bibr" rid="ref19">19</xref></sup> The &#x003b1;7 NNRs are notably absent, however, from the dopamine
+axonal terminals themselves.<sup><xref ref-type="bibr" rid="ref34">34</xref>,<xref ref-type="bibr" rid="ref35">35</xref></sup> Since desensitization
+of receptors at these locations would indeed reduce dopamine release,
+we further call this class of models the &#x0201c;desensitization model&#x0201d;.</p><fig id="fig2" position="float"><label>Figure 2</label><caption><p>Synaptic
+organization and responses of the &#x0201c;desensitization
+model&#x0201d;. Panel A shows a circuit diagram of the mesoaccumbal
+projection, highlighting the locations of those &#x003b1;7 NNRs that
+would evoke, through their desensitization, a drop in dopamine release.
+Panel B plots the extracellular dopamine dynamics in the model for
+four levels of cholinergic tone, indicated by their equivalent acetylcholine
+concentrations. The [TC-7020] profile is shown in Figure S2, <xref rid="notes-2" ref-type="notes">Supporting Information</xref>, and TC-7020 reached a
+peak concentration of 11 nM. MSN, medium-sized spiny neuron; glu,
+glutamatergic afferent. For clarity, the &#x003b1;4&#x003b2;2* NNRs on
+the DA and GABA neurons or their afferents are not shown.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cn-2014-00126t_0003" id="gr2" position="float"/></fig><p>In contrast, when the &#x003b1;7 NNRs were located
+primarily at the
+positions highlighted in Figure <xref rid="fig3" ref-type="fig">3</xref>A, they would
+evoke a drop in dopamine efflux through receptor activation, and this
+class of models is further referred to as the &#x0201c;activation model&#x0201d;.
+Its channels can be located on glutamatergic afferents to GABA neurons
+in the VTA (but no &#x003b1;7 NNRs are located on the GABA neurons themselves),<sup><xref ref-type="bibr" rid="ref11">11</xref></sup> and their activation disynaptically inhibits
+dopamine neurons. Alternatively, activation of &#x003b1;7 NNRs on glutamate
+afferents within the nucleus accumbens can, through spillover of glutamate,
+activate metabotropic glutamate receptors on dopamine terminals and
+depress dopamine release.<sup><xref ref-type="bibr" rid="ref36">36</xref></sup></p><fig id="fig3" position="float"><label>Figure 3</label><caption><p>Synaptic organization
+and responses of the &#x0201c;activation model&#x0201d;.
+The &#x003b1;7 NNRs located at the positions in panel A would evoke,
+through their activation, a drop in dopamine release. Panel B plots
+the extracellular dopamine dynamics in the model for three levels
+of cholinergic tone, indicated by their equivalent acetylcholine concentrations.
+The [TC-7020] profile is shown in Figure S2, <xref rid="notes-2" ref-type="notes">Supporting
+Information</xref>, and TC-7020 reached a peak concentration of 3
+nM.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cn-2014-00126t_0004" id="gr3" position="float"/></fig><p>The simulations showed that both
+models could reproduce the TC-7020-evoked
+drop in dopamine release (Figures <xref rid="fig2" ref-type="fig">2</xref>B and <xref rid="fig3" ref-type="fig">3</xref>B). The responses of the desensitization model,
+however, depended on the cholinergic tone, which was represented in
+the model by an equivalent concentration of acetylcholine needed to
+obtain a tonic level of receptor activation. At absent tone ([ACh]
+= 0 in Figure <xref rid="fig2" ref-type="fig">2</xref>B), the net response was an
+enhanced dopamine efflux, caused by activation and subsequent (incomplete)
+desensitization of the &#x003b1;7 NNRs. In the presence of a tone, however,
+the desensitization would reduce the numbers of NNRs available for
+endogenous acetylcholine, leading to a marked drop in the level of
+dopamine efflux, in proportion to the strength of the tone (Figure <xref rid="fig2" ref-type="fig">2</xref>B).</p><p>In contrast, no cholinergic tone was required
+in the activation
+model (Figure <xref rid="fig3" ref-type="fig">3</xref>B). A high tone even reversed
+the dopamine drop since desensitization of NNRs now disinhibited the
+dopamine neuron (red curve in Figure <xref rid="fig3" ref-type="fig">3</xref>B). For
+the activation model to cause a sustained drop in dopamine efflux,
+however, a &#x0201c;window&#x0201d; current was needed, which required
+agonist levels at concentrations where the desensitization and activation
+curves maximally overlapped (see Figure <xref rid="fig5" ref-type="fig">5</xref>).
+The desensitization model, on the other hand, required higher agonist
+concentrations that would desensitize most of the NNRs. A more extensive
+parameter analysis of the model can be found in the <xref rid="notes-2" ref-type="notes">Supporting Information</xref> (Figures S2&#x02013;4).</p></sec><sec id="sec2.3"><title>The Activation
+and Desensitization Models Make Opposite Predictions
+Regarding the Effect of a Coadministered Positive Modulator</title><p>As mentioned above, coadministration of PNU-120596, a type-2 positive
+allosteric modulator of &#x003b1;7 NNRs that releases the receptors
+from desensitization,<sup><xref ref-type="bibr" rid="ref29">29</xref></sup> abolished the TC-7020
+response (Figure <xref rid="fig4" ref-type="fig">4</xref>A). We modeled NNR resensitization by shifting the Hill curve of
+the desensitization gate of the receptors toward higher agonist concentrations.
+In that case, the desensitization model robustly reproduced the experimental
+cancellation of the TC-7020-induced drop in dopamine release (Figure <xref rid="fig4" ref-type="fig">4</xref>B and Figure S4, <xref rid="notes-2" ref-type="notes">Supporting
+Information</xref>).</p><fig id="fig4" position="float"><label>Figure 4</label><caption><p>Responses to coadministration of TC-7020 and PNU-120596
+in the
+experiment (A) and model (desensitization, B, and activation, C).
+Doses and parameters were as follows: (A) TC-7020 (1.0 mg/kg iv) and
+PNU-120596 (5.0 mg/kg injected sc 30 min earlier); (B) peak [TC-7020]
+11 nM, ACh tone 30 &#x003bc;M; (C) peak [TC-7020] 2.4 nM, ACh tone 0
+&#x003bc;M. The presence of PNU-120596 was modeled by multiplying the
+IC<sub>50</sub> of TC-7020 by a factor of 10.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cn-2014-00126t_0005" id="gr4" position="float"/></fig><p>In the activation model, in contrast, shifting rightward
+the desensitization
+curves always amplified the TC-7020 response, instead of neutralizing
+it (Figure <xref rid="fig4" ref-type="fig">4</xref>C). For the TC-7020 response to
+be canceled in the activation model, PNU-120596 should be assumed
+to interfere with receptor activation. Although prolonged channel
+opening in the presence of PNU-120596 can make the channels more susceptible
+to open-channel-block, this phenomenon has been observed only at much
+higher, micromolar agonist concentrations.<sup><xref ref-type="bibr" rid="ref37">37</xref>,<xref ref-type="bibr" rid="ref38">38</xref></sup></p></sec><sec id="sec2.4"><title>The Combined Voltammetry-Modeling Results Point to a Desensitizing
+Action of TC-7020 on &#x003b1;7 NNRs Located on Glutamatergic Afferents
+in Nucleus Accumbens</title><p>In summary, the present model considered
+five different sites for the action of TC-7020 on the mesoaccumbal
+pathway, and hence for the contribution of &#x003b1;7 NNRs to dopamine
+release. Although models based on NNR desensitization (sites 1&#x02013;3
+in Figure <xref rid="fig2" ref-type="fig">2</xref>A) and NNR activation (sites 4 and
+5 in Figure <xref rid="fig3" ref-type="fig">3</xref>A) could both generate a drop
+in dopamine release such as that observed experimentally, the neutralizing
+effect of coadministered PNU-120596 was only explained by the desensitization
+model (receptor resensitization by the allosteric modulator, sites
+1&#x02013;3). Sites 4 and 5 of the activation model further lack experimental
+support. For site 5, although stimulation of presynaptic metabotropic
+glutamate receptors (mGluR1) has been shown to reduce dopamine release
+in mouse striatum in vitro,<sup><xref ref-type="bibr" rid="ref36">36</xref></sup> mGluR1 agonists
+were ineffective in dialysis experiments.<sup><xref ref-type="bibr" rid="ref39">39</xref></sup> In addition, although local application of the partial &#x003b1;7
+agonist JN403 at site 4 has been observed to enhance the spike rate
+of GABAergic neurons via action on &#x003b1;7 NNRs at glutamatergic
+terminals<sup><xref ref-type="bibr" rid="ref11">11</xref></sup> and optogenetic stimulation
+of GABA neurons reduced dopamine efflux in nucleus accumbens,<sup><xref ref-type="bibr" rid="ref40">40</xref></sup> systemic administration of &#x003b1;7 agonists
+did not affect the rate or spike pattern of dopamine neurons (Figure
+7 of ref (<xref ref-type="bibr" rid="ref41">41</xref>)).</p><p>This failure of systemically applied &#x003b1;7 agonists to acutely
+alter the spiking behavior of dopamine neurons also disfavors sites
+1 and 2 of the desensitization model (Figure <xref rid="fig2" ref-type="fig">2</xref>A), leaving site 3 as the most likely mesoaccumbal target for TC-7020.
+Such a contribution of accumbal &#x003b1;7 NNRs to dopamine release
+was first proposed by Kaiser and Wonnacott.<sup><xref ref-type="bibr" rid="ref19">19</xref></sup> Note that TC-7020 itself does not evoke dopamine release from synaptosomes
+(V. P. Grinevich and M. Bencherif, unpublished data); hence the mechanism
+involves crosstalk among cholinergic, glutamatergic, and dopaminergic
+neurons. That cortico-accumbal glutamatergic neurons could facilitate
+dopamine release through a presynaptic action on the dopamine terminals,
+independently of the rate of firing of meso-accumbal dopamine neurons,
+had been suggested before,<sup><xref ref-type="bibr" rid="ref42">42</xref></sup> and subsequent
+studies confirmed the presence of ionotropic glutamate receptors on
+dopaminergic synaptosomes<sup><xref ref-type="bibr" rid="ref18">18</xref>,<xref ref-type="bibr" rid="ref43">43</xref></sup> and of &#x003b1;7 NNRs
+on glutamatergic terminals.<sup><xref ref-type="bibr" rid="ref44">44</xref>,<xref ref-type="bibr" rid="ref45">45</xref></sup> Electrochemical recordings
+in nucleus accumbens and VTA of freely moving rats showed that low
+doses of nicotine (30 &#x003bc;g/kg iv) acutely stimulated glutamate
+efflux.<sup><xref ref-type="bibr" rid="ref46">46</xref></sup> In the VTA, at least, nicotine-evoked
+glutamate efflux has been suggested to be mediated through &#x003b1;7
+receptors.<sup><xref ref-type="bibr" rid="ref14">14</xref></sup></p><p>As shown by the model,
+the effect of &#x003b1;7 NNR desensitization
+on dopamine release can only be apparent in the presence of a cholinergic
+tone. In nucleus accumbens, acetylcholine is released by giant interneurons
+that fire spontaneously at a rate of 3&#x02013;10 Hz in vivo.<sup><xref ref-type="bibr" rid="ref47">47</xref></sup> The presence of a cholinergic tone activating
+preterminal &#x003b1;7 NNRs in vitro was demonstrated by the drop of
+excitatory post-synaptic current (EPSC) frequency in medium-sized
+spiny neurons after bath application of MLA.<sup><xref ref-type="bibr" rid="ref48">48</xref></sup> Taken together, these data indicate that &#x003b1;7 NNRs contribute
+to the cholinergic control of dopamine release in nucleus accumbens,
+even at baseline receptor recruitment levels, and hence that their
+acute desensitization indeed will reduce dopamine efflux.</p><p>Note
+that this mechanism has been suggested before, for instance,
+to underlie the drop in dopamine after intrastriatal infusion of kynurenic
+acid, which can act as an &#x003b1;7 inhibitor,<sup><xref ref-type="bibr" rid="ref49">49</xref>&#x02212;<xref ref-type="bibr" rid="ref51">51</xref></sup> and for the
+regularization of enhanced dopamine release in a mouse model of schizophrenia.<sup><xref ref-type="bibr" rid="ref22">22</xref></sup> The loss of regulatory action of &#x003b1;7 NNRs
+has likewise been suggested to underlie to enhanced nicotine-evoked
+dopamine release in the accumbens of &#x003b1;7&#x02013;/&#x02013; mutant
+mice.<sup><xref ref-type="bibr" rid="ref52">52</xref></sup></p><p>Last but not least we have
+to discard the possibility that TC-7020
+did not act by reducing dopamine efflux but by stimulating its reuptake.
+In the model, a 15% increase of transport velocity would have sufficed
+to generate a drop in dopamine concentration of the same magnitude
+as that generated by receptor desensitization. However, in a previous
+study,<sup><xref ref-type="bibr" rid="ref20">20</xref></sup> 10 &#x003bc;M TC-7020 did not show
+any affinity for the dopamine transporter in a radioligand assay.
+Neither glutamate<sup><xref ref-type="bibr" rid="ref53">53</xref></sup> nor nicotine<sup><xref ref-type="bibr" rid="ref54">54</xref></sup> interacts with the dopamine uptake transporter.
+Moreover, such an interaction of TC-7020 with the dopamine transporter
+would not have explained the effects evoked by MLA (Figure <xref rid="fig1" ref-type="fig">1</xref>C) and PNU-120596 (Figure <xref rid="fig4" ref-type="fig">4</xref>A).</p></sec><sec id="sec2.5"><title>Robustness of the Model</title><p>Predicting the systemic effects
+of a partial agonist requires knowledge of the balance between receptor
+activation and desensitization and further of the distribution of
+the receptors at different locations within the circuit.</p><p>For
+the receptor, steady-state can be assumed, since &#x003b1;7 NNRs desensitize
+on a subsecond time scale. In that case the fraction of conducting
+receptors is described by the product of the concentration&#x02013;response
+curves for activation and desensitization (Figure <xref rid="fig5" ref-type="fig">5</xref>A). The resultant window
+current has a bell-shaped concentration profile (Figure <xref rid="fig5" ref-type="fig">5</xref>B, curve [ACh] = 0), and its amplitude increases with the
+efficacy of the compound (Figure <xref rid="fig5" ref-type="fig">5</xref>C). From
+the current gained by binding of the exogenous agonist, however, the
+loss of endogenous current that is due to desensitization must be
+subtracted. This loss increases with cholinergic tone. The net current
+diminishes and its peak shifts toward lower agonist concentrations,
+until at high tone the agonist produces at all concentrations a negative
+effect (Figures <xref rid="fig5" ref-type="fig">5</xref>B,C).</p><fig id="fig5" position="float"><label>Figure 5</label><caption><p>Effect of TC-7020 on
+acetylcholine-evoked dopamine release summarized.
+(A) Steady-state activation and desensitization curves for TC-7020
+at &#x003b1;7 NNRs. The black arrow indicates the concentration at which
+TC-7020 is maximally able to activate NNRs without completely desensitizing
+them. Beyond this concentration, the desensitizing effect on endogeneous
+release (&#x0201c;ACh tone&#x0201d;) predominates (gray arrow). (B)
+Each trace plots the difference between the NNR current that is generated
+by the combined presence of TC-7020 and acetylcholine and the NNR
+current generated by acetylcholine alone. TC-7020 concentration is
+plotted on the horizontal axis; ACh tone is color-coded. (C) Same
+data as in panel B, but for a full agonist.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cn-2014-00126t_0006" id="gr5" position="float"/></fig><p>As stated above, the desensitization and activation mechanisms
+operate in different concentration regimes, the latter being able
+to generate a current only at lower ligand concentrations at which
+a considerable fraction of NNRs did not desensitize yet (black arrow
+in Figure <xref rid="fig5" ref-type="fig">5</xref>A). Nevertheless in both regimes
+most of the receptors will desensitize, except when the concentration&#x02013;response
+curves for desensitization and activation considerably overlap.<sup><xref ref-type="bibr" rid="ref55">55</xref></sup> A third mechanism, receptor potentiation, can
+be considered as a special case of the activation mechanism, operating
+at agonist concentrations too low to desensitize the receptor but
+sufficient to open the channel through coagonism with acetylcholine.
+Although we cannot exclude that this mechanism may be viable within
+a limited range of concentrations of agonist and acetylcholine (see
+Supplementary Modeling Results in <xref rid="notes-2" ref-type="notes">Supporting Information</xref>), it would be incompatible with the effect of coadministered PNU-120596.</p><p>The same principles hold for the nicotine response, which was evoked
+in the model by the activation, and subsequent desensitization, of
+&#x003b1;4&#x003b2;2 NNRs. Following Figure <xref rid="fig5" ref-type="fig">5</xref>C,
+such a positive response is easier to obtain when the activation and
+desensitization curves substantially overlap (see Figure S1C, <xref rid="notes-2" ref-type="notes">Supporting Information</xref>) and when the efficacy
+is high and cholinergic tone low.</p><p>The second determinant of
+the response, the relative expression
+of functional &#x003b1;7 receptors by different neuron types, is difficult
+to quantify. Although transcription can be measured,<sup><xref ref-type="bibr" rid="ref11">11</xref>,<xref ref-type="bibr" rid="ref32">32</xref></sup> most receptors are located intracellularly, and electron microcopy
+is needed to confirm their subcellular position at the plasma membrane.<sup><xref ref-type="bibr" rid="ref23">23</xref></sup> In addition, electrophysiological responses
+after local versus systemic application may differ.<sup><xref ref-type="bibr" rid="ref11">11</xref></sup> Given that insufficient information is available about
+the actual distribution of &#x003b1;7 NNRs, we simulated two rather
+extreme cases with 80% of &#x003b1;7 NNRs located on dopamine neurons
+or their afferents (the desensitization model, <italic>s</italic> =
+0.8) and all of them on the afferents to GABA neurons (the activation
+model, <italic>s</italic> = 0). Apart from these two cases, the responses
+from intermediate distributions can be derived as follows. Given that
+the strength of inhibition from GABA neurons to dopamine neurons in
+the VTA had a relative weight of 1.5, all &#x003b1;7 responses would
+virtually disappear in dopamine neurons at a distribution factor <italic>s</italic> of 0.6 (40% of &#x003b1;7 NNRs on afferents to GABA neurons)
+since currents of similar amplitude but opposite sign would cancel
+each other. At still lower values of <italic>s</italic>, the responses
+of the dopamine neuron would change sign, and be mirror symmetric
+about the baseline with respect to those shown before for the desensitization
+model. (The same reasoning can be applied to the responses of the
+activation model, with a reduction of response amplitude as <italic>s</italic> starts rising from 0 and a sign reversal at <italic>s</italic> = 0.6.)</p><p>Similar mechanisms of dopamine modulation can take
+place in other
+brain regions, for example, in the dorsal striatum. However, since
+the innervations of the striatum and nucleus accumbens are divergent,
+some distinction can be expected. In the <xref rid="notes-2" ref-type="notes">Supporting
+Information</xref>, we discuss how the same principles may apply to
+predict &#x003b1;7-evoked dopamine release in prefrontal cortex.</p></sec><sec id="sec2.6"><title>Limitations
+of the Present Study</title><p>A final note is needed
+on the calibration of the two model variables representing the cholinergic
+and dopaminergic tones, respectively. The cholinergic tone was modeled
+by a parameter giving the equivalent concentration needed for endogenous
+acetylcholine to generate a certain steady-state level of receptor
+activation. Even though many NNRs are located extrasynaptically, the
+equivalent concentration should not be interpreted as the concentration
+of acetylcholine in extracellular space, which is in the low nanomolar
+range.<sup><xref ref-type="bibr" rid="ref56">56</xref></sup> At best it could represent the
+acetylcholine concentration close to the synaptic release site, given
+that the fast &#x003b1;7 NNR responses are presumably generated, at
+least in neocortex, by classical synaptic transmission.<sup><xref ref-type="bibr" rid="ref57">57</xref></sup></p><p>As for the extracellular dopamine concentration,
+baseline estimates from voltammetry vary from 20&#x02013;30 nM<sup><xref ref-type="bibr" rid="ref58">58</xref></sup> to 73 nM<sup><xref ref-type="bibr" rid="ref59">59</xref></sup> to 95&#x02013;220
+nM.<sup><xref ref-type="bibr" rid="ref60">60</xref></sup> Extracellular dopamine concentration
+may also be spatially heterogeneous, with some patches having concentrations
+in the low micromolar range.<sup><xref ref-type="bibr" rid="ref51">51</xref>,<xref ref-type="bibr" rid="ref61">61</xref></sup> In the present FSCV
+measurements (Figure <xref rid="fig1" ref-type="fig">1</xref>), no information about
+quantitative basal dopamine levels was obtained because all data were
+background subtracted. Drops below baseline have been recorded before,<sup><xref ref-type="bibr" rid="ref51">51</xref>,<xref ref-type="bibr" rid="ref59">59</xref></sup> but their magnitude is difficult to quantify, because no dopamine
+cyclic voltammogram (inset to Figure <xref rid="fig1" ref-type="fig">1</xref>A) can
+be obtained when the baseline goes down, and small artifacts can be
+involved in the drop (such as pH changes). Neither can the present
+model decide on the amplitude of baseline or evoked dopamine responses.
+The model assumed a baseline dopamine concentration of 50 nM, but
+some other parameters (including the brain profile of TC-7020 concentration
+and nicotine concentration after fast iv injection) are poorly constrained.
+Figure <xref rid="fig6" ref-type="fig">6</xref> shows how similar realistic dopamine
+responses can be obtained with a slower clearance of TC-7020 and nicotine
+and with a baseline dopamine concentration of 337 nM.</p><fig id="fig6" position="float"><label>Figure 6</label><caption><p>Simulated accumbal dopamine
+response to TC-7020 and nicotine starting
+from a baseline [dopamine] of 337 nM. The compounds were administered
+with a &#x003c4;<sub>in</sub> of 10 s and &#x003c4;<sub>out</sub> of 200
+s. Simulations of the desensitization model with its standard parameters,
+except for a weaker connection weight from the GABAergic to dopaminergic
+neurons (1 vs 1.5) and a different cholinergic tone at &#x003b1;7 versus
+&#x003b1;4&#x003b2;2 NNRs (33 vs 3 &#x003bc;M). The red trace plots the
+response after pretreatment with PNU-120596.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cn-2014-00126t_0007" id="gr6" position="float"/></fig></sec></sec><sec sec-type="conclusions" id="sec3"><title>Conclusion</title><p>The present study is compatible with a mechanism
+of glutamatergic
+control of dopamine efflux in nucleus accumbens, in which neither
+glutamate nor dopamine requires spikes to be released.<sup><xref ref-type="bibr" rid="ref42">42</xref></sup> Acetylcholine binding to &#x003b1;7 receptors
+on glutamatergic terminals promotes the spillover of glutamate to
+dopaminergic terminals, where binding to ionotropic receptors leads
+in turn to dopamine release.<sup><xref ref-type="bibr" rid="ref19">19</xref></sup> Our combined
+experimental and modeling results indicate that partial agonists such
+as TC-7020 may suppress dopamine release by desensitizing the &#x003b1;7
+receptors.</p></sec><sec sec-type="methods" id="sec4"><title>Methods</title><sec sec-type="methods" id="sec4.1"><title>Experimental Procedure</title><p>Male Sprague&#x02013;Dawley rats
+(Charles Rivers Laboratories, Raleigh, NC) weighing 300&#x02013;400
+g, which were housed two animals per cage with ad libitum food and
+water in a 12/12 h light/dark cycle, were used in our in vivo voltammetric
+studies. All procedures were approved by the Wake Forest University
+and University of North Carolina Animal Care and Use Committees. Experiments
+were performed on anesthetized animals.</p><p>At the day of experiment,
+naive rats were surgically implanted with indwelling iv catheters
+under urethane (1.5 g/kg ip) anesthesia using aseptic procedures immediately
+before voltammetric assessments. A tapered polyurethane catheter was
+implanted into the right external jugular vein with the catheter exiting
+the skin behind the ear. A muscle tie served as a tether, preventing
+the catheter from being dislodged during subsequent voltammetric assessments.
+Following surgery, the implanted catheter was flushed with 0.2&#x02013;0.3
+mL of sterile 0.9% saline, and the catheter was clamped until later
+use during the voltammetric experiment. Then rats were head-restrained
+in a stereotaxic frame, and a carbon fiber electrode (50&#x02013;100
+&#x003bc;m exposed tip length, 7 &#x003bc;m diameter; Goodfellow, Oakdale,
+PA, USA) was positioned in the nucleus accumbens core (AP + 1.3, L
++ 1.3, V &#x02013; 6.7&#x02013;7.0 mm from bregma) with a Ag/AgCl reference
+electrode implanted in the contralateral hemisphere. The reference
+and carbon fiber electrodes were connected to a head-mounted voltammetric
+amplifier (UNC Electronics Design Facility, Chapel Hill, NC) and voltammetric
+recordings were made at the carbon fiber electrode every 100 ms by
+applying a triangular waveform (&#x02212;0.4 to +1.3 V, 300 V/s). Data
+were digitized (National Instruments, Austin, TX) and stored on a
+computer. To confirm the placement of electrodes, a 200 &#x003bc;A current
+was passed through a stainless steel electrode for 10 s. Brain was
+removed and postfixed in 10% formalin for at least 3 days. After freezing,
+50 &#x003bc;m coronal brain sections were taken and mounted throughout
+the rostral-caudal extent of the nucleus accumbens. The position of
+electrodes was assessed by visual examination of coronal sections
+for electrolytic lesions.</p><p>Nicotine (0.3 mg/kg), TC-7020 phosphate
+(1.0 mg/kg), and saline
+were administered intravenously as an experimenter-delivered bolus
+over 4&#x02013;6 s in a volume of 0.3&#x02013;0.4 mL. Methyllycaconitine
+citrate (MLA, 10 mg/kg) and the &#x003b1;7-selective type-2 positive
+allosteric modulator PNU-120596 (5.0 mg/kg) were injected intraperitoneally
+(ip) and subcutaneously (sc), respectively, 30 min before TC-7020
+administration.<sup><xref ref-type="bibr" rid="ref62">62</xref>,<xref ref-type="bibr" rid="ref63">63</xref></sup> The effect of every compound
+on dopamine dynamics was replicated on four animals. These results
+were used for the modeling procedure. TC-7020 was provided by Targacept,
+Inc., PNU-120596 was purchased from Sigma-Aldrich (St. Louis, MO),
+and MLA was purchased from Tocris Bioscience (Bristol, U.K.).</p></sec><sec id="sec4.2"><title>Modeling
+Methods</title><p>The mathematical model represented
+the mesoaccumbens pathway and incorporated both receptor kinetics
+and network dynamics. Program code was written in XPP.</p><sec id="sec4.2.1"><title>Receptor
+Model</title><p>Each NNR subtype had an activation and
+a desensitization gate, resulting in four possible receptor states,
+with the fraction of conducting receptors being the product of those
+being active, <italic>a</italic>, and sensitive, <italic>s</italic>.<sup><xref ref-type="bibr" rid="ref64">64</xref></sup> The steady-state concentration&#x02013;response
+curves, <italic>a</italic><sub>&#x0221e;</sub> and (1 &#x02013; <italic>s</italic><sub>&#x0221e;</sub>) for each gate were described as Hill
+functions (Figure S1, <xref rid="notes-2" ref-type="notes">Supporting Information</xref>). More particularly, steady-state activation, <italic>a</italic><sub>&#x0221e;</sub>, was calculated as<disp-formula id="ueq1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cn-2014-00126t_m001" position="anchor"/></disp-formula>where <italic>x</italic><sub><italic>i</italic></sub> is the concentration of the <italic>i</italic>th agonist, <italic>K</italic><sub><italic>i</italic></sub> is the agonist&#x02019;s EC<sub>50</sub> value (half-maximally effective
+concentration), and <italic>n</italic><sub><italic>i</italic></sub> is its Hill-exponent (<italic>n</italic><sub>Ha</sub> in Table <xref rid="tbl1" ref-type="other">1</xref>). In this sum, the fraction represents the fractional
+occupancy of the receptor by agonist <italic>i</italic>, which is
+multiplied by the agonists&#x02019;s efficacy <italic>w</italic><sub><italic>i</italic></sub>. For <italic>w</italic><sub><italic>i</italic></sub>, the <italic>E</italic><sub>max</sub> values from Table <xref rid="tbl1" ref-type="other">1</xref> were used.</p><p>The degree of desensitization
+(1 &#x02013; <italic>s</italic><sub>&#x0221e;</sub>) was calculated
+using the same formula, substituting the values of DC<sub>50</sub> and <italic>n</italic><sub>Hs</sub> for <italic>K</italic><sub><italic>i</italic></sub> and <italic>n</italic><sub><italic>i</italic></sub>. Because nicotine and TC-7020 desensitized the receptor completely
+at high concentrations (see Figure S1A,B, <xref rid="notes-2" ref-type="notes">Supporting
+Information</xref>), their weight factor <italic>w</italic><sub><italic>i</italic></sub> was unity. The <italic>w</italic><sub><italic>i</italic></sub> of endogenous acetylcholine at the desensitization gate, on
+the other hand, was set to zero (no desensitization at all) to reflect
+in vivo the physiological conditions where the transmitter is rapidly
+hydrolyzed by acetylcholine esterase before desensitization can start.</p><p>The acetylcholine parameter in the present model determined the
+degree of endogenous cholinergic activity, or cholinergic tone, which
+was assumed to be constant during the course of a recording. The release
+of acetylcholine not being modeled explicitly, the average tone that
+it generated was represented by an equivalent concentration constant,
+[ACh], which was set so as to generate an average level of receptor
+activation, relative to which the applied exogenous compounds exerted
+their action either through further activation, deactivation (competition),
+or desensitization.</p><p>Finally, activation was always fast (time
+constant 5 ms), whereas
+the time constant of desensitization varied between minimum and maximum
+values in a concentration-dependent manner according to the same Hill
+function as its steady-state<sup><xref ref-type="bibr" rid="ref65">65</xref></sup> (from 120
+s to 50 ms for &#x003b1;7 NNRs; from 600 s to 500 ms for &#x003b1;4&#x003b2;2
+NNRs).</p><p>Figure S1, <xref rid="notes-2" ref-type="notes">Supporting Information</xref>, shows
+the steady-state activation and desensitization curves used in the
+model for TC-7020 (panel A) and nicotine (panel B) at the &#x003b1;7
+NNRs and for nicotine at the &#x003b1;4&#x003b2;2* NNRs (panel C). The
+time traces above each pair of concentration&#x02013;response curves
+plot the mean channel current at varying agonist concentrations, illustrating
+the concentration dependency of the speed of desensitization and the
+faster desensitization of &#x003b1;7 compared with &#x003b1;4&#x003b2;2*
+NNRs. Table <xref rid="tbl1" ref-type="other">1</xref> lists the parameters of the Hill
+functions, which took the same values as in Graupner et al.<sup><xref ref-type="bibr" rid="ref64">64</xref></sup> except where a new reference is given. Most
+of these parameters had been taken from Fenster et al.<sup><xref ref-type="bibr" rid="ref66">66</xref></sup> and Buisson and Bertrand.<sup><xref ref-type="bibr" rid="ref67">67</xref></sup></p><table-wrap id="tbl1" position="float"><label>Table 1</label><caption><title>Parameters of the Hill Functions Used
+to Model the Receptors&#x02019; Activation and Desensitization Gates</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="left"/><col align="left"/><col align="left"/></colgroup><thead><tr><th style="border:none;" align="center">&#x003b1;7</th><th style="border:none;" align="center">TC-7020</th><th style="border:none;" align="center">nicotine</th><th style="border:none;" align="center">acetylcholine</th></tr></thead><tbody><tr><td style="border:none;" align="left">EC<sub>50</sub><xref rid="t1fn1" ref-type="table-fn">a</xref> (&#x003bc;M)</td><td style="border:none;" align="left">0.03</td><td style="border:none;" align="left">13<xref rid="t1fn4" ref-type="table-fn">d</xref></td><td style="border:none;" align="left">68<xref rid="t1fn4" ref-type="table-fn">d</xref></td></tr><tr><td style="border:none;" align="left"><italic>n</italic><sub>Ha</sub><xref rid="t1fn2" ref-type="table-fn">b</xref></td><td style="border:none;" align="left">1.73</td><td style="border:none;" align="left">1.73</td><td style="border:none;" align="left">1.73</td></tr><tr><td style="border:none;" align="left">DC<sub>50</sub><xref rid="t1fn1" ref-type="table-fn">a</xref> (&#x003bc;M)</td><td style="border:none;" align="left">0.002</td><td style="border:none;" align="left">1.3</td><td style="border:none;" align="left">&#x000a0;</td></tr><tr><td style="border:none;" align="left"><italic>n</italic><sub>Hs</sub><xref rid="t1fn2" ref-type="table-fn">b</xref></td><td style="border:none;" align="left">2</td><td style="border:none;" align="left">2</td><td style="border:none;" align="left">&#x000a0;</td></tr><tr><td style="border:none;" align="left"><italic>E</italic><sub>max</sub><xref rid="t1fn3" ref-type="table-fn">c</xref> (%)</td><td style="border:none;" align="left">30</td><td style="border:none;" align="left">80</td><td style="border:none;" align="left">100</td></tr></tbody></table><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="left"/><col align="left"/><col align="left"/></colgroup><thead><tr><th style="border:none;" align="center">&#x003b1;4&#x003b2;2</th><th style="border:none;" align="center">TC-7020</th><th style="border:none;" align="center">nicotine</th><th style="border:none;" align="center">acetylcholine</th></tr></thead><tbody><tr><td style="border:none;" align="left">EC<sub>50</sub><xref rid="t1fn1" ref-type="table-fn">a</xref> (&#x003bc;M)</td><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left">0.23<xref rid="t1fn5" ref-type="table-fn">e</xref></td><td style="border:none;" align="left">30</td></tr><tr><td style="border:none;" align="left"><italic>n</italic><sub>Ha</sub><xref rid="t1fn2" ref-type="table-fn">b</xref></td><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left">1.05</td><td style="border:none;" align="left">1.05</td></tr><tr><td style="border:none;" align="left">DC<sub>50</sub><xref rid="t1fn1" ref-type="table-fn">a</xref> (&#x003bc;M)</td><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left">0.061</td><td style="border:none;" align="left">&#x000a0;</td></tr><tr><td style="border:none;" align="left"><italic>n</italic><sub>Hs</sub><xref rid="t1fn2" ref-type="table-fn">b</xref></td><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left">0.5</td><td style="border:none;" align="left">&#x000a0;</td></tr><tr><td style="border:none;" align="left"><italic>E</italic><sub>max</sub><xref rid="t1fn3" ref-type="table-fn">c</xref> (%)</td><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left">80<xref rid="t1fn6" ref-type="table-fn">f</xref></td><td style="border:none;" align="left">100</td></tr></tbody></table><table-wrap-foot><fn id="t1fn1"><label>a</label><p>EC<sub>50</sub> (DC<sub>50</sub>), concentration of half-maximal activation (desensitization).</p></fn><fn id="t1fn2"><label>b</label><p><italic>n</italic><sub>Ha</sub> (<italic>n</italic><sub>Hs</sub>), Hill exponent of activation (desensitization).</p></fn><fn id="t1fn3"><label>c</label><p><italic>E</italic><sub>max</sub>, efficacy.</p></fn><fn id="t1fn4"><label>d</label><p>See ref (<xref ref-type="bibr" rid="ref72">72</xref>).</p></fn><fn id="t1fn5"><label>e</label><p>See ref (<xref ref-type="bibr" rid="ref68">68</xref>).</p></fn><fn id="t1fn6"><label>f</label><p>See ref (<xref ref-type="bibr" rid="ref73">73</xref>).</p></fn></table-wrap-foot></table-wrap><p>Model parameters for the &#x003b1;4&#x003b2;2* NNR were
+identical to
+those used by Graupner et al.,<sup><xref ref-type="bibr" rid="ref64">64</xref></sup> except
+for the lower efficacy (0.8) and a higher affinity (EC<sub>50</sub> 230 nM) of nicotine, such as is typical of &#x003b1;6-containing &#x003b1;4&#x003b2;2
+NNRs.<sup><xref ref-type="bibr" rid="ref68">68</xref></sup></p><p>The last column of Table <xref rid="tbl1" ref-type="other">1</xref> also implies
+that the model&#x02019;s endogenous transmitter, acetylcholine (ACh),
+activated the receptors without desensitizing them. As stated above,
+this feature reflects the fundamental difference in kinetics between
+physiologically released acetylcholine, which is rapidly broken down
+by ACh-esterase, and exogenous compounds such as nicotine and TC-7020.</p></sec><sec id="sec4.2.2"><title>Circuit Model</title><p>The circuit represented a population
+of dopaminergic neurons that received inhibition from a local population
+of GABAergic interneurons.<sup><xref ref-type="bibr" rid="ref64">64</xref></sup> The output
+variables of the model were the mean-field average population activities
+and the resulting extracellular dopamine concentration. Each population
+(or its glutamatergic afferents) expressed NNRs of the &#x003b1;7 and
+&#x003b1;4&#x003b2;2* subtypes.</p><p>The relative expression of each
+subtype across the dopamine and GABA neurons was determined by two
+parameters, <italic>r</italic> (for &#x003b1;4&#x003b2;2) and <italic>s</italic> (for &#x003b1;7). A parameter value of 1 indicated that
+the corresponding NNR subtype was expressed exclusively by the dopamine
+neuron population (or its glutamatergic afferents); a value of 0.5
+meant a balanced distribution across the two neuron populations.</p><p>The value of <italic>s</italic> was the major parameter distinguishing
+the so-called desensitization and activation models. It determined
+the relative expression of &#x003b1;7 NNRs on the two neuron populations
+or their afferents: 80% of &#x003b1;7 NNRs were located on the dopamine
+neuron or its afferents in the desensitization model (<italic>s</italic> = 0.8) versus all &#x003b1;7 NNRs on the GABA neuron&#x02019;s afferents
+in the activation model (<italic>s</italic> = 0). The principal locations
+of &#x003b1;7 NNRs compatible with these two models are as depicted
+in the respective circuit diagrams of Figures <xref rid="fig2" ref-type="fig">2</xref>A and <xref rid="fig3" ref-type="fig">3</xref>A. Most &#x003b1;4&#x003b2;2* NNRs were
+located on the dopamine neuron in both versions of the model: <italic>r</italic> = 0.8 (0.7) for desensitization (activation) model.</p><p>Evidently, the NNRs at the locations depicted in Figures <xref rid="fig2" ref-type="fig">2</xref>A and <xref rid="fig3" ref-type="fig">3</xref>A act all in concert,
+but for the sake of clarity, we accentuated their relative contributions
+in the model. A final difference with the circuit model of Graupner
+et al.<sup><xref ref-type="bibr" rid="ref64">64</xref></sup> concerned the connection strength
+from GABAergic onto DAergic neurons, which was enhanced by 50% to
+favor the activation model.</p><p>As described in Graupner et al.,<sup><xref ref-type="bibr" rid="ref64">64</xref></sup> the
+action of preterminal &#x003b1;7 NNRs was to enhance glutamate release.
+Because &#x003b1;7 NNRs may evoke glutamate release in an impulse-independent
+manner<sup><xref ref-type="bibr" rid="ref69">69</xref></sup> and because we are faced in this
+anesthetized in vivo condition with asynchronous inputs from probably
+tens of afferents, the steady-state terms for spike-evoked and &#x003b1;7-evoked
+glutamate release were simply added. Hence, the glutamatergic receptor
+currents were assumed to be proportional to the amount of glutamate
+released, with a negative sign for the mGluRs.<sup><xref ref-type="bibr" rid="ref70">70</xref></sup> Because glutamatergic and dopaminergic terminals often
+make apposed synapses onto the same medium spiny neuron in nucleus
+accumbens, diffusion at locations 3 (Figure <xref rid="fig2" ref-type="fig">2</xref>A) and 5 (Figure <xref rid="fig3" ref-type="fig">3</xref>A) of the circuit was assumed
+to be much faster than the measured responses. Our mean-field approach
+further implicitly assumed that at the concentrations of spilled-over
+glutamate, NMDA receptors do not substantially desensitize.</p></sec><sec id="sec4.2.3"><title>Extracellular
+Dopamine Concentration</title><p>The final outcome
+of the model was obtained by mapping the mean spike rate of the dopamine
+neurons onto the variable representing the extracellular dopamine
+concentration. Although dopamine is particularly released during phasic
+firing,<sup><xref ref-type="bibr" rid="ref71">71</xref></sup> recent cyclic voltammetry in
+anesthetized mice showed a fairly linear increase with stimulation
+frequency.<sup><xref ref-type="bibr" rid="ref17">17</xref></sup> We further assumed a steady-state
+dopamine concentration of about 50 nM, except in Figure <xref rid="fig6" ref-type="fig">6</xref> where baseline dopamine concentration was 337 nM. These assumptions
+allowed us to calculate the dopamine concentration, <italic>C</italic>, using the following equation:<disp-formula id="ueq2"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cn-2014-00126t_m002" position="anchor"/></disp-formula></p><p>The first term on the right-hand side
+adds dopamine in proportion to the enhancement in spike rate, <italic>r</italic>, relative to the steady-state rate, <italic>r</italic><sub>ss</sub> (measured before any drug administration). Dopamine
+leaks away (second term) and is resorbed by an uptake process with
+Michaelis&#x02013;Menten kinetics of maximum rate, <italic>V</italic><sub>m</sub>, and affinity, <italic>K</italic><sub>m</sub> (last
+term). We set <italic>V</italic><sub>m</sub> to 1.3 &#x003bc;M s<sup>&#x02013;1</sup>, <italic>K</italic><sub>m</sub> to 0.2 &#x003bc;M,
+and &#x003c4; to 200 ms.<sup><xref ref-type="bibr" rid="ref60">60</xref></sup> By setting <italic>C</italic><sub>b</sub> (the basal dopamine concentration in the absence
+of input or uptake) to 100 nM (500 nM for Figure <xref rid="fig6" ref-type="fig">6</xref>), we obtained a steady-state concentration of about 50 nM.</p></sec></sec></sec></body><back><notes id="notes-2" notes-type="si"><title>Supporting Information Available</title><p>Detailed comparative responses
+of the two models, a consideration of a third mechanism (coagonism),
+and a discussion of the generalization of our findings to prefrontal
+cortex. This material is available free of charge via the Internet
+at <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://pubs.acs.org">http://pubs.acs.org</uri>.</p></notes><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="sifile1"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cn500126t_si_001.pdf"><caption><p>cn500126t_si_001.pdf</p></caption></media></supplementary-material></sec><notes id="notes-1"><title>Author Contributions</title><p>V.P.G., E.B.,
+M.B., and B.G. designed and supervised the study. R.M. performed the
+simulations. V.P.G., V.G., and E.B. performed the experiments. R.M.,
+V.P.G., E.B., M.B., and B.G. wrote the manuscript.</p></notes><notes id="fs1" notes-type="funding-statement"><p>This work was part
+of the Collaborative research on NNR/DA integrative pharmacology (PCR-INP10/01),
+awarded to M.B. and B.G. and was partly supported by IdEx ANR-11-0001-02
+PSL* and LabEx ANR-10-LABX-0087 (France). Experimental work was supported
+by grants from the National Institutes of Health (AA020564) and the
+Tab Williams Family Endowment Fund to E.B. B.G. acknowledges support
+from the Basic Research Program of the National Research University
+Higher School of Economics (Russia).</p></notes><notes id="NOTES-d3521e1475-autogenerated" notes-type="conflict-of-interest"><p>The authors declare
+the
+following competing financial interest(s): M.B. is an employee and
+stockholder of Targacept Inc., a biopharmaceutical company involved
+in research and development of drugs targeting the neuronal nicotinic
+receptors.</p></notes><glossary id="dl1"><def-list><title>Abbreviations</title><def-item><term>ACh</term><def><p>acetylcholine</p></def></def-item><def-item><term>DA</term><def><p>dopamine</p></def></def-item><def-item><term>FSCV</term><def><p>fact-scan cyclic voltammetry</p></def></def-item><def-item><term>GABA</term><def><p>&#x003b3;-amino butyric
+acid</p></def></def-item><def-item><term>MLA</term><def><p>methyllycaconitine
+citrate</p></def></def-item><def-item><term>NNR</term><def><p>neuronal
+nicotinic receptor</p></def></def-item><def-item><term>PAM</term><def><p>positive allosteric modulator</p></def></def-item><def-item><term>PNU-120596</term><def><p>1-(5-chloro-2,4-dimethoxy-phenyl)-3-(5-methyl-isoxazol-3-yl)-urea</p></def></def-item><def-item><term>TC-7020</term><def><p>(2<italic>S</italic>,3<italic>R</italic>)-5-methyl-<italic>N</italic>-[2-(pyridin-3-ylmethyl)-1-azabicyclo[2.2.2]oct-3-yl]thiophene-2-carboxamide</p></def></def-item><def-item><term>VTA</term><def><p>ventral tegmental
+area</p></def></def-item></def-list></glossary><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><name><surname>Geerts</surname><given-names>H.</given-names></name> (<year>2012</year>) <article-title>&#x003b1;7 Nicotinic
+receptor modulators for cognitive deficits in schizophrenia and Alzheimer&#x02019;s
+disease</article-title>. <source>Expert Opin. Invest. Drugs</source>
+<volume>21</volume>, <fpage>59</fpage>&#x02013;<lpage>65</lpage>.</mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name><surname>Kucinski</surname><given-names>A. J.</given-names></name>; <name><surname>Stachowiak</surname><given-names>M. K.</given-names></name>; <name><surname>Wersinger</surname><given-names>S. R.</given-names></name>; <name><surname>Lippiello</surname><given-names>P. M.</given-names></name>; <name><surname>Bencherif</surname><given-names>M.</given-names></name> (<year>2011</year>) <article-title>Alpha7 neuronal
+nicotinic receptors as targets for
+novel therapies to treat multiple domains of schizophrenia</article-title>. <source>Curr. Pharm. Biotechnol.</source>
+<volume>12</volume>, <fpage>437</fpage>&#x02013;<lpage>448</lpage>.<pub-id pub-id-type="pmid">21133847</pub-id></mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><name><surname>Wallace</surname><given-names>T. L.</given-names></name>; <name><surname>Bertrand</surname><given-names>D.</given-names></name> (<year>2013</year>) <article-title>Alpha7 neuronal nicotinic receptors as a drug target
+in schizophrenia</article-title>. <source>Expert Opin. Ther. Targets</source>
+<volume>17</volume>, <fpage>139</fpage>&#x02013;<lpage>155</lpage>.<pub-id pub-id-type="pmid">23231385</pub-id></mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>Quik</surname><given-names>M.</given-names></name>; <name><surname>Wonnacott</surname><given-names>S.</given-names></name> (<year>2011</year>) <article-title>&#x003b1;6&#x003b2;2*
+and &#x003b1;4&#x003b2;2* Nicotinic acetylcholine
+receptors as drug targets for Parkinson&#x02019;s disease</article-title>. <source>Pharmacol. Rev.</source>
+<volume>63</volume>, <fpage>938</fpage>&#x02013;<lpage>966</lpage>.<pub-id pub-id-type="pmid">21969327</pub-id></mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>Zhou</surname><given-names>F. M.</given-names></name>; <name><surname>Liang</surname><given-names>Y.</given-names></name>; <name><surname>Dani</surname><given-names>J. A.</given-names></name> (<year>2001</year>) <article-title>Endogenous nicotinic cholinergic
+activity regulates dopamine release in the striatum</article-title>. <source>Nat. Neurosci.</source>
+<volume>4</volume>, <fpage>1224</fpage>&#x02013;<lpage>1229</lpage>.<pub-id pub-id-type="pmid">11713470</pub-id></mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Brazell</surname><given-names>M. P.</given-names></name>; <name><surname>Mitchell</surname><given-names>S. N.</given-names></name>; <name><surname>Joseph</surname><given-names>M. H.</given-names></name>; <name><surname>Gray</surname><given-names>J. A.</given-names></name> (<year>1990</year>) <article-title>Acute administration
+of nicotine increases the <italic>in vivo</italic> extracellular levels
+of dopamine, 3,4-dihydroxyphenylacetic acid and ascorbic acid preferentially
+in the nucleus accumbens of the rat: comparison with caudate-putamen</article-title>. <source>Neuropharmacology</source>
+<volume>29</volume>, <fpage>1177</fpage>&#x02013;<lpage>1185</lpage>.<pub-id pub-id-type="pmid">2293060</pub-id></mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Cheer</surname><given-names>J. F.</given-names></name>; <name><surname>Wassum</surname><given-names>K. M.</given-names></name>; <name><surname>Sombers</surname><given-names>L. A.</given-names></name>; <name><surname>Heien</surname><given-names>M. L.</given-names></name>; <name><surname>Ariansen</surname><given-names>J. L.</given-names></name>; <name><surname>Aragona</surname><given-names>B. J.</given-names></name>; <name><surname>Phillips</surname><given-names>P. E.</given-names></name>; <name><surname>Wightman</surname><given-names>R. M.</given-names></name> (<year>2007</year>) <article-title>Phasic dopamine
+release evoked by abused substances requires cannabinoid receptor
+activation</article-title>. <source>J. Neurosci.</source>
+<volume>27</volume>, <fpage>791</fpage>&#x02013;<lpage>795</lpage>.<pub-id pub-id-type="pmid">17251418</pub-id></mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name><surname>Mameli-Engvall</surname><given-names>M.</given-names></name>; <name><surname>Evrard</surname><given-names>A.</given-names></name>; <name><surname>Pons</surname><given-names>S.</given-names></name>; <name><surname>Maskos</surname><given-names>U.</given-names></name>; <name><surname>Svensson</surname><given-names>T. H.</given-names></name>; <name><surname>Changeux</surname><given-names>J. P.</given-names></name>; <name><surname>Faure</surname><given-names>P.</given-names></name> (<year>2006</year>) <article-title>Hierarchical control
+of dopamine
+neuron-firing patterns by nicotinic receptors</article-title>. <source>Neuron</source>
+<volume>50</volume>, <fpage>911</fpage>&#x02013;<lpage>921</lpage>.<pub-id pub-id-type="pmid">16772172</pub-id></mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name><surname>Schilstr&#x000f6;m</surname><given-names>B.</given-names></name>; <name><surname>Svensson</surname><given-names>H. M.</given-names></name>; <name><surname>Svensson</surname><given-names>T. H.</given-names></name>; <name><surname>Nomikos</surname><given-names>G. G.</given-names></name> (<year>1998</year>) <article-title>Nicotine and food
+induced dopamine release in the nucleus accumbens of the rat: putative
+role of &#x003b1;7 nicotinic receptors in the ventral tegmental area</article-title>. <source>Neuroscience</source>
+<volume>85</volume>, <fpage>1005</fpage>&#x02013;<lpage>1009</lpage>.<pub-id pub-id-type="pmid">9681941</pub-id></mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>Good</surname><given-names>C. H.</given-names></name>; <name><surname>Lupica</surname><given-names>C. R.</given-names></name> (<year>2009</year>) <article-title>Properties of distinct ventral tegmental area synapses
+activated via pedunculopontine or ventral tegmental area stimulation <italic>in vitro</italic></article-title>. <source>J. Physiol.</source>
+<volume>587</volume>, <fpage>1233</fpage>&#x02013;<lpage>1247</lpage>.<pub-id pub-id-type="pmid">19188251</pub-id></mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Taylor</surname><given-names>D. H.</given-names></name>; <name><surname>Burman</surname><given-names>P. N.</given-names></name>; <name><surname>Hansen</surname><given-names>M. D.</given-names></name>; <name><surname>Wlcox</surname><given-names>R. S.</given-names></name>; <name><surname>Larsen</surname><given-names>B. R.</given-names></name>; <name><surname>Blanchard</surname><given-names>J. K.</given-names></name>; <name><surname>Merrill</surname><given-names>C. B.</given-names></name>; <name><surname>Edwards</surname><given-names>J. G.</given-names></name>; <name><surname>Sudweeks</surname><given-names>S. N.</given-names></name>; <name><surname>Wu</surname><given-names>J.</given-names></name>; <name><surname>Arias</surname><given-names>H. R.</given-names></name>; <name><surname>Steffensen</surname><given-names>S. C.</given-names></name> (<year>2013</year>) <article-title>Nicotine enhances the excitability
+of Gaba neurons in the ventral tegmental area via activation of alpha
+7 nicotinic receptors on glutamate terminals</article-title>. <source>Biochem. Pharmacol.</source>
+<volume>S1</volume>, <elocation-id>007</elocation-id>.</mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>Tolu</surname><given-names>S.</given-names></name>; <name><surname>Eddine</surname><given-names>R.</given-names></name>; <name><surname>Marti</surname><given-names>F.</given-names></name>; <name><surname>David</surname><given-names>V.</given-names></name>; <name><surname>Graupner</surname><given-names>M.</given-names></name>; <name><surname>Pons</surname><given-names>S.</given-names></name>; <name><surname>Baudonnat</surname><given-names>M.</given-names></name>; <name><surname>Husson</surname><given-names>M.</given-names></name>; <name><surname>Besson</surname><given-names>M.</given-names></name>; <name><surname>Reperant</surname><given-names>C.</given-names></name>; <name><surname>Zemdegs</surname><given-names>J.</given-names></name>; <name><surname>Pages</surname><given-names>C.</given-names></name>; <name><surname>Hay</surname><given-names>Y. A.</given-names></name>; <name><surname>Lambolez</surname><given-names>B.</given-names></name>; <name><surname>Caboche</surname><given-names>J.</given-names></name>; <name><surname>Gutkin</surname><given-names>B.</given-names></name>; <name><surname>Gardier</surname><given-names>A. M.</given-names></name>; <name><surname>Changeux</surname><given-names>J. P.</given-names></name>; <name><surname>Faure</surname><given-names>P.</given-names></name>; <name><surname>Maskos</surname><given-names>U.</given-names></name> (<year>2013</year>) <article-title>Co-activation of VTA
+DA and GABA neurons mediates nicotine reinforcement</article-title>. <source>Mol. Psychiatry</source>
+<volume>18</volume>, <fpage>382</fpage>&#x02013;<lpage>393</lpage>.<pub-id pub-id-type="pmid">22751493</pub-id></mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name><surname>Forster</surname><given-names>G. L.</given-names></name>; <name><surname>Blaha</surname><given-names>C. D.</given-names></name> (<year>2000</year>) <article-title>Laterodorsal tegmental stimulation elicits dopamine
+efflux in the rat nucleus accumbens by activation of acetylcholine
+and glutamate receptors in the ventral tegmental area</article-title>. <source>Eur. J. Neurosci.</source>
+<volume>12</volume>, <fpage>3596</fpage>&#x02013;<lpage>3604</lpage>.<pub-id pub-id-type="pmid">11029630</pub-id></mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name><surname>Schilstr&#x000f6;m</surname><given-names>B.</given-names></name>; <name><surname>Fagerquist</surname><given-names>M. V.</given-names></name>; <name><surname>Zhang</surname><given-names>X.</given-names></name>; <name><surname>Hertel</surname><given-names>P.</given-names></name>; <name><surname>Panagis</surname><given-names>G.</given-names></name>; <name><surname>Nomikos</surname><given-names>G. G.</given-names></name>; <name><surname>Svensson</surname><given-names>T. H.</given-names></name> (<year>2000</year>) <article-title>Putative role of presynaptic alpha7*
+nicotinic receptors in nicotine stimulated increases of extracellular
+levels of glutamate and aspartate in the ventral tegmental area</article-title>. <source>Synapse</source>
+<volume>38</volume>, <fpage>375</fpage>&#x02013;<lpage>383</lpage>.<pub-id pub-id-type="pmid">11044884</pub-id></mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name><surname>Cachope</surname><given-names>R.</given-names></name>; <name><surname>Mateo</surname><given-names>Y.</given-names></name>; <name><surname>Mathur</surname><given-names>B. N.</given-names></name>; <name><surname>Irving</surname><given-names>J.</given-names></name>; <name><surname>Wang</surname><given-names>H. L.</given-names></name>; <name><surname>Morales</surname><given-names>M.</given-names></name>; <name><surname>Lovinger</surname><given-names>D. M.</given-names></name>; <name><surname>Cheer</surname><given-names>J. F.</given-names></name> (<year>2012</year>) <article-title>Selective activation
+of cholinergic interneurons enhances accumbal phasic dopamine release:
+Setting the tone for reward processing</article-title>. <source>Cell
+Rep.</source>
+<volume>2</volume>, <fpage>33</fpage>&#x02013;<lpage>41</lpage>.<pub-id pub-id-type="pmid">22840394</pub-id></mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name><surname>Threlfell</surname><given-names>S.</given-names></name>; <name><surname>Lalic</surname><given-names>T.</given-names></name>; <name><surname>Platt</surname><given-names>N. J.</given-names></name>; <name><surname>Jennings</surname><given-names>K. A.</given-names></name>; <name><surname>Deisseroth</surname><given-names>K.</given-names></name>; <name><surname>Cragg</surname><given-names>S. J.</given-names></name> (<year>2012</year>) <article-title>Striatal dopamine
+release is triggered by synchronized
+activity in cholinergic interneurons</article-title>. <source>Neuron</source>
+<volume>75</volume>, <fpage>58</fpage>&#x02013;<lpage>64</lpage>.<pub-id pub-id-type="pmid">22794260</pub-id></mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Koranda</surname><given-names>J. L.</given-names></name>; <name><surname>Cone</surname><given-names>J. J.</given-names></name>; <name><surname>McGehee</surname><given-names>D. S.</given-names></name>; <name><surname>Roitman</surname><given-names>M. F.</given-names></name>; <name><surname>Beeler</surname><given-names>J. A.</given-names></name>; <name><surname>Zhuang</surname><given-names>X.</given-names></name> (<year>2014</year>) <article-title>Nicotinic receptors
+regulate the dynamic range of dopamine
+release in vivo</article-title>. <source>J. Neurophysiol.</source>
+<volume>111</volume>, <fpage>103</fpage>&#x02013;<lpage>111</lpage>.<pub-id pub-id-type="pmid">24089398</pub-id></mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Grilli</surname><given-names>M.</given-names></name>; <name><surname>Summa</surname><given-names>M.</given-names></name>; <name><surname>Salamone</surname><given-names>A.</given-names></name>; <name><surname>Olivero</surname><given-names>G.</given-names></name>; <name><surname>Zappettini</surname><given-names>S.</given-names></name>; <name><surname>Di Prisco</surname><given-names>S.</given-names></name>; <name><surname>Feligioni</surname><given-names>M.</given-names></name>; <name><surname>Usai</surname><given-names>C.</given-names></name>; <name><surname>Pittaluga</surname><given-names>A.</given-names></name>; <name><surname>Marchi</surname><given-names>M.</given-names></name> (<year>2012</year>) <article-title><italic>In vitro</italic> exposure to nicotine induces
+endocytosis of presynaptic AMPA receptors modulating dopamine release
+in rat nucleus accumbens nerve terminals</article-title>. <source>Neuropharmacology</source>
+<volume>63</volume>, <fpage>916</fpage>&#x02013;<lpage>926</lpage>.<pub-id pub-id-type="pmid">22771975</pub-id></mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name><surname>Kaiser</surname><given-names>S.</given-names></name>; <name><surname>Wonnacott</surname><given-names>S.</given-names></name> (<year>2000</year>) <article-title>&#x003b1;-Bungarotoxin-sensitive
+nicotinic receptors
+indirectly modulate [<sup>3</sup>H]dopamine release in rat striatal
+slices via glutamate release</article-title>. <source>Mol. Pharmacol.</source>
+<volume>58</volume>, <fpage>312</fpage>&#x02013;<lpage>318</lpage>.<pub-id pub-id-type="pmid">10908298</pub-id></mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name><surname>Marrero</surname><given-names>M. B.</given-names></name>; <name><surname>Lucas</surname><given-names>R.</given-names></name>; <name><surname>Salet</surname><given-names>C.</given-names></name>; <name><surname>Hauser</surname><given-names>T. A.</given-names></name>; <name><surname>Mazurov</surname><given-names>A.</given-names></name>; <name><surname>Lippiello</surname><given-names>P. M.</given-names></name>; <name><surname>Bencherif</surname><given-names>M.</given-names></name> (<year>2010</year>) <article-title>An &#x003b1;7 nicotinic acetylcholine
+receptor-selective agonist reduces weight gain and metabolic changes
+in a mouse model of diabetes</article-title>. <source>J. Pharmacol.
+Exp. Ther.</source>
+<volume>332</volume>, <fpage>173</fpage>&#x02013;<lpage>180</lpage>.<pub-id pub-id-type="pmid">19786623</pub-id></mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name><surname>Narla</surname><given-names>S.</given-names></name>; <name><surname>Klejbor</surname><given-names>I.</given-names></name>; <name><surname>Birkaya</surname><given-names>B.</given-names></name>; <name><surname>Lee</surname><given-names>Y. W.</given-names></name>; <name><surname>Morys</surname><given-names>J.</given-names></name>; <name><surname>Stachowiak</surname><given-names>E. K.</given-names></name>; <name><surname>Terranova</surname><given-names>C.</given-names></name>; <name><surname>Bencherif</surname><given-names>M.</given-names></name>; <name><surname>Stachowiak</surname><given-names>M. K.</given-names></name> (<year>2013</year>) <article-title>&#x003b1;7
+Nicotinic receptor agonist reactivates neurogenesis
+in adult brain</article-title>. <source>Biochem. Pharmacol.</source>
+<volume>86</volume>, <fpage>1099</fpage>&#x02013;<lpage>1104</lpage>.<pub-id pub-id-type="pmid">23933384</pub-id></mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name><surname>Kucinski</surname><given-names>A.</given-names></name>; <name><surname>Syposs</surname><given-names>C.</given-names></name>; <name><surname>Wersinger</surname><given-names>S.</given-names></name>; <name><surname>Bencherif</surname><given-names>M.</given-names></name>; <name><surname>Stachowiak</surname><given-names>M. K.</given-names></name>; <name><surname>Stachowiak</surname><given-names>E. K.</given-names></name> (<year>2012</year>) <article-title>&#x003b1;7
+Neuronal nicotinic receptor
+agonist (TC-7020) reverses increased striatal dopamine release during
+acoustic PPI testing in a transgenic mouse model of schizophrenia</article-title>. <source>Schizophr. Res.</source>
+<volume>136</volume>, <fpage>82</fpage>&#x02013;<lpage>87</lpage>.<pub-id pub-id-type="pmid">22285656</pub-id></mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name><surname>Garz&#x000f3;n</surname><given-names>M.</given-names></name>; <name><surname>Duffy</surname><given-names>A. M.</given-names></name>; <name><surname>Chan</surname><given-names>J.</given-names></name>; <name><surname>Lynch</surname><given-names>M. K.</given-names></name>; <name><surname>Mackie</surname><given-names>K.</given-names></name>; <name><surname>Pickel</surname><given-names>V. M.</given-names></name> (<year>2013</year>) <article-title>Dopamine D2 and acetylcholine &#x003b1;7 nicotinic receptors
+have subcellular distributions favoring mediation of convergent signaling
+in the mouse ventral tegmental area</article-title>. <source>Neuroscience</source>
+<volume>252</volume>, <fpage>126</fpage>&#x02013;<lpage>143</lpage>.<pub-id pub-id-type="pmid">23954803</pub-id></mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name><surname>Jones</surname><given-names>I. W.</given-names></name>; <name><surname>Wonnacott</surname><given-names>S.</given-names></name> (<year>2004</year>) <article-title>Precise localization
+of &#x003b1;7 nicotinic acetylcholine
+receptors on glutamatergic axon terminals in the rat ventral tegmental
+area</article-title>. <source>J. Neurosci.</source>
+<volume>24</volume>, <fpage>11244</fpage>&#x02013;<lpage>11252</lpage>.<pub-id pub-id-type="pmid">15601930</pub-id></mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name><surname>Livingstone</surname><given-names>P. D.</given-names></name>; <name><surname>Dickinson</surname><given-names>J. A.</given-names></name>; <name><surname>Srinivasan</surname><given-names>J.</given-names></name>; <name><surname>Kew</surname><given-names>J. N.</given-names></name>; <name><surname>Wonnacott</surname><given-names>S.</given-names></name> (<year>2010</year>) <article-title>Glutamate-dopamine
+crosstalk in the rat prefrontal cortex is modulated by alpha7 nicotinic
+receptors and potentiated by PNU-120596</article-title>. <source>J.
+Mol. Neurosci.</source>
+<volume>40</volume>, <fpage>172</fpage>&#x02013;<lpage>176</lpage>.<pub-id pub-id-type="pmid">19688191</pub-id></mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name><surname>Yang</surname><given-names>Y.</given-names></name>; <name><surname>Paspalas</surname><given-names>C. D.</given-names></name>; <name><surname>Jin</surname><given-names>L. E.</given-names></name>; <name><surname>Picciotto</surname><given-names>M. R.</given-names></name>; <name><surname>Arnsten</surname><given-names>A. F.</given-names></name>; <name><surname>Wang</surname><given-names>M.</given-names></name> (<year>2013</year>) <article-title>Nicotinic &#x003b1;7 receptors enhance
+NMDA cognitive circuits in dorsolateral prefrontal cortex</article-title>. <source>Proc. Natl. Acad. Sci. U. S. A.</source>
+<volume>110</volume>, <fpage>12078</fpage>&#x02013;<lpage>12083</lpage>.<pub-id pub-id-type="pmid">23818597</pub-id></mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name><surname>Jin</surname><given-names>Y.</given-names></name>; <name><surname>Yang</surname><given-names>K.</given-names></name>; <name><surname>Wang</surname><given-names>H.</given-names></name>; <name><surname>Wu</surname><given-names>J.</given-names></name> (<year>2011</year>) <article-title>Exposure of nicotine
+to ventral tegmental area slices induces glutamatergic synaptic plasticity
+on dopamine neurons</article-title>. <source>Synapse</source>
+<volume>65</volume>, <fpage>332</fpage>&#x02013;<lpage>338</lpage>.<pub-id pub-id-type="pmid">20730803</pub-id></mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name><surname>Melis</surname><given-names>M.</given-names></name>; <name><surname>Scheggi</surname><given-names>S.</given-names></name>; <name><surname>Carta</surname><given-names>G.</given-names></name>; <name><surname>Madeddu</surname><given-names>C.</given-names></name>; <name><surname>Lecca</surname><given-names>S.</given-names></name>; <name><surname>Luchicchi</surname><given-names>A.</given-names></name>; <name><surname>Cadeddu</surname><given-names>F.</given-names></name>; <name><surname>Frau</surname><given-names>R.</given-names></name>; <name><surname>Fattore</surname><given-names>L.</given-names></name>; <name><surname>Fadda</surname><given-names>P.</given-names></name>; <name><surname>Ennas</surname><given-names>M. G.</given-names></name>; <name><surname>Castelli</surname><given-names>M. P.</given-names></name>; <name><surname>Fratta</surname><given-names>W.</given-names></name>; <name><surname>Schilstrom</surname><given-names>B.</given-names></name>; <name><surname>Banni</surname><given-names>S.</given-names></name>; <name><surname>De Montis</surname><given-names>M. G.</given-names></name>; <name><surname>Pistis</surname><given-names>M.</given-names></name> (<year>2013</year>) <article-title>PPAR&#x003b1; regulates cholinergic-driven activity of
+midbrain dopamine neurons via a novel mechanism involving &#x003b1;7
+nicotinic acetylcholine receptors</article-title>. <source>J. Neurosci.</source>
+<volume>33</volume>, <fpage>6203</fpage>&#x02013;<lpage>6211</lpage>.<pub-id pub-id-type="pmid">23554501</pub-id></mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name><surname>Hurst</surname><given-names>R. S.</given-names></name>; <name><surname>Haj&#x000f3;s</surname><given-names>M.</given-names></name>; <name><surname>Raggenbass</surname><given-names>M.</given-names></name>; <name><surname>Wall</surname><given-names>T. M.</given-names></name>; <name><surname>Higdon</surname><given-names>N. R.</given-names></name>; <name><surname>Lawson</surname><given-names>J. A.</given-names></name>; <name><surname>Rutherford-Root</surname><given-names>K. L.</given-names></name>; <name><surname>Berkenpas</surname><given-names>M. B.</given-names></name>; <name><surname>Hoffmann</surname><given-names>W. E.</given-names></name>; <name><surname>Piotrowski</surname><given-names>D. W.</given-names></name>; <name><surname>Groppi</surname><given-names>V. E.</given-names></name>; <name><surname>Allaman</surname><given-names>G.</given-names></name>; <name><surname>Ogier</surname><given-names>R.</given-names></name>; <name><surname>Bertrand</surname><given-names>S.</given-names></name>; <name><surname>Bertrand</surname><given-names>D.</given-names></name>; <name><surname>Arneric</surname><given-names>S. P.</given-names></name> (<year>2005</year>) <article-title>A novel
+positive allosteric modulator of the &#x003b1;7 neuronal nicotinic acetylcholine
+receptor: <italic>in vitro</italic> and <italic>in vivo</italic> characterization</article-title>. <source>J. Neurosci.</source>
+<volume>25</volume>, <fpage>4396</fpage>&#x02013;<lpage>4405</lpage>.<pub-id pub-id-type="pmid">15858066</pub-id></mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal" id="cit30"><name><surname>Schilstr&#x000f6;m</surname><given-names>B.</given-names></name>; <name><surname>Rawal</surname><given-names>N.</given-names></name>; <name><surname>Mameli-Engvall</surname><given-names>M.</given-names></name>; <name><surname>Nomikos</surname><given-names>G. G.</given-names></name>; <name><surname>Svensson</surname><given-names>T. H.</given-names></name> (<year>2003</year>) <article-title>Dual effects
+of nicotine on dopamine neurons mediated by different nicotinic receptor
+subtypes</article-title>. <source>Int. J. Neuropsychopharmacol.</source>
+<volume>6</volume>, <fpage>1</fpage>&#x02013;<lpage>11</lpage>.<pub-id pub-id-type="pmid">12899731</pub-id></mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name><surname>Wu</surname><given-names>J.</given-names></name>; <name><surname>George</surname><given-names>A. A.</given-names></name>; <name><surname>Schroeder</surname><given-names>K. M.</given-names></name>; <name><surname>Xu</surname><given-names>L.</given-names></name>; <name><surname>Marxer-Miller</surname><given-names>S.</given-names></name>; <name><surname>Lucero</surname><given-names>L.</given-names></name>; <name><surname>Lukas</surname><given-names>R. J.</given-names></name> (<year>2004</year>) <article-title>Electrophysiological,
+pharmacological,
+and molecular evidence for &#x003b1;7-nicotinic acetylcholine receptors
+in rat midbrain dopamine neurons</article-title>. <source>J. Pharmacol.
+Exp. Ther.</source>
+<volume>311</volume>, <fpage>80</fpage>&#x02013;<lpage>91</lpage>.<pub-id pub-id-type="pmid">15178698</pub-id></mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal" id="cit32"><name><surname>Klink</surname><given-names>R.</given-names></name>; <name><surname>de Kerchove d&#x02019;Exaerde</surname><given-names>A.</given-names></name>; <name><surname>Zoli</surname><given-names>M.</given-names></name>; <name><surname>Changeux</surname><given-names>J. P.</given-names></name> (<year>2001</year>) <article-title>Molecular
+and physiological diversity of nicotinic acetylcholine receptors in
+the midbrain dopaminergic nuclei</article-title>. <source>J. Neurosci.</source>
+<volume>21</volume>, <fpage>1452</fpage>&#x02013;<lpage>1463</lpage>.<pub-id pub-id-type="pmid">11222635</pub-id></mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name><surname>Yang</surname><given-names>K.</given-names></name>; <name><surname>Hu</surname><given-names>J.</given-names></name>; <name><surname>Lucero</surname><given-names>L.</given-names></name>; <name><surname>Liu</surname><given-names>Q.</given-names></name>; <name><surname>Zheng</surname><given-names>C.</given-names></name>; <name><surname>Zhen</surname><given-names>X.</given-names></name>; <name><surname>Jin</surname><given-names>G.</given-names></name>; <name><surname>Lukas</surname><given-names>R. J.</given-names></name>; <name><surname>Wu</surname><given-names>J.</given-names></name> (<year>2009</year>) <article-title>Distinctive nicotinic acetylcholine
+receptor functional phenotypes of rat ventral tegmental area dopaminergic
+neurons</article-title>. <source>J. Physiol.</source>
+<volume>587</volume>, <fpage>345</fpage>&#x02013;<lpage>361</lpage>.<pub-id pub-id-type="pmid">19047205</pub-id></mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="journal" id="cit34"><name><surname>Grady</surname><given-names>S. R.</given-names></name>; <name><surname>Salminen</surname><given-names>O.</given-names></name>; <name><surname>Laverty</surname><given-names>D. C.</given-names></name>; <name><surname>Whiteaker</surname><given-names>P.</given-names></name>; <name><surname>McIntosh</surname><given-names>J. M.</given-names></name>; <name><surname>Collins</surname><given-names>A. C.</given-names></name>; <name><surname>Marks</surname><given-names>M. J.</given-names></name> (<year>2007</year>) <article-title>The subtypes of
+nicotinic acetylcholine receptors on dopaminergic terminals of mouse
+striatum</article-title>. <source>Biochem. Pharmacol.</source>
+<volume>74</volume>, <fpage>1235</fpage>&#x02013;<lpage>1246</lpage>.<pub-id pub-id-type="pmid">17825262</pub-id></mixed-citation></ref><ref id="ref35"><mixed-citation publication-type="journal" id="cit35"><name><surname>Livingstone</surname><given-names>P. D.</given-names></name>; <name><surname>Wonnacott</surname><given-names>S.</given-names></name> (<year>2009</year>) <article-title>Nicotinic
+acetylcholine receptors and the ascending
+dopamine pathways</article-title>. <source>Biochem. Pharmacol.</source>
+<volume>78</volume>, <fpage>744</fpage>&#x02013;<lpage>755</lpage>.<pub-id pub-id-type="pmid">19523928</pub-id></mixed-citation></ref><ref id="ref36"><mixed-citation publication-type="journal" id="cit36"><name><surname>Zhang</surname><given-names>H.</given-names></name>; <name><surname>Sulzer</surname><given-names>D.</given-names></name> (<year>2003</year>) <article-title>Glutamate spillover
+in the striatum depresses dopaminergic
+transmission by activating group I metabotropic glutamate receptors</article-title>. <source>J. Neurosci.</source>
+<volume>23</volume>, <fpage>10585</fpage>&#x02013;<lpage>10592</lpage>.<pub-id pub-id-type="pmid">14627643</pub-id></mixed-citation></ref><ref id="ref37"><mixed-citation publication-type="journal" id="cit37"><name><surname>Papke</surname><given-names>R. L.</given-names></name>; <name><surname>Kem</surname><given-names>W. R.</given-names></name>; <name><surname>Soti</surname><given-names>F.</given-names></name>; <name><surname>Lopez-Hernandez</surname><given-names>G. Y.</given-names></name>; <name><surname>Horenstein</surname><given-names>N. A.</given-names></name> (<year>2009</year>) <article-title>Activation and desensitization of nicotinic &#x003b1;7-type
+acetylcholine receptors by benzylidene anabaseines and nicotine</article-title>. <source>J. Pharmacol. Exp. Ther.</source>
+<volume>329</volume>, <fpage>791</fpage>&#x02013;<lpage>807</lpage>.<pub-id pub-id-type="pmid">19223664</pub-id></mixed-citation></ref><ref id="ref38"><mixed-citation publication-type="journal" id="cit38"><name><surname>Kalappa</surname><given-names>B. I.</given-names></name>; <name><surname>Uteshev</surname><given-names>V. V.</given-names></name> (<year>2013</year>) <article-title>The dual effect of PNU-120596 on &#x003b1;7 nicotinic
+acetylcholine receptor channels</article-title>. <source>Eur. J. Pharmacol.</source>
+<volume>718</volume>, <fpage>226</fpage>&#x02013;<lpage>234</lpage>.<pub-id pub-id-type="pmid">24036349</pub-id></mixed-citation></ref><ref id="ref39"><mixed-citation publication-type="journal" id="cit39"><name><surname>Hu</surname><given-names>G.</given-names></name>; <name><surname>Duffy</surname><given-names>P.</given-names></name>; <name><surname>Swanson</surname><given-names>C.</given-names></name>; <name><surname>Ghasemzadeh</surname><given-names>M. B.</given-names></name>; <name><surname>Kalivas</surname><given-names>P. W.</given-names></name> (<year>1999</year>) <article-title>The regulation of dopamine transmission
+by metabotropic
+glutamate receptors</article-title>. <source>J. Pharmacol. Exp. Ther.</source>
+<volume>289</volume>, <fpage>412</fpage>&#x02013;<lpage>416</lpage>.<pub-id pub-id-type="pmid">10087032</pub-id></mixed-citation></ref><ref id="ref40"><mixed-citation publication-type="journal" id="cit40"><name><surname>van
+Zessen</surname><given-names>R.</given-names></name>; <name><surname>Phillips</surname><given-names>J. L.</given-names></name>; <name><surname>Budygin</surname><given-names>E. A.</given-names></name>; <name><surname>Stuber</surname><given-names>G. D.</given-names></name> (<year>2012</year>) <article-title>Activation
+of VTA GABA neurons disrupts reward consumption</article-title>. <source>Neuron</source>
+<volume>73</volume>, <fpage>1184</fpage>&#x02013;<lpage>1194</lpage>.<pub-id pub-id-type="pmid">22445345</pub-id></mixed-citation></ref><ref id="ref41"><mixed-citation publication-type="journal" id="cit41"><name><surname>Wang</surname><given-names>Y.</given-names></name>; <name><surname>Sherwood</surname><given-names>J. L.</given-names></name>; <name><surname>Miles</surname><given-names>C. P.</given-names></name>; <name><surname>Whiffin</surname><given-names>G.</given-names></name>; <name><surname>Lodge</surname><given-names>D.</given-names></name> (<year>2006</year>) <article-title>TC-2559 excites
+dopaminergic neurones in the ventral tegmental area by stimulating
+&#x003b1;4&#x003b2;2-like nicotinic acetylcholine receptors in anaesthetised
+rats</article-title>. <source>Br. J. Pharmacol.</source>
+<volume>147</volume>, <fpage>379</fpage>&#x02013;<lpage>390</lpage>.<pub-id pub-id-type="pmid">16402043</pub-id></mixed-citation></ref><ref id="ref42"><mixed-citation publication-type="journal" id="cit42"><name><surname>Glowinski</surname><given-names>J.</given-names></name>; <name><surname>Cheramy</surname><given-names>A.</given-names></name>; <name><surname>Romo</surname><given-names>R.</given-names></name>; <name><surname>Barbeito</surname><given-names>L.</given-names></name> (<year>1988</year>) <article-title>Presynaptic
+regulation
+of dopaminergic transmission in the striatum</article-title>. <source>Cell. Mol. Neurobiol.</source>
+<volume>8</volume>, <fpage>7</fpage>&#x02013;<lpage>17</lpage>.<pub-id pub-id-type="pmid">2900072</pub-id></mixed-citation></ref><ref id="ref43"><mixed-citation publication-type="journal" id="cit43"><name><surname>Cheramy</surname><given-names>A.</given-names></name>; <name><surname>Desce</surname><given-names>J. M.</given-names></name>; <name><surname>Godeheu</surname><given-names>G.</given-names></name>; <name><surname>Glowinski</surname><given-names>J.</given-names></name> (<year>1994</year>) <article-title>Presynaptic
+control of dopamine synthesis and release by excitatory amino acids
+in rat striatal synaptosomes</article-title>. <source>Neurochem. Int.</source>
+<volume>25</volume>, <fpage>145</fpage>&#x02013;<lpage>154</lpage>.<pub-id pub-id-type="pmid">7994195</pub-id></mixed-citation></ref><ref id="ref44"><mixed-citation publication-type="journal" id="cit44"><name><surname>Marchi</surname><given-names>M.</given-names></name>; <name><surname>Risso</surname><given-names>F.</given-names></name>; <name><surname>Viola</surname><given-names>C.</given-names></name>; <name><surname>Cavazzani</surname><given-names>P.</given-names></name>; <name><surname>Raiteri</surname><given-names>M.</given-names></name> (<year>2002</year>) <article-title>Direct evidence that release-stimulating
+&#x003b1;7*
+nicotinic cholinergic receptors are localized on human and rat brain
+glutamatergic axon terminals</article-title>. <source>J. Neurochem.</source>
+<volume>80</volume>, <fpage>1071</fpage>&#x02013;<lpage>1078</lpage>.<pub-id pub-id-type="pmid">11953457</pub-id></mixed-citation></ref><ref id="ref45"><mixed-citation publication-type="journal" id="cit45"><name><surname>Garcao</surname><given-names>P.</given-names></name>; <name><surname>Oliveira</surname><given-names>C. R.</given-names></name>; <name><surname>Cunha</surname><given-names>R. A.</given-names></name>; <name><surname>Agostinho</surname><given-names>P.</given-names></name> (<year>2014</year>) <article-title>Subsynaptic
+localization of nicotinic acetylcholine receptor subunits: A comparative
+study in the mouse and rat striatum</article-title>. <source>Neurosci.
+Lett.</source>
+<volume>566</volume>, <fpage>106</fpage>&#x02013;<lpage>110</lpage>.<pub-id pub-id-type="pmid">24607281</pub-id></mixed-citation></ref><ref id="ref46"><mixed-citation publication-type="journal" id="cit46"><name><surname>Lenoir</surname><given-names>M.</given-names></name>; <name><surname>Kiyatkin</surname><given-names>E. A.</given-names></name> (<year>2013</year>) <article-title>Intravenous nicotine
+injection induces rapid, experience-dependent
+sensitization of glutamate release in the ventral tegmental area and
+nucleus accumbens</article-title>. <source>J. Neurochem.</source>
+<volume>127</volume>, <fpage>541</fpage>&#x02013;<lpage>551</lpage>.<pub-id pub-id-type="pmid">24032718</pub-id></mixed-citation></ref><ref id="ref47"><mixed-citation publication-type="journal" id="cit47"><name><surname>Goldberg</surname><given-names>J. A.</given-names></name>; <name><surname>Reynolds</surname><given-names>J. N.</given-names></name> (<year>2011</year>) <article-title>Spontaneous firing
+and evoked pauses in the tonically
+active cholinergic interneurons of the striatum</article-title>. <source>Neuroscience</source>
+<volume>198</volume>, <fpage>27</fpage>&#x02013;<lpage>43</lpage>.<pub-id pub-id-type="pmid">21925242</pub-id></mixed-citation></ref><ref id="ref48"><mixed-citation publication-type="book" id="cit48"><person-group person-group-type="allauthors"><name><surname>Albuquerque</surname><given-names>E. X.</given-names></name>, <name><surname>Pereira</surname><given-names>E. F. R.</given-names></name>, and <name><surname>Alkondon</surname><given-names>M.</given-names></name></person-group> (<year>2013</year>) <article-title>Tonic activation of &#x003b1;7 nicotinic acetylcholine
+receptors (nAChRs) controls glutamatergic inputs to striatal and parietal
+cortical neurons in guinea pig brain slices</article-title>, in <source>Society for Neuroscience Annual Meeting</source>, p <fpage>224.01</fpage>, <publisher-name>Society for Neuroscience</publisher-name>, <publisher-loc>San Diego, CA</publisher-loc>.</mixed-citation></ref><ref id="ref49"><mixed-citation publication-type="journal" id="cit49"><name><surname>Wu</surname><given-names>H. Q.</given-names></name>; <name><surname>Rassoulpour</surname><given-names>A.</given-names></name>; <name><surname>Schwarcz</surname><given-names>R.</given-names></name> (<year>2007</year>) <article-title>Kynurenic acid leads, dopamine follows:
+A new case of volume transmission in the brain?</article-title>. <source>J. Neural Transm.</source>
+<volume>114</volume>, <fpage>33</fpage>&#x02013;<lpage>41</lpage>.<pub-id pub-id-type="pmid">16932989</pub-id></mixed-citation></ref><ref id="ref50"><mixed-citation publication-type="journal" id="cit50"><name><surname>Kulagina</surname><given-names>N. V.</given-names></name>; <name><surname>Zigmond</surname><given-names>M. J.</given-names></name>; <name><surname>Michael</surname><given-names>A. C.</given-names></name> (<year>2001</year>) <article-title>Glutamate regulates the spontaneous
+and evoked release of dopamine in the rat striatum</article-title>. <source>Neuroscience</source>
+<volume>102</volume>, <fpage>121</fpage>&#x02013;<lpage>128</lpage>.<pub-id pub-id-type="pmid">11226675</pub-id></mixed-citation></ref><ref id="ref51"><mixed-citation publication-type="journal" id="cit51"><name><surname>Wang</surname><given-names>Y.</given-names></name>; <name><surname>Moquin</surname><given-names>K. F.</given-names></name>; <name><surname>Michael</surname><given-names>A. C.</given-names></name> (<year>2010</year>) <article-title>Evidence for coupling between steady-state
+and dynamic extracellular dopamine concentrations in the rat striatum</article-title>. <source>J. Neurochem.</source>
+<volume>114</volume>, <fpage>150</fpage>&#x02013;<lpage>159</lpage>.<pub-id pub-id-type="pmid">20403079</pub-id></mixed-citation></ref><ref id="ref52"><mixed-citation publication-type="journal" id="cit52"><name><surname>Besson</surname><given-names>M.</given-names></name>; <name><surname>David</surname><given-names>V.</given-names></name>; <name><surname>Baudonnat</surname><given-names>M.</given-names></name>; <name><surname>Cazala</surname><given-names>P.</given-names></name>; <name><surname>Guilloux</surname><given-names>J. P.</given-names></name>; <name><surname>Reperant</surname><given-names>C.</given-names></name>; <name><surname>Cloez-Tayarani</surname><given-names>I.</given-names></name>; <name><surname>Changeux</surname><given-names>J. P.</given-names></name>; <name><surname>Gardier</surname><given-names>A. M.</given-names></name>; <name><surname>Granon</surname><given-names>S.</given-names></name> (<year>2012</year>) <article-title>Alpha7-nicotinic receptors modulate nicotine-induced
+reinforcement and extracellular dopamine outflow in the mesolimbic
+system in mice</article-title>. <source>Psychopharmacology (Berlin,
+Ger.)</source>
+<volume>220</volume>, <fpage>1</fpage>&#x02013;<lpage>14</lpage>.</mixed-citation></ref><ref id="ref53"><mixed-citation publication-type="journal" id="cit53"><name><surname>Wu</surname><given-names>Y.</given-names></name>; <name><surname>Pearl</surname><given-names>S. M.</given-names></name>; <name><surname>Zigmond</surname><given-names>M. J.</given-names></name>; <name><surname>Michael</surname><given-names>A. C.</given-names></name> (<year>2000</year>) <article-title>Inhibitory glutamatergic
+regulation of evoked dopamine release in striatum</article-title>. <source>Neuroscience</source>
+<volume>96</volume>, <fpage>65</fpage>&#x02013;<lpage>72</lpage>.<pub-id pub-id-type="pmid">10683411</pub-id></mixed-citation></ref><ref id="ref54"><mixed-citation publication-type="book" id="cit54"><person-group person-group-type="allauthors"><name><surname>Grinevich</surname><given-names>V. P.</given-names></name>, <name><surname>O&#x02019;Connor</surname><given-names>J. A.</given-names></name>, <name><surname>Bencherif</surname><given-names>M.</given-names></name>, and <name><surname>Budygin</surname><given-names>E. A.</given-names></name></person-group> (<year>2009</year>) <article-title>Effects of nicotine on real time dopamine dynamics
+in rat nucleus accumbens: In vivo voltammetric study</article-title>, in <source>Society for Neuroscience Annual Meeting</source>, p <fpage>226.12</fpage>, <publisher-name>Society for Neuroscience</publisher-name>, <publisher-loc>Chicago</publisher-loc>.</mixed-citation></ref><ref id="ref55"><mixed-citation publication-type="journal" id="cit55"><name><surname>Campling</surname><given-names>B. G.</given-names></name>; <name><surname>Kuryatov</surname><given-names>A.</given-names></name>; <name><surname>Lindstrom</surname><given-names>J.</given-names></name> (<year>2013</year>) <article-title>Acute activation, desensitization
+and smoldering activation of human acetylcholine receptors</article-title>. <source>PLoS One</source>
+<volume>8</volume>, <elocation-id>e79653</elocation-id>.<pub-id pub-id-type="pmid">24244538</pub-id></mixed-citation></ref><ref id="ref56"><mixed-citation publication-type="journal" id="cit56"><name><surname>Vinson</surname><given-names>P. N.</given-names></name>; <name><surname>Justice</surname><given-names>J. B.</given-names><suffix>Jr.</suffix></name> (<year>1997</year>) <article-title>Effect of neostigmine on concentration
+and extraction fraction of acetylcholine using quantitative microdialysis</article-title>. <source>J. Neurosci. Methods</source>
+<volume>73</volume>, <fpage>61</fpage>&#x02013;<lpage>67</lpage>.<pub-id pub-id-type="pmid">9130679</pub-id></mixed-citation></ref><ref id="ref57"><mixed-citation publication-type="journal" id="cit57"><name><surname>Arroyo</surname><given-names>S.</given-names></name>; <name><surname>Bennett</surname><given-names>C.</given-names></name>; <name><surname>Hestrin</surname><given-names>S.</given-names></name> (<year>2014</year>) <article-title>Nicotinic modulation of cortical
+circuits</article-title>. <source>Front. Neural Circuits</source>
+<volume>8</volume>, <fpage>30</fpage>.<pub-id pub-id-type="pmid">24734005</pub-id></mixed-citation></ref><ref id="ref58"><mixed-citation publication-type="journal" id="cit58"><name><surname>Owesson-White</surname><given-names>C. A.</given-names></name>; <name><surname>Roitman</surname><given-names>M. F.</given-names></name>; <name><surname>Sombers</surname><given-names>L. A.</given-names></name>; <name><surname>Belle</surname><given-names>A. M.</given-names></name>; <name><surname>Keithley</surname><given-names>R. B.</given-names></name>; <name><surname>Peele</surname><given-names>J. L.</given-names></name>; <name><surname>Carelli</surname><given-names>R. M.</given-names></name>; <name><surname>Wightman</surname><given-names>R. M.</given-names></name> (<year>2012</year>) <article-title>Sources contributing
+to the average extracellular concentration of dopamine in the nucleus
+accumbens</article-title>. <source>J. Neurochem.</source>
+<volume>121</volume>, <fpage>252</fpage>&#x02013;<lpage>262</lpage>.<pub-id pub-id-type="pmid">22296263</pub-id></mixed-citation></ref><ref id="ref59"><mixed-citation publication-type="journal" id="cit59"><name><surname>Zuo</surname><given-names>P. L.</given-names></name>; <name><surname>Yao</surname><given-names>W.</given-names></name>; <name><surname>Sun</surname><given-names>L.</given-names></name>; <name><surname>Kuo</surname><given-names>S. T.</given-names></name>; <name><surname>Li</surname><given-names>Q.</given-names></name>; <name><surname>Wang</surname><given-names>S. R.</given-names></name>; <name><surname>Dou</surname><given-names>H. Q.</given-names></name>; <name><surname>Xu</surname><given-names>H. D.</given-names></name>; <name><surname>Zhang</surname><given-names>C. X.</given-names></name>; <name><surname>Kang</surname><given-names>X. J.</given-names></name>; <name><surname>Zhou</surname><given-names>Z.</given-names></name>; <name><surname>Zhang</surname><given-names>B.</given-names></name> (<year>2013</year>) <article-title>Impulse-dependent extracellular
+resting
+dopamine concentration in rat striatum in vivo</article-title>. <source>Neurochem. Int.</source>
+<volume>62</volume>, <fpage>50</fpage>&#x02013;<lpage>57</lpage>.<pub-id pub-id-type="pmid">23159778</pub-id></mixed-citation></ref><ref id="ref60"><mixed-citation publication-type="journal" id="cit60"><name><surname>Chen</surname><given-names>K. C.</given-names></name>; <name><surname>Budygin</surname><given-names>E. A.</given-names></name> (<year>2007</year>) <article-title>Extracting the basal extracellular dopamine concentrations
+from the evoked responses: Re-analysis of the dopamine kinetics</article-title>. <source>J. Neurosci. Methods</source>
+<volume>164</volume>, <fpage>27</fpage>&#x02013;<lpage>42</lpage>.<pub-id pub-id-type="pmid">17498808</pub-id></mixed-citation></ref><ref id="ref61"><mixed-citation publication-type="journal" id="cit61"><name><surname>Shu</surname><given-names>Z.</given-names></name>; <name><surname>Taylor</surname><given-names>I. M.</given-names></name>; <name><surname>Michael</surname><given-names>A. C.</given-names></name> (<year>2013</year>) <article-title>The dopamine patchwork of the rat
+nucleus accumbens core</article-title>. <source>Eur. J. Neurosci.</source>
+<volume>38</volume>, <fpage>3221</fpage>&#x02013;<lpage>3229</lpage>.<pub-id pub-id-type="pmid">23937532</pub-id></mixed-citation></ref><ref id="ref62"><mixed-citation publication-type="journal" id="cit62"><name><surname>McLean</surname><given-names>S. L.</given-names></name>; <name><surname>Idris</surname><given-names>N. F.</given-names></name>; <name><surname>Grayson</surname><given-names>B.</given-names></name>; <name><surname>Gendle</surname><given-names>D. F.</given-names></name>; <name><surname>Mackie</surname><given-names>C.</given-names></name>; <name><surname>Lesage</surname><given-names>A. S.</given-names></name>; <name><surname>Pemberton</surname><given-names>D. J.</given-names></name>; <name><surname>Neill</surname><given-names>J. C.</given-names></name> (<year>2012</year>) <article-title>PNU-120596, a positive
+allosteric modulator of &#x003b1;7 nicotinic acetylcholine receptors,
+reverses a sub-chronic phencyclidine-induced cognitive deficit in
+the attentional set-shifting task in female rats</article-title>. <source>J. Psychopharmacol.</source>
+<volume>26</volume>, <fpage>1265</fpage>&#x02013;<lpage>1270</lpage>.<pub-id pub-id-type="pmid">22182741</pub-id></mixed-citation></ref><ref id="ref63"><mixed-citation publication-type="journal" id="cit63"><name><surname>Turek</surname><given-names>J. W.</given-names></name>; <name><surname>Kang</surname><given-names>C. H.</given-names></name>; <name><surname>Campbell</surname><given-names>J. E.</given-names></name>; <name><surname>Arneric</surname><given-names>S. P.</given-names></name>; <name><surname>Sullivan</surname><given-names>J. P.</given-names></name> (<year>1995</year>) <article-title>A sensitive
+technique for the detection of the &#x003b1;7 neuronal nicotinic acetylcholine
+receptor antagonist, methyllycaconitine, in rat plasma and brain</article-title>. <source>J. Neurosci. Methods</source>
+<volume>61</volume>, <fpage>113</fpage>&#x02013;<lpage>118</lpage>.<pub-id pub-id-type="pmid">8618408</pub-id></mixed-citation></ref><ref id="ref64"><mixed-citation publication-type="journal" id="cit64"><name><surname>Graupner</surname><given-names>M.</given-names></name>; <name><surname>Maex</surname><given-names>R.</given-names></name>; <name><surname>Gutkin</surname><given-names>B.</given-names></name> (<year>2013</year>) <article-title>Endogenous cholinergic inputs and
+local circuit mechanisms govern the phasic mesolimbic dopamine response
+to nicotine</article-title>. <source>PLoS Comput. Biol.</source>
+<volume>9</volume>, <elocation-id>e1003183</elocation-id>.<pub-id pub-id-type="pmid">23966848</pub-id></mixed-citation></ref><ref id="ref65"><mixed-citation publication-type="journal" id="cit65"><name><surname>Grady</surname><given-names>S. R.</given-names></name>; <name><surname>Grun</surname><given-names>E. U.</given-names></name>; <name><surname>Marks</surname><given-names>M. J.</given-names></name>; <name><surname>Collins</surname><given-names>A. C.</given-names></name> (<year>1997</year>) <article-title>Pharmacological
+comparison of transient and persistent [3H]dopamine release from mouse
+striatal synaptosomes and response to chronic L-nicotine treatment</article-title>. <source>J. Pharmacol. Exp. Ther.</source>
+<volume>282</volume>, <fpage>32</fpage>&#x02013;<lpage>43</lpage>.<pub-id pub-id-type="pmid">9223537</pub-id></mixed-citation></ref><ref id="ref66"><mixed-citation publication-type="journal" id="cit66"><name><surname>Fenster</surname><given-names>C. P.</given-names></name>; <name><surname>Rains</surname><given-names>M. F.</given-names></name>; <name><surname>Noerager</surname><given-names>B.</given-names></name>; <name><surname>Quick</surname><given-names>M. W.</given-names></name>; <name><surname>Lester</surname><given-names>R. A.</given-names></name> (<year>1997</year>) <article-title>Influence
+of subunit composition on desensitization of neuronal acetylcholine
+receptors at low concentrations of nicotine</article-title>. <source>J. Neurosci.</source>
+<volume>17</volume>, <fpage>5747</fpage>&#x02013;<lpage>5759</lpage>.<pub-id pub-id-type="pmid">9221773</pub-id></mixed-citation></ref><ref id="ref67"><mixed-citation publication-type="journal" id="cit67"><name><surname>Buisson</surname><given-names>B.</given-names></name>; <name><surname>Bertrand</surname><given-names>D.</given-names></name> (<year>2001</year>) <article-title>Chronic exposure to
+nicotine upregulates the human
+&#x003b1;4&#x003b2;2 nicotinic acetylcholine receptor function</article-title>. <source>J. Neurosci.</source>
+<volume>21</volume>, <fpage>1819</fpage>&#x02013;<lpage>1829</lpage>.<pub-id pub-id-type="pmid">11245666</pub-id></mixed-citation></ref><ref id="ref68"><mixed-citation publication-type="journal" id="cit68"><name><surname>Salminen</surname><given-names>O.</given-names></name>; <name><surname>Drapeau</surname><given-names>J. A.</given-names></name>; <name><surname>McIntosh</surname><given-names>J. M.</given-names></name>; <name><surname>Collins</surname><given-names>A. C.</given-names></name>; <name><surname>Marks</surname><given-names>M. J.</given-names></name>; <name><surname>Grady</surname><given-names>S. R.</given-names></name> (<year>2007</year>) <article-title>Pharmacology of &#x003b1;-conotoxin MII-sensitive subtypes
+of nicotinic acetylcholine receptors isolated by breeding of null
+mutant mice</article-title>. <source>Mol. Pharmacol.</source>
+<volume>71</volume>, <fpage>1563</fpage>&#x02013;<lpage>1571</lpage>.<pub-id pub-id-type="pmid">17341654</pub-id></mixed-citation></ref><ref id="ref69"><mixed-citation publication-type="journal" id="cit69"><name><surname>Engelman</surname><given-names>H. S.</given-names></name>; <name><surname>MacDermott</surname><given-names>A. B.</given-names></name> (<year>2004</year>) <article-title>Presynaptic ionotropic receptors
+and control of transmitter
+release</article-title>. <source>Nat. Rev. Neurosci.</source>
+<volume>5</volume>, <fpage>135</fpage>&#x02013;<lpage>145</lpage>.<pub-id pub-id-type="pmid">14735116</pub-id></mixed-citation></ref><ref id="ref70"><mixed-citation publication-type="journal" id="cit70"><name><surname>Fiorillo</surname><given-names>C. D.</given-names></name>; <name><surname>Williams</surname><given-names>J. T.</given-names></name> (<year>1998</year>) <article-title>Glutamate mediates an inhibitory
+postsynaptic potential
+in dopamine neurons</article-title>. <source>Nature</source>
+<volume>394</volume>, <fpage>78</fpage>&#x02013;<lpage>82</lpage>.<pub-id pub-id-type="pmid">9665131</pub-id></mixed-citation></ref><ref id="ref71"><mixed-citation publication-type="journal" id="cit71"><name><surname>Grace</surname><given-names>A. A.</given-names></name> (<year>1991</year>) <article-title>Phasic
+versus tonic dopamine release and the modulation of dopamine system
+responsivity: A hypothesis for the etiology of schizophrenia</article-title>. <source>Neuroscience</source>
+<volume>41</volume>, <fpage>1</fpage>&#x02013;<lpage>24</lpage>.<pub-id pub-id-type="pmid">1676137</pub-id></mixed-citation></ref><ref id="ref72"><mixed-citation publication-type="journal" id="cit72"><name><surname>Papke</surname><given-names>R. L.</given-names></name>; <name><surname>Dwoskin</surname><given-names>L. P.</given-names></name>; <name><surname>Crooks</surname><given-names>P. A.</given-names></name> (<year>2007</year>) <article-title>The pharmacological activity of nicotine
+and nornicotine on nAChRs subtypes: Relevance to nicotine dependence
+and drug discovery</article-title>. <source>J. Neurochem.</source>
+<volume>101</volume>, <fpage>160</fpage>&#x02013;<lpage>167</lpage>.<pub-id pub-id-type="pmid">17241116</pub-id></mixed-citation></ref><ref id="ref73"><mixed-citation publication-type="journal" id="cit73"><name><surname>Grady</surname><given-names>S. R.</given-names></name>; <name><surname>Drenan</surname><given-names>R. M.</given-names></name>; <name><surname>Breining</surname><given-names>S. R.</given-names></name>; <name><surname>Yohannes</surname><given-names>D.</given-names></name>; <name><surname>Wageman</surname><given-names>C. R.</given-names></name>; <name><surname>Fedorov</surname><given-names>N. B.</given-names></name>; <name><surname>McKinney</surname><given-names>S.</given-names></name>; <name><surname>Whiteaker</surname><given-names>P.</given-names></name>; <name><surname>Bencherif</surname><given-names>M.</given-names></name>; <name><surname>Lester</surname><given-names>H. A.</given-names></name>; <name><surname>Marks</surname><given-names>M. J.</given-names></name> (<year>2010</year>) <article-title>Structural
+differences
+determine the relative selectivity of nicotinic compounds for native
+&#x003b1;4&#x003b2;2*-, &#x003b1;6&#x003b2;2*-, &#x003b1;3&#x003b2;4*- and &#x003b1;7-nicotine
+acetylcholine receptors</article-title>. <source>Neuropharmacology</source>
+<volume>58</volume>, <fpage>1054</fpage>&#x02013;<lpage>1066</lpage>.<pub-id pub-id-type="pmid">20114055</pub-id></mixed-citation></ref></ref-list></back></article>

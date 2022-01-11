@@ -1,0 +1,358 @@
+references:
+- label: 'David Golomb, Karnit Donner, Liron Shacham, Dan Shlosberg, Yael Amitai &
+    David Hansel. Mechanisms of firing patterns in fast-spiking cortical interneurons.
+    PLoS Computational Biology 3, 8: e156 (2007).'
+  uri: http://identifiers.org/doi:10.1371/journal.pcbi.0030156
+taxa: []
+thumbnails:
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
+    Strength of the Na<sup>+</sup> Window Conductance</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">The maximal value of <italic>m</italic>
+
+    <sub>&#8734;</sub>
+
+    <sup>3</sup>
+
+    <italic>h</italic>
+
+    <sub>&#8734;</sub>(V) with respect to <italic>V</italic> (<xref ref-type="disp-formula"
+    rid="pcbi-0030156-e006">Equation 6</xref>) is plotted as a function of &#952;<sub>m</sub>.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1941757/PMC1941757/pcbi.0030156.g001.jpg
+  id: pcbi.0030156/pcbi-0030156-g001
+  label: Figure 1
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Responses
+    of the Model Neuron to Noiseless Current Steps for Small Na<sup>+</sup> Window
+    Current (<italic>&#952;</italic>
+
+    <sub>m</sub> = &#8722;24 mV)</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(A) The phase diagram of the model
+    neuron in the <italic>I</italic>
+
+    <sub>app</sub>-<italic>g</italic>
+
+    <sub>d</sub> plane. The solid line represents the current threshold, <italic>I</italic>
+
+    <sub>th</sub>, as a function of <italic>g</italic>
+
+    <sub>d</sub>. To the left of this line, the neuron is quiescent. To the right
+    of the dashed line, the spike response is almost immediate after the current step
+    onset. Stuttering emerges on the dotted line via a torus bifurcation.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(B) Top panel: the membrane potential
+    <italic>V</italic> in response to a step of current for <italic>g</italic>
+
+    <sub>d</sub> = 0.1 mS/cm<sup>2</sup> and <italic>I</italic>
+
+    <sub>app</sub> = 3.35 &#956;A/cm<sup>2</sup>. The neuron exhibits non-delayed,
+    high-frequency tonic firing. Bottom panel: the <italic>f-I</italic>
+
+    <sub>app</sub> curve for <italic>g</italic>
+
+    <sub>d</sub> = 0.1 mS/cm<sup>2</sup> is discontinuous at the current threshold.
+    The minimal frequency is 27.4 Hz.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(C) For <italic>g</italic>
+
+    <sub>d</sub> = 0.39 mS/cm<sup>2</sup>, <italic>I</italic>
+
+    <sub>app</sub> = 3.35 &#956;A/cm<sup>2</sup>, the neuron exhibits delayed, high-frequency
+    tonic firing.</p><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(D)
+    For <italic>g</italic>
+
+    <sub>d</sub> = 1.8 mS/cm<sup>2</sup> and <italic>I</italic>
+
+    <sub>app</sub> = 4.2 &#956;A/cm<sup>2</sup>, the neuron exhibits delayed stuttering.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1941757/PMC1941757/pcbi.0030156.g002.jpg
+  id: pcbi.0030156/pcbi-0030156-g002
+  label: Figure 2
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Responses
+    of the Model Neuron to Noiseless Current Steps for Large Na<sup>+</sup> Window
+    Current (<italic>&#952;</italic>
+
+    <sub>m</sub> = &#8722;28 mV)</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(A) Phase diagram of the model
+    neuron in the <italic>I</italic>
+
+    <sub>app</sub>-<italic>g</italic>
+
+    <sub>d</sub> plane. Solid line: current threshold to action potential firing.
+    Dashed line: to the right of the dashed line, the spike response is almost immediate
+    after the current step onset. Period doubling bifurcations occur on the dotted
+    lines, leading to doublet or complex firing (grey region).</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(B) Voltage traces for <italic>g</italic>
+
+    <sub>d</sub> = 0.39 mS/cm<sup>2</sup>
+
+    <italic>.</italic> Top: for <italic>I</italic>
+
+    <sub>app</sub> = 1.25 &#956;A/cm<sup>2</sup>, the neuron displays low frequency
+    delayed tonic firing. Bottom: for <italic>I</italic>
+
+    <sub>app</sub> = 1.27 &#956;A/cm<sup>2</sup>, the neuron fires doublets of action
+    potentials.</p><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(C)
+    The steady-state <italic>f</italic>-<italic>I</italic>
+
+    <sub>app</sub> curve of the neuron; <italic>g</italic>
+
+    <sub>d</sub> is as in (B). The average firing frequency goes to zero at firing
+    threshold. Between the two solid circles, the neuron fires doublets of spikes.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1941757/PMC1941757/pcbi.0030156.g003.jpg
+  id: pcbi.0030156/pcbi-0030156-g003
+  label: Figure 3
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Dependence
+    of the Delay Duration <italic>t</italic>
+
+    <sub>delay</sub> on the Amplitude of the Current Step <italic>I</italic>
+
+    <sub>app</sub>
+
+    </title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(A)
+    <italic>&#952;</italic>
+
+    <sub>m</sub> = &#8722;24 mV.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(B) <italic>&#952;</italic>
+
+    <sub>m</sub> = &#8722;28 mV. In the two panels, <italic>g</italic>
+
+    <sub>d</sub> = 0.39 mS/cm<sup>2</sup>. Solid lines: noiseless input (<italic>D</italic>
+    = 0). Dashed lines: noisy input with variance <italic>D</italic> = 0.01 &#956;A<sup>2</sup>
+    &#215; ms/cm<sup>4</sup>. The delay duration was averaged over 50 trials. Gray
+    lines represent one standard deviation around the mean value of <italic>t</italic>
+
+    <sub>delay</sub> for noisy input.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1941757/PMC1941757/pcbi.0030156.g004.jpg
+  id: pcbi.0030156/pcbi-0030156-g004
+  label: Figure 4
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Bifurcation
+    Diagrams and the Fast&#8211;Slow Analysis of the Model Neuron</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(A&#8211;C) are for small and (D&#8211;F)
+    for large Na<sup>+</sup> window currents. Parameters in (A&#8211;C) are as in
+    <xref ref-type="fig" rid="pcbi-0030156-g002">Figure 2</xref>C: <italic>&#952;</italic>
+
+    <sub>m</sub> = &#8722;24 mV, <italic>g</italic>
+
+    <sub>d</sub> = 0.39 mS/cm<sup>2</sup>, <italic>I</italic>
+
+    <sub>app</sub> = 3.35 &#956;A/cm<sup>2</sup>. Parameters in (D&#8211;F) are as
+    in the top panel in <xref ref-type="fig" rid="pcbi-0030156-g003">Figure 3</xref>B:
+    <italic>&#952;</italic>
+
+    <sub>m</sub> = &#8722;28 mV, <italic>g</italic>
+
+    <sub>d</sub> = 0.39 mS/cm<sup>2</sup>, <italic>I</italic>
+
+    <sub>app</sub> = 1.25 &#956;A/cm<sup>2</sup>.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(A,D) The bifurcation diagram of
+    the fast subsystem in the <italic>V</italic>-<italic>b</italic> space.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(B,E) The frequency <italic>f</italic>
+    of the limit cycle of the fast subsystem, plotted as a function of <italic>b</italic>
+    (<italic>f</italic>-<italic>b</italic> curves).</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(C,F) The functions <italic>b</italic>
+
+    <sub>&#8734;</sub>(<italic>V</italic>
+
+    <sub>FP</sub>(<italic>b</italic>)) and <italic>F</italic>(<italic>b</italic>)
+    (<xref ref-type="disp-formula" rid="pcbi-0030156-e002">Equation 2</xref>) plotted
+    as a function of <italic>b</italic>. Thin solid lines: stable fixed points; thin
+    dotted lines: unstable fixed points; thick solid line: stable limit cycle (periodic
+    state); thick dotted line: unstable limit cycle. Solid circles denote Hopf, saddle-node
+    (SN), and saddle-node of periodics (SNP) bifurcation points. The value of <italic>b</italic>
+    at rest (<italic>I</italic>
+
+    <sub>app</sub> = 0) is <italic>b</italic>
+
+    <sub>rest</sub>, and <italic>b</italic>* is the value of <italic>b</italic> at
+    steady state of the neuron. For <italic>b</italic>
+
+    <sub>delay</sub>, see text. In (C,F), the intersection of the curve <italic>b</italic>
+    = <italic>F</italic>(<italic>b</italic>) with the diagonal dashed line determines
+    the value of <italic>b</italic>* (open square point). Arrows represent the evolution
+    of the neuron from rest to its steady state following a current step injection
+    of amplitude <italic>I</italic>
+
+    <sub>app</sub>.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1941757/PMC1941757/pcbi.0030156.g005.jpg
+  id: pcbi.0030156/pcbi-0030156-g005
+  label: Figure 5
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Fast&#8211;Slow
+    Analysis of Neurons with Small Na<sup>+</sup> Window Current Exhibiting a Depolarized
+    Rest Potential or Stuttering</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Fast&#8211;slow analysis is described
+    for <italic>&#952;</italic>
+
+    <sub>m</sub> = &#8722;24 mV.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(A,B) Parameters are: <italic>g</italic>
+
+    <sub>d</sub> = 0.39 mS/cm<sup>2</sup>, <italic>I</italic>
+
+    <sub>app</sub> = 2.9 &#956;A/cm<sup>2</sup>. (Except for <italic>I</italic>
+
+    <sub>app</sub>, parameters are as in <xref ref-type="fig" rid="pcbi-0030156-g005">Figures
+    5</xref>A&#8211;<xref ref-type="fig" rid="pcbi-0030156-g005">5</xref>C and 2C.
+    The neuron is quiescent at steady state.)</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(C,D) The parameters <italic>g</italic>
+
+    <sub>d</sub> = 1.8 mS/cm<sup>2</sup> and <italic>I</italic>
+
+    <sub>app</sub> = 4.2 &#956;A/cm<sup>2</sup> are as in <xref ref-type="fig" rid="pcbi-0030156-g002">Figure
+    2</xref>D, and the neuron stutters at steady state. For each case, we plot the
+    bifurcation diagrams of the fast subsystem in the <italic>V</italic>-<italic>b</italic>
+    space (A,C), and the functions <italic>b</italic>
+
+    <sub>&#8734;</sub>(<italic>V</italic>
+
+    <sub>FP</sub>(<italic>b</italic>)) for fixed points and <italic>F</italic>(<italic>b</italic>)
+    for limit cycles (<xref ref-type="disp-formula" rid="pcbi-0030156-e002">Equation
+    2</xref>) as functions of <italic>b</italic> (B,D). Symbols are as in <xref ref-type="fig"
+    rid="pcbi-0030156-g005">Figure 5</xref>.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1941757/PMC1941757/pcbi.0030156.g006.jpg
+  id: pcbi.0030156/pcbi-0030156-g006
+  label: Figure 6
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Voltage
+    Traces and Firing Patterns of the Model Neuron in Response to a Noisy Current
+    Step</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(A)
+    Delayed tonic firing for <italic>&#952;</italic>
+
+    <sub>m</sub> = &#8722;24 mV, <italic>g</italic>
+
+    <sub>d</sub> = 0.39 mS/cm<sup>2</sup>, <italic>I</italic>
+
+    <sub>app</sub> = 3.35 &#956;A/cm<sup>2</sup>.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(B) Delayed stuttering for <italic>&#952;</italic>
+
+    <sub>m</sub> = &#8722;24 mV, <italic>g</italic>
+
+    <sub>d</sub> = 1.8 mS/cm<sup>2</sup>, <italic>I</italic>
+
+    <sub>app</sub> = 4.2 &#956;A/cm<sup>2</sup>.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(C) Delayed tonic firing for <italic>&#952;</italic>
+
+    <sub>m</sub> = &#8722;28 mV, <italic>g</italic>
+
+    <sub>d</sub> = 0.39 mS/cm<sup>2</sup>, <italic>I</italic>
+
+    <sub>app</sub> = 1.25 &#956;A/cm<sup>2</sup>. In all three panels, the variance
+    of the noise is <italic>D</italic> = 0.01 &#956;A<sup>2</sup> &#215; ms/cm<sup>4</sup>.
+    The time course of the mean applied current, <italic>I</italic>
+
+    <sub>app</sub>, is also plotted. The membrane potentials during the delay periods
+    are magnified in the panels on the right. Note the presence of subthreshold oscillations
+    in (A) and (B). The peaks of these oscillations are denoted by the arrows.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1941757/PMC1941757/pcbi.0030156.g007.jpg
+  id: pcbi.0030156/pcbi-0030156-g007
+  label: Figure 7
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Dependence
+    of the Averaged Delay Duration on the Noise Variance, <italic>D</italic>
+
+    </title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Black
+    line: the delay duration, <italic>t</italic>
+
+    <sub>delay</sub>, computed and averaged over 50 trials of the noisy external current
+    step is plotted as a function of log(<italic>D</italic>). Parameters: <italic>&#952;</italic>
+
+    <sub>m</sub> = &#8722;24 mV (small window Na<sup>+</sup> current), <italic>g</italic>
+
+    <sub>d</sub> = 0.39 mS/cm<sup>2</sup>, and <italic>I</italic>
+
+    <sub>app</sub> = 3.08 &#956;A/cm<sup>2</sup>. Gray lines: one standard deviation
+    confidence limit of the averaged <italic>t</italic>
+
+    <sub>delay</sub>. Red line: fitting to the simulation results using the analytical
+    prediction for small <italic>D</italic> (<xref ref-type="disp-formula" rid="pcbi-0030156-e004">Equation
+    4</xref>). The arrow on the <italic>y</italic>-axis indicates the value of <italic>t</italic>
+
+    <sub>delay</sub> for a noiseless input (<italic>D</italic> = 0).</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1941757/PMC1941757/pcbi.0030156.g008.jpg
+  id: pcbi.0030156/pcbi-0030156-g008
+  label: Figure 8
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Fourier
+    Spectrum of the Membrane Potential Fluctuations During the Delay Period in the
+    Model for Three Different Strengths of the Na<sup>+</sup> Window Current</title><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(A)
+    <italic>&#952;</italic>
+
+    <sub>m</sub> = &#8722;22 mV, <italic>g</italic>
+
+    <sub>d</sub> = 0.8 mS/cm<sup>2</sup>, <italic>I</italic>
+
+    <sub>app</sub> = 4.9 &#956;A/cm<sup>2</sup>; (B) <italic>&#952;</italic>
+
+    <sub>m</sub> = &#8722;24 mV, <italic>g</italic>
+
+    <sub>d</sub> = 0.39 mS/cm<sup>2</sup>, <italic>I</italic>
+
+    <sub>app</sub> = 3.23 &#956;A/cm<sup>2</sup>; (C) <italic>&#952;</italic>
+
+    <sub>m</sub> = &#8722;28 mV, <italic>g</italic>
+
+    <sub>d</sub> = 0.39 mS/cm<sup>2</sup>, <italic>I</italic>
+
+    <sub>app</sub> = 1.25 &#956;A/cm<sup>2</sup>.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1941757/PMC1941757/pcbi.0030156.g009.jpg
+  id: pcbi.0030156/pcbi-0030156-g009
+  label: Figure 9
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Noise-Induced
+    Stuttering Activity for Small Na<sup>+</sup> Window Current (<italic>&#952;</italic>
+
+    <sub>m</sub> = &#8722;24 mV)</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(A,B) Voltage traces in response
+    to a step current of amplitude <italic>I</italic>
+
+    <sub>app</sub> = 3 &#956;A/cm<sup>2</sup>.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(A) In the absence of noise in
+    the input (<italic>D</italic> = 0), the membrane potential depolarizes during
+    the current step but the neuron does not fire action potentials.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(B) Noise of variance <italic>D</italic>
+    = 0.1 &#956;A<sup>2</sup> &#215; ms/cm<sup>4</sup> induces irregular bursts of
+    action potentials (irregular stuttering).</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(C,D) Voltage traces in response
+    to a step current of amplitude <italic>I</italic>
+
+    <sub>app</sub> = 3.2 &#956;A/cm<sup>2</sup>.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(C) For <italic>D</italic> = 0,
+    the neuron exhibits delayed tonic firing.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(D) For <italic>D</italic> = 0.1
+    &#956;A<sup>2</sup> &#215; ms/cm<sup>4</sup>, the neuron stutters irregularly.
+    For all panels, <italic>g</italic>
+
+    <sub>d</sub> = 0.5 mS/cm<sup>2</sup>. Projection of the phase portraits on the
+    <italic>V</italic>-<italic>h</italic> plane for constant values of <italic>b</italic>
+    (0.046 in (A) and 0.22 in (C)) are shown below the traces in (A,C). These values
+    of <italic>b</italic> are either the fixed-point value (in (A)) or the average
+    value on the limit cycle (in (C)). Solid circles denote stable fixed points, solid
+    lines denote stable limit cycles, and dotted lines denote unstable limit cycles.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1941757/PMC1941757/pcbi.0030156.g010.jpg
+  id: pcbi.0030156/pcbi-0030156-g010
+  label: Figure 10
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Experimental
+    Results: Responses of FS Neurons to Just Suprathreshold Depolarizing Current Steps</title><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(A)
+    An example of a neuron displaying high rate delayed tonic firing after a delay.
+    The time interval below the top horizontal bar is magnified in the inset on the
+    right.</p><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(B)
+    A neuron exhibiting stuttering.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(C) A neuron that exhibits delayed
+    irregular firing.</p><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(D)
+    A neuron that fires at low rates after a delay. The dotted line denotes &#8722;70
+    mV.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1941757/PMC1941757/pcbi.0030156.g011.jpg
+  id: pcbi.0030156/pcbi-0030156-g011
+  label: Figure 11
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Experimental
+    Results: Fourier Spectrum of the Membrane Potential Fluctuations during Delay
+    Periods in FS Neurons</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Top:
+    voltage time courses for three FS neurons exhibiting delayed firing.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Bottom: the Fourier spectra of
+    the subthreshold membrane potentials during the delay before spiking for these
+    three neurons.</p><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(A)
+    The minimal (just suprathreshold) firing frequency of this neuron is high (80
+    Hz). Pronounced subthreshold oscillations are observed during the delay period.</p><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(B)
+    The minimal firing frequency of this neuron is lower than in (A) (38 Hz). The
+    subthreshold oscillations exhibited by this neuron are less pronounced than in
+    (A).</p><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(C)
+    The minimal firing frequency of this neuron (4.3 Hz) is much lower than in (A)
+    or (B). This neuron does not exhibit subthreshold oscillations during the delay
+    period. Spectra were calculated over the time intervals denoted by the horizontal
+    bars in the top panels.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1941757/PMC1941757/pcbi.0030156.g012.jpg
+  id: pcbi.0030156/pcbi-0030156-g012
+  label: Figure 12

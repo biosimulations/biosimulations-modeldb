@@ -1,0 +1,711 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS Comput Biol</journal-id><journal-id journal-id-type="iso-abbrev">PLoS Comput. Biol</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">ploscomp</journal-id><journal-title-group><journal-title>PLoS Computational Biology</journal-title></journal-title-group><issn pub-type="ppub">1553-734X</issn><issn pub-type="epub">1553-7358</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">22654655</article-id><article-id pub-id-type="pmc">3359967</article-id><article-id pub-id-type="publisher-id">PCOMPBIOL-D-11-01906</article-id><article-id pub-id-type="doi">10.1371/journal.pcbi.1002524</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline-v2"><subject>Biology</subject><subj-group><subject>Computational Biology</subject><subj-group><subject>Computational Neuroscience</subject></subj-group></subj-group><subj-group><subject>Neuroscience</subject><subj-group><subject>Computational Neuroscience</subject><subj-group><subject>Single Neuron Function</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v2"><subject>Medicine</subject><subj-group><subject>Anesthesiology</subject></subj-group></subj-group></article-categories><title-group><article-title>Identification of Molecular Pathologies Sufficient to Cause Neuropathic Excitability in Primary Somatosensory Afferents Using Dynamical Systems Theory</article-title><alt-title alt-title-type="running-head">Dynamical Analysis of Neuropathic Excitability</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Rho</surname><given-names>Young-Ah</given-names></name></contrib><contrib contrib-type="author"><name><surname>Prescott</surname><given-names>Steven A.</given-names></name><xref ref-type="aff" rid="aff1"/><xref ref-type="corresp" rid="cor1">
+<sup>&#x0002a;</sup>
+</xref></contrib></contrib-group><aff id="aff1"><addr-line>Department of Neurobiology and the Pittsburgh Center for Pain Research, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America</addr-line></aff><contrib-group><contrib contrib-type="editor"><name><surname>Gutkin</surname><given-names>Boris S.</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">&#x000c9;cole Normale Sup&#x000e9;rieure, College de France, CNRS, France</aff><author-notes><corresp id="cor1">&#x0002a; E-mail: <email>prescott@neurobio.pitt.edu</email></corresp><fn fn-type="con"><p>Conceived and designed the experiments: SAP. Performed the experiments: YAR SAP. Analyzed the data: YAR SAP. Wrote the paper: YAR SAP.</p></fn></author-notes><pub-date pub-type="collection"><month>5</month><year>2012</year></pub-date><pub-date pub-type="epub"><day>24</day><month>5</month><year>2012</year></pub-date><volume>8</volume><issue>5</issue><elocation-id>e1002524</elocation-id><history><date date-type="received"><day>19</day><month>12</month><year>2011</year></date><date date-type="accepted"><day>28</day><month>3</month><year>2012</year></date></history><permissions><copyright-statement>Rho, Prescott.</copyright-statement><copyright-year>2012</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p>Pain caused by nerve injury (<italic>i.e.</italic> neuropathic pain) is associated with development of neuronal hyperexcitability at several points along the pain pathway. Within primary afferents, numerous injury-induced changes have been identified but it remains unclear which molecular changes are necessary and sufficient to explain cellular hyperexcitability. To investigate this, we built computational models that reproduce the switch from a normal spiking pattern characterized by a single spike at the onset of depolarization to a neuropathic one characterized by repetitive spiking throughout depolarization. Parameter changes that were sufficient to switch the spiking pattern also enabled membrane potential oscillations and bursting, suggesting that all three pathological changes are mechanistically linked. Dynamical analysis confirmed this prediction by showing that excitability changes co-develop when the nonlinear mechanism responsible for spike initiation switches from a quasi-separatrix-crossing to a subcritical Hopf bifurcation. This switch stems from biophysical changes that bias competition between oppositely directed fast- and slow-activating conductances operating at subthreshold potentials. Competition between activation and inactivation of a single conductance can be similarly biased with equivalent consequences for excitability. &#x0201c;Bias&#x0201d; can arise from a multitude of molecular changes occurring alone or in combination; in the latter case, changes can add or offset one another. Thus, our results identify pathological change in the nonlinear interaction between processes affecting spike initiation as the critical determinant of how simple injury-induced changes at the molecular level manifest complex excitability changes at the cellular level. We demonstrate that multiple distinct molecular changes are sufficient to produce neuropathic changes in excitability; however, given that nerve injury elicits numerous molecular changes that may be individually sufficient to alter spike initiation, our results argue that no single molecular change is necessary to produce neuropathic excitability. This deeper understanding of degenerate causal relationships has important implications for how we understand and treat neuropathic pain.</p></abstract><abstract abstract-type="summary"><title>Author Summary</title><p>Neuropathic pain results from damage to the nervous system. Much is known about the multitude of molecular and cellular changes that are triggered by nerve injury (and which <italic>correlate</italic> with development of neuropathic pain), but little is understood about how those changes <italic>cause</italic> neuropathic pain. Rather than identifying what changes occur after nerve injury (which has already been the focus of countless studies), our study focuses on identifying which changes are functionally important. Specifically, we explain how certain molecular changes, acting alone or in combination, cause a triad of neuropathic changes in primary afferent excitability. Through computational modeling and nonlinear dynamical analysis, we demonstrate that the entire triad of excitability changes arises from a single switch in the nonlinear mechanism responsible for spike initiation. Going further, we demonstrate that <italic>many distinct molecular changes are sufficient</italic> to produce that switch but that <italic>no single molecular change is necessary</italic> if more than one sufficient change co-occurs after nerve injury, which appears to be the case. The issue becomes whether molecular changes combine to reach some tipping point whereupon cellular excitability is qualitatively altered. This highlights the importance of nonlinearities for neuropathic pain and the need for more computational pain research.</p></abstract><counts><page-count count="14"/></counts></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Many primary afferents become hyperexcitable after nerve injury. The resulting spontaneous and evoked hyperactivity contributes to neuropathic pain directly and by driving central sensitization <xref rid="pcbi.1002524-Devor1" ref-type="bibr">[1]</xref>, <xref rid="pcbi.1002524-Gracely1" ref-type="bibr">[2]</xref>, <xref rid="pcbi.1002524-Gold1" ref-type="bibr">[3]</xref>. Beyond simply becoming <italic>more</italic> excitable (<italic>i.e.</italic> having a lower activation threshold), three qualitative changes in excitability stand out: a change in spiking pattern (<xref ref-type="fig" rid="pcbi-1002524-g001">
+<bold>Fig. 1A</bold>
+</xref>), membrane potential oscillations (<xref ref-type="fig" rid="pcbi-1002524-g001">
+<bold>Fig. 1B</bold>
+</xref>) and bursting (<xref ref-type="fig" rid="pcbi-1002524-g001">
+<bold>Fig. 1C</bold>
+</xref>) <xref rid="pcbi.1002524-Liu1" ref-type="bibr">[4]</xref>, <xref rid="pcbi.1002524-Song1" ref-type="bibr">[5]</xref>, <xref rid="pcbi.1002524-Ma1" ref-type="bibr">[6]</xref>, <xref rid="pcbi.1002524-Xing1" ref-type="bibr">[7]</xref>, <xref rid="pcbi.1002524-Amir1" ref-type="bibr">[8]</xref>, <xref rid="pcbi.1002524-Ma2" ref-type="bibr">[9]</xref>, <xref rid="pcbi.1002524-Amir2" ref-type="bibr">[10]</xref>, <xref rid="pcbi.1002524-Liu2" ref-type="bibr">[11]</xref>, <xref rid="pcbi.1002524-Jian1" ref-type="bibr">[12]</xref>. These changes co-occur and have been documented in dorsal root ganglion (DRG) neurons of various sizes, including putative high- and low-threshold afferents. Hyperexcitability in low-threshold afferents is thought to underlie allodynia <xref rid="pcbi.1002524-Song1" ref-type="bibr">[5]</xref>, <xref rid="pcbi.1002524-Liu3" ref-type="bibr">[13]</xref>, <xref rid="pcbi.1002524-Koltzenburg1" ref-type="bibr">[14]</xref>, <xref rid="pcbi.1002524-Campbell1" ref-type="bibr">[15]</xref>, which implicates central plasticity (<italic>e.g.</italic> unmasking of polysynaptic spinal circuits through disinhibition <xref rid="pcbi.1002524-Torsney1" ref-type="bibr">[16]</xref>, <xref rid="pcbi.1002524-Keller1" ref-type="bibr">[17]</xref>) such that normally innocuous stimulation (causing exaggerated responses among hyperexcitable low-threshold afferents) can lead to activation of ascending pain pathways, thus enabling innocuous stimulation to elicit pain. The central nervous system is obviously required for pain perception, and central plasticity certainly contributes to the development of neuropathic pain, but it is generally agreed that reversing peripheral hyperexcitability could relieve or markedly attenuate many varieties of neuropathic pain <xref rid="pcbi.1002524-Gold1" ref-type="bibr">[3]</xref>. Doing so has proven easier said than done.</p><fig id="pcbi-1002524-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pcbi.1002524.g001</object-id><label>Figure 1</label><caption><title>Neuropathic changes in primary afferent excitability.</title><p>(<bold>A</bold>) Sample responses from large diameter acutely isolated dorsal root ganglion (DRG) neurons under control conditions (<italic>normal</italic>) and two days after L5 spinal nerve transection (<italic>neuropathic</italic>). Spiking pattern switches from onset-only to repetitive. (<bold>B</bold>) Sample responses, with the same average membrane potential of &#x02212;36 mV, showing development of membrane potential oscillations (MPOs) after nerve injury. (<bold>C</bold>) Sample response showing bursting after nerve injury. (<bold>D</bold>) Venn diagram distinguishing classes of molecular changes and their relationship to primary afferent hyperexcitability and neuropathic pain. In this study, we sought to define the red circle. Parts A&#x02013;C were modified from reference 4.</p></caption><graphic xlink:href="pcbi.1002524.g001"/></fig><p>Countless molecular changes have been documented to occur after nerve injury and are correlated with cellular hyperexcitability and pain [<xref rid="pcbi.1002524-Campbell2" ref-type="bibr">[for reviews]</xref>, <xref rid="pcbi.1002524-Ji1" ref-type="bibr">[ see 18]</xref>, <xref rid="pcbi.1002524-Costigan1" ref-type="bibr">[19,20]</xref>. Still more injury-induced changes are likely to occur but have yet to be described (<xref ref-type="fig" rid="pcbi-1002524-g001">
+<bold>Fig. 1D</bold>
+</xref>). Moreover, causal relationships are harder to ascertain than correlations. Knockout studies <xref rid="pcbi.1002524-Nassar1" ref-type="bibr">[e.g. 21]</xref>, <xref rid="pcbi.1002524-Nassar2" ref-type="bibr">[22]</xref> can demonstrate the necessity of certain molecules for mediating changes in cellular excitability, but those studies do not address sufficiency. If control of primary afferent excitability is degenerate, meaning distinct molecular changes yield equivalent cellular outcomes <xref rid="pcbi.1002524-Edelman1" ref-type="bibr">[23]</xref>, then a certain molecular change may be sufficient but unnecessary to produce hyperexcitability. Specifically, if more than one molecular change is sufficient to cause cellular hyperexcitability, then blocking any one of those molecular changes will not prevent hyperexcitability if another molecular change can fill in. This possibility should be cause for alarm given that multiple changes co-occur following nerve injury (see above), yet this has not been considered in recent discussions on the lack of progress in translational pain research <xref rid="pcbi.1002524-Mogil1" ref-type="bibr">[24]</xref>, <xref rid="pcbi.1002524-Campbell3" ref-type="bibr">[25]</xref>.</p><p>Thus, beyond considering which molecular changes are necessary, it is also important (1) to identify which molecular changes are sufficient to produce cellular hyperexcitability and why, and (2) to explain how co-occurring molecular changes interact. Addressing these issues is complicated by the complex nature of excitability. Complexity stems from nonlinearities, which is to say that components of a system (<italic>e.g.</italic> ion channels within a neuron) compete, cooperate, or interfere with one another <xref rid="pcbi.1002524-Strogatz1" ref-type="bibr">[26]</xref>. A nonlinear system is not the sum of its parts, which means reductionist approaches provide incomplete, if not incorrect, explanations of complex phenomena. Dynamical systems theory provides a more integrative approach but has not been used hitherto to help explain primary afferent hyperexcitability.</p><p>In this study, we sought to identify what sorts of molecular changes could, in theory, cause primary afferent hyperexcitability. This is fundamentally different from identifying what changes occur after nerve injury. The two approaches are complementary (<xref ref-type="fig" rid="pcbi-1002524-g001">
+<bold>Fig. 1D</bold>
+</xref>), but whereas the latter has seen widespread use, the former has not. Hence, the current study provides a novel perspective that should facilitate the interpretation of past results. Rather than simulating known molecular changes, we worked in the reverse direction by first reproducing known changes in cellular excitability and then using theory to help identify their potential molecular bases. Specifically, we reproduced previously reported <xref rid="pcbi.1002524-Liu1" ref-type="bibr">[4]</xref> injury-induced changes in cellular excitability (see <xref ref-type="fig" rid="pcbi-1002524-g001">
+<bold>Fig. 1A&#x02013;C</bold>
+</xref>) in the simplest possible conductance-based model. Then, through dynamical analysis of that model, we pinpointed a switch in spiking mechanism as the common dynamical basis for all three excitability changes. In turn, we investigated the potential molecular bases for the switch in spiking mechanism. As anticipated, several distinct molecular changes were found to produce qualitatively identical changes in cellular excitability (by switching the spike initiation mechanism), thus highlighting degeneracy in the molecular basis for cellular excitability. We also found that molecular changes can add together and offset one another in terms of their influence on excitability. The implications of these insights for understanding and treating neuropathic pain are discussed.</p></sec><sec id="s2"><title>Results</title><sec id="s2a"><title>Injury-induced change in spiking pattern</title><p>The first of three pathological changes that we sought to reproduce in our computer model was the switch from onset-only spiking to repetitive spiking during sustained depolarization (see <xref ref-type="fig" rid="pcbi-1002524-g001">
+<bold>Fig. 1A</bold>
+</xref>). Starting with a minimal conductance-based model (see Eqn. 1&#x02013;5 in <xref ref-type="sec" rid="s4">Methods</xref>), we set parameters in order for the model to produce onset-only spiking (<xref ref-type="fig" rid="pcbi-1002524-g002">
+<bold>Fig. 2A</bold>
+</xref>
+<bold>top</bold>) and then we varied parameters one at a time in order to switch the model to repetitive spiking (<xref ref-type="fig" rid="pcbi-1002524-g002">
+<bold>Fig. 2A</bold>
+</xref>
+<bold>bottom</bold>). We initially focused on the effects of varying parameter &#x003b2;<sub>w</sub>, and we henceforth refer to the model with &#x003b2;<sub>w</sub>&#x0200a;=&#x0200a;&#x02212;21 mV as &#x0201c;normal&#x0201d; and to the model with &#x003b2;<sub>w</sub>&#x0200a;=&#x0200a;&#x02212;13 mV as &#x0201c;neuropathic&#x0201d;. The biophysical meaning of a change in &#x003b2;<sub>w</sub> and the effects of varying other parameters (in the same model or in different models) are considered later in the <xref ref-type="sec" rid="s2">Results</xref>.</p><fig id="pcbi-1002524-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pcbi.1002524.g002</object-id><label>Figure 2</label><caption><title>Simulation and dynamical explanation of change in spiking pattern.</title><p>(<bold>A</bold>) Spiking pattern during sustained depolarization was converted from onset-only (normal, &#x003b2;<sub>w</sub>&#x0200a;=&#x0200a;&#x02212;21 mV) to repetitive (neuropathic, &#x003b2;<sub>w</sub>&#x0200a;=&#x0200a;&#x02212;13 mV) by varying a single parameter. Onset-only spiking was observed in the neuropathic model but for only a narrow stimulus range. (<bold>B</bold>) According to bifurcation analysis in which stimulation (<italic>I</italic>
+<sub>stim</sub>) was systematically varied, repetitive spiking was produced by the neuropathic model when <italic>I</italic>
+<sub>stim</sub> exceeded a critical value required for a subcritical Hopf bifurcation. In contrast, the normal model did not undergo a bifurcation, which means spiking was limited to single spikes generated through a QS-crossing (see below). Generation of a single spike does not constitute a change in steady-state behavior, consistent with the absence of a bifurcation. (<bold>C</bold>) Phase planes show the fast activation variable <italic>V</italic> plotted against the slower recovery variable <italic>w</italic>. Nullclines (color) indicate where <italic>V</italic> or <italic>w</italic> do not change. Excitatory stimulation shifts the <italic>V</italic>-nullcline upward without affecting the <italic>w</italic>-nullcline. In the neuropathic model, <italic>V</italic>- and <italic>w</italic>-nullclines intersect at a stable (<italic>s</italic>) fixed point prior to stimulation, but that point becomes unstable (<italic>u</italic>) during stimulation &#x02013; this corresponds to a Hopf bifurcation and is responsible for repetitive spiking. In the normal model, the fixed point remains stable during stimulation despite the <italic>V</italic>-nullcline shifting upward, but a single spike can nonetheless be generated depending on how the system moves to the newly positioned fixed point. The trajectory can be predicted by reference to a quasi-separatrix (QS), which corresponds to a manifold in phase space from which trajectories diverge. Quasi-separatrices were plotted here by integrating with a negative time step with initial values indicated by &#x0002a; on the phase planes (see <xref ref-type="sec" rid="s4">Methods</xref>). Like the <italic>V</italic>-nullcline, the QS shifts instantaneously with stimulation. If, as shown, the original fixed point ends up below the shifted QS, the trajectory to the newly positioned fixed point must follow an indirect route around the end of the QS (&#x0002a;), thus producing a spike; a more direct, subthreshold route would require the trajectory to cross back over the QS, which is not possible. If the original fixed point remained above the shifted QS, the trajectory would follow a direct route and no spike would be produced (not illustrated).</p></caption><graphic xlink:href="pcbi.1002524.g002"/></fig><p>Based on our past work <xref rid="pcbi.1002524-Prescott1" ref-type="bibr">[27]</xref>, we hypothesized that each spiking pattern was associated with a dynamically distinct mechanism of spike initiation. To test this, we conducted bifurcation analysis in the normal and neuropathic models. A bifurcation refers to a qualitative change in steady-state behavior, <italic>e.g.</italic> transition from quiescence to repetitive spiking. Bifurcation analysis involves systematically varying a parameter of interest to determine at what value(s) of that parameter the system switches steady states, and how that switch occurs. When we varied the stimulus current <italic>I</italic>
+<sub>stim</sub>, the neuropathic model transitioned from quiescence to repetitive spiking through a subcritical Hopf bifurcation (<xref ref-type="fig" rid="pcbi-1002524-g002">
+<bold>Fig. 2B</bold>
+</xref>
+<bold> bottom</bold>) whereas the normal model exhibited no bifurcation (<xref ref-type="fig" rid="pcbi-1002524-g002">
+<bold>Fig. 2B</bold>
+</xref>
+<bold> top</bold>). Both models exhibited a range of <italic>I</italic>
+<sub>stim</sub> within which a single, onset-only spike was generated independently of a bifurcation (see below).</p><p>We further characterized spike initiation using phase plane analysis. Our starting model comprised just two variables, <italic>V</italic> and <italic>w</italic>, whose interaction is entirely responsible for how the model behaves. Those interactions can be visualized by plotting <italic>V</italic> against <italic>w</italic> to create a phase plane, and can be analyzed by considering how the nullclines intersect, where <italic>V</italic>- and <italic>w</italic>-nullclines represent locations in phase space where <italic>V</italic> or <italic>w</italic> do not change. Points where the two nullclines intersect, referred to as fixed points, are especially important for explaining spike initiation. Stimulation caused a vertical shift in the <italic>V</italic>-nullcline, which, in the neuropathic model, caused the stable fixed point to become unstable (<xref ref-type="fig" rid="pcbi-1002524-g002">
+<bold>Fig. 2C</bold>
+</xref>
+<bold> bottom</bold>) &#x02013; this is the geometric explanation for the Hopf bifurcation responsible for repetitive spiking. In the normal model, stimulation caused a similar shift in the <italic>V</italic>-nullcline, which allowed one spike to be generated despite the fixed point remaining stable (<xref ref-type="fig" rid="pcbi-1002524-g002">
+<bold>Fig. 2C</bold>
+</xref>
+<bold> top</bold>). Rather than occurring through a bifurcation, spike generation in the latter case depended on the trajectory to the newly positioned (but still stable) fixed point, as explained here. A quasi-separatrix (QS) corresponds a manifold in phase space from which trajectories diverge. The <italic>V</italic>-nullcline and QS shift instantaneously upon the onset of stimulation. Although the QS can move, trajectories cannot cross a stationary QS and, instead, tend to diverge from it; therefore, if the QS shifts far enough during stimulation that the starting point of the trajectory (which corresponds to the original fixed point) ends up below the shifted QS, the system will move to its new fixed point via an indirect route around the end of the QS. See Prescott et al. <xref rid="pcbi.1002524-Prescott1" ref-type="bibr">[27]</xref> for more detailed explanations of these dynamical mechanisms.</p><p>The biophysical meaning of these dynamical mechanisms in terms of competition between fast-activating inward current (a positive feedback process) and slower-activating outward current (a negative feedback process) are explained in <bold><xref ref-type="supplementary-material" rid="pcbi.1002524.s001">Fig. S1</xref></bold>. Equivalent changes can be observed in other minimal 2-D models, for instance, if delayed rectifier potassium channel activation is replaced with fast sodium channel inactivation (<bold><xref ref-type="supplementary-material" rid="pcbi.1002524.s002">Fig. S2</xref></bold>).</p></sec><sec id="s2b"><title>Injury-induced development of membrane potential oscillations (MPOs)</title><p>The second of three pathological changes that we sought to reproduce in our computer model was the development of MPOs (see <xref ref-type="fig" rid="pcbi-1002524-g001">
+<bold>Fig. 1B</bold>
+</xref>). We hypothesized that the same dynamical mechanism responsible for repetitive spiking also explains MPOs because the fixed point identified in <xref ref-type="fig" rid="pcbi-1002524-g002">
+<bold>Fig. 2C</bold>
+</xref> is a focus (<italic>i.e.</italic> it has complex eigenvalues), which means trajectories spiral into or away from that point depending on whether the point is stable or unstable, respectively (see inset of <xref ref-type="fig" rid="pcbi-1002524-g002">
+<bold>Fig. 2C</bold>
+</xref>
+<bold> top</bold> for sample trajectory). Any noise within the system (e.g. channel noise <xref rid="pcbi.1002524-Dorval1" ref-type="bibr">[28]</xref>; primary afferent somata bear no synapses, thus excluding synaptic noise) will continuously perturb the system away from its stable fixed point; as the system relaxes, it will return to the fixed point via a spiral trajectory, thereby producing oscillations on the time series <xref rid="pcbi.1002524-Golomb1" ref-type="bibr">[29]</xref>. Thus, one would expect noise-dependent MPOs whose amplitude is inversely proportional to the stability of the fixed point. Since a Hopf bifurcation represents destabilization of the fixed point (see above), noise-dependent MPOs should become prominent near the bifurcation. In biophysical terms, this corresponds to inward current starting to activate but activation of outward current (or inactivation of inward current) catching up, thus preventing spike initiation but producing an MPO in the process.</p><p>Based on these theoretical insights, we made three predictions: (1) noise-dependent MPOs should occur in the neuropathic model when it operates near a subcritical Hopf bifurcation, (2) noise-dependent MPOs should not occur in the normal model because there is no Hopf bifurcation, (3) noise-<italic>in</italic>dependent MPOs should not occur in either model because there is no stable, subthreshold limit cycle on the bifurcation diagrams in <xref ref-type="fig" rid="pcbi-1002524-g002">
+<bold>Fig. 2B</bold>
+</xref>. To test these predictions, we ran simulations with and without noise in the normal and neuropathic 2-D models (without having adjusted any model parameters). All three predictions were confirmed (<xref ref-type="fig" rid="pcbi-1002524-g003">
+<bold>Fig. 3A</bold>
+</xref>). These results argue that repetitive spiking and MPOs are two manifestations of the same dynamical mechanism, namely a subcritical Hopf bifurcation, and become manifest when <italic>I</italic>
+<sub>stim</sub> is above or just below the bifurcation point, respectively. In the absence of a Hopf bifurcation, the system can neither spike repetitively nor exhibit MPOs.</p><fig id="pcbi-1002524-g003" position="float"><object-id pub-id-type="doi">10.1371/journal.pcbi.1002524.g003</object-id><label>Figure 3</label><caption><title>Simulation and dynamical explanation of membrane potential oscillations.</title><p>(<bold>A</bold>) Traces (<italic>top</italic>) show sample responses for different <italic>I</italic>
+<sub>stim</sub> indicated along the bifurcation diagrams (<italic>bottom</italic>). One set of simulations included noise (see <xref ref-type="sec" rid="s4">Methods</xref>). In the normal model, MPOs were negligible regardless of noise conditions. In the neuropathic model, noise-dependent MPOs were present and were most prominent for <italic>I</italic>
+<sub>stim</sub> near the bifurcation, when the fixed point is nearly unstable. Noise-dependent MPOs are not associated with a stable limit cycle. (<bold>B</bold>) In model with &#x003b2;<sub>w</sub>&#x0200a;=&#x0200a;&#x02212;19 mV, noise-independent MPOs occurred because a supercritical Hopf bifurcation produced a stable, subthreshold limit cycle. The stable limit cycle existed for only a narrow range of <italic>I</italic>
+<sub>stim</sub> before being destroyed through a saddle-node bifurcation of limit cycles. Noise-dependent MPOs still occurred for <italic>I</italic>
+<sub>stim</sub> just below the supercritical Hopf bifurcation. Boxed traces show conditions analyzed in C. (<bold>C</bold>) Power spectra comparing noise-dependent and -independent MPOs with and without noise. Colors correspond to boxes in B. Broadly peaked power spectra (like those associated with MPOs under noisy conditions) more closely resemble experimental data (see <xref ref-type="sec" rid="s2">Results</xref>).</p></caption><graphic xlink:href="pcbi.1002524.g003"/></fig><p>Previous efforts to model injury-induced MPOs in DRG neurons have not considered noise, and have thus necessarily focused on solutions involving stable subthreshold limit cycles <xref rid="pcbi.1002524-Amir1" ref-type="bibr">[8]</xref>, <xref rid="pcbi.1002524-Kovalsky1" ref-type="bibr">[30]</xref>, <xref rid="pcbi.1002524-Choi1" ref-type="bibr">[31]</xref>. To contrast noise-independent and -dependent MPOs, we adjusted our 2-D model to make it produce MPOs in the absence of any noise. In this model, MPOs arose from a stable limit cycle produced through a <italic>super</italic>critical Hopf bifurcation (<xref ref-type="fig" rid="pcbi-1002524-g003">
+<bold>Fig. 3B</bold>
+</xref>). Compared with noise-dependent MPOs, noise-independent MPOs were much larger and more regular as evidenced by large, narrow peaks on the power spectra (colored curves on <xref ref-type="fig" rid="pcbi-1002524-g003">
+<bold>Fig. 3C</bold>
+</xref>). Published power spectra of experimental MPOs are broad <xref rid="pcbi.1002524-Song1" ref-type="bibr">[5]</xref>, <xref rid="pcbi.1002524-Amir2" ref-type="bibr">[10]</xref>, <xref rid="pcbi.1002524-Kovalsky1" ref-type="bibr">[30]</xref>, like the black power spectrum in <xref ref-type="fig" rid="pcbi-1002524-g003">
+<bold>Fig. 3C</bold>
+</xref>, and are thus consistent with noise-dependent MPOs. Most published studies (see <xref ref-type="sec" rid="s1">Introduction</xref>) have not included power spectral analysis, but the irregularity of MPOs in experimental time series points to a noise-dependent oscillatory mechanism.</p><p>Past experiments have shown that MPOs can occur over a broad range of membrane potentials, and that MPO amplitude and peak frequency tend to increase with mean depolarization <xref rid="pcbi.1002524-Liu1" ref-type="bibr">[4]</xref>, <xref rid="pcbi.1002524-Amir2" ref-type="bibr">[10]</xref>. <xref ref-type="fig" rid="pcbi-1002524-g004">
+<bold>Figure 4</bold>
+</xref> demonstrates that our model can reproduce these MPO properties on the basis of a noise-dependent oscillatory mechanism. MPO amplitude grows as the average membrane potential approaches spike threshold (<xref ref-type="fig" rid="pcbi-1002524-g004">
+<bold>Fig. 4A</bold>
+</xref>). By comparison, for equivalent mean input, increasing noise amplitude shifts the power spectrum upward but does not change its shape (compare solid and dotted red curves), consistent with larger noisy perturbations but equivalent relaxation toward the fixed point; indeed, the imaginary part of the fixed point's complex eigenvalue, which reflects the rate of winding around the fixed point, is unchanged by noise. That said, stronger noise (which is arguably unphysiological in the case of DRG neurons and would overwhelm the intrinsic oscillatory process) increases the likelihood of the voltage trajectory crossing spike threshold; thus, probability of spike initiation depends jointly on noise amplitude and the difference between mean depolarization and voltage threshold <xref rid="pcbi.1002524-Prescott2" ref-type="bibr">[see 32]</xref>. If threshold is shifted (<italic>e.g.</italic> by slow cumulative sodium channel inactivation, which is represented here by <italic>h</italic>; <xref ref-type="fig" rid="pcbi-1002524-g004">
+<bold>Fig. 4B</bold>
+</xref>), the voltage range across which MPOs occur becomes quite broad and is associated with a shift in peak MPO frequency (<xref ref-type="fig" rid="pcbi-1002524-g004">
+<bold>Fig. 4C</bold>
+</xref>). Implementation of cumulative sodium channel inactivation as a dynamical process in our model (see Eqns. 6&#x02013;8) demonstrates the feasibility of a large shift in spike threshold (<xref ref-type="fig" rid="pcbi-1002524-g004">
+<bold>Fig. 4D</bold>
+</xref>). Given that noise is ubiquitous, noise-dependent oscillations near a subcritical Hopf bifurcation provide a robust dynamical explanation of MPOs without invoking any mechanism beyond that already required to explain repetitive spiking.</p><fig id="pcbi-1002524-g004" position="float"><object-id pub-id-type="doi">10.1371/journal.pcbi.1002524.g004</object-id><label>Figure 4</label><caption><title>Frequency and voltage range of noise-dependent MPOs in neuropathic model.</title><p>(<bold>A</bold>) Power spectra for MPOs at different average membrane potentials. Spike threshold was &#x02212;33.4 mV according to bifurcation analysis. Noise-dependent MPOs occurred only within &#x0223c;4 mV of spike threshold. With 10&#x000d7; stronger noise (dotted line), the power spectrum was shifted upwards but was otherwise unaffected when compared against the weak noise condition (solid line) with equivalent mean depolarization. Peak frequency shifted slightly with mean depolarization. (<bold>B</bold>) Bifurcation diagrams show change in spike threshold caused by implementing cumulative Na<sup>&#x0002b;</sup> inactivation, which is controlled by <italic>h</italic>. Diagrams are plotted for no inactivation (<italic>h</italic>&#x0200a;=&#x0200a;1) and with 40&#x00025; inactivation (<italic>h</italic>&#x0200a;=&#x0200a;0.6). (<bold>C</bold>) Power spectra like in A but in a model with 40&#x00025; Na<sup>&#x0002b;</sup> channel inactivation. The shift in spike threshold (see B) allowed MPOs to occur at more depolarized potentials. (<bold>D</bold>) Change in spike threshold in a model that includes cumulative Na<sup>&#x0002b;</sup> channel inactivation, controlled by <italic>h</italic>, as a third variable. Spike threshold was estimated as the voltage at the inflection point for <italic>dV</italic>/<italic>dt</italic>. Sample response shows progressive inactivation (decrease in <italic>h</italic>; <italic>green</italic>) and the corresponding rise in spike threshold (<italic>red</italic>) which eventually leads to the termination of repetitive spiking. Inset shows <italic>dV</italic>/<italic>dt</italic> vs. <italic>V</italic> for spike near the beginning and end of the spike train to highlight the change in spike shape and the shift in threshold.</p></caption><graphic xlink:href="pcbi.1002524.g004"/></fig></sec><sec id="s2c"><title>Injury-induced development of bursting</title><p>The last of three pathological changes that we sought to reproduce in our model was the development of bursting (see <xref ref-type="fig" rid="pcbi-1002524-g001">
+<bold>Fig. 1C</bold>
+</xref>). Bursting is a slow process relative to the timescale of individual spikes. Because there is no variable with a sufficiently slow time constant in our 2-D model, we did not expect and nor did we observe bursting in that model. However, the subcritical Hopf bifurcation is known to allow elliptic bursting when a slow process, like spike frequency adaptation, causes the system to drift back and forth across the bifurcation <xref rid="pcbi.1002524-Rinzel1" ref-type="bibr">[33]</xref>, <xref rid="pcbi.1002524-Borisyuk1" ref-type="bibr">[34]</xref>. This occurs because a subcritical Hopf bifurcation has a region of bistability within which the neuron is quiescent or spiking depending on recent history (which is reflected in the adaptation) &#x02013; this is an example of hysteresis. We reasoned, therefore, that adding adaptation to our neuropathic 2-D model (thus making it 3-D) should give rise to elliptic bursting, and that this might reproduce the bursting observed experimentally in nerve-injured DRG neurons. To test this, we added adaptation mediated through an AHP current <italic>I</italic>
+<sub>AHP</sub> (see Eqns. 9 and 10) without changing any other parameters. As expected, the neuropathic model exhibited bursts whose frequency and duration increased with depolarization (<xref ref-type="fig" rid="pcbi-1002524-g005">
+<bold>Fig. 5A</bold>
+</xref>). An enlarged view of the membrane potential (<xref ref-type="fig" rid="pcbi-1002524-g005">
+<bold>Fig. 5A</bold>
+</xref>
+<bold> inset</bold>) shows the growth of MPOs preceding burst initiation, which has been observed experimentally <xref rid="pcbi.1002524-Liu1" ref-type="bibr">[4]</xref>, <xref rid="pcbi.1002524-Xing1" ref-type="bibr">[7]</xref>, <xref rid="pcbi.1002524-Jian1" ref-type="bibr">[12]</xref>, <xref rid="pcbi.1002524-Amir3" ref-type="bibr">[35]</xref> and is a characteristic feature of elliptic bursting caused by the trajectory spiraling away from the fixed point until it jumps to the stable limit cycle. Noise was included in these simulations and introduces randomness into the initiation and termination of each burst, but it is unnecessary for bursting. On the other hand, bursting is dependent on the subcritical Hopf bifurcation; therefore, adding adaptation to the normal model predictably failed to produce bursting (data not shown).</p><fig id="pcbi-1002524-g005" position="float"><object-id pub-id-type="doi">10.1371/journal.pcbi.1002524.g005</object-id><label>Figure 5</label><caption><title>Simulation and dynamical explanation of bursting.</title><p>(<bold>A</bold>) Sample responses at different average membrane potentials in the neuropathic model (&#x003b2;<sub>w</sub>&#x0200a;=&#x0200a;&#x02212;13 mV) with slow adaptation mediated by <italic>I</italic>
+<sub>AHP</sub>. Noise was included in all simulations and makes the bursting irregular (and thus more realistic) but noise is not necessary for bursting. Duration and frequency of bursts increased with average depolarization. (<bold>B</bold>) Bursting depends on hysteresis caused by bistability associated with the subcritical Hopf bifurcation. Inset shows <italic>V</italic> and <italic>z</italic> during sample burst, where <italic>z</italic> controls activation of <italic>I</italic>
+<sub>AHP</sub>. The same response, with its differently colored burst and interburst phases, was projected onto the bifurcation diagram created by treating <italic>z</italic> as a bifurcation parameter. The model tracks the stable limit cycle branch, spiking repetitively as <italic>z</italic> increases until the end of the branch is reached, at which point the burst stops. The model then tracks the stable fixed point as <italic>z</italic> decreases (during which noise-dependent MPOs wax and wane) until the fixed point becomes unstable, at which point another burst starts. Hysteresis is evident from the bursts starting and stopping at different values of <italic>z</italic>. This bifurcation diagram is flipped horizontally relative to those shown in other figures because the bifurcation parameter here controls <italic>I</italic>
+<sub>AHP</sub>, which is an inhibitory current, whereas <italic>I</italic>
+<sub>stim</sub> (the bifurcation parameter used elsewhere) is excitatory.</p></caption><graphic xlink:href="pcbi.1002524.g005"/></fig><p>
+<xref ref-type="fig" rid="pcbi-1002524-g005">
+<bold>Figure 5B</bold>
+</xref> explains the role of hysteresis in burst generation. The inset shows a typical burst with each phase of the response colored differently. Note that the burst starts and stops at different values of <italic>z</italic>, which is the activation variable for <italic>I</italic>
+<sub>AHP</sub>. The same response was projected onto a bifurcation diagram created by treating <italic>z</italic> as the bifurcation parameter rather than letting it evolve freely as a variable. The boundaries of the bistable region correspond to values of <italic>z</italic> at which the burst starts and stops. Fast-slow analysis can accurately predict whether adaptation will, for a certain stimulus intensity, lead to bursting or to tonic spiking at a reduced rate (<bold><xref ref-type="supplementary-material" rid="pcbi.1002524.s003">Fig. S3</xref></bold>).</p><p>Importantly, we did not tune parameters each time we sought to reproduce a different property; instead, MPOs and bursting were accurately reproduced in our model using the set of parameters chosen on the basis of spiking pattern in <xref ref-type="fig" rid="pcbi-1002524-g002">
+<bold>Fig. 2</bold>
+</xref>. Our results argue, therefore, (1) that spiking pattern, MPOs and bursting are mechanistically linked through their mutual dependence on the spike initiation mechanism, and (2) that our model captured the crucial nonlinearity (<italic>i.e.</italic> spike initiation) including how it is altered under neuropathic conditions.</p></sec><sec id="s2d"><title>Continuum of injury-induced changes</title><p>Beyond reproducing normal and neuropathic states, a good model should account for the transition between states by reproducing the continuum of pathological change. We are unaware of experimental data that quantitatively describe the progress of such changes, but one might reasonably assume that affected cells become <italic>more</italic> hyperexcitable as pathology worsens. Therefore, we tested values of &#x003b2;<sub>w</sub> between the nominally &#x0201c;normal&#x0201d; value of &#x02212;21 mV and the &#x0201c;neuropathic&#x0201d; value of &#x02212;13 mV using our standard 2-D model. <xref ref-type="fig" rid="pcbi-1002524-g006">
+<bold>Figure 6A</bold>
+</xref> shows the progressive increase in excitability and the change in spiking pattern as &#x003b2;<sub>w</sub> was varied. Specifically, the minimum <italic>I</italic>
+<sub>stim</sub> required to elicit spiking decreased as &#x003b2;<sub>w</sub> was increased, and the <italic>I</italic>
+<sub>stim</sub> range associated with onset-only spiking became progressively narrower as repetitive spiking became predominant. Both trends are consistent with qualitative experimental data <xref rid="pcbi.1002524-Liu1" ref-type="bibr">[4]</xref>.</p><fig id="pcbi-1002524-g006" position="float"><object-id pub-id-type="doi">10.1371/journal.pcbi.1002524.g006</object-id><label>Figure 6</label><caption><title>Simulating the continuum of pathological change.</title><p>(<bold>A</bold>) Summary of <italic>I</italic>
+<sub>stim</sub> thresholds to elicit onset-only or repetitive spiking for different values of &#x003b2;<sub>w</sub> in our standard 2-D model. Reduction in threshold equates with an increase in excitability. Summary of peak MPO power (<bold>B</bold>) and peak frequency (<bold>C</bold>) across a range of &#x003b2;<sub>w</sub> values. All simulations included noise. For each &#x003b2;<sub>w</sub> value, <italic>I</italic>
+<sub>stim</sub> was chosen relative to the threshold for repetitive spiking: <italic>high</italic> and <italic>low I</italic>
+<sub>stim</sub> were 1.3 and 4 &#x000b5;A/cm<sup>2</sup> below threshold, respectively. Those values were chosen in order to include or exclude, respectively, noise-independent MPOs when a supercritical Hopf bifurcation occurs. Peak MPO amplitude and frequency decreased as &#x003b2;<sub>w</sub> was increased. That trend is not attributable to noise-independent MPOs occurring at certain &#x003b2;<sub>w</sub> values since noise-independent MPOs were excluded when testing with <italic>low I</italic>
+<sub>stim</sub> (see above). Moreover, re-setting &#x003b3;<sub>m</sub> from 18 mV to 15 mV prevented the supercritical Hopf bifurcation from occurring at any &#x003b2;<sub>w</sub>, but the same trend in MPO power and frequency was observed (data not shown). Dotted curve in C shows minimum sustainable firing rate. &#x0002a; indicates data points that include a noise-independent MPO component.</p></caption><graphic xlink:href="pcbi.1002524.g006"/></fig><p>Next, we considered how MPOs changed within this same range of &#x003b2;<sub>w</sub>. All simulations included noise and <italic>I</italic>
+<sub>stim</sub> was chosen to be just below the threshold for repetitive spiking. We found that MPO amplitude decreased as &#x003b2;<sub>w</sub> was increased (<xref ref-type="fig" rid="pcbi-1002524-g006">
+<bold>Fig. 6B</bold>
+</xref>, black curve). Because intermediate values of &#x003b2;<sub>w</sub> are associated with a supercritical Hopf bifurcation (see <xref ref-type="fig" rid="pcbi-1002524-g003">
+<bold>Fig. 3B</bold>
+</xref>) that gives rise to large, noise-independent MPOs (indicated by &#x0002a; on <xref ref-type="fig" rid="pcbi-1002524-g006">
+<bold>Fig. 6B</bold>
+</xref>) over a narrow range of <italic>I</italic>
+<sub>stim</sub>, we re-tested with <italic>I</italic>
+<sub>stim</sub> further from threshold in order to isolate noise-dependent MPOs, but the same trend was observed (<xref ref-type="fig" rid="pcbi-1002524-g006">
+<bold>Fig. 6B</bold>
+</xref>, gray curve). Adjusting as few as one other parameter could prevent the supercritical Hopf bifurcation from occurring at any &#x003b2;<sub>w</sub> value, but the same trend of decreasing MPO amplitude was still observed (data not shown). Peak MPO frequency also decreased over the same range of &#x003b2;<sub>w</sub> (<xref ref-type="fig" rid="pcbi-1002524-g006">
+<bold>Fig. 6C</bold>
+</xref>, solid lines), which parallels the trend in minimal sustainable firing rate (dotted line) as expected from the type 2 excitability associated with the Hopf bifurcation <xref rid="pcbi.1002524-Prescott1" ref-type="bibr">[27]</xref>, <xref rid="pcbi.1002524-Prescott3" ref-type="bibr">[36]</xref>. One might reasonably have expected MPOs to become larger and faster as pathology worsens, but the model clearly predicted the opposite. This unintuitive trend is explained by the neuron becoming more prone to repetitive spiking (see <xref ref-type="fig" rid="pcbi-1002524-g006">
+<bold>Fig. 6A</bold>
+</xref>) such that the large and fast MPOs observed after mild pathological change (<italic>i.e.</italic> small changes in &#x003b2;<sub>w</sub>) are replaced by repetitive spiking as pathology worsens (<italic>i.e.</italic> larger changes in &#x003b2;<sub>w</sub>); in other words, the upper limits of MPO amplitude and frequency are reduced as the lower limit (<italic>i.e.</italic> stimulus threshold) for repetitive spiking decreases.</p><p>Results presented thus far demonstrate that a switch in spike initiation mechanism (from QS-crossing to subcritical Hopf bifurcation) is sufficient to explain the complete triad of excitability changes outlined in <xref ref-type="fig" rid="pcbi-1002524-g001">
+<bold>Fig. 1A&#x02013;C</bold>
+</xref>. Despite extensive exploration of the parameter space of two separate 2-D models (see also <bold><xref ref-type="supplementary-material" rid="pcbi.1002524.s002">Fig. S2</xref></bold>), we could not find another dynamical explanation for the combination of changes, consistent with the limited number of bifurcation mechanisms that are possible in a 2-D model <xref rid="pcbi.1002524-Izhikevich1" ref-type="bibr">[37]</xref>, which argues that the identified switch is also necessary for the excitability changes. In a higher dimensional system, the same switch in spiking mechanism is sufficient to explain excitability changes but we cannot prove that it is necessary, although parsimony argues in favor of our explanation. We now shift our focus from what a switch in spike initiation can explain, to what explains the switch in spike initiation. Specifically, we will now consider the biophysical meaning of a neuropathic change in parameter &#x003b2;<sub>w</sub> and whether such a change is biologically plausible. Later, we will consider the effects of changing other parameters.</p></sec><sec id="s2e"><title>Biophysical basis for a neuropathic change in spike initiation</title><p>Strictly speaking, &#x003b2;<sub>w</sub> represents the voltage at half-maximal activation of the slow current, <italic>I</italic>
+<sub>slow</sub> (see Eqn. 4). Increasing &#x003b2;<sub>w</sub> from &#x02212;21 mV to &#x02212;13 mV caused a rightward shift in <italic>I</italic>
+<sub>slow</sub>-<italic>V</italic> curve of the model neuron (<xref ref-type="fig" rid="pcbi-1002524-g007">
+<bold>Fig. 7A</bold>
+</xref>), which corresponds to a shift in the <italic>w</italic>-nullcline (<xref ref-type="fig" rid="pcbi-1002524-g007">
+<bold>Fig. 7A</bold>
+</xref>
+<bold>inset</bold>); shifting the <italic>w</italic>-nullcline changes how the <italic>V</italic>- and <italic>w</italic>-nullclines intersect, which has direct implications for spike initiation dynamics (see <xref ref-type="fig" rid="pcbi-1002524-g002">
+<bold>Fig. 2</bold>
+</xref>). These results therefore argue that an injury-induced change in the voltage-dependency of <italic>I</italic>
+<sub>slow</sub> could account for repetitive spiking; indeed, variations in the voltage-sensitivity of ion channel gating occur and are associated with hyperexcitability <xref rid="pcbi.1002524-Wang1" ref-type="bibr">[e.g. 38]</xref>, <xref rid="pcbi.1002524-Emery1" ref-type="bibr">[39]</xref>, <xref rid="pcbi.1002524-Choi2" ref-type="bibr">[40]</xref>. However, most previous research has focused on whether expression of certain ion channels is up- or down-regulated after nerve injury <xref rid="pcbi.1002524-Costigan2" ref-type="bibr">[41]</xref>. Varying &#x003b2;<sub>w</sub> can also account for changes in ion channel density if one understands how our &#x0201c;minimal&#x0201d; computer model was constructed; specifically, <italic>I</italic>
+<sub>slow</sub> represents the sum of all ion currents with slow gating kinetics <xref rid="pcbi.1002524-Kepler1" ref-type="bibr">[42]</xref>, meaning <italic>I</italic>
+<sub>slow</sub> comprises multiple currents that could be modeled individually. To explain expression changes, we can ungroup <italic>I</italic>
+<sub>slow</sub> into parts that have more specific molecular correlates. To this end, we replaced <italic>I</italic>
+<sub>slow</sub> with a delayed rectifier K<sup>&#x0002b;</sup> current <italic>I</italic>
+<sub>K,dr</sub> and a subthreshold inward or outward current <italic>I</italic>
+<sub>sub</sub> whose activation properties are shown in <xref ref-type="fig" rid="pcbi-1002524-g007">
+<bold>Fig. 7B</bold>
+</xref>. This converts the model from 2-D to 3-D, <italic>i.e.</italic> with three activation variables instead of just two (compare Eqns. 1 and 11). Increasing inward <italic>I</italic>
+<sub>sub</sub> (akin to upregulating Na<sub>v</sub>1.3 expression <xref rid="pcbi.1002524-Waxman1" ref-type="bibr">[43]</xref>) or decreasing outward <italic>I</italic>
+<sub>sub</sub> (akin to downregulating K<sub>v</sub>1 expression <xref rid="pcbi.1002524-Yang1" ref-type="bibr">[44]</xref>) shifted the (<italic>I</italic>
+<sub>K,dr</sub>&#x0002b;<italic>I</italic>
+<sub>sub</sub>)&#x02212;<italic>V</italic> curve in the 3-D model (<xref ref-type="fig" rid="pcbi-1002524-g007">
+<bold>Fig. 7C and D</bold>
+</xref>, respectively) the same way as making &#x003b2;<sub>w</sub> less negative shifted the <italic>I</italic>
+<sub>slow</sub>-<italic>V</italic> curve in the 2-D model (cf. <xref ref-type="fig" rid="pcbi-1002524-g007">
+<bold>Fig. 7A</bold>
+</xref>); in other words, distinct molecular changes are equally capable of causing repetitive spiking, consistent with the equivalent effects of such changes on spike initiation (see bifurcation diagrams in <xref ref-type="fig" rid="pcbi-1002524-g007">
+<bold>Fig. 7C and D</bold>
+</xref>).</p><fig id="pcbi-1002524-g007" position="float"><object-id pub-id-type="doi">10.1371/journal.pcbi.1002524.g007</object-id><label>Figure 7</label><caption><title>Relating parameter changes in the 2-D model with more biologically meaningful changes in a 3-D model.</title><p>(<bold>A</bold>) Changing &#x003b2;<sub>w</sub> from &#x02212;21 mv to &#x02212;13 mV shifts the <italic>I</italic>
+<sub>slow</sub>-<italic>V</italic> curve to the right, which corresponds to a rightward shift in the <italic>w</italic>-nullcline on the <italic>V-w</italic> phase plane (inset) and switches the spike initiation mechanism (see <xref ref-type="fig" rid="pcbi-1002524-g002">
+<bold>Fig. 2</bold>
+</xref>). In the 2-D model, &#x003b2;<sub>w</sub> represents the voltage-dependency of <italic>I</italic>
+<sub>slow</sub> which, in reality, comprises multiple currents with slow kinetics. The biological realism of the model can be increased by &#x0201c;ungrouping&#x0201d; <italic>I</italic>
+<sub>slow</sub> into two (or more) components, one representing the delayed-rectifier potassium current <italic>I</italic>
+<sub>K,dr</sub> and one representing a subthreshold current <italic>I</italic>
+<sub>sub</sub> that can be inward or outward depending on the reversal potential. (<bold>B</bold>) Voltage-dependent activation curve for <italic>I</italic>
+<sub>sub</sub>. Parameter values (indicated on the figure) were determined as explained below. In the 3-D model, the (<italic>I</italic>
+<sub>K,dr</sub>&#x0002b;<italic>I</italic>
+<sub>sub</sub>)&#x02212;<italic>V</italic> curve was shifted the same as the <italic>I</italic>
+<sub>sub</sub>-<italic>V</italic> curve in A by increasing inward <italic>I</italic>
+<sub>sub</sub> (<bold>C</bold>) or by decreasing outward <italic>I</italic>
+<sub>sub</sub> (<bold>D</bold>) on the basis of varying <italic>g</italic>
+<sub>sub</sub>. Bifurcation diagrams demonstrate the change in spike initiation mechanism. With <italic>I</italic>
+<sub>K,dr</sub> properties fixed, maximal conductance and voltage-sensitivity of <italic>I</italic>
+<sub>sub</sub> were adjusted to recreate the shift shown in A; derived parameters illustrate the importance of the modulated conductance activating at subthreshold potentials. Adding or removing the same subthreshold currents to a Hodgkin-Huxley model (rather than to our starting 2-D Morris-Lecar model) produces equivalent changes in excitability (data not shown). By comparison, modulating current that activates only at suprathreshold potentials (&#x003b2;<sub>y</sub>&#x0200a;=&#x0200a;0 mV) had no effect on the (<italic>I</italic>
+<sub>K,dr</sub>&#x0002b;<italic>I</italic>
+<sub>supra</sub>)&#x02212;<italic>V</italic> curve in the perithreshold voltage range, and thus the spike initiation dynamics were unchanged (see <bold><xref ref-type="supplementary-material" rid="pcbi.1002524.s004">Fig. S4</xref></bold>).</p></caption><graphic xlink:href="pcbi.1002524.g007"/></fig><p>These results demonstrate that a single parameter change in our minimal 2-D model can represent more than one biological change. Furthermore, other parameters in the 2-D model affect spike initiation. To investigate this, we varied other parameters one at a time and measured excitability. Starting from the same &#x0201c;normal&#x0201d; state (see <xref ref-type="fig" rid="pcbi-1002524-g002">
+<bold>Fig. 2A</bold>
+</xref>
+<bold> top</bold>), each parameter change was able to produce comparable &#x0201c;neuropathic&#x0201d; states as evidenced by a Hopf bifurcation (<xref ref-type="fig" rid="pcbi-1002524-g008">
+<bold>Fig. 8A&#x02013;D</bold>
+</xref>, right panels). Phase planes (left panels) illustrate how different parameter changes morph either the <italic>V</italic>- or <italic>w</italic>-nullclines &#x02013; the important observation is that each change produced the same geometrical alteration in how the two nullclines intersect, which is a direct reflection of how fast and slow currents compete during spike initiation (see <bold><xref ref-type="supplementary-material" rid="pcbi.1002524.s001">Fig. S1</xref></bold>). Like for the biological meaning of a change in &#x003b2;<sub>w</sub> (see <xref ref-type="fig" rid="pcbi-1002524-g007">
+<bold>Fig. 7</bold>
+</xref>), we can reasonably posit that other parameter changes in the 2-D model can each represent more than one biological change.</p><fig id="pcbi-1002524-g008" position="float"><object-id pub-id-type="doi">10.1371/journal.pcbi.1002524.g008</object-id><label>Figure 8</label><caption><title>Dynamically equivalent effects of varying other model parameters in the 2-D model.</title><p>Effects of changing &#x003b2;<sub>w</sub> (<bold>A</bold>), <italic>g</italic>
+<sub>fast</sub> (<bold>B</bold>), <italic>g</italic>
+<sub>slow</sub> (<bold>C</bold>), and &#x003b2;<sub>m</sub> (<bold>D</bold>) in the original 2-D model. All parameters were at their default values (see <xref ref-type="sec" rid="s4">Methods</xref>) except for the parameter of interest, which was varied from its default value (green) to a value causing neuropathic excitability (red) as indicated on each panel. In each case, the shape and/or positioning of the <italic>V</italic>- or <italic>w</italic>-nullcline (shown on phase planes; left panels) was affected in a distinct way, but the geometry of the nullcline intersection showed the equivalent &#x0201c;neuropathic&#x0201d; change, as evidenced by the bifurcations diagrams (right panels); specifically, all &#x0201c;neuropathic&#x0201d; bifurcation diagrams exhibit a Hopf bifurcation. For A&#x02013;D, the &#x0201c;normal&#x0201d; bifurcation diagrams are equivalent and correspond to that shown in <xref ref-type="fig" rid="pcbi-1002524-g002">
+<bold>Fig. 2B</bold>
+</xref>
+<bold> top</bold>.</p></caption><graphic xlink:href="pcbi.1002524.g008"/></fig><p>These data emphasize the degeneracy of the molecular substrate for cellular excitability, <italic>i.e.</italic> that distinct molecular pathologies can yield the same pattern of cellular hyperexcitability (see <xref ref-type="sec" rid="s1">Introduction</xref>). In fact, changing any parameter in the 2-D model can potentially produce the neuropathic change in spike initiation because our <italic>minimal</italic> model contains only the necessary and sufficient variables required to explain spike generation. If a conductance that does not influence spike initiation (e.g. one that activates only at suprathreshold potentials) is added to the 2-D model (thus producing a 3-D model comparable to that used in <xref ref-type="fig" rid="pcbi-1002524-g007">
+<bold>Fig. 7</bold>
+</xref>), altering that conductance will not affect excitability (<bold><xref ref-type="supplementary-material" rid="pcbi.1002524.s004">Fig. S4</xref></bold>). Notably, injury-induced changes in such currents could occur and would be correlated with cellular hyperexcitability (and neuropathic pain) without the molecular and cellular changes being causally related (see <xref ref-type="fig" rid="pcbi-1002524-g001">
+<bold>Fig. 1D</bold>
+</xref>). This illustrates the <italic>insensitivity</italic> of the pathological process to certain parameters <xref rid="pcbi.1002524-Marder1" ref-type="bibr">[45]</xref>. On the other hand, a change in a functionally important parameter might also fail to produce cellular hyperexcitability if that change is offset by a simultaneous change in a second parameter (<xref ref-type="fig" rid="pcbi-1002524-g009">
+<bold>Fig. 9A</bold>
+</xref>). We illustrate this in <xref ref-type="fig" rid="pcbi-1002524-g009">
+<bold>Fig. 9</bold>
+</xref> using our 2-D model, but the importance of this observation is even greater for higher-dimensional models. Consider that biological changes accounted for by the same parameter might offset one another so that the parameter itself (in the 2-D model) does not change; for example, a large increase in inward <italic>I</italic>
+<sub>sub</sub> could be offset by a large increase in outward <italic>I</italic>
+<sub>sub</sub> (in the 3-D model) such that &#x003b2;<sub>w</sub> remains unchanged (in the 2-D model). The last two examples highlight the importance of <italic>co-variability</italic> across parameters <xref rid="pcbi.1002524-Marder1" ref-type="bibr">[45]</xref>. Notably, small co-variations may also combine to cause hyperexcitability (<xref ref-type="fig" rid="pcbi-1002524-g009">
+<bold>Fig. 9B</bold>
+</xref>). <italic>Insensitivity</italic> and <italic>co-variability</italic> are both routinely overlooked in studies reporting injury-induced changes in ion channel expression, thus compromising the definitive interpretation of those studies.</p><fig id="pcbi-1002524-g009" position="float"><object-id pub-id-type="doi">10.1371/journal.pcbi.1002524.g009</object-id><label>Figure 9</label><caption><title>Effects of multiple co-occurring molecular changes.</title><p>(<bold>A</bold>) A parameter change affecting a subthreshold current (in this case in the original 2-D model) may fail to cause hyperexcitability if that change is offset by a change in a second parameter. In this example, varying &#x003b2;<sub>w</sub> shifts the <italic>w</italic>-nullcline whereas varying &#x003b3;<sub>m</sub> re-shapes the <italic>V</italic>-nullcline, but the combination of changes results in no change in the geometry of the nullcline intersection. Parameter values are indicated on the bifurcation diagrams; the color of each label corresponds to the color of nullclines shown on the <italic>V-w</italic> phase plane. (<bold>B</bold>) Changes in excitability (quantified as the <italic>I</italic>
+<sub>stim</sub> threshold for repetitive spiking) caused by co-varying &#x003b2;<sub>w</sub> and &#x003b3;<sub>m</sub>. The increase in excitability caused by varying only &#x003b2;<sub>w</sub> (arrow <italic>a</italic>) could be produced by a much smaller change in &#x003b3;<sub>m</sub> (arrow <italic>b</italic>) or by small combined changes in &#x003b2;<sub>w</sub> and &#x003b3;<sub>m</sub> (arrow <italic>c</italic>). Arrow <italic>d</italic> shows conditions in A. Note that the reduction in &#x003b3;<sub>m</sub> required to offset a &#x0201c;neuropathic&#x0201d; change in &#x003b2;<sub>w</sub> (arrow <italic>e</italic>) is larger than the increase in &#x003b3;<sub>m</sub> required to produce neuropathic excitability (arrow <italic>b</italic>). Systematic testing of all parameter combinations is beyond the scope of the current study, but this example highlights the importance of parameter co-variation.</p></caption><graphic xlink:href="pcbi.1002524.g009"/></fig></sec></sec><sec id="s3"><title>Discussion</title><p>In this study, we combined computer modeling and analysis based on dynamical systems theory to rigorously explain neuropathic changes in the excitability of primary somatosensory afferents. Beyond reproducing the quantitative increase in excitability, our results demonstrate that three qualitative changes in excitability (<italic>i.e.</italic> repetitive spiking, MPOs and bursting) all arise from a switch in the nonlinear mechanism responsible for spike initiation. In dynamical terms, spike initiation switches from a quasi-separatrix-crossing under normal conditions to a Hopf bifurcation under neuropathic conditions. These dynamical mechanisms represent different outcomes in the competition between positive and negative feedback, and generalize to different feedback mechanisms (<italic>e.g.</italic> Na<sup>&#x0002b;</sup> channel inactivation vs. K<sup>&#x0002b;</sup> channel activation). In biophysical terms, this switch occurs when competition between currents contributing to spike initiation becomes biased. A multitude of different changes in different channels are sufficient to produce the equivalent switch in spike initiation dynamics by biasing the competition in favor of inward current. A switch in spike initiation dynamics is thus sufficient (and very likely necessary) to explain neuropathic changes in excitability; by comparison, many different molecular changes may be sufficient to switch the spike initiation mechanism, but no single molecular change is strictly necessary if more than one sufficient change is triggered by nerve injury (see <xref ref-type="sec" rid="s1">Introduction</xref> and <xref ref-type="fig" rid="pcbi-1002524-g010">
+<bold>Fig. 10</bold>
+</xref>).</p><fig id="pcbi-1002524-g010" position="float"><object-id pub-id-type="doi">10.1371/journal.pcbi.1002524.g010</object-id><label>Figure 10</label><caption><title>Summary of relationships between molecular and cellular changes.</title><p>(<bold>Scenario 1</bold>) A molecular change of interest outside the red-shaded region is neither necessary nor sufficient to cause hyperexcitability, but may nevertheless be correlated with it. (<bold>Scenario 2</bold>) In the absence of other changes, a molecular change of interest inside the red-shaded region is both necessary and sufficient to cause hyperexcitability. (<bold>Scenario 3</bold>) If only one molecular change occurs inside the red-shaded region, that change will be necessary for hyperexcitability but may or may not be sufficient depending on how the change interacts with other changes outside the red-shaded region. (<bold>Scenario 4</bold>) If multiple molecular changes occur inside the red-shaded region, then the change of interest will not be necessary for hyperexcitability and may or may not be sufficient depending on how that change interacts with other changes. This last scenario (hightlighted in yellow) is the most likely given that nerve injury triggers multiple molecular changes and given the degenerate manner by which spike initiation can be altered, as shown in this study. Degeneracy implies that the red circle is large and thus likely to significantly overlap the gray circle.</p></caption><graphic xlink:href="pcbi.1002524.g010"/></fig><p>Following a &#x0201c;top-down&#x0201d; modeling approach, we focused first on finding generic solutions to explain excitability changes, and only thereafter did we consider how such solutions might be biologically implemented. This contrasts a &#x0201c;bottom-up&#x0201d; approach of incorporating previously described injury-induced molecular changes into a computer model to investigate whether those molecular changes can account for changes in excitability. The two approaches are complementary but, prior to this study, the former had not been used to investigate primary afferent hyperexcitability, the implication being that no one has previously sought to specifically identify which molecular changes are sufficient to explain documented changes in excitability. Animal models of neuropathic pain can arguably recreate clinically relevant human conditions quite accurately, but such models exhibit a vast array of changes at multiple levels, which can make interpreting those changes prohibitively difficult, especially with respect to causality; irrelevant correlations are probably quite common (<xref ref-type="fig" rid="pcbi-1002524-g010">
+<bold>Fig. 10</bold>
+</xref>
+<bold> scenario 1</bold>). Our approach depends upon the empirical data collected in animal models of neuropathic pain (1) to identify cellular changes requiring explanation, and (2) to identify candidate molecular pathologies with which to explain those cellular changes. But with overwhelming amounts of such data already collected, an alternative approach such as ours is needed to help interpret those data.</p><p>Invariably, the question seems to arise: pathological alteration of which ion current is responsible (<italic>i.e.</italic> necessary) for hyperexcitability? Our results demonstrate that the answer is not straightforward (see <xref ref-type="fig" rid="pcbi-1002524-g010">
+<bold>Fig. 10</bold>
+</xref>). Any change in any current has context-dependent effects insofar as that altered current interacts with other currents. Indeed, a single mutation in Na<sub>v</sub>1.7 channels can increase or decrease excitability depending on the other channels present in the neuron <xref rid="pcbi.1002524-Rush1" ref-type="bibr">[46]</xref>. Therefore, the more important issue is if and how interactions between currents are altered, and more specifically, whether that alteration manifests a switch in spike initiation dynamics. We would argue that one should ask: of all the changes caused by nerve injury, which are <italic>sufficient</italic> (alone or in combination) to produce cellular hyperexcitability? Experimentally testing the sufficiency of each change and combinations thereof for producing each aspect of excitability is impractical. Empirical testing in computer models is more feasible, but ideally a more strategic, theory-based approach could be employed. Our identification of spike initiation as the crucial nonlinearity linking simple molecular changes with complex cellular changes constrains the search to those currents affecting spike initiation. Only currents active at subthreshold potentials can contribute (directly) to the spike initiation process. <italic>Supra</italic>threshold currents like high-voltage-activated Ca<sub>v</sub>1 and 2 channels are present in somatosensory afferents and contribute to processes like synaptic transmission. Those currents can be altered by nerve injury <xref rid="pcbi.1002524-Baccei1" ref-type="bibr">[47]</xref> and such changes could contribute to neuropathic pain, but any association with primary afferent hyperexcitability is likely to be purely correlative and therapies targeting those currents would be ineffective at reversing hyperexcitability; however, the analgesic efficacy of gabapentenoid drugs acting on the &#x003b1;<sub>2</sub>-&#x003b4; subunit of Ca<sub>v</sub>1 and 2 channels <xref rid="pcbi.1002524-Sutton1" ref-type="bibr">[48]</xref>, <xref rid="pcbi.1002524-Bauer1" ref-type="bibr">[49]</xref> clearly implicates other mechanisms as critical factors for pain processing. But even if primary afferent hyperexcitability is neither necessary nor sufficient to produce neuropathic pain (see <xref ref-type="sec" rid="s1">Introduction</xref>), primary afferent hyperexcitability is an important contributing factor <xref rid="pcbi.1002524-Gold1" ref-type="bibr">[3]</xref>. Our data highlight the nuances and complicated nature of the molecular basis for just this one contributing factor.</p><p>Although we have ruled in subthreshold currents as playing a critical role in spike initiation and excitability, it cannot be assumed that even large changes in a <italic>sub</italic>threshold current will necessarily lead to cellular hyperexcitability, let alone neuropathic pain. Cellular excitability may or may not be affected depending on concurrent changes in other currents that could offset the first change (<xref ref-type="fig" rid="pcbi-1002524-g010">
+<bold>Fig. 10</bold>
+</xref>
+<bold>, scenarios 3 and 4</bold>). This raises an important point: most studies have focused on characterizing injury-induced changes in one channel, or perhaps a few channels, but a definitive explanation of whether such changes are sufficient to cause cellular hyperexcitability requires one to account for co-variations by measuring expression levels of all channels involved in spike initiation. Worse yet, this complete analysis should be done on a cell-by-cell basis since different neurons may achieve equivalent excitability based on different combinations of channel densities <xref rid="pcbi.1002524-Schulz1" ref-type="bibr">[50]</xref>, <xref rid="pcbi.1002524-Golowasch1" ref-type="bibr">[51]</xref>, <xref rid="pcbi.1002524-Swensen1" ref-type="bibr">[52]</xref>. Beyond expression levels, we must also consider that channel function can be modulated <xref rid="pcbi.1002524-Cantrell1" ref-type="bibr">[53]</xref>.</p><p>In terms of developing new analgesics that are more effective against neuropathic pain, it is arguably less important to understand precisely which molecular changes combine to cause hyperexcitability than it is to understand which molecular processes should be targeted when trying to therapeutically reverse hyperexcitability. In other words, one need not reverse underlying molecular changes if cellular excitability can be normalized via other (potentially more druggable) targets. By this logic, one should focus on the sufficiency (and likely necessity) of a dynamical change in spike initiation for explaining hyperexcitability rather than being preoccupied with the degeneracy of the molecular basis for that switch. Indeed, whereas the diversity of molecular changes contributing to hyperexcitability makes it difficult to understand the exact pathogenic process (see above), that same diversity broadens the range of drug targets whereby hyperexcitability might be corrected. However, degeneracy of the molecular substrate for cellular excitability has another important implication: if neuropathic pain results from maladaptive plasticity <xref rid="pcbi.1002524-Costigan1" ref-type="bibr">[20]</xref>, <xref rid="pcbi.1002524-Wang2" ref-type="bibr">[54]</xref>, then the therapeutic efficacy achieved through effects on one ion channel could be offset (<italic>i.e.</italic> nullified) by misguided homeostatic plasticity in any one of several other ion channels. This might help explain the relative intractability of neuropathic pain, and suggests that we must be prepared to block or reverse changes in each and every ion channel affected by maladaptive homeostatic plasticity or, better yet, that we address the homeostatic plasticity rules themselves rather than the diverse agents upon which those rules act. The diversity of molecular pathologies contributing to neuropathic pain is arguably well recognized, but the implications described above are not. Our results caution against that oversight.</p><p>Our results also demonstrate how simple molecular changes can manifest complex changes in cellular excitability because of how molecular processes interact. The nonlinear nature of those interactions is key for enabling small quantitative changes in the interacting processes to cause large qualitative changes in the outcome. Indeed, this is the case for spike initiation insofar as there is a critical point (defined by a balance of time- and voltage-dependent feedback mechanisms) that determines whether an all-or-none spike will be produced. Notably, if a simple conductance-based model can accurately reproduce phenomena of interest, then it is necessarily true that a more complicated, biologically realistic model (<italic>i.e.</italic> with more variables and parameters) will be able to do the same. That said, finding the required set of parameter values within the larger parameter space of the more complicated model may prove prohibitively difficult. Nonetheless, either type of model could be used to study the phenomena &#x02013; the choice of model depends on the specific questions and how one intends to answer them. In our case, we started with a simple model because we sought to rigorously characterize (pathological disruption of) fundamental mechanisms of excitability using tools like phase-plane analysis. Once that characterization was complete, we increased the biological realism of our model (see <xref ref-type="fig" rid="pcbi-1002524-g007">
+<bold>Fig. 7</bold>
+</xref>) to facilitate its biological interpretation. Our results demonstrate the utility of such an approach.</p><p>To summarize, our results demonstrate that a switch in spike initiation mechanism is sufficient and most likely necessary to explain a constellation of neuropathic changes in primary afferent excitability. Pathological alteration of the dynamical mechanism responsible for spike initiation, rather than pathological alteration of any one ion channel, is key for explaining cellular hyperexcitability. Indeed, the molecular basis for a change in spike initiation dynamics is highly degenerate insofar as a multitude of different molecular changes, either alone or in combination, can manifest the same change in cellular excitability. Ultimately, strategically intervening to reduce neuropathic pain requires that we thoroughly understand and capitalize on rather than be thwarted by the complexity and degeneracy of the underlying mechanisms.</p></sec><sec sec-type="methods" id="s4"><title>Methods</title><sec id="s4a"><title>Two-dimensional model</title><p>Simulations were conducted in modified versions of the Morris-Lecar model. All models are single compartment, which is important for enabling our analysis but is also an accurate representation of acutely isolated somata used in most electrophysiological experiments on dorsal root ganglion neurons, including those reproduced in <xref ref-type="fig" rid="pcbi-1002524-g001">
+<bold>Fig. 1</bold>
+</xref>. The simplest, 2-D version of our model consists of a fast activation variable <italic>V</italic> and a slower recovery variable <italic>w</italic>
+<xref rid="pcbi.1002524-Prescott1" ref-type="bibr">[27]</xref>, <xref rid="pcbi.1002524-Rinzel1" ref-type="bibr">[33]</xref>, <xref rid="pcbi.1002524-Morris1" ref-type="bibr">[55]</xref>. <italic>V</italic> denotes membrane potential and <italic>m</italic> and <italic>w</italic> are gating variables.<disp-formula><graphic xlink:href="pcbi.1002524.e001.jpg" mimetype="image" position="float"/><label>(1)</label></disp-formula>
+<disp-formula><graphic xlink:href="pcbi.1002524.e002.jpg" mimetype="image" position="float"/><label>(2)</label></disp-formula>
+<disp-formula><graphic xlink:href="pcbi.1002524.e003.jpg" mimetype="image" position="float"/><label>(3)</label></disp-formula>
+<disp-formula><graphic xlink:href="pcbi.1002524.e004.jpg" mimetype="image" position="float"/><label>(4)</label></disp-formula>
+<disp-formula><graphic xlink:href="pcbi.1002524.e005.jpg" mimetype="image" position="float"/><label>(5)</label></disp-formula>such that <italic>m</italic> changes instantaneously with <italic>V</italic> whereas <italic>w</italic> changes with a time constant &#x003c4;<sub>w</sub>. Unless otherwise indicated, parameters were <italic>C</italic>&#x0200a;=&#x0200a;2 &#x000b5;F/cm<sup>2</sup>, <italic>E</italic>
+<sub>Na</sub>&#x0200a;=&#x0200a;50 mV, <italic>E</italic>
+<sub>K</sub>&#x0200a;=&#x0200a;&#x02212;100 mV, <italic>E</italic>
+<sub>leak</sub>&#x0200a;=&#x0200a;&#x02212;70 mV, &#x003d5;<sub>w</sub>&#x0200a;=&#x0200a;0.15, <italic>g</italic>
+<sub>fast</sub>&#x0200a;=&#x0200a;20 mS/cm<sup>2</sup>, <italic>g</italic>
+<sub>slow</sub>&#x0200a;=&#x0200a;20 mS/cm<sup>2</sup>, <italic>g</italic>
+<sub>leak</sub>&#x0200a;=&#x0200a;2 mS/cm<sup>2</sup>, &#x003b2;<sub>m</sub>&#x0200a;=&#x0200a;&#x02212;1.2 mV, &#x003b3;<sub>m</sub>&#x0200a;=&#x0200a;18 mV, &#x003b3;<sub>w</sub>&#x0200a;=&#x0200a;10 mV, and &#x003b2;<sub>w</sub> was varied. These values were taken directly from <xref rid="pcbi.1002524-Prescott1" ref-type="bibr">[27]</xref> except that &#x003b2;<sub>w</sub> was freely adjusted in <xref ref-type="fig" rid="pcbi-1002524-g002">
+<bold>Fig. 2</bold>
+</xref> in order to reproduce different spiking patterns; thereafter, parameter values were <italic>not</italic> adjusted to reproduce other response properties. <italic>I</italic>
+<sub>stim</sub> represents injected current. Where indicated, Gaussian white noise <italic>n</italic>(<italic>t</italic>) with 0 mean and 20 mV<sup>2</sup> variance was added. This weak noise approximates effects of stochastic channel opening. DRG somata do not experience synaptic noise because they do not bear any synapses.</p></sec><sec id="s4b"><title>Three-dimensional model with slow sodium channel inactivation</title><p>Slow Na<sup>&#x0002b;</sup> channel inactivation was incorporated into the 2-D model by inserting an inactivation variable <italic>h</italic> according to<disp-formula><graphic xlink:href="pcbi.1002524.e006.jpg" mimetype="image" position="float"/><label>(6)</label></disp-formula>
+<disp-formula><graphic xlink:href="pcbi.1002524.e007.jpg" mimetype="image" position="float"/><label>(7)</label></disp-formula>
+<disp-formula><graphic xlink:href="pcbi.1002524.e008.jpg" mimetype="image" position="float"/><label>(8)</label></disp-formula>where &#x003b2;<sub>h</sub>&#x0200a;=&#x0200a;30 mV, &#x003b3;<sub>h</sub>&#x0200a;=&#x0200a;&#x02212;5 mV, &#x003c4;<sub>h</sub>&#x0200a;=&#x0200a;2000 ms, &#x003b3;<sub>m</sub>&#x0200a;=&#x0200a;15 mV, and all other parameters were unchanged from our standard 2-D models.</p></sec><sec id="s4c"><title>Three-dimensional model with adaptation</title><p>The model with adaptation mediated by an AHP current <italic>I</italic>
+<sub>AHP</sub>
+<xref rid="pcbi.1002524-Prescott4" ref-type="bibr">[56]</xref> was modeled according to<disp-formula><graphic xlink:href="pcbi.1002524.e009.jpg" mimetype="image" position="float"/><label>(9)</label></disp-formula>
+<disp-formula><graphic xlink:href="pcbi.1002524.e010.jpg" mimetype="image" position="float"/><label>(10)</label></disp-formula>where <italic>z</italic> controls activation of <italic>I</italic>
+<sub>AHP</sub> current with parameters g<sub>adapt</sub>&#x0200a;=&#x0200a;0.5 mS/cm<sup>2</sup>, &#x003b2;<sub>z</sub>&#x0200a;=&#x0200a;0 mV, &#x003b3;<sub>z</sub>&#x0200a;=&#x0200a;4 mV, &#x003c4;<sub>z</sub>&#x0200a;=&#x0200a;300 ms. All other parameters were unchanged from our standard 2-D models.</p></sec><sec id="s4d"><title>Three-dimensional &#x0201c;ungrouped&#x0201d; model</title><p>In the standard 2-D model, <italic>g</italic>
+<sub>fast</sub> and <italic>g</italic>
+<sub>slow</sub> represent the sum of all conductances with fast or slow activation kinetics, respectively. To help interpret the biophysical meaning of changing &#x003b2;<sub>w</sub> in the 2-D model (see <xref ref-type="sec" rid="s2">Results</xref>), we ungrouped <italic>I</italic>
+<sub>slow</sub> into a delayed rectifier K<sup>&#x0002b;</sup> current <italic>I</italic>
+<sub>K,dr</sub> and a subthreshold current <italic>I</italic>
+<sub>sub</sub> that is either inward or outward depending on <italic>E</italic>
+<sub>sub</sub>. Activation of <italic>I</italic>
+<sub>K,dr</sub> and <italic>I</italic>
+<sub>sub</sub> are controlled by <italic>w</italic>&#x0002a; and <italic>y</italic>, respectively, as described by<disp-formula><graphic xlink:href="pcbi.1002524.e011.jpg" mimetype="image" position="float"/><label>(11)</label></disp-formula>where differential equations for <italic>w</italic>&#x0002a; and <italic>y</italic> are the same form as Eqn. 2, and steady state values and time constants are calculated as per Eqns. 4 and 5 with parameters &#x003d5;<sub>w&#x0002a;</sub>&#x0200a;=&#x0200a;0.15, &#x003b2;<sub>w&#x0002a;</sub>&#x0200a;=&#x0200a;&#x02212;21 mV or &#x02212;13 mV, &#x003b3;<sub>w&#x0002a;</sub>&#x0200a;=&#x0200a;10 mV, &#x003d5;<sub>y</sub>&#x0200a;=&#x0200a;0.3, E<sub>sub</sub>&#x0200a;=&#x0200a;E<sub>Na</sub>&#x0200a;=&#x0200a;50 mV for inward current and &#x003d5;<sub>y</sub>&#x0200a;=&#x0200a;0.15, E<sub>sub</sub>&#x0200a;=&#x0200a;E<sub>K</sub>&#x0200a;=&#x0200a;&#x02212;100 mV for outward current. Values of <italic>g</italic>
+<sub>sub</sub>, &#x003b2;<sub>y</sub> and &#x003b3;<sub>y</sub> were adjusted to reproduce effects of varying &#x003b2;<sub>w</sub> in the 2-D model and are indicated in the legend of <xref ref-type="fig" rid="pcbi-1002524-g007">
+<bold>Fig. 7</bold>
+</xref>. All other parameters were as in the 2-D model.</p></sec><sec id="s4e"><title>Simulation methods and dynamical analysis</title><p>Simulations were run in XPP <xref rid="pcbi.1002524-Ermentrout1" ref-type="bibr">[57]</xref> using the Euler method with 0.01&#x02013;0.05 ms time step. Phase plane analysis was conducted in XPP and bifurcation analysis was conducted with AUTO using the XPP interface. Excellent introductions to these forms of nonlinear dynamical analysis are available in <xref rid="pcbi.1002524-Strogatz1" ref-type="bibr">[26]</xref>, <xref rid="pcbi.1002524-Rinzel1" ref-type="bibr">[33]</xref>, <xref rid="pcbi.1002524-Borisyuk1" ref-type="bibr">[34]</xref>, <xref rid="pcbi.1002524-Izhikevich1" ref-type="bibr">[37]</xref>. In <xref ref-type="fig" rid="pcbi-1002524-g002">
+<bold>Fig. 2C</bold>
+</xref>, the quasi-separatrix (QS) was plotted on the <italic>V-w</italic> phase plane by integrating backward in time starting from the point indicated by &#x0002a;. That point was chosen based on where forward trajectories (with slightly different starting values) eventually diverge after clinging to the QS. The region of divergence marks the end of the QS and is therefore a good location from which to begin plotting the reverse trajectory representing the QS.</p></sec></sec><sec sec-type="supplementary-material" id="s5"><title>Supporting Information</title><supplementary-material content-type="local-data" id="pcbi.1002524.s001"><label>Figure S1</label><caption><p>
+<bold>Spike initiation dynamics represent competition between feedback mechanisms.</bold> Spike initiation depends on competition between fast-activating, net inward current (a positive feedback process) and slower-activating, net outward current (a negative feedback process). A spike is initiated when positive feedback proceeds unchecked by negative feedback. Fast current comprises <italic>I</italic>
+<sub>fast</sub>, <italic>I</italic>
+<sub>leak</sub> and <italic>I</italic>
+<sub>stim</sub>. Slow current comprises only <italic>I</italic>
+<sub>slow</sub>. (<bold>A</bold>) Sample responses from the normal and neuropathic models to just-suprathreshold stimulation (starting at <italic>t</italic>&#x0200a;=&#x0200a;0 ms with <italic>I</italic>
+<sub>stim</sub>&#x0200a;=&#x0200a;60 and 45 &#x000b5;A/cm<sup>2</sup>, respectively). Insets labeled <italic>a</italic>&#x02013;<italic>d</italic> show enlarged views during successful or unsuccessful spike initiation. Arrows mark where <italic>dV</italic>/<italic>dt</italic> starts to increase because of runaway positive feedback. In the normal model (top), inward and outward current are both strongly activated and the former just wins (<italic>a</italic>); after one spike, outward current settles at a new steady-state that is sufficiently strong to prevent further spiking (<italic>b</italic>). In the neuropathic model, inward current starts activating with relatively little counterbalancing response from outward current during the first and later spikes (c, <italic>d</italic>). The competition can also be visualized by plotting currents against each other (<bold>B</bold>) rather than against time, as in A. Right graph shows enlarged view of yellow region on left graph and highlights the spike initiating phase. Labels <italic>a&#x02013;d</italic> correspond to those in A. In normal conditions (green), the steep trajectory labeled <italic>a</italic> indicates that outward current, despite its slower kinetics, almost manages to counterbalance fast-activating inward current, and in fact this does occur in the failed spike labeled <italic>b</italic>. In neuropathic conditions (red), the shallower trajectories labeled <italic>c</italic> and <italic>d</italic> show that competition has become biased in favor of inward current. The difference between trajectories suggests that slow-activating outward current is relatively weaker or that fast-activating inward current is relatively stronger under neuropathic conditions. To summarize, in the normal model, fast-activating inward current only ever &#x0201c;wins&#x0201d; at short latencies after stimulus onset, before slower-activating outward current reaches its new steady state; at steady state, outward current is sufficient to stabilize the system and thereby prevent further spiking. In contrast, in the neuropathic model, steady state outward current is insufficient to counterbalance fast-activating inward current when stimulation exceeds a critical intensity, and repetitive spiking ensues.</p><p>(TIF)</p></caption><media xlink:href="pcbi.1002524.s001.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pcbi.1002524.s002"><label>Figure S2</label><caption><p>
+<bold>Spike initiation in model with Na<sup>&#x0002b;</sup> channel inactivation instead of K<sup>&#x0002b;</sup> channel activation.</bold> In our standard 2-D model (see Eqns. 1&#x02013;5), spikes are generated on the basis of competition between fast-activating Na<sup>&#x0002b;</sup> current and slower-activating K<sup>&#x0002b;</sup> current. These two processes represent fast positive feedback and slow negative feedback, respectively. Slow negative feedback can also be mediated by sodium channel inactivation, according to<disp-formula><graphic xlink:href="pcbi.1002524.e012.jpg" mimetype="image" position="float"/><label>(S1)</label></disp-formula>
+<disp-formula><graphic xlink:href="pcbi.1002524.e013.jpg" mimetype="image" position="float"/><label>(S2)</label></disp-formula>
+<disp-formula><graphic xlink:href="pcbi.1002524.e014.jpg" mimetype="image" position="float"/><label>(S3)</label></disp-formula>
+<disp-formula><graphic xlink:href="pcbi.1002524.e015.jpg" mimetype="image" position="float"/><label>(S4)</label></disp-formula>
+<disp-formula><graphic xlink:href="pcbi.1002524.e016.jpg" mimetype="image" position="float"/><label>(S5)</label></disp-formula>where <italic>h</italic> controls inactivation. Eqn. S1, S2, S3, S4, S5 are essentially equivalent to Eqn. 1&#x02013;5. Parameters were the same as in our standard 2-D model except for the following: &#x003b2;<sub>m</sub>&#x0200a;=&#x0200a;&#x02212;5 mV, &#x003b3;<sub>m</sub>&#x0200a;=&#x0200a;15 mV, &#x003b2;<sub>h</sub>&#x0200a;=&#x0200a;&#x02212;27 mV or &#x02212;30 mV and &#x003b3;<sub>h</sub>&#x0200a;=&#x0200a;&#x02212;8 mV. Notably, the Na<sup>&#x0002b;</sup> channel inactivation modeled here is much faster than that modeled in Eqn. 7 and 8, but <italic>h</italic> nevertheless changes slowly relative to activation <italic>m</italic>. (<bold>A</bold>) The model with &#x003b2;<sub>h</sub>&#x0200a;=&#x0200a;&#x02212;30 mV exhibited onset-only spiking generated through a QS-crossing and negligible MPOs over a broad range of <italic>I</italic>
+<sub>stim</sub>. Compare with top row of <xref ref-type="fig" rid="pcbi-1002524-g002">
+<bold>Figure 2</bold>
+</xref>. Orientations of the <italic>V</italic>- and <italic>h</italic>-nullclines differ from those in <xref ref-type="fig" rid="pcbi-1002524-g002">
+<bold>Figure 2</bold>
+</xref>, but both nullclines are inverted such that their intersection with each other is unchanged. (<bold>B</bold>) The model with &#x003b2;<sub>h</sub>&#x0200a;=&#x0200a;&#x02212;27 mV exhibited repetitive spiking generated through a subcritical Hopf bifurcation and sizeable MPOs as the stable fixed point neared instability. Compare with bottom row of <xref ref-type="fig" rid="pcbi-1002524-g002">
+<bold>Figure 2</bold>
+</xref>. These data demonstrate that regardless of exactly how the model is constructed, spike initiation depends on competition between fast positive feedback and slower negative feedback. Neuropathic changes in excitability represent a qualitative change in the outcome of that competition.</p><p>(TIF)</p></caption><media xlink:href="pcbi.1002524.s002.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pcbi.1002524.s003"><label>Figure S3</label><caption><p>
+<bold>Fast-slow analysis of adaptation.</bold> (<bold>A</bold>) Sample responses to stimulation with <italic>I</italic>
+<sub>stim</sub>&#x0200a;=&#x0200a;43 &#x000b5;A/cm<sup>2</sup> (left) and 46 &#x000b5;A/cm<sup>2</sup> (right) in the 3-D neuropathic model (&#x003b2;<sub>w</sub>&#x0200a;=&#x0200a;&#x02212;13 mV) with adaptation. Bifurcation analysis of the fast subsystem was conducted by systematically varying <italic>z</italic>, like in <xref ref-type="fig" rid="pcbi-1002524-g005">Figure 5</xref>; those results are shown with black and gray curves in B and C. In <bold>B</bold>, we overlaid the <italic>z</italic>-nullcline (green) and <italic>V</italic>
+<sub>equivalent</sub> (red), which corresponds to the voltage that would produce adaptation equivalent to the average adaptation within one inter-spike interval, where that interval is a function of <italic>z</italic> [see ref. S1 for details]. For both stimulus intensities, the <italic>z</italic>-nullcline does not intersect the stable-fixed-point-branch of the fast subsystem, which predicts that adaptation will not stabilize the cell in a quiescent state [ref. S2]. By comparison, for strong stimulation, the <italic>z</italic>-nullcline intersects the stable branch of <italic>V</italic>
+<sub>equivalent</sub> (&#x0002a;), which predicts that adaptation will stabilize at that intersection point, resulting in tonic spiking at a fixed rate, whereas for weak stimulation, the <italic>z</italic>-nullcline intersects the unstable branch of <italic>V</italic>
+<sub>equivalent</sub> (inset), which predicts that adaptation will not stabilize, thus resulting in bursting. In the latter case, <italic>z</italic> increases toward a value which, if it could be reached, would stabilize the neuron at a tonic firing rate, but spiking stops before that value is reached, at which point <italic>z</italic> falls until spiking resumes &#x02013; repeated unsuccessful attempts to reach this unattainable value of <italic>z</italic> causes bursting. In <bold>C</bold>, responses from the 3-D model (same as in A) are projected onto the bifurcation diagrams, and confirm the predictions explained in B. S1. Golomb D, Yue C, Yaari Y (2006) Contribution of persistent &#x0003c;1?ri?&#x0003e;Na&#x0002b; current and M-type K&#x0002b; current to somatic bursting in CA1 pyramidal cells: combined experimental and modeling study. J Neurophysiol 96: 1912&#x02013;1926. S2. Prescott SA, Sejnowski TJ (2008) Spike-rate coding and spike-time coding are affected oppositely by different adaptation mechanisms. J Neurosci 28: 13649&#x02013;13661.</p><p>(TIF)</p></caption><media xlink:href="pcbi.1002524.s003.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pcbi.1002524.s004"><label>Figure S4</label><caption><p>
+<bold>Changes in suprathreshold currents fail to cause hyperexcitability.</bold> By adding an additional current to our 2-D model, we produced a 3-D model comparable to that described in <xref ref-type="fig" rid="pcbi-1002524-g007">Figure 7</xref>. (<bold>A</bold>) Voltage-dependent activation curve for suprathreshold current <italic>I</italic>
+<sub>supra</sub>. Compare with activation curve for <italic>I</italic>
+<sub>sub</sub> in <xref ref-type="fig" rid="pcbi-1002524-g007">Figure 7B</xref>. (<bold>B</bold>) Adding <italic>I</italic>
+<sub>supra</sub> did not shift the (<italic>I</italic>
+<sub>K,dr</sub>&#x0002b;<italic>I</italic>
+<sub>supra</sub>)&#x02212;<italic>V</italic> curve in the voltage range near spike threshold. Bifurcation analysis (right) confirmed that there was no change spike initiation mechanism and numerical simulations (not shown) confirmed that there was no change in spiking pattern, MPOs or bursting, although spike width was markedly increased. Predictably, there was also no change in the nullcline geometry (not shown).</p><p>(TIF)</p></caption><media xlink:href="pcbi.1002524.s004.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack><p>We thank St&#x000e9;phanie Ratt&#x000e9; for comments on the manuscript.</p></ack><fn-group><fn fn-type="COI-statement"><p>The authors have declared that no competing interests exist.</p></fn><fn fn-type="financial-disclosure"><p>This work was supported by NIH grant NS 074146 and by scholar awards from the Rita Allen Foundation and the Edward Mallinckrodt Jr. Foundation to SAP. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p></fn></fn-group><ref-list><title>References</title><ref id="pcbi.1002524-Devor1"><label>1</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Devor</surname><given-names>M</given-names></name></person-group>
+<year>1991</year>
+<article-title>Neuropathic pain and injured nerve: peripheral mechanisms.</article-title>
+<source>Br Med Bull</source>
+<volume>47</volume>
+<fpage>619</fpage>
+<lpage>630</lpage>
+<pub-id pub-id-type="pmid">1794075</pub-id></element-citation></ref><ref id="pcbi.1002524-Gracely1"><label>2</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gracely</surname><given-names>RH</given-names></name><name><surname>Lynch</surname><given-names>SA</given-names></name><name><surname>Bennett</surname><given-names>GJ</given-names></name></person-group>
+<year>1992</year>
+<article-title>Painful neuropathy: altered central processing maintained dynamically by peripheral input.</article-title>
+<source>Pain</source>
+<volume>51</volume>
+<fpage>175</fpage>
+<lpage>194</lpage>
+<pub-id pub-id-type="pmid">1484715</pub-id></element-citation></ref><ref id="pcbi.1002524-Gold1"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gold</surname><given-names>MS</given-names></name><name><surname>Gebhart</surname><given-names>GF</given-names></name></person-group>
+<year>2010</year>
+<article-title>Nociceptor sensitization in pain pathogenesis.</article-title>
+<source>Nat Med</source>
+<volume>16</volume>
+<fpage>1248</fpage>
+<lpage>1257</lpage>
+<pub-id pub-id-type="pmid">20948530</pub-id></element-citation></ref><ref id="pcbi.1002524-Liu1"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Liu</surname><given-names>CN</given-names></name><name><surname>Devor</surname><given-names>M</given-names></name><name><surname>Waxman</surname><given-names>SG</given-names></name><name><surname>Kocsis</surname><given-names>JD</given-names></name></person-group>
+<year>2002</year>
+<article-title>Subthreshold oscillations induced by spinal nerve injury in dissociated muscle and cutaneous afferents of mouse DRG.</article-title>
+<source>J Neurophysiol</source>
+<volume>87</volume>
+<fpage>2009</fpage>
+<lpage>2017</lpage>
+<pub-id pub-id-type="pmid">11929919</pub-id></element-citation></ref><ref id="pcbi.1002524-Song1"><label>5</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Song</surname><given-names>Y</given-names></name><name><surname>Li</surname><given-names>HM</given-names></name><name><surname>Xie</surname><given-names>RG</given-names></name><name><surname>Yue</surname><given-names>ZF</given-names></name><name><surname>Song</surname><given-names>XJ</given-names></name><etal/></person-group>
+<year>2012</year>
+<article-title>Evoked bursting in injured Abeta dorsal root ganglion neurons: A mechanism underlying tactile allodynia.</article-title>
+<source>Pain</source>
+<volume>153</volume>
+<fpage>657</fpage>
+<lpage>665</lpage>
+<pub-id pub-id-type="pmid">22237000</pub-id></element-citation></ref><ref id="pcbi.1002524-Ma1"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ma</surname><given-names>C</given-names></name><name><surname>LaMotte</surname><given-names>RH</given-names></name></person-group>
+<year>2007</year>
+<article-title>Multiple sites for generation of ectopic spontaneous activity in neurons of the chronically compressed dorsal root ganglion.</article-title>
+<source>J Neurosci</source>
+<volume>27</volume>
+<fpage>14059</fpage>
+<lpage>14068</lpage>
+<pub-id pub-id-type="pmid">18094245</pub-id></element-citation></ref><ref id="pcbi.1002524-Xing1"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Xing</surname><given-names>JL</given-names></name><name><surname>Hu</surname><given-names>SJ</given-names></name><name><surname>Long</surname><given-names>KP</given-names></name></person-group>
+<year>2001</year>
+<article-title>Subthreshold membrane potential oscillations of type A neurons in injured DRG.</article-title>
+<source>Brain Res</source>
+<volume>901</volume>
+<fpage>128</fpage>
+<lpage>136</lpage>
+<pub-id pub-id-type="pmid">11368959</pub-id></element-citation></ref><ref id="pcbi.1002524-Amir1"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Amir</surname><given-names>R</given-names></name><name><surname>Liu</surname><given-names>CN</given-names></name><name><surname>Kocsis</surname><given-names>JD</given-names></name><name><surname>Devor</surname><given-names>M</given-names></name></person-group>
+<year>2002</year>
+<article-title>Oscillatory mechanism in primary sensory neurones.</article-title>
+<source>Brain</source>
+<volume>125</volume>
+<fpage>421</fpage>
+<lpage>435</lpage>
+<pub-id pub-id-type="pmid">11844741</pub-id></element-citation></ref><ref id="pcbi.1002524-Ma2"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ma</surname><given-names>C</given-names></name><name><surname>LaMotte</surname><given-names>RH</given-names></name></person-group>
+<year>2005</year>
+<article-title>Enhanced excitability of dissociated primary sensory neurons after chronic compression of the dorsal root ganglion in the rat.</article-title>
+<source>Pain</source>
+<volume>113</volume>
+<fpage>106</fpage>
+<lpage>112</lpage>
+<pub-id pub-id-type="pmid">15621370</pub-id></element-citation></ref><ref id="pcbi.1002524-Amir2"><label>10</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Amir</surname><given-names>R</given-names></name><name><surname>Michaelis</surname><given-names>M</given-names></name><name><surname>Devor</surname><given-names>M</given-names></name></person-group>
+<year>1999</year>
+<article-title>Membrane potential oscillations in dorsal root ganglion neurons: role in normal electrogenesis and neuropathic pain.</article-title>
+<source>J Neurosci</source>
+<volume>19</volume>
+<fpage>8589</fpage>
+<lpage>8596</lpage>
+<pub-id pub-id-type="pmid">10493758</pub-id></element-citation></ref><ref id="pcbi.1002524-Liu2"><label>11</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Liu</surname><given-names>CN</given-names></name><name><surname>Michaelis</surname><given-names>M</given-names></name><name><surname>Amir</surname><given-names>R</given-names></name><name><surname>Devor</surname><given-names>M</given-names></name></person-group>
+<year>2000</year>
+<article-title>Spinal nerve injury enhances subthreshold membrane potential oscillations in DRG neurons: relation to neuropathic pain.</article-title>
+<source>J Neurophysiol</source>
+<volume>84</volume>
+<fpage>205</fpage>
+<lpage>215</lpage>
+<pub-id pub-id-type="pmid">10899197</pub-id></element-citation></ref><ref id="pcbi.1002524-Jian1"><label>12</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jian</surname><given-names>Z</given-names></name><name><surname>Xing</surname><given-names>JL</given-names></name><name><surname>Yang</surname><given-names>GS</given-names></name><name><surname>Hu</surname><given-names>SJ</given-names></name></person-group>
+<year>2004</year>
+<article-title>A novel bursting mechanism of type a neurons in injured dorsal root ganglia.</article-title>
+<source>Neurosignals</source>
+<volume>13</volume>
+<fpage>150</fpage>
+<lpage>156</lpage>
+<pub-id pub-id-type="pmid">15067203</pub-id></element-citation></ref><ref id="pcbi.1002524-Liu3"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Liu</surname><given-names>CN</given-names></name><name><surname>Wall</surname><given-names>PD</given-names></name><name><surname>Ben Dor</surname><given-names>E</given-names></name><name><surname>Michaelis</surname><given-names>M</given-names></name><name><surname>Amir</surname><given-names>R</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Tactile allodynia in the absence of C-fiber activation: altered firing properties of DRG neurons following spinal nerve injury.</article-title>
+<source>Pain</source>
+<volume>85</volume>
+<fpage>503</fpage>
+<lpage>521</lpage>
+<pub-id pub-id-type="pmid">10781925</pub-id></element-citation></ref><ref id="pcbi.1002524-Koltzenburg1"><label>14</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Koltzenburg</surname><given-names>M</given-names></name><name><surname>Torebjork</surname><given-names>HE</given-names></name><name><surname>Wahren</surname><given-names>LK</given-names></name></person-group>
+<year>1994</year>
+<article-title>Nociceptor modulated central sensitization causes mechanical hyperalgesia in acute chemogenic and chronic neuropathic pain.</article-title>
+<source>Brain</source>
+<volume>117</volume>
+<issue>Pt 3</issue>
+<fpage>579</fpage>
+<lpage>591</lpage>
+<pub-id pub-id-type="pmid">8032867</pub-id></element-citation></ref><ref id="pcbi.1002524-Campbell1"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Campbell</surname><given-names>JN</given-names></name><name><surname>Raja</surname><given-names>SN</given-names></name><name><surname>Meyer</surname><given-names>RA</given-names></name><name><surname>Mackinnon</surname><given-names>SE</given-names></name></person-group>
+<year>1988</year>
+<article-title>Myelinated afferents signal the hyperalgesia associated with nerve injury.</article-title>
+<source>Pain</source>
+<volume>32</volume>
+<fpage>89</fpage>
+<lpage>94</lpage>
+<pub-id pub-id-type="pmid">3340426</pub-id></element-citation></ref><ref id="pcbi.1002524-Torsney1"><label>16</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Torsney</surname><given-names>C</given-names></name><name><surname>MacDermott</surname><given-names>AB</given-names></name></person-group>
+<year>2006</year>
+<article-title>Disinhibition opens the gate to pathological pain signaling in superficial neurokinin 1 receptor-expressing neurons in rat spinal cord.</article-title>
+<source>J Neurosci</source>
+<volume>26</volume>
+<fpage>1833</fpage>
+<lpage>1843</lpage>
+<pub-id pub-id-type="pmid">16467532</pub-id></element-citation></ref><ref id="pcbi.1002524-Keller1"><label>17</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Keller</surname><given-names>AF</given-names></name><name><surname>Beggs</surname><given-names>S</given-names></name><name><surname>Salter</surname><given-names>MW</given-names></name><name><surname>De Koninck</surname><given-names>Y</given-names></name></person-group>
+<year>2007</year>
+<article-title>Transformation of the output of spinal lamina I neurons after nerve injury and microglia stimulation underlying neuropathic pain.</article-title>
+<source>Mol Pain</source>
+<volume>3</volume>
+<fpage>27</fpage>
+<pub-id pub-id-type="pmid">17900333</pub-id></element-citation></ref><ref id="pcbi.1002524-Campbell2"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Campbell</surname><given-names>JN</given-names></name><name><surname>Meyer</surname><given-names>RA</given-names></name></person-group>
+<year>2006</year>
+<article-title>Mechanisms of neuropathic pain.</article-title>
+<source>Neuron</source>
+<volume>52</volume>
+<fpage>77</fpage>
+<lpage>92</lpage>
+<pub-id pub-id-type="pmid">17015228</pub-id></element-citation></ref><ref id="pcbi.1002524-Ji1"><label>19</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ji</surname><given-names>RR</given-names></name><name><surname>Strichartz</surname><given-names>G</given-names></name></person-group>
+<year>2004</year>
+<article-title>Cell signaling and the genesis of neuropathic pain.</article-title>
+<source>Sci STKE</source>
+<volume>2004</volume>
+<fpage>reE14</fpage>
+<pub-id pub-id-type="pmid">15454629</pub-id></element-citation></ref><ref id="pcbi.1002524-Costigan1"><label>20</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Costigan</surname><given-names>M</given-names></name><name><surname>Scholz</surname><given-names>J</given-names></name><name><surname>Woolf</surname><given-names>CJ</given-names></name></person-group>
+<year>2009</year>
+<article-title>Neuropathic pain: a maladaptive response of the nervous system to damage.</article-title>
+<source>Annu Rev Neurosci</source>
+<volume>32</volume>
+<fpage>1</fpage>
+<lpage>32</lpage>
+<pub-id pub-id-type="pmid">19400724</pub-id></element-citation></ref><ref id="pcbi.1002524-Nassar1"><label>21</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nassar</surname><given-names>MA</given-names></name><name><surname>Levato</surname><given-names>A</given-names></name><name><surname>Stirling</surname><given-names>LC</given-names></name><name><surname>Wood</surname><given-names>JN</given-names></name></person-group>
+<year>2005</year>
+<article-title>Neuropathic pain develops normally in mice lacking both Na(v)1.7 and Na(v)1.8.</article-title>
+<source>Mol Pain</source>
+<volume>1</volume>
+<fpage>24</fpage>
+<pub-id pub-id-type="pmid">16111501</pub-id></element-citation></ref><ref id="pcbi.1002524-Nassar2"><label>22</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nassar</surname><given-names>MA</given-names></name><name><surname>Stirling</surname><given-names>LC</given-names></name><name><surname>Forlani</surname><given-names>G</given-names></name><name><surname>Baker</surname><given-names>MD</given-names></name><name><surname>Matthews</surname><given-names>EA</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Nociceptor-specific gene deletion reveals a major role for Nav1.7 (PN1) in acute and inflammatory pain.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>101</volume>
+<fpage>12706</fpage>
+<lpage>12711</lpage>
+<pub-id pub-id-type="pmid">15314237</pub-id></element-citation></ref><ref id="pcbi.1002524-Edelman1"><label>23</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Edelman</surname><given-names>GM</given-names></name><name><surname>Gally</surname><given-names>JA</given-names></name></person-group>
+<year>2001</year>
+<article-title>Degeneracy and complexity in biological systems.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>98</volume>
+<fpage>13763</fpage>
+<lpage>13768</lpage>
+<pub-id pub-id-type="pmid">11698650</pub-id></element-citation></ref><ref id="pcbi.1002524-Mogil1"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mogil</surname><given-names>JS</given-names></name></person-group>
+<year>2009</year>
+<article-title>Animal models of pain: progress and challenges.</article-title>
+<source>Nat Rev Neurosci</source>
+<volume>10</volume>
+<fpage>283</fpage>
+<lpage>294</lpage>
+<pub-id pub-id-type="pmid">19259101</pub-id></element-citation></ref><ref id="pcbi.1002524-Campbell3"><label>25</label><element-citation publication-type="book">
+<person-group person-group-type="editor"><name><surname>Campbell</surname><given-names>JN</given-names></name><name><surname>Basbaum</surname><given-names>AI</given-names></name><name><surname>Dray</surname><given-names>A</given-names></name><name><surname>Dubner</surname><given-names>R</given-names></name><name><surname>Dworkin</surname><given-names>RH</given-names></name><etal/></person-group>
+<year>2006</year>
+<source>Emerging Strategies for the Treatment of Neuropathic Pain</source>
+<publisher-loc>Seattle</publisher-loc>
+<publisher-name>IASP Press</publisher-name>
+</element-citation></ref><ref id="pcbi.1002524-Strogatz1"><label>26</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Strogatz</surname><given-names>SH</given-names></name></person-group>
+<year>1998</year>
+<source>Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry, and Engineering</source>
+<publisher-loc>Don Mills, ON</publisher-loc>
+<publisher-name>Addison-Wesley</publisher-name>
+</element-citation></ref><ref id="pcbi.1002524-Prescott1"><label>27</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Prescott</surname><given-names>SA</given-names></name><name><surname>De Koninck</surname><given-names>Y</given-names></name><name><surname>Sejnowski</surname><given-names>TJ</given-names></name></person-group>
+<year>2008</year>
+<article-title>Biophysical basis for three distinct dynamical mechanisms of action potential initiation.</article-title>
+<source>PLoS ComputBiol</source>
+<volume>4</volume>
+<fpage>e1000198</fpage>
+</element-citation></ref><ref id="pcbi.1002524-Dorval1"><label>28</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dorval</surname><given-names>AD</given-names></name><name><surname>White</surname><given-names>JA</given-names></name></person-group>
+<year>2005</year>
+<article-title>Channel noise is essential for perithreshold oscillations in entorhinal stellate neurons.</article-title>
+<source>J Neurosci</source>
+<volume>25</volume>
+<fpage>10025</fpage>
+<lpage>10028</lpage>
+<pub-id pub-id-type="pmid">16251451</pub-id></element-citation></ref><ref id="pcbi.1002524-Golomb1"><label>29</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Golomb</surname><given-names>D</given-names></name><name><surname>Donner</surname><given-names>K</given-names></name><name><surname>Shacham</surname><given-names>L</given-names></name><name><surname>Shlosberg</surname><given-names>D</given-names></name><name><surname>Amitai</surname><given-names>Y</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Mechanisms of firing patterns in fast-spiking cortical interneurons.</article-title>
+<source>PLoS ComputBiol</source>
+<volume>3</volume>
+<fpage>e156</fpage>
+</element-citation></ref><ref id="pcbi.1002524-Kovalsky1"><label>30</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kovalsky</surname><given-names>Y</given-names></name><name><surname>Amir</surname><given-names>R</given-names></name><name><surname>Devor</surname><given-names>M</given-names></name></person-group>
+<year>2009</year>
+<article-title>Simulation in sensory neurons reveals a key role for delayed Na&#x0002b; current in subthreshold oscillations and ectopic discharge: implications for neuropathic pain.</article-title>
+<source>J Neurophysiol</source>
+<volume>102</volume>
+<fpage>1430</fpage>
+<lpage>1442</lpage>
+<pub-id pub-id-type="pmid">19571204</pub-id></element-citation></ref><ref id="pcbi.1002524-Choi1"><label>31</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Choi</surname><given-names>JS</given-names></name><name><surname>Waxman</surname><given-names>SG</given-names></name></person-group>
+<year>2011</year>
+<article-title>Physiological interactions between Nav1.7 and Nav1.8 sodium channels: A computer simulation study.</article-title>
+<source>J Neurophysiol</source>
+<volume>106</volume>
+<fpage>3173</fpage>
+<lpage>3184</lpage>
+<pub-id pub-id-type="pmid">21940606</pub-id></element-citation></ref><ref id="pcbi.1002524-Prescott2"><label>32</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Prescott</surname><given-names>SA</given-names></name><name><surname>De Koninck</surname><given-names>Y</given-names></name></person-group>
+<year>2003</year>
+<article-title>Gain control of firing rate by shunting inhibition: roles of synaptic noise and dendritic saturation.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>100</volume>
+<fpage>2076</fpage>
+<lpage>2081</lpage>
+<pub-id pub-id-type="pmid">12569169</pub-id></element-citation></ref><ref id="pcbi.1002524-Rinzel1"><label>33</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Rinzel</surname><given-names>J</given-names></name><name><surname>Ermentrout</surname><given-names>GB</given-names></name></person-group>
+<year>1998</year>
+<article-title>Analysis of neural excitability and oscillations.</article-title>
+<person-group person-group-type="editor"><name><surname>Koch</surname><given-names>C</given-names></name><name><surname>Segev</surname><given-names>I</given-names></name></person-group>
+<source>Methods in Neuronal Modeling: From Ions to Networks</source>
+<publisher-loc>Cambridge, MA</publisher-loc>
+<publisher-name>The MIT Press</publisher-name>
+<fpage>251</fpage>
+<lpage>291</lpage>
+</element-citation></ref><ref id="pcbi.1002524-Borisyuk1"><label>34</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Borisyuk</surname><given-names>A</given-names></name><name><surname>Rinzel</surname><given-names>J</given-names></name></person-group>
+<year>2005</year>
+<article-title>Understanding neuronal dynamics by geometrical dissection of minimal models.</article-title>
+<person-group person-group-type="editor"><name><surname>Chow</surname><given-names>C</given-names></name><name><surname>Gutkin</surname><given-names>B</given-names></name><name><surname>Hansel</surname><given-names>D</given-names></name><name><surname>Meunier</surname><given-names>C</given-names></name><name><surname>Dalibard</surname><given-names>J</given-names></name></person-group>
+<source>Methods and Models in Neurophysics</source>
+<publisher-loc>Proc Les Houches Summer School</publisher-loc>
+<publisher-name>Elsevier</publisher-name>
+<fpage>19</fpage>
+<lpage>72</lpage>
+</element-citation></ref><ref id="pcbi.1002524-Amir3"><label>35</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Amir</surname><given-names>R</given-names></name><name><surname>Michaelis</surname><given-names>M</given-names></name><name><surname>Devor</surname><given-names>M</given-names></name></person-group>
+<year>2002</year>
+<article-title>Burst discharge in primary sensory neurons: triggered by subthreshold oscillations, maintained by depolarizing afterpotentials.</article-title>
+<source>J Neurosci</source>
+<volume>22</volume>
+<fpage>1187</fpage>
+<lpage>1198</lpage>
+<pub-id pub-id-type="pmid">11826148</pub-id></element-citation></ref><ref id="pcbi.1002524-Prescott3"><label>36</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Prescott</surname><given-names>SA</given-names></name><name><surname>Ratt&#x000e9;</surname><given-names>S</given-names></name><name><surname>De Koninck</surname><given-names>Y</given-names></name><name><surname>Sejnowski</surname><given-names>TJ</given-names></name></person-group>
+<year>2008</year>
+<article-title>Pyramidal neurons switch from integrators in vitro to resonators under in vivo-like conditions.</article-title>
+<source>J Neurophysiol</source>
+<volume>100</volume>
+<fpage>3030</fpage>
+<lpage>3042</lpage>
+<pub-id pub-id-type="pmid">18829848</pub-id></element-citation></ref><ref id="pcbi.1002524-Izhikevich1"><label>37</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Izhikevich</surname><given-names>EM</given-names></name></person-group>
+<year>2007</year>
+<source>Dynamical Systems in Neuroscience</source>
+<publisher-loc>Cambridge, MA</publisher-loc>
+<publisher-name>MIT Press</publisher-name>
+</element-citation></ref><ref id="pcbi.1002524-Wang1"><label>38</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>JA</given-names></name><name><surname>Lin</surname><given-names>W</given-names></name><name><surname>Morris</surname><given-names>T</given-names></name><name><surname>Banderali</surname><given-names>U</given-names></name><name><surname>Juranka</surname><given-names>PF</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>Membrane trauma and Na&#x0002b; leak from Nav1.6 channels.</article-title>
+<source>Am J Physiol Cell Physiol</source>
+<volume>297</volume>
+<fpage>C823</fpage>
+<lpage>834</lpage>
+<pub-id pub-id-type="pmid">19657055</pub-id></element-citation></ref><ref id="pcbi.1002524-Emery1"><label>39</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Emery</surname><given-names>EC</given-names></name><name><surname>Young</surname><given-names>GT</given-names></name><name><surname>Berrocoso</surname><given-names>EM</given-names></name><name><surname>Chen</surname><given-names>L</given-names></name><name><surname>McNaughton</surname><given-names>PA</given-names></name></person-group>
+<year>2011</year>
+<article-title>HCN2 ion channels play a central role in inflammatory and neuropathic pain.</article-title>
+<source>Science</source>
+<volume>333</volume>
+<fpage>1462</fpage>
+<lpage>1466</lpage>
+<pub-id pub-id-type="pmid">21903816</pub-id></element-citation></ref><ref id="pcbi.1002524-Choi2"><label>40</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Choi</surname><given-names>JS</given-names></name><name><surname>Cheng</surname><given-names>X</given-names></name><name><surname>Foster</surname><given-names>E</given-names></name><name><surname>Leffler</surname><given-names>A</given-names></name><name><surname>Tyrrell</surname><given-names>L</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Alternative splicing may contribute to time-dependent manifestation of inherited erythromelalgia.</article-title>
+<source>Brain</source>
+<volume>133</volume>
+<fpage>1823</fpage>
+<lpage>1835</lpage>
+<pub-id pub-id-type="pmid">20478850</pub-id></element-citation></ref><ref id="pcbi.1002524-Costigan2"><label>41</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Costigan</surname><given-names>M</given-names></name><name><surname>Befort</surname><given-names>K</given-names></name><name><surname>Karchewski</surname><given-names>L</given-names></name><name><surname>Griffin</surname><given-names>RS</given-names></name><name><surname>D'Urso</surname><given-names>D</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Replicate high-density rat genome oligonucleotide microarrays reveal hundreds of regulated genes in the dorsal root ganglion after peripheral nerve injury.</article-title>
+<source>BMC Neurosci</source>
+<volume>3</volume>
+<fpage>16</fpage>
+<pub-id pub-id-type="pmid">12401135</pub-id></element-citation></ref><ref id="pcbi.1002524-Kepler1"><label>42</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kepler</surname><given-names>TB</given-names></name><name><surname>Abbott</surname><given-names>LF</given-names></name><name><surname>Marder</surname><given-names>E</given-names></name></person-group>
+<year>1992</year>
+<article-title>Reduction of conductance-based neuron models.</article-title>
+<source>Biol Cybern</source>
+<volume>66</volume>
+<fpage>381</fpage>
+<lpage>387</lpage>
+<pub-id pub-id-type="pmid">1562643</pub-id></element-citation></ref><ref id="pcbi.1002524-Waxman1"><label>43</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Waxman</surname><given-names>SG</given-names></name><name><surname>Kocsis</surname><given-names>JD</given-names></name><name><surname>Black</surname><given-names>JA</given-names></name></person-group>
+<year>1994</year>
+<article-title>Type III sodium channel mRNA is expressed in embryonic but not adult spinal sensory neurons, and is reexpressed following axotomy.</article-title>
+<source>J Neurophysiol</source>
+<volume>72</volume>
+<fpage>466</fpage>
+<lpage>470</lpage>
+<pub-id pub-id-type="pmid">7965028</pub-id></element-citation></ref><ref id="pcbi.1002524-Yang1"><label>44</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yang</surname><given-names>EK</given-names></name><name><surname>Takimoto</surname><given-names>K</given-names></name><name><surname>Hayashi</surname><given-names>Y</given-names></name><name><surname>de Groat</surname><given-names>WC</given-names></name><name><surname>Yoshimura</surname><given-names>N</given-names></name></person-group>
+<year>2004</year>
+<article-title>Altered expression of potassium channel subunit mRNA and alpha-dendrotoxin sensitivity of potassium currents in rat dorsal root ganglion neurons after axotomy.</article-title>
+<source>Neuroscience</source>
+<volume>123</volume>
+<fpage>867</fpage>
+<lpage>874</lpage>
+<pub-id pub-id-type="pmid">14751280</pub-id></element-citation></ref><ref id="pcbi.1002524-Marder1"><label>45</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Marder</surname><given-names>E</given-names></name></person-group>
+<year>2011</year>
+<article-title>Variability, compensation, and modulation in neurons and circuits.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>108</volume>
+<issue>Suppl 3</issue>
+<fpage>15542</fpage>
+<lpage>15548</lpage>
+<pub-id pub-id-type="pmid">21383190</pub-id></element-citation></ref><ref id="pcbi.1002524-Rush1"><label>46</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rush</surname><given-names>AM</given-names></name><name><surname>Dib-Hajj</surname><given-names>SD</given-names></name><name><surname>Liu</surname><given-names>S</given-names></name><name><surname>Cummins</surname><given-names>TR</given-names></name><name><surname>Black</surname><given-names>JA</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>A single sodium channel mutation produces hyper- or hypoexcitability in different types of neurons.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>103</volume>
+<fpage>8245</fpage>
+<lpage>8250</lpage>
+<pub-id pub-id-type="pmid">16702558</pub-id></element-citation></ref><ref id="pcbi.1002524-Baccei1"><label>47</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Baccei</surname><given-names>ML</given-names></name><name><surname>Kocsis</surname><given-names>JD</given-names></name></person-group>
+<year>2000</year>
+<article-title>Voltage-gated calcium currents in axotomized adult rat cutaneous afferent neurons.</article-title>
+<source>J Neurophysiol</source>
+<volume>83</volume>
+<fpage>2227</fpage>
+<lpage>2238</lpage>
+<pub-id pub-id-type="pmid">10758131</pub-id></element-citation></ref><ref id="pcbi.1002524-Sutton1"><label>48</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sutton</surname><given-names>KG</given-names></name><name><surname>Martin</surname><given-names>DJ</given-names></name><name><surname>Pinnock</surname><given-names>RD</given-names></name><name><surname>Lee</surname><given-names>K</given-names></name><name><surname>Scott</surname><given-names>RH</given-names></name></person-group>
+<year>2002</year>
+<article-title>Gabapentin inhibits high-threshold calcium channel currents in cultured rat dorsal root ganglion neurones.</article-title>
+<source>Br J Pharmacol</source>
+<volume>135</volume>
+<fpage>257</fpage>
+<lpage>265</lpage>
+<pub-id pub-id-type="pmid">11786502</pub-id></element-citation></ref><ref id="pcbi.1002524-Bauer1"><label>49</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bauer</surname><given-names>CS</given-names></name><name><surname>Tran-Van-Minh</surname><given-names>A</given-names></name><name><surname>Kadurin</surname><given-names>I</given-names></name><name><surname>Dolphin</surname><given-names>AC</given-names></name></person-group>
+<year>2010</year>
+<article-title>A new look at calcium channel alpha2delta subunits.</article-title>
+<source>Curr Opin Neurobiol</source>
+<volume>20</volume>
+<fpage>563</fpage>
+<lpage>571</lpage>
+<pub-id pub-id-type="pmid">20579869</pub-id></element-citation></ref><ref id="pcbi.1002524-Schulz1"><label>50</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schulz</surname><given-names>DJ</given-names></name><name><surname>Goaillard</surname><given-names>JM</given-names></name><name><surname>Marder</surname><given-names>E</given-names></name></person-group>
+<year>2006</year>
+<article-title>Variable channel expression in identified single and electrically coupled neurons in different animals.</article-title>
+<source>Nat Neurosci</source>
+<volume>9</volume>
+<fpage>356</fpage>
+<lpage>362</lpage>
+<pub-id pub-id-type="pmid">16444270</pub-id></element-citation></ref><ref id="pcbi.1002524-Golowasch1"><label>51</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Golowasch</surname><given-names>J</given-names></name><name><surname>Goldman</surname><given-names>MS</given-names></name><name><surname>Abbott</surname><given-names>LF</given-names></name><name><surname>Marder</surname><given-names>E</given-names></name></person-group>
+<year>2002</year>
+<article-title>Failure of averaging in the construction of a conductance-based neuron model.</article-title>
+<source>J Neurophysiol</source>
+<volume>87</volume>
+<fpage>1129</fpage>
+<lpage>1131</lpage>
+<pub-id pub-id-type="pmid">11826077</pub-id></element-citation></ref><ref id="pcbi.1002524-Swensen1"><label>52</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Swensen</surname><given-names>AM</given-names></name><name><surname>Bean</surname><given-names>BP</given-names></name></person-group>
+<year>2005</year>
+<article-title>Robustness of burst firing in dissociated purkinje neurons with acute or long-term reductions in sodium conductance.</article-title>
+<source>J Neurosci</source>
+<volume>25</volume>
+<fpage>3509</fpage>
+<lpage>3520</lpage>
+<pub-id pub-id-type="pmid">15814781</pub-id></element-citation></ref><ref id="pcbi.1002524-Cantrell1"><label>53</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cantrell</surname><given-names>AR</given-names></name><name><surname>Catterall</surname><given-names>WA</given-names></name></person-group>
+<year>2001</year>
+<article-title>Neuromodulation of Na&#x0002b; channels: an unexpected form of cellular plasticity.</article-title>
+<source>Nat Rev Neurosci</source>
+<volume>2</volume>
+<fpage>397</fpage>
+<lpage>407</lpage>
+<pub-id pub-id-type="pmid">11389473</pub-id></element-citation></ref><ref id="pcbi.1002524-Wang2"><label>54</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>G</given-names></name><name><surname>Thompson</surname><given-names>SM</given-names></name></person-group>
+<year>2008</year>
+<article-title>Maladaptive homeostatic plasticity in a rodent model of central pain syndrome: thalamic hyperexcitability after spinothalamic tract lesions.</article-title>
+<source>J Neurosci</source>
+<volume>28</volume>
+<fpage>11959</fpage>
+<lpage>11969</lpage>
+<pub-id pub-id-type="pmid">19005061</pub-id></element-citation></ref><ref id="pcbi.1002524-Morris1"><label>55</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Morris</surname><given-names>C</given-names></name><name><surname>Lecar</surname><given-names>H</given-names></name></person-group>
+<year>1981</year>
+<article-title>Voltage oscillations in the barnacle giant muscle fiber.</article-title>
+<source>Biophys J</source>
+<volume>35</volume>
+<fpage>193</fpage>
+<lpage>213</lpage>
+<pub-id pub-id-type="pmid">7260316</pub-id></element-citation></ref><ref id="pcbi.1002524-Prescott4"><label>56</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Prescott</surname><given-names>SA</given-names></name><name><surname>Sejnowski</surname><given-names>TJ</given-names></name></person-group>
+<year>2008</year>
+<article-title>Spike-rate coding and spike-time coding are affected oppositely by different adaptation mechanisms.</article-title>
+<source>J Neurosci</source>
+<volume>28</volume>
+<fpage>13649</fpage>
+<lpage>13661</lpage>
+<pub-id pub-id-type="pmid">19074038</pub-id></element-citation></ref><ref id="pcbi.1002524-Ermentrout1"><label>57</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Ermentrout</surname><given-names>B</given-names></name></person-group>
+<year>2002</year>
+<source>Simulating, Analyzing, and Animating Dynamical Systems: A Guide to XPPAUT for Researchers and Students</source>
+<publisher-loc>Philadelphia, PA</publisher-loc>
+<publisher-name>SIAM</publisher-name>
+</element-citation></ref></ref-list></back></article>

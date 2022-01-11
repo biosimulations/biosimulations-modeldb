@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/167714.omex">
+    <dc:title>Hodgkin-Huxley with dynamic ion concentrations (Hubel and Dahlem, 2014)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167714.omex">
+    <dc:abstract>The classical Hodgkin--Huxley (HH) model neglects the time-dependence of ion concentrations in spiking dynamics. The dynamics is therefore limited to a time scale of milliseconds, which is determined by the membrane capacitance multiplied by the resistance of the ion channels, and by the gating time constants. This model includes slow dynamics in an extended HH framework that simulates time-dependent ion concentrations, pumps, and buffers. Fluxes across the neuronal membrane change intra- and extracellular ion concentrations, whereby the latter can also change through contact to reservoirs in the surroundings. The dynamics on three distinct slow times scales is determined by the cell volume-to-surface-area ratio and the membrane permeability (seconds), the buffer time constants (tens of seconds), and the slower backward buffering (minutes to hours). The modulatory dynamics and the newly emerging excitable dynamics corresponds to pathological conditions observed in epileptiform burst activity, and spreading depression in migraine aura and stroke, respectively.</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Neuron or other electrically excitable cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167714.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=242">http://modeldb.science/ModelList?id=242</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>I Na,t</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167714.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=248">http://modeldb.science/ModelList?id=248</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>I K</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167714.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=249">http://modeldb.science/ModelList?id=249</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>I K,leak</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167714.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=120693">http://modeldb.science/ModelList?id=120693</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>Na/K pump</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167714.omex">
+    <bqbiol:encodes rdf:resource="local:00005">local:00005</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=139267">http://modeldb.science/ModelList?id=139267</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>I Cl, leak</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167714.omex">
+    <bqbiol:encodes rdf:resource="local:00006">local:00006</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=139268">http://modeldb.science/ModelList?id=139268</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>I Na, leak</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167714.omex">
+    <bqbiol:encodes rdf:resource="local:00007">local:00007</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=144409">http://modeldb.science/ModelList?id=144409</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>Homeostasis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167714.omex">
+    <bqbiol:encodes rdf:resource="local:00008">local:00008</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=167716">http://modeldb.science/ModelList?id=167716</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>Spreading depression</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167714.omex">
+    <bqbiol:encodes rdf:resource="local:00009">local:00009</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <rdfs:label>Spreading depression</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167714.omex">
+    <bqbiol:encodes rdf:resource="local:00010">local:00010</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167714.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/167714.omex/figures/PMC4256015/pcbi.1003941.g001.jpg">http://omex-library.org/167714.omex/figures/PMC4256015/pcbi.1003941.g001.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167714.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/167714.omex/figures/PMC4256015/pcbi.1003941.g002.jpg">http://omex-library.org/167714.omex/figures/PMC4256015/pcbi.1003941.g002.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167714.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/167714.omex/figures/PMC4256015/pcbi.1003941.g003.jpg">http://omex-library.org/167714.omex/figures/PMC4256015/pcbi.1003941.g003.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167714.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/167714.omex/figures/PMC4256015/pcbi.1003941.g004.jpg">http://omex-library.org/167714.omex/figures/PMC4256015/pcbi.1003941.g004.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167714.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/167714.omex/figures/PMC4256015/pcbi.1003941.g005.jpg">http://omex-library.org/167714.omex/figures/PMC4256015/pcbi.1003941.g005.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167714.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/167714.omex/figures/PMC4256015/pcbi.1003941.g006.jpg">http://omex-library.org/167714.omex/figures/PMC4256015/pcbi.1003941.g006.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167714.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/167714.omex/figures/PMC4256015/pcbi.1003941.g007.jpg">http://omex-library.org/167714.omex/figures/PMC4256015/pcbi.1003941.g007.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167714.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/167714.omex/figures/PMC4256015/pcbi.1003941.g008.jpg">http://omex-library.org/167714.omex/figures/PMC4256015/pcbi.1003941.g008.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167714.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/167714.omex/figures/PMC4256015/pcbi.1003941.g009.jpg">http://omex-library.org/167714.omex/figures/PMC4256015/pcbi.1003941.g009.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167714.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/167714.omex/figures/PMC4256015/pcbi.1003941.g010.jpg">http://omex-library.org/167714.omex/figures/PMC4256015/pcbi.1003941.g010.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167714.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/167714.omex/figures/PMC4256015/pcbi.1003941.g011.jpg">http://omex-library.org/167714.omex/figures/PMC4256015/pcbi.1003941.g011.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167714.omex">
+    <dc:contributor rdf:resource="local:00011">local:00011</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167714.omex">
+    <dc:contributor rdf:resource="local:00012">local:00012</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:167714">https://identifiers.org/modeldb:167714</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <rdfs:label>modeldb:167714</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167714.omex">
+    <bqmodel:is rdf:resource="local:00013">local:00013</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1371/journal.pcbi.1003941">http://identifiers.org/doi:10.1371/journal.pcbi.1003941</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <rdfs:label>Niklas Hübel &amp; Markus A. Dahlem. Dynamics from seconds to hours in Hodgkin-Huxley model with time-dependent ion concentrations and buffer reservoirs. PLoS Computational Biology 10, 12: e1003941 (2014).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167714.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00014">local:00014</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167714.omex">
+    <dc:created>2014-10-08</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167714.omex">
+    <dc:modified>2014-10-09</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

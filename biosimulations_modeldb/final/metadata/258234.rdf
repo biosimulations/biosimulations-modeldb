@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/258234.omex">
+    <dc:title>Inhibitory control of motoneuron excitability (Venugopal et al 2011)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/258234.omex">
+    <dc:abstract>A two-compartment model for a motor neuron following chronic spinal cord injury with excessive dendritic persistent Ca2+ current.</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="mailto:vsharmila@g.ucla.edu">mailto:vsharmila@g.ucla.edu</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Sharmila Venugopal</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <foaf:accountName rdf:resource="mailto:vsharmila@g.ucla.edu">mailto:vsharmila@g.ucla.edu</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <foaf:name>Sharmila Venugopal</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/258234.omex">
+    <dc:creator rdf:resource="local:00001">local:00001</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="mailto:vsharmila@g.ucla.edu">mailto:vsharmila@g.ucla.edu</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Sharmila Venugopal</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <foaf:accountName rdf:resource="mailto:vsharmila@g.ucla.edu">mailto:vsharmila@g.ucla.edu</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <foaf:name>Sharmila Venugopal</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/258234.omex">
+    <dc:contributor rdf:resource="local:00002">local:00002</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/258234.omex">
+    <dc:contributor rdf:resource="local:00003">local:00003</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/258234.omex">
+    <dc:contributor rdf:resource="local:00004">local:00004</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:258234">https://identifiers.org/modeldb:258234</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>modeldb:258234</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/258234.omex">
+    <bqmodel:is rdf:resource="local:00005">local:00005</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1152/jn.00359.2011">http://identifiers.org/doi:10.1152/jn.00359.2011</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>Sharmila Venugopal, Thomas M. Hamm, Sharon M. Crook &amp; Ranu Jung. Modulation of inhibitory strength and kinetics facilitates regulation of persistent inward currents and motoneuron excitability following spinal cord injury. Journal of Neurophysiology 106, 5: 2167-2179 (2011).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/258234.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00006">local:00006</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/258234.omex">
+    <dc:created>2019-07-27</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/258234.omex">
+    <dc:modified>2019-07-29</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

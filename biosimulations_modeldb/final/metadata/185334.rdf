@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/185334.omex">
+    <dc:title>Double boundary value problem (A. Bose and J.E. Rubin, 2015)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/185334.omex">
+    <dc:abstract>For two neurons coupled with mutual inhibition, we investigate the strategies that each neuron should utilize in order to maximize the number of spikes it can fire (or equivalently the amount of time it is active) before the other neuron takes over.  We derive a one-dimensional map whose fixed points correspond to periodic anti-phase bursting solutions. The model here solves a novel double boundary value problem that can be used to obtain the graph of this map.&#13;
+&#13;
+Read More: http://www.worldscientific.com/doi/abs/10.1142/S0218127415400040</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Neuron or other electrically excitable cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/185334.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=154740">http://modeldb.science/ModelList?id=154740</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Abstract integrate-and-fire leaky neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/185334.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>half-center oscillator</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/185334.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3634">http://modeldb.science/ModelList?id=3634</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>Oscillations</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/185334.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>Mutual inhibition</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/185334.omex">
+    <bqbiol:encodes rdf:resource="local:00005">local:00005</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="mailto:jonrubin@pitt.edu">mailto:jonrubin@pitt.edu</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>Jonathan E Rubin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <foaf:accountName rdf:resource="mailto:jonrubin@pitt.edu">mailto:jonrubin@pitt.edu</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <foaf:name>Jonathan E Rubin</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/185334.omex">
+    <dc:creator rdf:resource="local:00006">local:00006</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/185334.omex">
+    <dc:contributor rdf:resource="local:00007">local:00007</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/185334.omex">
+    <dc:contributor rdf:resource="local:00008">local:00008</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:185334">https://identifiers.org/modeldb:185334</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>modeldb:185334</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/185334.omex">
+    <bqmodel:is rdf:resource="local:00009">local:00009</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <dc:identifier rdf:resource="http://www.worldscientific.com/doi/abs/10.1142/S0218127415400040">http://www.worldscientific.com/doi/abs/10.1142/S0218127415400040</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <rdfs:label>Bose A &amp; Rubin JE. Strategies to Maximize Burst Lengths in Rhythmic Anti-Phase Activity of Networks with Reciprocal Inhibition. International Journal of Bifurcation and Chaos 25(07) (2015).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/185334.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00010">local:00010</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/185334.omex">
+    <dc:created>2015-10-19</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/185334.omex">
+    <dc:modified>2015-10-20</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

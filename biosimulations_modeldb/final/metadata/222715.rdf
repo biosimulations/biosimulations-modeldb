@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/222715.omex">
+    <dc:title>Model of a BDNF feedback loop (Zhang et al 2016)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/222715.omex">
+    <dc:abstract>"Inhibitory avoidance (IA) training in rodents initiates a molecular&#13;
+cascade within hippocampal neurons. This cascade contributes to the&#13;
+transition of short- to long-term memory (i.e., consolidation). Here,&#13;
+a differential equation-based model was developed to describe a&#13;
+positive feedback loop within this molecular cascade. The feedback&#13;
+loop begins with an IA-induced release of brain-derived neurotrophic&#13;
+factor (BDNF), which in turn leads to rapid phosphorylation of the&#13;
+cAMP response element-binding protein (pCREB), and a subsequent&#13;
+increase in the level of the beta isoform of the CCAAT/enhancer binding&#13;
+protein (C/EBPbeta). &#13;
+ ... " See paper for more.</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=115946">http://modeldb.science/ModelList?id=115946</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Hippocampus</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/222715.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=55277">http://modeldb.science/ModelList?id=55277</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Signaling pathways</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/222715.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="mailto:Yili.Zhang@uth.tmc.edu">mailto:Yili.Zhang@uth.tmc.edu</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>Yili Zhang</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <foaf:accountName rdf:resource="mailto:Yili.Zhang@uth.tmc.edu">mailto:Yili.Zhang@uth.tmc.edu</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <foaf:name>Yili Zhang</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/222715.omex">
+    <dc:creator rdf:resource="local:00003">local:00003</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="mailto:Yili.zhang@uth.tmc.edu">mailto:Yili.zhang@uth.tmc.edu</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>Yili Zhang</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <foaf:accountName rdf:resource="mailto:Yili.zhang@uth.tmc.edu">mailto:Yili.zhang@uth.tmc.edu</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <foaf:name>Yili Zhang</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/222715.omex">
+    <dc:contributor rdf:resource="local:00004">local:00004</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/222715.omex">
+    <dc:contributor rdf:resource="local:00005">local:00005</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/222715.omex">
+    <dc:contributor rdf:resource="local:00006">local:00006</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:222715">https://identifiers.org/modeldb:222715</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>modeldb:222715</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/222715.omex">
+    <bqmodel:is rdf:resource="local:00007">local:00007</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1101/lm.042044.116">http://identifiers.org/doi:10.1101/lm.042044.116</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>Yili Zhang, Paul Smolen, Cristina M. Alberini, Douglas A. Baxter &amp; John H. Byrne. Computational model of a positive BDNF feedback loop in hippocampal neurons following inhibitory avoidance training. Learning &amp; Memory 23, 12: 714-722 (2016).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/222715.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00008">local:00008</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/222715.omex">
+    <dc:created>2017-01-04</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/222715.omex">
+    <dc:modified>2017-01-05</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

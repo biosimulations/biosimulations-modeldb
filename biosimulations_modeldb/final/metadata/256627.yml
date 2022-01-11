@@ -1,0 +1,168 @@
+references:
+- label: "St\xE9phanie Ratt\xE9, Yi Zhu, Kwan Yeop Lee & Steven A Prescott. Criticality\
+    \ and degeneracy in injury-induced changes in primary afferent excitability and\
+    \ the implications for neuropathic pain. eLife 3 (2014)."
+  uri: http://identifiers.org/doi:10.7554/eLife.02370
+taxa: []
+thumbnails:
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Modeling
+    and theory.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>)
+    Voltage-dependency and kinetics of subthreshold conductance. In bottom panel,
+    &#964; = (&#945;+&#946;)<sup>&#8722;1</sup> where &#945; and &#946; are defined
+    in <xref ref-type="disp-formula" rid="equ3">Equations 3</xref> and <xref ref-type="disp-formula"
+    rid="equ4">4</xref>. Equivalent activation parameters were used to implement either
+    a sodium or potassium current based on reversal potential. (<bold>B</bold>) Two-parameter
+    bifurcation analysis in which <italic>&#7713;</italic><sub>Na</sub> and <italic>&#7713;</italic><sub>K</sub>
+    were co-varied to determine the <italic>&#7713;</italic><sub>Na</sub>:<italic>&#7713;</italic><sub>K</sub>
+    ratio for a given threshold for repetitive spiking. Gray shading shows parameter
+    regime associated with onset-only spiking. Changes in excitability are explained
+    by a switch in spike initiation dynamics (<xref ref-type="fig" rid="fig1s1">Figure
+    1&#8212;figure supplement 1</xref>). (<bold>C</bold>) Predictions (indicated by
+    numbered arrows) of how manipulating <italic>&#7713;</italic><sub>Na</sub> and/or
+    <italic>&#7713;</italic><sub>K</sub> may force the system across a tipping point,
+    thus reproducing or reversing neuropathic excitability. Position of the tipping
+    point depends on many other parameters including leak conductance (<bold>D</bold>),
+    voltage-dependency of <italic>&#7713;</italic><sub>Na</sub> and <italic>&#7713;</italic><sub>K</sub>
+    (<bold>E</bold>), and potassium reversal potential (<bold>F</bold>).</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML"><bold>DOI:</bold>
+
+    <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.02370.003">http://dx.doi.org/10.7554/eLife.02370.003</ext-link></p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3970756/PMC3970756/elife02370f001.jpg
+  id: elife02370/fig1
+  label: Figure 1
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Spike
+    initiation dynamics differ between normal and neuropathic conditions.</title><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">In
+    bifurcation analysis, a parameter such as stimulus intensity <italic>I</italic><sub>stim</sub>
+    is systematically varied to determine at what value the system qualitatively changes
+    behavior, which is to say it undergoes a bifurcation. We repeated this analysis
+    in a model with the <italic>&#7713;</italic><sub>Na</sub>:<italic>&#7713;</italic><sub>K</sub>
+    ratio set to give normal excitability (<italic>&#7713;</italic><sub>Na</sub> =
+    2.0 &#181;S/cm<sup>2</sup>; <italic>&#7713;</italic><sub>K</sub> = 2.5 &#181;S/cm<sup>2</sup>)
+    or neuropathic excitability (<italic>&#7713;</italic><sub>Na</sub> = 2.5 &#181;S/cm<sup>2</sup>;
+    <italic>&#7713;</italic><sub>K</sub> = 2.0 &#181;S/cm<sup>2</sup>). Bifurcation
+    diagrams (left) illustrate how the system behaves at different <italic>I</italic><sub>stim</sub>:
+    a stable fixed point corresponds to quiescence whereas a stable limit cycle corresponds
+    to repetitive spiking. A subcritical Hopf bifurcation is evident in the bottom
+    (<italic>Neuropathic</italic>) bifurcation diagram but not in the top (<italic>Normal</italic>)
+    bifurcation diagram, suggesting that repetitive spiking is only possible in the
+    former condition. In both conditions, the <italic>I</italic><sub>stim</sub> range
+    in which a single spike is produced at stimulus onset is indicated with gray shading.
+    Onset-only spiking is achieved through a quasi-separatrix crossing, independent
+    of any bifurcation. Dotted arrows indicate <italic>I</italic><sub>stim</sub> values
+    for sample traces on the right. Membrane potential oscillations (MPOs) occur when
+    the fixed point is in proximity to a Hopf bifurcation; after being perturbed by
+    noise, the system relaxes towards its nearly-unstable fixed point following a
+    loose spiral trajectory, which corresponds to MPOs on the time series. In the
+    absence of a Hopf bifurcation, the fixed point is more stable and MPOs are negligible.
+    Repetitive spiking occurs when <italic>I</italic><sub>stim</sub> exceeds the intensity
+    required for the Hopf bifurcation. Repetitive spiking can also occur in the <italic>I</italic><sub>stim</sub>
+    range between the Hopf bifurcation and where the stable and unstable limit cycles
+    meet (at a saddle-node bifurcation of limit cycles); that region also contains
+    a stable fixed point, meaning that the system is bistable. The neuron will remain
+    in one or the other stable state unless a slow process like adaptation sweeps
+    the system across the bistable region, in which case the neuron will remain quiescent
+    when sweeping rightward toward the Hopf bifurcation, while spiking repetitively
+    when sweeping leftward toward the saddle-node bifurcation of limit cycles, thereby
+    producing bursts as a consequence of hysteresis. Bistability and adaptation are
+    both required for bursting.</p><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML"><bold>DOI:</bold>
+
+    <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.02370.004">http://dx.doi.org/10.7554/eLife.02370.004</ext-link></p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3970756/PMC3970756/elife02370fs001.jpg
+  id: elife02370/fig1s1
+  label: "Figure 1\u2014figure supplement 1"
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Reproduction
+    of neuropathic excitability in naive cutaneous neurons.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) Medium- to large-diameter
+    (putative myelinated) cutaneous afferents from naive rats respond to depolarization
+    with a single spike at stimulus onset. Neurons can respond to increments in stimulus
+    intensity (inset), which demonstrates that sodium channels are not completely
+    inactivated after the initial spike. (<bold>B</bold>) Prediction 1 was tested
+    by blocking potassium current by application of 1.5&#8211;5 mM 4-AP. By repeating
+    stimulation during wash-in and/or wash-out of the drug, we observed repetitive
+    spiking and MPOs (in the order expected based on the change in drug concentration)
+    in response to equivalent stimulation. Gray-shaded windows show enlarged views
+    of voltage traces, with colors corresponding to the power spectra shown at the
+    top. (<bold>C</bold>) Prediction 2 was tested by adding virtual sodium conductance
+    via dynamic clamp. As predicted, MPOs and repetitive spiking developed as virtual
+    sodium conductance was increased, but bursting was absent. Note that a conductance
+    density of 1 nS/pF corresponds to 1 mS/cm<sup>2</sup> assuming a specific membrane
+    capacitance of 1 &#956;F/cm<sup>2</sup>, which means that the conductance densities
+    added by dynamic clamp are the same order of magnitude as those predicted by modeling
+    in <xref ref-type="fig" rid="fig1">Figure 1B</xref>. (<bold>D</bold>) Bursting
+    was achieved in repetitively spiking neurons by introducing an AHP-type adaptation
+    current via dynamic clamp.</p><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML"><bold>DOI:</bold>
+
+    <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.02370.005">http://dx.doi.org/10.7554/eLife.02370.005</ext-link></p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3970756/PMC3970756/elife02370f002.jpg
+  id: elife02370/fig2
+  label: Figure 2
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Additivity
+    and subtractivity of conductance changes.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) Example in which
+    neither virtual sodium conductance nor potassium channel blockade reproduced neuropathic
+    excitability, whereas the combination of manipulations did, thus confirming prediction
+    3, that manipulations can be additive. (<bold>B</bold>) Example in which the minimum
+    virtual sodium conductance required to reproduce neuropathic excitability was
+    reduced when combined with potassium channel blockade. (<bold>C</bold>) Even when
+    4-AP application did not, on its own, produce repetitive spiking, it nonetheless
+    moved the neuron significantly closer to criticality as evidenced by comparing
+    the minimal virtual sodium conductance needed to produce repetitive spiking without
+    vs with 4-AP (*p&lt;0.001; Mann&#8211;Whitney U test). Points represent data from
+    individual neurons and boxes represent median and 25&#8211;75 percentile range.
+    Repetitive spiking caused by 4-AP application (<bold>D</bold>) or by virtual sodium
+    conductance (<bold>E</bold>) was reversed by insertion of virtual potassium conductance.
+    Panel <bold>E</bold> confirms prediction 4, that manipulations can be subtractive.</p><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML"><bold>DOI:</bold>
+
+    <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.02370.006">http://dx.doi.org/10.7554/eLife.02370.006</ext-link></p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3970756/PMC3970756/elife02370f003.jpg
+  id: elife02370/fig3
+  label: Figure 3
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Reversal
+    of neuropathic excitability in neurons from nerve-inured rats.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) Typical response
+    of an injured unlabeled primary afferent (top). Repetitive spiking and MPOs were
+    abolished by insertion of a potassium conductance (middle) or by blockade of sodium
+    channels using 10 &#956;M riluzole (bottom), thus confirming predictions 5 and
+    6, respectively. (<bold>B</bold>) Typical response of an injured muscle afferent
+    whose neuropathic excitability was similarly reversed by increased potassium conductance
+    and reduced sodium conductance. (<bold>C</bold>) Although only 1 of 9 injured
+    cutaneous afferents exhibited repetitive spiking and MPOs, those afferents were
+    nonetheless closer to criticality insofar as they required significantly less
+    virtual sodium conductance than uninjured cutaneous afferents to reach criticality
+    (*p&lt;0.05; Mann&#8211;Whitney U test). Points represent data from individual
+    neurons and boxes represent median and 25&#8211;75 percentile range.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML"><bold>DOI:</bold>
+
+    <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.02370.007">http://dx.doi.org/10.7554/eLife.02370.007</ext-link></p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3970756/PMC3970756/elife02370f004.jpg
+  id: elife02370/fig4
+  label: Figure 4
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Reproduction
+    of neuropathic excitability in naive muscle afferents.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) As predicted,
+    repetitive spiking developed as virtual sodium conductance was increased. (<bold>B</bold>)
+    Uninjured muscle afferents operate significantly closer to criticality than uninjured
+    cutaneous afferents based on the minimum virtual sodium conductance needed to
+    produce repetitive spiking (***p&lt;0.001; Mann&#8211;Whitney U test). In <bold>B</bold>
+    and <bold>D</bold>, points represent data from individual neurons and boxes represent
+    median and 25&#8211;75 percentile range. These data suggest that muscle afferents
+    are more prone to develop neuropathic excitability after nerve injury because
+    they start off closer to their tipping point, and not necessarily because injury
+    induces a larger change in membrane conductances. (<bold>C</bold>) Based on the
+    observation that 4-AP and dendrotoxin (DTX) produced repetitive spiking in only
+    1 of 12 muscle afferents, we measured the DTX-sensitive current. The persistent
+    outward current activated at perithreshold voltages (&#8722;50 to &#8722;30 mV)
+    and blocked by 10 nM DTX was significantly smaller in muscle afferents than in
+    cutaneous afferents (**p&lt;0.01; two-way ANOVA and post-hoc Student-Newman-Keuls
+    test). (<bold>D</bold>) Although 4-AP produced repetitive spiking in only 1 of
+    12 muscle afferents, it nonetheless moved neurons closer to criticality as evidenced
+    by the minimal virtual sodium conductance needed to cause hyperexcitability after
+    4AP application (*p&lt;0.05; Mann&#8211;Whitney U test).</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML"><bold>DOI:</bold>
+
+    <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.02370.008">http://dx.doi.org/10.7554/eLife.02370.008</ext-link></p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3970756/PMC3970756/elife02370f005.jpg
+  id: elife02370/fig5
+  label: Figure 5

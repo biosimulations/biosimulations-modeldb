@@ -1,0 +1,1015 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS Comput Biol</journal-id><journal-id journal-id-type="iso-abbrev">PLoS Comput. Biol</journal-id><journal-id journal-id-type="publisher-id">pcbi</journal-id><journal-id journal-id-type="publisher-id">plcb</journal-id><journal-id journal-id-type="pmc">ploscomp</journal-id><journal-title-group><journal-title>PLoS Computational Biology</journal-title></journal-title-group><issn pub-type="ppub">1553-734X</issn><issn pub-type="epub">1553-7358</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">17696606</article-id><article-id pub-id-type="pmc">1941757</article-id><article-id pub-id-type="doi">10.1371/journal.pcbi.0030156</article-id><article-id pub-id-type="publisher-id">07-PLCB-RA-0143R2</article-id><article-id pub-id-type="sici">plcb-03-08-10</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Neuroscience</subject><subject>Neuroscience</subject></subj-group><subj-group subj-group-type="System Taxonomy"><subject>Cortical Fast-Spiking Neurons</subject></subj-group></article-categories><title-group><article-title>Mechanisms of Firing Patterns in Fast-Spiking Cortical Interneurons</article-title><alt-title alt-title-type="running-head">Firing Patterns of Fast-Spiking Neurons</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Golomb</surname><given-names>David</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref><xref ref-type="corresp" rid="cor1">*</xref></contrib><contrib contrib-type="author"><name><surname>Donner</surname><given-names>Karnit</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Shacham</surname><given-names>Liron</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Shlosberg</surname><given-names>Dan</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Amitai</surname><given-names>Yael</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Hansel</surname><given-names>David</given-names></name><xref ref-type="aff" rid="aff3">3</xref><xref ref-type="aff" rid="aff4">4</xref><xref ref-type="aff" rid="aff5">5</xref></contrib></contrib-group><aff id="aff1"><label>1</label> Department of Physiology, Ben-Gurion University, Be'er-Sheva, Israel
+</aff><aff id="aff2"><label>2</label> Zlotowski Center for Neuroscience, Ben-Gurion University, Be'er-Sheva, Israel
+</aff><aff id="aff3"><label>3</label> Laboratory of Neurophysics and Physiology, Universit&#x000e9; Paris Ren&#x000e9; Descartes, Paris, France
+</aff><aff id="aff4"><label>4</label> CNRS UMR 8119, Paris, France
+</aff><aff id="aff5"><label>5</label> Franco-Israeli Laboratory of Neurophysics and System Physiology, Universit&#x000e9; Paris Ren&#x000e9; Descartes, Paris, France
+</aff><contrib-group><contrib contrib-type="editor"><name><surname>Graham</surname><given-names>Lyle J</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">UFR Biom&#x000e9;dicale de l'Universit&#x000e9; Ren&#x000e9; Descartes, France</aff><author-notes><corresp id="cor1">* To whom correspondence should be addressed. E-mail: <email>golomb@bgu.ac.il</email></corresp></author-notes><pub-date pub-type="ppub"><month>8</month><year>2007</year></pub-date><pub-date pub-type="epub"><day>10</day><month>8</month><year>2007</year></pub-date><pub-date pub-type="epreprint"><day>20</day><month>6</month><year>2007</year></pub-date><volume>3</volume><issue>8</issue><elocation-id>e156</elocation-id><history><date date-type="received"><day>22</day><month>3</month><year>2007</year></date><date date-type="accepted"><day>20</day><month>6</month><year>2007</year></date></history><permissions><copyright-statement> &#x000a9; 2007 Golomb et al.</copyright-statement><copyright-year>2007</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><!--<related-article preprintResearch Article10.1371/journal.pcbi.0030156.eorRA1doisimple>Mechanisms of Firing Patterns in Fast-Spiking Cortical Interneurons</related-article>--><abstract><p>Cortical fast-spiking (FS) interneurons display highly variable electrophysiological properties. Their spike responses to step currents occur almost immediately following the step onset or after a substantial delay, during which subthreshold oscillations are frequently observed. Their firing patterns include high-frequency tonic firing and rhythmic or irregular bursting (stuttering). What is the origin of this variability? In the present paper, we hypothesize that it emerges naturally if one assumes a continuous distribution of properties in a small set of active channels. To test this hypothesis, we construct a minimal, single-compartment conductance-based model of FS cells that includes transient Na<sup>+</sup>, delayed-rectifier K<sup>+</sup>, and slowly inactivating d-type K<sup>+</sup> conductances. The model is analyzed using nonlinear dynamical system theory. For small Na<sup>+</sup> window current, the neuron exhibits high-frequency tonic firing. At current threshold, the spike response is almost instantaneous for small d-current conductance, <italic>g</italic>
+<sub>d</sub>, and it is delayed for larger <italic>g</italic>
+<sub>d</sub>. As <italic>g</italic>
+<sub>d</sub> further increases, the neuron stutters. Noise substantially reduces the delay duration and induces subthreshold oscillations. In contrast, when the Na<sup>+</sup> window current is large, the neuron always fires tonically. Near threshold, the firing rates are low, and the delay to firing is only weakly sensitive to noise; subthreshold oscillations are not observed. We propose that the variability in the response of cortical FS neurons is a consequence of heterogeneities in their <italic>g</italic>
+<sub>d</sub> and in the strength of their Na<sup>+</sup> window current. We predict the existence of two types of firing patterns in FS neurons, differing in the sensitivity of the delay duration to noise, in the minimal firing rate of the tonic discharge, and in the existence of subthreshold oscillations. We report experimental results from intracellular recordings supporting this prediction.</p></abstract><abstract abstract-type="summary"><title>Author Summary</title><sec id="st1"><title/><p>About 25% of the neurons in the mammalian neocortex are inhibitory, namely reduce the activity of neurons they contact. These inhibitory neurons exhibit diversity of morphological, chemical, and biophysical properties, and their classification has recently been the focus of much debate. Even neurons belonging to a single class of &#x0201c;fast-spiking&#x0201d; (FS) display a large variety of firing patterns in response to standard square current pulses. Previous works proposed that this class is in fact a discrete set of neuronal subtypes with biophysical properties differing in a discontinuous way. In this work, we propose an alternative theory, according to which the biophysical properties of FS neurons are continuously distributed, but distinct firing patterns emerge due to highly nonlinear dynamics of these neurons. We ascertain this theory by exploring with mathematical techniques a biophysically based model of FS neurons. We demonstrate that variable firing responses of cortical FS neurons can be accounted for if one assumes heterogeneity in the strength of some of the ionic conductances underlying neuronal activity. Our theory predicts the existence of two main firing patterns of FS neurons. This prediction is verified by direct recordings in cortical slices.</p></sec></abstract><counts><page-count count="15"/></counts><custom-meta-group><custom-meta><meta-name>citation</meta-name><meta-value>Golomb D, Donner K, Shacham L, Shlosberg D, Amitai Y, et al. (2007) Mechanisms of firing patterns in fast-spiking cortical interneurons. PLoS Comput Biol 3(8): e156. doi:<ext-link ext-link-type="doi" xlink:href="10.1371/journal.pcbi.0030156">10.1371/journal.pcbi.0030156</ext-link></meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Among inhibitory neurons in the neocortex, the &#x0201c;fast-spiking&#x0201d; (FS) compose the most prominent type. These neurons are characterized by brief action potentials with a width smaller than 0.5 ms followed by a deep monophasic afterhyperpolarization (AHP) [<xref rid="pcbi-0030156-b001" ref-type="bibr">1</xref>,<xref rid="pcbi-0030156-b002" ref-type="bibr">2</xref>]. Delayed rectifier currents of the types Kv3.1&#x02013;Kv3.2 are responsible for these characteristics of FS action potentials [<xref rid="pcbi-0030156-b003" ref-type="bibr">3</xref>,<xref rid="pcbi-0030156-b004" ref-type="bibr">4</xref>]. The firing patterns of FS cells in response to a step of injected current are highly variable. Depending on the neuron and on the amplitude of the current pulse, FS cells fire action potentials immediately after the onset of the current step or after a prolonged delay, which can be on the order of several hundreds of milliseconds [<xref rid="pcbi-0030156-b002" ref-type="bibr">2</xref>]. Interestingly, voltage-dependent subthreshold oscillations in the gamma range have been reported during the delay period. They typically occur in a narrow voltage range just negative to threshold [<xref rid="pcbi-0030156-b004" ref-type="bibr">4</xref>,<xref rid="pcbi-0030156-b005" ref-type="bibr">5</xref>]. The steady-state firing pattern is reached after an adapting [<xref rid="pcbi-0030156-b006" ref-type="bibr">6</xref>], non-adapting, or accelerating [<xref rid="pcbi-0030156-b002" ref-type="bibr">2</xref>] transient. This steady state can be tonic or bursting. In the latter case, the neuron fires rhythmic irregular bursts of action potentials; this activity pattern is named &#x0201c;stuttering&#x0201d; [<xref rid="pcbi-0030156-b007" ref-type="bibr">7</xref>]. The goal of the present modeling study is to address the origin of this variability.</p><p>Bifurcation theory, which classifies how the behavior of dynamical systems changes as their parameters vary, reveals that in strongly nonlinear systems, qualitatively different dynamical regimes can emerge as a result of a continuous variation of some parameters [<xref rid="pcbi-0030156-b008" ref-type="bibr">8</xref>]. Hence, heterogeneities in biophysical parameters of neurons can induce distinct classes of firing patterns even if their distributions are smooth. In the present paper, we propose that a great deal of FS electrophysiological variability is a consequence of heterogeneities in the maximal conductance of a slowly-inactivating d-type K<sup>+</sup> current [<xref rid="pcbi-0030156-b009" ref-type="bibr">9</xref>,<xref rid="pcbi-0030156-b010" ref-type="bibr">10</xref>], known to be present in FS cells [<xref rid="pcbi-0030156-b011" ref-type="bibr">11</xref>,<xref rid="pcbi-0030156-b012" ref-type="bibr">12</xref>], and in the strength of the Na<sup>+</sup> window current. This window current, governed by the overlap between the activation and inactivation curves of the Na<sup>+</sup> current, affects the ability of the neuron to fire at low rates [<xref rid="pcbi-0030156-b013" ref-type="bibr">13</xref>]. To assess this proposal, we consider a minimal, conductance-based neuronal model that incorporates these two ionic currents and a fast delayed rectifier K<sup>+</sup> current. We investigate this model using techniques from nonlinear dynamical system theory. We find that as the conductance of the d-current and the overlap of the activation and the inactivation curves of the Na<sup>+</sup> current are varied within a range compatible with experimental data [<xref rid="pcbi-0030156-b014" ref-type="bibr">14</xref>], the model neuron displays a &#x0201c;&#x0201d;variability of firing patterns similar to those observed experimentally in FS cells.</p><p>Our study leads to several predictions that can be tested experimentally. In particular, we predict that FS cells that fire tonically at low rates do not exhibit subthreshold oscillations during the delay period. We present experimental results consistent with this prediction.</p></sec><sec id="s2"><title>Results</title><p>We study a minimal, single-compartment conductance-based model that incorporates a Na<sup>+</sup> current, <italic>I</italic>
+<sub>Na</sub>, a fast delayed rectifier K<sup>+</sup> current of the Kv3.1&#x02013;Kv3.2 type, <italic>I</italic>
+<sub>Kdr</sub>, and a d-type K<sup>+</sup> current, <italic>I</italic>
+<sub>d</sub>. The details of the model are given in the Model section of Materials and Methods.</p><sec id="s2a"><title>Variability in Firing Patterns in a Model of FS Neurons</title><p>In all of this section, we assume that the system is noiseless. We will change the Na<sup>+</sup> window current by varying the half-maximum potential, <italic>&#x003b8;</italic>
+<sub>m</sub>, of the activation curve of <italic>I</italic>
+<sub>Na</sub>. As shown in <xref ref-type="fig" rid="pcbi-0030156-g001">Figure 1</xref>, the amplitude of the window current decreases as <italic>&#x003b8;</italic>
+<sub>m</sub> is more depolarized. The strength of the d-current is controlled by its maximal conductance <italic>g</italic>
+<sub>d</sub>. The amplitude of the current step injected into the neuron is denoted by <italic>I</italic>
+<sub>app</sub>.</p><fig id="pcbi-0030156-g001" position="float"><label>Figure 1</label><caption><title>The Strength of the Na<sup>+</sup> Window Conductance</title><p>The maximal value of <italic>m</italic>
+<sub>&#x0221e;</sub>
+<sup>3</sup>
+<italic>h</italic>
+<sub>&#x0221e;</sub>(V) with respect to <italic>V</italic> (<xref ref-type="disp-formula" rid="pcbi-0030156-e006">Equation 6</xref>) is plotted as a function of &#x003b8;<sub>m</sub>.</p></caption><graphic xlink:href="pcbi.0030156.g001"/></fig><p>For very large window current, i.e., small <italic>&#x003b8;</italic>
+<sub>m</sub> (<italic>&#x003b8;</italic>
+<sub>m</sub> &#x0003c; &#x02212;31.4 mV for <italic>g</italic>
+<sub>d</sub> = 0 and <italic>&#x003b8;</italic>
+<sub>m</sub>
+<italic>&#x0003c;</italic> &#x02212;32.9 mV for <italic>g</italic>
+<sub>d</sub> = 2 mS/cm<sup>2</sup>), the neuron is spontaneously active. In contrast, for very small window current, i.e., sufficiently large <italic>&#x003b8;</italic>
+<sub>m</sub> (<italic>&#x003b8;</italic>
+<sub>m</sub> &#x0003e; &#x02212;15.2 mV for <italic>g</italic>
+<sub>d</sub> = 0 and <italic>&#x003b8;</italic>
+<sub>m</sub> &#x0003e; &#x02212;16.4 mV for <italic>g</italic>
+<sub>d</sub> = 2 mS/cm<sup>2</sup>), the neuron remains quiescent for all amplitudes of the step current. In the intermediate range of <italic>&#x003b8;</italic>
+<sub>m</sub>, the neuron is quiescent for <italic>I</italic>
+<sub>app</sub> smaller than a threshold <italic>I</italic>
+<sub>th</sub>, while it fires spikes for <italic>I</italic>
+<sub>app</sub> &#x0003e; <italic>I</italic>
+<sub>th</sub>. Then, depending on <italic>&#x003b8;</italic>
+<sub>m</sub>, two qualitatively different behaviors of the neuron occur.</p><sec id="s2a1"><title>Firing patterns for small Na<sup>+</sup> window current.</title><p>The phase diagram of the different regimes of responses to a suprathreshold step of current as a function of the parameters <italic>g</italic>
+<sub>d</sub> and <italic>I</italic>
+<sub>app</sub> is shown in <xref ref-type="fig" rid="pcbi-0030156-g002">Figure 2</xref>A for <italic>&#x003b8;</italic>
+<sub>m</sub> = &#x02212;24 mV. It is typical of the behavior of the model for small Na<sup>+</sup> window current, and it contains four regions.</p><fig id="pcbi-0030156-g002" position="float"><label>Figure 2</label><caption><title>Responses of the Model Neuron to Noiseless Current Steps for Small Na<sup>+</sup> Window Current (<italic>&#x003b8;</italic>
+<sub>m</sub> = &#x02212;24 mV)</title><p>(A) The phase diagram of the model neuron in the <italic>I</italic>
+<sub>app</sub>-<italic>g</italic>
+<sub>d</sub> plane. The solid line represents the current threshold, <italic>I</italic>
+<sub>th</sub>, as a function of <italic>g</italic>
+<sub>d</sub>. To the left of this line, the neuron is quiescent. To the right of the dashed line, the spike response is almost immediate after the current step onset. Stuttering emerges on the dotted line via a torus bifurcation.</p><p>(B) Top panel: the membrane potential <italic>V</italic> in response to a step of current for <italic>g</italic>
+<sub>d</sub> = 0.1 mS/cm<sup>2</sup> and <italic>I</italic>
+<sub>app</sub> = 3.35 &#x003bc;A/cm<sup>2</sup>. The neuron exhibits non-delayed, high-frequency tonic firing. Bottom panel: the <italic>f-I</italic>
+<sub>app</sub> curve for <italic>g</italic>
+<sub>d</sub> = 0.1 mS/cm<sup>2</sup> is discontinuous at the current threshold. The minimal frequency is 27.4 Hz.</p><p>(C) For <italic>g</italic>
+<sub>d</sub> = 0.39 mS/cm<sup>2</sup>, <italic>I</italic>
+<sub>app</sub> = 3.35 &#x003bc;A/cm<sup>2</sup>, the neuron exhibits delayed, high-frequency tonic firing.</p><p>(D) For <italic>g</italic>
+<sub>d</sub> = 1.8 mS/cm<sup>2</sup> and <italic>I</italic>
+<sub>app</sub> = 4.2 &#x003bc;A/cm<sup>2</sup>, the neuron exhibits delayed stuttering.</p></caption><graphic xlink:href="pcbi.0030156.g002"/></fig><p>When <italic>I</italic>
+<sub>app</sub> is small, in the region of the phase diagram marked &#x0201c;quiescent,&#x0201d; the neuron does not fire action potentials. The solid line that is the border of this region corresponds to the current threshold for firing, <italic>I</italic>
+<sub>th</sub>, which depends only weakly on <italic>g</italic>
+<sub>d</sub>.</p><p>In the region denoted &#x0201c;tonic-no delay,&#x0201d; the response of the neuron consists of a tonic discharge that begins immediately after the step onset. An example is shown in <xref ref-type="fig" rid="pcbi-0030156-g002">Figure 2</xref>B (top panel, <italic>g</italic>
+<sub>d</sub> = 0.1 mS/cm<sup>2</sup> and <italic>I</italic>
+<sub>app</sub> = 3.35 &#x003bc;A/cm<sup>2</sup>). For sufficiently small values of <italic>g</italic>
+<sub>d</sub> (<italic>g</italic>
+<sub>d</sub> &#x0003c; 0.155 mS/cm<sup>2</sup>, intersection of the dashed line and the solid line), the &#x0201c;tonic-no delay&#x0201d; region extends down to the current threshold (solid line). At current threshold, the average firing frequency remains finite and varies discontinuously to zero. This is shown in <xref ref-type="fig" rid="pcbi-0030156-g002">Figure 2</xref>B (bottom panel) where we have plotted the <italic>f</italic>-<italic>I</italic>
+<sub>app</sub> curve for g<sub>d</sub> = 0.1 mS/cm<sup>2</sup>, for which the minimal firing frequency is 27.4 Hz. More generally, the firing frequency of the neuron is always substantially large in the entire &#x0201c;tonic-no delay&#x0201d; region.</p><p>In the &#x0201c;tonic-delay&#x0201d; region, the response of the neuron is still a tonic train of action potentials. In contrast to the previous case (&#x0201c;tonic-no delay&#x0201d; region); however, a substantial delay separates the discharge from the current step onset as shown in <xref ref-type="fig" rid="pcbi-0030156-g002">Figure 2</xref>C (g<sub>d</sub> = 0.39 mS/cm<sup>2</sup> and <italic>I</italic>
+<sub>app</sub> = 3.35 &#x003bc;A/cm<sup>2</sup>). When 0.155 mS/cm<sup>2</sup> &#x0003c; <italic>g</italic>
+<sub>d</sub> &#x0003c; 0.393 mS/cm<sup>2</sup>, the left boundary of this region is the threshold line where the firing rate drops discontinuously to zero (unpublished data).</p><p>Finally, in the region located between the solid line and the dotted line, the neuron displays bursting, see <xref ref-type="fig" rid="pcbi-0030156-g002">Figure 2</xref>D (<italic>g</italic>
+<sub>d</sub> = 1.8 mS/cm<sup>2</sup> and <italic>I</italic>
+<sub>app</sub> = 4.2 &#x003bc;A/cm<sup>2</sup>). As in the &#x0201c;tonic-delay&#x0201d; region, the discharge is delayed. The firing pattern that follows the delay consists of spikes occurring in clusters, similar to the <italic>stuttering</italic> described in a family of inhibitory FS interneurons [<xref rid="pcbi-0030156-b007" ref-type="bibr">7</xref>]. This region is bounded to the left by the current threshold line. Detailed analysis shows that in the vicinity of this border, the interspike interval within the burst remains finite while the interburst duration diverges.</p></sec><sec id="s2a2"><title>Firing patterns for large Na<sup>+</sup> window current.</title><p>The phase diagram for <italic>&#x003b8;</italic>
+<sub>m</sub> = &#x02212;28 mV is shown in <xref ref-type="fig" rid="pcbi-0030156-g003">Figure 3</xref>A. It is typical of the behavior of the model for large Na<sup>+</sup> window current. Similar to the case of small window current, the firing discharge is delayed and periodic in a broad domain of the phase diagram. An example is shown in <xref ref-type="fig" rid="pcbi-0030156-g003">Figure 3</xref>B (top panel). However, a major difference is that now the steady-state frequency vanishes continuously at current threshold as can be observed in the <italic>f-I</italic>
+<sub>app</sub> curve plotted in <xref ref-type="fig" rid="pcbi-0030156-g003">Figure 3</xref>C. This implies that the neuron is able to discharge at low rate, in contrast to what was found for small Na<sup>+</sup> window current. For instance, in <xref ref-type="fig" rid="pcbi-0030156-g003">Figure 3</xref>B (top panel) the average rate is about 4 Hz. Another difference in the phase diagram is that a &#x0201c;stuttering&#x0201d; regime is no longer present. Finally, the &#x0201c;tonic-delay&#x0201d; region is divided into two components separated by a narrow domain where the discharge (gray region in <xref ref-type="fig" rid="pcbi-0030156-g003">Figure 3</xref>A), although still delayed, can display doublets [<xref rid="pcbi-0030156-b015" ref-type="bibr">15</xref>], as shown in the panel at the bottom of <xref ref-type="fig" rid="pcbi-0030156-g003">Figure 3</xref>B, or more complex patterns (unpublished data).</p><fig id="pcbi-0030156-g003" position="float"><label>Figure 3</label><caption><title>Responses of the Model Neuron to Noiseless Current Steps for Large Na<sup>+</sup> Window Current (<italic>&#x003b8;</italic>
+<sub>m</sub> = &#x02212;28 mV)</title><p>(A) Phase diagram of the model neuron in the <italic>I</italic>
+<sub>app</sub>-<italic>g</italic>
+<sub>d</sub> plane. Solid line: current threshold to action potential firing. Dashed line: to the right of the dashed line, the spike response is almost immediate after the current step onset. Period doubling bifurcations occur on the dotted lines, leading to doublet or complex firing (grey region).</p><p>(B) Voltage traces for <italic>g</italic>
+<sub>d</sub> = 0.39 mS/cm<sup>2</sup>
+<italic>.</italic> Top: for <italic>I</italic>
+<sub>app</sub> = 1.25 &#x003bc;A/cm<sup>2</sup>, the neuron displays low frequency delayed tonic firing. Bottom: for <italic>I</italic>
+<sub>app</sub> = 1.27 &#x003bc;A/cm<sup>2</sup>, the neuron fires doublets of action potentials.</p><p>(C) The steady-state <italic>f</italic>-<italic>I</italic>
+<sub>app</sub> curve of the neuron; <italic>g</italic>
+<sub>d</sub> is as in (B). The average firing frequency goes to zero at firing threshold. Between the two solid circles, the neuron fires doublets of spikes.</p></caption><graphic xlink:href="pcbi.0030156.g003"/></fig></sec><sec id="s2a3"><title>Intermediate Na<sup>+</sup> window current.</title><p>The phase diagram of the model remains qualitatively as in <xref ref-type="fig" rid="pcbi-0030156-g002">Figure 2</xref>A provided that <italic>&#x003b8;</italic>
+<sub>m</sub> is not too negative (<italic>&#x003b8;</italic>
+<sub>m</sub> &#x0003e; &#x02212;25.5 mV). However, as <italic>&#x003b8;</italic>
+<sub>m</sub> becomes more hyperpolarized, the threshold <italic>I</italic>
+<sub>th</sub> decreases and the minimal firing frequency becomes smaller. Delayed stuttering occurs for lower <italic>g</italic>
+<sub>d</sub>, but the range in current where it is observed becomes narrower and the number of spikes within a burst decreases. Eventually, for sufficiently hyperpolarized <italic>&#x003b8;</italic>
+<sub>m</sub>, the <italic>f</italic>-<italic>I</italic>
+<sub>app</sub> curve becomes continuous at threshold. Stuttering disappears in the sense that bursting behavior with distinct active and quiescent phases is no longer found. Instead, there is a regime where the neuron fires doublets of action potentials or has more complex firing patterns (for large values of <italic>g</italic>
+<sub>d</sub>). The detailed analysis of the mechanism by which stuttering disappears when <italic>&#x003b8;</italic>
+<sub>m</sub> becomes more hyperpolarized requires advanced bifurcation theory and is beyond the scope of the present paper.</p></sec><sec id="s2a4"><title>The delay duration.</title><p>
+<xref ref-type="fig" rid="pcbi-0030156-g004">Figure 4</xref>A and <xref ref-type="fig" rid="pcbi-0030156-g004">4</xref>B (solid lines) displays the dependency of the delay duration, <italic>t</italic>
+<sub>delay</sub>, on <italic>I</italic>
+<sub>app</sub> for <italic>&#x003b8;</italic>
+<sub>m</sub> = &#x02212;24 mV and <italic>&#x003b8;</italic>
+<sub>m</sub> = &#x02212;28 mV, respectively (g<sub>d</sub> = 0.39 mS/cm<sup>2</sup>). In both cases, a delay in the spike response occurs within a restricted range of <italic>I</italic>
+<sub>app</sub>. Its duration, which is a decreasing function of <italic>I</italic>
+<sub>app</sub>, goes to infinity at firing threshold and jumps discontinuously to zero when <italic>I</italic>
+<sub>app</sub> becomes too large. Note that the divergence near threshold is sharper for <italic>&#x003b8;</italic>
+<sub>m</sub> = &#x02212;28 mV than for <italic>&#x003b8;</italic>
+<sub>m</sub> = &#x02212;24 mV. We will come back to this point later.</p><fig id="pcbi-0030156-g004" position="float"><label>Figure 4</label><caption><title>Dependence of the Delay Duration <italic>t</italic>
+<sub>delay</sub> on the Amplitude of the Current Step <italic>I</italic>
+<sub>app</sub>
+</title><p>(A) <italic>&#x003b8;</italic>
+<sub>m</sub> = &#x02212;24 mV.</p><p>(B) <italic>&#x003b8;</italic>
+<sub>m</sub> = &#x02212;28 mV. In the two panels, <italic>g</italic>
+<sub>d</sub> = 0.39 mS/cm<sup>2</sup>. Solid lines: noiseless input (<italic>D</italic> = 0). Dashed lines: noisy input with variance <italic>D</italic> = 0.01 &#x003bc;A<sup>2</sup> &#x000d7; ms/cm<sup>4</sup>. The delay duration was averaged over 50 trials. Gray lines represent one standard deviation around the mean value of <italic>t</italic>
+<sub>delay</sub> for noisy input.</p></caption><graphic xlink:href="pcbi.0030156.g004"/></fig></sec></sec><sec id="s2b"><title>The Roles of the Na<sup>+</sup> Window Current and the Slow Inactivating K<sup>+</sup> Current in Shaping the Neuron Discharge</title><p>In this section, we clarify the mechanisms underlying the different firing patterns described above and the dependency of the phase diagram on the Na<sup>+</sup> window current. The time constant of the inactivation variable <italic>b</italic> of the d-current is <italic>&#x003c4;<sub>b</sub></italic> = 150 ms (see the Model section in Materials and Methods). Hence, <italic>b</italic> varies much more slowly than all the other dynamical variables of the model. The full dynamical system describing the neurons can subsequently be separated into fast (variables V, <italic>h</italic>, <italic>n,</italic> and <italic>a</italic>) and slow (variable <italic>b</italic>) subsystems. This allows us to dissect the dynamics of our model using the &#x0201c;fast&#x02013;slow method&#x0201d; [<xref rid="pcbi-0030156-b013" ref-type="bibr">13</xref>,<xref rid="pcbi-0030156-b016" ref-type="bibr">16</xref>&#x02013;<xref rid="pcbi-0030156-b018" ref-type="bibr">18</xref>]. The first step in this method is to study how the attractors of the dynamics of the fast subsystem depend on the value of <italic>b</italic>, taken as a time-independent parameter. In a second step, one derives the dynamics of the full system taking into account the slow variations of <italic>b.</italic>
+</p><sec id="s2b1"><title>Dependency of the bifurcation structure of the fast subsystem on the Na<sup>+</sup> window current.</title><p>Consider the equation determining <italic>V</italic>
+<sub>FP</sub>, the value of the membrane potential at the fixed point of the fast subsystem. It is straightforward to see that when the window current is small (i.e., (<italic>m</italic>
+<sub>&#x0221e;</sub>)<sup>3</sup>
+<italic>h</italic>
+<sub>&#x0221e;</sub> is small in all the dynamic range of the voltage), <italic>V</italic>
+<sub>FP</sub> decreases monotonously with <italic>b</italic> (<xref ref-type="fig" rid="pcbi-0030156-g005">Figure 5</xref>A) (see &#x0201c;The <italic>b</italic>-<italic>V</italic>
+<sub>FP</sub> curve of the model neuron&#x0201d; in Materials and Methods for details). According to bifurcation theory, this implies that the fixed point of the dynamics of the fast subsystem can be destabilized as <italic>b</italic> decreases only via a Hopf bifurcation (a bifurcation where a limit cycle emerges) [<xref rid="pcbi-0030156-b018" ref-type="bibr">18</xref>,<xref rid="pcbi-0030156-b019" ref-type="bibr">19</xref>]. Whether the bifurcation actually occurs and the value, <italic>b</italic>
+<sub>Hopf</sub>, where it occurs, depend on <italic>I</italic>
+<sub>app</sub> (<italic>b</italic>
+<sub>Hopf</sub> = 0.18 for the parameters of <xref ref-type="fig" rid="pcbi-0030156-g005">Figure 5</xref>A&#x02013;<xref ref-type="fig" rid="pcbi-0030156-g005">5</xref>C). As depicted in <xref ref-type="fig" rid="pcbi-0030156-g005">Figure 5</xref>A, the limit cycle that emerges at <italic>b</italic> = <italic>b</italic>
+<sub>Hopf</sub> is unstable (subcritical Hopf bifurcation). At <italic>b = b</italic>
+<sub>SNP</sub> (<italic>b</italic>
+<sub>SNP</sub> &#x0003e; <italic>b</italic>
+<sub>Hopf</sub>), this unstable limit cycle coalesces in a &#x0201c;saddle&#x02013;node of periodics&#x0201d; (SNP) bifurcation [<xref rid="pcbi-0030156-b008" ref-type="bibr">8</xref>] with a stable limit cycle (<italic>b</italic>
+<sub>SNP</sub> = 0.38 for the parameters of <xref ref-type="fig" rid="pcbi-0030156-g005">Figure 5</xref>A&#x02013;<xref ref-type="fig" rid="pcbi-0030156-g005">5</xref>C). This limit cycle corresponds to tonic firing of action potentials in the fast subsystem, and it exists for <italic>b</italic> &#x02264; <italic>b</italic>
+<sub>SNP</sub>, both below and above <italic>b</italic> = <italic>b</italic>
+<sub>Hopf</sub>. In particular, for <italic>b</italic>
+<sub>Hopf</sub> &#x0003c; <italic>b</italic> &#x0003c; <italic>b</italic>
+<sub>SNP</sub>, the fast subsystem is bistable since its fixed point is also stable in this range. The minimal and maximal values of the membrane potential on this limit cycle are plotted in <xref ref-type="fig" rid="pcbi-0030156-g005">Figure 5</xref>A as a function of <italic>b</italic>. Note that the frequency of the periodic motion on the limit cycles (the &#x0201c;firing rate&#x0201d; of the fast subsystem) decreases with <italic>b</italic> (<xref ref-type="fig" rid="pcbi-0030156-g005">Figure 5</xref>B).</p><fig id="pcbi-0030156-g005" position="float"><label>Figure 5</label><caption><title>Bifurcation Diagrams and the Fast&#x02013;Slow Analysis of the Model Neuron</title><p>(A&#x02013;C) are for small and (D&#x02013;F) for large Na<sup>+</sup> window currents. Parameters in (A&#x02013;C) are as in <xref ref-type="fig" rid="pcbi-0030156-g002">Figure 2</xref>C: <italic>&#x003b8;</italic>
+<sub>m</sub> = &#x02212;24 mV, <italic>g</italic>
+<sub>d</sub> = 0.39 mS/cm<sup>2</sup>, <italic>I</italic>
+<sub>app</sub> = 3.35 &#x003bc;A/cm<sup>2</sup>. Parameters in (D&#x02013;F) are as in the top panel in <xref ref-type="fig" rid="pcbi-0030156-g003">Figure 3</xref>B: <italic>&#x003b8;</italic>
+<sub>m</sub> = &#x02212;28 mV, <italic>g</italic>
+<sub>d</sub> = 0.39 mS/cm<sup>2</sup>, <italic>I</italic>
+<sub>app</sub> = 1.25 &#x003bc;A/cm<sup>2</sup>.</p><p>(A,D) The bifurcation diagram of the fast subsystem in the <italic>V</italic>-<italic>b</italic> space.</p><p>(B,E) The frequency <italic>f</italic> of the limit cycle of the fast subsystem, plotted as a function of <italic>b</italic> (<italic>f</italic>-<italic>b</italic> curves).</p><p>(C,F) The functions <italic>b</italic>
+<sub>&#x0221e;</sub>(<italic>V</italic>
+<sub>FP</sub>(<italic>b</italic>)) and <italic>F</italic>(<italic>b</italic>) (<xref ref-type="disp-formula" rid="pcbi-0030156-e002">Equation 2</xref>) plotted as a function of <italic>b</italic>. Thin solid lines: stable fixed points; thin dotted lines: unstable fixed points; thick solid line: stable limit cycle (periodic state); thick dotted line: unstable limit cycle. Solid circles denote Hopf, saddle-node (SN), and saddle-node of periodics (SNP) bifurcation points. The value of <italic>b</italic> at rest (<italic>I</italic>
+<sub>app</sub> = 0) is <italic>b</italic>
+<sub>rest</sub>, and <italic>b</italic>* is the value of <italic>b</italic> at steady state of the neuron. For <italic>b</italic>
+<sub>delay</sub>, see text. In (C,F), the intersection of the curve <italic>b</italic> = <italic>F</italic>(<italic>b</italic>) with the diagonal dashed line determines the value of <italic>b</italic>* (open square point). Arrows represent the evolution of the neuron from rest to its steady state following a current step injection of amplitude <italic>I</italic>
+<sub>app</sub>.</p></caption><graphic xlink:href="pcbi.0030156.g005"/></fig><p>In the case of large Na<sup>+</sup> window current ((<italic>m</italic>
+<sub>&#x0221e;</sub>)<sup>3</sup>
+<italic>h</italic>
+<sub>&#x0221e;</sub>, e.g., <italic>&#x003b8;</italic>
+<sub>m</sub> = &#x02212;28 mV), the function <italic>V</italic>
+<sub>FP</sub>(<italic>b</italic>) is non-monotonous and the curve <italic>V</italic>
+<sub>FP</sub>(<italic>b</italic>), in the <italic>b</italic>-<italic>V</italic>
+<sub>FP</sub> plane, displays a &#x0201c;Z shape&#x0201d; (<xref ref-type="fig" rid="pcbi-0030156-g005">Figure 5</xref>D and &#x0201c;The <italic>b</italic>-<italic>V</italic>
+<sub>FP</sub> curve of the model neuron&#x0201d; section in Materials and Methods). The lower branch of this curve corresponds to a stable fixed point of the fast subsystem, whereas on the middle branch, the fixed point is unstable (saddle point). These two branches coalesce at some value <italic>b</italic> = <italic>b</italic>
+<sub>SN</sub> (<italic>b</italic>
+<sub>SN</sub> = 0.17 for the parameters of <xref ref-type="fig" rid="pcbi-0030156-g005">Figure 5</xref>D&#x02013;<xref ref-type="fig" rid="pcbi-0030156-g005">5</xref>F), where the fast subsystem undergoes a saddle&#x02013;node (SN) bifurcation [<xref rid="pcbi-0030156-b018" ref-type="bibr">18</xref>]. For <italic>b</italic> &#x0003c; <italic>b</italic>
+<sub>SN</sub>, the dynamics of the fast subsystem display a stable limit cycle (<xref ref-type="fig" rid="pcbi-0030156-g005">Figure 5</xref>D and <xref ref-type="fig" rid="pcbi-0030156-g005">5</xref>E) [<xref rid="pcbi-0030156-b008" ref-type="bibr">8</xref>,<xref rid="pcbi-0030156-b018" ref-type="bibr">18</xref>]. This stable limit cycle also exists in a small region for <italic>b &#x0003e; b</italic>
+<sub>SN</sub>, up to a value <italic>b = b</italic>
+<sub>SNP</sub> where it disappears by coalescing with an unstable limit cycle (<italic>b</italic>
+<sub>SNP</sub> = 0.187 for the parameters of <xref ref-type="fig" rid="pcbi-0030156-g005">Figure 5</xref>D&#x02013;<xref ref-type="fig" rid="pcbi-0030156-g005">5</xref>F), i.e., via an SNP bifurcation. Hence, the fast subsystem displays bistability between a limit cycle and a stable fixed point in that small region of <italic>b</italic> values. The unstable limit cycle is homoclinic to the saddle.</p></sec><sec id="s2b2"><title>The origin of the delayed spike response in the full system.</title><p>We now turn to the dynamics of the full system. Let us assume that the neuron is at rest (<italic>I</italic>
+<sub>app</sub> = 0) and that the inactivation variable <italic>b</italic> is equal to <italic>b</italic>
+<sub>rest</sub> (<italic>b</italic>
+<sub>rest</sub> = 0.5 in the example of <xref ref-type="fig" rid="pcbi-0030156-g002">Figures 2</xref>C and <xref ref-type="fig" rid="pcbi-0030156-g005">5</xref>A). At time <italic>t</italic> = 0, a current step is applied and <italic>I</italic>
+<sub>app</sub> is raised abruptly (e.g., 3.35 &#x003bc;A/cm<sup>2</sup> in <xref ref-type="fig" rid="pcbi-0030156-g005">Figure 5</xref>A&#x02013;<xref ref-type="fig" rid="pcbi-0030156-g005">5</xref>C and 1.25 &#x003bc;A/cm<sup>2</sup> in <xref ref-type="fig" rid="pcbi-0030156-g005">Figure 5</xref>D&#x02013;<xref ref-type="fig" rid="pcbi-0030156-g005">5</xref>F). The evolution of the membrane potential of the neuron, <italic>V,</italic> right after the step onset is driven first by the dynamics of the fast subsystem with <italic>b</italic> &#x0223c; <italic>b</italic>
+<sub>rest</sub> (<xref ref-type="fig" rid="pcbi-0030156-g005">Figures 5</xref>A and <xref ref-type="fig" rid="pcbi-0030156-g005">5</xref>D). The membrane depolarizes rapidly, the current <italic>I</italic>
+<sub>d</sub> starts to inactivate, and the variable <italic>b</italic> decreases. During this process, which occurs on the slow time scale of <italic>&#x003c4;<sub>b</sub></italic>, the state of the neuron follows the fixed point of the fast subsystem adiabatically, for the applied current <italic>I</italic>
+<sub>app</sub>. In particular, the membrane potential of the neuron is <italic>V</italic>(<italic>t</italic>) &#x0223c; <italic>V</italic>
+<sub>FP</sub>(<italic>b</italic>(<italic>t</italic>)), and the slow variable <italic>b</italic> continues to decrease as long as <italic>b</italic>
+<sub>&#x0221e;</sub>(<italic>V</italic>
+<sub>FP</sub>(<italic>b</italic>(<italic>t</italic>))) &#x0003c; <italic>b</italic> (<xref ref-type="disp-formula" rid="pcbi-0030156-e017">Equation 17</xref>). If the equation <italic>b</italic>
+<sub>&#x0221e;</sub>(<italic>V</italic>
+<sub>FP</sub>(<italic>b</italic>)) = <italic>b</italic> has a solution, <italic>b</italic>*, for which the fixed point of the fast subsystem is stable, <italic>b</italic> stops evolving when it reaches that value. In that case, the state of the neuron converges to a stable fixed point where it does not fire action potentials. This situation, which happens when <italic>I</italic>
+<sub>app</sub> is small, is depicted in <xref ref-type="fig" rid="pcbi-0030156-g006">Figure 6</xref>A and <xref ref-type="fig" rid="pcbi-0030156-g006">6</xref>B. The value <italic>b</italic>* decreases with <italic>I</italic>
+<sub>app</sub>. The largest value of <italic>I</italic>
+<sub>app</sub> for which the fixed point is stable is determined by the equation
+<disp-formula id="pcbi-0030156-e001"><graphic xlink:href="pcbi.0030156.e001.jpg" position="anchor" mimetype="image"/></disp-formula>or by the equation <italic>b</italic>
+<sub>&#x0221e;</sub>(<italic>V</italic>
+<sub>FP</sub>(<italic>b</italic>
+<sub>SN</sub>; <italic>I</italic>
+<sub>app</sub>)) = <italic>b</italic>
+<sub>SN</sub> for small and large window <italic>I</italic>
+<sub>Na</sub>, respectively. For larger values of <italic>I</italic>
+<sub>app</sub>, a solution of the equation <italic>b</italic>
+<sub>&#x0221e;</sub>(<italic>V</italic>
+<sub>FP</sub>(<italic>b</italic>)) = <italic>b</italic> exists only for a <italic>b</italic> value for which the fixed point of the fast subsystem is unstable (<xref ref-type="fig" rid="pcbi-0030156-g005">Figure 5</xref>C and <xref ref-type="fig" rid="pcbi-0030156-g005">5</xref>F). As a result, <italic>b</italic> keeps decreasing until it crosses the bifurcation of the fast subsystem (<italic>b = b</italic>
+<sub>Hopf</sub> or <italic>b = b</italic>
+<sub>SN</sub>). When this happens, <italic>V</italic> starts to diverge from <italic>V</italic>
+<sub>FP</sub>(<italic>b</italic>) and the neuron fires action potentials. The patterns of firing following the delay can also be assessed using the fast&#x02013;slow analysis as we will explain below.
+</p><fig id="pcbi-0030156-g006" position="float"><label>Figure 6</label><caption><title>Fast&#x02013;Slow Analysis of Neurons with Small Na<sup>+</sup> Window Current Exhibiting a Depolarized Rest Potential or Stuttering</title><p>Fast&#x02013;slow analysis is described for <italic>&#x003b8;</italic>
+<sub>m</sub> = &#x02212;24 mV.</p><p>(A,B) Parameters are: <italic>g</italic>
+<sub>d</sub> = 0.39 mS/cm<sup>2</sup>, <italic>I</italic>
+<sub>app</sub> = 2.9 &#x003bc;A/cm<sup>2</sup>. (Except for <italic>I</italic>
+<sub>app</sub>, parameters are as in <xref ref-type="fig" rid="pcbi-0030156-g005">Figures 5</xref>A&#x02013;<xref ref-type="fig" rid="pcbi-0030156-g005">5</xref>C and 2C. The neuron is quiescent at steady state.)</p><p>(C,D) The parameters <italic>g</italic>
+<sub>d</sub> = 1.8 mS/cm<sup>2</sup> and <italic>I</italic>
+<sub>app</sub> = 4.2 &#x003bc;A/cm<sup>2</sup> are as in <xref ref-type="fig" rid="pcbi-0030156-g002">Figure 2</xref>D, and the neuron stutters at steady state. For each case, we plot the bifurcation diagrams of the fast subsystem in the <italic>V</italic>-<italic>b</italic> space (A,C), and the functions <italic>b</italic>
+<sub>&#x0221e;</sub>(<italic>V</italic>
+<sub>FP</sub>(<italic>b</italic>)) for fixed points and <italic>F</italic>(<italic>b</italic>) for limit cycles (<xref ref-type="disp-formula" rid="pcbi-0030156-e002">Equation 2</xref>) as functions of <italic>b</italic> (B,D). Symbols are as in <xref ref-type="fig" rid="pcbi-0030156-g005">Figure 5</xref>.</p></caption><graphic xlink:href="pcbi.0030156.g006"/></fig></sec><sec id="s2b3"><title>The properties of the delay period.</title><p>For small Na<sup>+</sup> window currents, the fixed point of the fast subsystem that destabilizes at <italic>b = b</italic>
+<sub>Hopf</sub> continues to exist in some range of values of <italic>b</italic> smaller than <italic>b</italic>
+<sub>Hopf</sub>. During the delay period, and before the fast subsystem crosses the Hopf bifurcation (<italic>b &#x0003e; b</italic>
+<sub>Hopf</sub>), the state of the neuron remains extremely close to this fixed point. Subsequently, it continues to track it for a while even after <italic>b</italic> has decayed below <italic>b</italic>
+<sub>Hopf</sub>, until it reaches a value <italic>b</italic>
+<sub>delay</sub>. Because of this &#x0201c;ramp effect&#x0201d; [<xref rid="pcbi-0030156-b013" ref-type="bibr">13</xref>,<xref rid="pcbi-0030156-b020" ref-type="bibr">20</xref>], the neuron starts to fire well after the inactivation variable has crossed <italic>b</italic>
+<sub>Hopf</sub>. This explains why in our simulations for <italic>&#x003b8;</italic>
+<sub>m</sub> = &#x02212;24 mV (<xref ref-type="fig" rid="pcbi-0030156-g004">Figure 4</xref>A, solid line) <italic>t</italic>
+<sub>delay</sub> is always significantly larger than the inactivation time constant of the d-current <italic>&#x003c4;<sub>b</sub></italic> (by at least a factor of 2).</p><p>In contrast, when the Na<sup>+</sup> window current is large (e.g., <italic>&#x003b8;</italic>
+<sub>m</sub> = &#x02212;28 mV), there is no &#x0201c;ramp effect,&#x0201d; since the fixed point of the fast subsystem does not exist for <italic>b</italic> &#x0003c; <italic>b<sub>SN</sub></italic>. As a consequence, <italic>t</italic>
+<sub>delay</sub> is on the order of <italic>&#x003c4;<sub>b</sub></italic> for most values of <italic>I</italic>
+<sub>app</sub> (<xref ref-type="fig" rid="pcbi-0030156-g004">Figure 4</xref>B, solid line). It can be significantly larger than <italic>&#x003c4;<sub>b</sub></italic> only for <italic>I</italic>
+<sub>app</sub> &#x02273; <italic>I</italic>
+<sub>th</sub>, where the dynamics of <italic>b</italic> itself becomes very slow.</p><p>The divergence of <italic>t</italic>
+<sub>delay</sub> as <italic>I</italic>
+<sub>app</sub> approaches the threshold <italic>I</italic>
+<sub>th</sub> depends on the Na<sup>+</sup> window current. As shown in the section &#x0201c;Dependence of the delay duration <italic>t</italic>
+<sub>delay</sub> on <italic>I</italic>
+<sub>app</sub> near current threshold for <italic>D</italic> = 0&#x0201d; in Materials and Methods, for <italic>I</italic>
+<sub>app</sub> &#x02273; <italic>I</italic>
+<sub>th</sub>, <italic>t</italic>
+<sub>delay</sub> diverges as (<italic>I</italic>
+<sub>app</sub>&#x02212;<italic>I</italic>
+<sub>th</sub>)<sup>1/2</sup> and &#x02212;log(<italic>I</italic>
+<sub>app</sub>&#x02212;<italic>I</italic>
+<sub>th</sub>) for small and large Na<sup>+</sup> window currents, respectively.</p></sec><sec id="s2b4"><title>The firing patterns after the delay period.</title><p>For small window current, the delay period ends when <italic>b</italic> has sufficiently decreased to a value <italic>b</italic>
+<sub>delay</sub> &#x0003c; <italic>b</italic>
+<sub>Hopf</sub> where the state of the neuron escapes from the fixed point of the fast subsystem. Once this happens, the state of the neuron converges rapidly toward the limit cycle of the fast subsystem with a value of <italic>b</italic> = <italic>b</italic>
+<sub>delay</sub>. Subsequently, the state of the neuron continues to evolve slowly, on a time scale of <italic>&#x003c4;<sub>b</sub></italic>, which is much larger than the time scale of the fast subsystem. Hence, at a given time, <italic>t</italic>, the state of the neuron is located very close to the limit cycle of the fast subsystem with a value of <italic>b = b</italic>(<italic>t</italic>). We denote this limit cycle by LC(<italic>b</italic>(<italic>t</italic>)). The state of the neuron follows LC(<italic>b</italic>(<italic>t</italic>)) many times before <italic>b</italic> changes significantly. Averaging the dynamics of <italic>b</italic> over a cycle, one finds that the evolution of <italic>b</italic> (<xref ref-type="disp-formula" rid="pcbi-0030156-e017">Equation 17</xref>) can be approximated by:
+<disp-formula id="pcbi-0030156-e002"><graphic xlink:href="pcbi.0030156.e002.jpg" position="anchor" mimetype="image"/></disp-formula>where F(<italic>b</italic>) is the time-average of the function <italic>b</italic>
+<sub>&#x0221e;</sub>(<italic>V</italic>(<italic>t</italic>)) over LC(<italic>b</italic>) (see <xref ref-type="fig" rid="pcbi-0030156-g005">Figure 5</xref>C).
+</p><p>If <italic>b</italic>
+<sub>delay</sub>
+<italic>&#x0003e; F</italic>(<italic>b</italic>
+<sub>delay</sub>)<italic>, b</italic> keeps <italic>decreasing</italic> below <italic>b</italic>
+<sub>delay</sub> as the neuron fires action potentials. Eventually, it stabilizes at the value <italic>b*</italic> defined by <italic>F</italic>(<italic>b*</italic>) <italic>= b*</italic> (the solution of <xref ref-type="disp-formula" rid="pcbi-0030156-e002">Equation 2</xref> must exist in that case because in our model LC(<italic>b</italic>) exists up to <italic>b = 0</italic> and <italic>F</italic>(<italic>b</italic>) is always strictly positive). Therefore, the delay is followed by a transient during which the firing pattern displays reverse adaptation. Eventually, the neuron fires tonically and periodically.</p><p>In contrast, if <italic>b</italic>
+<sub>delay</sub>
+<italic>&#x0003c; F</italic>(<italic>b</italic>
+<sub>delay</sub>), <italic>b</italic> starts to <italic>increase</italic> during the firing period. If the equation <italic>F</italic>(<italic>b</italic>) <italic>= b</italic> has a solution, <italic>b*</italic>, <italic>b</italic> eventually converges to <italic>b*</italic>. During this convergence, the neuron fires spikes with some frequency adaptation. Eventually, its state stabilizes on a limit cycle, LC(<italic>b*</italic>) corresponding to tonic periodic firing. Interestingly, if <italic>b* &#x0003e; b</italic>
+<sub>Hopf</sub>, LC(<italic>b*</italic>) coexists with a stable fixed point. This happens, for example, in the parameter set of <xref ref-type="fig" rid="pcbi-0030156-g005">Figure 5</xref>A. The highest value that <italic>b*</italic> may have is <italic>b</italic>
+<sub>SNP</sub>. Therefore, the smallest value of <italic>I</italic>
+<sub>app</sub> for which <italic>b*</italic> exists is determined by the equation
+<disp-formula id="pcbi-0030156-e003"><graphic xlink:href="pcbi.0030156.e003.jpg" position="anchor" mimetype="image"/></disp-formula>We consider the case where the value of <italic>I</italic>
+<sub>app</sub> determined by <xref ref-type="disp-formula" rid="pcbi-0030156-e003">Equation 3</xref> is larger than the value of <italic>I</italic>
+<sub>app</sub> determined by <xref ref-type="disp-formula" rid="pcbi-0030156-e001">Equation 1</xref>. For <italic>I</italic>
+<sub>app</sub> between those two values, the equation <italic>F</italic>(<italic>b</italic>) <italic>= b</italic> does not have a solution, but the state of the fast subsystem is on the limit cycle LC(<italic>b</italic>). In this case, <italic>b</italic> keeps increasing until it reaches its value at the SNP bifurcation, <italic>b</italic>
+<sub>SNP</sub>, beyond which there is no limit cycle (<xref ref-type="fig" rid="pcbi-0030156-g006">Figure 6</xref>C and <xref ref-type="fig" rid="pcbi-0030156-g006">6</xref>D). At that point, the neuronal state jumps back to a stable fixed point, <italic>b</italic> decreases slowly again to <italic>b</italic>
+<sub>delay</sub>, and the whole process repeats itself. Therefore, in this case, the neuron displays &#x0201c;elliptic bursting&#x0201d; [<xref rid="pcbi-0030156-b013" ref-type="bibr">13</xref>,<xref rid="pcbi-0030156-b018" ref-type="bibr">18</xref>]). As a matter of fact, as shown in the section &#x0201c;The equation <italic>F</italic>(<italic>b</italic>) = <italic>b</italic> has no solution for large <italic>g</italic>
+<sub>d</sub>&#x0201d; in Materials and Methods, when <italic>g</italic>
+<sub>d</sub> is sufficiently large, there is no solution to the equation <italic>F</italic>(<italic>b</italic>) <italic>= b</italic> in a broad region of <italic>I</italic>
+<sub>app</sub>. This explains the existence of a regime of bursting (stuttering) in the phase diagram (<xref ref-type="fig" rid="pcbi-0030156-g002">Figure 2</xref>A) for large <italic>g</italic>
+<sub>d</sub> values. Note that the boundaries to the left and to the right of this region are given (in the limit of large <italic>&#x003c4;<sub>b</sub></italic>) by the equations <italic>b</italic>
+<sub>&#x0221e;</sub>(<italic>V</italic>
+<sub>FP</sub>(<italic>b</italic>
+<sub>Hopf</sub>; <italic>I</italic>
+<sub>app</sub>)) = <italic>b</italic>
+<sub>Hopf</sub> (<xref ref-type="disp-formula" rid="pcbi-0030156-e001">Equation 1</xref>) and <italic>F</italic>(<italic>b</italic>
+<sub>SNP</sub>; <italic>I</italic>
+<sub>app</sub>) = <italic>b</italic>
+<sub>SNP</sub> (<xref ref-type="disp-formula" rid="pcbi-0030156-e003">Equation 3</xref>), respectively.
+</p><p>A similar analysis can be done when the Na<sup>+</sup> window current is large and the delay ends at an SN bifurcation (when <italic>b</italic> crosses <italic>b</italic>
+<sub>SN</sub>). As in the case of small Na<sup>+</sup> window current, two situations can be distinguished depending on whether <italic>b</italic>
+<sub>SN</sub> is larger or smaller than F(<italic>b</italic>
+<sub>SN</sub>) (<xref ref-type="fig" rid="pcbi-0030156-g005">Figure 5</xref>F). In the first case, tonic firing occurs. Tonic firing also occurs in the second case unless the equation <italic>F</italic>(<italic>b</italic>) = <italic>b</italic> has no solution. In the latter situation, bursting is expected to occur. However, because the bistable region (<italic>b</italic>
+<sub>SN</sub> &#x0003c; <italic>b</italic> &#x0003c; <italic>b</italic>
+<sub>SNP</sub>) is small and the period of the limit cycle is large in that region (<xref ref-type="fig" rid="pcbi-0030156-g005">Figure 5</xref>D and <xref ref-type="fig" rid="pcbi-0030156-g005">5</xref>E), the fast&#x02013;slow analysis correctly predicts the behavior of the full model only if &#x003c4;<sub>b</sub> is very large. As a matter of fact, for &#x003c4;<sub>b</sub> = 150 ms, we find doublets in place of well-defined bursting patterns.</p></sec><sec id="s2b5"><title>Transient firing of spikes before the delay period.</title><p>As shown in <xref ref-type="fig" rid="pcbi-0030156-g002">Figure 2</xref>C, the neuron may fire a transient of a few (1&#x02013;3) spikes before the delay period. A similar phenomenon is observed in experiments (i.e., [<xref rid="pcbi-0030156-b011" ref-type="bibr">11</xref>], see <xref ref-type="sec" rid="s2">results</xref> shown below). In our model, this behavior stems from the dynamics of <italic>I</italic>
+<sub>Na</sub> and happens because the abrupt depolarization induces a rapid increase in the activation variable <italic>m</italic>, whereas the inactivation variable <italic>h</italic> decreases more slowly, on a time scale of a few ms. As a result, a rapid but transient increase in <italic>I</italic>
+<sub>Na</sub> occurs, which may induce a few spikes before the neuronal dynamics converges to the new steady state of the fast subsystem. This effect resembles rebound excitation [<xref rid="pcbi-0030156-b013" ref-type="bibr">13</xref>], although it happens even if there is no hyperpolarization before the injection of <italic>I</italic>
+<sub>app</sub>. It requires that the neuron be sufficiently depolarized by the current step. Note that the model neuron does not fire rebound spikes in response to release from hyperpolarizing current steps (<xref ref-type="supplementary-material" rid="pcbi-0030156-sg001">Figure S1</xref>A).</p></sec></sec><sec id="s2c"><title>Effects of Noise on the Neuronal Dynamics</title><sec id="s2c1"><title>The effect of noise on the delay duration.</title><p>The probability of firing is always non-zero in the presence of noise. Hence, strictly speaking, the very definition of a delay in firing is ambiguous. This probability, however, is (exponentially) small in the limit of small noise. In practice, delays can still be observed in a clear manner in the model unless the noise is large. This is shown for both small (<xref ref-type="fig" rid="pcbi-0030156-g007">Figure 7</xref>A and <xref ref-type="fig" rid="pcbi-0030156-g007">7</xref>B) and large (<xref ref-type="fig" rid="pcbi-0030156-g007">Figure 7</xref>C) Na<sup>+</sup> window currents.</p><fig id="pcbi-0030156-g007" position="float"><label>Figure 7</label><caption><title>Voltage Traces and Firing Patterns of the Model Neuron in Response to a Noisy Current Step</title><p>(A) Delayed tonic firing for <italic>&#x003b8;</italic>
+<sub>m</sub> = &#x02212;24 mV, <italic>g</italic>
+<sub>d</sub> = 0.39 mS/cm<sup>2</sup>, <italic>I</italic>
+<sub>app</sub> = 3.35 &#x003bc;A/cm<sup>2</sup>.</p><p>(B) Delayed stuttering for <italic>&#x003b8;</italic>
+<sub>m</sub> = &#x02212;24 mV, <italic>g</italic>
+<sub>d</sub> = 1.8 mS/cm<sup>2</sup>, <italic>I</italic>
+<sub>app</sub> = 4.2 &#x003bc;A/cm<sup>2</sup>.</p><p>(C) Delayed tonic firing for <italic>&#x003b8;</italic>
+<sub>m</sub> = &#x02212;28 mV, <italic>g</italic>
+<sub>d</sub> = 0.39 mS/cm<sup>2</sup>, <italic>I</italic>
+<sub>app</sub> = 1.25 &#x003bc;A/cm<sup>2</sup>. In all three panels, the variance of the noise is <italic>D</italic> = 0.01 &#x003bc;A<sup>2</sup> &#x000d7; ms/cm<sup>4</sup>. The time course of the mean applied current, <italic>I</italic>
+<sub>app</sub>, is also plotted. The membrane potentials during the delay periods are magnified in the panels on the right. Note the presence of subthreshold oscillations in (A) and (B). The peaks of these oscillations are denoted by the arrows.</p></caption><graphic xlink:href="pcbi.0030156.g007"/></fig><p>The delay duration, <italic>t</italic>
+<sub>delay</sub>, in the presence of noise with variance <italic>D</italic> = 0.01 &#x003bc;A<sup>2</sup> ms/cm<sup>4</sup> is plotted for small and large window <italic>I</italic>
+<sub>Na</sub> in <xref ref-type="fig" rid="pcbi-0030156-g004">Figure 4</xref>A and <xref ref-type="fig" rid="pcbi-0030156-g004">4</xref>B, respectively. Comparison with the noiseless case (solid line) shows that when the window <italic>I</italic>
+<sub>Na</sub> is small, noise reduces <italic>t</italic>
+<sub>delay</sub> dramatically. In contrast, for large window <italic>I</italic>
+<sub>Na</sub>, the effect of noise on the delay is weak, except for values of <italic>I</italic>
+<sub>app</sub> in the vicinity of <italic>I</italic>
+<sub>th</sub>. This difference can be explained as follows. For small window current, the neuron state escapes slowly from the unstable fixed point of the fast subsystem during the delay period because of the &#x0201c;ramp effect.&#x0201d; This escape accelerates when noise increases. In the section &#x0201c;Dependence of <italic>t</italic>
+<sub>delay</sub> on <italic>D</italic> for weak noise&#x0201d; in Materials and Methods, we derive the expression for <italic>t</italic>
+<sub>delay</sub> as a function of <italic>D</italic> for low noise. One finds that:
+<disp-formula id="pcbi-0030156-e004"><graphic xlink:href="pcbi.0030156.e004.jpg" position="anchor" mimetype="image"/></disp-formula>where <italic>A</italic> &#x0003e; 0 and <italic>B</italic> are constants (<xref ref-type="disp-formula" rid="pcbi-0030156-e037">Equation 33</xref>). This equation provides a good fit to the results of our simulations over 11 orders of magnitude of <italic>D</italic> (<xref ref-type="fig" rid="pcbi-0030156-g008">Figure 8</xref>). Because of the logarithmic dependency, <italic>t</italic>
+<sub>delay</sub> is considerably reduced in the presence of weak noise.
+</p><fig id="pcbi-0030156-g008" position="float"><label>Figure 8</label><caption><title>Dependence of the Averaged Delay Duration on the Noise Variance, <italic>D</italic>
+</title><p>Black line: the delay duration, <italic>t</italic>
+<sub>delay</sub>, computed and averaged over 50 trials of the noisy external current step is plotted as a function of log(<italic>D</italic>). Parameters: <italic>&#x003b8;</italic>
+<sub>m</sub> = &#x02212;24 mV (small window Na<sup>+</sup> current), <italic>g</italic>
+<sub>d</sub> = 0.39 mS/cm<sup>2</sup>, and <italic>I</italic>
+<sub>app</sub> = 3.08 &#x003bc;A/cm<sup>2</sup>. Gray lines: one standard deviation confidence limit of the averaged <italic>t</italic>
+<sub>delay</sub>. Red line: fitting to the simulation results using the analytical prediction for small <italic>D</italic> (<xref ref-type="disp-formula" rid="pcbi-0030156-e004">Equation 4</xref>). The arrow on the <italic>y</italic>-axis indicates the value of <italic>t</italic>
+<sub>delay</sub> for a noiseless input (<italic>D</italic> = 0).</p></caption><graphic xlink:href="pcbi.0030156.g008"/></fig><p>In contrast, when the window <italic>I</italic>
+<sub>Na</sub> is large, there is no &#x0201c;ramp effect,&#x0201d; and <italic>t</italic>
+<sub>delay</sub> is only weakly dependent on <italic>D</italic> (<xref ref-type="fig" rid="pcbi-0030156-g004">Figure 4</xref>B). An exceptional case is when <italic>I</italic>
+<sub>app</sub> &#x02273; <italic>I</italic>
+<sub>th</sub>. In that case, the instability of the rest state of the full system is very weak and noise accelerates the escape from this rest state.</p></sec><sec id="s2c2"><title>The spectrum of the membrane potential fluctuations during the delay period in the presence of noise.</title><p>When the Na<sup>+</sup> window current is small, the fixed point of the fast subsystem near the bifurcation at <italic>b = b</italic>
+<sub>Hopf</sub> is &#x0201c;spiral,&#x0201d; i.e., small perturbations around it decay or grow in an oscillatory manner when <italic>b &#x0003c; b</italic>
+<sub>Hopf</sub> or <italic>b &#x0003e; b</italic>
+<sub>Hopf</sub>, respectively [<xref rid="pcbi-0030156-b008" ref-type="bibr">8</xref>,<xref rid="pcbi-0030156-b021" ref-type="bibr">21</xref>]. When noise is added, it excites this oscillatory mode, and therefore the membrane potential of the neuron displays sustained subthreshold oscillations (see <xref ref-type="fig" rid="pcbi-0030156-g007">Figures 7</xref>A and <xref ref-type="fig" rid="pcbi-0030156-g007">7</xref>B and <xref ref-type="fig" rid="pcbi-0030156-g009">9</xref>A and <xref ref-type="fig" rid="pcbi-0030156-g009">9</xref>B). Similarly, oscillatory fluctuations induced by noise are observed during the interburst periods in the stuttering state.</p><fig id="pcbi-0030156-g009" position="float"><label>Figure 9</label><caption><title>Fourier Spectrum of the Membrane Potential Fluctuations During the Delay Period in the Model for Three Different Strengths of the Na<sup>+</sup> Window Current</title><p>(A) <italic>&#x003b8;</italic>
+<sub>m</sub> = &#x02212;22 mV, <italic>g</italic>
+<sub>d</sub> = 0.8 mS/cm<sup>2</sup>, <italic>I</italic>
+<sub>app</sub> = 4.9 &#x003bc;A/cm<sup>2</sup>; (B) <italic>&#x003b8;</italic>
+<sub>m</sub> = &#x02212;24 mV, <italic>g</italic>
+<sub>d</sub> = 0.39 mS/cm<sup>2</sup>, <italic>I</italic>
+<sub>app</sub> = 3.23 &#x003bc;A/cm<sup>2</sup>; (C) <italic>&#x003b8;</italic>
+<sub>m</sub> = &#x02212;28 mV, <italic>g</italic>
+<sub>d</sub> = 0.39 mS/cm<sup>2</sup>, <italic>I</italic>
+<sub>app</sub> = 1.25 &#x003bc;A/cm<sup>2</sup>.</p></caption><graphic xlink:href="pcbi.0030156.g009"/></fig><p>In contrast, when the Na<sup>+</sup> window current is large, the fixed point of the fast subsystem disappears in an SN bifurcation. Hence, in that case, small perturbations during the delay period decay exponentially and monotonously. As a consequence, the membrane potential does not display subthreshold oscillations during that period (<xref ref-type="fig" rid="pcbi-0030156-g007">Figures 7</xref>C and <xref ref-type="fig" rid="pcbi-0030156-g009">9</xref>C).</p></sec><sec id="s2c3"><title>Noise-induced stuttering for small Na<sup>+</sup> window current.</title><p>We have noted above that in the noiseless case, the stuttering region in the phase diagram is bounded between two lines defined by the equations <italic>b</italic>
+<sub>&#x0221e;</sub>(<italic>V</italic>
+<sub>FP</sub>(<italic>b</italic>
+<sub>Hopf</sub>;<italic>I</italic>
+<sub>app</sub>)) = <italic>b</italic>
+<sub>Hopf</sub> (<xref ref-type="disp-formula" rid="pcbi-0030156-e001">Equation 1</xref>) and <italic>F</italic>(<italic>b</italic>
+<sub>SNP</sub>; <italic>I</italic>
+<sub>app</sub>) = <italic>b</italic>
+<sub>SNP</sub> (<xref ref-type="disp-formula" rid="pcbi-0030156-e003">Equation 3</xref>). On the left of the line determined by the equation <italic>b</italic>
+<sub>&#x0221e;</sub>(<italic>V</italic>
+<sub>FP</sub>(<italic>b</italic>
+<sub>Hopf</sub>; <italic>I</italic>
+<sub>app</sub>)) = <italic>b</italic>
+<sub>Hopf</sub>, the rest state is the only stable attractor of the full system (<xref ref-type="fig" rid="pcbi-0030156-g010">Figure 10</xref>A). However, the stable limit cycle (LC(<italic>b</italic>)) is an attractor of the fast subsystem, in addition to the fixed point, as shown in the phase portrait in <xref ref-type="fig" rid="pcbi-0030156-g010">Figure 10</xref>A. Noise, which acts on a fast time scale, can induce random switching from the fixed point to this limit cycle before the slow dynamics of <italic>b</italic> enters into play. Once switching has happened, <italic>b</italic> starts to increase slowly, and the state of the neuron drifts on the limit cycle LC(<italic>b</italic>(<italic>t</italic>)), and therefore the neuron fires action potentials. The train of action potentials has some probability to stop if the noise switches the neuronal state back to the fixed point of the full system. If this has not happened before <italic>b</italic> has reached <italic>b</italic>
+<sub>SNP</sub>, firing stops, because at that point the limit cycle ceases to exist. In any case, this results in stochastic stuttering (<xref ref-type="fig" rid="pcbi-0030156-g010">Figure 10</xref>B).</p><fig id="pcbi-0030156-g010" position="float"><label>Figure 10</label><caption><title>Noise-Induced Stuttering Activity for Small Na<sup>+</sup> Window Current (<italic>&#x003b8;</italic>
+<sub>m</sub> = &#x02212;24 mV)</title><p>(A,B) Voltage traces in response to a step current of amplitude <italic>I</italic>
+<sub>app</sub> = 3 &#x003bc;A/cm<sup>2</sup>.</p><p>(A) In the absence of noise in the input (<italic>D</italic> = 0), the membrane potential depolarizes during the current step but the neuron does not fire action potentials.</p><p>(B) Noise of variance <italic>D</italic> = 0.1 &#x003bc;A<sup>2</sup> &#x000d7; ms/cm<sup>4</sup> induces irregular bursts of action potentials (irregular stuttering).</p><p>(C,D) Voltage traces in response to a step current of amplitude <italic>I</italic>
+<sub>app</sub> = 3.2 &#x003bc;A/cm<sup>2</sup>.</p><p>(C) For <italic>D</italic> = 0, the neuron exhibits delayed tonic firing.</p><p>(D) For <italic>D</italic> = 0.1 &#x003bc;A<sup>2</sup> &#x000d7; ms/cm<sup>4</sup>, the neuron stutters irregularly. For all panels, <italic>g</italic>
+<sub>d</sub> = 0.5 mS/cm<sup>2</sup>. Projection of the phase portraits on the <italic>V</italic>-<italic>h</italic> plane for constant values of <italic>b</italic> (0.046 in (A) and 0.22 in (C)) are shown below the traces in (A,C). These values of <italic>b</italic> are either the fixed-point value (in (A)) or the average value on the limit cycle (in (C)). Solid circles denote stable fixed points, solid lines denote stable limit cycles, and dotted lines denote unstable limit cycles.</p></caption><graphic xlink:href="pcbi.0030156.g010"/></fig><p>Stochastic stuttering can emerge also for <italic>I</italic>
+<sub>app</sub> larger than its critical value for which <italic>F</italic>(<italic>b</italic>
+<sub>SNP</sub>; <italic>I</italic>
+<sub>app</sub>) = <italic>b</italic>
+<sub>SNP</sub>. Then the tonic, periodic firing is the only stable attractor of the full system (<xref ref-type="fig" rid="pcbi-0030156-g010">Figure 10</xref>C), but the fast subsystem also has a stable fixed point (<xref ref-type="fig" rid="pcbi-0030156-g005">Figure 5</xref>A; phase portrait in <xref ref-type="fig" rid="pcbi-0030156-g010">Figure 10</xref>C). Noise can induce switching from the limit cycle to the fixed point. Once this has happened, <italic>b</italic> decreases either until the noise switches the state back to the limit cycle or until <italic>b</italic> reaches b<sub>Hopf</sub>, where the neuron switches back deterministically to the limit cycle of the fast subsystem (<xref ref-type="fig" rid="pcbi-0030156-g010">Figure 10</xref>D).</p></sec></sec><sec id="s2d"><title>Experimental Results</title><p>The minimal firing rates in the tonic discharge following the delay period is broadly distributed among FS neurons [<xref rid="pcbi-0030156-b022" ref-type="bibr">22</xref>&#x02013;<xref rid="pcbi-0030156-b024" ref-type="bibr">24</xref>]. The theoretical results described above established correlations between the minimal firing rate of a neuron and the existence of subthreshold oscillations during the delay period. Neurons that fire at high rates display subthreshold oscillations during that period [<xref rid="pcbi-0030156-b022" ref-type="bibr">22</xref>,<xref rid="pcbi-0030156-b023" ref-type="bibr">23</xref>]. In contrast, neurons that can fire at low rates lack those oscillations. We report here experimental results supporting this prediction.</p><p>The responses to steps of depolarizing current pulses were recorded intracellularly in FS neurons (<italic>n</italic> = 20, average ratio of the spike's rising phase <italic>dV/dt</italic> to falling phase <italic>dV/dt</italic> = 1.17 &#x000b1; 0.29), as described in the section &#x0201c;Whole cell recordings and analysis&#x0201d; in Materials and Methods. Eight neurons responded to the depolarization onset almost instantaneously with a tonic non-adapting spike train. The other 60% of the neurons (<italic>n</italic> = 12) displayed a prolonged delay period, which was preceded by a transient firing of 1&#x02013;3 spikes in some cases (<xref ref-type="fig" rid="pcbi-0030156-g011">Figure 11</xref>A and B), similar to the simulations of our model for low Na<sup>+</sup> window current (<xref ref-type="fig" rid="pcbi-0030156-g007">Figure 7</xref>C). One cell from this group of 12 cells fired irregularly (<xref ref-type="fig" rid="pcbi-0030156-g011">Figure 11</xref>C). Eight out of those 12 cells had properties as reported in previous experimental studies of FS neurons (see also [<xref rid="pcbi-0030156-b022" ref-type="bibr">22</xref>,<xref rid="pcbi-0030156-b025" ref-type="bibr">25</xref>]). These eight cells exhibited a delay period followed by a tonic, high-frequency regular discharge (<xref ref-type="fig" rid="pcbi-0030156-g011">Figure 11</xref>A) or stuttering discharge with large, instantaneous intra-burst firing rate (<xref ref-type="fig" rid="pcbi-0030156-g011">Fig 11</xref>B). The minimal average firing frequencies in this group of neurons ranged from 25 to 220 Hz (average 81 &#x000b1; 59 Hz) and the voltage threshold to action potential was &#x02212;31.6 &#x000b1; 5.0 mV. All the computed trial-average power spectra of the membrane fluctuations during the delay period (<italic>n</italic> = 4) displayed a peak within the gamma range (20&#x02013;100 Hz). Two examples are shown in <xref ref-type="fig" rid="pcbi-0030156-g012">Figure 12</xref>A and <xref ref-type="fig" rid="pcbi-0030156-g012">12</xref>B. These features are similar to those exhibited by our model neuron for small window current (<xref ref-type="fig" rid="pcbi-0030156-g009">Figure 9</xref>A and <xref ref-type="fig" rid="pcbi-0030156-g009">9</xref>B).</p><fig id="pcbi-0030156-g011" position="float"><label>Figure 11</label><caption><title>Experimental Results: Responses of FS Neurons to Just Suprathreshold Depolarizing Current Steps</title><p>(A) An example of a neuron displaying high rate delayed tonic firing after a delay. The time interval below the top horizontal bar is magnified in the inset on the right.</p><p>(B) A neuron exhibiting stuttering.</p><p>(C) A neuron that exhibits delayed irregular firing.</p><p>(D) A neuron that fires at low rates after a delay. The dotted line denotes &#x02212;70 mV.</p></caption><graphic xlink:href="pcbi.0030156.g011"/></fig><fig id="pcbi-0030156-g012" position="float"><label>Figure 12</label><caption><title>Experimental Results: Fourier Spectrum of the Membrane Potential Fluctuations during Delay Periods in FS Neurons</title><p>Top: voltage time courses for three FS neurons exhibiting delayed firing.</p><p>Bottom: the Fourier spectra of the subthreshold membrane potentials during the delay before spiking for these three neurons.</p><p>(A) The minimal (just suprathreshold) firing frequency of this neuron is high (80 Hz). Pronounced subthreshold oscillations are observed during the delay period.</p><p>(B) The minimal firing frequency of this neuron is lower than in (A) (38 Hz). The subthreshold oscillations exhibited by this neuron are less pronounced than in (A).</p><p>(C) The minimal firing frequency of this neuron (4.3 Hz) is much lower than in (A) or (B). This neuron does not exhibit subthreshold oscillations during the delay period. Spectra were calculated over the time intervals denoted by the horizontal bars in the top panels.</p></caption><graphic xlink:href="pcbi.0030156.g012"/></fig><p>Different properties were found in the remaining three neurons (out of these 12 cells) that displayed delay to firing. First, their minimal firing frequencies were under 10 Hz (average 6.8 &#x000b1; 2.6 Hz) (<xref ref-type="fig" rid="pcbi-0030156-g011">Figure 11</xref>D), substantially lower than in the other group of eight neurons. Their spike threshold was &#x02212;39.6 &#x000b1; 6.4 mV, a significantly more hyperpolarized value than in the other group (<italic>p</italic> = 0.01, student <italic>t</italic>-test). These neurons did not exhibit stuttering behavior. Finally, spectral analysis of the fluctuations during the delay period failed to reveal subthreshold oscillations (<xref ref-type="fig" rid="pcbi-0030156-g012">Figure 12</xref>C). These properties are as predicted in our model for large Na<sup>+</sup> window current (<xref ref-type="fig" rid="pcbi-0030156-g009">Figure 9</xref>C).</p></sec></sec><sec id="s3"><title>Discussion</title><sec id="s3a"><title>Summary of the Theoretical Results</title><p>The minimal model of FS neurons studied in our work displays four types of behavior in response to a current step, depending on the Na<sup>+</sup> window current and on the strength of the conductance of the K<sup>+</sup> current <italic>I</italic>
+<sub>d</sub>.</p><p>1. When the Na<sup>+</sup> window current and the conductance <italic>g</italic>
+<sub>d</sub> are small, the neuron exhibits tonic, high-frequency firing that follows the current step onset almost immediately, even if the step amplitude is just above firing threshold.</p><p>2. When the Na<sup>+</sup> window current is small and the conductance of the d-current is of intermediate strength, delayed high-frequency tonic firing occurs for just suprathreshold step amplitudes. The delay duration decreases as the step amplitude increases and abruptly jumps to zero at some critical value. Noise dramatically reduces this duration. Noise also induces subthreshold oscillations during the delay and can also induce stuttering.</p><p>3. For small Na<sup>+</sup> window current but large values of the d-current conductance, the response to just suprathreshold input is delayed stuttering with high-frequency firing within the bursts. As the current step amplitude increases, the response becomes tonic firing, first delayed and subsequently and abruptly non-delayed. Other properties are as in 2.</p><p>4. For large value of the Na<sup>+</sup> window current, the neuron responds with delayed tonic firing for small amplitude of the current step and non-delayed tonic firing when the amplitude of the current step is large. In contrast to what happens in 2, the average firing rate is low near firing threshold; noise very weakly affects the delay duration and does not induce subthreshold oscillations during the delay period.</p></sec><sec id="s3b"><title>Na<sup>+</sup> and K<sup>+</sup> Currents in FS Cells and in Our Model</title><p>A large spectrum of K<sup>+</sup> currents with different activation and inactivation properties and kinetics has been reported in FS neurons [<xref rid="pcbi-0030156-b007" ref-type="bibr">7</xref>,<xref rid="pcbi-0030156-b011" ref-type="bibr">11</xref>,<xref rid="pcbi-0030156-b026" ref-type="bibr">26</xref>]. Delayed rectifier K<sup>+</sup> channels from the Kv3.1&#x02013;Kv3.2 types are responsible for the fast spike repolarization and strong AHP of these neurons [<xref rid="pcbi-0030156-b003" ref-type="bibr">3</xref>,<xref rid="pcbi-0030156-b004" ref-type="bibr">4</xref>,<xref rid="pcbi-0030156-b027" ref-type="bibr">27</xref>]. Slowly inactivating K<sup>+</sup> channels from the Kv1.1, Kv1.2, and Kv1.6 types have also been found in FS cells [<xref rid="pcbi-0030156-b012" ref-type="bibr">12</xref>]; blockade of these currents with DTx-I eliminates delays to firing present in the control situation. The d-current incorporated in our model can be thought of as representing these slow channels.</p><p>We are aware of a single experimental study where the activation and inactivation properties of the Na<sup>+</sup> channels in FS neurons were measured [<xref rid="pcbi-0030156-b014" ref-type="bibr">14</xref>]. One conclusion of that study is that the overlap between the activation and inactivation curves of this current is small. Clearly this does not mean that the Na<sup>+</sup> window current has no effect, since this will depend on the maximum conductance of this channel, a value which is not known. As a matter of fact, in our model, the inactivation mid-point potential, and the gain of the activation and inactivation functions are in accordance with the data provided by Martina and Jonas [<xref rid="pcbi-0030156-b014" ref-type="bibr">14</xref>]. We take the same value of the Na<sup>+</sup> conductance <italic>g</italic>
+<sub>Na</sub> as in [<xref rid="pcbi-0030156-b003" ref-type="bibr">3</xref>,<xref rid="pcbi-0030156-b028" ref-type="bibr">28</xref>]. With this value, we find variability of firing patterns while varying the activation mid-point potential in a range compatible with the data provided by Martina and Jonas [<xref rid="pcbi-0030156-b014" ref-type="bibr">14</xref>].</p><p>Throughout this article, we use the half-activation curve of <italic>I</italic>
+<sub>Na</sub>, <italic>&#x003b8;</italic>
+<sub>m</sub>, to quantify the strength of the Na<sup>+</sup> window current. Effects of modifying the window current by depolarizing or hyperpolarizing <italic>&#x003b8;</italic>
+<sub>h</sub> are similar to the effects of hyperpolarizing or depolarizing <italic>&#x003b8;</italic>
+<sub>m</sub>, respectively (<xref ref-type="supplementary-material" rid="pcbi-0030156-sg002">Figure S2</xref>). We did not include a persistent Na<sup>+</sup> current in our minimal model because this current was not found in FS neurons [<xref rid="pcbi-0030156-b014" ref-type="bibr">14</xref>]. However, if added to our model, this current would have an effect similar to increasing the Na<sup>+</sup> window current (unpublished data).</p><p>Synchronization properties of neuronal networks are tightly related to single neuron properties [<xref rid="pcbi-0030156-b029" ref-type="bibr">29</xref>&#x02013;<xref rid="pcbi-0030156-b033" ref-type="bibr">33</xref>]. For instance, increasing the strength of the Na<sup>+</sup> window current transforms the bifurcation of the rest state from a Hopf type to an SN type. This change may switch an inhibitory-coupled network of FS neurons from an asynchronized state to a synchronized state [<xref rid="pcbi-0030156-b034" ref-type="bibr">34</xref>]. Furthermore, Skinner et al. showed that networks of FS cells that possess both sufficiently strong Na<sup>+</sup> window current (or persistent Na<sup>+</sup> current) and <italic>I</italic>
+<sub>d</sub>, and that are coupled by both inhibitory and electrical coupling [<xref rid="pcbi-0030156-b035" ref-type="bibr">35</xref>], may exhibit collective bursting oscillatory behavior [<xref rid="pcbi-0030156-b036" ref-type="bibr">36</xref>]. Hence, the variability in single-cell properties, presented in this article, is very relevant to the network's behavior.</p></sec><sec id="s3c"><title>Comparison of Model Behavior with Experimental Results</title><p>The firing patterns exhibited by our model include &#x0201c;classical&#x0201d; non-delayed tonic firing, delayed tonic firing, and delayed stuttering. These three patterns of firing are consistent with those described in recent experimental studies of FS cells (e.g., [<xref rid="pcbi-0030156-b007" ref-type="bibr">7</xref>,<xref rid="pcbi-0030156-b022" ref-type="bibr">22</xref>]) as well as in the experimental results reported in the present study. Increasing <italic>I</italic>
+<sub>app</sub> in the model eventually causes the disappearance of the delay. This is also consistent with experimental observations [<xref rid="pcbi-0030156-b002" ref-type="bibr">2</xref>].</p><p>A large variability is observed between FS neurons in their minimal firing rates in response to steady current. Whereas many FS cells have high steady-state minimal firing frequencies on the order of tens of Hz or more [<xref rid="pcbi-0030156-b002" ref-type="bibr">2</xref>,<xref rid="pcbi-0030156-b023" ref-type="bibr">23</xref>], the minimum firing rate of other FS neurons can be as low as 20 Hz [<xref rid="pcbi-0030156-b022" ref-type="bibr">22</xref>] or even less than 10 Hz [<xref rid="pcbi-0030156-b037" ref-type="bibr">37</xref>]. Especially, FS neurons with neurogliaform morphology can fire at low rates [<xref rid="pcbi-0030156-b024" ref-type="bibr">24</xref>,<xref rid="pcbi-0030156-b038" ref-type="bibr">38</xref>]. Although in our experimental data we classified neurons as FS based on their spike width and repolarization rate [<xref rid="pcbi-0030156-b001" ref-type="bibr">1</xref>], and did not examine their morphology, our experimental results are consistent with such variability in the minimal firing rate. Further experimental work is needed to verify whether only FS neurons with neurogliaform morphology can fire at low rates. Relying on our modeling study, we propose that heterogeneities in the Na<sup>+</sup> window current contribute strongly to variability in the minimal firing rate.</p><p>In our model, a delay in action potential firing is induced by a slow crossing of a bifurcation driven by the slowly inactivating d-current. Depending on the window current of the Na<sup>+</sup> current, this bifurcation can be of Hopf or SN types. As a consequence, the properties of the neuron during the delay period depend also on the Na<sup>+</sup> window current. In particular, subthreshold oscillations are found during that period (and also during the quiescent periods in stuttering patterns). This is consistent with the observation of subthreshold oscillations at frequencies in the gamma-range (20&#x02013;100 Hz) in FS neurons in cortex [<xref rid="pcbi-0030156-b022" ref-type="bibr">22</xref>] during delay or interburst periods. Moreover, in our model, these oscillations exist only when the <italic>I</italic>
+<sub>Na</sub> window current is small (<xref ref-type="fig" rid="pcbi-0030156-g009">Figure 9</xref>A and <xref ref-type="fig" rid="pcbi-0030156-g009">9</xref>B). Subsequently, we predict that subthreshold oscillations in an FS neuron are more likely to be observed in neurons with a large minimal firing frequency. Our experimental results (<xref ref-type="fig" rid="pcbi-0030156-g011">Figures 11</xref> and <xref ref-type="fig" rid="pcbi-0030156-g012">12</xref>) are consistent with this prediction.</p><p>Finally, noise can induce irregular stuttering in our FS model (<xref ref-type="fig" rid="pcbi-0030156-g010">Figure 10</xref>). Similar patterns were found in previous experiments (<xref ref-type="fig" rid="pcbi-0030156-g001">Figure 1</xref>C in [<xref rid="pcbi-0030156-b023" ref-type="bibr">23</xref>]), as well as in the experiments reported here (<xref ref-type="fig" rid="pcbi-0030156-g011">Figure 11</xref>C).</p></sec><sec id="s3d"><title>Some Limitations of Our FS Model</title><p>There are several physiological observations that the model does not replicate. The AHP and the spike amplitude are larger in the model (<xref ref-type="fig" rid="pcbi-0030156-g002">Figures 2</xref> and <xref ref-type="fig" rid="pcbi-0030156-g007">7</xref>) than in FS neurons recorded in slice experiments (<xref ref-type="fig" rid="pcbi-0030156-g011">Figure 11</xref>). Changing the reversal potential of the K<sup>+</sup> current reduces the AHP of the model neuron to some extent. It may also happen that in FS cells, the spike-generating area is distant from the soma, and therefore action potentials recorded in the soma are filtered by cable properties. This effect, which cannot be included in our single compartment model, may contribute to the reduction of the AHP.</p><p>Another limitation of our model is that it can account neither for the substantial accommodation observed in some FS cells (AC cells in <xref ref-type="fig" rid="pcbi-0030156-g005">Figure 5</xref> in [<xref rid="pcbi-0030156-b007" ref-type="bibr">7</xref>]) nor for the burst of action potentials that precedes tonic firing sometimes observed in FS neurons (&#x0201c;b&#x0201d; cells in <xref ref-type="fig" rid="pcbi-0030156-g005">Figure 5</xref> in [<xref rid="pcbi-0030156-b007" ref-type="bibr">7</xref>]). Although our model may exhibit some adaptation, it is a result of the strong AHP, which causes <italic>I</italic>
+<sub>d</sub> to inactivate during firing, but this inactivation is only weak. However, accommodation and initial bursting can probably be accounted for if one incorporates additional slowly activating K<sup>+</sup> currents into the model.</p><p>Finally, stuttering FS cells that do not exhibit an initial delay in response to the injection of a step current are observed experimentally [<xref rid="pcbi-0030156-b006" ref-type="bibr">6</xref>]. Such a behavior is not present in the phase diagram of <xref ref-type="fig" rid="pcbi-0030156-g002">Figure 2</xref>A. However, it can occur in the framework of our model if the reversal potential of the leak current is taken to be more depolarized (e.g., <italic>V</italic>
+<sub>L</sub> = &#x02212;60 mV in <xref ref-type="supplementary-material" rid="pcbi-0030156-sg001">Figure S1</xref>B) than the reference parameter set <italic>V</italic>
+<sub>L</sub> = &#x02212;70 mV (<xref ref-type="fig" rid="pcbi-0030156-g001">Figure 1</xref>).</p></sec><sec id="s3e"><title>Relation to Previous Theoretical Works and Models of FS Cells</title><p>To our knowledge, our work is the first to propose a minimal conductance&#x02013;based model incorporating ionic channels known to exist in FS cortical interneurons and which accounts in a comprehensive way for the variability of firing patterns these cells display. The analysis we have made of this model builds on previous theoretical works. The role of the window <italic>I</italic>
+<sub>Na</sub> in achieving low firing rates was considered in [<xref rid="pcbi-0030156-b013" ref-type="bibr">13</xref>,<xref rid="pcbi-0030156-b018" ref-type="bibr">18</xref>]. The fact that slowly inactivated K<sup>+</sup> currents can induce delay to action potential firing and bursting was also described in [<xref rid="pcbi-0030156-b013" ref-type="bibr">13</xref>,<xref rid="pcbi-0030156-b039" ref-type="bibr">39</xref>]. The stuttering pattern displayed by our model is an example of &#x0201c;elliptic bursting&#x0201d; [<xref rid="pcbi-0030156-b018" ref-type="bibr">18</xref>,<xref rid="pcbi-0030156-b020" ref-type="bibr">20</xref>,<xref rid="pcbi-0030156-b040" ref-type="bibr">40</xref>] (also named &#x0201c;SubHopf/Fold cycle&#x0201d; [<xref rid="pcbi-0030156-b019" ref-type="bibr">19</xref>]). In addition, the present paper relates the appearance of subthreshold oscillations and the dependence of the delay duration on the levels of noise and applied current with the bifurcation structure of the fast subsystem.</p><p>Marder and colleagues proposed that for a specific pattern of activity, one can find parameter subspaces within which the model displays qualitatively, and even quantitatively, similar behavior [<xref rid="pcbi-0030156-b041" ref-type="bibr">41</xref>,<xref rid="pcbi-0030156-b042" ref-type="bibr">42</xref>]. They also proposed that neuronal function can be stabilized by homeostatic mechanisms ensuring that the neuron always remains in those subspaces [<xref rid="pcbi-0030156-b043" ref-type="bibr">43</xref>]. Clearly, the bifurcation point cannot exist in such subspaces. There are, however, directions in parameter space along which the qualitative behavior of the neuron varies via bifurcations of the dynamics, as shown in our paper. These bifurcations can underlie the variability observed in the electrophysiological properties of FS cells.</p></sec><sec id="s3f"><title>Predictions from the Model</title><p>We predict that for FS cells that exhibit delay before firing, the delay duration, <italic>t</italic>
+<sub>delay</sub>, decreases with the amplitude of the current step, <italic>I</italic>
+<sub>app</sub>, and disappears at a non-zero value as <italic>I</italic>
+<sub>app</sub> is elevated (<xref ref-type="fig" rid="pcbi-0030156-g004">Figure 4</xref>A). When the neuron displays stuttering in response to just suprathreshold oscillations, we predict that elevating <italic>I</italic>
+<sub>app</sub> will first increase the average number of spikes during the stuttering state (<xref ref-type="fig" rid="pcbi-0030156-g002">Figure 2</xref>D), and then will transform the cell into a tonic firing cell (<xref ref-type="fig" rid="pcbi-0030156-g002">Figure 2</xref>A). A depolarizing pre-pulse shortens <italic>t</italic>
+<sub>delay</sub> and even eliminates it if the pre-pulse is large enough, but does not affect the stuttering behavior (<xref ref-type="supplementary-material" rid="pcbi-0030156-sg001">Figure S1</xref>B). Similarly, a hyperpolarizing pre-pulse increases <italic>t</italic>
+<sub>delay</sub>. These predictions can be tested by current-clamp experiments.</p><p>Our theoretical work and the experimental results presented here suggest the existence in FS cells of two types of responses to step current pulses. They differ in the minimal firing frequencies, the properties of the membrane potential fluctuations during the delay period, and the sensitivity of the delay duration to noise. More specifically, we predict that the minimal firing rate, the sensitivity of <italic>t</italic>
+<sub>delay</sub> to noise, and the presence of subthreshold oscillations of the membrane potential during the delay period are negatively correlated to the strength of the Na<sup>+</sup> window current. Furthermore, we predict that FS neurons that can fire at low firing rates cannot stutter, and that increasing <italic>g</italic>
+<sub>d</sub> artificially via dynamic clamp may convert a tonic-delay response into stuttering. These predictions can be tested in a detailed population study of electrophysiological properties of FS neurons.</p><p>The modeling results presented in this paper can be applied to understand the effect of some neuromodulators on the firing patterns of FS cells. Dopamine attenuates the d-type K<sup>+</sup> current <italic>I</italic>
+<sub>d</sub> in a subgroup of FS neurons [<xref rid="pcbi-0030156-b044" ref-type="bibr">44</xref>]. Consistent with the results of our modeling study, dopamine also transforms the firing pattern of an FS cell from a tonic-delay type to the tonic-no delay type [<xref rid="pcbi-0030156-b044" ref-type="bibr">44</xref>] (see also [<xref rid="pcbi-0030156-b045" ref-type="bibr">45</xref>]). Na<sup>+</sup> currents are affected by metabotropic glutamate receptor subtype 1 (mGluR1). As shown by [<xref rid="pcbi-0030156-b046" ref-type="bibr">46</xref>], it shifts <italic>&#x003b8;</italic>
+<sub>h</sub> to more hyperpolarized potentials in pyramidal neurons, decreasing their Na<sup>+</sup> window current. It also facilitates the persistent Na<sup>+</sup> current <italic>I</italic>
+<sub>NaP</sub> by shifting its activation curve leftward [<xref rid="pcbi-0030156-b046" ref-type="bibr">46</xref>]. Similarly, serotonin makes <italic>&#x003b8;</italic>
+<sub>h</sub> more negative in pyramidal cells, and also reduces the maximal conductance of <italic>I</italic>
+<sub>NaP</sub> [<xref rid="pcbi-0030156-b047" ref-type="bibr">47</xref>]. If one assumes that these modulators have similar effects on Na<sup>+</sup> currents in FS cells, our results suggest that they may modify qualitatively the firing patterns of these neurons.</p></sec></sec><sec sec-type="materials|methods" id="s4"><title>Materials and Methods</title><sec id="s4a"><title>Model.</title><p>Our model of FS cells is based on that of [<xref rid="pcbi-0030156-b003" ref-type="bibr">3</xref>,<xref rid="pcbi-0030156-b028" ref-type="bibr">28</xref>], with several modifications based on voltage clamp data. The current balance equation is
+<disp-formula id="pcbi-0030156-e005"><graphic xlink:href="pcbi.0030156.e005.jpg" position="anchor" mimetype="image"/></disp-formula>where <italic>V</italic> is the membrane potential of the neuron, <italic>C</italic> = 1&#x003bc;F/cm<sup>2</sup> is the membrane capacitance, and the parameters of the leak current are <italic>g</italic>
+<sub>L</sub> = 0.25 mS/cm<sup>2</sup> and <italic>V</italic>
+<sub>L</sub> = &#x02212;70 mV. The external current injected into the neuron is denoted by <italic>I</italic>
+<sub>app</sub>.
+</p><p>The Na<sup>+</sup> current <italic>I</italic>
+<sub>Na</sub> is given by:
+<disp-formula id="pcbi-0030156-e006"><graphic xlink:href="pcbi.0030156.e006.jpg" position="anchor" mimetype="image"/></disp-formula>where the gating variables, <italic>h</italic> and <italic>m</italic>, follow:
+<disp-formula id="pcbi-0030156-e007"><graphic xlink:href="pcbi.0030156.e007.jpg" position="anchor" mimetype="image"/></disp-formula>
+<disp-formula id="pcbi-0030156-e008"><graphic xlink:href="pcbi.0030156.e008.jpg" position="anchor" mimetype="image"/></disp-formula>
+<disp-formula id="pcbi-0030156-e009"><graphic xlink:href="pcbi.0030156.e009.jpg" position="anchor" mimetype="image"/></disp-formula>
+<disp-formula id="pcbi-0030156-e010"><graphic xlink:href="pcbi.0030156.e010.jpg" position="anchor" mimetype="image"/></disp-formula>The parameters are: <italic>g</italic>
+<sub>Na</sub> = 112.5 mS/cm<sup>2</sup>, <italic>V</italic>
+<sub>Na</sub> = 50 mV, <italic>&#x003c3;<sub>m</sub></italic> = 11.5 mV, <italic>&#x003b8;<sub>h</sub></italic> = &#x02212;58.3 mV, <italic>&#x003c3;<sub>h</sub></italic> = &#x02212;6.7 mV, <italic>&#x003b8;<sub>th</sub></italic> = &#x02212;60 mV, <italic>&#x003c3;<sub>th</sub></italic> = &#x02212;12 mV [<xref rid="pcbi-0030156-b014" ref-type="bibr">14</xref>]. In this work, we study the effect of the strength of the Na<sup>+</sup> window current, controlled by the parameter <italic>&#x003b8;</italic>
+<sub>m</sub>, on the dynamics of the neuron.
+</p><p>The delayed rectifier K<sup>+</sup> current <italic>I</italic>
+<sub>Kdr</sub> is of the Kv3.1&#x02013;Kv3.2 type. It is responsible for the brief duration of the spike, about 0.5 ms [<xref rid="pcbi-0030156-b002" ref-type="bibr">2</xref>,<xref rid="pcbi-0030156-b048" ref-type="bibr">48</xref>], and for the high firing frequency [<xref rid="pcbi-0030156-b003" ref-type="bibr">3</xref>,<xref rid="pcbi-0030156-b049" ref-type="bibr">49</xref>]. It is given by:
+<disp-formula id="pcbi-0030156-e011"><graphic xlink:href="pcbi.0030156.e011.jpg" position="anchor" mimetype="image"/></disp-formula>with:
+<disp-formula id="pcbi-0030156-e012"><graphic xlink:href="pcbi.0030156.e012.jpg" position="anchor" mimetype="image"/></disp-formula>
+<disp-formula id="pcbi-0030156-e013"><graphic xlink:href="pcbi.0030156.e013.jpg" position="anchor" mimetype="image"/></disp-formula>
+<disp-formula id="pcbi-0030156-e014"><graphic xlink:href="pcbi.0030156.e014.jpg" position="anchor" mimetype="image"/></disp-formula>All the parameters of the delayed rectifier current are fixed: <italic>g</italic>
+<sub>Kdr</sub> = 225 mS/cm<sup>2</sup>, <italic>V</italic>
+<sub>K</sub> = &#x02212;90 mV, <italic>&#x003b8;<sub>n</sub></italic> = &#x02212;12.4 mV, <italic>&#x003c3;<sub>n</sub></italic> = 6.8 mV, <italic>&#x003b8;<sub>tn</sub></italic> = &#x02212;27 mV, <italic>&#x003c3;<sub>th</sub></italic> = &#x02212;15 mV [<xref rid="pcbi-0030156-b050" ref-type="bibr">50</xref>].
+</p><p>The K<sup>+</sup> current <italic>I</italic>
+<sub>d</sub> incorporated in the model [<xref rid="pcbi-0030156-b010" ref-type="bibr">10</xref>,<xref rid="pcbi-0030156-b011" ref-type="bibr">11</xref>] has fast activation and slow inactivation. It is defined by:
+<disp-formula id="pcbi-0030156-e015"><graphic xlink:href="pcbi.0030156.e015.jpg" position="anchor" mimetype="image"/></disp-formula>
+<disp-formula id="pcbi-0030156-e016"><graphic xlink:href="pcbi.0030156.e016.jpg" position="anchor" mimetype="image"/></disp-formula>
+<disp-formula id="pcbi-0030156-e017"><graphic xlink:href="pcbi.0030156.e017.jpg" position="anchor" mimetype="image"/></disp-formula>
+<disp-formula id="pcbi-0030156-e018"><graphic xlink:href="pcbi.0030156.e018.jpg" position="anchor" mimetype="image"/></disp-formula>
+<disp-formula id="pcbi-0030156-e019"><graphic xlink:href="pcbi.0030156.e019.jpg" position="anchor" mimetype="image"/></disp-formula>Throughout the paper, all the parameters of the d-current but <italic>g</italic>
+<sub>d</sub> are fixed: <italic>&#x003b8;<sub>a</sub></italic> = &#x02212;50 mV, <italic>&#x003c3;<sub>a</sub></italic> = 20 mV, <italic>&#x003c4;<sub>a</sub></italic> = 2 ms, <italic>&#x003b8;<sub>b</sub></italic> = &#x02212;70 mV, <italic>&#x003c3;<sub>b</sub></italic> = &#x02212;6 mV, <italic>&#x003c4;<sub>b</sub></italic> = 150 ms [<xref rid="pcbi-0030156-b051" ref-type="bibr">51</xref>,<xref rid="pcbi-0030156-b052" ref-type="bibr">52</xref>]. The parameter <italic>g</italic>
+<sub>d</sub> is varied to study the effect of the strength of this current.
+</p><p>Finally, to study the effect of noise in the external input on the firing pattern of the neuron, we add an additional external input, <italic>I</italic>
+<sub>noise</sub>, of the form:
+<disp-formula id="pcbi-0030156-e020"><graphic xlink:href="pcbi.0030156.e020.jpg" position="anchor" mimetype="image"/></disp-formula>where <italic>&#x003be;</italic>(<italic>t</italic>) is a Gaussian white noise with an average 0 and a unit variance, and <italic>D</italic> has the units of &#x003bc;A<sup>2</sup> &#x000d7; ms/cm<sup>4</sup> .
+</p><p>
+<italic>Numerical methods.</italic> Simulations were performed using the fourth-order Runge-Kutta method with a time step of 0.01 ms implemented as a C program or within the software package XPPAUT [<xref rid="pcbi-0030156-b053" ref-type="bibr">53</xref>], which was used also for computing bifurcation diagrams.</p><p>
+<italic>Delay.</italic> The delay duration <italic>t</italic>
+<sub>delay</sub> is defined to be the time from the onset of current injection, or, if the neuron fires transient 1&#x02013;3 spikes, from the last transient spike to the first spike of the sustained firing. We define that the neuron shows a delay if <italic>t</italic>
+<sub>delay</sub> is at least twice as large as the inter-spike interval during steady-state spiking <italic>t</italic>
+<sub>ISI</sub>, or if it is larger than both 100 ms and 1.2 <italic>t</italic>
+<sub>ISI</sub>.</p><p>
+<italic>Fourier spectrum.</italic> Discrete Fourier transforms of subthreshold oscillations were calculated numerically over a time window of <italic>T</italic>
+<sub>FT</sub> ending <italic>T</italic>
+<sub>BS</sub> = 5 ms before the first spike of the steady-state firing. The absolute values of the Fourier components were averaged over <italic>n</italic>
+<sub>R</sub> repetitions of the same stimulus. Parameters for <xref ref-type="fig" rid="pcbi-0030156-g009">Figure 9</xref> are: <italic>T</italic>
+<sub>FT</sub> = 120 ms, <italic>n</italic>
+<sub>R</sub> = 20. Parameters for <xref ref-type="fig" rid="pcbi-0030156-g012">Figure 12</xref> are: <italic>T</italic>
+<sub>FT</sub> = 90 ms, <italic>n</italic>
+<sub>R</sub> = 5 (A), <italic>T</italic>
+<sub>FT</sub> = 120 ms, <italic>n</italic>
+<sub>R</sub> = 13 (B), <italic>T</italic>
+<sub>FT</sub> = 120 ms, <italic>n</italic>
+<sub>R</sub> = 11 (C).</p></sec><sec id="s4b"><title>The <italic>b</italic>-<italic>V</italic>
+<sub>FP</sub> curve of the model neuron.</title><p>The bifurcations of the fast subsystem when <italic>b</italic> varies depend on the shape of the function <italic>V</italic>
+<sub>FP</sub>(<italic>b</italic>), where <italic>V</italic>
+<sub>FP</sub> is the value of the membrane potential of the neuron at the fixed point of the dynamics for fixed <italic>b</italic>. Equivalently, one can relate the bifurcations to the shape of the curve <italic>b</italic> = <italic>b</italic>(<italic>V</italic>
+<sub>FP</sub>), in the <italic>b</italic>-<italic>V</italic>
+<sub>FP</sub> plane (the &#x0201c;<italic>b</italic>-<italic>V</italic>
+<sub>FP</sub> curve&#x0201d;), which is defined by (see <xref ref-type="disp-formula" rid="pcbi-0030156-e005">Equations 5</xref>, <xref ref-type="disp-formula" rid="pcbi-0030156-e006">6</xref>, <xref ref-type="disp-formula" rid="pcbi-0030156-e011">11</xref>, and <xref ref-type="disp-formula" rid="pcbi-0030156-e015">15</xref>):
+<disp-formula id="pcbi-0030156-e021"><graphic xlink:href="pcbi.0030156.e021.jpg" position="anchor" mimetype="image"/></disp-formula>where
+<disp-formula id="pcbi-0030156-e022"><graphic xlink:href="pcbi.0030156.e022.jpg" position="anchor" mimetype="image"/></disp-formula>and
+<disp-formula id="pcbi-0030156-e025"><graphic xlink:href="pcbi.0030156.e025.jpg" position="anchor" mimetype="image"/></disp-formula>The denominator in <xref ref-type="disp-formula" rid="pcbi-0030156-e021">Equation 21</xref> is positive and increases with <italic>V</italic>
+<sub>FP</sub>. The numerator therefore is positive in the relevant range of <italic>V</italic>
+<sub>FP</sub> for which <italic>b</italic> &#x0003e; 0. The functions <italic>I</italic>
+<sub>L</sub>(<italic>V</italic>
+<sub>FP</sub>) and <italic>I</italic>
+<sub>Kdr</sub>(<italic>V</italic>
+<sub>FP</sub>) are increasing with <italic>V</italic>
+<sub>FP</sub>. Only the function <italic>I</italic>
+<sub>Na</sub>(<italic>V</italic>
+<sub>FP</sub>) may decrease with <italic>V</italic>
+<sub>FP</sub>. Therefore, for a small Na<sup>+</sup> window current, <italic>b</italic> decreases monotonously with <italic>V</italic>
+<sub>FP</sub>. This happens for instance for <italic>&#x003b8;<sub>m</sub></italic> = &#x02212;24 mV (<xref ref-type="fig" rid="pcbi-0030156-g005">Figure 5</xref>A). In contrast, if the overlap between the activation and the inactivation curves of the Na<sup>+</sup> current is sufficiently large [<xref rid="pcbi-0030156-b013" ref-type="bibr">13</xref>], the term &#x02212;<italic>I</italic>
+<sub>Na</sub>(<italic>V</italic>
+<sub>FP</sub>) in <xref ref-type="disp-formula" rid="pcbi-0030156-e021">Equation 21</xref> can contribute substantially to make the function <italic>b</italic>(<italic>V</italic>
+<sub>FP</sub>) be non-monotonous. This happens for instance for <italic>&#x003b8;<sub>m</sub></italic> = &#x02212;28 mV (<xref ref-type="fig" rid="pcbi-0030156-g005">Figure 5</xref>D).
+</p></sec><sec id="s4c"><title>Dependence of the delay duration <italic>t</italic>
+<sub>delay</sub> on <italic>I</italic>
+<sub>app</sub> near current threshold for <italic>D</italic> = 0.</title><p>We estimate <italic>t</italic>
+<sub>delay</sub>, the duration of the delay to firing of action potentials, using the &#x0201c;fast&#x02013;slow method,&#x0201d; and derive the dependence of <italic>t</italic>
+<sub>delay</sub> on <italic>I</italic>
+<sub>app</sub> near the current threshold <italic>I</italic>
+<sub>th</sub> in the noiseless case. During the delay period, the fast subsystem is at its fixed point, and <italic>b</italic> decreases slowly. We use this fact to compute the scaling of the divergence of <italic>t</italic>
+<sub>delay</sub> with <italic>I</italic>
+<sub>app</sub>&#x02212;<italic>I</italic>
+<sub>th</sub> for <italic>I</italic>
+<sub>app</sub> &#x02273; <italic>I</italic>
+<sub>th</sub> for the two bifurcation scenarios.</p><p>
+<italic>Hopf bifurcation of the fast subsystem.</italic> The evolution of <italic>b</italic> is given by <xref ref-type="disp-formula" rid="pcbi-0030156-e017">Equation 17</xref>, and it becomes very slow when <italic>b</italic> approaches <italic>b</italic>
+<sub>&#x0221e;</sub>(<italic>V</italic>). For large <italic>&#x003c4;<sub>b</sub></italic>, <italic>V</italic> follows the curve <italic>V</italic>
+<sub>FP</sub>(<italic>b</italic>) during the delay period (<xref ref-type="fig" rid="pcbi-0030156-g005">Figure 5</xref>A). We denote by <italic>b&#x00078;&#x00303;</italic> the solution of the equation <inline-formula id="pcbi-0030156-ex001"><inline-graphic xlink:href="pcbi.0030156.ex001.jpg" mimetype="image"/></inline-formula>
+, and define <italic>V&#x00078;&#x00303;</italic> &#x02261;<italic>V</italic>
+<sub>FP</sub>( <italic>b&#x00078;&#x00303;</italic>) Note that the fixed point of the fast subsystem for <italic>b</italic> = <italic>b&#x00078;&#x00303;</italic> is unstable if the neuron fires following the delay. When <italic>I</italic>
+<sub>app</sub> is near <italic>I</italic>
+<sub>th</sub>, <italic>V</italic>
+<sub>FP</sub>(<italic>b</italic>) is approximated by <italic>V&#x00078;&#x00303;</italic> [<xref rid="pcbi-0030156-b013" ref-type="bibr">13</xref>], and therefore <inline-formula id="pcbi-0030156-ex002"><inline-graphic xlink:href="pcbi.0030156.ex002.jpg" mimetype="image"/></inline-formula>
+<xref ref-type="disp-formula" rid="pcbi-0030156-e017">Equation 17</xref> for the evolution of <italic>b</italic> is approximated by
+<disp-formula id="pcbi-0030156-e026"><graphic xlink:href="pcbi.0030156.e026.jpg" position="anchor" mimetype="image"/></disp-formula>Using <xref ref-type="disp-formula" rid="pcbi-0030156-e026">Equation 22</xref> for computing <italic>t</italic>
+<sub>delay</sub> is justified because <italic>t</italic>
+<sub>delay</sub> is determined mainly by the slow dynamics of <italic>b</italic> when it is near <italic>b&#x00078;&#x00303;</italic>. Before the current step is applied at time <italic>t</italic> = 0, the system is at rest with <italic>b</italic> = <italic>b</italic>
+<sub>rest</sub>. The subsystem converges immediately to its fixed point on the slow time scale, and the solution to <xref ref-type="disp-formula" rid="pcbi-0030156-e026">Equation 22</xref> is
+<disp-formula id="pcbi-0030156-e027"><graphic xlink:href="pcbi.0030156.e027.jpg" position="anchor" mimetype="image"/></disp-formula>According to Equation 3.13a from [<xref rid="pcbi-0030156-b020" ref-type="bibr">20</xref>], <italic>t</italic>
+<sub>delay</sub> is determined by the equation
+<disp-formula id="pcbi-0030156-e028"><graphic xlink:href="pcbi.0030156.e028.jpg" position="anchor" mimetype="image"/></disp-formula>Near a Hopf bifurcation,
+<disp-formula id="pcbi-0030156-e029"><graphic xlink:href="pcbi.0030156.e029.jpg" position="anchor" mimetype="image"/></disp-formula>where <italic>b</italic>
+<sub>Hopf</sub> is the value of <italic>b</italic> at the Hopf bifurcation and <italic>&#x003b1;</italic> is a constant. Substituting <xref ref-type="disp-formula" rid="pcbi-0030156-e027">Equation 23</xref> in <xref ref-type="disp-formula" rid="pcbi-0030156-e028">Equation 24</xref> and using <xref ref-type="disp-formula" rid="pcbi-0030156-e029">Equation 25</xref>, we obtain
+<disp-formula id="pcbi-0030156-e030"><graphic xlink:href="pcbi.0030156.e030.jpg" position="anchor" mimetype="image"/></disp-formula>Near the threshold current <italic>I</italic>
+<sub>th</sub>, <italic>t</italic>
+<sub>delay</sub> &#x0003e;&#x0003e; &#x003c4;<sub>b</sub>, and <xref ref-type="disp-formula" rid="pcbi-0030156-e030">Equation 26</xref> becomes
+<disp-formula id="pcbi-0030156-e031"><graphic xlink:href="pcbi.0030156.e031.jpg" position="anchor" mimetype="image"/></disp-formula>Generically, when <italic>I</italic>
+<sub>app</sub>&#x02212;<italic>I</italic>
+<sub>th</sub> is small, <italic>b&#x00078;&#x00303;</italic> depends only weakly on <italic>I</italic>
+<sub>app</sub> and <italic>b</italic>
+<sub>Hopf</sub> &#x02212; <italic>b&#x00078;&#x00303;</italic> depends linearly on <italic>I</italic>
+<sub>app</sub>&#x02212;<italic>I</italic>
+<sub>th</sub>. Therefore, <italic>t</italic>
+<sub>delay</sub> scales as (<italic>I</italic>
+<sub>app</sub>&#x02212;<italic>I</italic>
+<sub>th</sub>) <sup>&#x02212;1</sup>.
+</p><p>
+<italic>Saddle-node bifurcation of the fast subsystem.</italic> The dynamics are very slow near the SN bifurcation, occurring at (<italic>b</italic>
+<sub>SN</sub>, <italic>V</italic>
+<sub>SN</sub>). Neglecting the changes in <italic>V</italic>
+<sub>FP</sub> during the evolution, <xref ref-type="disp-formula" rid="pcbi-0030156-e027">Equation 23</xref> becomes
+<disp-formula id="pcbi-0030156-e032"><graphic xlink:href="pcbi.0030156.e032.jpg" position="anchor" mimetype="image"/></disp-formula>where <italic>b</italic>
+<sub>ISN</sub> = <italic>b</italic>
+<sub>&#x0221e;</sub>(<italic>V</italic>
+<sub>SN</sub>). Namely,
+<disp-formula id="pcbi-0030156-e033"><graphic xlink:href="pcbi.0030156.e033.jpg" position="anchor" mimetype="image"/></disp-formula>Generically, when <italic>I</italic>
+<sub>app</sub>&#x02212;<italic>I</italic>
+<sub>th</sub> is small, <italic>b</italic>
+<sub>SN</sub>&#x02212;<italic>b</italic>
+<sub>ISN</sub> depends linearly on <italic>I</italic>
+<sub>app</sub>&#x02212;<italic>I</italic>
+<sub>th</sub>. Therefore, <italic>t</italic>
+<sub>delay</sub> scales as &#x02212;log(<italic>I</italic>
+<sub>app</sub>&#x02212;<italic>I</italic>
+<sub>th</sub>).
+</p></sec><sec id="s4d"><title>Dependence of <italic>t</italic>
+<sub>delay</sub> on <italic>D</italic> for weak noise.</title><p>We calculate the dependence of <italic>t</italic>
+<sub>delay</sub> on the noise variance, <italic>D</italic>, for weak noise and weak window <italic>I</italic>
+<sub>Na</sub>. In this case, the delay ends because the fast subsystem is destabilized via a Hopf bifurcation. According to Theorem 4.1 in [<xref rid="pcbi-0030156-b040" ref-type="bibr">40</xref>], assuming that the variance of the noise, <italic>D</italic>, is neither too large nor too small, <italic>t</italic>
+<sub>delay</sub> is determined by the equation
+<disp-formula id="pcbi-0030156-e034"><graphic xlink:href="pcbi.0030156.e034.jpg" position="anchor" mimetype="image"/></disp-formula>where <italic>A&#x00078;&#x00303;</italic> and <italic>B&#x00078;&#x00303;</italic> are constants. As above, <italic>t</italic>
+<sub>delay</sub> is determined mainly by the slow evolution near <italic>b&#x00078;&#x00303;</italic>, and therefore one can use the approximation <italic>V</italic>
+<sub>FP</sub>(<italic>b</italic>) &#x02248; <italic>V&#x00078;&#x00303;</italic>. Substituting <xref ref-type="disp-formula" rid="pcbi-0030156-e027">Equations 23</xref> and <xref ref-type="disp-formula" rid="pcbi-0030156-e029">25</xref> in <xref ref-type="disp-formula" rid="pcbi-0030156-e034">Equation 30</xref>, we obtain
+<disp-formula id="pcbi-0030156-e035"><graphic xlink:href="pcbi.0030156.e035.jpg" position="anchor" mimetype="image"/></disp-formula>Solving this equation for <italic>t</italic>
+<sub>delay</sub>, in the limit <italic>t</italic>
+<sub>delay</sub> &#x0003e;&#x0003e; <italic>&#x003c4;</italic>
+<sub>b</sub>, we obtain
+<disp-formula id="pcbi-0030156-e036"><graphic xlink:href="pcbi.0030156.e036.jpg" position="anchor" mimetype="image"/></disp-formula>where <inline-formula id="pcbi-0030156-ex003"><inline-graphic xlink:href="pcbi.0030156.ex003.jpg" mimetype="image"/></inline-formula>
+and <inline-formula id="pcbi-0030156-ex004"><inline-graphic xlink:href="pcbi.0030156.ex004.jpg" mimetype="image"/></inline-formula>
+.
+</p></sec><sec id="s4e"><title>The equation <italic>F</italic>(<italic>b</italic>) = b has no solution for large <italic>g</italic>
+<sub>d</sub>.</title><p>We consider the case that, for a certain value of <italic>g</italic>
+<sub>d</sub>, <italic>g</italic>
+<sub>d</sub> = <italic>g</italic>
+<sub>d1</sub>, and a step current with an amplitude <italic>I</italic>
+<sub>app</sub>, there is a solution to the equation <italic>F</italic>(<italic>b</italic>) = <italic>b</italic>. We prove here that for a large enough <italic>g</italic>
+<sub>d</sub>, a solution to this equation does not exist for this value of <italic>I</italic>
+<sub>app</sub>. The function <italic>F</italic>(<italic>b</italic>) is defined only when the limit cycle exists, namely only for <italic>b</italic> &#x02264; <italic>b</italic>
+<sub>SNP</sub>. Since the current <italic>I</italic>
+<sub>d</sub> depends on <italic>g</italic>
+<sub>d</sub> and <italic>b</italic> only through the product <italic>g</italic>
+<sub>d</sub>
+<italic>b</italic> (<xref ref-type="disp-formula" rid="pcbi-0030156-e015">Equation 15</xref>), <italic>b</italic>
+<sub>SNP</sub> for any other value of <italic>g</italic>
+<sub>d</sub> is
+<disp-formula id="pcbi-0030156-e037"><graphic xlink:href="pcbi.0030156.e037.jpg" position="anchor" mimetype="image"/></disp-formula>This means that <italic>b</italic>
+<sub>SNP</sub>(<italic>g</italic>
+<sub>d</sub>) is very small for large <italic>g</italic>
+<sub>d</sub>.
+</p><p>We continue by noticing that: (1) <italic>F</italic>(<italic>b</italic>) is the time-average of the function <italic>b</italic>
+<sub>&#x0221e;</sub>(<italic>V</italic>(<italic>t</italic>)) over LC(<italic>b</italic>) (<xref ref-type="disp-formula" rid="pcbi-0030156-e002">Equation 2</xref>); (2) <italic>b</italic>
+<sub>&#x0221e;</sub>(<italic>V</italic>) is a positive, decreasing function of <italic>V</italic> (<xref ref-type="disp-formula" rid="pcbi-0030156-e019">Equation 19</xref>); and (3) <italic>V</italic> &#x02264; <italic>V</italic>
+<sub>Na</sub>. Therefore, <italic>F</italic>(<italic>b</italic>) &#x02265; <italic>F</italic>(<italic>b</italic>
+<sub>&#x0221e;</sub>(<italic>V</italic>
+<sub>Na</sub>)). From the fact that <italic>b</italic>
+<sub>SNP</sub>(<italic>g</italic>
+<sub>d</sub>) decreases with <italic>g</italic>
+<sub>d</sub> (<xref ref-type="disp-formula" rid="pcbi-0030156-e037">Equation 33</xref>), one finds that, for large enough <italic>g</italic>
+<sub>d</sub>, <italic>F</italic>(<italic>b</italic>
+<sub>&#x0221e;</sub>(<italic>V</italic>
+<sub>Na</sub>)) &#x0003e; <italic>b</italic>
+<sub>SNP</sub>(<italic>g</italic>
+<sub>d</sub>). Since <italic>F</italic>(<italic>b</italic>) is defined only for <italic>b</italic> &#x02264; <italic>b</italic>
+<sub>SNP</sub>(<italic>g</italic>
+<sub>d</sub>), we obtain that <italic>F</italic>(<italic>b</italic>) &#x0003e; <italic>b,</italic> and there is no solution to the equation <italic>F</italic>(<italic>b</italic>) = <italic>b</italic> if <italic>g</italic>
+<sub>d</sub> is large enough. Therefore, the full system cannot exhibit a tonic firing state. If the rest state of the neuron is unstable, the neuron stutters. In practice, <italic>F</italic>(<italic>b</italic>) is much larger than <italic>F</italic>(<italic>b</italic>
+<sub>&#x0221e;</sub>(<italic>V</italic>
+<sub>Na</sub>)) because the membrane potential spends a large fraction of its period in subthreshold values, and therefore <italic>g</italic>
+<sub>d</sub> should not be extremely large to prevent a solution of the equation <italic>F</italic>(<italic>b</italic>) = <italic>b</italic>.</p></sec><sec id="s4f"><title>Whole-cell recordings and analysis.</title><p>Mice (CD1, 21&#x02013;28 d old) were deeply anaesthetized with pentobarbital, decapitated, and their brains quickly removed into cold (5 &#x000b0;C) physiological solution. Coronal cortical slices (400 &#x003bc;m thick) were cut with a vibratome (Campden Instruments, <ext-link ext-link-type="uri" xlink:href="http://www.campdeninstruments.com">http://www.campdeninstruments.com</ext-link>) and then transferred to a holding chamber where they were kept at room temperature for at least 1 h before recording, continuously bubbled with 95% O<sub>2</sub>, 5% CO<sub>2</sub>. Recording was done in a chamber mounted on an upright microscope equipped with IR/DIC optics (Nikon physiostation EC-600), where they were held at 32&#x02013;34 &#x000b0;C and constantly perfused. The normal bathing solution contained (in mM): 124 NaCl, 3.5 KCl, 2 MgSO<sub>4</sub>, 1.25 NaHPO<sub>4</sub>, 2 CaCl<sub>2</sub>, 26 NaHCO<sub>3</sub> and 10 dextrose, and was saturated with 95% O<sub>2</sub>, 5% CO<sub>2</sub> (pH 7.4). Whole-cell recordings were made from neurons in the barrel field. Patch recording micropipettes (4&#x02013;6 M&#x003a9;) were filled with a solution containing (in mM) 125 K gluconate, 5 NaCl, 2 MgCl<sub>2</sub>, 10 EGTA, 10 HEPES, and 2 Na<sub>2</sub>-ATP, pH 7.2, 280 mOsm). Voltages were recorded with a patch clamp amplifier (AxoPatch 2B, Axon Instruments, <ext-link ext-link-type="uri" xlink:href="http://www.axon.com">http://www.axon.com</ext-link>), and digitally sampled at 10 kHz. Data acquisition and analysis were performed with Labview (National Instruments, <ext-link ext-link-type="uri" xlink:href="http://www.ni.com">http://www.ni.com</ext-link>). Series resistance was typically &#x0003c;15 M&#x003a9;. During all recordings, 50 &#x003bc;M DL-2-amino-5-phosphopentanoic acid (AP5, Sigma, <ext-link ext-link-type="uri" xlink:href="http://wwwsigmaaldrich.com">http://wwwsigmaaldrich.com</ext-link>) and 6,7-dinitroquinoxaline-2,3-dione (DNQX; 20 &#x003bc;M, Sigma) were present in the bath to block excitatory transmission.</p><p>
+<italic>Identification of FS neurons.</italic> Non-pyramidal neurons were targeted by their soma and proximal dendrites image under the IR/DIC microscope. Among those, FS neurons were identified according to their electrophysiological properties. A neuron was classified as an FS neuron if: 1) it fired brief spikes with fast, deep, monophasic AHPs [<xref rid="pcbi-0030156-b001" ref-type="bibr">1</xref>]; and 2) the ratio of the spike's rising phase <italic>dV/dt</italic> to falling phase <italic>dV/dt</italic> was smaller than 2. Previous studies revealed that the morphological correlate of FS neurons can be either &#x0201c;basket&#x0201d; [<xref rid="pcbi-0030156-b007" ref-type="bibr">7</xref>] or &#x0201c;neurogliaform&#x0201d; [<xref rid="pcbi-0030156-b024" ref-type="bibr">24</xref>,<xref rid="pcbi-0030156-b054" ref-type="bibr">54</xref>,<xref rid="pcbi-0030156-b055" ref-type="bibr">55</xref>]. Most FS neurons express parvalbumin [<xref rid="pcbi-0030156-b056" ref-type="bibr">56</xref>], but others express somatostatin [<xref rid="pcbi-0030156-b057" ref-type="bibr">57</xref>]. Thus, this type of interneuron may be heterogeneous in terms of its morphology or chemical content, but we did not use these criteria for our classification.</p></sec></sec><sec sec-type="supplementary-material" id="s5"><title>Supporting Information</title><supplementary-material content-type="local-data" id="pcbi-0030156-sg001"><label>Figure S1</label><caption><title>Voltage Traces of the Responses of the Model Neuron to Current Steps</title><p>(A) The neuron does not fire rebound spikes in response to release from hyperpolarizing current steps. Parameters: <italic>&#x003b8;</italic>
+<sub>m</sub> = &#x02212;24 mV, <italic>g</italic>
+<sub>d</sub> = 0.39 mS/cm<sup>2</sup>, <italic>I</italic>
+<sub>app</sub> = 0, <italic>I</italic>
+<sub>app</sub> of the hyperpolarizing current step is &#x02212;8 &#x003bc;A/cm<sup>2</sup>, <italic>V</italic>
+<sub>L</sub> = &#x02212;60 mV.</p><p>(B) The neuron exhibits stuttering without delay for weak window <italic>I</italic>
+<sub>Na</sub> and depolarized V<sub>L</sub>, that is raised to &#x02212;60 mV from the reference parameter set of &#x02212;70 mV. Parameters: <italic>&#x003b8;</italic>
+<sub>m</sub> = &#x02212;24 mV, <italic>g</italic>
+<sub>d</sub> = 1.8 mS/cm<sup>2</sup>, <italic>I</italic>
+<sub>app</sub> = 1.7 &#x003bc;A/cm<sup>2</sup>.</p><p>(68 KB PDF)</p></caption><media xlink:href="pcbi.0030156.sg001.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pcbi-0030156-sg002"><label>Figure S2</label><caption><title>Response of the Model Neuron to Noiseless Current Steps for Modified <italic>&#x003b8;</italic>
+<sub>h</sub> Values</title><p>(A) Parameters: <italic>&#x003b8;</italic>
+<sub>m</sub> = &#x02212;24 mV, <italic>&#x003b8;</italic>
+<sub>h</sub> = &#x02212;54.3 mV, <italic>g</italic>
+<sub>d</sub> = 0.39 mS/cm<sup>2</sup>. Left: voltage trace for <italic>I</italic>
+<sub>app</sub> = 2.38 &#x003bc;A/cm<sup>2</sup>. Right: the steady-state <italic>f</italic>&#x02013;<italic>I</italic>
+<sub>app</sub> curve of the neuron. The average firing frequency goes to zero at firing threshold.</p><p>(B) Parameters: <italic>&#x003b8;</italic>
+<sub>m</sub> = &#x02212;28 mV, <italic>&#x003b8;</italic>
+<sub>h</sub> = &#x02212;62.3 mV, <italic>g</italic>
+<sub>d</sub> = 0.39 mS/cm<sup>2</sup>. Left: voltage trace for <italic>I</italic>
+<sub>app</sub> = 1.95 &#x003bc;A/cm<sup>2</sup>. Right: the steady-state <italic>f</italic>&#x02013;<italic>I</italic>
+<sub>app</sub> curve is discontinuous at the current threshold. The minimal frequency is 23.3 Hz.</p><p>(87 KB PDF)</p></caption><media xlink:href="pcbi.0030156.sg002.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack><p>We thank C. Meunier for careful reading of the manuscript. DH thanks Shaul Drukman and Albert Guidon for stimulating discussions. This research was supported by the Binational US&#x02013;Israel Science Foundation (grant 2003019 to DG) and by the Israeli Science Foundation (grant 311/04 to DG and 269/06 to YA).</p></ack><fn-group><fn id="n102" fn-type="previously-at"><p>A previous version of this article appeared as an Early Online Release on June 20, 2007 (doi:<ext-link ext-link-type="doi" xlink:href="10.1371/journal.pcbi.0030156.eor">10.1371/journal.pcbi.0030156.eor</ext-link>).</p></fn><fn id="ack1" fn-type="con"><p>
+<bold>Author contributions.</bold> DG constructed the model and the theory and analyzed the data. DG and DH formulated the research questions. DG, KD, and LS performed the simulations and the bifurcation calculations. DS and YA performed the experiments. DG, DH, and YA wrote the paper.</p></fn><fn id="ack2" fn-type="financial-disclosure"><p>
+<bold>Funding.</bold> The authors received no specific funding for this study.</p></fn><fn id="ack3" fn-type="COI-statement"><p>
+<bold>Competing interests.</bold> The authors have declared that no competing interests exist.</p></fn></fn-group><glossary><title>Abbreviations</title><def-list><def-item><term>AHP</term><def><p>afterhyperpolarization</p></def></def-item><def-item><term>FS</term><def><p>fast-spiking</p></def></def-item><def-item><term>SN</term><def><p>saddle&#x02013;node</p></def></def-item><def-item><term>SNP</term><def><p>saddle&#x02013;node of periodics</p></def></def-item></def-list></glossary><ref-list><title>References</title><ref id="pcbi-0030156-b001"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McCormick</surname><given-names>DA</given-names></name><name><surname>Connors</surname><given-names>BW</given-names></name><name><surname>Lighthall</surname><given-names>JW</given-names></name><name><surname>Prince</surname><given-names>DA</given-names></name></person-group>
+<year>1985</year>
+<article-title>Comparative electrophysiology of pyramidal and sparsely spiny stellate neurons of the neocortex</article-title>
+<source>J Neurophysiol</source>
+<volume>54</volume>
+<fpage>782</fpage>
+<lpage>806</lpage>
+<pub-id pub-id-type="pmid">2999347</pub-id></element-citation></ref><ref id="pcbi-0030156-b002"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Beierlein</surname><given-names>M</given-names></name><name><surname>Gibson</surname><given-names>JR</given-names></name><name><surname>Connors</surname><given-names>BW</given-names></name></person-group>
+<year>2003</year>
+<article-title>Two dynamically distinct inhibitory networks in layer 4 of the neocortex</article-title>
+<source>J Neurophysiol</source>
+<volume>90</volume>
+<fpage>2987</fpage>
+<lpage>3000</lpage>
+<pub-id pub-id-type="pmid">12815025</pub-id></element-citation></ref><ref id="pcbi-0030156-b003"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Erisir</surname><given-names>A</given-names></name><name><surname>Lau</surname><given-names>D</given-names></name><name><surname>Rudy</surname><given-names>B</given-names></name><name><surname>Leonard</surname><given-names>CS</given-names></name></person-group>
+<year>1999</year>
+<article-title>Function of specific K<sup>+</sup> channels in sustained high-frequency firing of fast-spiking neocortical interneurons</article-title>
+<source>J Neurophysiol</source>
+<volume>82</volume>
+<fpage>2476</fpage>
+<lpage>2489</lpage>
+<pub-id pub-id-type="pmid">10561420</pub-id></element-citation></ref><ref id="pcbi-0030156-b004"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jonas</surname><given-names>P</given-names></name><name><surname>Bischofberger</surname><given-names>J</given-names></name><name><surname>Fricker</surname><given-names>D</given-names></name><name><surname>Miles</surname><given-names>R</given-names></name></person-group>
+<year>2004</year>
+<article-title>Interneuron Diversity series: Fast in, fast out&#x02014;Temporal and spatial signal processing in hippocampal interneurons</article-title>
+<source>Trends Neurosci</source>
+<volume>27</volume>
+<fpage>30</fpage>
+<lpage>40</lpage>
+<pub-id pub-id-type="pmid">14698608</pub-id></element-citation></ref><ref id="pcbi-0030156-b005"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Llin&#x000e1;s</surname><given-names>RR</given-names></name><name><surname>Grace</surname><given-names>AA</given-names></name><name><surname>Yarom</surname><given-names>Y</given-names></name></person-group>
+<year>1991</year>
+<article-title>In vitro neurons in mammalian cortical layer 4 exhibit intrinsic oscillatory activity in the 10- to 50-Hz frequency range</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>88</volume>
+<fpage>897</fpage>
+<lpage>901</lpage>
+<pub-id pub-id-type="pmid">1992481</pub-id></element-citation></ref><ref id="pcbi-0030156-b006"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gupta</surname><given-names>A</given-names></name><name><surname>Wang</surname><given-names>Y</given-names></name><name><surname>Markram</surname><given-names>H</given-names></name></person-group>
+<year>2000</year>
+<article-title>Organizing principles for a diversity of GABAergic interneurons and synapses in the neocortex</article-title>
+<source>Science</source>
+<volume>287</volume>
+<fpage>273</fpage>
+<lpage>278</lpage>
+<pub-id pub-id-type="pmid">10634775</pub-id></element-citation></ref><ref id="pcbi-0030156-b007"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Markram</surname><given-names>H</given-names></name><name><surname>Toledo-Rodriguez</surname><given-names>M</given-names></name><name><surname>Wang</surname><given-names>Y</given-names></name><name><surname>Gupta</surname><given-names>A</given-names></name><name><surname>Silberberg</surname><given-names>G</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Interneurons of the neocortical inhibitory system</article-title>
+<source>Nat Rev Neurosci</source>
+<volume>5</volume>
+<fpage>793</fpage>
+<lpage>807</lpage>
+<pub-id pub-id-type="pmid">15378039</pub-id></element-citation></ref><ref id="pcbi-0030156-b008"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Strogatz</surname><given-names>SH</given-names></name></person-group>
+<year>1994</year>
+<source>Nonlinear dynamics and chaos, with applications to physics, biology, chemistry and engineering</source>
+<publisher-loc>Reading (Massachusetts)</publisher-loc>
+<publisher-name>Addison-Wesley</publisher-name>
+</element-citation></ref><ref id="pcbi-0030156-b009"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Storm</surname><given-names>JF</given-names></name></person-group>
+<year>1988</year>
+<article-title>Temporal integration by a slowly inactivating K<sup>+</sup> current in hippocampal neurons</article-title>
+<source>Nature</source>
+<volume>336</volume>
+<fpage>379</fpage>
+<lpage>381</lpage>
+<pub-id pub-id-type="pmid">3194020</pub-id></element-citation></ref><ref id="pcbi-0030156-b010"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Coetzee</surname><given-names>WA</given-names></name><name><surname>Amarillo</surname><given-names>Y</given-names></name><name><surname>Chiu</surname><given-names>J</given-names></name><name><surname>Chow</surname><given-names>A</given-names></name><name><surname>Lau</surname><given-names>D</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>Molecular diversity of K<sup>+</sup> channels</article-title>
+<source>Ann N Y Acad Sci</source>
+<volume>868</volume>
+<fpage>233</fpage>
+<lpage>285</lpage>
+<pub-id pub-id-type="pmid">10414301</pub-id></element-citation></ref><ref id="pcbi-0030156-b011"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Toledo-Rodriguez</surname><given-names>M</given-names></name><name><surname>Blumenfeld</surname><given-names>B</given-names></name><name><surname>Wu</surname><given-names>C</given-names></name><name><surname>Luo</surname><given-names>J</given-names></name><name><surname>Attali</surname><given-names>B</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Correlation maps allow neuronal electrical properties to be predicted from single-cell gene expression profiles in rat neocortex</article-title>
+<source>Cereb Cortex</source>
+<volume>14</volume>
+<fpage>1310</fpage>
+<lpage>1327</lpage>
+<pub-id pub-id-type="pmid">15192011</pub-id></element-citation></ref><ref id="pcbi-0030156-b012"><element-citation publication-type="other">
+<person-group person-group-type="author"><name><surname>Goldberg</surname><given-names>EM</given-names></name><name><surname>Clark</surname><given-names>BD</given-names></name><name><surname>Rudy</surname><given-names>B</given-names></name></person-group>
+<year>2006</year>
+<article-title>A DTX-sensitive Kv1 current produces delayed firing at near-threshold potentials in fast-spiking GABAergic interneurons of layer 2/3 mouse barrel cortex</article-title>
+<source>Soc Neurosci Abstracts</source>
+<fpage>234.15</fpage>
+</element-citation></ref><ref id="pcbi-0030156-b013"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rush</surname><given-names>ME</given-names></name><name><surname>Rinzel</surname><given-names>J</given-names></name></person-group>
+<year>1995</year>
+<article-title>The potassium A-current, low firing rates and rebound excitation in Hodgkin-Huxley models</article-title>
+<source>Bull Math Biol</source>
+<volume>57</volume>
+<fpage>899</fpage>
+<lpage>929</lpage>
+<pub-id pub-id-type="pmid">8528161</pub-id></element-citation></ref><ref id="pcbi-0030156-b014"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Martina</surname><given-names>M</given-names></name><name><surname>Jonas</surname><given-names>P</given-names></name></person-group>
+<year>1997</year>
+<article-title>Functional differences in Na<sup>+</sup> channel gating between fast-spiking interneurones and principal neurones of rat hippocampus</article-title>
+<source>J Physiol</source>
+<volume>505</volume>
+<fpage>593</fpage>
+<lpage>603</lpage>
+<pub-id pub-id-type="pmid">9457638</pub-id></element-citation></ref><ref id="pcbi-0030156-b015"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mandelblat</surname><given-names>Y</given-names></name><name><surname>Etzion</surname><given-names>Y</given-names></name><name><surname>Grossman</surname><given-names>Y</given-names></name><name><surname>Golomb</surname><given-names>D</given-names></name></person-group>
+<year>2001</year>
+<article-title>Period doubling of calcium spike firing in a model of a Purkinje cell dendrite</article-title>
+<source>J Comput Neurosci</source>
+<volume>11</volume>
+<fpage>43</fpage>
+<lpage>62</lpage>
+<pub-id pub-id-type="pmid">11524577</pub-id></element-citation></ref><ref id="pcbi-0030156-b016"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bertram</surname><given-names>R</given-names></name><name><surname>Butte</surname><given-names>MJ</given-names></name><name><surname>Kiemel</surname><given-names>T</given-names></name><name><surname>Sherman</surname><given-names>A</given-names></name></person-group>
+<year>1995</year>
+<article-title>Topological and phenomenological classification of bursting oscillations</article-title>
+<source>Bull Math Biol</source>
+<volume>57</volume>
+<fpage>413</fpage>
+<lpage>439</lpage>
+<pub-id pub-id-type="pmid">7728115</pub-id></element-citation></ref><ref id="pcbi-0030156-b017"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Izhikevich</surname><given-names>EM</given-names></name></person-group>
+<year>2000</year>
+<article-title>Neural excitability, spiking and bursting</article-title>
+<source>Int J Bifurcation Chaos</source>
+<volume>10</volume>
+<fpage>1171</fpage>
+<lpage>1266</lpage>
+</element-citation></ref><ref id="pcbi-0030156-b018"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Rinzel</surname><given-names>J</given-names></name><name><surname>Ermentrout</surname><given-names>GB</given-names></name></person-group>
+<year>1998</year>
+<article-title>Analysis of neural excitability and oscillations</article-title>
+<person-group person-group-type="editor"><name><surname>Koch</surname><given-names>C</given-names></name><name><surname>Segev</surname><given-names>I</given-names></name></person-group>
+<source>Methods in neuronal modeling: From ions to networks. 2nd edition</source>
+<publisher-loc>Cambridge (Massachusetts)</publisher-loc>
+<publisher-name>MIT Press</publisher-name>
+<fpage>251</fpage>
+<lpage>291</lpage>
+</element-citation></ref><ref id="pcbi-0030156-b019"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Izhikevich</surname><given-names>EM</given-names></name></person-group>
+<year>2007</year>
+<source>Dynamical systems in neuroscience: The geometry of excitability and bursting</source>
+<publisher-loc>Cambridge (Massachusetts)</publisher-loc>
+<publisher-name>MIT Press</publisher-name>
+</element-citation></ref><ref id="pcbi-0030156-b020"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Baer</surname><given-names>SM</given-names></name><name><surname>Erneux</surname><given-names>T</given-names></name><name><surname>Rinzel</surname><given-names>J</given-names></name></person-group>
+<year>1989</year>
+<article-title>The slow passage through a Hopf bifurcation: Delay, memory effects, and resonance</article-title>
+<source>Siam J Appl Math</source>
+<volume>49</volume>
+<fpage>55</fpage>
+<lpage>71</lpage>
+</element-citation></ref><ref id="pcbi-0030156-b021"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Izhikevich</surname><given-names>EM</given-names></name><name><surname>Desai</surname><given-names>NS</given-names></name><name><surname>Walcott</surname><given-names>EC</given-names></name><name><surname>Hoppensteadt</surname><given-names>FC</given-names></name></person-group>
+<year>2003</year>
+<article-title>Bursts as a unit of neural information: Selective communication via resonance</article-title>
+<source>Trends Neurosci</source>
+<volume>26</volume>
+<fpage>161</fpage>
+<lpage>167</lpage>
+<pub-id pub-id-type="pmid">12591219</pub-id></element-citation></ref><ref id="pcbi-0030156-b022"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tateno</surname><given-names>T</given-names></name><name><surname>Harsch</surname><given-names>A</given-names></name><name><surname>Robinson</surname><given-names>HP</given-names></name></person-group>
+<year>2004</year>
+<article-title>Threshold firing frequency&#x02014;Current relationships of neurons in rat somatosensory cortex: Type 1 and type 2 dynamics</article-title>
+<source>J Neurophysiol</source>
+<volume>92</volume>
+<fpage>2283</fpage>
+<lpage>2294</lpage>
+<pub-id pub-id-type="pmid">15381746</pub-id></element-citation></ref><ref id="pcbi-0030156-b023"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Higgs</surname><given-names>MH</given-names></name><name><surname>Slee</surname><given-names>SJ</given-names></name><name><surname>Spain</surname><given-names>WJ</given-names></name></person-group>
+<year>2006</year>
+<article-title>Diversity of gain modulation by noise in neocortical neurons: Regulation by the slow afterhyperpolarization conductance</article-title>
+<source>J Neurosci</source>
+<volume>26</volume>
+<fpage>8787</fpage>
+<lpage>8799</lpage>
+<pub-id pub-id-type="pmid">16928867</pub-id></element-citation></ref><ref id="pcbi-0030156-b024"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Simon</surname><given-names>A</given-names></name><name><surname>Ol&#x000e1;h</surname><given-names>S</given-names></name><name><surname>Moln&#x000e1;r</surname><given-names>G</given-names></name><name><surname>Szabadics</surname><given-names>J</given-names></name><name><surname>Tam&#x000e1;s</surname><given-names>G</given-names></name></person-group>
+<year>2005</year>
+<article-title>Gap-junctional coupling between neurogliaform cells and various interneuron types in the neocortex</article-title>
+<source>J Neurosci</source>
+<volume>25</volume>
+<fpage>6278</fpage>
+<lpage>6285</lpage>
+<pub-id pub-id-type="pmid">16000617</pub-id></element-citation></ref><ref id="pcbi-0030156-b025"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bracci</surname><given-names>E</given-names></name><name><surname>Centonze</surname><given-names>D</given-names></name><name><surname>Bernardi</surname><given-names>G</given-names></name><name><surname>Calabresi</surname><given-names>P</given-names></name></person-group>
+<year>2003</year>
+<article-title>Voltage-dependent membrane potential oscillations of rat striatal fast-spiking interneurons</article-title>
+<source>J Physiol</source>
+<volume>549</volume>
+<fpage>121</fpage>
+<lpage>130</lpage>
+<pub-id pub-id-type="pmid">12665602</pub-id></element-citation></ref><ref id="pcbi-0030156-b026"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Martina</surname><given-names>M</given-names></name><name><surname>Schultz</surname><given-names>JH</given-names></name><name><surname>Ehmke</surname><given-names>H</given-names></name><name><surname>Monyer</surname><given-names>H</given-names></name><name><surname>Jonas</surname><given-names>P</given-names></name></person-group>
+<year>1998</year>
+<article-title>Functional and molecular differences between voltage-gated K<sup>+</sup> channels of fast-spiking interneurons and pyramidal neurons of rat hippocampus</article-title>
+<source>J Neurosci</source>
+<volume>18</volume>
+<fpage>8111</fpage>
+<lpage>8125</lpage>
+<pub-id pub-id-type="pmid">9763458</pub-id></element-citation></ref><ref id="pcbi-0030156-b027"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rudy</surname><given-names>B</given-names></name><name><surname>McBain</surname><given-names>CJ</given-names></name></person-group>
+<year>2001</year>
+<article-title>Kv3 channels: Voltage-gated K<sup>+</sup> channels designed for high-frequency repetitive firing</article-title>
+<source>Trends Neurosci</source>
+<volume>24</volume>
+<fpage>517</fpage>
+<lpage>526</lpage>
+<pub-id pub-id-type="pmid">11506885</pub-id></element-citation></ref><ref id="pcbi-0030156-b028"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mancilla</surname><given-names>JG</given-names></name><name><surname>Lewis</surname><given-names>TJ</given-names></name><name><surname>Pinto</surname><given-names>DJ</given-names></name><name><surname>Rinzel</surname><given-names>J</given-names></name><name><surname>Connors</surname><given-names>BW</given-names></name></person-group>
+<year>2007</year>
+<article-title>Firing dynamics of electrically coupled pair of inhibitory interneurons in neocortex</article-title>
+<source>J Neurosci</source>
+<volume>27</volume>
+<fpage>2058</fpage>
+<lpage>2073</lpage>
+<pub-id pub-id-type="pmid">17314301</pub-id></element-citation></ref><ref id="pcbi-0030156-b029"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ermentrout</surname><given-names>B</given-names></name><name><surname>Pascal</surname><given-names>M</given-names></name><name><surname>Gutkin</surname><given-names>B</given-names></name></person-group>
+<year>2001</year>
+<article-title>The effects of spike frequency adaptation and negative feedback on the synchronization of neural oscillators</article-title>
+<source>Neural Comput</source>
+<volume>13</volume>
+<fpage>1285</fpage>
+<lpage>1310</lpage>
+<pub-id pub-id-type="pmid">11387047</pub-id></element-citation></ref><ref id="pcbi-0030156-b030"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gutkin</surname><given-names>BS</given-names></name><name><surname>Ermentrout</surname><given-names>GB</given-names></name><name><surname>Reyes</surname><given-names>AD</given-names></name></person-group>
+<year>2005</year>
+<article-title>Phase-response curves give the responses of neurons to transient inputs</article-title>
+<source>J Neurophysiol</source>
+<volume>94</volume>
+<fpage>1623</fpage>
+<lpage>1635</lpage>
+<pub-id pub-id-type="pmid">15829595</pub-id></element-citation></ref><ref id="pcbi-0030156-b031"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pfeuty</surname><given-names>B</given-names></name><name><surname>Mato</surname><given-names>G</given-names></name><name><surname>Golomb</surname><given-names>D</given-names></name><name><surname>Hansel</surname><given-names>D</given-names></name></person-group>
+<year>2003</year>
+<article-title>Electrical synapses and synchrony: The role of intrinsic currents</article-title>
+<source>J Neurosci</source>
+<volume>23</volume>
+<fpage>6280</fpage>
+<lpage>6294</lpage>
+<pub-id pub-id-type="pmid">12867513</pub-id></element-citation></ref><ref id="pcbi-0030156-b032"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pfeuty</surname><given-names>B</given-names></name><name><surname>Mato</surname><given-names>G</given-names></name><name><surname>Golomb</surname><given-names>D</given-names></name><name><surname>Hansel</surname><given-names>D</given-names></name></person-group>
+<year>2005</year>
+<article-title>The combined effects of inhibitory and electrical synapses in synchrony</article-title>
+<source>Neural Comput</source>
+<volume>17</volume>
+<fpage>633</fpage>
+<lpage>670</lpage>
+<pub-id pub-id-type="pmid">15802009</pub-id></element-citation></ref><ref id="pcbi-0030156-b033"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tateno</surname><given-names>T</given-names></name><name><surname>Robinson</surname><given-names>HP</given-names></name></person-group>
+<year>2007</year>
+<article-title>Quantifying noise-induced stability of a cortical fast-spiking cell model with Kv3-channel-like current</article-title>
+<source>Biosystems</source>
+<volume>89</volume>
+<fpage>110</fpage>
+<lpage>116</lpage>
+<pub-id pub-id-type="pmid">17433533</pub-id></element-citation></ref><ref id="pcbi-0030156-b034"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ermentrout</surname><given-names>B</given-names></name></person-group>
+<year>1996</year>
+<article-title>Type I membranes, phase resetting curves, and synchrony</article-title>
+<source>Neural Comput</source>
+<volume>8</volume>
+<fpage>979</fpage>
+<lpage>1001</lpage>
+<pub-id pub-id-type="pmid">8697231</pub-id></element-citation></ref><ref id="pcbi-0030156-b035"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Beierlein</surname><given-names>M</given-names></name><name><surname>Gibson</surname><given-names>JR</given-names></name><name><surname>Connors</surname><given-names>BW</given-names></name></person-group>
+<year>2000</year>
+<article-title>A network of electrically coupled interneurons drives synchronized inhibition in neocortex</article-title>
+<source>Nat Neurosci</source>
+<volume>3</volume>
+<fpage>904</fpage>
+<lpage>910</lpage>
+<pub-id pub-id-type="pmid">10966621</pub-id></element-citation></ref><ref id="pcbi-0030156-b036"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Skinner</surname><given-names>FK</given-names></name><name><surname>Zhang</surname><given-names>L</given-names></name><name><surname>Velazquez</surname><given-names>JL</given-names></name><name><surname>Carlen</surname><given-names>PL</given-names></name></person-group>
+<year>1999</year>
+<article-title>Bursting in inhibitory interneuronal networks: A role for gap-junctional coupling</article-title>
+<source>J Neurophysiol</source>
+<volume>81</volume>
+<fpage>1274</fpage>
+<lpage>1283</lpage>
+<pub-id pub-id-type="pmid">10085354</pub-id></element-citation></ref><ref id="pcbi-0030156-b037"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>La Camera</surname><given-names>G</given-names></name><name><surname>Rauch</surname><given-names>A</given-names></name><name><surname>Thurbon</surname><given-names>D</given-names></name><name><surname>L&#x000fc;scher</surname><given-names>HR</given-names></name><name><surname>Senn</surname><given-names>W</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>Multiple time scales of temporal response in pyramidal and fast spiking cortical neurons</article-title>
+<source>J Neurophysiol</source>
+<volume>96</volume>
+<fpage>3448</fpage>
+<lpage>3464</lpage>
+<pub-id pub-id-type="pmid">16807345</pub-id></element-citation></ref><ref id="pcbi-0030156-b038"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tam&#x000e1;s</surname><given-names>G</given-names></name><name><surname>L&#x00151;rincz</surname><given-names>A</given-names></name><name><surname>Simon</surname><given-names>A</given-names></name><name><surname>Szabadics</surname><given-names>J</given-names></name></person-group>
+<year>2003</year>
+<article-title>Identified sources and targets of slow inhibition in the neocortex</article-title>
+<source>Science</source>
+<volume>299</volume>
+<fpage>1902</fpage>
+<lpage>1905</lpage>
+<pub-id pub-id-type="pmid">12649485</pub-id></element-citation></ref><ref id="pcbi-0030156-b039"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Saraga</surname><given-names>F</given-names></name><name><surname>Skinner</surname><given-names>FK</given-names></name></person-group>
+<year>2002</year>
+<article-title>Dynamics and diversity in interneurons: A model exploration with slowly inactivating potassium currents</article-title>
+<source>Neuroscience</source>
+<volume>113</volume>
+<fpage>193</fpage>
+<lpage>203</lpage>
+<pub-id pub-id-type="pmid">12123697</pub-id></element-citation></ref><ref id="pcbi-0030156-b040"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Su</surname><given-names>JZ</given-names></name><name><surname>Rubin</surname><given-names>J</given-names></name><name><surname>Terman</surname><given-names>D</given-names></name></person-group>
+<year>2004</year>
+<article-title>Effects of noise on elliptic bursters</article-title>
+<source>Nonlinearity</source>
+<volume>17</volume>
+<fpage>133</fpage>
+<lpage>157</lpage>
+</element-citation></ref><ref id="pcbi-0030156-b041"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Golowasch</surname><given-names>J</given-names></name><name><surname>Goldman</surname><given-names>MS</given-names></name><name><surname>Abbott</surname><given-names>LF</given-names></name><name><surname>Marder</surname><given-names>E</given-names></name></person-group>
+<year>2002</year>
+<article-title>Failure of averaging in the construction of a conductance-based neuron model</article-title>
+<source>J Neurophysiol</source>
+<volume>87</volume>
+<fpage>1129</fpage>
+<lpage>1131</lpage>
+<pub-id pub-id-type="pmid">11826077</pub-id></element-citation></ref><ref id="pcbi-0030156-b042"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Prinz</surname><given-names>AA</given-names></name><name><surname>Bucher</surname><given-names>D</given-names></name><name><surname>Marder</surname><given-names>E</given-names></name></person-group>
+<year>2004</year>
+<article-title>Similar network activity from disparate circuit parameters</article-title>
+<source>Nat Neurosci</source>
+<volume>7</volume>
+<fpage>1345</fpage>
+<lpage>1352</lpage>
+<pub-id pub-id-type="pmid">15558066</pub-id></element-citation></ref><ref id="pcbi-0030156-b043"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Marder</surname><given-names>E</given-names></name><name><surname>Goaillard</surname><given-names>JM</given-names></name></person-group>
+<year>2006</year>
+<article-title>Variability, compensation and homeostasis in neuron and network function</article-title>
+<source>Nat Rev Neurosci</source>
+<volume>7</volume>
+<fpage>563</fpage>
+<lpage>574</lpage>
+<pub-id pub-id-type="pmid">16791145</pub-id></element-citation></ref><ref id="pcbi-0030156-b044"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gorelova</surname><given-names>N</given-names></name><name><surname>Seamans</surname><given-names>JK</given-names></name><name><surname>Yang</surname><given-names>CR</given-names></name></person-group>
+<year>2002</year>
+<article-title>Mechanisms of dopamine activation of fast-spiking interneurons that exert inhibition in rat prefrontal cortex</article-title>
+<source>J Neurophysiol</source>
+<volume>88</volume>
+<fpage>3150</fpage>
+<lpage>3166</lpage>
+<pub-id pub-id-type="pmid">12466437</pub-id></element-citation></ref><ref id="pcbi-0030156-b045"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kr&#x000f6;ner</surname><given-names>S</given-names></name><name><surname>Krimer</surname><given-names>LS</given-names></name><name><surname>Lewis</surname><given-names>DA</given-names></name><name><surname>Barrionuevo</surname><given-names>G</given-names></name></person-group>
+<year>2007</year>
+<article-title>Dopamine increases inhibition in the monkey dorsolateral prefrontal cortex through cell type-specific modulation of interneurons</article-title>
+<source>Cereb Cortex</source>
+<volume>17</volume>
+<fpage>1020</fpage>
+<lpage>1032</lpage>
+<pub-id pub-id-type="pmid">16772311</pub-id></element-citation></ref><ref id="pcbi-0030156-b046"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Carlier</surname><given-names>E</given-names></name><name><surname>Sourdet</surname><given-names>V</given-names></name><name><surname>Boudkkazi</surname><given-names>S</given-names></name><name><surname>D&#x000e9;glise</surname><given-names>P</given-names></name><name><surname>Ankri</surname><given-names>N</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>Metabotropic glutamate receptor subtype 1 regulates sodium currents in rat neocortical pyramidal neurons</article-title>
+<source>J Physiol</source>
+<volume>577</volume>
+<fpage>141</fpage>
+<lpage>154</lpage>
+<pub-id pub-id-type="pmid">16931548</pub-id></element-citation></ref><ref id="pcbi-0030156-b047"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Carr</surname><given-names>DB</given-names></name><name><surname>Cooper</surname><given-names>DC</given-names></name><name><surname>Ulrich</surname><given-names>SL</given-names></name><name><surname>Spruston</surname><given-names>N</given-names></name><name><surname>Surmeier</surname><given-names>DJ</given-names></name></person-group>
+<year>2002</year>
+<article-title>Serotonin receptor activation inhibits sodium current and dendritic excitability in prefrontal cortex via a protein kinase C-dependent mechanism</article-title>
+<source>J Neurosci</source>
+<volume>22</volume>
+<fpage>6846</fpage>
+<lpage>6855</lpage>
+<pub-id pub-id-type="pmid">12177182</pub-id></element-citation></ref><ref id="pcbi-0030156-b048"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chow</surname><given-names>A</given-names></name><name><surname>Erisir</surname><given-names>A</given-names></name><name><surname>Farb</surname><given-names>C</given-names></name><name><surname>Nadal</surname><given-names>MS</given-names></name><name><surname>Ozaita</surname><given-names>A</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>K<sup>+</sup> channel expression distinguishes subpopulations of parvalbumin- and somatostatin-containing neocortical interneurons</article-title>
+<source>J Neurosci</source>
+<volume>19</volume>
+<fpage>9332</fpage>
+<lpage>9345</lpage>
+<pub-id pub-id-type="pmid">10531438</pub-id></element-citation></ref><ref id="pcbi-0030156-b049"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lien</surname><given-names>CC</given-names></name><name><surname>Jonas</surname><given-names>P</given-names></name></person-group>
+<year>2003</year>
+<article-title>Kv3 potassium conductance is necessary and kinetically optimized for high-frequency action potential generation in hippocampal interneurons</article-title>
+<source>J Neurosci</source>
+<volume>23</volume>
+<fpage>2058</fpage>
+<lpage>2068</lpage>
+<pub-id pub-id-type="pmid">12657664</pub-id></element-citation></ref><ref id="pcbi-0030156-b050"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lien</surname><given-names>CC</given-names></name><name><surname>Martina</surname><given-names>M</given-names></name><name><surname>Schultz</surname><given-names>JH</given-names></name><name><surname>Ehmke</surname><given-names>H</given-names></name><name><surname>Jonas</surname><given-names>P</given-names></name></person-group>
+<year>2002</year>
+<article-title>Gating, modulation and subunit composition of voltage-gated K<sup>+</sup> channels in dendritic inhibitory interneurones of rat hippocampus</article-title>
+<source>J Physiol</source>
+<volume>538</volume>
+<fpage>405</fpage>
+<lpage>419</lpage>
+<pub-id pub-id-type="pmid">11790809</pub-id></element-citation></ref><ref id="pcbi-0030156-b051"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hansel</surname><given-names>D</given-names></name><name><surname>Sompolinsky</surname><given-names>H</given-names></name></person-group>
+<year>1996</year>
+<article-title>Chaos and synchrony in a model of a hypercolumn in visual cortex</article-title>
+<source>J Comput Neurosci</source>
+<volume>3</volume>
+<fpage>7</fpage>
+<lpage>34</lpage>
+<pub-id pub-id-type="pmid">8717487</pub-id></element-citation></ref><ref id="pcbi-0030156-b052"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Golomb</surname><given-names>D</given-names></name><name><surname>Amitai</surname><given-names>Y</given-names></name></person-group>
+<year>1997</year>
+<article-title>Propagating neuronal discharges in neocortical slices: Computational and experimental study</article-title>
+<source>J Neurophysiol</source>
+<volume>78</volume>
+<fpage>1199</fpage>
+<lpage>1211</lpage>
+<pub-id pub-id-type="pmid">9310412</pub-id></element-citation></ref><ref id="pcbi-0030156-b053"><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Ermentrout</surname><given-names>B</given-names></name></person-group>
+<year>2002</year>
+<source>Simulating, analyzing, and animating dynamical systems: A guide to XPPAUT for researchers and students (software, environment, tools)</source>
+<publisher-loc>Philadelphia</publisher-loc>
+<publisher-name>Society for Industrial and Applied Mathematics</publisher-name>
+</element-citation></ref><ref id="pcbi-0030156-b054"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kawaguchi</surname><given-names>Y</given-names></name><name><surname>Kubota</surname><given-names>Y</given-names></name></person-group>
+<year>1997</year>
+<article-title>GABAergic cell subtypes and their synaptic connections in rat frontal cortex</article-title>
+<source>Cereb Cortex</source>
+<volume>7</volume>
+<fpage>476</fpage>
+<lpage>486</lpage>
+<pub-id pub-id-type="pmid">9276173</pub-id></element-citation></ref><ref id="pcbi-0030156-b055"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Povysheva</surname><given-names>NV</given-names></name><name><surname>Zaitsev</surname><given-names>AV</given-names></name><name><surname>Kr&#x000f6;ner</surname><given-names>S</given-names></name><name><surname>Krimer</surname><given-names>OA</given-names></name><name><surname>Rotaru</surname><given-names>DC</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Electrophysiological differences between neurogliaform cells from monkey and rat prefrontal cortex</article-title>
+<source>J Neurophysiol</source>
+<volume>97</volume>
+<fpage>1030</fpage>
+<lpage>1039</lpage>
+<pub-id pub-id-type="pmid">17122314</pub-id></element-citation></ref><ref id="pcbi-0030156-b056"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Amitai</surname><given-names>Y</given-names></name><name><surname>Gibson</surname><given-names>JR</given-names></name><name><surname>Beierlein</surname><given-names>M</given-names></name><name><surname>Patrick</surname><given-names>SL</given-names></name><name><surname>Ho</surname><given-names>AM</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>The spatial dimensions of electrically coupled networks of interneurons in the neocortex</article-title>
+<source>J Neurosci</source>
+<volume>22</volume>
+<fpage>4142</fpage>
+<lpage>4152</lpage>
+<pub-id pub-id-type="pmid">12019332</pub-id></element-citation></ref><ref id="pcbi-0030156-b057"><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ma</surname><given-names>Y</given-names></name><name><surname>Hu</surname><given-names>H</given-names></name><name><surname>Berrebi</surname><given-names>AS</given-names></name><name><surname>Mathers</surname><given-names>PH</given-names></name><name><surname>Agmon</surname><given-names>A</given-names></name></person-group>
+<year>2006</year>
+<article-title>Distinct subtypes of somatostatin-containing neocortical interneurons revealed in transgenic mice</article-title>
+<source>J Neurosci</source>
+<volume>26</volume>
+<fpage>5069</fpage>
+<lpage>5082</lpage>
+<pub-id pub-id-type="pmid">16687498</pub-id></element-citation></ref></ref-list></back></article>

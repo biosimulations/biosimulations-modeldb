@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/240961.omex">
+    <dc:title>Actions of Rotenone on ionic currents and MEPPs in Mouse Hippocampal Neurons (Huang et al 2018) </dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/240961.omex">
+    <dc:abstract>" ... With the aid of patch-clamp technology and simulation modeling,&#13;
+the effects of (Rotenone) Rot on membrane ion currents present in&#13;
+mHippoE-14 cells were investigated. Results: Addition of Rot produced&#13;
+an inhibitory action on the peak amplitude of INa ...; however,&#13;
+neither activation nor inactivation kinetics of INa was changed during&#13;
+cell exposure to this compound. Addition of Rot produced little or no&#13;
+modifications in the steady-state inactivation curve of INa. Rot&#13;
+increased the amplitude of Ca2+-activated Cl- current in response to&#13;
+membrane depolarization ... . Moreover, when these cells were exposed&#13;
+to 10 µM Rot, a specific population of ATP-sensitive K+ channels&#13;
+... was measured, despite its inability to alter single-channel&#13;
+conductance. Under current clamp condition, the frequency of miniature&#13;
+end-plate potentials in mHippoE-14 cells was significantly raised in&#13;
+the presence of Rot (10 µM) with no changes in their amplitude and&#13;
+time course of rise and decay. In simulated model of hippocampal&#13;
+neurons incorporated with chemical autaptic connection, increased&#13;
+autaptic strength to mimic the action of Rot was noted to change the&#13;
+bursting pattern with emergence of subthreshold&#13;
+potentials. Conclusions: The Rot effects presented herein might exert&#13;
+a significant action on functional activities of hippocampal neurons&#13;
+occurring in vivo. "</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Neuron or other electrically excitable cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/240961.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=115946">http://modeldb.science/ModelList?id=115946</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Hippocampus</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/240961.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=259">http://modeldb.science/ModelList?id=259</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>Hippocampus CA3 pyramidal GLU cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/240961.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=247">http://modeldb.science/ModelList?id=247</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>I A</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/240961.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=2396">http://modeldb.science/ModelList?id=2396</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>I Calcium</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/240961.omex">
+    <bqbiol:encodes rdf:resource="local:00005">local:00005</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=253">http://modeldb.science/ModelList?id=253</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>I K,Ca</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/240961.omex">
+    <bqbiol:encodes rdf:resource="local:00006">local:00006</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=242">http://modeldb.science/ModelList?id=242</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>I Na,t</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/240961.omex">
+    <bqbiol:encodes rdf:resource="local:00007">local:00007</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=143445">http://modeldb.science/ModelList?id=143445</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>I_KD</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/240961.omex">
+    <bqbiol:encodes rdf:resource="local:00008">local:00008</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3649">http://modeldb.science/ModelList?id=3649</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>Action Potentials</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/240961.omex">
+    <bqbiol:encodes rdf:resource="local:00009">local:00009</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3630">http://modeldb.science/ModelList?id=3630</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <rdfs:label>Bursting</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/240961.omex">
+    <bqbiol:encodes rdf:resource="local:00010">local:00010</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=183995">http://modeldb.science/ModelList?id=183995</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <rdfs:label>Ephaptic coupling</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/240961.omex">
+    <bqbiol:encodes rdf:resource="local:00011">local:00011</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <dc:identifier rdf:resource="mailto:snwu@mail.ncku.edu.tw">mailto:snwu@mail.ncku.edu.tw</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <rdfs:label>Sheng-Nan Wu</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <foaf:accountName rdf:resource="mailto:snwu@mail.ncku.edu.tw">mailto:snwu@mail.ncku.edu.tw</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <foaf:name>Sheng-Nan Wu</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/240961.omex">
+    <dc:creator rdf:resource="local:00012">local:00012</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <dc:identifier rdf:resource="mailto:snwu@mail.ncku.edu.tw">mailto:snwu@mail.ncku.edu.tw</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <rdfs:label>Dr. Sheng-Nan Wu</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <foaf:accountName rdf:resource="mailto:snwu@mail.ncku.edu.tw">mailto:snwu@mail.ncku.edu.tw</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <foaf:name>Dr. Sheng-Nan Wu</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/240961.omex">
+    <dc:contributor rdf:resource="local:00013">local:00013</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/240961.omex">
+    <dc:contributor rdf:resource="local:00014">local:00014</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/240961.omex">
+    <dc:contributor rdf:resource="local:00015">local:00015</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:240961">https://identifiers.org/modeldb:240961</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <rdfs:label>modeldb:240961</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/240961.omex">
+    <bqmodel:is rdf:resource="local:00016">local:00016</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1159/000489810">http://identifiers.org/doi:10.1159/000489810</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <rdfs:label>Chin-Wei Huang, Kao-Min Lin, Te-Yu Hung, Yao-Chung Chuang &amp; Sheng-Nan Wu. Multiple Actions of Rotenone, an Inhibitor of Mitochondrial Respiratory Chain, on Ionic Currents and Miniature End-Plate Potential in Mouse Hippocampal (mHippoE-14) Neurons. Cellular Physiology and Biochemistry 47, 1: 330-343 (2018).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/240961.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00017">local:00017</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/240961.omex">
+    <dc:created>2018-05-17</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/240961.omex">
+    <dc:modified>2018-05-17</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/229640.omex">
+    <dc:title>Respiratory control model with brainstem CPG and sensory feedback (Diekman, Thomas, and Wilson 2017)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/229640.omex">
+    <dc:abstract>This is a closed-loop respiratory control model incorporating a central pattern generator (CPG), the Butera-Rinzel-Smith (BRS) model, together with lung mechanics, oxygen handling, and chemosensory components. The closed-loop system exhibits bistability of bursting and tonic spiking. Bursting corresponds to coexistence of eupnea-like breathing, with normal minute ventilation and blood oxygen level. Tonic spiking corresponds to a tachypnea-like state, with pathologically reduced minute ventilation and critically low blood oxygen. In our paper, we use the closed-loop system to demonstrate robustness to changes in metabolic demand, spontaneous autoresuscitation in response to hypoxia, and the distinct mechanisms that underlie rhythmogenesis in the intact control circuit vs. the isolated, open-loop CPG.</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Neuron or other electrically excitable cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/229640.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>closed-loop circuit</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/229640.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=183076">http://modeldb.science/ModelList?id=183076</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>Brainstem</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/229640.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=125611">http://modeldb.science/ModelList?id=125611</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>Respiratory column neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/229640.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=232103">http://modeldb.science/ModelList?id=232103</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>PreBotzinger complex neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/229640.omex">
+    <bqbiol:encodes rdf:resource="local:00005">local:00005</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>preBotzinger Complex neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/229640.omex">
+    <bqbiol:encodes rdf:resource="local:00006">local:00006</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=241">http://modeldb.science/ModelList?id=241</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>I Na,p</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/229640.omex">
+    <bqbiol:encodes rdf:resource="local:00007">local:00007</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=242">http://modeldb.science/ModelList?id=242</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>I Na,t</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/229640.omex">
+    <bqbiol:encodes rdf:resource="local:00008">local:00008</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=248">http://modeldb.science/ModelList?id=248</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>I K</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/229640.omex">
+    <bqbiol:encodes rdf:resource="local:00009">local:00009</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=227131">http://modeldb.science/ModelList?id=227131</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <rdfs:label>Pacemaking mechanism</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/229640.omex">
+    <bqbiol:encodes rdf:resource="local:00010">local:00010</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=232102">http://modeldb.science/ModelList?id=232102</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <rdfs:label>Respiratory control</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/229640.omex">
+    <bqbiol:encodes rdf:resource="local:00011">local:00011</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <rdfs:label>respiratory control</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/229640.omex">
+    <bqbiol:encodes rdf:resource="local:00012">local:00012</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <dc:identifier rdf:resource="mailto:casey.o.diekman@njit.edu">mailto:casey.o.diekman@njit.edu</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <rdfs:label>Casey O. Diekman</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <foaf:accountName rdf:resource="mailto:casey.o.diekman@njit.edu">mailto:casey.o.diekman@njit.edu</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <foaf:name>Casey O. Diekman</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/229640.omex">
+    <dc:creator rdf:resource="local:00013">local:00013</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <dc:identifier rdf:resource="mailto:casey.o.diekman@njit.edu">mailto:casey.o.diekman@njit.edu</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <rdfs:label>Casey O. Diekman</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <foaf:accountName rdf:resource="mailto:casey.o.diekman@njit.edu">mailto:casey.o.diekman@njit.edu</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <foaf:name>Casey O. Diekman</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/229640.omex">
+    <dc:contributor rdf:resource="local:00014">local:00014</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/229640.omex">
+    <dc:contributor rdf:resource="local:00015">local:00015</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/229640.omex">
+    <dc:contributor rdf:resource="local:00016">local:00016</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:229640">https://identifiers.org/modeldb:229640</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <rdfs:label>modeldb:229640</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/229640.omex">
+    <bqmodel:is rdf:resource="local:00017">local:00017</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1152/jn.00170.2017">http://identifiers.org/doi:10.1152/jn.00170.2017</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <rdfs:label>Casey O. Diekman, Peter J. Thomas &amp; Christopher G. Wilson. Eupnea, tachypnea, and autoresuscitation in a closed-loop respiratory control model. Journal of Neurophysiology 118, 4: 2194-2215 (2017).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/229640.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00018">local:00018</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/229640.omex">
+    <dc:created>2017-06-20</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/229640.omex">
+    <dc:modified>2017-09-13</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

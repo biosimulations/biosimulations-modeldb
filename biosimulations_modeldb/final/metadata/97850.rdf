@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/97850.omex">
+    <dc:title>Study of augmented Rubin and Terman 2004 deep brain stim. model in Parkinsons (Pascual et al. 2006)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97850.omex">
+    <dc:abstract>" ... The model by Rubin and Terman [31] represents one of the most comprehensive and biologically plausible models of DBS published recently. We examined the validity of the model, replicated its simulations and tested its robustness. While our simulations partially reproduced the results presented by Rubin and Terman [31], several issues were raised including the high complexity of the model in its non simplified form, the lack of robustness of the model with respect to small perturbations, the nonrealistic representation of the thalamus and the absence of time delays. Computational models are indeed necessary, but they may not be sufficient in their current forms to explain the effect of chronic electrical stimulation on the activity of the basal ganglia (BG) network in PD."</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3536">http://modeldb.science/ModelList?id=3536</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Realistic Network</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97850.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=115952">http://modeldb.science/ModelList?id=115952</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Basal ganglia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97850.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=262">http://modeldb.science/ModelList?id=262</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>Thalamus geniculate nucleus/lateral principal GLU cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97850.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=74300">http://modeldb.science/ModelList?id=74300</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>Subthalamus nucleus projection neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97850.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=88217">http://modeldb.science/ModelList?id=88217</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>Globus pallidus neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97850.omex">
+    <bqbiol:encodes rdf:resource="local:00005">local:00005</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=242">http://modeldb.science/ModelList?id=242</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>I Na,t</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97850.omex">
+    <bqbiol:encodes rdf:resource="local:00006">local:00006</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=243">http://modeldb.science/ModelList?id=243</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>I L high threshold</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97850.omex">
+    <bqbiol:encodes rdf:resource="local:00007">local:00007</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=245">http://modeldb.science/ModelList?id=245</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>I T low threshold</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97850.omex">
+    <bqbiol:encodes rdf:resource="local:00008">local:00008</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=248">http://modeldb.science/ModelList?id=248</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>I K</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97850.omex">
+    <bqbiol:encodes rdf:resource="local:00009">local:00009</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=2396">http://modeldb.science/ModelList?id=2396</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <rdfs:label>I Calcium</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97850.omex">
+    <bqbiol:encodes rdf:resource="local:00010">local:00010</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3543">http://modeldb.science/ModelList?id=3543</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <rdfs:label>Activity Patterns</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97850.omex">
+    <bqbiol:encodes rdf:resource="local:00011">local:00011</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=65417">http://modeldb.science/ModelList?id=65417</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <rdfs:label>Parkinson's</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97850.omex">
+    <bqbiol:encodes rdf:resource="local:00012">local:00012</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=116944">http://modeldb.science/ModelList?id=116944</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <rdfs:label>Deep brain stimulation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97850.omex">
+    <bqbiol:encodes rdf:resource="local:00013">local:00013</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97850.omex">
+    <dc:contributor rdf:resource="local:00014">local:00014</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97850.omex">
+    <dc:contributor rdf:resource="local:00015">local:00015</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:97850">https://identifiers.org/modeldb:97850</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <rdfs:label>modeldb:97850</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97850.omex">
+    <bqmodel:is rdf:resource="local:00016">local:00016</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1142/s021963520600132x">http://identifiers.org/doi:10.1142/s021963520600132x</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <rdfs:label>ALEJANDRO PASCUAL, JULIEN MODOLO &amp; ANNE BEUTER. Is a computational model useful to understand the effect of deep brain stimulation in Parkinson's disease? Journal of Integrative Neuroscience 5, 4: 541-559 (2006).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97850.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00017">local:00017</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97850.omex">
+    <dc:created>2007-09-06</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97850.omex">
+    <dc:modified>2017-06-21</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

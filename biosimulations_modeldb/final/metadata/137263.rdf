@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/137263.omex">
+    <dc:title>Effect of trp-like current on APs during exposure to sinusoidal voltage (Chen et al. 2010)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/137263.omex">
+    <dc:abstract>"...&#13;
+Previous work showed that magnetic electrical field-induced antinoceptive action is mediated by activation of capsaicin-sensitive sensory afferents. In this study, a modified Hodgkin-Huxley model, in which TRP-like current (I-TRP) was incorporated, was implemented to predict the firing behavior of action potentials (APs), as the model neuron was exposed to sinusoidal changes in externally-applied voltage. &#13;
+&#13;
+...&#13;
+Our simulation results suggest that modulation of TRP-like channels functionally expressed in small-diameter peripheral sensory neurons should be an important mechanism through which it can contribute to the firing pattern of APs."</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3538">http://modeldb.science/ModelList?id=3538</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Axon</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/137263.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=52426">http://modeldb.science/ModelList?id=52426</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Squid axon</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/137263.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=137264">http://modeldb.science/ModelList?id=137264</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>I trp</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/137263.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>I(trp)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/137263.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3638">http://modeldb.science/ModelList?id=3638</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>Simplified Models</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/137263.omex">
+    <bqbiol:encodes rdf:resource="local:00005">local:00005</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3642">http://modeldb.science/ModelList?id=3642</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>Tutorial/Teaching</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/137263.omex">
+    <bqbiol:encodes rdf:resource="local:00006">local:00006</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3649">http://modeldb.science/ModelList?id=3649</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>Action Potentials</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/137263.omex">
+    <bqbiol:encodes rdf:resource="local:00007">local:00007</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="mailto:snwu@mail.ncku.edu.tw">mailto:snwu@mail.ncku.edu.tw</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>Sheng-Nan Wu</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <foaf:accountName rdf:resource="mailto:snwu@mail.ncku.edu.tw">mailto:snwu@mail.ncku.edu.tw</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <foaf:name>Sheng-Nan Wu</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/137263.omex">
+    <dc:creator rdf:resource="local:00008">local:00008</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/137263.omex">
+    <dc:contributor rdf:resource="local:00009">local:00009</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/137263.omex">
+    <dc:contributor rdf:resource="local:00010">local:00010</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:137263">https://identifiers.org/modeldb:137263</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <rdfs:label>modeldb:137263</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/137263.omex">
+    <bqmodel:is rdf:resource="local:00011">local:00011</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.4077/cjp.2010.amm026">http://identifiers.org/doi:10.4077/cjp.2010.amm026</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <rdfs:label>Chen BS, Lo YC, Lius YC &amp; Wu SN. Effects of transient receptor potential-like current on the firing pattern of action potentials in the Hodgkin-Huxley neuron during exposure to sinusoidal external voltage. The Chinese Journal of Physiology 53, 6: 423-429 (2010).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/137263.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00012">local:00012</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/137263.omex">
+    <dc:created>2011-02-08</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/137263.omex">
+    <dc:modified>2011-02-08</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

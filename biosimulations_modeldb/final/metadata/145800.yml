@@ -1,0 +1,134 @@
+references:
+- label: 'Jae Kyoung Kim & Daniel B Forger. A mechanism for robust circadian timekeeping
+    via stoichiometric balance. Molecular Systems Biology 8: 630 (2012).'
+  uri: http://identifiers.org/doi:10.1038/msb.2012.62
+taxa: []
+thumbnails:
+- caption: <p>Schematic of the detailed mammalian circadian clock model. (<bold>A</bold>)
+    Only some of the relevant species are shown. Circles refer to transcripts and
+    squares are proteins, possibly in complex. Small circles refer to phosphorylation
+    states that are color coded by the kinases that perform the phosphorylation. See
+    section &#8216;Description of the detailed model' in <xref ref-type="supplementary-material"
+    rid="S1">Supplementary information</xref> for details. (<bold>B</bold>) The detailed
+    model consists of a core negative feedback loop and an additional negative feedback
+    loop (the NNF structure). The repressors (PER1&#8211;2 and CRY1&#8211;2) inactivate
+    the activators (BMALs and CLOCK/NPAS2) of their own transcription expression through
+    the core negative feedback loop. The activators inactivate their own transcription
+    expression by inducing the Rev-erbs through the secondary negative feedback loop.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3542529/PMC3542529/msb201262-f1.jpg
+  id: msb201262/f1
+  label: Figure 1
+- caption: <p>Validation of the detailed model. (<bold>A</bold>) Predicted mRNAs time
+    courses in SCN (<xref ref-type="bibr" rid="b67">Ueda et al, 2005</xref>). Time
+    courses were normalized so that the peak value is 1, matching experimental data.
+    (<bold>B</bold>) Predicted protein time courses in SCN (<xref ref-type="bibr"
+    rid="b56">Reppert and Weaver, 2001</xref>). As had been done previously, we normalize
+    the protein time courses so that the maximum is 1 and the minimum is 0. (<bold>C</bold>)
+    Model comparison of the relative abundance of proteins in liver and fibroblast
+    (<xref ref-type="bibr" rid="b39">Lee et al, 2001</xref>, <xref ref-type="bibr"
+    rid="b40">2009</xref>, <xref ref-type="bibr" rid="b41">2011</xref>). All of the
+    values were normalized so that the maximum abundance of the CRY1 protein is 1.
+    For the CKI&#603;/&#948;, CKI&#603; maximal expression is &#8764;22.5% of the
+    maximum abundance of CRY1 in the liver (<xref ref-type="bibr" rid="b39">Lee et
+    al, 2001</xref>) and CKI&#948; is two times more abundant than CKI&#603; in the
+    fibroblast (<xref ref-type="bibr" rid="b40">Lee et al, 2009</xref>). From this,
+    we assumed that total CKI&#603;/&#948; would be &#8764;67.5% of the maximum value
+    of CRY1 in mice liver and fibroblast.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3542529/PMC3542529/msb201262-f2.jpg
+  id: msb201262/f2
+  label: Figure 2
+- caption: <p>Proper stoichiometry between activators and repressors is the key to
+    sustained oscillations. (<bold>A</bold>) Our detailed mathematical model accurately
+    predicts the phenotype of the known mutations in circadian genes (<xref ref-type="table"
+    rid="t1">Table I</xref>). We plot the stoichiometry predicted by our model in
+    these mutants with the relative amplitude of Per1 mRNA rhythms (or Per2 mRNA when
+    considering the <italic>Per1</italic><sup>&#8722;/&#8722;</sup>). Here, an amplitude
+    of zero means rhythms are not sustained. These results indicate that the phenotype
+    of the mutants can be predicted by their effects on stoichiometry. (<bold>B</bold>)
+    The stoichiometry between repressors and activators is changed by constitutively
+    expressing either the Per2 gene or the Bmals and Clock genes at different levels.
+    Note that the model is rhythmic only when the stoichiometry is near 1&#8211;1.
+    The relative amplitude of the Per1 mRNA is measured. (<bold>C</bold>) Schematic
+    of a simplified model based on the Goodwin oscillator. Instead of a Hill-type
+    equation, the sequestration of the activator (<italic>A</italic>) by the repressor
+    (<italic>P</italic>) is used to describe repression of the gene. (<bold>D</bold>)
+    Oscillations are seen around a 1&#8211;1 stoichiometry as the level of activator
+    is changed. The range of the stoichiometry widens as the dissociation constant
+    (<italic>K</italic><sub>d</sub>) decreases or the binding between the activator
+    and the repressor tightens.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3542529/PMC3542529/msb201262-f3.jpg
+  id: msb201262/f3
+  label: Figure 3
+- caption: <p>The NNF structure maintains stoichiometry in balance by active compensation
+    of both repressors and activators. (<bold>A</bold>) A negative or positive feedback
+    controlling the activator is added to the original negative feedback controlling
+    the repressor. (<bold>B</bold>) The relative sensitivity (% change in mean level
+    of stoichiometry per % change in transcription rate of repressor) in the simple
+    models with SNF, NNF and PNF structure were measured over a range of the transcription
+    rates of repressor (see <xref ref-type="supplementary-material" rid="S1">Supplementary
+    Figure 4A</xref>). Then, we calculated the average of relative sensitivity over
+    the range of parameters. On average, the relative sensitivity of the NNF model
+    is about two-fold less sensitive than that of the SNF model, but that of the PNF
+    model is about four-fold more sensitive than that of the SNF model (see <xref
+    ref-type="supplementary-material" rid="S1">Supplementary information</xref> and
+    <xref ref-type="supplementary-material" rid="S1">Supplementary Figure 4A&#8211;C</xref>
+    for details). (<bold>C</bold>) The detailed model matches data from Gene Dose
+    Network Analysis experiments (<xref ref-type="bibr" rid="b1">Baggs et al, 2009</xref>).
+    After the knockout of a repressor gene (here, <italic>Cry1</italic>), the activity
+    of the repressor promoters, controlled by an E-box, increases. This increases
+    the expression of Rev-Erbs and reduces the activity of the activator promoter,
+    controlled by a RORE. An opposite phenotype is seen when an activator (here, <italic>Clock</italic>)
+    is knocked out. The activity of E-box decreases. This decreases the expression
+    of Rev-Erbs and increases the activity of RORE. This active compensation through
+    the NNF structure allows the stoichiometry to be balanced after the repressors
+    or activators knockout. (<bold>D</bold>) The detailed model matches data from
+    <italic>Rev-erbs<sup>&#8722;/&#8722;</sup></italic> (<xref ref-type="bibr" rid="b46">Liu
+    et al, 2008</xref>; <xref ref-type="bibr" rid="b9">Bugge et al, 2012</xref>; <xref
+    ref-type="bibr" rid="b13">Cho et al, 2012</xref>)<italic>. Rev-erb</italic>&#945;<italic><sup>&#8722;/&#8722;</sup></italic>
+    (50% reduction of transcription rate of the <italic>Rev-erbs</italic> due to the
+    presence of Rev-erb&#946;) slightly shortens the period and has little effect
+    on the expression level of <italic>Per2</italic>, <italic>Cry1</italic> and <italic>Bmal1</italic>.
+    Double knockout of the <italic>Rev-erb</italic>&#945; and <italic>Rev-erb</italic>&#946;
+    (100% reduction of transcription rate of the <italic>Rev-erbs</italic>) increases
+    the expression level of <italic>Bmal1</italic> and <italic>Cry1</italic>, but
+    decreases that of <italic>Per2.</italic> All the values were normalized by the
+    average of <italic>Per2</italic> expression level in WT.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3542529/PMC3542529/msb201262-f4.jpg
+  id: msb201262/f4
+  label: Figure 4
+- caption: <p>The NNF structure oscillates over the widest range of parameters. (<bold>A</bold>)
+    The transcription rate of the repressor and the activator are changed from their
+    initial value, and the range of parameters where the rhythms persist is shown.
+    Here, dissociation constant, <italic>K</italic><sub>d</sub>=10<sup>&#8722;5</sup>
+    and clearance rate of activator, &#948;=0.2. When <italic>K</italic><sub>d</sub>
+    is varied, the NNF model still has the widest range of parameters (<xref ref-type="supplementary-material"
+    rid="S1">Supplementary Figure 5C</xref>). When &#948; increases, the range of
+    parameters that generate the sustained rhythms decreases (<xref ref-type="supplementary-material"
+    rid="S1">Supplementary Figure 5D</xref>). (<bold>B</bold>) Repeats the tests with
+    the detailed mammalian model and (<bold>C</bold>) uses a <italic>Drosophila</italic>
+    model. Details about these plots, as well as our methods for generating them are
+    described in <xref ref-type="supplementary-material" rid="S1">Supplementary Figure
+    5A&#8211;C</xref>.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3542529/PMC3542529/msb201262-f5.jpg
+  id: msb201262/f5
+  label: Figure 5
+- caption: <p>A design suitable for the cellular clocks with a fixed period. (<bold>A</bold>)
+    A single-negative feedback loop with an additional fast positive feedback loop,
+    with which activator (<italic>A</italic>) activates itself and degrades quickly.
+    This structure has been identified in various biological oscillators like the
+    cell cycle and pacemaker in the sino-atrial node (<xref ref-type="bibr" rid="b66">Tsai
+    et al, 2008</xref>). (<bold>B</bold>) A single-negative feedback loop with an
+    additional slow negative feedback loop, with which activator (<italic>A</italic>)
+    represses itself and degrades slowly. Circadian clocks in mammals or <italic>Drosophila</italic>
+    have been shown to have this structure (<xref ref-type="supplementary-material"
+    rid="S1">Supplementary Table 4</xref>) (<xref ref-type="bibr" rid="b6">Blau and
+    Young, 1999</xref>; <xref ref-type="bibr" rid="b5">Benito et al, 2007</xref>;
+    <xref ref-type="bibr" rid="b46">Liu et al, 2008</xref>). (<bold>C</bold>, <bold>D</bold>)
+    The period of the NNF is nearly constant for the perturbations in transcription
+    rates while the period of the PNF changes about two-fold. Parameters used are
+    as in <xref ref-type="supplementary-material" rid="S1">Supplementary Figure 5C</xref>.
+    The period is plotted as a color where green refers to the period with the unperturbed
+    parameters.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3542529/PMC3542529/msb201262-f6.jpg
+  id: msb201262/f6
+  label: Figure 6

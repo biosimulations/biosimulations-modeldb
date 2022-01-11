@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/125683.omex">
+    <dc:title>Deterministic chaos in a mathematical model of a snail neuron (Komendantov and Kononenko 1996)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125683.omex">
+    <dc:abstract>"Chaotic regimes in a mathematical model of pacemaker activity in the bursting neurons of a snail Helix pomatia, have been investigated.&#13;
+&#13;
+The model includes a slow-wave generating mechanism, a spike-generating mechanism, an inward Ca current, intracellular Ca ions, [Ca2+]in, their fast buffering and uptake by intracellular Ca stores, and a [Ca2+]in-inhibited Ca current.&#13;
+&#13;
+Chemosensitive voltage-activated conductance, gB*, responsible for termination of the spike burst, and chemosensitive sodium conductance, gNa*, responsible for the depolarization phase of the slow-wave, were used as control parameters.&#13;
+...&#13;
+Time courses of the membrane potential and [Ca2+]in were employed to analyse different regimes in the model. &#13;
+..."</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://identifiers.org/taxonomy:6536">http://identifiers.org/taxonomy:6536</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Helix pomatia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125683.omex">
+    <bqbiol:hasTaxon rdf:resource="local:00001">local:00001</bqbiol:hasTaxon>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Neuron or other electrically excitable cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125683.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=125684">http://modeldb.science/ModelList?id=125684</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>Helix pacemaker bursting neuron (RPa1)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125683.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=242">http://modeldb.science/ModelList?id=242</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>I Na,t</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125683.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=248">http://modeldb.science/ModelList?id=248</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>I K</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125683.omex">
+    <bqbiol:encodes rdf:resource="local:00005">local:00005</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=2396">http://modeldb.science/ModelList?id=2396</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>I Calcium</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125683.omex">
+    <bqbiol:encodes rdf:resource="local:00006">local:00006</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3543">http://modeldb.science/ModelList?id=3543</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>Activity Patterns</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125683.omex">
+    <bqbiol:encodes rdf:resource="local:00007">local:00007</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3630">http://modeldb.science/ModelList?id=3630</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>Bursting</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125683.omex">
+    <bqbiol:encodes rdf:resource="local:00008">local:00008</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=47316">http://modeldb.science/ModelList?id=47316</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>Invertebrate</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125683.omex">
+    <bqbiol:encodes rdf:resource="local:00009">local:00009</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=98012">http://modeldb.science/ModelList?id=98012</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <rdfs:label>Calcium dynamics</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125683.omex">
+    <bqbiol:encodes rdf:resource="local:00010">local:00010</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <dc:identifier rdf:resource="mailto:akomenda@tulane.edu">mailto:akomenda@tulane.edu</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <rdfs:label>Alexander O Komendantov</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <foaf:accountName rdf:resource="mailto:akomenda@tulane.edu">mailto:akomenda@tulane.edu</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <foaf:name>Alexander O Komendantov</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125683.omex">
+    <dc:creator rdf:resource="local:00011">local:00011</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125683.omex">
+    <dc:contributor rdf:resource="local:00012">local:00012</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125683.omex">
+    <dc:contributor rdf:resource="local:00013">local:00013</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:125683">https://identifiers.org/modeldb:125683</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <rdfs:label>modeldb:125683</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125683.omex">
+    <bqmodel:is rdf:resource="local:00014">local:00014</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1006/jtbi.1996.0215">http://identifiers.org/doi:10.1006/jtbi.1996.0215</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <rdfs:label>Alexander O. Komendantov &amp; Nikolai I. Kononenko. Deterministic chaos in mathematical model of pacemaker activity in bursting neurons of snail, Helix pomatia. Journal of Theoretical Biology 183, 2: 219-230 (1996).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125683.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00015">local:00015</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125683.omex">
+    <dc:created>2010-01-15</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125683.omex">
+    <dc:modified>2019-02-26</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

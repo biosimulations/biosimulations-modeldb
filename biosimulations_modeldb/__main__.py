@@ -59,14 +59,6 @@ class PublishController(cement.Controller):
                 ),
             ),
             (
-                ['--max-num-reactions'],
-                dict(
-                    type=int,
-                    default=None,
-                    help='Maximum size model to import. Used for testing.',
-                ),
-            ),
-            (
                 ['--update-combine-archives'],
                 dict(
                     action='store_true',
@@ -107,7 +99,7 @@ class PublishController(cement.Controller):
     def _default(self):
         args = self.app.pargs
 
-        config = get_config(max_models=args.max_models, max_num_reactions=args.max_num_reactions,
+        config = get_config(max_models=args.max_models,
                             update_combine_archives=args.update_combine_archives,
                             update_simulation_runs=args.update_simulation_runs,
                             simulate_models=not args.skip_simulation,

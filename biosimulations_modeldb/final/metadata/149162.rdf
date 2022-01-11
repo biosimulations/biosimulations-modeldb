@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/149162.omex">
+    <dc:title>Rescue of plasticity by a computationally predicted protocol (Liu et al. 2013)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/149162.omex">
+    <dc:abstract>" ... A computational model,&#13;
+which simulated molecular processes underlying long-term&#13;
+synaptic facilitation (LTF) induction, predicted a rescue protocol of five pulses of 5-HT at non-uniform interstimulus&#13;
+intervals that overcame the consequences of reduced CREB-binding protein (CBP) and restored LTF. ..."</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://identifiers.org/taxonomy:6499">http://identifiers.org/taxonomy:6499</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Aplysia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/149162.omex">
+    <bqbiol:hasTaxon rdf:resource="local:00001">local:00001</bqbiol:hasTaxon>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3539">http://modeldb.science/ModelList?id=3539</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Synapse</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/149162.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=52413">http://modeldb.science/ModelList?id=52413</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>Aplysia sensory neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/149162.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=55277">http://modeldb.science/ModelList?id=55277</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>Signaling pathways</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/149162.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="mailto:Yili.Zhang@uth.tmc.edu">mailto:Yili.Zhang@uth.tmc.edu</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>Yili Zhang</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <foaf:accountName rdf:resource="mailto:Yili.Zhang@uth.tmc.edu">mailto:Yili.Zhang@uth.tmc.edu</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <foaf:name>Yili Zhang</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/149162.omex">
+    <dc:creator rdf:resource="local:00005">local:00005</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/149162.omex">
+    <dc:contributor rdf:resource="local:00006">local:00006</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/149162.omex">
+    <dc:contributor rdf:resource="local:00007">local:00007</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:149162">https://identifiers.org/modeldb:149162</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>modeldb:149162</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/149162.omex">
+    <bqmodel:is rdf:resource="local:00008">local:00008</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1523/JNEUROSCI.0643-13.2013">http://identifiers.org/doi:10.1523/JNEUROSCI.0643-13.2013</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>R.-Y. Liu, Y. Zhang, D. A. Baxter, P. Smolen, L. J. Cleary &amp; J. H. Byrne. Deficit in long-term synaptic plasticity is rescued by a computationally predicted stimulus protocol. Journal of Neuroscience 33, 16: 6944-6949 (2013).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/149162.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00009">local:00009</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/149162.omex">
+    <dc:created>2013-04-18</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/149162.omex">
+    <dc:modified>2019-02-26</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

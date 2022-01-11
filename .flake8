@@ -3,3 +3,4 @@ max-line-length = 150
 exclude =
     tests/*
     docs-src/*
+    biosimulations_modeldb/source/models/*

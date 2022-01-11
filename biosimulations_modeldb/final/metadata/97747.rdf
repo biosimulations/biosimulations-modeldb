@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/97747.omex">
+    <dc:title>Fast-spiking cortical interneuron (Golomb et al. 2007)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97747.omex">
+    <dc:abstract>Cortical fast-spiking (FS) interneurons display highly variable electrophysiological properties. We hypothesize that this variability emerges naturally if one assumes a continuous distribution of properties in a small set of active channels. We construct a minimal, single-compartment conductance-based model of FS cells that includes transient Na+, delayed-rectifier K+, and slowly inactivating d-type K+ conductances. The model may display delay to firing. Stuttering (elliptic bursting) and subthreshold oscillations may be observed for small Na+ window current.</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Neuron or other electrically excitable cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97747.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=97753">http://modeldb.science/ModelList?id=97753</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Neocortex fast spiking (FS) interneuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97747.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>Fast-spiking cortical interneuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97747.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=242">http://modeldb.science/ModelList?id=242</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>I Na,t</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97747.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=248">http://modeldb.science/ModelList?id=248</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>I K</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97747.omex">
+    <bqbiol:encodes rdf:resource="local:00005">local:00005</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3277">http://modeldb.science/ModelList?id=3277</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>I A, slow</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97747.omex">
+    <bqbiol:encodes rdf:resource="local:00006">local:00006</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=143445">http://modeldb.science/ModelList?id=143445</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>I_KD</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97747.omex">
+    <bqbiol:encodes rdf:resource="local:00007">local:00007</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3630">http://modeldb.science/ModelList?id=3630</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>Bursting</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97747.omex">
+    <bqbiol:encodes rdf:resource="local:00008">local:00008</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3649">http://modeldb.science/ModelList?id=3649</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>Action Potentials</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97747.omex">
+    <bqbiol:encodes rdf:resource="local:00009">local:00009</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=97751">http://modeldb.science/ModelList?id=97751</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <rdfs:label>Stuttering</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97747.omex">
+    <bqbiol:encodes rdf:resource="local:00010">local:00010</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=97752">http://modeldb.science/ModelList?id=97752</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <rdfs:label>Delay</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97747.omex">
+    <bqbiol:encodes rdf:resource="local:00011">local:00011</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <rdfs:label>Delay, stuttering</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97747.omex">
+    <bqbiol:encodes rdf:resource="local:00012">local:00012</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97747.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/97747.omex/figures/PMC1941757/pcbi.0030156.g001.jpg">http://omex-library.org/97747.omex/figures/PMC1941757/pcbi.0030156.g001.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97747.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/97747.omex/figures/PMC1941757/pcbi.0030156.g002.jpg">http://omex-library.org/97747.omex/figures/PMC1941757/pcbi.0030156.g002.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97747.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/97747.omex/figures/PMC1941757/pcbi.0030156.g003.jpg">http://omex-library.org/97747.omex/figures/PMC1941757/pcbi.0030156.g003.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97747.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/97747.omex/figures/PMC1941757/pcbi.0030156.g004.jpg">http://omex-library.org/97747.omex/figures/PMC1941757/pcbi.0030156.g004.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97747.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/97747.omex/figures/PMC1941757/pcbi.0030156.g005.jpg">http://omex-library.org/97747.omex/figures/PMC1941757/pcbi.0030156.g005.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97747.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/97747.omex/figures/PMC1941757/pcbi.0030156.g006.jpg">http://omex-library.org/97747.omex/figures/PMC1941757/pcbi.0030156.g006.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97747.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/97747.omex/figures/PMC1941757/pcbi.0030156.g007.jpg">http://omex-library.org/97747.omex/figures/PMC1941757/pcbi.0030156.g007.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97747.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/97747.omex/figures/PMC1941757/pcbi.0030156.g008.jpg">http://omex-library.org/97747.omex/figures/PMC1941757/pcbi.0030156.g008.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97747.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/97747.omex/figures/PMC1941757/pcbi.0030156.g009.jpg">http://omex-library.org/97747.omex/figures/PMC1941757/pcbi.0030156.g009.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97747.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/97747.omex/figures/PMC1941757/pcbi.0030156.g010.jpg">http://omex-library.org/97747.omex/figures/PMC1941757/pcbi.0030156.g010.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97747.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/97747.omex/figures/PMC1941757/pcbi.0030156.g011.jpg">http://omex-library.org/97747.omex/figures/PMC1941757/pcbi.0030156.g011.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97747.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/97747.omex/figures/PMC1941757/pcbi.0030156.g012.jpg">http://omex-library.org/97747.omex/figures/PMC1941757/pcbi.0030156.g012.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97747.omex">
+    <dc:contributor rdf:resource="local:00013">local:00013</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97747.omex">
+    <dc:contributor rdf:resource="local:00014">local:00014</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:97747">https://identifiers.org/modeldb:97747</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <rdfs:label>modeldb:97747</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97747.omex">
+    <bqmodel:is rdf:resource="local:00015">local:00015</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1371/journal.pcbi.0030156">http://identifiers.org/doi:10.1371/journal.pcbi.0030156</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <rdfs:label>David Golomb, Karnit Donner, Liron Shacham, Dan Shlosberg, Yael Amitai &amp; David Hansel. Mechanisms of firing patterns in fast-spiking cortical interneurons. PLoS Computational Biology 3, 8: e156 (2007).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97747.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00016">local:00016</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97747.omex">
+    <dc:created>2007-08-31</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/97747.omex">
+    <dc:modified>2015-01-03</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

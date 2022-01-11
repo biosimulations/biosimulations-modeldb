@@ -1,0 +1,206 @@
+references:
+- label: "Niklas H\xFCbel & Markus A. Dahlem. Dynamics from seconds to hours in Hodgkin-Huxley\
+    \ model with time-dependent ion concentrations and buffer reservoirs. PLoS Computational\
+    \ Biology 10, 12: e1003941 (2014)."
+  uri: http://identifiers.org/doi:10.1371/journal.pcbi.1003941
+taxa: []
+thumbnails:
+- caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Neural tissue as a composite system
+    with walls and surroundings.</title><p xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
+    ion&#8211;based model describes a system, comprising extracellular and intracellular
+    compartments separated by a membrane, and the surroundings of the system. The
+    latter provides an energy source and, if the system is not closed, also an ion
+    reservoir.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g001.jpg
+  id: pcbi.1003941/pcbi-1003941-g001
+  label: Figure 1
+- caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Bifurcation diagram.</title><p
+    xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Bifurcation diagram of the reduced
+    model for <inline-formula><inline-graphic xlink:href="pcbi.1003941.e220.jpg"/></inline-formula>
+    as the bifurcation parameter (purely transmembrane dynamics) showing (<bold>a</bold>)
+    the membrane potential of fixed points (FP) and limit cycles (LC), and (<bold>b</bold>)
+    potassium concentrations. The fixed point continuation yields the black curves.
+    Solid sections are fully stable, dashed sections are unstable. The stability of
+    the fixed point changes in HBs and LPs. The initial physiological condition is
+    marked by a black square. The limit cycle is represented by the extremal values
+    of the dynamical variables during one oscillation. The continuation yields the
+    green lines with the same stability convention for solid and dashed sections.
+    The stability of the limit cycle changes either in a LP<inline-formula><inline-graphic
+    xlink:href="pcbi.1003941.e221.jpg"/></inline-formula> or in a period&#8211;doubling
+    bifurcation (PD). In (<bold>b</bold>) the maximal and minimal extracellular potassium
+    concentration of the limit cycle never differs by more than <inline-formula><inline-graphic
+    xlink:href="pcbi.1003941.e222.jpg"/></inline-formula> mM. The values can hence
+    not be distinguished on the scale of this figure and therefore only the maximal
+    value is drawn. The bifurcations are marked by full circles and labelled by the
+    type, i.e., HB, LP or <inline-formula><inline-graphic xlink:href="pcbi.1003941.e223.jpg"/></inline-formula>,
+    and a counter (cf. also the insets with blow&#8211;ups, in particular the rightmost
+    one showing <inline-formula><inline-graphic xlink:href="pcbi.1003941.e224.jpg"/></inline-formula>
+    and <inline-formula><inline-graphic xlink:href="pcbi.1003941.e225.jpg"/></inline-formula>
+    on a very small horizontal scale). The vertical and diagonal arrows labelled &#8216;m&#8217;
+    and &#8216;r&#8217; indicate the direction of extracellular potassium changes
+    due to ion fluxes across the membrane (&#8216;m&#8217;) and changes only due to
+    <inline-formula><inline-graphic xlink:href="pcbi.1003941.e226.jpg"/></inline-formula>,
+    i.e., because of ion exchange with a reservoir (&#8216;r&#8217;). Note that along
+    the horizontal directions only the ICS potassium concentration changes by a precise
+    mixture of fluxes across the membrane and ion exchange with a reservoir.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g002.jpg
+  id: pcbi.1003941/pcbi-1003941-g002
+  label: Figure 2
+- caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Bifurcation diagram.</title><p
+    xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Bifurcation diagram of the model
+    from Kager et al. (cf. last paragraph of Sect. Models). Like in <xref ref-type="fig"
+    rid="pcbi-1003941-g002">Fig. 2</xref> panel (<bold>a</bold>) shows the membrane
+    potential and panel (<bold>b</bold>) shows the extracellular potassium concentration
+    of the invariant sets, i.e., fixed points and limit cycles. The line style convention
+    (solid for stable, dashed for unstable) and bifurcation labels are the same as
+    in <xref ref-type="fig" rid="pcbi-1003941-g002">Fig. 2</xref>. Note the similar
+    shape to <xref ref-type="fig" rid="pcbi-1003941-g002">Fig. 2</xref>, but also
+    the different scale of the two figures.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g003.jpg
+  id: pcbi.1003941/pcbi-1003941-g003
+  label: Figure 3
+- caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Fixed point continuation.</title><p
+    xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Fixed point continuations for a
+    range of impermeant intracellular chloride concentrations <inline-formula><inline-graphic
+    xlink:href="pcbi.1003941.e299.jpg"/></inline-formula> in (<bold>a</bold>), (<bold>b</bold>)
+    the <inline-formula><inline-graphic xlink:href="pcbi.1003941.e300.jpg"/></inline-formula>&#8211;plane
+    and (<bold>c</bold>), (<bold>d</bold>) the <inline-formula><inline-graphic xlink:href="pcbi.1003941.e301.jpg"/></inline-formula>&#8211;plane.
+    The black curves are the stable FES branches that lose their stability in Hopf
+    bifurcations (black circles). Starting from the leftmost fixed point curves the
+    fixed <inline-formula><inline-graphic xlink:href="pcbi.1003941.e302.jpg"/></inline-formula>
+    values are 8, 12, 16, 20, 24, 28 and 32 mM for the reduced model and 9, 13, 17,
+    21, 25, 29 and 33 mM for the detailed model. The Hopf bifurcations for different
+    chloride concentrations lead to the blue Hopf line. As a reference the fixed point
+    curves from <xref ref-type="fig" rid="pcbi-1003941-g002">Figs. 2</xref> and <xref
+    ref-type="fig" rid="pcbi-1003941-g003">3</xref> are also included in the diagram
+    and drawn in grey.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g004.jpg
+  id: pcbi.1003941/pcbi-1003941-g004
+  label: Figure 4
+- caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Time series.</title><p xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Time
+    series for single SD excursions in (<bold>a</bold>), (<bold>c</bold>) the reduced
+    and in (<bold>b</bold>), (<bold>d</bold>) the detailed model. In the reduced model
+    SD is triggered by an interruption of the pump activity for about 10 sec (shaded
+    region). In the detailed model the extracellular potassium concentration is increased
+    by <inline-formula><inline-graphic xlink:href="pcbi.1003941.e305.jpg"/></inline-formula>
+    mM after 20 sec (vertical line). In (<bold>a</bold>) and (<bold>b</bold>) the
+    time series of the membrane potentials (black lines) are shown. Nernst potentials
+    for all ion species are included to the diagrams as a reference. Ion dynamics
+    are shown in (<bold>c</bold>) and (<bold>d</bold>) where extracellular ion concentrations
+    are in lighter color.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g005.jpg
+  id: pcbi.1003941/pcbi-1003941-g005
+  label: Figure 5
+- caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Phase space plots.</title><p xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Phase
+    space plots of the simulations in <xref ref-type="fig" rid="pcbi-1003941-g005">Fig.
+    5</xref>. As in <xref ref-type="fig" rid="pcbi-1003941-g004">Fig. 4</xref> panels
+    (<bold>a</bold>) and (<bold>b</bold>) contain plots of the membrane potentials,
+    in panels (<bold>c</bold>) and (<bold>d</bold>) extracellular potassium is shown.
+    (<bold>a</bold>) and (<bold>c</bold>) are for the reduced model, (<bold>b</bold>)
+    and (<bold>d</bold>) for the detailed model. The trajectories of the reduced model
+    are represented as red curves, those of the detailed model are magenta. The sections
+    of the trajectories that belong to times before and during the stimulation are
+    dashed. The fixed point curves from <xref ref-type="fig" rid="pcbi-1003941-g004">Fig.
+    4</xref> are added on the plots as shaded lines whereas the fixed point continuations
+    for the unbuffered models with dynamical chloride are slightly darker. The pair
+    of arrows in the extracellular potassium plots indicates the direction of pure
+    transmembrane (vertical) and pure buffering dynamics (diagonal).</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g006.jpg
+  id: pcbi.1003941/pcbi-1003941-g006
+  label: Figure 6
+- caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Time series.</title><p xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Time
+    series for three types of oscillatory dynamics in the bath coupled reduced model.
+    In the left panels (<bold>a</bold>), (<bold>c</bold>) and (<bold>e</bold>) the
+    membrane potential and the three Nernst potentials are shown. Ion concentrations
+    are shown in the right panels (<bold>b</bold>), (<bold>d</bold>) and (<bold>f</bold>).
+    The color code is as in <xref ref-type="fig" rid="pcbi-1003941-g005">Fig. 5</xref>.
+    (<bold>a</bold>) and (<bold>b</bold>), (<bold>c</bold>) and (<bold>d</bold>),
+    and (<bold>e</bold>) and (<bold>f</bold>) are simulations for <inline-formula><inline-graphic
+    xlink:href="pcbi.1003941.e321.jpg"/></inline-formula>, <inline-formula><inline-graphic
+    xlink:href="pcbi.1003941.e322.jpg"/></inline-formula> and <inline-formula><inline-graphic
+    xlink:href="pcbi.1003941.e323.jpg"/></inline-formula>, respectively. The dynamics
+    is typical for (<bold>a</bold>) and (<bold>b</bold>) seizure&#8211;like activity,
+    (<bold>c</bold>) and (<bold>d</bold>) tonic firing, (<bold>e</bold>) and (<bold>f</bold>)
+    periodic SD. Note the different time scales of SLA, tonic firing and period SD
+    and also the different oscillation amplitudes in the ionic variables.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g007.jpg
+  id: pcbi.1003941/pcbi-1003941-g007
+  label: Figure 7
+- caption: '<title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Bifurcation diagram.</title><p
+    xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Bifurcation diagram of the bath
+    coupled reduced model for <inline-formula><inline-graphic xlink:href="pcbi.1003941.e332.jpg"/></inline-formula>&#8211;variation.
+    Color and line style conventions for fixed points and limit cycles are <xref ref-type="fig"
+    rid="pcbi-1003941-g002">Figs. 2</xref> and <xref ref-type="fig" rid="pcbi-1003941-g003">3</xref>:
+    black and green lines are fixed point and limit cycles, solid and dashed line
+    styles mean stable and unstable sections. Stable solution on invariant tori are
+    blue. They were obtained by direct simulations. The fixed point changes stability
+    in HBs and LPs. The bifurcation types limit cycle undergoes are <inline-formula><inline-graphic
+    xlink:href="pcbi.1003941.e333.jpg"/></inline-formula>, period&#8211;doubling (PD)
+    and torus bifurcation (TR). Some physiologically irrelevant unstable limit cycles
+    are omitted (cf. text). Panel (<bold>a</bold>) shows the membrane potential, panel
+    (<bold>b</bold>) shows the extracellular potassium concentration. (<bold>b</bold>)
+    does not contain the limit cycle, because it can hardly be distinguished from
+    the fixed point line.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g008.jpg
+  id: pcbi.1003941/pcbi-1003941-g008
+  label: Figure 8
+- caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Bifurcation diagram.</title><p
+    xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Different representations of the
+    bifurcation diagram of <xref ref-type="fig" rid="pcbi-1003941-g008">Fig. 8</xref>.
+    Panel (<bold>a</bold>) shows the extracellular sodium concentration and includes
+    an inset around TR4 and PD. Panel (<bold>b</bold>) presents the potassium gain/loss.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g009.jpg
+  id: pcbi.1003941/pcbi-1003941-g009
+  label: Figure 9
+- caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Phase space plots.</title><p xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Phase
+    space plots of the simulations (<bold>a</bold>) for SLA and (<bold>b</bold>) periodic
+    SDs from <xref ref-type="fig" rid="pcbi-1003941-g007">Fig. 7</xref>. Only extracellular
+    potassium is shown. The limit cycle and fixed point curves from <xref ref-type="fig"
+    rid="pcbi-1003941-g002">Figs. 2</xref> and <xref ref-type="fig" rid="pcbi-1003941-g004">4</xref>
+    are superimposed to the plots as shaded lines whereas the limit cycle and fixed
+    point from <xref ref-type="fig" rid="pcbi-1003941-g002">Fig. 2</xref> (dynamical
+    chloride) are darker. The limit cycle and fixed point are not graphically distinguished,
+    but comparison with <xref ref-type="fig" rid="pcbi-1003941-g002">Fig. 2</xref>
+    should avoid confusion.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g010.jpg
+  id: pcbi.1003941/pcbi-1003941-g010
+  label: Figure 10
+- caption: '<title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Bifurcation diagram.</title><p
+    xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Fundamental bifurcation diagram
+    in the slowest&#8211;scale dynamics, the potassium ion gain or loss through reservoirs
+    (i.e., the bifurcation parameter). The unit of the bifurcation parameter was chosen
+    such that it denotes the ion concentration with respect to the extracellular volume.
+    The actual extracellular potassium concentration is the order parameter. Shown
+    are the stable branches <inline-formula><inline-graphic xlink:href="pcbi.1003941.e365.jpg"/></inline-formula>
+    and <inline-formula><inline-graphic xlink:href="pcbi.1003941.e366.jpg"/></inline-formula>
+    (see Sec. <xref ref-type="sec" rid="s3">Results</xref>) and the directions (arrows)
+    of two paths of &#8216;pure&#8217; flux condition: fluxes exclusively across the
+    membrane and fluxes exclusively from (or to) reservoirs. A horizontal path is
+    caused by a particular mixture of these fluxes that induces potassium ion concentration
+    changes exclusively to the intracellular compartment. Ionic excitability can be
+    understood as a cyclic process in this diagram (see text).</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g011.jpg
+  id: pcbi.1003941/pcbi-1003941-g011
+  label: Figure 11

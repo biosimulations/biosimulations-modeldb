@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/116867.omex">
+    <dc:title>High frequency stimulation of the Subthalamic Nucleus (Rubin and Terman 2004)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116867.omex">
+    <dc:abstract>" ... Using a computational model, this paper considers the hypothesis that DBS works by replacing pathologically rhythmic&#13;
+basal ganglia output with tonic, high frequency firing.&#13;
+&#13;
+In our simulations of parkinsonian conditions, rhythmic inhibition from GPi to the thalamus compromises the ability of thalamocortical relay (TC) cells to respond to depolarizing inputs, such as sensorimotor signals.&#13;
+&#13;
+High frequency stimulation of STN regularizes GPi firing, and this restores TC responsiveness, despite the increased frequency and amplitude of GPi inhibition to thalamus that result.&#13;
+&#13;
+We provide a mathematical phase plane analysis of the mechanisms that determine TC relay capabilities in&#13;
+normal, parkinsonian, and DBS states in a reduced model.&#13;
+&#13;
+This analysis highlights the differences in deinactivation of the low-threshold calcium T -current that we observe in TC cells in these different conditions. ..."&#13;
+</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3536">http://modeldb.science/ModelList?id=3536</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Realistic Network</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116867.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Neuron or other electrically excitable cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116867.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=115951">http://modeldb.science/ModelList?id=115951</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>Thalamus</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116867.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=115952">http://modeldb.science/ModelList?id=115952</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>Basal ganglia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116867.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=116868">http://modeldb.science/ModelList?id=116868</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>Subthalamic Nucleus</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116867.omex">
+    <bqbiol:encodes rdf:resource="local:00005">local:00005</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=262">http://modeldb.science/ModelList?id=262</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>Thalamus geniculate nucleus/lateral principal GLU cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116867.omex">
+    <bqbiol:encodes rdf:resource="local:00006">local:00006</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=74300">http://modeldb.science/ModelList?id=74300</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>Subthalamus nucleus projection neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116867.omex">
+    <bqbiol:encodes rdf:resource="local:00007">local:00007</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=88217">http://modeldb.science/ModelList?id=88217</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>Globus pallidus neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116867.omex">
+    <bqbiol:encodes rdf:resource="local:00008">local:00008</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=242">http://modeldb.science/ModelList?id=242</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>I Na,t</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116867.omex">
+    <bqbiol:encodes rdf:resource="local:00009">local:00009</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=245">http://modeldb.science/ModelList?id=245</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <rdfs:label>I T low threshold</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116867.omex">
+    <bqbiol:encodes rdf:resource="local:00010">local:00010</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=248">http://modeldb.science/ModelList?id=248</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <rdfs:label>I K</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116867.omex">
+    <bqbiol:encodes rdf:resource="local:00011">local:00011</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=2396">http://modeldb.science/ModelList?id=2396</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <rdfs:label>I Calcium</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116867.omex">
+    <bqbiol:encodes rdf:resource="local:00012">local:00012</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3543">http://modeldb.science/ModelList?id=3543</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <rdfs:label>Activity Patterns</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116867.omex">
+    <bqbiol:encodes rdf:resource="local:00013">local:00013</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=65417">http://modeldb.science/ModelList?id=65417</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <rdfs:label>Parkinson's</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116867.omex">
+    <bqbiol:encodes rdf:resource="local:00014">local:00014</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=116944">http://modeldb.science/ModelList?id=116944</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <rdfs:label>Deep brain stimulation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116867.omex">
+    <bqbiol:encodes rdf:resource="local:00015">local:00015</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116867.omex">
+    <dc:contributor rdf:resource="local:00016">local:00016</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116867.omex">
+    <dc:contributor rdf:resource="local:00017">local:00017</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:116867">https://identifiers.org/modeldb:116867</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <rdfs:label>modeldb:116867</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116867.omex">
+    <bqmodel:is rdf:resource="local:00018">local:00018</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00019">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1023/B:JCNS.0000025686.47117.67">http://identifiers.org/doi:10.1023/B:JCNS.0000025686.47117.67</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00019">
+    <rdfs:label>Jonathan E. Rubin &amp; David Terman. High frequency stimulation of the subthalamic nucleus eliminates pathological thalamic rhythmicity in a computational model. Journal of Computational Neuroscience 16, 3: 211-235 (2004).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116867.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00019">local:00019</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116867.omex">
+    <dc:created>2009-01-16</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116867.omex">
+    <dc:modified>2009-01-20</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

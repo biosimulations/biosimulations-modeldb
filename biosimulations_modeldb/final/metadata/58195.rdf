@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <dc:title>Allosteric gating of K channels (Horrigan et al 1999)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <dc:abstract>Calcium sensitive large-conductance K channel conductance is controlled by both cytoplasmic calcium and membrane potential.&#13;
+Experimental data obtained by the inside out patch method can be understood in terms of a gating scheme where a central transition between a closed and an open conformation is allosterically regulated by the state of four independent and identical voltage sensors.  See paper for more and details.</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3540">http://modeldb.science/ModelList?id=3540</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Channel/Receptor</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=253">http://modeldb.science/ModelList?id=253</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>I K,Ca</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3631">http://modeldb.science/ModelList?id=3631</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>Ion Channel Kinetics</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=49304">http://modeldb.science/ModelList?id=49304</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>Methods</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <bqbiol:encodes rdf:resource="local:00005">local:00005</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.s1.jpg">http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.s1.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.s2.jpg">http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.s2.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.s3.jpg">http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.s3.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.s4.jpg">http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.s4.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.s5.jpg">http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.s5.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.s6.jpg">http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.s6.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.s7.jpg">http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.s7.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.s8.jpg">http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.s8.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.s9.jpg">http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.s9.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.f1.jpg">http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.f1.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.f2.jpg">http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.f2.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.f3.jpg">http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.f3.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.f4.jpg">http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.f4.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.f5.jpg">http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.f5.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.f6.jpg">http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.f6.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.f11.jpg">http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.f11.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.f7.jpg">http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.f7.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.f8.jpg">http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.f8.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.f9.jpg">http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.f9.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.f10.jpg">http://omex-library.org/58195.omex/figures/PMC2230643/JGP7962.f10.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="mailto:snwu@mail.ncku.edu.tw">mailto:snwu@mail.ncku.edu.tw</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>Sheng-Nan Wu</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <foaf:accountName rdf:resource="mailto:snwu@mail.ncku.edu.tw">mailto:snwu@mail.ncku.edu.tw</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <foaf:name>Sheng-Nan Wu</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <dc:creator rdf:resource="local:00006">local:00006</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>Han-Dong Chang</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <foaf:name>Han-Dong Chang</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <dc:creator rdf:resource="local:00007">local:00007</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="mailto:coolneon@gmail.com">mailto:coolneon@gmail.com</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>Jiun-Shian Wu</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <foaf:accountName rdf:resource="mailto:coolneon@gmail.com">mailto:coolneon@gmail.com</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <foaf:name>Jiun-Shian Wu</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <dc:creator rdf:resource="local:00008">local:00008</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <dc:contributor rdf:resource="local:00009">local:00009</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <dc:contributor rdf:resource="local:00010">local:00010</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:58195">https://identifiers.org/modeldb:58195</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <rdfs:label>modeldb:58195</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <bqmodel:is rdf:resource="local:00011">local:00011</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1085/jgp.114.2.277">http://identifiers.org/doi:10.1085/jgp.114.2.277</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <rdfs:label>Frank T. Horrigan, Jianmin Cui &amp; Richard W. Aldrich. Allosteric voltage gating of potassium channels I. Mslo ionic currents in the absence of Ca(2+). Journal of General Physiology 114, 2: 277-304 (1999).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00012">local:00012</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <dc:created>2005-10-30</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/58195.omex">
+    <dc:modified>2015-07-26</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

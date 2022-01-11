@@ -1,0 +1,456 @@
+references:
+- label: 'Michael Graupner & Nicolas Brunel. STDP in a bistable synapse model based
+    on CaMKII and associated signaling pathways. PLoS Computational Biology 3, 11:
+    e221 (2007).'
+  uri: http://identifiers.org/doi:10.1371/journal.pcbi.0030221
+taxa: []
+thumbnails:
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Schematic
+    Representation of Calmodulin Binding to a CaMKII Subunit, Intersubunit Phosphorylation
+    Steps, and the Protein Signaling Cascade</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(A&#8211;E) Show calcium/calmodulin
+    binding and phosphorylation reactions of a ring of six functionally coupled subunits
+    of the CaMKII holoenzyme. A gray subunit stands for dephosphorylated and a green
+    subunit surrounded by a dotted line for phosphorylated. (A,B) The calcium/calmodulin
+    complex&#8212;C, blue circle&#8212;can bind to a dephosphorylated (A) or a phosphorylated
+    subunit (B) with dissociation constants <italic>K</italic>
+
+    <sub>5</sub> = <italic>k</italic>
+
+    <sub>&#8722;5</sub> / <italic>k</italic>
+
+    <sub>5</sub> or <italic>K</italic>
+
+    <sub>9</sub> = <italic>k</italic>
+
+    <sub>&#8722;9</sub> / <italic>k</italic>
+
+    <sub>9</sub>, respectively. Note that the calmodulin binding (A,B) and the autophosphorylation
+    steps (shown in C&#8211;E) are assumed to take place independently of the phosphorylation
+    state of other subunits in the ring (here depicted as dephosphorylated, i.e<italic>.</italic>,
+    in gray). Subunits shown in dotted gray can be either dephosphorylated or phosphorylated.</p><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(C&#8211;E)
+    The three possible intersubunit phosphorylation steps: in all three cases, the
+    catalytic subunit and the substrate subunit are labeled with cat. and sub., respectively.
+    Unlabeled subunits are depicted as dephosphorylated, but the three phosphorylation
+    steps are assumed to proceed independently of their phosphorylation state.</p><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(C)
+    Initiation step: calmodulin has to bind to the two interacting subunits, i.e.,
+    to the substrate and the catalyst, in order to phosphorylate the substrate subunit
+    at Thr<sup>286</sup> (shown in green and surrounded by a dotted line).</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(D) Calmodulin is bound to the
+    phosphorylated catalyst and the subunit to be phosphorylated.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(E) The phosphorylated subunit
+    stays active as catalyst after calmodulin dissociation and phosphorylates the
+    substrate subunit bound with calmodulin. <italic>k</italic>
+
+    <sub>6</sub>, <italic>k</italic>
+
+    <sub>7</sub>, and <italic>k</italic>
+
+    <sub>8</sub> denote the respective autophosphorylation rates of the three steps
+    described above.</p><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(F)
+    Protein signaling cascade governing PP1 activity. Interactions shown with a circle
+    at the end of a line indicate stimulation&#8212;whereas lines ending with a bar
+    stand for inhibition of target activity. Calcium/calmodulin&#8212;C, blue circle&#8212;directly
+    phosphorylates CaMKII (blue line). Furthermore, the dephosphorylation of CaMKII
+    by protein phosphatase 1 (PP1) is indirectly controlled by calcium/calmodulin
+    via a protein signaling cascade (red lines). Calcium/calmodulin-directed phosphorylation
+    of inhibitor 1 via cyclic-AMP and PKA increases CaMKII activity by inhibiting
+    PP1. This CaMKII stimulating pathway is depicted in red dashed lines. On the contrary,
+    activation of calcineurin activates PP1 by dephosphorylating inhibitor 1, which
+    in turn leads to increased CaMKII dephosphorylation. This pathway, shown in red
+    dotted lines, decreases CaMKII activity.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2098851/PMC2098851/pcbi.0030221.g001.jpg
+  id: pcbi.0030221/pcbi-0030221-g001
+  label: Figure 1
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">CaMKII
+    Bistability Properties with Constant PP1 Activity</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(A) Bistability of the steady-state
+    concentration of phosphorylated CaMKII subunits as a function of calcium concentration,
+    for various numbers of subunits: the steady-state concentration of phosphorylated
+    CaMKII subunits, <italic>S</italic>
+
+    <sub>active</sub>, is shown for different numbers of subunits in an interacting
+    cluster (subunit number indicated). Dashed thin lines characterize unstable steady-states
+    and full lines show stable steady-states. The left-hand calcium boundary of the
+    bistable region for the six-subunit model is indicated by the diamond and the
+    right-hand boundary by the circle. In all cases, the total concentration of subunits
+    is 200 &#956;M, i.e., <italic>CaMKII</italic>
+
+    <sub>0</sub> = 50 &#956;M for the two-subunit case, <italic>CaMKII</italic>
+
+    <sub>0</sub> = 25 &#956;M for the four-subunit case, <italic>CaMKII</italic>
+
+    <sub>0</sub> = 16.67 &#956;M for the six-subunit, and <italic>CaMKII</italic>
+
+    <sub>0</sub> = 12.5 &#956;M for the eight-subunit case. The total level of calmodulin,
+    <italic>CaM</italic>
+
+    <sub>0</sub>, is 0.1 &#956;M for all cases. The vertical full line shows the position
+    of the calcium resting concentration in (A) and (B). The PP1 activity is kept
+    constant at (<italic>k</italic>
+
+    <sub>12</sub> &#183; <italic>D</italic>) = 6.648 &#956;M/s.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(B) Boundaries of the bistable
+    region in the PP1 activity&#8212;calcium concentration plane for different levels
+    of calmodulin with the six-subunit model: lines of any given color depict the
+    location of the left-hand (upper line) and the right-hand (lower line) boundaries
+    of the bistable region with respect to the PP1 activity. Shaded areas between
+    both boundaries mark the regions of bistability in the PP1 activity&#8212;calcium
+    plane. Different colors correspond to different levels of calmodulin as indicated
+    in the panel. The diamond illustrates the position with respect to calcium of
+    the left-hand boundary (<italic>Ca</italic> = 0.091 &#956;M) and the circle of
+    the right-hand boundary (<italic>Ca</italic> = 0.129 &#956;M) of the bistable
+    region for parameters as for the six-subunit case in (A) (<italic>CaM</italic>
+
+    <sub>0</sub> = 0.1 &#956;M, (<italic>k</italic>
+
+    <sub>12</sub>&#183;<italic>D</italic>) = 6.648 &#956;M/s). See <xref ref-type="table"
+    rid="pcbi-0030221-t001">Table 1</xref> for other parameters.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2098851/PMC2098851/pcbi.0030221.g002.jpg
+  id: pcbi.0030221/pcbi-0030221-g002
+  label: Figure 2
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Ca<sup>2+</sup>-Dependent
+    PP1 Activity via Protein Signaling Cascade and Phosphorylated CaMKII Subunit Concentration
+    Steady-States</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(A)
+    Phosphorylation and dephosphorylation rate of inhibitor 1 as functions of the
+    calcium concentration: the red line shows the calcineurin activity dephosphorylating
+    inhibitor 1, <italic>v</italic>
+
+    <sub>CaN</sub>(<italic>C</italic>), as a function of calcium, and the blue line
+    shows the PKA activity leading to phosphorylation of I1, <italic>v</italic>
+
+    <sub>PKA</sub>(<italic>C</italic>). Both rates are given by <xref ref-type="disp-formula"
+    rid="pcbi-0030221-e009">Equation 9</xref>, in which the calcium/calmodulin complex
+    concentration, <italic>C</italic>, is in equilibrium with the present calcium
+    concentration. The total calmodulin concentration is Ca<italic>M</italic>
+
+    <sub>0</sub> = 0.1 &#956;M. The vertical thin full line depicts the position of
+    the calcium resting concentration in all panels.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(B) Bistable region, PP1 activity,
+    and I1P steady-state concentration in the PP1&#8211;Ca<sup>2+</sup> plane: the
+    full lines correspond to a total CaMKII concentration of <italic>CaMKII</italic>
+
+    <sub>0</sub> = 16.67 &#956;M, whereas dashed lines correspond to <italic>CaMKII</italic>
+
+    <sub>0</sub> = 8.33 &#956;M. The full red lines mark the positions of the left-hand
+    (line above) and right-hand (line below) boundaries of the bistable region (red
+    shaded region between both lines) with respect to the PP1 activity for <italic>CaM</italic>
+
+    <sub>0</sub> = 0.1 &#956;M. The purple and the green full lines show the calcium-dependent
+    steady-state of the PP1 activity, (<italic>k</italic>
+
+    <sub>12</sub> &#183; <italic>D</italic>), and I1P concentration, <italic>I</italic>,
+    respectively, given by the rates shown in (A). The numbered points 1, 2, 3, and
+    4 at the intersections of the PP1 steady-state with the full red lines give the
+    locations of the boundaries (saddle-node bifurcation points) of the bistable regions.
+    The dashed red and purple lines depict the boundaries of the bistable region and
+    the steady-state PP1 activity, respectively, for the case <italic>CaMKII</italic>
+
+    <sub>0</sub> = 8.33 &#956;M (see text).</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(C) Steady-states of the phosphorylated
+    CaMKII subunit concentration (<italic>S</italic>
+
+    <sub>active</sub>) as a function of calcium: full lines characterize stable steady-states
+    whereas dashed lines mark unstable steady-states. Steady-states for <italic>CaMKII</italic>
+
+    <sub>0</sub> = 16.67 &#956;M are shown in blue and for <italic>CaMKII</italic>
+
+    <sub>0</sub> = 8.33 &#956;M in green. Red shaded areas depict regions of bistability
+    for the <italic>CaMKII</italic>
+
+    <sub>0</sub> = 16.67 &#956;M case, i.e., three steady-states (two stable and one
+    unstable steady-state) exist for a given calcium concentration. Bifurcation points
+    are numbered as in (B). The cross (diamond) marks the position of the UP (DOWN)
+    state at resting calcium concentration for the <italic>CaMKII</italic>
+
+    <sub>0</sub> = 16.67 &#956;M case (see <xref ref-type="table" rid="pcbi-0030221-t001">Table
+    1</xref> and text for parameters, <italic>k</italic>
+
+    <sub>CaN</sub> = 18 1/s).</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2098851/PMC2098851/pcbi.0030221.g003.jpg
+  id: pcbi.0030221/pcbi-0030221-g003
+  label: Figure 3
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Calcium
+    Dynamics Evoked by a Pair of a Presynaptic and a Postsynaptic Spike Occurring
+    at Different Time Lags, &#916;<italic>t</italic>
+
+    </title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Temporal
+    evolution of the intracellular calcium concentration generated by the model in
+    response to a presynaptic spike at <italic>t</italic>
+
+    <sub>pre</sub> = 200 ms and an additional postsynaptic spike at <italic>t</italic>
+
+    <sub>post</sub> = <italic>t</italic>
+
+    <sub>pre</sub> + &#916;<italic>t</italic>, where &#916;<italic>t</italic> is indicated
+    at the corresponding curve in ms. The calcium amplitudes of the isolated presynaptic
+    (&#916;<italic>Ca</italic>
+
+    <sub>pre</sub> = 0.17 &#956;M) and postsynaptic (&#916;<italic>Ca</italic>
+
+    <sub>pre</sub> = 0.34 &#956;M) responses are indicated in the panel. See <xref
+    ref-type="table" rid="pcbi-0030221-t002">Table 2</xref> for parameters.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2098851/PMC2098851/pcbi.0030221.g004.jpg
+  id: pcbi.0030221/pcbi-0030221-g004
+  label: Figure 4
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Time
+    Course of Calcium, PP1 Activity, and Phosphorylated CaMKII Subunit Concentration
+    During STDP Stimulation Protocols with <sc>&#916;</sc>
+
+    <italic>t</italic> = &#8722;50, &#8722;10, 15, and 100 ms</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(A,C,E) Show the dynamics during
+    STDP stimulation protocols with <sc>&#916;</sc>
+
+    <italic>t</italic> = 15 ms (red lines) and <sc>&#916;</sc>
+
+    <italic>t</italic> = 100 ms (green lines), with the system initially in the DOWN
+    state.</p><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(B,D,F)
+    The CaMKII system is initially in the UP state and is subjected to stimulation
+    protocols with <sc>&#916;</sc>
+
+    <italic>t</italic> = &#8722;50 ms (blue lines) and <sc>&#916;</sc>
+
+    <italic>t</italic> = &#8722;10 ms (orange lines).</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Note that the time course of calcium
+    dynamics (A,B) is shown for one spike-pair presentation only. The PP1 and <italic>S</italic>
+
+    <sub>active</sub> time course (C&#8211;F) is shown for the full-stimulation protocol
+    with 60 spike-pair presentations at 1 Hz and until the system converges to the
+    final steady-state. The insets in panel (C&#8211;F) display the dynamics on a
+    shorter time scale (first three spike pairs in the stimulation protocol). In this
+    figure: <italic>k</italic>
+
+    <sub>CaN</sub> = 18 1/s, &#916;<italic>Ca</italic>
+
+    <sub>pre</sub> = 0.17 &#956;M. The PP1 steady-state activity is 7.21 &#956;M/s
+    at <italic>Ca</italic>
+
+    <sub>0</sub> = 0.1 &#956;M (compare <xref ref-type="fig" rid="pcbi-0030221-g003">Figure
+    3</xref>B).</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2098851/PMC2098851/pcbi.0030221.g005.jpg
+  id: pcbi.0030221/pcbi-0030221-g005
+  label: Figure 5
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Dynamics
+    of the System in the PP1 Activity&#8211;Phosphorylated CaMKII Subunit Concentration
+    Phase-Plane</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(A,B)
+    Show the trajectories in the (<italic>k</italic>
+
+    <sub>12</sub> &#183; <italic>D</italic>) &#8722; <italic>S</italic>
+
+    <sub>active</sub> phase-plane during STDP stimulation protocols with <sc>&#916;</sc>
+
+    <italic>t</italic> = &#8722;50 ms (red), <sc>&#916;</sc>
+
+    <italic>t</italic> = &#8722;10 ms (green), <sc>&#916;</sc>
+
+    <italic>t</italic> = 15 ms (blue), and <sc>&#916;</sc>
+
+    <italic>t</italic> = 100 ms (cyan), and until the system reaches the final steady-state.</p><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(A)
+    System initially in the DOWN state (diamond). (B) System initially in the UP state
+    (cross). The black arrows indicate the direction of motion of the system along
+    the trajectory for some examples. The full and the dashed black line depict the
+    <italic>S</italic>
+
+    <sub>active</sub> and the (<italic>k</italic>
+
+    <sub>12</sub> &#183; <italic>D</italic>) nullclines at resting conditions (<italic>Ca</italic>
+
+    <sub>0</sub> = 0.1 &#956;M), respectively. Therefore, the intersections of both
+    nullclines mark the positions of the steady-states of the system: two stable&#8212;the
+    DOWN (diamond) and the UP (cross) state&#8212;and one unstable at <italic>S</italic>
+
+    <sub>active</sub> &#8776; 56.8 &#956;M. Note that the PP1 activity nullcline (dashed
+    black line) is independent of <italic>S</italic>
+
+    <sub>active</sub> (see <xref ref-type="disp-formula" rid="pcbi-0030221-e024">Equations
+    24</xref> and <xref ref-type="disp-formula" rid="pcbi-0030221-e025">25</xref>),
+    whereas the <italic>S</italic>
+
+    <sub>active</sub> nullcline (full black line) is dependent on (<italic>k</italic>
+
+    <sub>12</sub> &#183; <italic>D</italic>) and <italic>S</italic>
+
+    <sub>active</sub> (see <xref ref-type="disp-formula" rid="pcbi-0030221-e007">Equations
+    7</xref>&#8211;<xref ref-type="disp-formula" rid="pcbi-0030221-e020">20</xref>).
+    The separatrix, separating the basins of attraction of the two stable steady-states
+    is shown as a dotted black line (see <xref ref-type="table" rid="pcbi-0030221-t001">Table
+    1</xref> for parameters, <italic>k</italic>
+
+    <sub>CaN</sub> = 18 1/s, &#916;<italic>Ca</italic>
+
+    <sub>pre</sub> = 0.17 &#956;M).</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2098851/PMC2098851/pcbi.0030221.g006.jpg
+  id: pcbi.0030221/pcbi-0030221-g006
+  label: Figure 6
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Synaptic
+    Modifications in Response to STDP, Purely Presynaptic, or Purely Postsynaptic
+    Stimulation Protocols</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(A)
+    The relative change in the fraction of synapses in the UP state in response to
+    deterministic (red line) and stochastic (green and blue lines with symbols) STDP
+    stimulation protocols is shown as a function of <sc>&#916;</sc>
+
+    <italic>t</italic>. 0 means no net change in number of synapses in the UP state,
+    positive relative change means a net increase of synapses in the UP state, and
+    a negative relative change means a net increase of synapses in the DOWN state.
+    Stochastic stimulation results are shown for <italic>k</italic>
+
+    <sub>CaN</sub> = 18 1/s (green line with squares, same value as in deterministic
+    case) and <italic>k</italic>
+
+    <sub>CaN</sub> = 20 1/s (blue line with circles). The inset shows some example
+    calcium transients (dashed lines) of the stochastic stimulation protocol evoked
+    by a spike pair with <sc>&#916;</sc>
+
+    <italic>t</italic> = &#8722;100 ms and <italic>t</italic>
+
+    <sub>pre</sub> = 200 ms. The avergage calcium transient is shown by the full line
+    and is the same as the red curve in <xref ref-type="fig" rid="pcbi-0030221-g004">Figure
+    4</xref>. (&#916;<italic>Ca</italic>
+
+    <sub>pre</sub> = 0.17 &#956;M.)</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(B) Relative change in the fraction
+    of synapses in the UP state after purely presynaptic, or purely postsynaptic stimulation
+    protocols, as a function of frequency: the stimulation protocol consists of 60
+    presynaptic (full lines) or postsynaptic spikes (dashed lines) at a given frequency.
+    Red lines: deterministic stimulation, <italic>k</italic>
+
+    <sub>CaN</sub> = 18 1/s. Green lines with diamonds or squares: stochastic presynaptic
+    or postsynaptic stimulations, respectively, with <italic>k</italic>
+
+    <sub>CaN</sub> = 18 1/s. Blue line with triangles or circles: stochastic presynaptic
+    or postsynaptic stimulations, respectively, with <italic>k</italic>
+
+    <sub>CaN</sub> = 20 1/s. In all panels, the stochastic stimulation results are
+    averaged over <italic>N</italic> = 300 synapses.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2098851/PMC2098851/pcbi.0030221.g007.jpg
+  id: pcbi.0030221/pcbi-0030221-g007
+  label: Figure 7
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Phosphorylated
+    CaMKII Subunit Concentration Steady-States and Transition Outcomes in the Presence
+    of PP1 Inhibitors</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(A)
+    PP1 activity as a function of calcium concentration, for different levels of inhibition
+    (indicated close to the corresponding curves). For example, in the 80% case, the
+    total PP1 concentration is 0.8 <italic>D</italic>
+
+    <sub>0</sub>, i.e., 0.16 &#956;M. The 100% curve corresponds to no PP1 inhibition
+    (same curve as in <xref ref-type="fig" rid="pcbi-0030221-g003">Figure 3</xref>B).
+    Vertical black line: calcium resting concentration, <italic>Ca</italic>
+
+    <sub>0</sub> = 0.1 &#956;M.</p><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(B)
+    Steady-states of the phosphorylated CaMKII subunit concentration versus Calcium
+    for different levels of PP1 inhibition (same colors as in (A)). Full lines: stable
+    steady-states. Dashed lines: unstable steady-states. The positions of the UP and
+    the DOWN state at calcium resting conditions are shown for the 100% PP1 concentration
+    case by the cross and the diamond, respectively. <italic>CaMKII</italic>
+
+    <sub>0</sub> = 16.67 &#956;M, <italic>k</italic>
+
+    <sub>CaN</sub> = 18 1/s, see <xref ref-type="table" rid="pcbi-0030221-t001">Table
+    1</xref> for other parameters.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(C) Transition results in response
+    to the STDP stimulation protocol evoking noisy calcium transients in the presence
+    of PP1 inhibitors. The average relative changes in the fraction of synapses in
+    the UP state for three different total PP1 concentrations is shown (same colors
+    as in (A) and (B)). The blue line is the same as the blue line in <xref ref-type="fig"
+    rid="pcbi-0030221-g007">Figure 7</xref>A for <italic>D</italic>
+
+    <sub>0</sub> = 0.2 &#956;M as given in <xref ref-type="table" rid="pcbi-0030221-t001">Table
+    1</xref>, i.e<italic>.</italic>, the 100% case (<italic>N</italic> = 300, see
+    <xref ref-type="table" rid="pcbi-0030221-t001">Table 1</xref> for other parameters).</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2098851/PMC2098851/pcbi.0030221.g008.jpg
+  id: pcbi.0030221/pcbi-0030221-g008
+  label: Figure 8
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">PP1
+    Activity Level After the Presentation of One or 60 Spike Pairs as a Function of
+    <sc>&#916;</sc>t and the Amplitude of Calcium Transients</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(A) PP1 level after the presentation
+    of one spike pair as a function of <sc>&#916;</sc>
+
+    <italic>t</italic>. Dashed lines: numerical integration of <xref ref-type="disp-formula"
+    rid="pcbi-0030221-e024">Equation 24</xref> and <xref ref-type="disp-formula" rid="pcbi-0030221-e025">25</xref>.
+    Full lines: approximate solution (<italic>k</italic>
+
+    <sub>12</sub> (<italic>D</italic>
+
+    <sup>*</sup> + <italic>&#948;D</italic>(<italic>t</italic>))) from numerical integration
+    of <xref ref-type="disp-formula" rid="pcbi-0030221-e034">Equation 34</xref>. The
+    three different colors correspond to three different calcium amplitudes &#916;<italic>Ca</italic>
+
+    <sub>pre</sub> as marked in the panel.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(B) The increase or decrease of
+    PP1 activity induced by a single spike pair (full lines) as well as the contributions
+    from the calcineurin pathway (dotted lines) and the cAMP&#8211;PKA pathway (dashed
+    lines) to this change in PP1 activity as a function of <sc>&#916;</sc>
+
+    <italic>t</italic>: the three colors correspond to the same three different calcium
+    amplitudes &#916;<italic>Ca</italic>
+
+    <sub>pre</sub> as marked in (A). The dotted and dashed lines are obtained from
+    numerical integration of the first and the second terms in <xref ref-type="disp-formula"
+    rid="pcbi-0030221-e034">Equation 34</xref>, respectively. The full lines depict
+    the sum of both contributions and represent <italic>k</italic>
+
+    <sub>12</sub> &#183; <italic>&#948;D</italic>(<italic>t</italic>) after the presentation
+    of the first pair of spikes (see <xref ref-type="sec" rid="s4">Materials and Methods</xref>).</p><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(C)
+    Total level of PP1 activity after the <italic>whole</italic> stimulation protocol
+    from numerical integration of <xref ref-type="disp-formula" rid="pcbi-0030221-e024">Equations
+    24</xref> and <xref ref-type="disp-formula" rid="pcbi-0030221-e025">25</xref>,
+    as a function of <sc>&#916;</sc>
+
+    <italic>t</italic>: The different colors correspond again to the three different
+    calcium amplitudes as in (A) and (B) (see <xref ref-type="table" rid="pcbi-0030221-t001">Table
+    1</xref> for parameters, <italic>k</italic>
+
+    <sub>CaN</sub> = 18 1/s).</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2098851/PMC2098851/pcbi.0030221.g009.jpg
+  id: pcbi.0030221/pcbi-0030221-g009
+  label: Figure 9
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Impact
+    of the Kinetics of PP1 Activity and CaMKII Phosphorylation on the Number of Spike-Pair
+    Presentations Leading to Transitions</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(A,B) Time course of PP1 activity
+    (<italic>k</italic>
+
+    <sub>12</sub> &#183; <italic>D</italic>) (A) and phosphorylated CaMKII subunit
+    concentration (B) during and after the STDP stimulation protocol for different
+    values of <italic>R</italic> and <italic>Q</italic> (deterministic stimulation
+    protocol, 60 spike pairs with <sc>&#916;</sc>
+
+    <italic>t</italic> = 15 ms). The buildup of PP1 activity (<italic>k</italic>
+
+    <sub>12</sub> &#183; <italic>D</italic>) is shown in (A) for <italic>R</italic>
+    = 0.002 (blue line), <italic>R</italic> = 0.078 (green line) and <italic>R</italic>
+    = 1 (red line; same curve as in <xref ref-type="fig" rid="pcbi-0030221-g005">Figure
+    5</xref>C). <italic>Q</italic> has no impact on PP1 dynamics. The time course
+    of phosphorylated CaMKII subunit concentration is depicted in (B) for five sets
+    of values of <italic>R</italic> and <italic>Q</italic> (indicated close to the
+    corresponding curves).</p><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(C,D)
+    The impact of the number of spike-pair presentations and of <italic>R</italic>
+    and <italic>Q</italic> on the <sc>&#916;</sc>
+
+    <italic>t</italic> ranges for which transitions occur is depicted for STDP stimulation
+    protocols evoking deterministic calcium transients. White region: no change (relative
+    change in fraction of synapses in the UP state is 0); diagonally striped regions:
+    down-to-up transitions (relative change in fraction of synapses in the UP state
+    is +1); shaded regions: up-to-down transitions (relative change in fraction of
+    synapses in the UP state is &#8722;1). In each case, down-to-up and up-to-down
+    transition regions in the same color correspond to the same choice of <italic>R</italic>
+    (C) or <italic>Q</italic> (D). All the cases in (C) use <italic>Q</italic> = 1
+    paired with: <italic>R</italic> = 0.078: red regions; <italic>R</italic> = 1:
+    green regions; and <italic>R</italic> = 2: blue region. In (D): blue regions:
+    <italic>Q</italic> = 0.83 (no down-to-up transitions); green regions: <italic>Q</italic>
+    = 1; and red regions: <italic>Q</italic> = 1.67. <italic>R</italic> = 1 is utilized
+    in all cases in (D), i.e., the green regions in (C) and (D) are identical (see
+    <xref ref-type="table" rid="pcbi-0030221-t001">Table 1</xref> for parameters,
+    <italic>k</italic>
+
+    <sub>CaN</sub> = 18 1/s, &#916;<italic>Ca</italic>
+
+    <sub>pre</sub> = 0.17 &#956;M).</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2098851/PMC2098851/pcbi.0030221.g010.jpg
+  id: pcbi.0030221/pcbi-0030221-g010
+  label: Figure 10

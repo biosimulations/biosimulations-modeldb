@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/151677.omex">
+    <dc:title>Tapered whiskers are required for active tactile sensation (Hires et al. 2013)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/151677.omex">
+    <dc:abstract>" ... &#13;
+The diverse shapes of facial whiskers reflect distinct ecological niches. Rodent whiskers&#13;
+are conical, often with a remarkably linear taper. &#13;
+&#13;
+Here we use theoretical and experimental methods&#13;
+to analyze interactions of mouse whiskers with objects. &#13;
+... "&#13;
+&#13;
+This is a quasi-static solution of the bending of an isolated whisker.&#13;
+&#13;
+For Fig. 2, stable solution, use: theta=-0.174533 rad.&#13;
+&#13;
+Use "Bndryval -&gt; Show" in XPPAUT.&#13;
+</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/151677.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/151677.omex/figures/PMC3828597/elife01350f001.jpg">http://omex-library.org/151677.omex/figures/PMC3828597/elife01350f001.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/151677.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/151677.omex/figures/PMC3828597/elife01350f002.jpg">http://omex-library.org/151677.omex/figures/PMC3828597/elife01350f002.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/151677.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/151677.omex/figures/PMC3828597/elife01350f003.jpg">http://omex-library.org/151677.omex/figures/PMC3828597/elife01350f003.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/151677.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/151677.omex/figures/PMC3828597/elife01350f004.jpg">http://omex-library.org/151677.omex/figures/PMC3828597/elife01350f004.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/151677.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/151677.omex/figures/PMC3828597/elife01350f005.jpg">http://omex-library.org/151677.omex/figures/PMC3828597/elife01350f005.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/151677.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/151677.omex/figures/PMC3828597/elife01350f006.jpg">http://omex-library.org/151677.omex/figures/PMC3828597/elife01350f006.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/151677.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/151677.omex/figures/PMC3828597/elife01350f007.jpg">http://omex-library.org/151677.omex/figures/PMC3828597/elife01350f007.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="mailto:golomb@bgu.ac.il">mailto:golomb@bgu.ac.il</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>David Golomb</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <foaf:accountName rdf:resource="mailto:golomb@bgu.ac.il">mailto:golomb@bgu.ac.il</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <foaf:name>David Golomb</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/151677.omex">
+    <dc:creator rdf:resource="local:00001">local:00001</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/151677.omex">
+    <dc:contributor rdf:resource="local:00002">local:00002</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/151677.omex">
+    <dc:contributor rdf:resource="local:00003">local:00003</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:151677">https://identifiers.org/modeldb:151677</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>modeldb:151677</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/151677.omex">
+    <bqmodel:is rdf:resource="local:00004">local:00004</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.7554/eLife.01350">http://identifiers.org/doi:10.7554/eLife.01350</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>Samuel Andrew Hires, Lorenz Pammer, Karel Svoboda &amp; David Golomb. Tapered whiskers are required for active tactile sensation. eLife 2 (2013).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/151677.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00005">local:00005</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/151677.omex">
+    <dc:created>2013-11-28</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/151677.omex">
+    <dc:modified>2013-11-28</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

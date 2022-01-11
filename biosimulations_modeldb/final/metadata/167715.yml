@@ -1,0 +1,79 @@
+references:
+- label: "Markus A. Dahlem, Julia Schumacher & Niklas H\xFCbel. Linking a genetic\
+    \ defect in migraine to spreading depression in a computational model. PeerJ 2:\
+    \ e379 (2014)."
+  uri: http://identifiers.org/doi:10.7717/peerj.379
+taxa: []
+thumbnails:
+- caption: "<title xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"\
+    >Inactivation time constant as a function of membrane potential.</title><p xmlns:xlink=\"\
+    http://www.w3.org/1999/xlink\" xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"\
+    >(A) Voltage-dependent time constant for mutation <inline-formula><alternatives><inline-graphic\
+    \ xlink:href=\"peerj-02-379-i015.jpg\"/><tex-math id=\"M56\">\\documentclass[12pt]{minimal}\n\
+    \\usepackage{amsmath}\n\\usepackage{wasysym} \n\\usepackage{amsfonts} \n\\usepackage{amssymb}\
+    \ \n\\usepackage{amsbsy}\n\\usepackage{upgreek}\n\\usepackage{mathrsfs}\n\\setlength{\\\
+    oddsidemargin}{-69pt}\n\\begin{document}\n}{}$({\\tau }_{h}^{\\ast })$\\end{document}</tex-math><mml:math\
+    \ id=\"mml-ieqn-148\"><mml:mfenced separators=\"\" open=\"(\" close=\")\"><mml:msubsup><mml:mrow><mml:mi>&#964;</mml:mi></mml:mrow><mml:mrow><mml:mi>h</mml:mi></mml:mrow><mml:mrow><mml:mo>*</mml:mo></mml:mrow></mml:msubsup></mml:mfenced></mml:math></alternatives></inline-formula>\
+    \ and wild-type (<italic>&#964;<sub>h</sub></italic>). Insets show the response\
+    \ of <italic>h</italic> to a voltage-clamp protocol. (B) shows the deinactivation\
+    \ (i.e., recovery from inactivation) process as a response to a step in voltage\
+    \ from &#8722;10 mV to &#8722;120 mV. (C) shows the inactivation process by stepping\
+    \ the voltage from &#8722;120 mV to &#8722;10 mV. The intersections of the <italic>h</italic>-curve\
+    \ with the 1/<italic>e</italic>- and (1&#8722;1/<italic>e</italic>)-lines, respectively,\
+    \ show the actual time constants. For deinactivation <inline-formula><alternatives><inline-graphic\
+    \ xlink:href=\"peerj-02-379-i016.jpg\"/><tex-math id=\"M57\">\\documentclass[12pt]{minimal}\n\
+    \\usepackage{amsmath}\n\\usepackage{wasysym} \n\\usepackage{amsfonts} \n\\usepackage{amssymb}\
+    \ \n\\usepackage{amsbsy}\n\\usepackage{upgreek}\n\\usepackage{mathrsfs}\n\\setlength{\\\
+    oddsidemargin}{-69pt}\n\\begin{document}\n}{}${\\tau }_{h}^{\\ast }$\\end{document}</tex-math><mml:math\
+    \ id=\"mml-ieqn-154\"><mml:msubsup><mml:mrow><mml:mi>&#964;</mml:mi></mml:mrow><mml:mrow><mml:mi>h</mml:mi></mml:mrow><mml:mrow><mml:mo>*</mml:mo></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula>\
+    \ is three-fold smaller than <italic>&#964;<sub>h</sub></italic>. For inactivation\
+    \ <inline-formula><alternatives><inline-graphic xlink:href=\"peerj-02-379-i017.jpg\"\
+    /><tex-math id=\"M58\">\\documentclass[12pt]{minimal}\n\\usepackage{amsmath}\n\
+    \\usepackage{wasysym} \n\\usepackage{amsfonts} \n\\usepackage{amssymb} \n\\usepackage{amsbsy}\n\
+    \\usepackage{upgreek}\n\\usepackage{mathrsfs}\n\\setlength{\\oddsidemargin}{-69pt}\n\
+    \\begin{document}\n}{}${\\tau }_{h}^{\\ast }$\\end{document}</tex-math><mml:math\
+    \ id=\"mml-ieqn-156\"><mml:msubsup><mml:mrow><mml:mi>&#964;</mml:mi></mml:mrow><mml:mrow><mml:mi>h</mml:mi></mml:mrow><mml:mrow><mml:mo>*</mml:mo></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula>\
+    \ is three-fold lager than <italic>&#964;<sub>h</sub></italic>.</p>"
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4017887/PMC4017887/peerj-02-379-g001.jpg
+  id: peerj-02-379/fig-1
+  label: Figure 1
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Spiking
+    model.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Comparison
+    of wild-type (A) and mutant (D) spiking behavior. The main plots show bifurcation
+    diagrams by varying the external current <italic>I</italic><sub>app</sub>. For
+    the wild-type model Hopf bifurcations can be found at <italic>I</italic><sub>app</sub>
+    = 9.78 &#181;A cm<sup>&#8722;2</sup> and <italic>I</italic><sub>app</sub> = 154.52
+    &#181;A cm<sup>&#8722;2</sup>. For the mutant model Hopf bifurcations occur at
+    <italic>I</italic><sub>app</sub> = 9.72 &#181;A cm<sup>&#8722;2</sup> and <italic>I</italic><sub>app</sub>
+    = 175.02 &#181;A cm<sup>&#8722;2</sup>. (B) and (E) show behavior in the oscillatory
+    regime as a response to a constant input current of 12 &#181;A cm<sup>&#8722;2</sup>.
+    (C) and (F) show the response of the models in the excitatory regime to a 3 ms
+    long current pulse with amplitude 3 &#181;A cm<sup>&#8722;2</sup>.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4017887/PMC4017887/peerj-02-379-g002.jpg
+  id: peerj-02-379/fig-2
+  label: Figure 2
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Nonlinear
+    firing-rate function <italic>F</italic>(<italic>I</italic><sub>app</sub>) for
+    wild-type model (black, solid) and mutant model (green, dashed).</title>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4017887/PMC4017887/peerj-02-379-g003.jpg
+  id: peerj-02-379/fig-3
+  label: Figure 3
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Spreading
+    depression model.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Development
+    of SD in wild-type (A) and mutant (B) models. A SD is elicited by down-regulating
+    the pump current to 20% of its maximal value for 13.6 s (wild-type) and 7.2 s
+    (mutant), respectively (see blacked dashed line). The red and blue dashed lines
+    show the temporal development of the sodium and potassium reversal potentials.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4017887/PMC4017887/peerj-02-379-g004.jpg
+  id: peerj-02-379/fig-4
+  label: Figure 4
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Anoxia
+    model.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Response
+    of wild-type (A) and mutant (B) membrane potential to a complete breakdown of
+    pump, glial and diffusion currents at <italic>t</italic> = 5 s (black dashed vertical
+    line). Red and blue dotted lines show the Na<sup>+</sup> and K<sup>+</sup> reversal
+    potentials over time. The time from the onset of spiking until the beginning of
+    the excitation block is approximately 6.7 s without and 2.7 s with mutation.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4017887/PMC4017887/peerj-02-379-g005.jpg
+  id: peerj-02-379/fig-5
+  label: Figure 5

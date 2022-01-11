@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/235377.omex">
+    <dc:title>A model for recurrent spreading depolarizations (Conte et al. 2017)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/235377.omex">
+    <dc:abstract>A detailed biophysical model for a neuron/astrocyte network is developed in order to explore mechanisms responsible for cortical spreading depolarizations. This includes a model for the Na+-glutamate transporter, which allows for a detailed description of reverse glutamate uptake. In particular, we consider the specific roles of elevated extracellular glutamate and K+ in the initiation, propagation and recurrence of spreading depolarizations.</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=183720">http://modeldb.science/ModelList?id=183720</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Extracellular</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/235377.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=120799">http://modeldb.science/ModelList?id=120799</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Glia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/235377.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>Neuron or other electrically excitable cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/235377.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=87589">http://modeldb.science/ModelList?id=87589</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>Astrocyte</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/235377.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=248">http://modeldb.science/ModelList?id=248</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>I K</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/235377.omex">
+    <bqbiol:encodes rdf:resource="local:00005">local:00005</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=241">http://modeldb.science/ModelList?id=241</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>I Na,p</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/235377.omex">
+    <bqbiol:encodes rdf:resource="local:00006">local:00006</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=139267">http://modeldb.science/ModelList?id=139267</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>I Cl, leak</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/235377.omex">
+    <bqbiol:encodes rdf:resource="local:00007">local:00007</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=120693">http://modeldb.science/ModelList?id=120693</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>Na/K pump</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/235377.omex">
+    <bqbiol:encodes rdf:resource="local:00008">local:00008</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=235461">http://modeldb.science/ModelList?id=235461</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>Na+-glutamate transporter</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/235377.omex">
+    <bqbiol:encodes rdf:resource="local:00009">local:00009</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <rdfs:label>Na+-glutamate transporter</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/235377.omex">
+    <bqbiol:encodes rdf:resource="local:00010">local:00010</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=233">http://modeldb.science/ModelList?id=233</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <rdfs:label>Glutamate</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/235377.omex">
+    <bqbiol:encodes rdf:resource="local:00011">local:00011</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=212">http://modeldb.science/ModelList?id=212</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <rdfs:label>Glutamate</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/235377.omex">
+    <bqbiol:encodes rdf:resource="local:00012">local:00012</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3641">http://modeldb.science/ModelList?id=3641</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <rdfs:label>Detailed Neuronal Models</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/235377.omex">
+    <bqbiol:encodes rdf:resource="local:00013">local:00013</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=151948">http://modeldb.science/ModelList?id=151948</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <rdfs:label>Potassium buffering</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/235377.omex">
+    <bqbiol:encodes rdf:resource="local:00014">local:00014</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=167716">http://modeldb.science/ModelList?id=167716</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <rdfs:label>Spreading depression</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/235377.omex">
+    <bqbiol:encodes rdf:resource="local:00015">local:00015</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=235462">http://modeldb.science/ModelList?id=235462</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <rdfs:label>Spreading depolarization</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/235377.omex">
+    <bqbiol:encodes rdf:resource="local:00016">local:00016</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <rdfs:label>Spreading depolarization</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/235377.omex">
+    <bqbiol:encodes rdf:resource="local:00017">local:00017</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <dc:identifier rdf:resource="mailto:terman@math.ohio-state.edu">mailto:terman@math.ohio-state.edu</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <rdfs:label>David Terman</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <foaf:accountName rdf:resource="mailto:terman@math.ohio-state.edu">mailto:terman@math.ohio-state.edu</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <foaf:name>David Terman</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/235377.omex">
+    <dc:creator rdf:resource="local:00018">local:00018</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00019">
+    <dc:identifier rdf:resource="mailto:terman.1@osu.edu">mailto:terman.1@osu.edu</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00019">
+    <rdfs:label>David Hillel Terman</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00019">
+    <foaf:accountName rdf:resource="mailto:terman.1@osu.edu">mailto:terman.1@osu.edu</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00019">
+    <foaf:name>David Hillel Terman</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/235377.omex">
+    <dc:contributor rdf:resource="local:00019">local:00019</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00020">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00020">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00020">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00020">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/235377.omex">
+    <dc:contributor rdf:resource="local:00020">local:00020</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00021">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00021">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00021">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00021">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/235377.omex">
+    <dc:contributor rdf:resource="local:00021">local:00021</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00022">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:235377">https://identifiers.org/modeldb:235377</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00022">
+    <rdfs:label>modeldb:235377</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/235377.omex">
+    <bqmodel:is rdf:resource="local:00022">local:00022</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00023">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1007/s10827-017-0675-3">http://identifiers.org/doi:10.1007/s10827-017-0675-3</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00023">
+    <rdfs:label>Cameron Conte, Ray Lee, Monica Sarkar &amp; David Terman. A mathematical model of recurrent spreading depolarizations. Journal of Computational Neuroscience 44, 2: 203-217 (2018).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/235377.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00023">local:00023</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/235377.omex">
+    <dc:created>2017-12-12</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/235377.omex">
+    <dc:modified>2017-12-14</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

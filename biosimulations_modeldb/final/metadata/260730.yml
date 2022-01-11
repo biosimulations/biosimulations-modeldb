@@ -1,0 +1,463 @@
+references:
+- label: 'Arthur S. Sherman & Joon Ha. How Adaptation Makes Low Firing Rates Robust.
+    The Journal of Mathematical Neuroscience 7, 1: 4 (2017).'
+  uri: http://identifiers.org/doi:10.1186/s13408-017-0047-3
+taxa: []
+thumbnails:
+- caption: "<p xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\
+    >Solutions of Eqs.&#160;(<xref rid=\"Equ1\" ref-type=\"\">1</xref>), (<xref rid=\"\
+    Equ2\" ref-type=\"\">2</xref>). <inline-formula id=\"IEq5\"><alternatives><tex-math\
+    \ id=\"M21\">\\documentclass[12pt]{minimal}\n\t\t\t\t\\usepackage{amsmath}\n\t\
+    \t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts} \n\t\t\t\t\\usepackage{amssymb}\
+    \ \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\t\t\t\t\\usepackage{upgreek}\n\
+    \t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\t\t\t\\begin{document}$I = 1$\\\
+    end{document}</tex-math><mml:math id=\"M22\"><mml:mi>I</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq5.gif\"/></alternatives></inline-formula>\
+    \ and <italic>z</italic> fixed at 0 (<bold>A</bold> and <bold>B</bold>) or 0.7\
+    \ (<bold>C</bold> and <bold>D</bold>). Time courses shown in (<bold>A</bold> and\
+    \ <bold>C</bold>). In the phase planes (<bold>B</bold> and <bold>C</bold>) the\
+    \ <italic>blue curves are</italic> the <italic>x</italic> nullclines, <italic>red\
+    \ curves</italic> are <italic>y</italic> nullclines, <italic>black curves</italic>\
+    \ are the trajectories, labeled with slow (<italic>single arrow</italic>) and\
+    \ fast (<italic>double arrow</italic>) segments. Increasing <italic>z</italic>\
+    \ narrows the gap between the left branches of the <italic>x</italic> and <italic>y</italic>\
+    \ nullclines, increasing the period by prolonging the interspike interval</p>"
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5483227/PMC5483227/13408_2017_47_Fig1_HTML.jpg
+  id: 13408_2017_Article_47/Fig1
+  label: "Fig.\_1"
+- caption: "<p xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\
+    >Bifurcation diagrams for Eqs.&#160;(<xref rid=\"Equ1\" ref-type=\"\">1</xref>),\
+    \ (<xref rid=\"Equ2\" ref-type=\"\">2</xref>). Bifurcation parameter <italic>I</italic>\
+    \ (<bold>A</bold>) or <italic>z</italic> (<bold>B</bold>). (<bold>A</bold>) The\
+    \ <italic>S</italic>-<italic>shaped curve</italic> (<italic>grey</italic>) shows\
+    \ the steady states, stable (<italic>solid</italic>), unstable (<italic>dashed</italic>).\
+    \ The periodic branch (<italic>black, thick</italic>) emerges from a Hopf bifurcation\
+    \ (HB) and terminates at a SNIC. (<bold>B</bold>) The diagram with respect to\
+    \ <italic>z</italic> is a reflection of the one for <italic>I</italic>. In addition,\
+    \ the <italic>thick solid line</italic> connecting HB and SNIC shows the value\
+    \ of <italic>x</italic> averaged over a spike, <inline-formula id=\"IEq8\"><alternatives><tex-math\
+    \ id=\"M23\">\\documentclass[12pt]{minimal}\n\t\t\t\t\\usepackage{amsmath}\n\t\
+    \t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts} \n\t\t\t\t\\usepackage{amssymb}\
+    \ \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\t\t\t\t\\usepackage{upgreek}\n\
+    \t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\t\t\t\\begin{document}$\\langle\
+    \ x \\rangle$\\end{document}</tex-math><mml:math id=\"M24\"><mml:mo stretchy=\"\
+    false\">&#9001;</mml:mo><mml:mi>x</mml:mi><mml:mo stretchy=\"false\">&#9002;</mml:mo></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq8.gif\"/></alternatives></inline-formula>\n\
+    </p>"
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5483227/PMC5483227/13408_2017_47_Fig2_HTML.jpg
+  id: 13408_2017_Article_47/Fig2
+  label: "Fig.\_2"
+- caption: "<p xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\
+    >Adaptation and firing rate curves. (<bold>A</bold>) The unadapted <italic>f</italic>&#8211;<italic>I</italic>\
+    \ curve (<inline-formula id=\"IEq13\"><alternatives><tex-math id=\"M33\">\\documentclass[12pt]{minimal}\n\
+    \t\t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts}\
+    \ \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\
+    \t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\
+    \t\t\t\\begin{document}$f_{0}(I)$\\end{document}</tex-math><mml:math id=\"M34\"\
+    ><mml:msub><mml:mi>f</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo stretchy=\"\
+    false\">(</mml:mo><mml:mi>I</mml:mi><mml:mo stretchy=\"false\">)</mml:mo></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq13.gif\"/></alternatives></inline-formula>;\
+    \ <italic>solid</italic>) and the steady-state adapted firing rate curve with\
+    \ <inline-formula id=\"IEq14\"><alternatives><tex-math id=\"M35\">\\documentclass[12pt]{minimal}\n\
+    \t\t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts}\
+    \ \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\
+    \t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\
+    \t\t\t\\begin{document}$s = 22$\\end{document}</tex-math><mml:math id=\"M36\"\
+    ><mml:mi>s</mml:mi><mml:mo>=</mml:mo><mml:mn>22</mml:mn></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq14.gif\"/></alternatives></inline-formula>\
+    \ (<inline-formula id=\"IEq15\"><alternatives><tex-math id=\"M37\">\\documentclass[12pt]{minimal}\n\
+    \t\t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts}\
+    \ \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\
+    \t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\
+    \t\t\t\\begin{document}$f_{\\infty}(I)$\\end{document}</tex-math><mml:math id=\"\
+    M38\"><mml:msub><mml:mi>f</mml:mi><mml:mi mathvariant=\"normal\">&#8734;</mml:mi></mml:msub><mml:mo\
+    \ stretchy=\"false\">(</mml:mo><mml:mi>I</mml:mi><mml:mo stretchy=\"false\">)</mml:mo></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq15.gif\"/></alternatives></inline-formula>;\
+    \ <italic>dashed</italic>). (<bold>B</bold>)&#8211;(<bold>D</bold>): Adaptation\
+    \ in response to a step of <italic>I</italic> from 0 to 5 after equilibration\
+    \ with adaptation turned off. (<bold>B</bold>) <italic>x</italic>; (<bold>C</bold>)\
+    \ <italic>z</italic>; (<bold>D</bold>) frequency obtained as reciprocal of interspike\
+    \ interval</p>"
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5483227/PMC5483227/13408_2017_47_Fig3_HTML.jpg
+  id: 13408_2017_Article_47/Fig3
+  label: "Fig.\_3"
+- caption: "<p xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\
+    >Bifurcation diagram with respect to <italic>z</italic> shifts with <italic>I</italic>.\
+    \ The curve of average <italic>x</italic>, <inline-formula id=\"IEq21\"><alternatives><tex-math\
+    \ id=\"M43\">\\documentclass[12pt]{minimal}\n\t\t\t\t\\usepackage{amsmath}\n\t\
+    \t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts} \n\t\t\t\t\\usepackage{amssymb}\
+    \ \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\t\t\t\t\\usepackage{upgreek}\n\
+    \t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\t\t\t\\begin{document}$\\langle\
+    \ x \\rangle$\\end{document}</tex-math><mml:math id=\"M44\"><mml:mo stretchy=\"\
+    false\">&#9001;</mml:mo><mml:mi>x</mml:mi><mml:mo stretchy=\"false\">&#9002;</mml:mo></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq21.gif\"/></alternatives></inline-formula>,\
+    \ starts at HB to the left of the frame and terminates at SNIC. Colors correspond\
+    \ to <inline-formula id=\"IEq22\"><alternatives><tex-math id=\"M45\">\\documentclass[12pt]{minimal}\n\
+    \t\t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts}\
+    \ \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\
+    \t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\
+    \t\t\t\\begin{document}$I=0.18, 3, 6, 9$\\end{document}</tex-math><mml:math id=\"\
+    M46\"><mml:mi>I</mml:mi><mml:mo>=</mml:mo><mml:mn>0.18</mml:mn><mml:mo>,</mml:mo><mml:mn>3</mml:mn><mml:mo>,</mml:mo><mml:mn>6</mml:mn><mml:mo>,</mml:mo><mml:mn>9</mml:mn></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq22.gif\"/></alternatives></inline-formula>,\
+    \ left to right. The trajectories evolve closely around the intersection points\
+    \ of the average curves and the <italic>z</italic>-nullcline (<italic>cyan</italic>).\
+    \ <inline-formula id=\"IEq23\"><alternatives><tex-math id=\"M47\">\\documentclass[12pt]{minimal}\n\
+    \t\t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts}\
+    \ \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\
+    \t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\
+    \t\t\t\\begin{document}$\\bar{x} = -1.1$\\end{document}</tex-math><mml:math id=\"\
+    M48\"><mml:mover accent=\"true\"><mml:mi>x</mml:mi><mml:mo stretchy=\"false\"\
+    >&#175;</mml:mo></mml:mover><mml:mo>=</mml:mo><mml:mo>&#8722;</mml:mo><mml:mn>1.1</mml:mn></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq23.gif\"/></alternatives></inline-formula>\
+    \ and <inline-formula id=\"IEq24\"><alternatives><tex-math id=\"M49\">\\documentclass[12pt]{minimal}\n\
+    \t\t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts}\
+    \ \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\
+    \t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\
+    \t\t\t\\begin{document}$s=22$\\end{document}</tex-math><mml:math id=\"M50\"><mml:mi>s</mml:mi><mml:mo>=</mml:mo><mml:mn>22</mml:mn></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq24.gif\"/></alternatives></inline-formula>\
+    \ for all <italic>I</italic>\n</p>"
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5483227/PMC5483227/13408_2017_47_Fig4_HTML.jpg
+  id: 13408_2017_Article_47/Fig4
+  label: "Fig.\_4"
+- caption: "<p xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\
+    >Effect of <italic>z</italic> nullcline slope. (<bold>A</bold>) Decreasing the\
+    \ slope shifts the intersections with the <inline-formula id=\"IEq25\"><alternatives><tex-math\
+    \ id=\"M57\">\\documentclass[12pt]{minimal}\n\t\t\t\t\\usepackage{amsmath}\n\t\
+    \t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts} \n\t\t\t\t\\usepackage{amssymb}\
+    \ \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\t\t\t\t\\usepackage{upgreek}\n\
+    \t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\t\t\t\\begin{document}$\\langle\
+    \ x \\rangle$\\end{document}</tex-math><mml:math id=\"M58\"><mml:mo stretchy=\"\
+    false\">&#9001;</mml:mo><mml:mi>x</mml:mi><mml:mo stretchy=\"false\">&#9002;</mml:mo></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq25.gif\"/></alternatives></inline-formula>\
+    \ curve. This results in larger steady-state <italic>z</italic> and lower firing\
+    \ rate. Nullclines drawn for <inline-formula id=\"IEq26\"><alternatives><tex-math\
+    \ id=\"M59\">\\documentclass[12pt]{minimal}\n\t\t\t\t\\usepackage{amsmath}\n\t\
+    \t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts} \n\t\t\t\t\\usepackage{amssymb}\
+    \ \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\t\t\t\t\\usepackage{upgreek}\n\
+    \t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\t\t\t\\begin{document}$s = 2$\\\
+    end{document}</tex-math><mml:math id=\"M60\"><mml:mi>s</mml:mi><mml:mo>=</mml:mo><mml:mn>2</mml:mn></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq26.gif\"/></alternatives></inline-formula>\
+    \ (<italic>red</italic>), <inline-formula id=\"IEq27\"><alternatives><tex-math\
+    \ id=\"M61\">\\documentclass[12pt]{minimal}\n\t\t\t\t\\usepackage{amsmath}\n\t\
+    \t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts} \n\t\t\t\t\\usepackage{amssymb}\
+    \ \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\t\t\t\t\\usepackage{upgreek}\n\
+    \t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\t\t\t\\begin{document}$s = 22$\\\
+    end{document}</tex-math><mml:math id=\"M62\"><mml:mi>s</mml:mi><mml:mo>=</mml:mo><mml:mn>22</mml:mn></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq27.gif\"/></alternatives></inline-formula>\
+    \ (<italic>green</italic>), and <inline-formula id=\"IEq28\"><alternatives><tex-math\
+    \ id=\"M63\">\\documentclass[12pt]{minimal}\n\t\t\t\t\\usepackage{amsmath}\n\t\
+    \t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts} \n\t\t\t\t\\usepackage{amssymb}\
+    \ \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\t\t\t\t\\usepackage{upgreek}\n\
+    \t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\t\t\t\\begin{document}$s = 33$\\\
+    end{document}</tex-math><mml:math id=\"M64\"><mml:mi>s</mml:mi><mml:mo>=</mml:mo><mml:mn>33</mml:mn></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq28.gif\"/></alternatives></inline-formula>\
+    \ (<italic>blue</italic>); <inline-formula id=\"IEq29\"><alternatives><tex-math\
+    \ id=\"M65\">\\documentclass[12pt]{minimal}\n\t\t\t\t\\usepackage{amsmath}\n\t\
+    \t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts} \n\t\t\t\t\\usepackage{amssymb}\
+    \ \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\t\t\t\t\\usepackage{upgreek}\n\
+    \t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\t\t\t\\begin{document}$\\langle\
+    \ x \\rangle$\\end{document}</tex-math><mml:math id=\"M66\"><mml:mo stretchy=\"\
+    false\">&#9001;</mml:mo><mml:mi>x</mml:mi><mml:mo stretchy=\"false\">&#9002;</mml:mo></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq29.gif\"/></alternatives></inline-formula>\
+    \ drawn for <italic>I</italic>= 0.18, 3, 6, 9, increasing to the right. (<bold>B</bold>)\
+    \ <inline-formula id=\"IEq30\"><alternatives><tex-math id=\"M67\">\\documentclass[12pt]{minimal}\n\
+    \t\t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts}\
+    \ \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\
+    \t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\
+    \t\t\t\\begin{document}$f(I)$\\end{document}</tex-math><mml:math id=\"M68\"><mml:mi>f</mml:mi><mml:mo\
+    \ stretchy=\"false\">(</mml:mo><mml:mi>I</mml:mi><mml:mo stretchy=\"false\">)</mml:mo></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq30.gif\"/></alternatives></inline-formula>\
+    \ for the system without adaptation and the three slopes in (<bold>A</bold>).\
+    \ (<bold>C</bold>) Least squares linear fits (<italic>thin</italic>) for the three\
+    \ <italic>f</italic>&#8211;<italic>I</italic> curves (<italic>thick</italic>)\
+    \ in (<bold>A</bold>) over intervals of length 6 starting at the threshold for\
+    \ the corresponding value of <italic>s</italic>. (<bold>D</bold>) L<sub>2</sub>\
+    \ error for <italic>I</italic> over intervals of length 6 (<italic>lower</italic>)\
+    \ and 10 (<italic>upper</italic>) as a function of <italic>s</italic>\n</p>"
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5483227/PMC5483227/13408_2017_47_Fig5_HTML.jpg
+  id: 13408_2017_Article_47/Fig5
+  label: "Fig.\_5"
+- caption: "<p xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\
+    >Schematic of stretching. The assumed unadapted firing rate, <inline-formula id=\"\
+    IEq40\"><alternatives><tex-math id=\"M89\">\\documentclass[12pt]{minimal}\n\t\t\
+    \t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts}\
+    \ \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\
+    \t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\
+    \t\t\t\\begin{document}$f_{0}(I) = 30 \\sqrt{0.5 I}$\\end{document}</tex-math><mml:math\
+    \ id=\"M90\"><mml:msub><mml:mi>f</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo\
+    \ stretchy=\"false\">(</mml:mo><mml:mi>I</mml:mi><mml:mo stretchy=\"false\">)</mml:mo><mml:mo>=</mml:mo><mml:mn>30</mml:mn><mml:msqrt><mml:mrow><mml:mn>0.5</mml:mn><mml:mi>I</mml:mi></mml:mrow></mml:msqrt></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq40.gif\"/></alternatives></inline-formula>\
+    \ (<italic>black, solid</italic>) and the adapted firing rate, <inline-formula\
+    \ id=\"IEq41\"><alternatives><tex-math id=\"M91\">\\documentclass[12pt]{minimal}\n\
+    \t\t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts}\
+    \ \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\
+    \t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\
+    \t\t\t\\begin{document}$f_{\\infty}(I) = f_{0}(I - A(I))$\\end{document}</tex-math><mml:math\
+    \ id=\"M92\"><mml:msub><mml:mi>f</mml:mi><mml:mi mathvariant=\"normal\">&#8734;</mml:mi></mml:msub><mml:mo\
+    \ stretchy=\"false\">(</mml:mo><mml:mi>I</mml:mi><mml:mo stretchy=\"false\">)</mml:mo><mml:mo>=</mml:mo><mml:msub><mml:mi>f</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo\
+    \ stretchy=\"false\">(</mml:mo><mml:mi>I</mml:mi><mml:mo>&#8722;</mml:mo><mml:mi>A</mml:mi><mml:mo\
+    \ stretchy=\"false\">(</mml:mo><mml:mi>I</mml:mi><mml:mo stretchy=\"false\">)</mml:mo><mml:mo\
+    \ stretchy=\"false\">)</mml:mo></mml:math><inline-graphic xlink:href=\"13408_2017_47_Article_IEq41.gif\"\
+    /></alternatives></inline-formula>, where <inline-formula id=\"IEq42\"><alternatives><tex-math\
+    \ id=\"M93\">\\documentclass[12pt]{minimal}\n\t\t\t\t\\usepackage{amsmath}\n\t\
+    \t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts} \n\t\t\t\t\\usepackage{amssymb}\
+    \ \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\t\t\t\t\\usepackage{upgreek}\n\
+    \t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\t\t\t\\begin{document}$A(I) =\
+    \ 0.6 I$\\end{document}</tex-math><mml:math id=\"M94\"><mml:mi>A</mml:mi><mml:mo\
+    \ stretchy=\"false\">(</mml:mo><mml:mi>I</mml:mi><mml:mo stretchy=\"false\">)</mml:mo><mml:mo>=</mml:mo><mml:mn>0.6</mml:mn><mml:mi>I</mml:mi></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq42.gif\"/></alternatives></inline-formula>\
+    \ (<italic>gray, dashed</italic>). The <italic>horizontal dashed line</italic>\
+    \ is equal in length to <inline-formula id=\"IEq43\"><alternatives><tex-math id=\"\
+    M95\">\\documentclass[12pt]{minimal}\n\t\t\t\t\\usepackage{amsmath}\n\t\t\t\t\\\
+    usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts} \n\t\t\t\t\\usepackage{amssymb}\
+    \ \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\t\t\t\t\\usepackage{upgreek}\n\
+    \t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\t\t\t\\begin{document}$A(I)$\\\
+    end{document}</tex-math><mml:math id=\"M96\"><mml:mi>A</mml:mi><mml:mo stretchy=\"\
+    false\">(</mml:mo><mml:mi>I</mml:mi><mml:mo stretchy=\"false\">)</mml:mo></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq43.gif\"/></alternatives></inline-formula>,\
+    \ indicating that <inline-formula id=\"IEq44\"><alternatives><tex-math id=\"M97\"\
+    >\\documentclass[12pt]{minimal}\n\t\t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym}\
+    \ \n\t\t\t\t\\usepackage{amsfonts} \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\\
+    usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\t\t\t\t\\usepackage{upgreek}\n\
+    \t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\t\t\t\\begin{document}$f_{\\infty}$\\\
+    end{document}</tex-math><mml:math id=\"M98\"><mml:msub><mml:mi>f</mml:mi><mml:mi\
+    \ mathvariant=\"normal\">&#8734;</mml:mi></mml:msub></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq44.gif\"/></alternatives></inline-formula>\
+    \ is <inline-formula id=\"IEq45\"><alternatives><tex-math id=\"M99\">\\documentclass[12pt]{minimal}\n\
+    \t\t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts}\
+    \ \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\
+    \t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\
+    \t\t\t\\begin{document}$f_{0}$\\end{document}</tex-math><mml:math id=\"M100\"\
+    ><mml:msub><mml:mi>f</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq45.gif\"/></alternatives></inline-formula>\
+    \ shifted by <inline-formula id=\"IEq46\"><alternatives><tex-math id=\"M101\"\
+    >\\documentclass[12pt]{minimal}\n\t\t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym}\
+    \ \n\t\t\t\t\\usepackage{amsfonts} \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\\
+    usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\t\t\t\t\\usepackage{upgreek}\n\
+    \t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\t\t\t\\begin{document}$A(I)$\\\
+    end{document}</tex-math><mml:math id=\"M102\"><mml:mi>A</mml:mi><mml:mo stretchy=\"\
+    false\">(</mml:mo><mml:mi>I</mml:mi><mml:mo stretchy=\"false\">)</mml:mo></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq46.gif\"/></alternatives></inline-formula>\
+    \ (<inline-formula id=\"IEq47\"><alternatives><tex-math id=\"M103\">\\documentclass[12pt]{minimal}\n\
+    \t\t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts}\
+    \ \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\
+    \t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\
+    \t\t\t\\begin{document}$I = 5$\\end{document}</tex-math><mml:math id=\"M104\"\
+    ><mml:mi>I</mml:mi><mml:mo>=</mml:mo><mml:mn>5</mml:mn></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq47.gif\"/></alternatives></inline-formula>\
+    \ shifted back to <inline-formula id=\"IEq48\"><alternatives><tex-math id=\"M105\"\
+    >\\documentclass[12pt]{minimal}\n\t\t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym}\
+    \ \n\t\t\t\t\\usepackage{amsfonts} \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\\
+    usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\t\t\t\t\\usepackage{upgreek}\n\
+    \t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\t\t\t\\begin{document}$I = 2$\\\
+    end{document}</tex-math><mml:math id=\"M106\"><mml:mi>I</mml:mi><mml:mo>=</mml:mo><mml:mn>2</mml:mn></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq48.gif\"/></alternatives></inline-formula>).\
+    \ Thus, <inline-formula id=\"IEq49\"><alternatives><tex-math id=\"M107\">\\documentclass[12pt]{minimal}\n\
+    \t\t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts}\
+    \ \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\
+    \t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\
+    \t\t\t\\begin{document}$f_{\\infty}(I)$\\end{document}</tex-math><mml:math id=\"\
+    M108\"><mml:msub><mml:mi>f</mml:mi><mml:mi mathvariant=\"normal\">&#8734;</mml:mi></mml:msub><mml:mo\
+    \ stretchy=\"false\">(</mml:mo><mml:mi>I</mml:mi><mml:mo stretchy=\"false\">)</mml:mo></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq49.gif\"/></alternatives></inline-formula>\
+    \ can be viewed as a stretched version of <inline-formula id=\"IEq50\"><alternatives><tex-math\
+    \ id=\"M109\">\\documentclass[12pt]{minimal}\n\t\t\t\t\\usepackage{amsmath}\n\t\
+    \t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts} \n\t\t\t\t\\usepackage{amssymb}\
+    \ \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\t\t\t\t\\usepackage{upgreek}\n\
+    \t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\t\t\t\\begin{document}$f_{0}(I)$\\\
+    end{document}</tex-math><mml:math id=\"M110\"><mml:msub><mml:mi>f</mml:mi><mml:mn>0</mml:mn></mml:msub><mml:mo\
+    \ stretchy=\"false\">(</mml:mo><mml:mi>I</mml:mi><mml:mo stretchy=\"false\">)</mml:mo></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq50.gif\"/></alternatives></inline-formula>\n\
+    </p>"
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5483227/PMC5483227/13408_2017_47_Fig6_HTML.jpg
+  id: 13408_2017_Article_47/Fig6
+  label: "Fig.\_6"
+- caption: "<p xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\
+    >Predicted and actual <italic>f</italic>&#8211;<italic>I</italic> curves. The\
+    \ predicted <italic>f</italic>&#8211;<italic>I</italic> curve <inline-formula\
+    \ id=\"IEq137\"><alternatives><tex-math id=\"M311\">\\documentclass[12pt]{minimal}\n\
+    \t\t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts}\
+    \ \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\
+    \t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\
+    \t\t\t\\begin{document}$f_{\\mathrm{pred}}(I)$\\end{document}</tex-math><mml:math\
+    \ id=\"M312\"><mml:msub><mml:mi>f</mml:mi><mml:mi mathvariant=\"normal\">pred</mml:mi></mml:msub><mml:mo\
+    \ stretchy=\"false\">(</mml:mo><mml:mi>I</mml:mi><mml:mo stretchy=\"false\">)</mml:mo></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq137.gif\"/></alternatives></inline-formula>\
+    \ (<italic>red</italic>) estimated by averaging is a good approximation to the\
+    \ true <italic>f</italic>&#8211;<italic>I</italic> curve <inline-formula id=\"\
+    IEq138\"><alternatives><tex-math id=\"M313\">\\documentclass[12pt]{minimal}\n\t\
+    \t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts}\
+    \ \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\
+    \t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\
+    \t\t\t\\begin{document}$f(I)$\\end{document}</tex-math><mml:math id=\"M314\"><mml:mi>f</mml:mi><mml:mo\
+    \ stretchy=\"false\">(</mml:mo><mml:mi>I</mml:mi><mml:mo stretchy=\"false\">)</mml:mo></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq138.gif\"/></alternatives></inline-formula>\
+    \ (<italic>green</italic>) for the HR model. The <italic>black line</italic> is\
+    \ the unadapted firing rate, <inline-formula id=\"IEq139\"><alternatives><tex-math\
+    \ id=\"M315\">\\documentclass[12pt]{minimal}\n\t\t\t\t\\usepackage{amsmath}\n\t\
+    \t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts} \n\t\t\t\t\\usepackage{amssymb}\
+    \ \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\t\t\t\t\\usepackage{upgreek}\n\
+    \t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\t\t\t\\begin{document}$f_{0}$\\\
+    end{document}</tex-math><mml:math id=\"M316\"><mml:msub><mml:mi>f</mml:mi><mml:mn>0</mml:mn></mml:msub></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq139.gif\"/></alternatives></inline-formula>\
+    \ (<inline-formula id=\"IEq140\"><alternatives><tex-math id=\"M317\">\\documentclass[12pt]{minimal}\n\
+    \t\t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts}\
+    \ \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\
+    \t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\
+    \t\t\t\\begin{document}$s = 22$\\end{document}</tex-math><mml:math id=\"M318\"\
+    ><mml:mi>s</mml:mi><mml:mo>=</mml:mo><mml:mn>22</mml:mn></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq140.gif\"/></alternatives></inline-formula>)</p>"
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5483227/PMC5483227/13408_2017_47_Fig7_HTML.jpg
+  id: 13408_2017_Article_47/Fig7
+  label: "Fig.\_7"
+- caption: <p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">Modified
+    HR system with HB instead of SNIC. Fast subsystem bifurcation diagram with respect
+    to <italic>z</italic>. The change was accomplished by shifting the <italic>x</italic>-nullcline
+    to the right by 0.13 (see <italic>&#952;</italic> in Table&#160;<xref rid="Tab1"
+    ref-type="table">1</xref>)</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5483227/PMC5483227/13408_2017_47_Fig8_HTML.jpg
+  id: 13408_2017_Article_47/Fig8
+  label: "Fig.\_8"
+- caption: "<p xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\
+    >Curves of <inline-formula id=\"IEq142\"><alternatives><tex-math id=\"M335\">\\\
+    documentclass[12pt]{minimal}\n\t\t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym}\
+    \ \n\t\t\t\t\\usepackage{amsfonts} \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\\
+    usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\t\t\t\t\\usepackage{upgreek}\n\
+    \t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\t\t\t\\begin{document}$\\langle\
+    \ x \\rangle$\\end{document}</tex-math><mml:math id=\"M336\"><mml:mo stretchy=\"\
+    false\">&#9001;</mml:mo><mml:mi>x</mml:mi><mml:mo stretchy=\"false\">&#9002;</mml:mo></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq142.gif\"/></alternatives></inline-formula>\
+    \ in modified HR with HB. Averaged <italic>x</italic> curves, <inline-formula\
+    \ id=\"IEq143\"><alternatives><tex-math id=\"M337\">\\documentclass[12pt]{minimal}\n\
+    \t\t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts}\
+    \ \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\
+    \t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\
+    \t\t\t\\begin{document}$\\langle x \\rangle$\\end{document}</tex-math><mml:math\
+    \ id=\"M338\"><mml:mo stretchy=\"false\">&#9001;</mml:mo><mml:mi>x</mml:mi><mml:mo\
+    \ stretchy=\"false\">&#9002;</mml:mo></mml:math><inline-graphic xlink:href=\"\
+    13408_2017_47_Article_IEq143.gif\"/></alternatives></inline-formula>, (<italic>thick\
+    \ solid</italic>) correspond to <inline-formula id=\"IEq144\"><alternatives><tex-math\
+    \ id=\"M339\">\\documentclass[12pt]{minimal}\n\t\t\t\t\\usepackage{amsmath}\n\t\
+    \t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts} \n\t\t\t\t\\usepackage{amssymb}\
+    \ \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\t\t\t\t\\usepackage{upgreek}\n\
+    \t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\t\t\t\\begin{document}$I = -0.8,\
+    \ 2.8$\\end{document}</tex-math><mml:math id=\"M340\"><mml:mi>I</mml:mi><mml:mo>=</mml:mo><mml:mo>&#8722;</mml:mo><mml:mn>0.8</mml:mn><mml:mo>,</mml:mo><mml:mn>2.8</mml:mn></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq144.gif\"/></alternatives></inline-formula>,\
+    \ and 5.8, increasing from the left. <italic>z</italic>-nullclines (<italic>dotted</italic>)\
+    \ correspond to =20 (<italic>steeper</italic>) and 60. Other parameters as in\
+    \ Fig.&#160;<xref rid=\"Fig8\" ref-type=\"fig\">8</xref>\n</p>"
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5483227/PMC5483227/13408_2017_47_Fig9_HTML.jpg
+  id: 13408_2017_Article_47/Fig9
+  label: "Fig.\_9"
+- caption: <p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">Firing
+    rate curves for modified HR. Adding the adaptive variable <italic>z</italic> to
+    the modified HR system of Fig.&#160;<xref rid="Fig8" ref-type="fig">8</xref> makes
+    the <italic>f</italic>&#8211;<italic>I</italic> curve shallow and linear. This
+    shows that a SNIC in the unadapted system is not necessary for adaptation and
+    linearization, but larger <italic>s</italic> values are required (compare to Fig.&#160;<xref
+    rid="Fig5" ref-type="fig">5</xref>B)</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5483227/PMC5483227/13408_2017_47_Fig10_HTML.jpg
+  id: 13408_2017_Article_47/Fig10
+  label: "Fig.\_10"
+- caption: "<p xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\
+    >Conductance-based Morris&#8211;Lecar model with SNIC and adaptive current. (A)\
+    \ Adaptation and linearization of the <italic>f</italic>&#8211;<italic>I</italic>\
+    \ curve are seen for large adaptive conductance (<inline-formula id=\"IEq192\"\
+    ><alternatives><tex-math id=\"M431\">\\documentclass[12pt]{minimal}\n\t\t\t\t\\\
+    usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts}\
+    \ \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\
+    \t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\
+    \t\t\t\\begin{document}$g _{z} = 4\\mbox{ nS}$\\end{document}</tex-math><mml:math\
+    \ id=\"M432\"><mml:msub><mml:mi>g</mml:mi><mml:mi>z</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>4</mml:mn><mml:mtext>&#160;nS</mml:mtext></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq192.gif\"/></alternatives></inline-formula>,\
+    \ <italic>blue</italic>), but not for small conductance (<inline-formula id=\"\
+    IEq193\"><alternatives><tex-math id=\"M433\">\\documentclass[12pt]{minimal}\n\t\
+    \t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts}\
+    \ \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\
+    \t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\
+    \t\t\t\\begin{document}$g_{z} = 0.2\\mbox{ nS}$\\end{document}</tex-math><mml:math\
+    \ id=\"M434\"><mml:msub><mml:mi>g</mml:mi><mml:mi>z</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>0.2</mml:mn><mml:mtext>&#160;nS</mml:mtext></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq193.gif\"/></alternatives></inline-formula>,\
+    \ <italic>red</italic>). (B) Curves of <inline-formula id=\"IEq194\"><alternatives><tex-math\
+    \ id=\"M435\">\\documentclass[12pt]{minimal}\n\t\t\t\t\\usepackage{amsmath}\n\t\
+    \t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts} \n\t\t\t\t\\usepackage{amssymb}\
+    \ \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\t\t\t\t\\usepackage{upgreek}\n\
+    \t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\t\t\t\\begin{document}$v_{\\mathrm{equiv}}$\\\
+    end{document}</tex-math><mml:math id=\"M436\"><mml:msub><mml:mi>v</mml:mi><mml:mi\
+    \ mathvariant=\"normal\">equiv</mml:mi></mml:msub></mml:math><inline-graphic xlink:href=\"\
+    13408_2017_47_Article_IEq194.gif\"/></alternatives></inline-formula> are shown\
+    \ for equally spaced values of <italic>I</italic>, <inline-formula id=\"IEq195\"\
+    ><alternatives><tex-math id=\"M437\">\\documentclass[12pt]{minimal}\n\t\t\t\t\\\
+    usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts}\
+    \ \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\
+    \t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\
+    \t\t\t\\begin{document}$41, 43.5, 46$\\end{document}</tex-math><mml:math id=\"\
+    M438\"><mml:mn>41</mml:mn><mml:mo>,</mml:mo><mml:mn>43.5</mml:mn><mml:mo>,</mml:mo><mml:mn>46</mml:mn></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq195.gif\"/></alternatives></inline-formula>\
+    \ pA, increasing from left to right. Each trajectory evolves closely around the\
+    \ intersection point of the equivalent voltage curve and the <italic>w</italic>-nullcline\
+    \ for each <italic>I</italic>. To keep the diagram simple, we have plotted all\
+    \ the <italic>w</italic> nullclines with <inline-formula id=\"IEq196\"><alternatives><tex-math\
+    \ id=\"M439\">\\documentclass[12pt]{minimal}\n\t\t\t\t\\usepackage{amsmath}\n\t\
+    \t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts} \n\t\t\t\t\\usepackage{amssymb}\
+    \ \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\t\t\t\t\\usepackage{upgreek}\n\
+    \t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\t\t\t\\begin{document}$\\Delta=\
+    \ \\Delta(I_{\\star}) = -54\\mbox{ mV}$\\end{document}</tex-math><mml:math id=\"\
+    M440\"><mml:mi mathvariant=\"normal\">&#916;</mml:mi><mml:mo>=</mml:mo><mml:mi\
+    \ mathvariant=\"normal\">&#916;</mml:mi><mml:mo stretchy=\"false\">(</mml:mo><mml:msub><mml:mi>I</mml:mi><mml:mo>&#8902;</mml:mo></mml:msub><mml:mo\
+    \ stretchy=\"false\">)</mml:mo><mml:mo>=</mml:mo><mml:mo>&#8722;</mml:mo><mml:mn>54</mml:mn><mml:mtext>&#160;mV</mml:mtext></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq196.gif\"/></alternatives></inline-formula>\n\
+    </p>"
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5483227/PMC5483227/13408_2017_47_Fig11_HTML.jpg
+  id: 13408_2017_Article_47/Fig11
+  label: "Fig.\_11"
+- caption: "<p xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\
+    >Conductance-based Morris&#8211;Lecar model with HB and adaptive current. (A)\
+    \ Adaptation and linearization of the <italic>f</italic>&#8211;<italic>I</italic>\
+    \ curve are also seen in this case for large conductance (<inline-formula id=\"\
+    IEq197\"><alternatives><tex-math id=\"M459\">\\documentclass[12pt]{minimal}\n\t\
+    \t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts}\
+    \ \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\
+    \t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\
+    \t\t\t\\begin{document}$g=6\\mbox{ nS}$\\end{document}</tex-math><mml:math id=\"\
+    M460\"><mml:mi>g</mml:mi><mml:mo>=</mml:mo><mml:mn>6</mml:mn><mml:mtext>&#160;nS</mml:mtext></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq197.gif\"/></alternatives></inline-formula>,\
+    \ <italic>blue</italic>), but not small conductance (<inline-formula id=\"IEq198\"\
+    ><alternatives><tex-math id=\"M461\">\\documentclass[12pt]{minimal}\n\t\t\t\t\\\
+    usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts}\
+    \ \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\
+    \t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\
+    \t\t\t\\begin{document}$g=1\\mbox{ nS}$\\end{document}</tex-math><mml:math id=\"\
+    M462\"><mml:mi>g</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mtext>&#160;nS</mml:mtext></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq198.gif\"/></alternatives></inline-formula>,\
+    \ <italic>red</italic>). (B) Curves of <inline-formula id=\"IEq199\"><alternatives><tex-math\
+    \ id=\"M463\">\\documentclass[12pt]{minimal}\n\t\t\t\t\\usepackage{amsmath}\n\t\
+    \t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts} \n\t\t\t\t\\usepackage{amssymb}\
+    \ \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\t\t\t\t\\usepackage{upgreek}\n\
+    \t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\t\t\t\\begin{document}$v_{\\mathrm{equiv}}$\\\
+    end{document}</tex-math><mml:math id=\"M464\"><mml:msub><mml:mi>v</mml:mi><mml:mi\
+    \ mathvariant=\"normal\">equiv</mml:mi></mml:msub></mml:math><inline-graphic xlink:href=\"\
+    13408_2017_47_Article_IEq199.gif\"/></alternatives></inline-formula> are shown\
+    \ for <inline-formula id=\"IEq200\"><alternatives><tex-math id=\"M465\">\\documentclass[12pt]{minimal}\n\
+    \t\t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts}\
+    \ \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\
+    \t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\
+    \t\t\t\\begin{document}$I=58, 60, 62$\\end{document}</tex-math><mml:math id=\"\
+    M466\"><mml:mi>I</mml:mi><mml:mo>=</mml:mo><mml:mn>58</mml:mn><mml:mo>,</mml:mo><mml:mn>60</mml:mn><mml:mo>,</mml:mo><mml:mn>62</mml:mn></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq200.gif\"/></alternatives></inline-formula>\
+    \ pA, increasing from left to right. Each trajectory evolves closely around the\
+    \ intersection point of the equivalent curve and the <italic>w</italic>-nullcline.\
+    \ All <italic>w</italic> nullclines are plotted with <inline-formula id=\"IEq201\"\
+    ><alternatives><tex-math id=\"M467\">\\documentclass[12pt]{minimal}\n\t\t\t\t\\\
+    usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts}\
+    \ \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\
+    \t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\
+    \t\t\t\\begin{document}$\\Delta= \\Delta(I_{\\star}) = -63\\mbox{ mV}$\\end{document}</tex-math><mml:math\
+    \ id=\"M468\"><mml:mi mathvariant=\"normal\">&#916;</mml:mi><mml:mo>=</mml:mo><mml:mi\
+    \ mathvariant=\"normal\">&#916;</mml:mi><mml:mo stretchy=\"false\">(</mml:mo><mml:msub><mml:mi>I</mml:mi><mml:mo>&#8902;</mml:mo></mml:msub><mml:mo\
+    \ stretchy=\"false\">)</mml:mo><mml:mo>=</mml:mo><mml:mo>&#8722;</mml:mo><mml:mn>63</mml:mn><mml:mtext>&#160;mV</mml:mtext></mml:math><inline-graphic\
+    \ xlink:href=\"13408_2017_47_Article_IEq201.gif\"/></alternatives></inline-formula>\n\
+    </p>"
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5483227/PMC5483227/13408_2017_47_Fig12_HTML.jpg
+  id: 13408_2017_Article_47/Fig12
+  label: "Fig.\_12"

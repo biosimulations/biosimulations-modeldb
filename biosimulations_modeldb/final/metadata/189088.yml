@@ -1,0 +1,354 @@
+references:
+- label: 'Laura A. Atherton, Luke Y. Prince & Krasimira Tsaneva-Atanasova. Bifurcation
+    analysis of a two-compartment hippocampal pyramidal cell model. Journal of Computational
+    Neuroscience 41, 1: 91-106 (2016).'
+  uri: http://identifiers.org/doi:10.1007/s10827-016-0606-8
+taxa: []
+thumbnails:
+- caption: "<p xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\
+    >Approximation of discontinuous function. Approximated functions (<bold>a</bold>,\
+    \ <bold>c</bold>, <bold>e</bold>) and corresponding error of approximation (<bold>b</bold>,\
+    \ <bold>d</bold>, <bold>f</bold>) for <inline-formula id=\"IEq4\"><alternatives><tex-math\
+    \ id=\"M27\">\\documentclass[12pt]{minimal}\n\t\t\t\t\\usepackage{amsmath}\n\t\
+    \t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts} \n\t\t\t\t\\usepackage{amssymb}\
+    \ \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\t\t\t\t\\usepackage{upgreek}\n\
+    \t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\t\t\t\\begin{document}$c_{\\infty\
+    \ }$\\end{document}</tex-math><mml:math id=\"M28\"><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mi>&#8734;</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic\
+    \ xlink:href=\"10827_2016_606_Article_IEq4.gif\"/></alternatives></inline-formula>,\
+    \ (<italic>blue</italic>) and <italic>&#964;</italic>\n<sub><italic>c</italic></sub>\
+    \ (<italic>red</italic>) (A-B), <inline-formula id=\"IEq5\"><alternatives><tex-math\
+    \ id=\"M29\">\\documentclass[12pt]{minimal}\n\t\t\t\t\\usepackage{amsmath}\n\t\
+    \t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts} \n\t\t\t\t\\usepackage{amssymb}\
+    \ \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\t\t\t\t\\usepackage{upgreek}\n\
+    \t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\t\t\t\\begin{document}$q_{\\infty\
+    \ }$\\end{document}</tex-math><mml:math id=\"M30\"><mml:msub><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mrow><mml:mi>&#8734;</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic\
+    \ xlink:href=\"10827_2016_606_Article_IEq5.gif\"/></alternatives></inline-formula>\
+    \ (<italic>blue</italic>) and <italic>&#964;</italic>\n<sub><italic>q</italic></sub>\
+    \ (<italic>red</italic>) (<bold>c</bold>&#8211;<bold>d</bold>), and <italic>&#967;</italic>\
+    \ (<italic>blue</italic>) (<bold>e</bold>). For the approximated functions, the\
+    \ original discontinuous functions are plotted in <italic>black</italic>. Relative\
+    \ error was used for the time constant functions (<italic>&#964;</italic>\n<sub><italic>c</italic></sub>\
+    \ and <italic>&#964;</italic>\n<sub><italic>q</italic></sub>), where error was\
+    \ computed over a large range of values, while absolute error was used for <inline-formula\
+    \ id=\"IEq6\"><alternatives><tex-math id=\"M31\">\\documentclass[12pt]{minimal}\n\
+    \t\t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts}\
+    \ \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\
+    \t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\
+    \t\t\t\\begin{document}$c_{\\infty }$\\end{document}</tex-math><mml:math id=\"\
+    M32\"><mml:msub><mml:mrow><mml:mi>c</mml:mi></mml:mrow><mml:mrow><mml:mi>&#8734;</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic\
+    \ xlink:href=\"10827_2016_606_Article_IEq6.gif\"/></alternatives></inline-formula>,\
+    \ <inline-formula id=\"IEq7\"><alternatives><tex-math id=\"M33\">\\documentclass[12pt]{minimal}\n\
+    \t\t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts}\
+    \ \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\
+    \t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\
+    \t\t\t\\begin{document}$q_{\\infty }$\\end{document}</tex-math><mml:math id=\"\
+    M34\"><mml:msub><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mrow><mml:mi>&#8734;</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic\
+    \ xlink:href=\"10827_2016_606_Article_IEq7.gif\"/></alternatives></inline-formula>\
+    \ and <italic>&#967;</italic>\n</p>"
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4927618/PMC4927618/10827_2016_606_Fig1_HTML.jpg
+  id: 10827_2016_Article_606/Fig1
+  label: Fig. 1
+- caption: '<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">Comparison
+    of firing patterns and f/I curves of the original model and our approximated model.
+    <bold>a</bold>
+
+    <italic>V</italic>
+
+    <sub>s</sub> and <italic>C</italic>
+
+    <italic>a</italic> in the original (<italic>black</italic> and <italic>red</italic>,
+    respectively) and approximated (<italic>blue</italic> and <italic>magenta</italic>,
+    respectively) models for different parameter regimes as follows: somatic input
+    (<italic>I</italic>
+
+    <sub>Sapp</sub>=0.75), dendritic input (<italic>I</italic>
+
+    <sub>Dapp</sub>=&#8722;0.5, <italic>g</italic>
+
+    <sub>NMDA</sub>=1.25), strong somatic input (<italic>I</italic>
+
+    <sub>Sapp</sub>=2.5), somatic input with tight coupling (<italic>I</italic>
+
+    <sub>Sapp</sub>=2.5, <italic>g</italic>
+
+    <sub>C</sub>=10.5), and dendritic input with weak coupling (<italic>I</italic>
+
+    <sub>Dapp</sub>=&#8722;0.5, <italic>g</italic>
+
+    <sub>NMDA</sub>=1.25, <italic>g</italic>
+
+    <sub>C</sub>=1.425). <bold>b</bold> f/I curves in the original model (<italic>black</italic>)
+    or approximated model (<italic>red</italic>) for the isolated soma or dendrite
+    (<italic>upper panels</italic>) and the 2-compartment model with standard <italic>g</italic>
+
+    <sub>C</sub>=2.1 (<italic>middle panels</italic>), infinite <italic>g</italic>
+
+    <sub>C</sub> (<italic>lower left panel</italic>) and <italic>g</italic>
+
+    <sub>C</sub>=1.85 (<italic>lower right panel</italic>) for comparison with the
+    Traub model (Traub et al. <xref ref-type="bibr" rid="CR68">1991</xref>) in <italic>blue</italic>.
+    <italic>Circles</italic> indicate burst frequency, <italic>triangles</italic>
+    are spike frequency and <italic>squares</italic> are mixed burst-spike frequency</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4927618/PMC4927618/10827_2016_606_Fig2_HTML.jpg
+  id: 10827_2016_Article_606/Fig2
+  label: Fig. 2
+- caption: '<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">Bifurcation
+    analysis for applied somatic current. <bold>a</bold> Bifurcation diagram with
+    <italic>I</italic>
+
+    <sub>Sapp</sub> as the bifurcation parameter. Stable nodes (<italic>black line</italic>),
+    saddles (<italic>red dashed line</italic>), stable periodic orbit maxima and minima
+    (<italic>green dots</italic>), unstable periodic orbit maxima and minima (<italic>blue
+    dots</italic>), bifurcation points (<italic>magenta dots</italic>). SN1 saddle
+    node bifurcation 1, SN2 saddle node bifurcation 2, HB supercritical hopf bifurcation,
+    TR1 torus bifurcation 1, TR2 torus bifurcation 2, PD period doubling bifurcation,
+    HC homoclinic bifurcation. <bold>b</bold> Period of limit cycle solutions. <bold>c</bold>
+    Phase portrait in <italic>V</italic>
+
+    <sub>s</sub> and <italic>h</italic> at the homoclinic bifurcation point. SN1 (<italic>magenta</italic>),
+    saddle at homoclinic bifurcation (<italic>cyan dot</italic>). D) Representative
+    traces of somatic voltage at different values of <italic>I</italic>
+
+    <sub>Sapp</sub>. <italic>Dashed line</italic> represents &#8722;75 mV for reference</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4927618/PMC4927618/10827_2016_606_Fig3_HTML.jpg
+  id: 10827_2016_Article_606/Fig3
+  label: Fig. 3
+- caption: '<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">Bifurcation
+    analysis for applied dendritic current. <bold>a</bold> Bifurcation diagram with
+    <italic>I</italic>
+
+    <sub>Dapp</sub> as the bifurcation parameter. Stable nodes (<italic>black line</italic>),
+    saddles (<italic>red dashed line</italic>), stable periodic orbit maxima and minima
+    (<italic>green dots</italic>), unstable periodic orbit maxima and minima (<italic>blue
+    dots</italic>), bifurcation points (<italic>magenta dots</italic>). SN1 saddle
+    node bifurcation 1, SN2 saddle node bifurcation 2, HB supercritical hopf bifurcation,
+    SN3 saddle node bifurcation 3, TR1 torus bifurcation 1, TR2 torus bifurcation
+    2, HC homoclinic bifurcation. <bold>b</bold> Period of limit cycle solutions.
+    <bold>c</bold> Phase portrait in <italic>V</italic>
+
+    <sub><italic>s</italic></sub> and <italic>h</italic> at the homoclinic bifurcation
+    point. SN1 represented by magenta dot and saddle at homoclinic bifurcation represented
+    by cyan dot. <bold>d</bold> Example traces of somatic voltage at different values
+    of <italic>I</italic>
+
+    <sub>Dapp</sub>. <italic>Dashed line</italic> represents &#8722;75 mV for reference</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4927618/PMC4927618/10827_2016_606_Fig4_HTML.jpg
+  id: 10827_2016_Article_606/Fig4
+  label: Fig. 4
+- caption: '<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">Bifurcation
+    analysis of the CA1 cell for applied somatic and dendritic current. NB. For these
+    diagrams <italic>g</italic>
+
+    <sub>Ca</sub>=7<bold>a</bold> Projection of the bifurcation diagram with <italic>I</italic>
+
+    <sub>Sapp</sub> as the bifurcation parameter. Stable nodes (<italic>black line</italic>),
+    saddles (<italic>red dashed line</italic>), stable periodic orbit maxima and minima
+    (<italic>green dots</italic>), unstable periodic orbit maxima and minima (<italic>blue
+    dots</italic>), bifurcation points (<italic>magenta dots</italic>). SN1 saddle
+    node bifurcation 1 (<italic>I</italic>
+
+    <sub>Sapp</sub>=0.0557), SN2 saddle node bifurcation 2 (<italic>I</italic>
+
+    <sub>Sapp</sub>=&#8722;81.11), HB supercritical hopf bifurcation (<italic>I</italic>
+
+    <sub>Sapp</sub>=24.01), TR1 torus bifurcation 1 (<italic>I</italic>
+
+    <sub>Sapp</sub>=18.73), TR2 torus bifurcation 2 (<italic>I</italic>
+
+    <sub>Sapp</sub>=17.37), SNIC saddle-node on invariant circle bifurcation (<italic>I</italic>
+
+    <sub>Sapp</sub>=0.0556). <bold>b</bold> Period of limit cycle solutions for <italic>I</italic>
+
+    <sub>Sapp</sub> as the bifurcation parameter. <bold>c</bold> Phase portrait in
+    <italic>V</italic>
+
+    <sub><italic>s</italic></sub> and <italic>h</italic> at the SNIC bifurcation for
+    <italic>I</italic>
+
+    <sub>Sapp</sub>. SN1 is represented by a magenta dot. <bold>d</bold> Projection
+    of the bifurcation diagram with <italic>I</italic>
+
+    <sub>Dapp</sub> as the bifurcation parameter. SN1 at <italic>I</italic>
+
+    <sub>Sapp</sub>=0.05745, SN2 at <italic>I</italic>
+
+    <sub>Dapp</sub>=&#8722;83.33, HB at <italic>I</italic>
+
+    <sub>Dapp</sub>=141.0, SN3 saddle node bifurcation 3 at <italic>I</italic>
+
+    <sub>Dapp</sub>=288.3, SN4 saddle node bifurcation 4 at <italic>I</italic>
+
+    <sub>Dapp</sub>=&#8722;175.2 and SNIC at <italic>I</italic>
+
+    <sub>Dapp</sub>=0.0574. <bold>e</bold> Period of limit cycle solutions for <italic>I</italic>
+
+    <sub>Dapp</sub> as the bifurcation parameter. <bold>f</bold> Phase portrait in
+    <italic>V</italic>
+
+    <sub><italic>s</italic></sub> and <italic>h</italic> at the SNIC bifurcation for
+    <italic>I</italic>
+
+    <sub>Dapp</sub>. SN1 is represented by a magenta dot</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4927618/PMC4927618/10827_2016_606_Fig5_HTML.jpg
+  id: 10827_2016_Article_606/Fig5
+  label: Fig. 5
+- caption: '<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">Projection
+    of the 2 parameter continuation in <italic>I</italic>
+
+    <sub>Sapp</sub> (<bold>a</bold>) or <italic>I</italic>
+
+    <sub>Dapp</sub> (<bold>b</bold>) and <italic>g</italic>
+
+    <sub><italic>C</italic><italic>a</italic></sub>. <italic>Solid black line</italic>
+    - SN1, <italic>dotted black line</italic> - SN2, <italic>dashed black line</italic>
+    - SN3, <italic>green line</italic> - HB, <italic>blue line</italic> - HC, <italic>magenta
+    dot</italic> - SNIC bifurcation for CA1 cell. <italic>Inset</italic> - zoomed
+    in at the codimension-2 SNIC bifurcation where the HC and SN1 curves meet. To
+    construct these diagrams, the bifurcations found in <italic>I</italic> were then
+    continued in the <italic>g</italic>
+
+    <sub>Ca</sub> parameter space such that a horizontal slice through these diagrams
+    (e.g. <italic>g</italic>Ca=10) would be the same as the 1-parameter bifurcation
+    diagram in <italic>I</italic> for this value of <italic>g</italic>
+
+    <sub>Ca</sub> (i.e. that of Figs.&#160;<xref rid="Fig3" ref-type="fig">3</xref>&#8211;<xref
+    rid="Fig4" ref-type="fig">4</xref>)</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4927618/PMC4927618/10827_2016_606_Fig6_HTML.jpg
+  id: 10827_2016_Article_606/Fig6
+  label: Fig. 6
+- caption: "<p xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\
+    >Role of <italic>C</italic>\n<italic>a</italic> in irregular spiking activity.\
+    \ <bold>a</bold> Example trace of a irregular spiking activity whereby a train\
+    \ of singlets transition into doublet and triplet activity. <italic>V</italic>\n\
+    <sub>d</sub> (<italic>red</italic>), <italic>C</italic>\n<italic>a</italic> (<italic>blue</italic>)\
+    \ and <inline-formula id=\"IEq12\"><alternatives><tex-math id=\"M43\">\\documentclass[12pt]{minimal}\n\
+    \t\t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts}\
+    \ \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\
+    \t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\
+    \t\t\t\\begin{document}$I_{\\mathrm {K_{\\text {Ca}}}}$\\end{document}</tex-math><mml:math\
+    \ id=\"M44\"><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mstyle\
+    \ mathvariant=\"normal\"><mml:msub><mml:mrow><mml:mi>K</mml:mi></mml:mrow><mml:mrow><mml:mtext>Ca</mml:mtext></mml:mrow></mml:msub></mml:mstyle></mml:mrow></mml:msub></mml:math><inline-graphic\
+    \ xlink:href=\"10827_2016_606_Article_IEq12.gif\"/></alternatives></inline-formula>\
+    \ (<italic>magenta</italic>). The oscillation used to calculate phase is shown\
+    \ above (<italic>black</italic>). De-marked atop of the oscillation are the early\
+    \ singlet <italic>V</italic>\n<sub>d</sub> (<italic>red x</italic>) and <italic>C</italic>\n\
+    <italic>a</italic> (<italic>blue x</italic>) peak times. The oscillation period\
+    \ was set by the mean inter-spike interval of these early singlet <italic>V</italic>\n\
+    <sub>d</sub> peaks, and was shifted to minimise the distance between the oscillation\
+    \ peak and the early singlet <italic>V</italic>\n<sub>d</sub> peaks. Notice how\
+    \ the last singlet <italic>V</italic>\n<sub>d</sub> (<italic>red o</italic>) and\
+    \ <italic>C</italic>\n<italic>a</italic> (<italic>blue o</italic>) peaks in the\
+    \ singlet train are phase-advanced in the oscillation. <bold>b</bold> Polar plot\
+    \ of the <italic>V</italic>\n<sub>d</sub> and <italic>C</italic>\n<italic>a</italic>\
+    \ peak phases taken from 7 cases where there are at least 5 consecutive singlets\
+    \ before transition to doublet activity. 0 degrees is the peak of the oscillation\
+    \ and 180 is the trough. The radial axis (0&#8722;1) shows the normalised <italic>V</italic>\n\
+    <sub>d</sub> or <italic>C</italic>\n<italic>a</italic> amplitude (relative to\
+    \ maximum range). The last singlet <italic>V</italic>\n<sub>d</sub> and <italic>C</italic>\n\
+    <italic>a</italic> peaks (o) are consistently phase-advanced compared to the early\
+    \ singlet peaks (x). <bold>c</bold> Average <italic>C</italic>\n<italic>a</italic>&#8722;<italic>V</italic>\n\
+    <sub>d</sub> phase difference against the average peak <inline-formula id=\"IEq13\"\
+    ><alternatives><tex-math id=\"M45\">\\documentclass[12pt]{minimal}\n\t\t\t\t\\\
+    usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts}\
+    \ \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\
+    \t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\
+    \t\t\t\\begin{document}$\\protect I_{\\mathrm {K}_{\\text {Ca}}}$\\end{document}</tex-math><mml:math\
+    \ id=\"M46\"><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi\
+    \ mathvariant=\"normal\">K</mml:mi></mml:mrow><mml:mrow><mml:mtext>Ca</mml:mtext></mml:mrow></mml:msub></mml:mrow></mml:msub></mml:math><inline-graphic\
+    \ xlink:href=\"10827_2016_606_Article_IEq13.gif\"/></alternatives></inline-formula>.\
+    \ There is a fairly consistent <italic>C</italic>\n<italic>a</italic>&#8722;<italic>V</italic>\n\
+    <sub>d</sub> phase difference and <inline-formula id=\"IEq14\"><alternatives><tex-math\
+    \ id=\"M47\">\\documentclass[12pt]{minimal}\n\t\t\t\t\\usepackage{amsmath}\n\t\
+    \t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts} \n\t\t\t\t\\usepackage{amssymb}\
+    \ \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\t\t\t\t\\usepackage{upgreek}\n\
+    \t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\t\t\t\\begin{document}$\\protect\
+    \ I_{\\mathrm {K}_{\\text {Ca}}}$\\end{document}</tex-math><mml:math id=\"M48\"\
+    ><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi\
+    \ mathvariant=\"normal\">K</mml:mi></mml:mrow><mml:mrow><mml:mtext>Ca</mml:mtext></mml:mrow></mml:msub></mml:mrow></mml:msub></mml:math><inline-graphic\
+    \ xlink:href=\"10827_2016_606_Article_IEq14.gif\"/></alternatives></inline-formula>\
+    \ for the early singlets (x). However for the last singlet in the train (o), the\
+    \ <italic>C</italic>\n<italic>a</italic>&#8722;<italic>V</italic>\n<sub>d</sub>\
+    \ phase difference is reduced and this corresponds to a higher <inline-formula\
+    \ id=\"IEq15\"><alternatives><tex-math id=\"M49\">\\documentclass[12pt]{minimal}\n\
+    \t\t\t\t\\usepackage{amsmath}\n\t\t\t\t\\usepackage{wasysym} \n\t\t\t\t\\usepackage{amsfonts}\
+    \ \n\t\t\t\t\\usepackage{amssymb} \n\t\t\t\t\\usepackage{amsbsy}\n\t\t\t\t\\usepackage{mathrsfs}\n\
+    \t\t\t\t\\usepackage{upgreek}\n\t\t\t\t\\setlength{\\oddsidemargin}{-69pt}\n\t\
+    \t\t\t\\begin{document}$\\protect I_{\\mathrm {K}_{\\text {Ca}}}$\\end{document}</tex-math><mml:math\
+    \ id=\"M50\"><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi\
+    \ mathvariant=\"normal\">K</mml:mi></mml:mrow><mml:mrow><mml:mtext>Ca</mml:mtext></mml:mrow></mml:msub></mml:mrow></mml:msub></mml:math><inline-graphic\
+    \ xlink:href=\"10827_2016_606_Article_IEq15.gif\"/></alternatives></inline-formula>\n\
+    </p>"
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4927618/PMC4927618/10827_2016_606_Fig7_HTML.jpg
+  id: 10827_2016_Article_606/Fig7
+  label: Fig. 7
+- caption: '<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">Bifurcation
+    structure in <italic>q</italic> for CA3 bursting. <bold>a</bold> Gating variable
+    time constants within the effective range of <italic>V</italic>
+
+    <sub>s</sub> (i), for <italic>&#964;</italic>
+
+    <sub>n</sub> (<italic>black</italic>) and <italic>&#964;</italic>
+
+    <sub>h</sub> (<italic>red</italic>); <italic>V</italic>
+
+    <sub>d</sub> (ii) for <italic>&#964;</italic>
+
+    <sub>s</sub> (<italic>blue</italic>) and <italic>&#964;</italic>
+
+    <sub>c</sub> (green); and <italic>C</italic>
+
+    <italic>a</italic> (iii) for <italic>&#964;</italic>
+
+    <sub>q</sub> (<italic>magenta</italic>). <bold>b</bold> Bifurcation diagram of
+    the fast subsystem with <italic>q</italic> as the bifurcation parameter. Inset
+    - zoomed in around the values of interest for <italic>q</italic>. Stable nodes
+    (<italic>black line</italic>), saddles (<italic>dotted red line</italic>), unstable
+    bursting orbit maxima and minima (<italic>blue lines</italic>), stable bursting
+    orbit (<italic>green lines</italic>), bifurcation points (<italic>magenta dots</italic>),
+    and burst trajecory in the <italic>q</italic>&#8722;<italic>V</italic>
+
+    <sub>s</sub> plane (<italic>cyan</italic>). SNIC saddle node on invariant cicle
+    bifurcation; PD1-2 period doubling bifurcations 1-2; SNP saddle node bifurcation
+    of periodic solutions; HC homoclinic bifurcation. <bold>c</bold> Time course of
+    the burst for <italic>V</italic>
+
+    <sub>s</sub> (<italic>black</italic>) and <italic>q</italic> (<italic>blue</italic>).
+    A dotted red line representing the value of <italic>q</italic> at the SNIC is
+    overlayed. Phase portrait in <italic>V</italic>
+
+    <sub>s</sub> and <italic>h</italic> at the SNIC bifurcation (magenta dot) (<bold>d</bold>)
+    and HC bifurcation (<bold>e</bold>) - note the lack of overlap between the SNIC
+    (magenta dot) and the saddle at the HC (<italic>cyan dot</italic>). <bold>f</bold>
+    Period of bursting solutions</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4927618/PMC4927618/10827_2016_606_Fig8_HTML.jpg
+  id: 10827_2016_Article_606/Fig8
+  label: Fig. 8
+- caption: '<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">Bifurcation
+    structure in <italic>C</italic>
+
+    <italic>a</italic> for CA3 bursting. <bold>a</bold> Bifurcation diagram of the
+    fast subsystem with <italic>C</italic>
+
+    <italic>a</italic> as the bifurcation parameter. Inset - zoomed in around the
+    hopf bifurcation. Stable nodes (<italic>black line</italic>), saddles (<italic>dotted
+    red line</italic>), unstable periodic orbit maxima and minima (<italic>blue line</italic>),
+    bifurcation points (<italic>magenta dots</italic>), and burst trajectory in the
+    <italic>C</italic>
+
+    <italic>a</italic>&#8722;<italic>V</italic>
+
+    <sub>s</sub> plane (<italic>cyan</italic>). SN1-5 saddle node bifurcations 1-5;
+    HB subcritical hopf bifurcation; SNP saddle node bifurcation of periodic solutions;
+    HC homoclinic bifurcation. <bold>b</bold> Time course of the burst for <italic>V</italic>
+
+    <sub>s</sub> (<italic>black</italic>) and <italic>C</italic>
+
+    <italic>a</italic> (<italic>blue</italic>). C) Period of limit cycle solutions.
+    <bold>d</bold> Phase portrait in <italic>V</italic>
+
+    <sub>s</sub> and <italic>h</italic> at the homoclinic bifurcation point. Note
+    the lack of overlap between SN1 (<italic>magenta dot</italic>) and the saddle
+    at the HC (<italic>cyan dot</italic>)</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4927618/PMC4927618/10827_2016_606_Fig9_HTML.jpg
+  id: 10827_2016_Article_606/Fig9
+  label: Fig. 9

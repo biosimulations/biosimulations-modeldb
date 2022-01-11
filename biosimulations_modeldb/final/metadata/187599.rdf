@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <dc:title>An ion-based model for swelling of neurons and astrocytes (Hubel &amp; Ullah 2016)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <dc:abstract>The programs describe ion dynamics and osmosis-driven cellular swelling. “code_fig3.ode” shows a &#13;
+scenario of permanent cessation of energy supply / Na/K-pump activity, and the induced transition from &#13;
+normal conditions to the Donnan equilibrium for an isolated neuron and its extracellular space. &#13;
+&#13;
+“code_Fig7.ode” shows spreading depolarization induced by an interruption of energy supply in a model &#13;
+consisting of a neuron, a glia cell and the extracellular space. The simulations show the evolution of ion&#13;
+concentrations, Nernst potentials, the membrane potential, gating variables and cellular volumes.</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Neuron or other electrically excitable cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=120799">http://modeldb.science/ModelList?id=120799</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Glia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=87589">http://modeldb.science/ModelList?id=87589</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>Astrocyte</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=156124">http://modeldb.science/ModelList?id=156124</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>Abstract single compartment conductance based cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=240">http://modeldb.science/ModelList?id=240</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>I Chloride</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <bqbiol:encodes rdf:resource="local:00005">local:00005</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=242">http://modeldb.science/ModelList?id=242</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>I Na,t</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <bqbiol:encodes rdf:resource="local:00006">local:00006</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=246">http://modeldb.science/ModelList?id=246</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>I p,q</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <bqbiol:encodes rdf:resource="local:00007">local:00007</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=248">http://modeldb.science/ModelList?id=248</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>I K</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <bqbiol:encodes rdf:resource="local:00008">local:00008</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=249">http://modeldb.science/ModelList?id=249</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>I K,leak</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <bqbiol:encodes rdf:resource="local:00009">local:00009</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=251">http://modeldb.science/ModelList?id=251</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <rdfs:label>I h</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <bqbiol:encodes rdf:resource="local:00010">local:00010</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=2395">http://modeldb.science/ModelList?id=2395</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <rdfs:label>I Sodium</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <bqbiol:encodes rdf:resource="local:00011">local:00011</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=116966">http://modeldb.science/ModelList?id=116966</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <rdfs:label>I_K,Na</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <bqbiol:encodes rdf:resource="local:00012">local:00012</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=120693">http://modeldb.science/ModelList?id=120693</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <rdfs:label>Na/K pump</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <bqbiol:encodes rdf:resource="local:00013">local:00013</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=139267">http://modeldb.science/ModelList?id=139267</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <rdfs:label>I Cl, leak</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <bqbiol:encodes rdf:resource="local:00014">local:00014</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=139268">http://modeldb.science/ModelList?id=139268</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <rdfs:label>I Na, leak</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <bqbiol:encodes rdf:resource="local:00015">local:00015</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=144382">http://modeldb.science/ModelList?id=144382</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <rdfs:label>Osmosis-driven water flux</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <bqbiol:encodes rdf:resource="local:00016">local:00016</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=236">http://modeldb.science/ModelList?id=236</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <rdfs:label>Ions</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <bqbiol:encodes rdf:resource="local:00017">local:00017</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=121254">http://modeldb.science/ModelList?id=121254</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <rdfs:label>Depolarization block</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <bqbiol:encodes rdf:resource="local:00018">local:00018</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00019">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=139270">http://modeldb.science/ModelList?id=139270</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00019">
+    <rdfs:label>Anoxic depolarization</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <bqbiol:encodes rdf:resource="local:00019">local:00019</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00020">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=167716">http://modeldb.science/ModelList?id=167716</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00020">
+    <rdfs:label>Spreading depression</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <bqbiol:encodes rdf:resource="local:00020">local:00020</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00021">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=183421">http://modeldb.science/ModelList?id=183421</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00021">
+    <rdfs:label>Volume transmission</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <bqbiol:encodes rdf:resource="local:00021">local:00021</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g001.jpg">http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g001.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g002.jpg">http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g002.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g003.jpg">http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g003.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g004.jpg">http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g004.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g005.jpg">http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g005.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g006.jpg">http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g006.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g007.jpg">http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g007.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g008.jpg">http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g008.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g009.jpg">http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g009.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00022">
+    <dc:identifier rdf:resource="mailto:niklas.huebel@gmail.com">mailto:niklas.huebel@gmail.com</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00022">
+    <rdfs:label>Niklas Hübel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00022">
+    <foaf:accountName rdf:resource="mailto:niklas.huebel@gmail.com">mailto:niklas.huebel@gmail.com</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00022">
+    <foaf:name>Niklas Hübel</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <dc:contributor rdf:resource="local:00022">local:00022</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00023">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00023">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00023">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00023">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <dc:contributor rdf:resource="local:00023">local:00023</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00024">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00024">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00024">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00024">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <dc:contributor rdf:resource="local:00024">local:00024</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00025">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:187599">https://identifiers.org/modeldb:187599</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00025">
+    <rdfs:label>modeldb:187599</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <bqmodel:is rdf:resource="local:00025">local:00025</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00026">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1371/journal.pone.0147060">http://identifiers.org/doi:10.1371/journal.pone.0147060</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00026">
+    <rdfs:label>Niklas Hübel &amp; Ghanim Ullah. Anions Govern Cell Volume: A Case Study of Relative Astrocytic and Neuronal Swelling in Spreading Depolarization. PLOS ONE 11, 3: e0147060 (2016).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00026">local:00026</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <dc:created>2016-02-02</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187599.omex">
+    <dc:modified>2016-02-03</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

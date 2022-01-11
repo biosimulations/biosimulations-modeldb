@@ -1,0 +1,209 @@
+references:
+- label: "Maria Lindskog, MyungSook Kim, Martin A Wikstr\xF6m, Kim T Blackwell & Jeanette\
+    \ Hellgren Kotaleski. Transient calcium and dopamine increase PKA activity and\
+    \ DARPP-32 phosphorylation. PLoS Computational Biology 2, 9: e119 (2006)."
+  uri: http://identifiers.org/doi:10.1371/journal.pcbi.0020119
+taxa: []
+thumbnails:
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Second
+    Messenger Pathways Involved in the Phosphorylation of DARPP-32 on Thr34 and Thr75
+    in Medium Spiny Projection Neurons</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">A calcium elevation produced by
+    glutamate leads to calcium binding to CaM (Ca<sub>4</sub>CaM), which activates
+    both CaMKII and PP2B, the latter dephosphorylating DARPP-32 on Thr34. Stimulation
+    of the dopamine D<sub>1</sub> receptor activates the PKA cascade via AC5 and cAMP
+    formation. PKA in its turn increases phosphorylation of DARPP-32 on Thr34, which
+    then inhibits PP1.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1562452/PMC1562452/pcbi.0020119.g001.jpg
+  id: pcbi.0020119/pcbi-0020119-g001
+  label: Figure 1
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Model
+    Response to Either D<sub>1</sub> Activation or Calcium Elevation</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Dopamine elevation at time 300
+    s (A3) leads to a nine times increase in phosphoThr34 within 2 min (A1, solid
+    line), while phosphoThr75 is reduced to 60% of control (A2, solid line). This
+    is quantitatively in accordance with experimental results. The PKA-dependent activation
+    of PP2A is critical for this behavior; if left out of the model, phosphoThr75
+    increases instead of decreases (blue dashed line). Calcium-dependent activation
+    of PP2A is not critical to simulate the correct response to D<sub>1</sub> activation
+    (purple dotted line). Calcium elevation at time 300 s (B3) leads to a reduction
+    in both Thr34 (B1, solid line) and Thr75 phosphorylation (B2, solid line). In
+    contrast to the result in A1 and A2, this response requires calcium-dependent
+    activation of PP2A; if left out of the model (purple dotted line), calcium causes
+    an increase in Thr75 phosphorylation.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1562452/PMC1562452/pcbi.0020119.g002.jpg
+  id: pcbi.0020119/pcbi-0020119-g002
+  label: Figure 2
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulations
+    of Prolonged D<sub>1</sub> Receptor Stimulation Paired with Calcium Elevation</title><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(A)
+    Dopamine-dependent increase in phosphoThr34 starting at time 300 s is reduced
+    when, in addition, calcium is elevated at time 1500 s (solid line).</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(B) Dopamine-dependent decrease
+    in phosphoThr75 is minimally changed by a subsequent calcium elevation. Reduction
+    of PP2B activity increases the levels of phosphoThr34 and abolishes the calcium-dependent
+    decrease in phosphoThr34 (A, purple dashed line). Furthermore, inhibition of PP2B
+    activity indirectly decreases the levels of phosphoThr75 (B, purple dashed line)
+    because less DARPP-32 is available for phosphorylation on Thr75 since more of
+    it is phosphorylated on Thr34.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(C) Time course of dopamine and
+    calcium elevation.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1562452/PMC1562452/pcbi.0020119.g003.jpg
+  id: pcbi.0020119/pcbi-0020119-g003
+  label: Figure 3
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Responses
+    to Transient Dopamine and Calcium Elevations</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(A1) A brief, high-amplitude (solid
+    line), or slow, low-amplitude (dashed line) dopamine elevation, with approximately
+    equal area under the curve, is used as input to the model network. Dopamine produces
+    an elevation in cAMP (A2), an elevation in PKAc (A3), and an increase in phosphoThr34
+    (A4). While the cAMP signal follows the dynamics of the dopamine signal, PKAc
+    formation and Thr34 phosphorylation are proportional to total amount of dopamine,
+    as if integrating the cAMP signal because these reactions occur on a slower time
+    scale.</p><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(B1)
+    A fast (solid line) or slow (dashed line) transient calcium signal is used as
+    input to the model. Calcium produces a decrease in cAMP (B2) due to both calcium-dependent
+    activation of PDE1 as well as calcium-dependent inhibition of AC5. PDE1 has a
+    larger effect on the maximal cAMP decrease, whereas AC5 has a larger effect on
+    the later part of the cAMP reduction. Despite a decrease in cAMP, the free PKAc
+    concentration (B3, solid line) is transiently increased following a fast and high
+    calcium input, due to the calcium-dependent activation of PP2A, and causes an
+    increase in phosphoThr34 (B4, solid line). A slower calcium input has minor effects
+    on PKAc (B3, dashed line), but causes an initial decrease in phosphoThr34 (B4,
+    dashed line), mostly due to a prolonged activation of PP2B.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1562452/PMC1562452/pcbi.0020119.g004.jpg
+  id: pcbi.0020119/pcbi-0020119-g004
+  label: Figure 4
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Effect
+    of Simultaneous, Transient Calcium and Dopamine Inputs</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">In all panels, the response to
+    dopamine alone is shown with green dashed lines; the response to paired dopamine
+    and calcium is shown with red solid lines.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(A) The cumulative increase in
+    free PKAc following eight high-amplitude, brief dopamine pulses with 20-s intervals,
+    is enhanced when a high-amplitude, brief calcium input is paired with each dopamine
+    pulse.</p><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(B)
+    Phosphorylation of Thr34 is enhanced when calcium and dopamine inputs are paired.</p><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(C)
+    PP1 inhibition is more pronounced when calcium and dopamine inputs are paired
+    due to the increase in phosphoThr34.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(D) The ratio of PKAc to PP1 is
+    enhanced when calcium and dopamine inputs are paired.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(E) Some dephosphorylation on Thr75
+    occurs following a dopamine input due to the PKA dependent activation of PP2A.
+    When in addition calcium is transiently elevated, calcium-dependent activation
+    of PP2A significantly decreases phosphoThr75.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(F) The total formation of activated
+    PKA (both free and bound to phosphoThr75) is larger with dopamine inputs alone.
+    This is partly due to the calcium-dependent decrease in the cAMP formation, but
+    also the PKAc interaction with phosphoThr75 is important.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1562452/PMC1562452/pcbi.0020119.g005.jpg
+  id: pcbi.0020119/pcbi-0020119-g005
+  label: Figure 5
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Role
+    of the PKA&#8211;PP2A&#8211;phosphoThr75 Feedback Loop on PKAc and phosphoThr34</title><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(A)
+    Eight high-amplitude, brief, dopamine pulses, 20 s apart, lead to a larger buildup
+    of free PKAc (A1) or Thr34 (A2) compared with control (black) if the reaction
+    rates are set to zero in the PKA phosphorylation of PP2A only (purple; reaction
+    (i) in (E) opened), in the phosphoThr75 inhibition of PKA only (light blue; reaction
+    (iii) in (E) opened), or in both reactions (orange). Thus, both reactions (i)
+    and (iii) in the PKA&#8211;PP2A&#8211;phosphoThr75 loop work as a sink for the
+    PKAc signal.</p><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(B)
+    High-amplitude, fast calcium inputs lead to a decreased level of free PKAc (B1)
+    and Thr34 (B2) if reactions (i) and (iii) are prevented. Here the PKA&#8211;PP2A&#8211;phosphoThr75
+    loop behaves as a positive feedback loop on the PKAc concentration.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(C) Paired fast calcium and dopamine
+    elevations enhance PKAc (C1) and phosphoThr34 levels (C2) when the PKA&#8211;PP2A&#8211;phosphoThr75
+    loop is present (black lines), but decrease PKAc and phosphoThr34 when reactions
+    (i) and (iii) are eliminated (orange lines).</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(D) Activation of PP2Ac by binding
+    to calcium is required for the stimulatory effect of calcium on PKAc and phosphoThr34.
+    Binding of calcium to PP2A shifts equilibrium of reaction (i) to the substrates,
+    thus PKAc dissociates from PP2A, and shifts the equilibrium of reaction (iii)
+    to the substrates, thus PKAc dissociates from phosphoThr75. If calcium activation
+    of PP2A is prevented, dopamine alone (green lines) results in more PKAc (D1) and
+    phosphoThr34 (D2) than paired calcium and dopamine (red lines). Also, calcium
+    alone (blue lines) produces no significant response in PKAc and even causes a
+    decrease in phosphoThr34.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1562452/PMC1562452/pcbi.0020119.g006.jpg
+  id: pcbi.0020119/pcbi-0020119-g006
+  label: Figure 6
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Consequences
+    of Pairing Slower Calcium Signals with Dopamine Inputs</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(A) The cumulative increase of
+    free PKAc following eight high-amplitude, brief dopamine inputs (green line) is
+    a bit larger than if a slow, low-amplitude calcium signal is paired with the brief
+    dopamine inputs (red line). Also the slower, low-amplitude calcium input alone
+    (blue line) does not give any significant increase in PKAc.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(B) Pairing slow, low-amplitude
+    calcium inputs with dopamine inputs (red line) reduces the cumulative increase
+    in phosphoThr34 compared with a dopamine input alone (green line). A decrease
+    of phosphoThr34 is seen following a calcium input alone (blue line).</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(C) The decrease in phosphoThr34
+    due to the slow, low-amplitude calcium input is due to a prolonged activation
+    of PP2B (dashed line) compared with when a brief, high-amplitude calcium input
+    is given (solid line).</p><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(D)
+    Furthermore, the calcium-activated form of PP2A (PP2Ac) is significantly less
+    activated following a small but slower calcium input (dashed line) than if a high-amplitude
+    calcium input is given (solid line).</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1562452/PMC1562452/pcbi.0020119.g007.jpg
+  id: pcbi.0020119/pcbi-0020119-g007
+  label: Figure 7
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Effects
+    of Dissociation Rate on Calcium Enhancement of Dopamine-Induced PKAc Elevation
+    and PP1 Suppression</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">In
+    all panels, the response is the maximal ratio of PKAc to PP1. All panels show
+    the effect of dissociation rate on the response to dopamine alone (green dashed
+    line, stars), calcium alone (blue dashed line, circles), and paired dopamine and
+    calcium (red dashed line, squares).</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(A) Response is independent of
+    rate of calcium-dependent AC5 inhibition.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(B) Response is independent of
+    rate of Ca<sub>4</sub>CaM binding to PDE1.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(C) Response is slightly sensitive
+    to the rate of calcium binding to PP2A: for very fast (*100) calcium dissociation
+    rate, the enhancing role of calcium decreases because the activation of PP2A is
+    too brief to dephosphorylate significant amounts of phosphoThr75 following brief
+    calcium inputs.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1562452/PMC1562452/pcbi.0020119.g008.jpg
+  id: pcbi.0020119/pcbi-0020119-g008
+  label: Figure 8
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Role
+    of Altered Enzyme Quantities on the Integration Properties of DARPP-32</title><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(A)
+    Total concentrations of PKA, PP2B, PP2A, and cdk5 all are varied together between
+    0.1&#8211;10&#215; the control level.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(A1) Independent of this variation,
+    pairing of calcium and dopamine (red, squares) is more effective than either input
+    alone (green dots or blue circles).</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(A2) The basal levels of PKAc (black
+    dashed line, triangles) as well as phosphoThr34 (black dotted line, triangles)
+    vary with enzyme quantity. A decrease in enzyme quantity produces a decrease in
+    the change of PKAc during stimulation (dashed line) and an increase in the phosphoThr34
+    levels (dotted line). Nonetheless, in all cases a simultaneous calcium and dopamine
+    input is most effective in elevating both PKAc and phosphoThr34.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(B) The role of DARPP-32 in signal
+    integration is independent of PKAc. Enzyme quantities were lowered to 10% of control
+    and all the reaction rates in the PKA reactions were increased 100&#215; to make
+    the PKAc formation follow the cAMP signal more effectively.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(B1) The PKAc increase is slightly
+    larger with dopamine alone and decreases almost to basal level in between transient
+    dopamine pulses.</p><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(B2)
+    Thr34 phosphorylation increases with successive paired stimuli, and is higher
+    for paired calcium and dopamine inputs.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1562452/PMC1562452/pcbi.0020119.g009.jpg
+  id: pcbi.0020119/pcbi-0020119-g009
+  label: Figure 9
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Schematic
+    Drawing of the Reactions Involved in the PKA&#8211;PP2A&#8211;phosphoThr75 Loop</title><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">When
+    dopamine stimulates PKA, a substantial amount of the free catalytic subunit gets
+    bound to PP2A and phosphoThr75, thus dampening the stimulatory effect of dopamine
+    on PKA (A). Calcium stimulation and the formation of the calcium-activated PP2A
+    affects this loop in two ways: 1) by increasing dephosphorylation of phosphoThr75,
+    thus reducing inhibition of PKA; and 2) less PP2A is available for PKA binding,
+    thus shifting this equilibrium to increase the amount of active PKA (B).</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1562452/PMC1562452/pcbi.0020119.g010.jpg
+  id: pcbi.0020119/pcbi-0020119-g010
+  label: Figure 10

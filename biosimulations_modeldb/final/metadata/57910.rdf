@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/57910.omex">
+    <dc:title>HERG K+ channels spike-frequency adaptation (Chiesa et al 1997)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/57910.omex">
+    <dc:abstract>Spike frequency adaptation has contributions from the IHERG current (encoded by the human eag-related gene&#13;
+(HERG); Warmke &amp; Ganetzky, 1994), which develops with&#13;
+slow kinetics during depolarization and contributes to the&#13;
+repolarization of the long action potentials typically present&#13;
+in the heart. IHERG is one of the delayed rectifier currents&#13;
+(IK(r)) of the heart, and HERG mutations are associated&#13;
+with one of the cardiac arrhythmia LQT syndromes (LQT2).&#13;
+See paper for more and details.&#13;
+</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Neuron or other electrically excitable cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/57910.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=88207">http://modeldb.science/ModelList?id=88207</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Neuroblastoma</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/57910.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>Neuroblastoma cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/57910.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=88206">http://modeldb.science/ModelList?id=88206</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>I_HERG</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/57910.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>IK(erg)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/57910.omex">
+    <bqbiol:encodes rdf:resource="local:00005">local:00005</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3649">http://modeldb.science/ModelList?id=3649</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>Action Potentials</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/57910.omex">
+    <bqbiol:encodes rdf:resource="local:00006">local:00006</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=88214">http://modeldb.science/ModelList?id=88214</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>Long-QT</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/57910.omex">
+    <bqbiol:encodes rdf:resource="local:00007">local:00007</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=116951">http://modeldb.science/ModelList?id=116951</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>Spike Frequency Adaptation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/57910.omex">
+    <bqbiol:encodes rdf:resource="local:00008">local:00008</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="mailto:snwu@mail.ncku.edu.tw">mailto:snwu@mail.ncku.edu.tw</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>Sheng-Nan Wu</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <foaf:accountName rdf:resource="mailto:snwu@mail.ncku.edu.tw">mailto:snwu@mail.ncku.edu.tw</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <foaf:name>Sheng-Nan Wu</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/57910.omex">
+    <dc:creator rdf:resource="local:00009">local:00009</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <rdfs:label>Han-Dong Chang</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <foaf:name>Han-Dong Chang</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/57910.omex">
+    <dc:creator rdf:resource="local:00010">local:00010</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <dc:identifier rdf:resource="mailto:coolneon@gmail.com">mailto:coolneon@gmail.com</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <rdfs:label>Jiun-Shian Wu</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <foaf:accountName rdf:resource="mailto:coolneon@gmail.com">mailto:coolneon@gmail.com</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <foaf:name>Jiun-Shian Wu</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/57910.omex">
+    <dc:creator rdf:resource="local:00011">local:00011</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/57910.omex">
+    <dc:contributor rdf:resource="local:00012">local:00012</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/57910.omex">
+    <dc:contributor rdf:resource="local:00013">local:00013</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:57910">https://identifiers.org/modeldb:57910</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <rdfs:label>modeldb:57910</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/57910.omex">
+    <bqmodel:is rdf:resource="local:00014">local:00014</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1111/j.1469-7793.1997.313bn.x">http://identifiers.org/doi:10.1111/j.1469-7793.1997.313bn.x</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <rdfs:label>Nicoletta Chiesa, Barbara Rosati, Annarosa Arcangeli, Massimo Olivotto &amp; Enzo Wanke. A novel role for HERG K+ channels: spike-frequency adaptation. The Journal of Physiology 501 ( Pt 2): 313-318 (1997).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/57910.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00015">local:00015</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/57910.omex">
+    <dc:created>2005-10-23</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/57910.omex">
+    <dc:modified>2009-01-26</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

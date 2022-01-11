@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <dc:title>Inverse stochastic resonance of cerebellar Purkinje cell (Buchin et al. 2016)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <dc:abstract>This code shows the simulations of the adaptive exponential integrate-and-fire model (http://www.scholarpedia.org/article/Adaptive_exponential_integrate-and-fire_model) at different stimulus conditions. The parameters of the model were tuned to the Purkinje cell of cerebellum to reproduce the inhibiion of these cells by noisy current injections. Similar experimental protocols were also applied to the detailed biophysical model of Purkinje cells,  de Shutter &amp; Bower (1994) model. The repository also includes the XPPaut version of the model with the corresponding bifurcation analysis.</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3539">http://modeldb.science/ModelList?id=3539</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Synapse</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Neuron or other electrically excitable cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=115953">http://modeldb.science/ModelList?id=115953</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>Cerebellum</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=271">http://modeldb.science/ModelList?id=271</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>Cerebellum Purkinje GABA cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=154740">http://modeldb.science/ModelList?id=154740</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>Abstract integrate-and-fire leaky neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <bqbiol:encodes rdf:resource="local:00005">local:00005</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=154778">http://modeldb.science/ModelList?id=154778</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>Abstract integrate-and-fire adaptive exponential (AdEx) neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <bqbiol:encodes rdf:resource="local:00006">local:00006</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=233">http://modeldb.science/ModelList?id=233</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>Glutamate</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <bqbiol:encodes rdf:resource="local:00007">local:00007</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=232">http://modeldb.science/ModelList?id=232</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>Gaba</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <bqbiol:encodes rdf:resource="local:00008">local:00008</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=213">http://modeldb.science/ModelList?id=213</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>Gaba</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <bqbiol:encodes rdf:resource="local:00009">local:00009</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=212">http://modeldb.science/ModelList?id=212</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <rdfs:label>Glutamate</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <bqbiol:encodes rdf:resource="local:00010">local:00010</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=136098">http://modeldb.science/ModelList?id=136098</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <rdfs:label>Information transfer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <bqbiol:encodes rdf:resource="local:00011">local:00011</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3543">http://modeldb.science/ModelList?id=3543</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <rdfs:label>Activity Patterns</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <bqbiol:encodes rdf:resource="local:00012">local:00012</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=183719">http://modeldb.science/ModelList?id=183719</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <rdfs:label>Synaptic noise</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <bqbiol:encodes rdf:resource="local:00013">local:00013</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3634">http://modeldb.science/ModelList?id=3634</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <rdfs:label>Oscillations</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <bqbiol:encodes rdf:resource="local:00014">local:00014</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206364.omex/figures/PMC4991839/pcbi.1005000.g001.jpg">http://omex-library.org/206364.omex/figures/PMC4991839/pcbi.1005000.g001.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206364.omex/figures/PMC4991839/pcbi.1005000.g002.jpg">http://omex-library.org/206364.omex/figures/PMC4991839/pcbi.1005000.g002.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206364.omex/figures/PMC4991839/pcbi.1005000.g003.jpg">http://omex-library.org/206364.omex/figures/PMC4991839/pcbi.1005000.g003.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206364.omex/figures/PMC4991839/pcbi.1005000.g004.jpg">http://omex-library.org/206364.omex/figures/PMC4991839/pcbi.1005000.g004.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206364.omex/figures/PMC4991839/pcbi.1005000.g005.jpg">http://omex-library.org/206364.omex/figures/PMC4991839/pcbi.1005000.g005.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206364.omex/figures/PMC4991839/pcbi.1005000.g006.jpg">http://omex-library.org/206364.omex/figures/PMC4991839/pcbi.1005000.g006.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206364.omex/figures/PMC4991839/pcbi.1005000.g007.jpg">http://omex-library.org/206364.omex/figures/PMC4991839/pcbi.1005000.g007.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <rdfs:label>Arnd  Roth</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <foaf:name>Arnd  Roth</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <dc:creator rdf:resource="local:00015">local:00015</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <dc:identifier rdf:resource="mailto:anat.buchin@gmail.com">mailto:anat.buchin@gmail.com</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <rdfs:label>Anatoly Buchin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <foaf:accountName rdf:resource="mailto:anat.buchin@gmail.com">mailto:anat.buchin@gmail.com</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <foaf:name>Anatoly Buchin</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <dc:creator rdf:resource="local:00016">local:00016</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <dc:identifier rdf:resource="mailto:anat.buchin@gmail.com">mailto:anat.buchin@gmail.com</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <rdfs:label>Anatoly Buchin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <foaf:accountName rdf:resource="mailto:anat.buchin@gmail.com">mailto:anat.buchin@gmail.com</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <foaf:name>Anatoly Buchin</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <dc:contributor rdf:resource="local:00017">local:00017</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <dc:contributor rdf:resource="local:00018">local:00018</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00019">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00019">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00019">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00019">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <dc:contributor rdf:resource="local:00019">local:00019</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00020">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:206364">https://identifiers.org/modeldb:206364</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00020">
+    <rdfs:label>modeldb:206364</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <bqmodel:is rdf:resource="local:00020">local:00020</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00021">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1371/journal.pcbi.1005000">http://identifiers.org/doi:10.1371/journal.pcbi.1005000</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00021">
+    <rdfs:label>Anatoly Buchin, Sarah Rieubland, Michael Häusser, Boris S. Gutkin &amp; Arnd Roth. Inverse Stochastic Resonance in Cerebellar Purkinje Cells. PLOS Computational Biology 12, 8: e1005000 (2016).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00021">local:00021</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <dc:created>2016-10-27</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <dc:modified>2019-03-23</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

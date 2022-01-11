@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <dc:title>Networks of spiking neurons: a review of tools and strategies (Brette et al. 2007)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <dc:abstract>This package provides a series of codes that simulate networks of spiking neurons (excitatory and inhibitory, integrate-and-fire or Hodgkin-Huxley type, current-based or conductance-based synapses; some of them are event-based).  The same networks are implemented in different simulators (NEURON, GENESIS, NEST, NCS, CSIM, XPP, SPLIT, MVAspike; there is also a couple of implementations in SciLab and C++).&#13;
+The codes included in this package are benchmark simulations; see&#13;
+the associated review paper (Brette et al. 2007). The &#13;
+main goal is to provide a series of benchmark simulations of&#13;
+networks of spiking neurons, and demonstrate how these are implemented in the&#13;
+different simulators overviewed in the paper.  See also details in the&#13;
+enclosed file Appendix2.pdf, which describes these different &#13;
+benchmarks.  Some of these benchmarks were based on the &#13;
+Vogels-Abbott model (Vogels TP and Abbott LF 2005).&#13;
+</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3536">http://modeldb.science/ModelList?id=3536</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Realistic Network</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=154740">http://modeldb.science/ModelList?id=154740</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Abstract integrate-and-fire leaky neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>generic cortical neurons, integrate and fire, HH</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3543">http://modeldb.science/ModelList?id=3543</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>Activity Patterns</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=49304">http://modeldb.science/ModelList?id=49304</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>Methods</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <bqbiol:encodes rdf:resource="local:00005">local:00005</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="mailto:Ted.Carnevale@Yale.edu">mailto:Ted.Carnevale@Yale.edu</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>Ted Carnevale</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <foaf:accountName rdf:resource="mailto:Ted.Carnevale@Yale.edu">mailto:Ted.Carnevale@Yale.edu</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <foaf:name>Ted Carnevale</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <dc:creator rdf:resource="local:00006">local:00006</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="mailto:Michael.Hines@Yale.edu">mailto:Michael.Hines@Yale.edu</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>Michael Hines</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <foaf:accountName rdf:resource="mailto:Michael.Hines@Yale.edu">mailto:Michael.Hines@Yale.edu</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <foaf:name>Michael Hines</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <dc:creator rdf:resource="local:00007">local:00007</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="mailto:Andrew.Davison@iaf.cnrs-gif.fr">mailto:Andrew.Davison@iaf.cnrs-gif.fr</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>Andrew Davison</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <foaf:accountName rdf:resource="mailto:Andrew.Davison@iaf.cnrs-gif.fr">mailto:Andrew.Davison@iaf.cnrs-gif.fr</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <foaf:name>Andrew Davison</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <dc:creator rdf:resource="local:00008">local:00008</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="mailto:Destexhe@iaf.cnrs-gif.fr">mailto:Destexhe@iaf.cnrs-gif.fr</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>Alain Destexhe</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <foaf:accountName rdf:resource="mailto:Destexhe@iaf.cnrs-gif.fr">mailto:Destexhe@iaf.cnrs-gif.fr</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <foaf:name>Alain Destexhe</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <dc:creator rdf:resource="local:00009">local:00009</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <dc:identifier rdf:resource="mailto:bard_at_pitt.edu]@">mailto:bard_at_pitt.edu]@</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <rdfs:label>Bard Ermentrout</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <foaf:accountName rdf:resource="mailto:bard_at_pitt.edu]@">mailto:bard_at_pitt.edu]@</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <foaf:name>Bard Ermentrout</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <dc:creator rdf:resource="local:00010">local:00010</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <rdfs:label>Brette R</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <foaf:name>Brette R</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <dc:creator rdf:resource="local:00011">local:00011</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <rdfs:label>James Bower</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <foaf:name>James Bower</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <dc:creator rdf:resource="local:00012">local:00012</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <rdfs:label>Dave Beeman</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <foaf:name>Dave Beeman</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <dc:creator rdf:resource="local:00013">local:00013</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <rdfs:label>Diesmann M</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <foaf:name>Diesmann M</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <dc:creator rdf:resource="local:00014">local:00014</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <rdfs:label>Morrison A</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <foaf:name>Morrison A</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <dc:creator rdf:resource="local:00015">local:00015</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <rdfs:label>Goodman PH</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <foaf:name>Goodman PH</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <dc:creator rdf:resource="local:00016">local:00016</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <rdfs:label>FC Harris Jr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <foaf:name>FC Harris Jr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <dc:creator rdf:resource="local:00017">local:00017</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <rdfs:label>Zirpe M</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <foaf:name>Zirpe M</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <dc:creator rdf:resource="local:00018">local:00018</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00019">
+    <rdfs:label>Natschlager T</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00019">
+    <foaf:name>Natschlager T</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <dc:creator rdf:resource="local:00019">local:00019</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00020">
+    <rdfs:label>Pecevski D</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00020">
+    <foaf:name>Pecevski D</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <dc:creator rdf:resource="local:00020">local:00020</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00021">
+    <rdfs:label>Djurfeldt M</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00021">
+    <foaf:name>Djurfeldt M</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <dc:creator rdf:resource="local:00021">local:00021</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00022">
+    <dc:identifier rdf:resource="mailto:ala@kth.se">mailto:ala@kth.se</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00022">
+    <rdfs:label>Anders Lansner</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00022">
+    <foaf:accountName rdf:resource="mailto:ala@kth.se">mailto:ala@kth.se</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00022">
+    <foaf:name>Anders Lansner</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <dc:creator rdf:resource="local:00022">local:00022</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00023">
+    <rdfs:label>Rochel O</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00023">
+    <foaf:name>Rochel O</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <dc:creator rdf:resource="local:00023">local:00023</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00024">
+    <rdfs:label>Vieville T</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00024">
+    <foaf:name>Vieville T</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <dc:creator rdf:resource="local:00024">local:00024</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00025">
+    <rdfs:label>Muller E</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00025">
+    <foaf:name>Muller E</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <dc:creator rdf:resource="local:00025">local:00025</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00026">
+    <dc:identifier rdf:resource="mailto:elboustani@unic.cnrs-gif.fr">mailto:elboustani@unic.cnrs-gif.fr</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00026">
+    <rdfs:label>Sami  El Boustani</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00026">
+    <foaf:accountName rdf:resource="mailto:elboustani@unic.cnrs-gif.fr">mailto:elboustani@unic.cnrs-gif.fr</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00026">
+    <foaf:name>Sami  El Boustani</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <dc:creator rdf:resource="local:00026">local:00026</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00027">
+    <rdfs:label>Rudolph M</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00027">
+    <foaf:name>Rudolph M</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <dc:creator rdf:resource="local:00027">local:00027</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00028">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00028">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00028">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00028">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <dc:contributor rdf:resource="local:00028">local:00028</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00029">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00029">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00029">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00029">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <dc:contributor rdf:resource="local:00029">local:00029</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00030">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:83319">https://identifiers.org/modeldb:83319</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00030">
+    <rdfs:label>modeldb:83319</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <bqmodel:is rdf:resource="local:00030">local:00030</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00031">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1523/JNEUROSCI.3508-05.2005">http://identifiers.org/doi:10.1523/JNEUROSCI.3508-05.2005</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00031">
+    <rdfs:label>Vogels TP &amp; Abbott LF. Signal propagation and logic gating in networks of integrate-and-fire neurons. Journal of Neuroscience 25, 46: 10786-10795 (2005).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00031">local:00031</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00032">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1007/s10827-007-0038-6">http://identifiers.org/doi:10.1007/s10827-007-0038-6</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00032">
+    <rdfs:label>Romain Brette, Michelle Rudolph, Ted Carnevale, Michael Hines, David Beeman, James M. Bower, Markus Diesmann, Abigail Morrison, Philip H. Goodman, Frederick C. Harris, Milind Zirpe, Thomas Natschläger, Dejan Pecevski, Bard Ermentrout, Mikael Djurfeldt, Anders Lansner, Olivier Rochel, Thierry Vieville, Eilif Muller, Andrew P. Davison, Sami El Boustani &amp; Alain Destexhe. Simulation of networks of spiking neurons: a review of tools and strategies. Journal of Computational Neuroscience 23, 3: 349-398 (2007).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00032">local:00032</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <dc:created>2006-11-21</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83319.omex">
+    <dc:modified>2017-07-28</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

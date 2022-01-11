@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/114452.omex">
+    <dc:title>CaMKII system exhibiting bistability with respect to calcium (Graupner and Brunel 2007)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/114452.omex">
+    <dc:abstract>"... We present a detailed biochemical model of the CaMKII autophosphorylation and the protein signaling cascade governing the CaMKII dephosphorylation.&#13;
+... it is shown that the CaMKII system can qualitatively reproduce results of plasticity outcomes in response to spike-timing dependent plasticity (STDP) and presynaptic stimulation protocols.&#13;
+This shows that the CaMKII protein network can account for both induction, through LTP/LTD-like transitions, and storage, due to its bistability, of synaptic changes."</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3539">http://modeldb.science/ModelList?id=3539</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Synapse</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/114452.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=258">http://modeldb.science/ModelList?id=258</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Hippocampus CA1 pyramidal GLU cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/114452.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3641">http://modeldb.science/ModelList?id=3641</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>Detailed Neuronal Models</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/114452.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3643">http://modeldb.science/ModelList?id=3643</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>Synaptic Plasticity</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/114452.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3647">http://modeldb.science/ModelList?id=3647</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>Long-term Synaptic Plasticity</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/114452.omex">
+    <bqbiol:encodes rdf:resource="local:00005">local:00005</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=55277">http://modeldb.science/ModelList?id=55277</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>Signaling pathways</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/114452.omex">
+    <bqbiol:encodes rdf:resource="local:00006">local:00006</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/114452.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g001.jpg">http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g001.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/114452.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g002.jpg">http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g002.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/114452.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g003.jpg">http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g003.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/114452.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g004.jpg">http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g004.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/114452.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g005.jpg">http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g005.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/114452.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g006.jpg">http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g006.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/114452.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g007.jpg">http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g007.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/114452.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g008.jpg">http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g008.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/114452.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g009.jpg">http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g009.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/114452.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g010.jpg">http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g010.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="mailto:michael.graupner@ens.fr">mailto:michael.graupner@ens.fr</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>Michael Graupner</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <foaf:accountName rdf:resource="mailto:michael.graupner@ens.fr">mailto:michael.graupner@ens.fr</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <foaf:name>Michael Graupner</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/114452.omex">
+    <dc:creator rdf:resource="local:00007">local:00007</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/114452.omex">
+    <dc:contributor rdf:resource="local:00008">local:00008</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/114452.omex">
+    <dc:contributor rdf:resource="local:00009">local:00009</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:114452">https://identifiers.org/modeldb:114452</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <rdfs:label>modeldb:114452</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/114452.omex">
+    <bqmodel:is rdf:resource="local:00010">local:00010</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1371/journal.pcbi.0030221">http://identifiers.org/doi:10.1371/journal.pcbi.0030221</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <rdfs:label>Michael Graupner &amp; Nicolas Brunel. STDP in a bistable synapse model based on CaMKII and associated signaling pathways. PLoS Computational Biology 3, 11: e221 (2007).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/114452.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00011">local:00011</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/114452.omex">
+    <dc:created>2008-08-05</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/114452.omex">
+    <dc:modified>2008-08-21</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

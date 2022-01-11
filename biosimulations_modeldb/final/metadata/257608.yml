@@ -1,0 +1,242 @@
+references:
+- label: 'Jonathan E. Rubin & Jeffrey C. Smith. Robustness of respiratory rhythm generation
+    across dynamic regimes. PLOS Computational Biology 15, 7: e1006860 (2019).'
+  uri: http://identifiers.org/doi:10.1371/journal.pcbi.1006860
+taxa: []
+thumbnails:
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Schematic
+    illustration of the respiratory network configuration considered.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Red is used for excitatory units
+    and their outputs, while blue denotes inhibitory units and their outputs. Black
+    arrows correspond to tonic drives to units in the network. The PiCo is only included
+    in a subset of our simulations, as indicated in the text.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g001.jpg
+  id: pcbi.1006860/pcbi.1006860.g001
+  label: Fig 1
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Pre-I
+    tuning.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(A):
+    The <italic>V</italic><sub><italic>pre</italic>&#8722;<italic>I</italic></sub>-nullcline
+    structure for the pre-I unit in the preB&#246;tC depends on its tonic drive parameter,
+    <italic>c</italic><sub>11</sub>. Blue curves denote the <italic>V</italic><sub><italic>pre</italic>&#8722;<italic>I</italic></sub>-nullcline
+    for several values of <italic>c</italic><sub>11</sub>, with different line patterns
+    used for contrast enhancement. The red curve is the <italic>h</italic><sub><italic>pre</italic>&#8722;<italic>I</italic></sub>-nullcline,
+    which is independent of <italic>c</italic><sub>11</sub>. A fixed point occurs
+    where the two nullclines intersect. (B): Bifurcation diagram for the pre-I unit
+    with respect to <italic>c</italic><sub>11</sub>. Solid (dashed) curve denotes
+    stable (unstable) equilibria. Red curves are max and min voltages along a family
+    of stable periodic orbits; these grow extremely rapidly in amplitude when they
+    first appear, near <italic>c</italic><sub>11</sub> = &#8722;0.060. Pre-I is oscillatory
+    where these orbits exist, on <italic>c</italic><sub>11</sub> &#8712; (&#8722;0.060,
+    &#8722;0.011). Inset shows dependence of periods on <italic>c</italic><sub>11</sub>;
+    period jumps sharply from 0 at the onset of oscillations, drops abruptly, and
+    then decays more gradually as <italic>c</italic><sub>11</sub> increases.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g002.jpg
+  id: pcbi.1006860/pcbi.1006860.g002
+  label: Fig 2
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Pre-I
+    output properties are altered by embedding within the full respiratory network.</title><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Dashed
+    curves show the period (blue) and amplitude (red) of oscillations exhibited by
+    the pre-I unit in isolation, over the range of <italic>c</italic><sub>11</sub>
+    values for which it intrinsically generates oscillatory behavior. Solid curves
+    illustrate the same quantities for the pre-I unit when it is embedded in the full
+    model respiratory network, over the range of <italic>c</italic><sub>11</sub> values
+    for which the network oscillates.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g003.jpg
+  id: pcbi.1006860/pcbi.1006860.g003
+  label: Fig 3
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Basic
+    model behavior.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(A-B):
+    Time courses of outputs of all 4 neurons (with PiCo silent and omitted) in the
+    network rhythm when (A) pre-I is intrinsically oscillatory (<italic>c</italic><sub>11</sub>
+    = &#8722;0.03) or (B) pre-I is intrinsically tonic (<italic>c</italic><sub>11</sub>
+    = 0.01). Black: pre-I. Red: early-I. Blue: post-I. Magenta: aug-E. (C-D): Time
+    courses of outputs of all 5 neurons in the network rhythm, including PiCo (<italic>c</italic><sub>15</sub>
+    = 0.045), when (C) pre-I is intrinsically oscillatory (<italic>c</italic><sub>11</sub>
+    = &#8722;0.03) or (D) pre-I is intrinsically tonic (<italic>c</italic><sub>11</sub>
+    = 0.01). Black: pre-I. Red: early-I. Cyan: PiCo. Blue: post-I. Magenta: aug-E.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g004.jpg
+  id: pcbi.1006860/pcbi.1006860.g004
+  label: Fig 4
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Parameter-dependence
+    of model output.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">In
+    all cases, <italic>g</italic><sub><italic>NaP</italic></sub> refers to the persistent
+    sodium conductance for the pre-I unit (i.e., <italic>g</italic><sub><italic>NaP</italic>,<italic>exc</italic></sub>
+    from the <xref ref-type="sec" rid="sec015">Methods</xref> section). (A) Grey scale
+    in boxes codes period of full rhythm, with longest period given by palest shades
+    (color bar, periods in seconds). For parameter values in the unboxed white region,
+    the network is not rhythmic. For parameter values below the red curve, the pre-I
+    neuron is intrinsically oscillatory. (B) Grey scale codes amplitudes, with largest
+    amplitude given by darkest shades (color bar, amplitudes measured as maximum minus
+    minimum of pre-I output, <italic>f</italic>(<italic>V</italic><sub>1</sub>)).
+    Red curve as in upper left. (C) Grey-coded inspiratory phase duration (seconds),
+    measured as time between increased and subsequent decreases of <italic>V</italic><sub>1</sub>
+    through a threshold of -35 mV. (D) Grey-coded expiratory phase duration (seconds),
+    measured as the period minus the inspiratory phase duration. The blue boxed regions
+    are explained in the text.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g005.jpg
+  id: pcbi.1006860/pcbi.1006860.g005
+  label: Fig 5
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Network
+    oscillation mechanisms when pre-I is intrinsically oscillatory, with <italic>c</italic><sub>11</sub>
+    = &#8722;0.03.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(A)
+    Phase plane (<italic>h</italic><sub><italic>pre</italic>&#8722;<italic>I</italic></sub>
+    versus <italic>V</italic><sub><italic>pre</italic>&#8722;<italic>I</italic></sub>)
+    for the pre-I unit. Black curve is the model output projected to this plane. Solid
+    blue curves are <italic>V</italic><sub><italic>pre</italic>&#8722;<italic>I</italic></sub>-nullclines.
+    The lower right nullcline corresponds to 0 inhibition to pre-I, the upper left
+    nullcline (which continues out of the image) to the maximal inhibition received
+    by pre-I (0.0965), and the middle nullcline to the inhibition level received by
+    pre-I (0.09) when it begins its escape to the active phase by hitting the curve
+    of knees (LK, grey dashed). The red curve is the <italic>h</italic><sub><italic>pre</italic>&#8722;<italic>I</italic></sub>-nullcline,
+    which is independent of inhibition level. The vertical black curve denotes the
+    <italic>V</italic><sub><italic>pre</italic>&#8722;<italic>I</italic></sub> value
+    at which the output of pre-I is half of its maximum value. Solid black circles
+    and squares correspond to time points when inhibition to the pre-I unit is 0.09
+    and 0.0965, respectively. (B) Same solution projected to the plane in which the
+    inhibition to pre-I is plotted versus <italic>h</italic><sub><italic>pre</italic>&#8722;<italic>I</italic></sub>
+    (black solid). As inhibition wears off, the trajectory first crosses the curve
+    of pre-I fixed points (FP, green dashed) and then crosses the curve of <italic>V</italic><sub><italic>pre</italic>&#8722;<italic>I</italic></sub>-nullcline
+    left knees (LK, blue dashed), allowing escape (black circle) and initiation of
+    inspiration. Trajectories for reduced/increased inhibition from post-I to pre-I
+    (<italic>b</italic><sub>31</sub> = 0.105/0.175) are also shown (dotted/dashed
+    black). (C) Phase plane (<italic>h</italic><sub><italic>post</italic>&#8722;<italic>I</italic></sub>
+    versus <italic>V</italic><sub><italic>post</italic>&#8722;<italic>I</italic></sub>)
+    for the post-I unit. Curves are analogous to those in (A). The <italic>V</italic><sub><italic>post</italic>&#8722;<italic>I</italic></sub>-nullclines
+    shown correspond to minimal inhibition to post-I (far right, inhibition is 0),
+    occurring when the maximal value of <italic>V</italic><sub><italic>post</italic>&#8722;<italic>I</italic></sub>
+    is achieved along the trajectory (black square, same time point as in (A)); to
+    maximal inhibition to post-I (far left, inhibition is 0.54); and to the inhibition
+    level when pre-I initiates its escape (middle, inhibition is 0.0525, also marked
+    by solid black circle at same time point as in (A)). (D) Phase plane (<italic>h</italic><sub><italic>aug</italic>&#8722;<italic>E</italic></sub>
+    versus <italic>V</italic><sub><italic>aug</italic>&#8722;<italic>E</italic></sub>)
+    for the aug-E unit. Curves are analogous to those in (A). From right to left,
+    the <italic>V</italic><sub><italic>aug</italic>&#8722;<italic>E</italic></sub>-nullclines
+    shown correspond to minimal inhibition to aug-E (inhibition is 0.05); to inhibition
+    to aug-E at the moment when pre-I initiates its escape (inhibition is 0.0542,
+    also marked by black circle at same time point as in other plots); to inhibition
+    to aug-E when <italic>V</italic><sub><italic>pre</italic>&#8722;<italic>I</italic></sub>
+    is at its peak (0.283); and to inhibition to aug-E when <italic>V</italic><sub><italic>post</italic>&#8722;<italic>I</italic></sub>
+    is at its peak (0.35, marked by black square at same time point as in other plots).</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g006.jpg
+  id: pcbi.1006860/pcbi.1006860.g006
+  label: Fig 6
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Network
+    oscillation mechanisms when pre-I is intrinsically tonic, with <italic>c</italic><sub>11</sub>
+    = 0.01.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Mechanisms
+    are identical to the case when pre-I is intrinsically oscillatory. (A) Analogous
+    curves to <xref ref-type="fig" rid="pcbi.1006860.g006">Fig 6A</xref>. Maximal
+    inhibition is 0.088 (black square), minimal inhibition is 0, inhibition at escape
+    is 0.012 (black circle). Note that the grey curve of knees terminates, which corresponds
+    to where the <italic>V</italic><sub><italic>pre</italic>&#8722;<italic>I</italic></sub>-nullcline
+    becomes monotone. (B) Analogous curves to <xref ref-type="fig" rid="pcbi.1006860.g006">Fig
+    6B</xref>. The termination of the curve of left knees is also evident here (around
+    inhibition of 0.7 &#215;10<sup>&#8722;2</sup>).</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g007.jpg
+  id: pcbi.1006860/pcbi.1006860.g007
+  label: Fig 7
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Input
+    to the preB&#246;tC pre-I node controls period by modulating <italic>T</italic><sub><italic>E</italic></sub>.</title><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(A):
+    Period (black), inspiratory duration (blue), and expiratory duration (red) versus
+    drive to pre-I, <italic>c</italic><sub>11</sub>, over the range of <italic>c</italic><sub>11</sub>
+    for which network rhythms were maintained. Values of <italic>c</italic><sub>11</sub>
+    where the pre-I unit is intrinsically oscillatory or tonic are separated (dash-dotted
+    black line) and labeled. (B-C): Same curves versus the value of inhibition from
+    post-I to pre-I, <italic>b</italic><sub>31</sub>, relative to its baseline value
+    (0.125; here labeled as 0) over the range where network rhythmicity is maintained;
+    results are shown when the pre-I is intrinsically oscillatory (B), with <italic>c</italic><sub>11</sub>
+    = &#8722;0.03, and tonic (C), with <italic>c</italic><sub>11</sub> = 0.01. Increasing
+    <italic>b</italic><sub>31</sub> prolongs the time until pre-I activity can rise,
+    leading to longer expiratory phase durations and periods.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g008.jpg
+  id: pcbi.1006860/pcbi.1006860.g008
+  label: Fig 8
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Inputs
+    to different nodes in the network provide distinct period control mechanisms.</title><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Left
+    column: pre-I is tuned to be intrinsically oscillatory (<italic>c</italic><sub>11</sub>
+    = &#8722;0.03). Right column: pre-I is tuned to be intrinsically tonic (<italic>c</italic><sub>11</sub>
+    = 0.01). All panels show period (black curve), inspiratory duration (blue curve),
+    and expiratory duration (red curve) versus the value of a drive parameter relative
+    to its baseline value (here labeled as 0) that was varied over the full range
+    that preserved network rhythmicity. Drive parameters used are drive to early-I,
+    <italic>c</italic><sub>12</sub> (top), drive to post-I, <italic>c</italic><sub>13</sub>
+    (middle), and drive to aug-E, <italic>c</italic><sub>14</sub> (bottom). Drive
+    parameters are fixed at <italic>c</italic><sub>12</sub> = 0.19, <italic>c</italic><sub>13</sub>
+    = 0.58, <italic>c</italic><sub>14</sub> = 0.2 unless being varied. The same horizontal
+    and vertical axis ranges are used in all panels.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g009.jpg
+  id: pcbi.1006860/pcbi.1006860.g009
+  label: Fig 9
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Dependence
+    of respiratory period and amplitude of inspiratory signal on inhibition levels.</title><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(A)
+    pre-I unit is intrinsically oscillatory (<italic>c</italic><sub>11</sub> = &#8722;0.03)
+    and inhibition to the preB&#246;tC units (pre-I and early-I) is varied. (B) pre-I
+    unit is intrinsically tonic (<italic>c</italic><sub>11</sub> = 0.01) and inhibition
+    to the preB&#246;tC units (pre-I and early-I) is varied. (C) pre-I unit is intrinsically
+    oscillatory (<italic>c</italic><sub>11</sub> = &#8722;0.03) and inhibition to
+    the B&#246;tC units (post-I and aug-E) is varied. (D) pre-I unit is intrinsically
+    tonic (<italic>c</italic><sub>11</sub> = 0.01) and inhibition to the B&#246;tC
+    units (post-I and aug-E) is varied. All horizontal axis ranges are distinct; in
+    all cases, the baseline network corresponds to 1 and the lower bound denotes a
+    level just below which the oscillation is lost. The network response to lowered
+    inhibition is qualitatively similar regardless of whether the pre-I unit is oscillatory
+    or tonic. Period and amplitude are both much more strongly modulated by changes
+    in inhibition to the preB&#246;tC units than by changes in inhibition to the B&#246;tC
+    units; note also that the slopes of the period curves are opposite in the two
+    cases.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g010.jpg
+  id: pcbi.1006860/pcbi.1006860.g010
+  label: Fig 10
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Pre-I
+    dynamics varies across inhibition levels.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(A) Baseline levels of inhibition
+    to the preB&#246;tC yield relatively long respiratory periods with large amplitude
+    pre-I voltage excursions (black) and significant <italic>I</italic><sub><italic>NaP</italic></sub>
+    deinactivation (red) and total magnitude (blue). (B) Inhibition at 50% of baseline
+    yields a faster period due to shortening of <italic>T</italic><sub><italic>I</italic></sub>
+    and, especially, <italic>T</italic><sub><italic>E</italic></sub>, with less deinactivation
+    and total magnitude of <italic>I</italic><sub><italic>NaP</italic></sub>.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g011.jpg
+  id: pcbi.1006860/pcbi.1006860.g011
+  label: Fig 11
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Effect
+    of increasing drive from PiCo to the post-I unit (<italic>a</italic><sub>53</sub>)
+    on respiratory period.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(A)
+    Period (black) and expiratory phase duration (red) for <italic>c</italic><sub>11</sub>
+    = &#8722;0.03 (pre-I unit intrinsically oscillatory). (B) Period (black) and expiratory
+    phase duration (red) for <italic>c</italic><sub>11</sub> = 0.01 (pre-I tonic).
+    Note that the entire change in period is captured by the change in expiratory
+    phase duration in both (A) and (B). (C) Trajectories projected into the slow phase
+    plane for the pre-I unit with <italic>c</italic><sub>11</sub> = &#8722;0.03 for
+    <italic>a</italic><sub>53</sub> = 0 (without PiCo activity, grey) and <italic>a</italic><sub>53</sub>
+    = 0.4 (with PiCo activity, magenta). The curves of fixed points (green, FP) and
+    left knees (blue, LK) for the pre-I unit dynamics are also shown. (D) Trajectories
+    projected into the slow phase plane for the pre-I unit with <italic>c</italic><sub>11</sub>
+    = 0.01 for <italic>a</italic><sub>53</sub> = 0 (grey) and <italic>a</italic><sub>53</sub>
+    = 0.4 (magenta). FP and LK as in (C). In both (C) and (D), the projected trajectories
+    reach the points marked with circles at the start of the aug-E phase. The arrow
+    indicates the direction of flow.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g012.jpg
+  id: pcbi.1006860/pcbi.1006860.g012
+  label: Fig 12
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Period
+    is insensitive to drive to the PiCo and to the presence of PiCo.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Period <italic>T</italic> (black),
+    expiratory duration <italic>T</italic><sub><italic>E</italic></sub> (red), and
+    inspiratory duration <italic>T</italic><sub><italic>I</italic></sub> (blue) versus
+    (A,B) PiCo drive parameter (<italic>c</italic><sub>15</sub>) or (C,D) drive to
+    the post-I unit (<italic>c</italic><sub>13</sub>), relative to its baseline value
+    of 0.58 (denoted by 0 here). In (A,B), dashed-dotted vertical black lines separate
+    intervals of <italic>c</italic><sub>15</sub> values corresponding to different
+    types of PiCo intrinsic dynamics. In (A,C), pre-I is intrinsically oscillatory
+    (<italic>c</italic><sub>11</sub> = &#8722;0.03); in (B,D), pre-I is intrinsically
+    tonic (<italic>c</italic><sub>11</sub> = 0.01). Axis ranges in (C,D) are identical
+    to those in <xref ref-type="fig" rid="pcbi.1006860.g009">Fig 9</xref> (middle
+    row) except for extension to more negative relative values of <italic>c</italic><sub>13</sub>
+    here, since rhythmicity persists down to these lower levels.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g013.jpg
+  id: pcbi.1006860/pcbi.1006860.g013
+  label: Fig 13

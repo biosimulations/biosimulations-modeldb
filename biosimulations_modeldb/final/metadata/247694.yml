@@ -1,0 +1,203 @@
+references:
+- label: "Audrey Denizot, Misa Arizono, U. Valentin N\xE4gerl, H\xE9di Soula & Hugues\
+    \ Berry. Simulation of calcium signaling in fine astrocytic processes: Effect\
+    \ of spatial properties on spontaneous activity. PLOS Computational Biology 15,\
+    \ 8: e1006795 (2019)."
+  uri: http://identifiers.org/doi:10.1371/journal.pcbi.1006795
+taxa: []
+thumbnails:
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Reaction
+    scheme and <italic>IP</italic><sub>3</sub><italic>R</italic> model.</title><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
+    biochemical processes included in the model are illustrated in (<italic>A</italic>).
+    Cytosolic calcium can exit the cytosol to the extracellular space or the endoplasmic
+    reticulum (ER) at a (total) rate <italic>&#945;</italic>, lumping together the
+    effects of ER and plasma membrane pumps. Likewise, Ca<sup>2+</sup> can enter the
+    cytosol from the extracellular space or from the ER via <italic>IP</italic><sub>3</sub><italic>R</italic>-independent
+    flow, with (total) rate <italic>&#947;</italic>, emulating calcium channels from
+    the plasma membrane. When an <italic>IP</italic><sub>3</sub><italic>R</italic>
+    channel opens, calcium enters the cytosol through the channel at rate <italic>&#956;</italic>.
+    Phospholipase C<italic>&#948;</italic> (PLC<italic>&#948;</italic>), once activated
+    by calcium binding, produces <italic>IP</italic><sub>3</sub> at rate <italic>&#948;</italic>.
+    Like Ca<sup>2+</sup>, <italic>IP</italic><sub>3</sub> can bind the <italic>IP</italic><sub>3</sub><italic>R</italic>
+    channel and is removed with rate <italic>&#946;</italic>. (<italic>B</italic>)
+    Our model of the kinetics of the <italic>IP</italic><sub>3</sub><italic>R</italic>
+    channel is an 8-state Markov model adapted from [<xref rid="pcbi.1006795.ref046"
+    ref-type="bibr">46</xref>, <xref rid="pcbi.1006795.ref056" ref-type="bibr">56</xref>].
+    Each <italic>IP</italic><sub>3</sub><italic>R</italic> channel monomer is associated
+    with 3 binding sites, two calcium binding sites and one <italic>IP</italic><sub>3</sub>
+    binding site. Occupancy states are designated by a triplet {<italic>i</italic>,
+    <italic>j</italic>, <italic>k</italic>} where <italic>i</italic> stands for the
+    occupation of the first Ca binding site (<italic>i</italic> = 1 if bound, 0 else),
+    <italic>j</italic> for that of the <italic>IP</italic><sub>3</sub> binding site
+    and <italic>k</italic> for the second Ca site. The first calcium binding site
+    has higher affinity than the second. The open state is state {110}, where the
+    first Ca and the <italic>IP</italic><sub>3</sub> sites are bound but not the second
+    Ca site. (<italic>C</italic>) Spatial parameters for the particle-based model.
+    The <inline-formula id="pcbi.1006795.e001"><alternatives><graphic id="pcbi.1006795.e001g"
+    xlink:href="pcbi.1006795.e001"/><mml:math id="M1"><mml:mrow><mml:msub><mml:mi>N</mml:mi><mml:mrow><mml:msub><mml:mrow><mml:mtext>IP</mml:mtext></mml:mrow><mml:mtext>3</mml:mtext></mml:msub><mml:mtext>R</mml:mtext></mml:mrow></mml:msub><mml:mspace
+    width="4pt"/><mml:mi>I</mml:mi><mml:msub><mml:mi>P</mml:mi><mml:mtext>3</mml:mtext></mml:msub><mml:mi>R</mml:mi></mml:mrow></mml:math></alternatives></inline-formula>
+    molecules are positioned within uniformly distributed clusters, with <italic>&#951;</italic>
+
+    <italic>IP</italic><sub>3</sub><italic>R</italic> in each cluster. Hence <italic>&#951;</italic>
+    = 1 corresponds to uniformly distributed <italic>IP</italic><sub>3</sub><italic>R</italic>
+    (no clustering), while the degree of clustering increases with <italic>&#951;</italic>
+    (for constant total <italic>IP</italic><sub>3</sub><italic>R</italic> number).
+    To account for potential co-localization between <italic>IP</italic><sub>3</sub><italic>R</italic>-dependent
+    and <italic>IP</italic><sub>3</sub><italic>R</italic>-independent calcium sources,
+    the influx of <italic>IP</italic><sub>3</sub><italic>R</italic>-independent calcium
+    (at rate <italic>&#947;</italic>) occurs within distance <italic>R</italic><sub><italic>&#947;</italic></sub>
+    of an <italic>IP</italic><sub>3</sub><italic>R</italic>. Thus, low values of <italic>R</italic><sub><italic>&#947;</italic></sub>
+    emulate co-localization between <italic>IP</italic><sub>3</sub><italic>R</italic>-dependent
+    and <italic>IP</italic><sub>3</sub><italic>R</italic>-independent Ca<sup>2+</sup>
+    influx sources.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6726244/PMC6726244/pcbi.1006795.g001.jpg
+  id: pcbi.1006795/pcbi.1006795.g001
+  label: Fig 1
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Model
+    exploration.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(<italic>A</italic>)
+    Spontaneous transients are observed in simulations of the particle-based and the
+    Gillespie&#8217;s SSA model but not in the Mean Field model. (<italic>B</italic>)
+    The three models display the same basal calcium level when <italic>&#956;</italic>,
+    the calcium influx rate through open <italic>IP</italic><sub>3</sub><italic>R</italic>
+    channels, increases. The higher variability in the stochastic models reflects
+    the integer value of basal calcium (either 49 or 50, depending on simulations).
+    (<italic>C</italic>) Quantification of calcium transients in the stochastic models
+    (calcium peak frequency and mean peak amplitude). No significant difference between
+    the two models was observed. (<italic>D</italic>) Excitability of the Mean-Field
+    model: increasing quantities of exogenous <italic>IP</italic><sub>3</sub> molecules
+    were injected at time <italic>t</italic> = 20&#916;<italic>t</italic>, after model
+    equilibration. The amplitude of the resulting calcium response (<italic>D1</italic>)
+    was quantified depending on the amount of <italic>IP</italic><sub>3</sub> injected
+    and the value of the binding rate constant to the first calcium <italic>IP</italic><sub>3</sub><italic>R</italic>
+    site, <italic>a</italic><sub>1</sub> (<italic>D2</italic>). Parameter values for
+    the particle-based model: <italic>D</italic><sub>Ca</sub> = <italic>D</italic><sub>IP3</sub>
+    = &#8734; (perfect mixing) and <italic>&#951;</italic> = 1, <italic>R</italic><sub><italic>&#947;</italic></sub>
+    = 200, i.e. no <italic>IP</italic><sub>3</sub><italic>R</italic> channels clustering,
+    and no co-localization of <italic>IP</italic><sub>3</sub><italic>R</italic> with
+    <italic>IP</italic><sub>3</sub><italic>R</italic>-independent Ca<sup>2+</sup>
+    sources. For SSA and particle-based models, the figure shows the average &#177;
+    standard deviation over 20 simulations.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6726244/PMC6726244/pcbi.1006795.g002.jpg
+  id: pcbi.1006795/pcbi.1006795.g002
+  label: Fig 2
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
+    particle-based model produces different calcium activity regimes depending on
+    parameter values.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Color-coded
+    map of variation of the peak frequency, expressed as the number of calcium peaks
+    per MC time step (<italic>A</italic>) and as the maximal number of <italic>IP</italic><sub>3</sub><italic>R</italic>
+    channel open per peak (<italic>B</italic>). The color scale is given for each
+    map. The black area corresponds to the stationary regime. Note that the <italic>x</italic>
+    and <italic>y</italic>-axis scales in (<italic>A</italic>) and (<italic>B</italic>)
+    are not regularly spaced. The symbols &#9733;, &#9724; and &#9679; locate parameter
+    pairs that are illustrative of the three dynamical regimes shown in (<italic>C</italic>):
+    stationary (&#9733;, <italic>&#956;</italic> = 5, <italic>a</italic><sub>1</sub>
+    = 0.5), blips (&#9724;, <italic>&#956;</italic> = 25, <italic>a</italic><sub>1</sub>
+    = 2) and puffs (&#9679;, <italic>&#956;</italic> = 75, <italic>a</italic><sub>1</sub>
+    = 7). Red crosses show the locations of peaks from automatic detection. <italic>D</italic><sub>Ca</sub>
+    = <italic>D</italic><sub>IP3</sub> = &#8734;, <italic>&#951;</italic> = 1, <italic>R</italic><sub><italic>&#947;</italic></sub>
+    = 200.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6726244/PMC6726244/pcbi.1006795.g003.jpg
+  id: pcbi.1006795/pcbi.1006795.g003
+  label: Fig 3
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Ca<sup>2+</sup>
+    diffusion modulates the temporal characteristics of the signals upon co-localization.</title><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Representative
+    simulations of the particle-based model showing both calcium trace and number
+    of open <italic>IP</italic><sub>3</sub><italic>R</italic> for co-localized calcium
+    sources (<italic>R</italic><sub><italic>&#947;</italic></sub> = 0) in the case
+    of slow calcium diffusion (<italic>A</italic>) or perfect-mixing of calcium (<italic>B</italic>).
+    The red crosses show peak locations from automatic detection. The impact of calcium
+    diffusion coefficient <italic>D</italic><sub>Ca</sub> on peak frequency (<italic>C</italic>)
+    and the amount of puff (<italic>D</italic>) are shown for different values of
+    the co-localization parameter <italic>R</italic><sub><italic>&#947;</italic></sub>:
+    from <italic>R</italic><sub><italic>&#947;</italic></sub> = 0 (<italic>IP</italic><sub>3</sub><italic>R</italic>
+    are not clustered but co-localized with other calcium sources) to <italic>R</italic><sub><italic>&#947;</italic></sub>
+    = 100 (<italic>IP</italic><sub>3</sub><italic>R</italic> are neither clustered
+    nor co-localized). The puff ratio quantifies the fraction of peaks that are puffs.
+    (<italic>E</italic>) and (<italic>F</italic>) respectively present the probabilities
+    that <italic>IP</italic><sub>3</sub><italic>R</italic> closure results from binding
+    of a <italic>Ca</italic><sup>2+</sup> to the inactivating site (probability to
+    switch to state {111}, <italic>P</italic><sub>110&#8722;&gt;111</sub>) or unbinding
+    of an <italic>IP</italic><sub>3</sub> (probability to switch to state {100}, <italic>P</italic><sub>110&#8722;&gt;100</sub>)
+    depending on <italic>D</italic><sub>Ca</sub> and on <italic>R</italic><sub><italic>&#947;</italic></sub>.
+    Probability of closure due to <italic>Ca</italic><sup>2+</sup> unbinding from
+    activating site, <italic>P</italic><sub>110&#8722;&gt;010</sub> can be deduced
+    from 1 = <italic>P</italic><sub>110&#8722;&gt;010</sub> + <italic>P</italic><sub>110&#8722;&gt;100</sub>+<italic>P</italic><sub>110&#8722;&gt;111</sub>.
+    Data are presented as mean &#177; standard deviation over 20 simulations. Lines
+    are guide for the eyes. Note that the <italic>x</italic>-axis scale in (<italic>C</italic>),
+    (<italic>D</italic>), (<italic>E</italic>) and (<italic>F</italic>) is not regularly
+    spaced. Other parameters: <italic>&#951;</italic> = 1 (no clustering), <italic>a</italic><sub>1</sub>
+    = 1 a.u, <italic>&#956;</italic> = 50 a.u.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6726244/PMC6726244/pcbi.1006795.g004.jpg
+  id: pcbi.1006795/pcbi.1006795.g004
+  label: Fig 4
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML"><italic>IP</italic><sub>3</sub><italic>R</italic>
+    clustering modulates calcium signals when co-localized.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Representative simulations of the
+    particle-based model with the corresponding <italic>IP</italic><sub>3</sub><italic>R</italic>
+    distribution over space, the calcium trace and number of open <italic>IP</italic><sub>3</sub><italic>R</italic>
+    for weakly co-localized calcium sources (<italic>R</italic><sub><italic>&#947;</italic></sub>
+    = 10) in the case of uniform distribution of the <italic>IP</italic><sub>3</sub><italic>R</italic>
+    (<italic>A</italic>) or strongly clustered <italic>IP</italic><sub>3</sub><italic>R</italic>
+    (<italic>B</italic>) are illustrated. The red crosses show peak locations from
+    automatic detection. The impact of <italic>IP</italic><sub>3</sub><italic>R</italic>
+    cluster size <italic>&#951;</italic> on calcium peak frequency (<italic>C</italic>)
+    and on the amount of puffs (<italic>D</italic>) are shown for different values
+    of the cluster size: from <italic>&#951;</italic> = 1 (<italic>IP</italic><sub>3</sub><italic>R</italic>
+    are not clustered) to <italic>&#951;</italic> = 50 (strong clustering). Data are
+    presented as mean &#177; standard deviation over 20 simulations. Lines are guide
+    for the eyes. Other parameters: <italic>D</italic><sub>Ca</sub> = 0.1 a.u, <italic>a</italic><sub>1</sub>
+    = 1 a.u, <italic>&#956;</italic> = 50 a.u.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6726244/PMC6726244/pcbi.1006795.g005.jpg
+  id: pcbi.1006795/pcbi.1006795.g005
+  label: Fig 5
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">3d
+    model simulations in fine astrocyte processes successfully reproduce calcium microdomains
+    signals.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(<italic>A</italic>)
+    Experimental monitoring of the spontaneous local Ca<sup>2+</sup> signals in astrocytic
+    sponge-like processes. Panel <italic>A1</italic> shows a &#8216;summed projection&#8217;
+    of a confocal time lapse image stack of a GCaMP6s-expressing astrocyte. Panel
+    <italic>A2</italic> illustrates magnification of the boxed region of panel <italic>A1</italic>.
+    Panel <italic>A3</italic> displays spontaneous calcium traces from the regions
+    of interest shown in (<italic>A2</italic>). (<italic>B</italic>) The 3d geometry
+    used for the 3D model is a cylinder of length <italic>L</italic><sub>astro</sub>
+    = 1 <italic>&#956;</italic>m and radius <italic>R</italic><sub>astro</sub> = 0.1
+    <italic>&#956;</italic>m, with ER as a thinner cylinder inside. The interior volume
+    is roughly 0.03 fL. (<italic>C</italic>) Representative simulations of calcium
+    dynamics within the above cylinder with the &#8220;No-GCaMP&#8221;, &#8220;GCaMP&#8221;
+    and &#8220;GC+Buf&#8221; simulations. The raw signal corresponds to cytosolic
+    free calcium concentration for the &#8220;No-GCaMP&#8221; model and to calcium-bound
+    GCaMP concentration for &#8220;GCaMP&#8221; and &#8220;GC+Buf&#8221; models. For
+    all simulation types, parameter values were partly taken from the literature and
+    partly adjusted for fitting calcium traces shown in <italic>A</italic> (reported
+    in <xref rid="pcbi.1006795.t002" ref-type="table">Table 2</xref>). (<italic>D</italic>)
+    Quantitative comparisons of the spontaneous calcium signals measured experimentally
+    (black bars) or simulated with the &#8220;No-GCaMP&#8221;, &#8220;GCaMP&#8221;
+    or &#8220;GC+Buf&#8221; models (white bars). The compared quantities are peaks
+    amplitude in terms of &#916;<italic>F</italic>/<italic>F</italic> ratio (D1),
+    their frequency (measured in <italic>min</italic><sup>&#8722;1</sup> for each
+    <italic>&#956;m</italic><sup>2</sup> area, D2) and duration (expressed as full
+    width at half maximum, FWHM) D3. Significance is assigned by * for <italic>p</italic>
+    &#8804; 0.05, ** for <italic>p</italic> &#8804; 0.01, *** for <italic>p</italic>
+    &#8804; 0.001.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6726244/PMC6726244/pcbi.1006795.g006.jpg
+  id: pcbi.1006795/pcbi.1006795.g006
+  label: Fig 6
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
+    kinetics and concentration of GECIs strongly influence calcium dynamics.</title><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(<italic>A</italic>)
+    Quantitative comparisons of the spontaneous calcium signals measured with &#8220;GCaMP6s&#8221;
+    or &#8220;GCaMP6f&#8221; as fluorescent reporters. The compared quantities are
+    peak amplitude in terms of &#916;<italic>F</italic>/<italic>F</italic> ratio (A1),
+    frequency (measured in <italic>min</italic><sup>&#8722;1</sup> for each <italic>&#956;m</italic><sup>2</sup>
+    area, A2) and duration (expressed as full width at half maximum, FWHM) (A3). (<italic>B</italic>)
+    The impact of the concentration of GCaMP6s in the system on basal concentration
+    of GCaMP-Ca (B1), on the GCaMP-Ca peak amplitude (B2), frequency (B3) and duration
+    (B4) are shown for different values of [GCaMP6s]. Significance is assigned by
+    * for <italic>p</italic> &#8804; 0.05, ** for <italic>p</italic> &#8804; 0.01,
+    *** for <italic>p</italic> &#8804; 0.001. Data are presented as mean &#177; standard
+    deviation over 20 simulations. Lines are guide for the eyes.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6726244/PMC6726244/pcbi.1006795.g007.jpg
+  id: pcbi.1006795/pcbi.1006795.g007
+  label: Fig 7

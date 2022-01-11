@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/62287.omex">
+    <dc:title>Kv4.3, Kv1.4 encoded K(+) channel in heart cells (Greenstein et al 2000) (XPP)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62287.omex">
+    <dc:abstract>A model of canine I:(to1) (the Ca(2+)-independent transient outward current) is formulated as the combination of Kv4.3 and Kv1.4 &#13;
+currents and is incorporated into an existing canine ventricular myocyte model. Simulations demonstrate strong &#13;
+coupling between L-type Ca(2+) current and I:(Kv4.3) and predict a bimodal relationship between I:(Kv4.3) &#13;
+density and APD whereby perturbations in I:(Kv4.3) density may produce either prolongation or shortening of APD, &#13;
+depending on baseline I:(to1) current level.&#13;
+The model files were submitted by:&#13;
+Dr. Sheng-Nan Wu, Dr. Ruey J. Sung, Ya-Jean Wang and Jiun-Shian Wu&#13;
+e-mail: snwu@mail.ncku.edu.tw&#13;
+</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3540">http://modeldb.science/ModelList?id=3540</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Channel/Receptor</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62287.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>heart cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62287.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=247">http://modeldb.science/ModelList?id=247</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>I A</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62287.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=122803">http://modeldb.science/ModelList?id=122803</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>Kv4.3 KCND3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62287.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=122804">http://modeldb.science/ModelList?id=122804</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>Kv1.4 KCNA4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62287.omex">
+    <bqbiol:encodes rdf:resource="local:00005">local:00005</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3631">http://modeldb.science/ModelList?id=3631</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>Ion Channel Kinetics</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62287.omex">
+    <bqbiol:encodes rdf:resource="local:00006">local:00006</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=52407">http://modeldb.science/ModelList?id=52407</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>Heart disease</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62287.omex">
+    <bqbiol:encodes rdf:resource="local:00007">local:00007</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="mailto:snwu@mail.ncku.edu.tw">mailto:snwu@mail.ncku.edu.tw</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>Sheng-Nan Wu</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <foaf:accountName rdf:resource="mailto:snwu@mail.ncku.edu.tw">mailto:snwu@mail.ncku.edu.tw</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <foaf:name>Sheng-Nan Wu</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62287.omex">
+    <dc:creator rdf:resource="local:00008">local:00008</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="mailto:coolneon@gmail.com">mailto:coolneon@gmail.com</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>Jiun-Shian Wu</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <foaf:accountName rdf:resource="mailto:coolneon@gmail.com">mailto:coolneon@gmail.com</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <foaf:name>Jiun-Shian Wu</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62287.omex">
+    <dc:creator rdf:resource="local:00009">local:00009</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <rdfs:label>Ruey J  Sung</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <foaf:name>Ruey J  Sung</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62287.omex">
+    <dc:creator rdf:resource="local:00010">local:00010</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <rdfs:label>Ya-Jean  Wang</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <foaf:name>Ya-Jean  Wang</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62287.omex">
+    <dc:creator rdf:resource="local:00011">local:00011</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62287.omex">
+    <dc:contributor rdf:resource="local:00012">local:00012</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62287.omex">
+    <dc:contributor rdf:resource="local:00013">local:00013</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:62287">https://identifiers.org/modeldb:62287</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <rdfs:label>modeldb:62287</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62287.omex">
+    <bqmodel:is rdf:resource="local:00014">local:00014</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1161/01.res.87.11.1026">http://identifiers.org/doi:10.1161/01.res.87.11.1026</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <rdfs:label>Joseph L. Greenstein, Richard Wu, Sunny Po, Gordon F. Tomaselli &amp; Raimond L. Winslow. Role of the calcium-independent transient outward current I(to1) in shaping action potential morphology and duration. Circulation Research 87, 11: 1026-1033 (2000).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62287.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00015">local:00015</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62287.omex">
+    <dc:created>2006-01-07</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/62287.omex">
+    <dc:modified>2009-07-13</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

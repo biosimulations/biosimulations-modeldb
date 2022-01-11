@@ -1,0 +1,9 @@
+references:
+- label: 'Alexander O. Komendantov & Nikolai I. Kononenko. Deterministic chaos in
+    mathematical model of pacemaker activity in bursting neurons of snail, Helix pomatia.
+    Journal of Theoretical Biology 183, 2: 219-230 (1996).'
+  uri: http://identifiers.org/doi:10.1006/jtbi.1996.0215
+taxa:
+- label: Helix pomatia
+  uri: http://identifiers.org/taxonomy:6536
+thumbnails: []

@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/152028.omex">
+    <dc:title>Drosophila 3rd instar larval aCC motoneuron (Gunay et al. 2015)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152028.omex">
+    <dc:abstract>Single compartmental, ball-and-stick models implemented in XPP and full morphological model in Neuron. Paper has been submitted and correlates anatomical properties with electrophysiological recordings from these hard-to-access neurons. For instance we make predictions about location of the spike initiation zone, channel distributions, and synaptic input parameters.</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://identifiers.org/taxonomy:7215">http://identifiers.org/taxonomy:7215</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Drosophila</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152028.omex">
+    <bqbiol:hasTaxon rdf:resource="local:00001">local:00001</bqbiol:hasTaxon>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Neuron or other electrically excitable cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152028.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>Drosophila aCC motoneuron, 3rd instar larva</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152028.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=241">http://modeldb.science/ModelList?id=241</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>I Na,p</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152028.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=242">http://modeldb.science/ModelList?id=242</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>I Na,t</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152028.omex">
+    <bqbiol:encodes rdf:resource="local:00005">local:00005</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=247">http://modeldb.science/ModelList?id=247</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>I A</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152028.omex">
+    <bqbiol:encodes rdf:resource="local:00006">local:00006</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=248">http://modeldb.science/ModelList?id=248</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>I K</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152028.omex">
+    <bqbiol:encodes rdf:resource="local:00007">local:00007</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=218">http://modeldb.science/ModelList?id=218</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>Cholinergic Receptors</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152028.omex">
+    <bqbiol:encodes rdf:resource="local:00008">local:00008</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>Spike initiation zone</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152028.omex">
+    <bqbiol:encodes rdf:resource="local:00009">local:00009</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152028.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/152028.omex/figures/PMC4433181/pcbi.1004189.g001.jpg">http://omex-library.org/152028.omex/figures/PMC4433181/pcbi.1004189.g001.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152028.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/152028.omex/figures/PMC4433181/pcbi.1004189.g002.jpg">http://omex-library.org/152028.omex/figures/PMC4433181/pcbi.1004189.g002.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152028.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/152028.omex/figures/PMC4433181/pcbi.1004189.g003.jpg">http://omex-library.org/152028.omex/figures/PMC4433181/pcbi.1004189.g003.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152028.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/152028.omex/figures/PMC4433181/pcbi.1004189.g004.jpg">http://omex-library.org/152028.omex/figures/PMC4433181/pcbi.1004189.g004.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152028.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/152028.omex/figures/PMC4433181/pcbi.1004189.g005.jpg">http://omex-library.org/152028.omex/figures/PMC4433181/pcbi.1004189.g005.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152028.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/152028.omex/figures/PMC4433181/pcbi.1004189.g006.jpg">http://omex-library.org/152028.omex/figures/PMC4433181/pcbi.1004189.g006.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152028.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/152028.omex/figures/PMC4433181/pcbi.1004189.g007.jpg">http://omex-library.org/152028.omex/figures/PMC4433181/pcbi.1004189.g007.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <dc:identifier rdf:resource="mailto:cgunay@emory.edu">mailto:cgunay@emory.edu</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <rdfs:label>Cengiz Gunay</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <foaf:accountName rdf:resource="mailto:cgunay@emory.edu">mailto:cgunay@emory.edu</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <foaf:name>Cengiz Gunay</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152028.omex">
+    <dc:creator rdf:resource="local:00010">local:00010</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <dc:identifier rdf:resource="mailto:fred.sieling@gmail.com">mailto:fred.sieling@gmail.com</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <rdfs:label>Fred Sieling</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <foaf:accountName rdf:resource="mailto:fred.sieling@gmail.com">mailto:fred.sieling@gmail.com</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <foaf:name>Fred Sieling</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152028.omex">
+    <dc:creator rdf:resource="local:00011">local:00011</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <dc:identifier rdf:resource="mailto:astrid.prinz@emory.edu">mailto:astrid.prinz@emory.edu</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <rdfs:label>Astrid Prinz</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <foaf:accountName rdf:resource="mailto:astrid.prinz@emory.edu">mailto:astrid.prinz@emory.edu</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <foaf:name>Astrid Prinz</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152028.omex">
+    <dc:creator rdf:resource="local:00012">local:00012</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152028.omex">
+    <dc:contributor rdf:resource="local:00013">local:00013</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152028.omex">
+    <dc:contributor rdf:resource="local:00014">local:00014</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:152028">https://identifiers.org/modeldb:152028</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <rdfs:label>modeldb:152028</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152028.omex">
+    <bqmodel:is rdf:resource="local:00015">local:00015</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1371/journal.pcbi.1004189">http://identifiers.org/doi:10.1371/journal.pcbi.1004189</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <rdfs:label>Cengiz Günay, Fred H. Sieling, Logesh Dharmar, Wei-Hsiang Lin, Verena Wolfram, Richard Marley, Richard A. Baines &amp; Astrid A. Prinz. Distal spike initiation zone location estimation by morphological simulation of ionic current filtering demonstrated in a novel model of an identified Drosophila motoneuron. PLOS Computational Biology 11, 5: e1004189 (2015).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152028.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00016">local:00016</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152028.omex">
+    <dc:created>2014-01-09</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152028.omex">
+    <dc:modified>2019-02-26</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

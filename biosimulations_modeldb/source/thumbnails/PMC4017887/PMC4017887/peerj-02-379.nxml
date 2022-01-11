@@ -1,0 +1,810 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PeerJ</journal-id><journal-id journal-id-type="iso-abbrev">PeerJ</journal-id><journal-id journal-id-type="pmc">PeerJ</journal-id><journal-id journal-id-type="publisher-id">PeerJ</journal-id><journal-title-group><journal-title>PeerJ</journal-title></journal-title-group><issn pub-type="epub">2167-8359</issn><publisher><publisher-name>PeerJ Inc.</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">24860703</article-id><article-id pub-id-type="pmc">4017887</article-id><article-id pub-id-type="publisher-id">379</article-id><article-id pub-id-type="doi">10.7717/peerj.379</article-id><article-categories><subj-group subj-group-type="heading"><subject>Computational Biology</subject></subj-group><subj-group subj-group-type="heading"><subject>Genetics</subject></subj-group><subj-group subj-group-type="heading"><subject>Mathematical Biology</subject></subj-group><subj-group subj-group-type="heading"><subject>Neuroscience</subject></subj-group><subj-group subj-group-type="heading"><subject>Neurology</subject></subj-group></article-categories><title-group><article-title>Linking a genetic defect in migraine to spreading depression in a computational model</article-title></title-group><contrib-group><contrib id="author-1" contrib-type="author" corresp="yes"><name><surname>Dahlem</surname><given-names>Markus A.</given-names></name><xref ref-type="aff" rid="aff-1">1</xref><email>markus.dahlem@gmail.com</email></contrib><contrib id="author-2" contrib-type="author"><name><surname>Schumacher</surname><given-names>Julia</given-names></name><xref ref-type="aff" rid="aff-2">2</xref></contrib><contrib id="author-3" contrib-type="author"><name><surname>H&#x000fc;bel</surname><given-names>Niklas</given-names></name><xref ref-type="aff" rid="aff-3">3</xref></contrib><aff id="aff-1"><label>1</label><institution>Department of Physics, Humboldt Universit&#x000e4;t zu Berlin</institution>, <addr-line>Berlin</addr-line>, <country>Germany</country></aff><aff id="aff-2"><label>2</label><institution>Bernstein Center for Computational Neuroscience, Technische Universit&#x000e4;t Berlin</institution>, <addr-line>Berlin</addr-line>, <country>Germany</country></aff><aff id="aff-3"><label>3</label><institution>Department of Theoretical Physics, Technische Universit&#x000e4;t Berlin</institution>, <addr-line>Berlin</addr-line>, <country>Germany</country></aff></contrib-group><contrib-group><contrib id="editor-1" contrib-type="editor"><name><surname>Sensi</surname><given-names>Stefano</given-names></name></contrib></contrib-group><pub-date pub-type="epub" date-type="pub" iso-8601-date="2014-05-08"><day>8</day><month>5</month><year iso-8601-date="2014">2014</year></pub-date><pub-date pub-type="collection"><year>2014</year></pub-date><volume>2</volume><elocation-id>e379</elocation-id><history><date date-type="received" iso-8601-date="2014-03-27"><day>27</day><month>3</month><year iso-8601-date="2014">2014</year></date><date date-type="accepted" iso-8601-date="2014-04-23"><day>23</day><month>4</month><year iso-8601-date="2014">2014</year></date></history><permissions><copyright-statement>&#x000a9; 2014 Dahlem et al.</copyright-statement><copyright-year>2014</copyright-year><copyright-holder>Dahlem et al.</copyright-holder><license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, reproduction and adaptation in any medium and for any purpose provided that it is properly attributed. For attribution, the original author(s), title, publication source (PeerJ) and either DOI or URL of the article must be cited.</license-p></license></permissions><self-uri xlink:href="https://peerj.com/articles/379"/><abstract><p>Familial hemiplegic migraine (FHM) is a rare subtype of migraine with aura. A mutation causing FHM type 3 (FHM3) has been identified in SCN1A encoding the Nav1.1 Na<sup>+</sup> channel. This genetic defect affects the inactivation gate. While the Na<sup>+</sup> tail currents following voltage steps are consistent with both hyperexcitability and hypoexcitability, in this computational study, we investigate functional consequences beyond these isolated events. Our extended Hodgkin&#x02013;Huxley framework establishes a connection between genotype and cellular phenotype, i.e., the pathophysiological dynamics that spans over multiple time scales and is relevant to migraine with aura. In particular, we investigate the dynamical repertoire from normal spiking (milliseconds) to spreading depression and anoxic depolarization (tens of seconds) and show that FHM3 mutations render gray matter tissue more vulnerable to spreading depression despite opposing effects associated with action potential generation. We conclude that the classification in terms of hypoexcitability vs. hyperexcitability is too simple a scheme. Our mathematical analysis provides further basic insight into also previously discussed criticisms against this scheme based on psychophysical and clinical data.</p></abstract><kwd-group kwd-group-type="author"><kwd>Inactivation</kwd><kwd>Hyperexcitability</kwd><kwd>Hypoexcitability</kwd><kwd>Familial hemiplegic migraine</kwd><kwd>Hodgkin&#x02013;Huxley model</kwd><kwd>Potassium channel</kwd><kwd>Action potential</kwd><kwd>Threshold</kwd><kwd>Anoxia</kwd><kwd>Ions</kwd></kwd-group><funding-group><award-group id="fund-1"><funding-source>Bundesministerium f&#x000fc;r Bildung und Forschung BMBF</funding-source><award-id>01GQ1001A</award-id><award-id>01GQ1001B</award-id><award-id>01GQ1109</award-id></award-group><funding-statement>This work was supported by the Bundesministerium f&#x000fc;r Bildung und Forschung (BMBF 01GQ1001B, 01GQ1109) within the Bernstein Center of Computational Neuroscience Berlin. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement></funding-group></article-meta></front><body><sec sec-type="intro"><title>Introduction</title><p>Familial hemiplegic migraine (FHM) is a rare monogenic, autosomal dominantly inherited syndrome with hemiparesis during the aura phase of migraine. Three distinct genetic mutations for FHM have been identified, in the CACNA1A calcium channel gene (FHM1), in the ATP1A2 Na,K-ATPase gene (FHM2), and in the SCN1A sodium channel gene (FHM3). It has been proposed that all three phenotypes reflect hyperexcitability in the form of increased susceptibility for spreading depression (SD) (<xref rid="ref-18" ref-type="bibr">van den Maagdenberg et al., 2007</xref>; <xref rid="ref-16" ref-type="bibr">Pietrobon, 2010</xref>). However, the functional connection between the molecular findings and a facilitated generation of SD is unclear.</p><p>To determine the electrophysiological consequences of such a genetic defect, we integrate a mutation of FHM3 into three types of computational models of neuronal dynamics. This allows us to bridge the gap between genotype and phenotype. A similar approach was used by <xref rid="ref-2" ref-type="bibr">Clancy &#x00026; Rudy (1999)</xref>. We use a standard Hodgkin&#x02013;Huxley model for action potentials (AP) (<xref rid="ref-10" ref-type="bibr">Hodgkin &#x00026; Huxley, 1952</xref>) and a model of SD (<xref rid="ref-11" ref-type="bibr">H&#x000fc;bel, Sch&#x000f6;ll &#x00026; Dahlem, 2014</xref>) to evaluate the change in the threshold of generating SD by tolerating various brief intervals of transient ischemic attacks. Moreover, we use a model for anoxic depolarization (AD) (<xref rid="ref-21" ref-type="bibr">Zandt et al., 2011</xref>) that is derived from a seizure model (<xref rid="ref-5" ref-type="bibr">Cressman et al., 2009</xref>; <xref rid="ref-4" ref-type="bibr">Cressman et al., 2011</xref>) as a test of the robustness of our results.</p><p>The paper is organized as follows. In the Methods we introduce three computational models and our method to incorporate measured tail currents in FHM3 (<xref rid="ref-7" ref-type="bibr">Dichgans et al., 2005</xref>; <xref rid="ref-19" ref-type="bibr">Vanmolkot et al., 2007</xref>) into the Hodgkin&#x02013;Huxley framework. In the Results we present simulations and analysis of the wild-type and mutant models. We end with the Discussion where we focus on three topics: (i) the appropriateness of the terms hypoexcitable vs. hyperexcitable, (ii) the seemingly paradoxically increased susceptibility to SD in the mutant model if one considers the firing rate, a measure that is usually used to quantify slow neural dynamics, and (iii) the inadequate concept of a threshold as a quantity measured by a single value.</p></sec><sec sec-type="methods"><title>Methods</title><p>All three models are based on Hodgkin&#x02013;Huxley type dynamics with different degree of complexity from the classical model to a second generation with time-dependent ion concentrations.</p><sec><title>Hodgkin&#x02013;Huxley model</title><p>The Hodgkin&#x02013;Huxley (HH) model is one of the most widely used computational models in neuroscience. It is a conductance-based neuron model (<xref rid="ref-10" ref-type="bibr">Hodgkin &#x00026; Huxley, 1952</xref>) and consists of four differential equations describing the membrane potential <italic>V</italic> and three gating variables <italic>m</italic>, <italic>n</italic> and <italic>h</italic> that determine the conductances of potassium and sodium channels. The change in membrane potential is proportional to the current that is flowing across the membrane with the proportionality constant given by the capacitance of the membrane <italic>C<sub>m</sub></italic>. The individual currents are modeled as the conductance <italic>g<sub>i</sub></italic> of the respective channel times the driving force, which is given by the difference between the membrane potential and the respective ion&#x02019;s reversal potential <italic>E<sub>i</sub></italic>, where <italic>i</italic>&#x02208;{K, Na, leak}. Note that the conductance <italic>g<sub>j</sub></italic> for voltage-gated channels, i.e., <italic>j</italic>&#x02208;{K, Na}, is given by the maximal conductance <inline-formula><alternatives><inline-graphic xlink:href="peerj-02-379-i001.jpg"/><tex-math id="M1">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${\bar {g}}_{j}$\end{document}</tex-math><mml:math id="mml-ieqn-11"><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>g</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x000af;</mml:mo></mml:mrow></mml:mover></mml:mrow><mml:mrow><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:math></alternatives></inline-formula> times the respective gating variables as introduced below. The model takes into account a sodium current <italic>I</italic><sub>Na<sup>+</sup></sub>, a potassium current <italic>I</italic><sub>K<sup>+</sup></sub>, a leak current <italic>I</italic><sub>leak</sub> that is carried by unspecified ions, and an applied current <italic>I</italic><sub>app</sub>. <disp-formula id="eqn-1"><label>(1)</label><alternatives><graphic xlink:href="peerj-02-379-e001.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M2">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle \frac{\mathrm{d}V}{\mathrm{d}t}=-\frac{1}{{C}_{m}}({I}_{{\mathrm{Na}}^{+}}+{I}_{{\mathrm{K}}^{+}}+{I}_{\mathrm{leak}}-{I}_{\mathrm{app}}),&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-1"><mml:mstyle displaystyle="true"><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi>V</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mo>&#x02212;</mml:mo><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>C</mml:mi></mml:mrow><mml:mrow><mml:mi>m</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mfenced separators="" open="(" close=")"><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="normal">Na</mml:mi></mml:mrow><mml:mrow><mml:mo>+</mml:mo></mml:mrow></mml:msup></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="normal">K</mml:mi></mml:mrow><mml:mrow><mml:mo>+</mml:mo></mml:mrow></mml:msup></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">leak</mml:mi></mml:mrow></mml:msub><mml:mo>&#x02212;</mml:mo><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">app</mml:mi></mml:mrow></mml:msub></mml:mfenced><mml:mo>,</mml:mo></mml:mstyle></mml:math></alternatives></disp-formula>
+<disp-formula id="eqn-2"><label>(2)</label><alternatives><graphic xlink:href="peerj-02-379-e002.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M3">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle {I}_{{\mathrm{Na}}^{+}}={\bar {g}}_{\mathrm{Na}}{m}^{3}h\left(V-{E}_{\mathrm{Na}}\right),&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-2"><mml:mstyle displaystyle="true"><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="normal">Na</mml:mi></mml:mrow><mml:mrow><mml:mo>+</mml:mo></mml:mrow></mml:msup></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>g</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x000af;</mml:mo></mml:mrow></mml:mover></mml:mrow><mml:mrow><mml:mi mathvariant="normal">Na</mml:mi></mml:mrow></mml:msub><mml:msup><mml:mrow><mml:mi>m</mml:mi></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:msup><mml:mi>h</mml:mi><mml:mfenced separators="" open="(" close=")"><mml:mrow><mml:mi>V</mml:mi><mml:mo>&#x02212;</mml:mo><mml:msub><mml:mrow><mml:mi>E</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">Na</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mo>,</mml:mo></mml:mstyle></mml:math></alternatives></disp-formula>
+<disp-formula id="eqn-3"><label>(3)</label><alternatives><graphic xlink:href="peerj-02-379-e003.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M4">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle {I}_{{\mathrm{K}}^{+}}={\bar {g}}_{\mathrm{K}}{n}^{4}\left(V-{E}_{\mathrm{K}}\right),&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-3"><mml:mstyle displaystyle="true"><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="normal">K</mml:mi></mml:mrow><mml:mrow><mml:mo>+</mml:mo></mml:mrow></mml:msup></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>g</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x000af;</mml:mo></mml:mrow></mml:mover></mml:mrow><mml:mrow><mml:mi mathvariant="normal">K</mml:mi></mml:mrow></mml:msub><mml:msup><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mn>4</mml:mn></mml:mrow></mml:msup><mml:mfenced separators="" open="(" close=")"><mml:mrow><mml:mi>V</mml:mi><mml:mo>&#x02212;</mml:mo><mml:msub><mml:mrow><mml:mi>E</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">K</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mo>,</mml:mo></mml:mstyle></mml:math></alternatives></disp-formula>
+<disp-formula id="eqn-4"><label>(4)</label><alternatives><graphic xlink:href="peerj-02-379-e004.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M5">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle {I}_{\mathrm{leak}}={g}_{l}\left(V-{E}_{\mathrm{leak}}\right).&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-4"><mml:mstyle displaystyle="true"><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">leak</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>g</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msub><mml:mfenced separators="" open="(" close=")"><mml:mrow><mml:mi>V</mml:mi><mml:mo>&#x02212;</mml:mo><mml:msub><mml:mrow><mml:mi>E</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">leak</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mo>.</mml:mo></mml:mstyle></mml:math></alternatives></disp-formula> In the HH model the potassium current is modeled as a delayed rectifier current with activation gate <italic>n</italic> while the sodium current is described by a transient current with an activation gate <italic>m</italic> and an inactivation gate <italic>h</italic>. All gating variables are voltage dependent and are given by the following equations: <disp-formula id="eqn-5"><label>(5)</label><alternatives><graphic xlink:href="peerj-02-379-e005.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M6">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle \frac{\mathrm{d}x}{\mathrm{d}t}=\frac{{x}_{\infty }-x}{{\tau }_{x}}\quad \mathrm{with}&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-5"><mml:mstyle displaystyle="true"><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>&#x0221e;</mml:mi></mml:mrow></mml:msub><mml:mo>&#x02212;</mml:mo><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>&#x003c4;</mml:mi></mml:mrow><mml:mrow><mml:mi>x</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mspace width="1em" class="quad"/><mml:mi mathvariant="normal">with</mml:mi></mml:mstyle></mml:math></alternatives></disp-formula>
+<disp-formula id="eqn-6"><label>(6)</label><alternatives><graphic xlink:href="peerj-02-379-e006.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M7">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle {x}_{\infty }=\frac{{\alpha }_{x}}{{\alpha }_{x}+{\beta }_{x}}\quad \mathrm{and}&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-6"><mml:mstyle displaystyle="true"><mml:msub><mml:mrow><mml:mi>x</mml:mi></mml:mrow><mml:mrow><mml:mi>&#x0221e;</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mi>&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mi>x</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>&#x003b2;</mml:mi></mml:mrow><mml:mrow><mml:mi>x</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mspace width="1em" class="quad"/><mml:mi mathvariant="normal">and</mml:mi></mml:mstyle></mml:math></alternatives></disp-formula>
+<disp-formula id="eqn-7"><label>(7)</label><alternatives><graphic xlink:href="peerj-02-379-e007.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M8">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle {\tau }_{x}=\frac{1}{{\alpha }_{x}+{\beta }_{x}}\quad \mathrm{for}~x\in \{ n,m,h\} .&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-7"><mml:mstyle displaystyle="true"><mml:msub><mml:mrow><mml:mi>&#x003c4;</mml:mi></mml:mrow><mml:mrow><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>&#x003b2;</mml:mi></mml:mrow><mml:mrow><mml:mi>x</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mspace width="1em" class="quad"/><mml:mi mathvariant="normal">for</mml:mi><mml:mspace class="nbsp"/><mml:mi>x</mml:mi><mml:mo>&#x02208;</mml:mo><mml:mfenced separators="" open="{" close="}"><mml:mi>n</mml:mi><mml:mo>,</mml:mo><mml:mi>m</mml:mi><mml:mo>,</mml:mo><mml:mi>h</mml:mi></mml:mfenced><mml:mo>.</mml:mo></mml:mstyle></mml:math></alternatives></disp-formula><italic>x</italic><sub>&#x0221e;</sub> describes the steady-state of the gating variables and <italic>&#x003c4;<sub>x</sub></italic> is the time constant.</p><table-wrap id="table-1" orientation="portrait" position="float"><object-id pub-id-type="doi">10.7717/peerj.379/table-1</object-id><label>Table 1</label><caption><title>Model parameters for the Hodgkin&#x02013;Huxley model.</title></caption><alternatives><graphic xlink:href="peerj-02-379-g006"/><table frame="hsides" rules="groups"><colgroup span="1"><col span="1"/><col span="1"/><col span="1"/></colgroup><thead><tr><th rowspan="1" colspan="1">Name</th><th rowspan="1" colspan="1">Value &#x00026; unit</th><th rowspan="1" colspan="1">Description</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">
+<italic>C<sub>m</sub></italic>
+</td><td rowspan="1" colspan="1">1 &#x000b5;F/cm<sup>2</sup></td><td rowspan="1" colspan="1">Membrane capacitance</td></tr><tr><td rowspan="1" colspan="1">
+<inline-formula><alternatives><inline-graphic xlink:href="peerj-02-379-i002.jpg"/><tex-math id="M9">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${\bar {g}}_{\mathrm{Na}}$\end{document}</tex-math><mml:math id="mml-ieqn-30"><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>g</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x000af;</mml:mo></mml:mrow></mml:mover></mml:mrow><mml:mrow><mml:mi mathvariant="normal">Na</mml:mi></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>
+</td><td rowspan="1" colspan="1">120 m/cm<sup>2</sup></td><td rowspan="1" colspan="1">Max. sodium conductance</td></tr><tr><td rowspan="1" colspan="1">
+<inline-formula><alternatives><inline-graphic xlink:href="peerj-02-379-i003.jpg"/><tex-math id="M10">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${\bar {g}}_{\mathrm{K}}$\end{document}</tex-math><mml:math id="mml-ieqn-31"><mml:msub><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>g</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x000af;</mml:mo></mml:mrow></mml:mover></mml:mrow><mml:mrow><mml:mi mathvariant="normal">K</mml:mi></mml:mrow></mml:msub></mml:math></alternatives></inline-formula>
+</td><td rowspan="1" colspan="1">36 m/cm<sup>2</sup></td><td rowspan="1" colspan="1">Max. potassium leak conductance</td></tr><tr><td rowspan="1" colspan="1">
+<italic>g<sub>l</sub></italic>
+</td><td rowspan="1" colspan="1">0.3 m/cm<sup>2</sup></td><td rowspan="1" colspan="1">Leak conductance</td></tr><tr><td rowspan="1" colspan="1">
+<italic>E</italic>
+<sub>Na</sub>
+</td><td rowspan="1" colspan="1">50 mV</td><td rowspan="1" colspan="1">Sodium reversal potential</td></tr><tr><td rowspan="1" colspan="1">
+<italic>E</italic>
+<sub>K</sub>
+</td><td rowspan="1" colspan="1">&#x02212;77 mV</td><td rowspan="1" colspan="1">Potassium reversal potential</td></tr><tr><td rowspan="1" colspan="1">
+<italic>E</italic>
+<sub>leak</sub>
+</td><td rowspan="1" colspan="1">&#x02212;54.402 mV</td><td rowspan="1" colspan="1">Leak reversal potential</td></tr></tbody></table></alternatives></table-wrap><p>The rate equations for <italic>&#x003b1;<sub>x</sub></italic> and <italic>&#x003b2;<sub>x</sub></italic> are voltage-dependent and given by <disp-formula id="eqn-8"><label>(8)</label><alternatives><graphic xlink:href="peerj-02-379-e008.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M11">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle {\alpha }_{m}=\frac{0.1(V+40)}{1-\exp (-(V+40)/10)},&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-8"><mml:mstyle displaystyle="true"><mml:msub><mml:mrow><mml:mi>&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mi>m</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>0</mml:mn><mml:mo>.</mml:mo><mml:mn>1</mml:mn><mml:mfenced separators="" open="(" close=")"><mml:mi>V</mml:mi><mml:mo>+</mml:mo><mml:mn>40</mml:mn></mml:mfenced></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#x02212;</mml:mo><mml:mo>exp</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mo>&#x02212;</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mi>V</mml:mi><mml:mo>+</mml:mo><mml:mn>40</mml:mn></mml:mfenced><mml:mo>/</mml:mo><mml:mn>10</mml:mn></mml:mfenced></mml:mrow></mml:mfrac><mml:mo>,</mml:mo></mml:mstyle></mml:math></alternatives></disp-formula>
+<disp-formula id="eqn-9"><label>(9)</label><alternatives><graphic xlink:href="peerj-02-379-e009.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M12">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle {\beta }_{m}=4\exp (-(V+65)/18),&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-9"><mml:mstyle displaystyle="true"><mml:msub><mml:mrow><mml:mi>&#x003b2;</mml:mi></mml:mrow><mml:mrow><mml:mi>m</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>4</mml:mn><mml:mo>exp</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mo>&#x02212;</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mi>V</mml:mi><mml:mo>+</mml:mo><mml:mn>65</mml:mn></mml:mfenced><mml:mo>/</mml:mo><mml:mn>18</mml:mn></mml:mfenced><mml:mo>,</mml:mo></mml:mstyle></mml:math></alternatives></disp-formula>
+<disp-formula id="eqn-10"><label>(10)</label><alternatives><graphic xlink:href="peerj-02-379-e010.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M13">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle {\alpha }_{n}=\frac{0.01(V+55)}{1-\exp (-(V+55)/10)},&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-10"><mml:mstyle displaystyle="true"><mml:msub><mml:mrow><mml:mi>&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>0</mml:mn><mml:mo>.</mml:mo><mml:mn>01</mml:mn><mml:mfenced separators="" open="(" close=")"><mml:mi>V</mml:mi><mml:mo>+</mml:mo><mml:mn>55</mml:mn></mml:mfenced></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#x02212;</mml:mo><mml:mo>exp</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mo>&#x02212;</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mi>V</mml:mi><mml:mo>+</mml:mo><mml:mn>55</mml:mn></mml:mfenced><mml:mo>/</mml:mo><mml:mn>10</mml:mn></mml:mfenced></mml:mrow></mml:mfrac><mml:mo>,</mml:mo></mml:mstyle></mml:math></alternatives></disp-formula>
+<disp-formula id="eqn-11"><label>(11)</label><alternatives><graphic xlink:href="peerj-02-379-e011.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M14">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle {\beta }_{n}=0.125\exp (-(V+65)/80),&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-11"><mml:mstyle displaystyle="true"><mml:msub><mml:mrow><mml:mi>&#x003b2;</mml:mi></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>0</mml:mn><mml:mo>.</mml:mo><mml:mn>125</mml:mn><mml:mo>exp</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mo>&#x02212;</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mi>V</mml:mi><mml:mo>+</mml:mo><mml:mn>65</mml:mn></mml:mfenced><mml:mo>/</mml:mo><mml:mn>80</mml:mn></mml:mfenced><mml:mo>,</mml:mo></mml:mstyle></mml:math></alternatives></disp-formula>
+<disp-formula id="eqn-12"><label>(12)</label><alternatives><graphic xlink:href="peerj-02-379-e012.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M15">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle {\alpha }_{h}=0.07\exp (-(V+65)/20),&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-12"><mml:mstyle displaystyle="true"><mml:msub><mml:mrow><mml:mi>&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mi>h</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>0</mml:mn><mml:mo>.</mml:mo><mml:mn>07</mml:mn><mml:mo>exp</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mo>&#x02212;</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mi>V</mml:mi><mml:mo>+</mml:mo><mml:mn>65</mml:mn></mml:mfenced><mml:mo>/</mml:mo><mml:mn>20</mml:mn></mml:mfenced><mml:mo>,</mml:mo></mml:mstyle></mml:math></alternatives></disp-formula>
+<disp-formula id="eqn-13"><label>(13)</label><alternatives><graphic xlink:href="peerj-02-379-e013.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M16">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle {\beta }_{h}=\frac{1}{1+\exp (-0.1(V+35))}.&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-13"><mml:mstyle displaystyle="true"><mml:msub><mml:mrow><mml:mi>&#x003b2;</mml:mi></mml:mrow><mml:mrow><mml:mi>h</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mo>exp</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mo>&#x02212;</mml:mo><mml:mn>0</mml:mn><mml:mo>.</mml:mo><mml:mn>1</mml:mn><mml:mfenced separators="" open="(" close=")"><mml:mi>V</mml:mi><mml:mo>+</mml:mo><mml:mn>35</mml:mn></mml:mfenced></mml:mfenced></mml:mrow></mml:mfrac><mml:mo>.</mml:mo></mml:mstyle></mml:math></alternatives></disp-formula> This model is capable of producing action potentials in response to depolarizations of the membrane caused by an appropriate externally applied current <italic>I</italic><sub>app</sub>. All model parameters that were used in the simulations of the HH model can be found in <xref ref-type="table" rid="table-1">Table 1</xref>. It is interesting to remark that trying to study the effect of the mutation in a reduced two-dimensional model in the phase plane did not lead to promising results because the mutation quickly led to bistability, which is consistant with our results of a prolonged plateau of action potential and early depolarization block in the form of bistability.</p></sec><sec><title>Spreading depression model</title><p>The classical HH model neglects the time-dependency of ion concentrations caused by spiking dynamics. Ions accumulate very slowly but also progressively due to the fluxes across the neuronal membrane. Therefore, changes in concentrations become significant either in the course of many rapid action potentials or under metabolic stress with insufficient ion pump activity, such as during transient ischemic attacks. Hence both the onset of spiking and also the response to reduced ion pump activity are of interest. These can be modeled by the spreading depression model described in more detail by <xref rid="ref-11" ref-type="bibr">H&#x000fc;bel, Sch&#x000f6;ll &#x00026; Dahlem (2014)</xref>.</p><p>This model is also based on HH dynamics, but uses several changes and extensions. Instead of an unspecified leak current, a combined Na<sup>+</sup>&#x02013;K<sup>+</sup>-leak current is used. The equations for sodium and potassium currents, including a pump current <italic>I<sub>p</sub></italic> that is introduced below, therefore change to <disp-formula id="eqn-14"><label>(14)</label><alternatives><graphic xlink:href="peerj-02-379-e014.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M17">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle {I}_{{\mathrm{Na}}^{+}}=({g}_{\mathrm{Na}}^{l}+{\bar {g}}_{\mathrm{Na}}^{g}{m}^{3}h)\cdot (V-{E}_{\mathrm{Na}})+3{I}_{p}~,&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-14"><mml:mstyle displaystyle="true"><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="normal">Na</mml:mi></mml:mrow><mml:mrow><mml:mo>+</mml:mo></mml:mrow></mml:msup></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:msubsup><mml:mrow><mml:mi>g</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">Na</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msubsup><mml:mo>+</mml:mo><mml:msubsup><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>g</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x000af;</mml:mo></mml:mrow></mml:mover></mml:mrow><mml:mrow><mml:mi mathvariant="normal">Na</mml:mi></mml:mrow><mml:mrow><mml:mi>g</mml:mi></mml:mrow></mml:msubsup><mml:msup><mml:mrow><mml:mi>m</mml:mi></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:msup><mml:mi>h</mml:mi></mml:mfenced><mml:mo>&#x022c5;</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mi>V</mml:mi><mml:mo>&#x02212;</mml:mo><mml:msub><mml:mrow><mml:mi>E</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">Na</mml:mi></mml:mrow></mml:msub></mml:mfenced><mml:mo>+</mml:mo><mml:mn>3</mml:mn><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow></mml:msub><mml:mspace class="nbsp"/><mml:mo>,</mml:mo></mml:mstyle></mml:math></alternatives></disp-formula>
+<disp-formula id="eqn-15"><label>(15)</label><alternatives><graphic xlink:href="peerj-02-379-e015.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M18">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle {I}_{{\mathrm{K}}^{+}}=({g}_{\mathrm{K}}^{l}+{\bar {g}}_{\mathrm{K}}^{g}{n}^{4})\cdot (V-{E}_{\mathrm{K}})-2{I}_{p}.~&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-15"><mml:mstyle displaystyle="true"><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="normal">K</mml:mi></mml:mrow><mml:mrow><mml:mo>+</mml:mo></mml:mrow></mml:msup></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:msubsup><mml:mrow><mml:mi>g</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">K</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msubsup><mml:mo>+</mml:mo><mml:msubsup><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>g</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x000af;</mml:mo></mml:mrow></mml:mover></mml:mrow><mml:mrow><mml:mi mathvariant="normal">K</mml:mi></mml:mrow><mml:mrow><mml:mi>g</mml:mi></mml:mrow></mml:msubsup><mml:msup><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mn>4</mml:mn></mml:mrow></mml:msup></mml:mfenced><mml:mo>&#x022c5;</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mi>V</mml:mi><mml:mo>&#x02212;</mml:mo><mml:msub><mml:mrow><mml:mi>E</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">K</mml:mi></mml:mrow></mml:msub></mml:mfenced><mml:mo>&#x02212;</mml:mo><mml:mn>2</mml:mn><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow></mml:msub><mml:mo>.</mml:mo><mml:mspace class="nbsp"/></mml:mstyle></mml:math></alternatives></disp-formula> Furthermore, the SD model uses dynamic ion concentrations to be able to model the breakdown of the ion gradients that is observed during SD. The intracellular potassium concentration K<sub><italic>i</italic></sub> and extracellular potassium concentration K<sub><italic>e</italic></sub> are modeled explicitly as dynamical variables, while the intra- and extracellular sodium concentrations (Na<sub><italic>i</italic></sub> and Na<sub><italic>e</italic></sub>) are computed from the potassium concentration due to the constraint of electroneutrality <disp-formula id="eqn-16"><label>(16)</label><alternatives><graphic xlink:href="peerj-02-379-e016.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M19">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle \frac{\mathrm{d}{\mathrm{K}}_{i}}{\mathrm{d}t}=-\frac{\gamma }{{\omega }_{i}}{I}_{{\mathrm{K}}^{+}},&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-16"><mml:mstyle displaystyle="true"><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:msub><mml:mrow><mml:mi mathvariant="normal">K</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mo>&#x02212;</mml:mo><mml:mfrac><mml:mrow><mml:mi>&#x003b3;</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>&#x003c9;</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="normal">K</mml:mi></mml:mrow><mml:mrow><mml:mo>+</mml:mo></mml:mrow></mml:msup></mml:mrow></mml:msub><mml:mo>,</mml:mo></mml:mstyle></mml:math></alternatives></disp-formula>
+<disp-formula id="eqn-17"><label>(17)</label><alternatives><graphic xlink:href="peerj-02-379-e017.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M20">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle \frac{\mathrm{d}{\mathrm{K}}_{e}}{\mathrm{d}t}=\frac{\gamma }{{\omega }_{e}}{I}_{{\mathrm{K}}^{+}}+{J}_{\mathrm{diff}}({\mathrm{K}}_{e})&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-17"><mml:mstyle displaystyle="true"><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:msub><mml:mrow><mml:mi mathvariant="normal">K</mml:mi></mml:mrow><mml:mrow><mml:mi>e</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>&#x003b3;</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>&#x003c9;</mml:mi></mml:mrow><mml:mrow><mml:mi>e</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="normal">K</mml:mi></mml:mrow><mml:mrow><mml:mo>+</mml:mo></mml:mrow></mml:msup></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>J</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">diff</mml:mi></mml:mrow></mml:msub><mml:mfenced separators="" open="(" close=")"><mml:msub><mml:mrow><mml:mi mathvariant="normal">K</mml:mi></mml:mrow><mml:mrow><mml:mi>e</mml:mi></mml:mrow></mml:msub></mml:mfenced></mml:mstyle></mml:math></alternatives></disp-formula>
+<disp-formula id="eqn-18"><label>(18)</label><alternatives><graphic xlink:href="peerj-02-379-e018.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M21">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle {\mathrm{Na}}_{i}={\mathrm{Na}}_{i}^{(0)}-{\mathrm{K}}_{i}+{\mathrm{K}}_{i}^{(0)},&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-18"><mml:mstyle displaystyle="true"><mml:msub><mml:mrow><mml:mi mathvariant="normal">Na</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msubsup><mml:mrow><mml:mi mathvariant="normal">Na</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mfenced separators="" open="(" close=")"><mml:mn>0</mml:mn></mml:mfenced></mml:mrow></mml:msubsup><mml:mo>&#x02212;</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="normal">K</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msubsup><mml:mrow><mml:mi mathvariant="normal">K</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mfenced separators="" open="(" close=")"><mml:mn>0</mml:mn></mml:mfenced></mml:mrow></mml:msubsup><mml:mo>,</mml:mo></mml:mstyle></mml:math></alternatives></disp-formula>
+<disp-formula id="eqn-19"><label>(19)</label><alternatives><graphic xlink:href="peerj-02-379-e019.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M22">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle {\mathrm{Na}}_{e}=\frac{{\omega }_{i}}{{\omega }_{e}}({\mathrm{Na}}_{i}^{(0)}-{\mathrm{Na}}_{i})+{\mathrm{Na}}_{e}^{(0)}.&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-19"><mml:mstyle displaystyle="true"><mml:msub><mml:mrow><mml:mi mathvariant="normal">Na</mml:mi></mml:mrow><mml:mrow><mml:mi>e</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mi>&#x003c9;</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>&#x003c9;</mml:mi></mml:mrow><mml:mrow><mml:mi>e</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mfenced separators="" open="(" close=")"><mml:msubsup><mml:mrow><mml:mi mathvariant="normal">Na</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow><mml:mrow><mml:mfenced separators="" open="(" close=")"><mml:mn>0</mml:mn></mml:mfenced></mml:mrow></mml:msubsup><mml:mo>&#x02212;</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="normal">Na</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mfenced><mml:mo>+</mml:mo><mml:msubsup><mml:mrow><mml:mi mathvariant="normal">Na</mml:mi></mml:mrow><mml:mrow><mml:mi>e</mml:mi></mml:mrow><mml:mrow><mml:mfenced separators="" open="(" close=")"><mml:mn>0</mml:mn></mml:mfenced></mml:mrow></mml:msubsup><mml:mo>.</mml:mo></mml:mstyle></mml:math></alternatives></disp-formula> The factor <italic>&#x003b3;</italic> converts currents to ion fluxes and depends on the membrane surface <italic>A<sub>m</sub></italic> and Faraday&#x02019;s constant <italic>F</italic>: <disp-formula id="eqn-20"><label>(20)</label><alternatives><graphic xlink:href="peerj-02-379-e020.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M23">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle \gamma =\frac{{A}_{m}}{F},&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-20"><mml:mstyle displaystyle="true"><mml:mi>&#x003b3;</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mrow><mml:mi>A</mml:mi></mml:mrow><mml:mrow><mml:mi>m</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mi>F</mml:mi></mml:mrow></mml:mfrac><mml:mo>,</mml:mo></mml:mstyle></mml:math></alternatives></disp-formula><italic>&#x003c9;<sub>i</sub></italic> and <italic>&#x003c9;<sub>e</sub></italic> are constants describing the intra- and extracellular volume, respectively, and the buffer flux <italic>J</italic><sub>diff</sub> is <disp-formula id="eqn-21"><label>(21)</label><alternatives><graphic xlink:href="peerj-02-379-e021.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M24">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle {J}_{\mathrm{diff}}={F}_{\mathrm{diff}}({\mathrm{K}}_{\mathrm{bath}}-{\mathrm{K}}_{e}).&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-21"><mml:mstyle displaystyle="true"><mml:msub><mml:mrow><mml:mi>J</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">diff</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>F</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">diff</mml:mi></mml:mrow></mml:msub><mml:mfenced separators="" open="(" close=")"><mml:msub><mml:mrow><mml:mi mathvariant="normal">K</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">bath</mml:mi></mml:mrow></mml:msub><mml:mo>&#x02212;</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="normal">K</mml:mi></mml:mrow><mml:mrow><mml:mi>e</mml:mi></mml:mrow></mml:msub></mml:mfenced><mml:mo>.</mml:mo></mml:mstyle></mml:math></alternatives></disp-formula> An overview of all constants and the values that were used in the simulations can be found in <xref ref-type="table" rid="table-2">Table 2</xref>.</p><table-wrap id="table-2" orientation="portrait" position="float"><object-id pub-id-type="doi">10.7717/peerj.379/table-2</object-id><label>Table 2</label><caption><title>Model parameters for the SD model.</title></caption><alternatives><graphic xlink:href="peerj-02-379-g007"/><table frame="hsides" rules="groups"><colgroup span="1"><col span="1"/><col span="1"/><col span="1"/></colgroup><thead><tr><th rowspan="1" colspan="1">Name</th><th rowspan="1" colspan="1">Value &#x00026; unit</th><th rowspan="1" colspan="1">Description</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">
+<italic>C<sub>m</sub></italic>
+</td><td rowspan="1" colspan="1">1 &#x000b5;F/cm<sup>2</sup></td><td rowspan="1" colspan="1">Membrane capacitance</td></tr><tr><td rowspan="1" colspan="1">
+<inline-formula><alternatives><inline-graphic xlink:href="peerj-02-379-i004.jpg"/><tex-math id="M25">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${g}_{\mathrm{Na}}^{l}$\end{document}</tex-math><mml:math id="mml-ieqn-67"><mml:msubsup><mml:mrow><mml:mi>g</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">Na</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula>
+</td><td rowspan="1" colspan="1">0.0175 m/cm<sup>2</sup></td><td rowspan="1" colspan="1">Sodium leak conductance</td></tr><tr><td rowspan="1" colspan="1">
+<inline-formula><alternatives><inline-graphic xlink:href="peerj-02-379-i005.jpg"/><tex-math id="M26">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${g}_{\mathrm{Na}}^{g}$\end{document}</tex-math><mml:math id="mml-ieqn-68"><mml:msubsup><mml:mrow><mml:mi>g</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">Na</mml:mi></mml:mrow><mml:mrow><mml:mi>g</mml:mi></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula>
+</td><td rowspan="1" colspan="1">100 m/cm<sup>2</sup></td><td rowspan="1" colspan="1">Max. gated sodium conductance</td></tr><tr><td rowspan="1" colspan="1">
+<inline-formula><alternatives><inline-graphic xlink:href="peerj-02-379-i006.jpg"/><tex-math id="M27">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${g}_{\mathrm{K}}^{l}$\end{document}</tex-math><mml:math id="mml-ieqn-69"><mml:msubsup><mml:mrow><mml:mi>g</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">K</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula>
+</td><td rowspan="1" colspan="1">0.05 m/cm<sup>2</sup></td><td rowspan="1" colspan="1">Potassium leak conductance</td></tr><tr><td rowspan="1" colspan="1">
+<inline-formula><alternatives><inline-graphic xlink:href="peerj-02-379-i007.jpg"/><tex-math id="M28">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${g}_{\mathrm{K}}^{g}$\end{document}</tex-math><mml:math id="mml-ieqn-70"><mml:msubsup><mml:mrow><mml:mi>g</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">K</mml:mi></mml:mrow><mml:mrow><mml:mi>g</mml:mi></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula>
+</td><td rowspan="1" colspan="1">40 m/cm<sup>2</sup></td><td rowspan="1" colspan="1">Max. gated potassium conductance</td></tr><tr><td rowspan="1" colspan="1">Na<sub><italic>i</italic></sub></td><td rowspan="1" colspan="1">27 mM/l</td><td rowspan="1" colspan="1">ECS sodium concentration</td></tr><tr><td rowspan="1" colspan="1">Na<sub><italic>e</italic></sub></td><td rowspan="1" colspan="1">120 mM/l</td><td rowspan="1" colspan="1">ICS sodium concentration</td></tr><tr><td rowspan="1" colspan="1">K<sub><italic>i</italic></sub></td><td rowspan="1" colspan="1">130.99 mM/l</td><td rowspan="1" colspan="1">ECS potassium concentration</td></tr><tr><td rowspan="1" colspan="1">K<sub><italic>e</italic></sub></td><td rowspan="1" colspan="1">4 mM/l</td><td rowspan="1" colspan="1">ICS potassium concentration</td></tr><tr><td rowspan="1" colspan="1">
+<italic>E</italic>
+<sub>Na</sub>
+</td><td rowspan="1" colspan="1">39.74 mV</td><td rowspan="1" colspan="1">Sodium reversal potential</td></tr><tr><td rowspan="1" colspan="1">
+<italic>E</italic>
+<sub>K</sub>
+</td><td rowspan="1" colspan="1">&#x02212;92.94 mV</td><td rowspan="1" colspan="1">Potassium reversal potential</td></tr><tr><td rowspan="1" colspan="1">
+<italic>&#x003c9;<sub>i</sub></italic>
+</td><td rowspan="1" colspan="1">2,160 &#x000b5;m<sup>3</sup></td><td rowspan="1" colspan="1">Volume of ICS</td></tr><tr><td rowspan="1" colspan="1">
+<italic>&#x003c9;<sub>e</sub></italic>
+</td><td rowspan="1" colspan="1">720 &#x000b5;m<sup>3</sup></td><td rowspan="1" colspan="1">Volume of ECS</td></tr><tr><td rowspan="1" colspan="1">
+<italic>F</italic>
+</td><td rowspan="1" colspan="1">96,485 C/Mol</td><td rowspan="1" colspan="1">Faraday&#x02019;s constant</td></tr><tr><td rowspan="1" colspan="1">
+<italic>A<sub>m</sub></italic>
+</td><td rowspan="1" colspan="1">922 &#x000b5;m<sup>2</sup></td><td rowspan="1" colspan="1">Membrane surface</td></tr><tr><td rowspan="1" colspan="1">
+<italic>&#x003b3;</italic>
+</td><td rowspan="1" colspan="1">9.556e&#x02212;6 <inline-formula><alternatives><inline-graphic xlink:href="peerj-02-379-i008.jpg"/><tex-math id="M29">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\frac{\mathrm{\mu} {\mathrm{m}}^{2}\mathrm{Mol}}{\mathrm{C}}$\end{document}</tex-math><mml:math id="mml-ieqn-82"><mml:mfrac><mml:mrow><mml:mi>&#x000b5;</mml:mi><mml:msup><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup><mml:mi mathvariant="normal">Mol</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">C</mml:mi></mml:mrow></mml:mfrac></mml:math></alternatives></inline-formula></td><td rowspan="1" colspan="1">Conversion factor</td></tr><tr><td rowspan="1" colspan="1">
+<italic>&#x003c1;</italic>
+</td><td rowspan="1" colspan="1">5.25 &#x000b5;A/cm<sup>2</sup></td><td rowspan="1" colspan="1">Max. pump current</td></tr><tr><td rowspan="1" colspan="1">
+<italic>&#x003d5;</italic>
+</td><td rowspan="1" colspan="1">3/ms</td><td rowspan="1" colspan="1">Gating timescale parameter</td></tr><tr><td rowspan="1" colspan="1">
+<italic>F</italic>
+<sub>diff</sub>
+</td><td rowspan="1" colspan="1">3.75e&#x02212;5/ms</td><td rowspan="1" colspan="1">Diffusion parameter</td></tr><tr><td rowspan="1" colspan="1">K<sub>bath</sub></td><td rowspan="1" colspan="1">4 mM/l</td><td rowspan="1" colspan="1">Potassium bath concentration</td></tr></tbody></table></alternatives></table-wrap><p>If ion concentrations are time-dependent, they actually change drastically during neuronal activity. To still maintain homeostasis an ion pump has to be included that pumps Na<sup>+</sup> ions out of and K<sup>+</sup> ions into the cell at a 3/2 ratio. The pump current thus depends on the extracellular potassium and the intracellular sodium concentration. The pump is modeled according to <xref rid="ref-1" ref-type="bibr">Barreto &#x00026; Cressman (2011)</xref>
+<disp-formula id="eqn-22"><label>(22)</label><alternatives><graphic xlink:href="peerj-02-379-e022.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M30">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle {I}_{p}({\mathrm{Na}}_{i},{\mathrm{K}}_{e})=\rho \biggl (1+\exp \biggl (\frac{25-{\mathrm{Na}}_{i}}{3}\biggr )\biggr )^{-1}(1+\exp (5.5-{\mathrm{K}}_{e}))^{-1},&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-22"><mml:mstyle displaystyle="true"><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow></mml:msub><mml:mfenced separators="" open="(" close=")"><mml:msub><mml:mrow><mml:mi mathvariant="normal">Na</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="normal">K</mml:mi></mml:mrow><mml:mrow><mml:mi>e</mml:mi></mml:mrow></mml:msub></mml:mfenced><mml:mo>=</mml:mo><mml:mi>&#x003c1;</mml:mi><mml:msup><mml:mrow><mml:mfenced separators="" open="(" close=")"><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mo>exp</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mfrac><mml:mrow><mml:mn>25</mml:mn><mml:mo>&#x02212;</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="normal">Na</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:mfrac></mml:mfenced></mml:mfenced></mml:mrow><mml:mrow><mml:mo>&#x02212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:msup><mml:mrow><mml:mfenced separators="" open="(" close=")"><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mo>exp</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mn>5</mml:mn><mml:mo>.</mml:mo><mml:mn>5</mml:mn><mml:mo>&#x02212;</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="normal">K</mml:mi></mml:mrow><mml:mrow><mml:mi>e</mml:mi></mml:mrow></mml:msub></mml:mfenced></mml:mfenced></mml:mrow><mml:mrow><mml:mo>&#x02212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mo>,</mml:mo></mml:mstyle></mml:math></alternatives></disp-formula> with <italic>&#x003c1;</italic> being the pump current strength. Note that the pump current also shows up in the equations for Na<sup>+</sup>- and K<sup>+</sup>-currents (<xref ref-type="disp-formula" rid="eqn-14">Eqs. (14)</xref> and <xref ref-type="disp-formula" rid="eqn-15">(15)</xref>).</p><p>As a result of the dynamic ion concentrations also the reversal potentials become dynamic <disp-formula id="eqn-23"><label>(23)</label><alternatives><graphic xlink:href="peerj-02-379-e023.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M31">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle {E}_{\mathrm{ion}}=\frac{26.64}{{z}_{\mathrm{ion}}}\ln ([\mathrm{ion}]_{e}/[\mathrm{ion}]_{i}).&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-23"><mml:mstyle displaystyle="true"><mml:msub><mml:mrow><mml:mi>E</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">ion</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>26</mml:mn><mml:mo>.</mml:mo><mml:mn>64</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>z</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">ion</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mo>ln</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:msub><mml:mrow><mml:mfenced separators="" open="[" close="]"><mml:mi mathvariant="normal">ion</mml:mi></mml:mfenced></mml:mrow><mml:mrow><mml:mi>e</mml:mi></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mrow><mml:mfenced separators="" open="[" close="]"><mml:mi mathvariant="normal">ion</mml:mi></mml:mfenced></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mfenced><mml:mo>.</mml:mo></mml:mstyle></mml:math></alternatives></disp-formula></p><p>The fast gating dynamics of the <italic>m</italic>-gate is modeled adiabatically as <disp-formula id="eqn-24"><label>(24)</label><alternatives><graphic xlink:href="peerj-02-379-e024.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M32">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle m={m}_{\infty }(V)~.&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-24"><mml:mstyle displaystyle="true"><mml:mi>m</mml:mi><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>m</mml:mi></mml:mrow><mml:mrow><mml:mi>&#x0221e;</mml:mi></mml:mrow></mml:msub><mml:mfenced separators="" open="(" close=")"><mml:mi>V</mml:mi></mml:mfenced><mml:mspace class="nbsp"/><mml:mo>.</mml:mo></mml:mstyle></mml:math></alternatives></disp-formula> Note that in this model shifted versions of the rate equations are used (<xref rid="ref-5" ref-type="bibr">Cressman et al., 2009</xref>; <xref rid="ref-4" ref-type="bibr">Cressman et al., 2011</xref>) <disp-formula id="eqn-25"><label>(25)</label><alternatives><graphic xlink:href="peerj-02-379-e025.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M33">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle {\alpha }_{m}=\frac{0.1(V+30)}{1-\exp (-(V+30)/10)},&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-25"><mml:mstyle displaystyle="true"><mml:msub><mml:mrow><mml:mi>&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mi>m</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>0</mml:mn><mml:mo>.</mml:mo><mml:mn>1</mml:mn><mml:mfenced separators="" open="(" close=")"><mml:mi>V</mml:mi><mml:mo>+</mml:mo><mml:mn>30</mml:mn></mml:mfenced></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#x02212;</mml:mo><mml:mo>exp</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mo>&#x02212;</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mi>V</mml:mi><mml:mo>+</mml:mo><mml:mn>30</mml:mn></mml:mfenced><mml:mo>/</mml:mo><mml:mn>10</mml:mn></mml:mfenced></mml:mrow></mml:mfrac><mml:mo>,</mml:mo></mml:mstyle></mml:math></alternatives></disp-formula>
+<disp-formula id="eqn-26"><label>(26)</label><alternatives><graphic xlink:href="peerj-02-379-e026.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M34">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle {\beta }_{m}=4\exp (-(V+55)/18),&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-26"><mml:mstyle displaystyle="true"><mml:msub><mml:mrow><mml:mi>&#x003b2;</mml:mi></mml:mrow><mml:mrow><mml:mi>m</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>4</mml:mn><mml:mo>exp</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mo>&#x02212;</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mi>V</mml:mi><mml:mo>+</mml:mo><mml:mn>55</mml:mn></mml:mfenced><mml:mo>/</mml:mo><mml:mn>18</mml:mn></mml:mfenced><mml:mo>,</mml:mo></mml:mstyle></mml:math></alternatives></disp-formula>
+<disp-formula id="eqn-27"><label>(27)</label><alternatives><graphic xlink:href="peerj-02-379-e027.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M35">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle {\alpha }_{n}=\frac{0.01(V+34)}{1-\exp (-(V+34)/10)},&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-27"><mml:mstyle displaystyle="true"><mml:msub><mml:mrow><mml:mi>&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>0</mml:mn><mml:mo>.</mml:mo><mml:mn>01</mml:mn><mml:mfenced separators="" open="(" close=")"><mml:mi>V</mml:mi><mml:mo>+</mml:mo><mml:mn>34</mml:mn></mml:mfenced></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#x02212;</mml:mo><mml:mo>exp</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mo>&#x02212;</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mi>V</mml:mi><mml:mo>+</mml:mo><mml:mn>34</mml:mn></mml:mfenced><mml:mo>/</mml:mo><mml:mn>10</mml:mn></mml:mfenced></mml:mrow></mml:mfrac><mml:mo>,</mml:mo></mml:mstyle></mml:math></alternatives></disp-formula>
+<disp-formula id="eqn-28"><label>(28)</label><alternatives><graphic xlink:href="peerj-02-379-e028.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M36">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle {\beta }_{n}=0.125\exp (-(V+44)/80),&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-28"><mml:mstyle displaystyle="true"><mml:msub><mml:mrow><mml:mi>&#x003b2;</mml:mi></mml:mrow><mml:mrow><mml:mi>n</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>0</mml:mn><mml:mo>.</mml:mo><mml:mn>125</mml:mn><mml:mo>exp</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mo>&#x02212;</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mi>V</mml:mi><mml:mo>+</mml:mo><mml:mn>44</mml:mn></mml:mfenced><mml:mo>/</mml:mo><mml:mn>80</mml:mn></mml:mfenced><mml:mo>,</mml:mo></mml:mstyle></mml:math></alternatives></disp-formula>
+<disp-formula id="eqn-29"><label>(29)</label><alternatives><graphic xlink:href="peerj-02-379-e029.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M37">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle {\alpha }_{h}=0.07\exp (-(V+44)/20),&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-29"><mml:mstyle displaystyle="true"><mml:msub><mml:mrow><mml:mi>&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mi>h</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>0</mml:mn><mml:mo>.</mml:mo><mml:mn>07</mml:mn><mml:mo>exp</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mo>&#x02212;</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mi>V</mml:mi><mml:mo>+</mml:mo><mml:mn>44</mml:mn></mml:mfenced><mml:mo>/</mml:mo><mml:mn>20</mml:mn></mml:mfenced><mml:mo>,</mml:mo></mml:mstyle></mml:math></alternatives></disp-formula>
+<disp-formula id="eqn-30"><label>(30)</label><alternatives><graphic xlink:href="peerj-02-379-e030.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M38">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle {\beta }_{h}=\frac{1}{1+\exp (-0.1(V+14))}.&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-30"><mml:mstyle displaystyle="true"><mml:msub><mml:mrow><mml:mi>&#x003b2;</mml:mi></mml:mrow><mml:mrow><mml:mi>h</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mo>exp</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mo>&#x02212;</mml:mo><mml:mn>0</mml:mn><mml:mo>.</mml:mo><mml:mn>1</mml:mn><mml:mfenced separators="" open="(" close=")"><mml:mi>V</mml:mi><mml:mo>+</mml:mo><mml:mn>14</mml:mn></mml:mfenced></mml:mfenced></mml:mrow></mml:mfrac><mml:mo>.</mml:mo></mml:mstyle></mml:math></alternatives></disp-formula> Furthermore, the time constants are scaled by a factor <italic>&#x003d5;</italic>
+<disp-formula id="eqn-31"><label>(31)</label><alternatives><graphic xlink:href="peerj-02-379-e031.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M39">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle {\tau }_{x}=\frac{1}{\phi ({\alpha }_{x}+{\beta }_{x})}.&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-31"><mml:mstyle displaystyle="true"><mml:msub><mml:mrow><mml:mi>&#x003c4;</mml:mi></mml:mrow><mml:mrow><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:mi>&#x003d5;</mml:mi><mml:mfenced separators="" open="(" close=")"><mml:msub><mml:mrow><mml:mi>&#x003b1;</mml:mi></mml:mrow><mml:mrow><mml:mi>x</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>&#x003b2;</mml:mi></mml:mrow><mml:mrow><mml:mi>x</mml:mi></mml:mrow></mml:msub></mml:mfenced></mml:mrow></mml:mfrac><mml:mo>.</mml:mo></mml:mstyle></mml:math></alternatives></disp-formula> In contrast to <xref rid="ref-11" ref-type="bibr">H&#x000fc;bel, Sch&#x000f6;ll &#x00026; Dahlem (2014)</xref> we did not reduce the dimension of the model further by assuming a linear or sigmoidal relation between <italic>n</italic> and <italic>h</italic>. Instead, <italic>h</italic> was kept dynamic since the changes caused by the mutation affect the <italic>h</italic>-gate.</p></sec><sec><title>Anoxia model</title><p>As a test of the robustness of our results we investigate the effects of FHM3 also in a mutant model of anoxia (<xref rid="ref-21" ref-type="bibr">Zandt et al., 2011</xref>). In fact, migraine with aura has been linked to a higher risk of ischemic stroke (<xref rid="ref-13" ref-type="bibr">Kurth &#x00026; Diener, 2012</xref>). For furthere details on the rationale, see the Sec. Results.</p><table-wrap id="table-3" orientation="portrait" position="float"><object-id pub-id-type="doi">10.7717/peerj.379/table-3</object-id><label>Table 3</label><caption><title>Model parameters for anoxia model.</title></caption><alternatives><graphic xlink:href="peerj-02-379-g008"/><table frame="hsides" rules="groups"><colgroup span="1"><col span="1"/><col span="1"/><col span="1"/></colgroup><thead><tr><th rowspan="1" colspan="1">Name</th><th rowspan="1" colspan="1">Value &#x00026; unit</th><th rowspan="1" colspan="1">Description</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">
+<italic>C<sub>m</sub></italic>
+</td><td rowspan="1" colspan="1">1 &#x000b5;F/cm<sup>2</sup></td><td rowspan="1" colspan="1">Membrane capacitance</td></tr><tr><td rowspan="1" colspan="1">
+<inline-formula><alternatives><inline-graphic xlink:href="peerj-02-379-i009.jpg"/><tex-math id="M40">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${g}_{\mathrm{Na}}^{l}$\end{document}</tex-math><mml:math id="mml-ieqn-109"><mml:msubsup><mml:mrow><mml:mi>g</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">Na</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula>
+</td><td rowspan="1" colspan="1">0.0175 m/cm<sup>2</sup></td><td rowspan="1" colspan="1">Sodium leak conductance</td></tr><tr><td rowspan="1" colspan="1">
+<inline-formula><alternatives><inline-graphic xlink:href="peerj-02-379-i010.jpg"/><tex-math id="M41">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${g}_{\mathrm{Na}}^{g}$\end{document}</tex-math><mml:math id="mml-ieqn-110"><mml:msubsup><mml:mrow><mml:mi>g</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">Na</mml:mi></mml:mrow><mml:mrow><mml:mi>g</mml:mi></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula>
+</td><td rowspan="1" colspan="1">100 m/cm<sup>2</sup></td><td rowspan="1" colspan="1">Max. gated sodium conductance</td></tr><tr><td rowspan="1" colspan="1">
+<inline-formula><alternatives><inline-graphic xlink:href="peerj-02-379-i011.jpg"/><tex-math id="M42">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${g}_{\mathrm{K}}^{l}$\end{document}</tex-math><mml:math id="mml-ieqn-111"><mml:msubsup><mml:mrow><mml:mi>g</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">K</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula>
+</td><td rowspan="1" colspan="1">0.05 m/cm<sup>2</sup></td><td rowspan="1" colspan="1">Potassium leak conductance</td></tr><tr><td rowspan="1" colspan="1">
+<inline-formula><alternatives><inline-graphic xlink:href="peerj-02-379-i012.jpg"/><tex-math id="M43">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${g}_{\mathrm{K}}^{g}$\end{document}</tex-math><mml:math id="mml-ieqn-112"><mml:msubsup><mml:mrow><mml:mi>g</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">K</mml:mi></mml:mrow><mml:mrow><mml:mi>g</mml:mi></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula>
+</td><td rowspan="1" colspan="1">40 m/cm<sup>2</sup></td><td rowspan="1" colspan="1">Max. gated potassium conductance</td></tr><tr><td rowspan="1" colspan="1">
+<inline-formula><alternatives><inline-graphic xlink:href="peerj-02-379-i013.jpg"/><tex-math id="M44">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${g}_{\mathrm{Cl}}^{l}$\end{document}</tex-math><mml:math id="mml-ieqn-113"><mml:msubsup><mml:mrow><mml:mi>g</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">Cl</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula>
+</td><td rowspan="1" colspan="1">0.05 m/cm<sup>2</sup></td><td rowspan="1" colspan="1">Chloride leak conductance</td></tr><tr><td rowspan="1" colspan="1">Na<sub><italic>i</italic></sub></td><td rowspan="1" colspan="1">27 mM/l</td><td rowspan="1" colspan="1">ECS sodium concentration</td></tr><tr><td rowspan="1" colspan="1">Na<sub><italic>e</italic></sub></td><td rowspan="1" colspan="1">120 mM/l</td><td rowspan="1" colspan="1">ICS sodium concentration</td></tr><tr><td rowspan="1" colspan="1">K<sub><italic>i</italic></sub></td><td rowspan="1" colspan="1">130.99 mM/l</td><td rowspan="1" colspan="1">ECS potassium concentration</td></tr><tr><td rowspan="1" colspan="1">K<sub><italic>e</italic></sub></td><td rowspan="1" colspan="1">4 mM/l</td><td rowspan="1" colspan="1">ICS potassium concentration</td></tr><tr><td rowspan="1" colspan="1">
+<italic>E</italic>
+<sub>Na</sub>
+</td><td rowspan="1" colspan="1">39.74 mV</td><td rowspan="1" colspan="1">Sodium reversal potential</td></tr><tr><td rowspan="1" colspan="1">
+<italic>E</italic>
+<sub>K</sub>
+</td><td rowspan="1" colspan="1">&#x02212;92.94 mV</td><td rowspan="1" colspan="1">Potassium reversal potential</td></tr><tr><td rowspan="1" colspan="1">
+<italic>&#x003d5;</italic>
+</td><td rowspan="1" colspan="1">3/ms</td><td rowspan="1" colspan="1">Gating timescale parameter</td></tr><tr><td rowspan="1" colspan="1">A/VF</td><td rowspan="1" colspan="1">0.044 <inline-formula><alternatives><inline-graphic xlink:href="peerj-02-379-i014.jpg"/><tex-math id="M45">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\frac{\mathrm{mM}}{\mathrm{s}}/(\frac{\mathrm{mA}}{{\mathrm{cm}}^{2}})$\end{document}</tex-math><mml:math id="mml-ieqn-121"><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">mM</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">s</mml:mi></mml:mrow></mml:mfrac><mml:mo>/</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">mA</mml:mi></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="normal">cm</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:mrow></mml:mfrac></mml:mfenced></mml:math></alternatives></inline-formula></td><td rowspan="1" colspan="1">Conversion factor</td></tr><tr><td rowspan="1" colspan="1">
+<italic>&#x003b2;</italic>
+</td><td rowspan="1" colspan="1">2.0</td><td rowspan="1" colspan="1">Ratio ICS/ECS</td></tr><tr><td rowspan="1" colspan="1">
+<italic>&#x003c1;</italic>
+</td><td rowspan="1" colspan="1">28.1 &#x000b5;A/cm<sup>2</sup></td><td rowspan="1" colspan="1">Na&#x02013;K-Pump rate</td></tr><tr><td rowspan="1" colspan="1">G</td><td rowspan="1" colspan="1">66 mM/s</td><td rowspan="1" colspan="1">Glial buffering rate for K<sup>+</sup></td></tr><tr><td rowspan="1" colspan="1">
+<italic>&#x003f5;</italic>
+</td><td rowspan="1" colspan="1">1.3 s<sup>&#x02212;1</sup></td><td rowspan="1" colspan="1">Diffusion rate</td></tr><tr><td rowspan="1" colspan="1">
+<italic>k</italic>
+<sub>&#x0221e;</sub>
+</td><td rowspan="1" colspan="1">4.0 mM</td><td rowspan="1" colspan="1">Concentration K<sup>+</sup> in blood</td></tr><tr><td rowspan="1" colspan="1">T</td><td rowspan="1" colspan="1">310 K</td><td rowspan="1" colspan="1">Absolute temperature</td></tr></tbody></table></alternatives></table-wrap><p>The anoxia model is similar to the SD model, but uses five more dynamic variables, in particular, it also models chloride ion dynamics. The other dimensions are due to explicitly modeling intra- and extracellular ion concentrations and not assuming mass conservation, and also electroneutrality is not assumed in this model.</p><p>Therefore, in addition to Na<sup>+</sup>- and K<sup>+</sup>-currents as in <xref ref-type="disp-formula" rid="eqn-14">Eqs. (14)</xref> and <xref ref-type="disp-formula" rid="eqn-15">(15)</xref> a chloride (Cl<sup>&#x02212;</sup>) channel is included, which contributes to the leak current <disp-formula id="eqn-32"><label>(32)</label><alternatives><graphic xlink:href="peerj-02-379-e032.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M46">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle \frac{\mathrm{d}V}{\mathrm{d}t}=-\frac{1}{{C}_{m}}({I}_{{\mathrm{Na}}^{+}}+{I}_{{\mathrm{K}}^{+}}+{I}_{\mathrm{Cl}})&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-32"><mml:mstyle displaystyle="true"><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi>V</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mo>&#x02212;</mml:mo><mml:mfrac><mml:mrow><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi>C</mml:mi></mml:mrow><mml:mrow><mml:mi>m</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfrac><mml:mfenced separators="" open="(" close=")"><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="normal">Na</mml:mi></mml:mrow><mml:mrow><mml:mo>+</mml:mo></mml:mrow></mml:msup></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="normal">K</mml:mi></mml:mrow><mml:mrow><mml:mo>+</mml:mo></mml:mrow></mml:msup></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">Cl</mml:mi></mml:mrow></mml:msub></mml:mfenced></mml:mstyle></mml:math></alternatives></disp-formula>
+<disp-formula id="eqn-33"><label>(33)</label><alternatives><graphic xlink:href="peerj-02-379-e033.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M47">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle {I}_{{\mathrm{Cl}}^{-}}={g}_{\mathrm{Cl}}^{l}(V-{E}_{\mathrm{Cl}}).&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-33"><mml:mstyle displaystyle="true"><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="normal">Cl</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x02212;</mml:mo></mml:mrow></mml:msup></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msubsup><mml:mrow><mml:mi>g</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">Cl</mml:mi></mml:mrow><mml:mrow><mml:mi>l</mml:mi></mml:mrow></mml:msubsup><mml:mfenced separators="" open="(" close=")"><mml:mi>V</mml:mi><mml:mo>&#x02212;</mml:mo><mml:msub><mml:mrow><mml:mi>E</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">Cl</mml:mi></mml:mrow></mml:msub></mml:mfenced><mml:mo>.</mml:mo></mml:mstyle></mml:math></alternatives></disp-formula></p><p>Intra- and extracellular ion concentrations are dynamic and modeled as <disp-formula id="eqn-34"><label>(34)</label><alternatives><graphic xlink:href="peerj-02-379-e034.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M48">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle \frac{\mathrm{d}{\mathrm{Na}}_{i}}{\mathrm{d}t}=-\frac{A}{V F}{I}_{{\mathrm{Na}}^{+}}&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-34"><mml:mstyle displaystyle="true"><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:msub><mml:mrow><mml:mi mathvariant="normal">Na</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mo>&#x02212;</mml:mo><mml:mfrac><mml:mrow><mml:mi>A</mml:mi></mml:mrow><mml:mrow><mml:mi>V</mml:mi><mml:mi>F</mml:mi></mml:mrow></mml:mfrac><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="normal">Na</mml:mi></mml:mrow><mml:mrow><mml:mo>+</mml:mo></mml:mrow></mml:msup></mml:mrow></mml:msub></mml:mstyle></mml:math></alternatives></disp-formula>
+<disp-formula id="eqn-35"><label>(35)</label><alternatives><graphic xlink:href="peerj-02-379-e035.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M49">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle \frac{\mathrm{d}{\mathrm{Na}}_{e}}{\mathrm{d}t}=\frac{\beta A}{V F}{I}_{{\mathrm{Na}}^{+}}&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-35"><mml:mstyle displaystyle="true"><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:msub><mml:mrow><mml:mi mathvariant="normal">Na</mml:mi></mml:mrow><mml:mrow><mml:mi>e</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>&#x003b2;</mml:mi><mml:mi>A</mml:mi></mml:mrow><mml:mrow><mml:mi>V</mml:mi><mml:mi>F</mml:mi></mml:mrow></mml:mfrac><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="normal">Na</mml:mi></mml:mrow><mml:mrow><mml:mo>+</mml:mo></mml:mrow></mml:msup></mml:mrow></mml:msub></mml:mstyle></mml:math></alternatives></disp-formula>
+<disp-formula id="eqn-36"><label>(36)</label><alternatives><graphic xlink:href="peerj-02-379-e036.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M50">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle \frac{\mathrm{d}{\mathrm{Cl}}_{i}}{\mathrm{d}t}=-\frac{A}{V F}{I}_{{\mathrm{Cl}}^{-}}&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-36"><mml:mstyle displaystyle="true"><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:msub><mml:mrow><mml:mi mathvariant="normal">Cl</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mo>&#x02212;</mml:mo><mml:mfrac><mml:mrow><mml:mi>A</mml:mi></mml:mrow><mml:mrow><mml:mi>V</mml:mi><mml:mi>F</mml:mi></mml:mrow></mml:mfrac><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="normal">Cl</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x02212;</mml:mo></mml:mrow></mml:msup></mml:mrow></mml:msub></mml:mstyle></mml:math></alternatives></disp-formula>
+<disp-formula id="eqn-37"><label>(37)</label><alternatives><graphic xlink:href="peerj-02-379-e037.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M51">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle \frac{\mathrm{d}{\mathrm{Cl}}_{e}}{\mathrm{d}t}=\frac{\beta A}{V F}{I}_{{\mathrm{Cl}}^{-}}&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-37"><mml:mstyle displaystyle="true"><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:msub><mml:mrow><mml:mi mathvariant="normal">Cl</mml:mi></mml:mrow><mml:mrow><mml:mi>e</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>&#x003b2;</mml:mi><mml:mi>A</mml:mi></mml:mrow><mml:mrow><mml:mi>V</mml:mi><mml:mi>F</mml:mi></mml:mrow></mml:mfrac><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="normal">Cl</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x02212;</mml:mo></mml:mrow></mml:msup></mml:mrow></mml:msub></mml:mstyle></mml:math></alternatives></disp-formula>
+<disp-formula id="eqn-38"><label>(38)</label><alternatives><graphic xlink:href="peerj-02-379-e038.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M52">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle \frac{\mathrm{d}{\mathrm{K}}_{i}}{\mathrm{d}t}=-\frac{A}{V F}{I}_{{\mathrm{K}}^{+}}&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-38"><mml:mstyle displaystyle="true"><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:msub><mml:mrow><mml:mi mathvariant="normal">K</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mo>&#x02212;</mml:mo><mml:mfrac><mml:mrow><mml:mi>A</mml:mi></mml:mrow><mml:mrow><mml:mi>V</mml:mi><mml:mi>F</mml:mi></mml:mrow></mml:mfrac><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="normal">K</mml:mi></mml:mrow><mml:mrow><mml:mo>+</mml:mo></mml:mrow></mml:msup></mml:mrow></mml:msub></mml:mstyle></mml:math></alternatives></disp-formula>
+<disp-formula id="eqn-39"><label>(39)</label><alternatives><graphic xlink:href="peerj-02-379-e039.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M53">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle \frac{\mathrm{d}{\mathrm{K}}_{e}}{\mathrm{d}t}=\frac{\beta A}{V F}{I}_{{\mathrm{K}}^{+}}-{I}_{g}-{I}_{d}.&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-39"><mml:mstyle displaystyle="true"><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:msub><mml:mrow><mml:mi mathvariant="normal">K</mml:mi></mml:mrow><mml:mrow><mml:mi>e</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mi mathvariant="normal">d</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>&#x003b2;</mml:mi><mml:mi>A</mml:mi></mml:mrow><mml:mrow><mml:mi>V</mml:mi><mml:mi>F</mml:mi></mml:mrow></mml:mfrac><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:msup><mml:mrow><mml:mi mathvariant="normal">K</mml:mi></mml:mrow><mml:mrow><mml:mo>+</mml:mo></mml:mrow></mml:msup></mml:mrow></mml:msub><mml:mo>&#x02212;</mml:mo><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>g</mml:mi></mml:mrow></mml:msub><mml:mo>&#x02212;</mml:mo><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi></mml:mrow></mml:msub><mml:mo>.</mml:mo></mml:mstyle></mml:math></alternatives></disp-formula></p><p>The same pump current as in the SD model is used (<xref ref-type="disp-formula" rid="eqn-22">Eq. (22)</xref>). While the total amount of sodium and chloride is constant, the extracellular potassium concentration can be buffered by glial cells (<italic>I<sub>g</sub></italic>) and diffuse into and out of the blood (<italic>I<sub>d</sub></italic>) <disp-formula id="eqn-40"><label>(40)</label><alternatives><graphic xlink:href="peerj-02-379-e040.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M54">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle {I}_{g}=G\biggl (1+\exp \biggl (\frac{18-{\mathrm{K}}_{e}}{2.5}\biggr )\biggr )^{-1},&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-40"><mml:mstyle displaystyle="true"><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>g</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>G</mml:mi><mml:msup><mml:mrow><mml:mfenced separators="" open="(" close=")"><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mo>exp</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mfrac><mml:mrow><mml:mn>18</mml:mn><mml:mo>&#x02212;</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="normal">K</mml:mi></mml:mrow><mml:mrow><mml:mi>e</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:mo>.</mml:mo><mml:mn>5</mml:mn></mml:mrow></mml:mfrac></mml:mfenced></mml:mfenced></mml:mrow><mml:mrow><mml:mo>&#x02212;</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msup><mml:mo>,</mml:mo></mml:mstyle></mml:math></alternatives></disp-formula>
+<disp-formula id="eqn-41"><label>(41)</label><alternatives><graphic xlink:href="peerj-02-379-e041.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M55">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle {I}_{d}=\epsilon \left({\mathrm{K}}_{e}-{k}_{\infty }\right),&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-41"><mml:mstyle displaystyle="true"><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>&#x003f5;</mml:mi><mml:mfenced separators="" open="(" close=")"><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="normal">K</mml:mi></mml:mrow><mml:mrow><mml:mi>e</mml:mi></mml:mrow></mml:msub><mml:mo>&#x02212;</mml:mo><mml:msub><mml:mrow><mml:mi>k</mml:mi></mml:mrow><mml:mrow><mml:mi>&#x0221e;</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced><mml:mo>,</mml:mo></mml:mstyle></mml:math></alternatives></disp-formula><italic>h</italic> and <italic>n</italic> are dynamic and given by <xref ref-type="disp-formula" rid="eqn-5">Eqs. (5)</xref>, <xref ref-type="disp-formula" rid="eqn-6">(6)</xref> and <xref ref-type="disp-formula" rid="eqn-25">(25)</xref>&#x02013;<xref ref-type="disp-formula" rid="eqn-31">(31)</xref>. The sodium activation gate <italic>m</italic> is adiabatically modeled as in <xref ref-type="disp-formula" rid="eqn-24">Eq. (24)</xref>. For parameter values see <xref ref-type="table" rid="table-3">Table 3</xref>.</p><p>Under physiological conditions this model behaves normally, as it responds with a single action potential to a short current pulse and with periodic firing when a larger current of 1.5 mA/cm<sup>2</sup> or more is injected (not shown). This model is also able to show seizure activity (<xref rid="ref-5" ref-type="bibr">Cressman et al., 2009</xref>; <xref rid="ref-4" ref-type="bibr">Cressman et al., 2011</xref>).</p></sec><sec><title>Modified time constant function based on tail currents</title><p>The three models introduced above are given in their &#x02018;wild-type&#x02019; formulation. The &#x02018;mutant&#x02019; formulation has only a single difference, a modified <italic>I</italic><sub>Na</sub> current, as described in the following and illustrated in <xref ref-type="fig" rid="fig-1">Fig. 1</xref>.</p><fig id="fig-1" orientation="portrait" position="float"><object-id pub-id-type="doi">10.7717/peerj.379/fig-1</object-id><label>Figure 1</label><caption><title>Inactivation time constant as a function of membrane potential.</title><p>(A) Voltage-dependent time constant for mutation <inline-formula><alternatives><inline-graphic xlink:href="peerj-02-379-i015.jpg"/><tex-math id="M56">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$({\tau }_{h}^{\ast })$\end{document}</tex-math><mml:math id="mml-ieqn-148"><mml:mfenced separators="" open="(" close=")"><mml:msubsup><mml:mrow><mml:mi>&#x003c4;</mml:mi></mml:mrow><mml:mrow><mml:mi>h</mml:mi></mml:mrow><mml:mrow><mml:mo>*</mml:mo></mml:mrow></mml:msubsup></mml:mfenced></mml:math></alternatives></inline-formula> and wild-type (<italic>&#x003c4;<sub>h</sub></italic>). Insets show the response of <italic>h</italic> to a voltage-clamp protocol. (B) shows the deinactivation (i.e., recovery from inactivation) process as a response to a step in voltage from &#x02212;10 mV to &#x02212;120 mV. (C) shows the inactivation process by stepping the voltage from &#x02212;120 mV to &#x02212;10 mV. The intersections of the <italic>h</italic>-curve with the 1/<italic>e</italic>- and (1&#x02212;1/<italic>e</italic>)-lines, respectively, show the actual time constants. For deinactivation <inline-formula><alternatives><inline-graphic xlink:href="peerj-02-379-i016.jpg"/><tex-math id="M57">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${\tau }_{h}^{\ast }$\end{document}</tex-math><mml:math id="mml-ieqn-154"><mml:msubsup><mml:mrow><mml:mi>&#x003c4;</mml:mi></mml:mrow><mml:mrow><mml:mi>h</mml:mi></mml:mrow><mml:mrow><mml:mo>*</mml:mo></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> is three-fold smaller than <italic>&#x003c4;<sub>h</sub></italic>. For inactivation <inline-formula><alternatives><inline-graphic xlink:href="peerj-02-379-i017.jpg"/><tex-math id="M58">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${\tau }_{h}^{\ast }$\end{document}</tex-math><mml:math id="mml-ieqn-156"><mml:msubsup><mml:mrow><mml:mi>&#x003c4;</mml:mi></mml:mrow><mml:mrow><mml:mi>h</mml:mi></mml:mrow><mml:mrow><mml:mo>*</mml:mo></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> is three-fold lager than <italic>&#x003c4;<sub>h</sub></italic>.</p></caption><graphic xlink:href="peerj-02-379-g001"/></fig><p>From experimental data we know that the mutation leads to a two- to four-fold faster deinactivation (<xref rid="ref-7" ref-type="bibr">Dichgans et al., 2005</xref>) and to a two- to four-fold slower inactivation (<xref rid="ref-19" ref-type="bibr">Vanmolkot et al., 2007</xref>). We checked the robustness of our simulations within this range. The simulations presented here, however, were performed at an intermediate value of a three-fold change.</p><p>To change the responsiveness of inactivation and deinactivation accordingly, we need to modify the time constant <italic>&#x003c4;<sub>h</sub></italic> of the gating variable <italic>h</italic>. In the mutant model this time constant is replaced by <disp-formula id="eqn-42"><label>(42)</label><alternatives><graphic xlink:href="peerj-02-379-e042.jpg" mimetype="image" mime-subtype="png" position="float" orientation="portrait"/><tex-math id="M59">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{eqnarray*} \displaystyle {\tau }_{h}^{\ast }(V)={\tau }_{h}(V)\cdot ({\kappa }_{1}\cdot \tanh (\sigma \cdot (\mathrm{V}-{\mathrm{V}}_{\mathrm{max}}))+{\kappa }_{2}).&#x00026;&#x00026;\displaystyle \end{eqnarray*}\end{document}</tex-math><mml:math id="mml-eqn-42"><mml:mstyle displaystyle="true"><mml:msubsup><mml:mrow><mml:mi>&#x003c4;</mml:mi></mml:mrow><mml:mrow><mml:mi>h</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x02217;</mml:mo></mml:mrow></mml:msubsup><mml:mfenced separators="" open="(" close=")"><mml:mi>V</mml:mi></mml:mfenced><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>&#x003c4;</mml:mi></mml:mrow><mml:mrow><mml:mi>h</mml:mi></mml:mrow></mml:msub><mml:mfenced separators="" open="(" close=")"><mml:mi>V</mml:mi></mml:mfenced><mml:mo>&#x022c5;</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:msub><mml:mrow><mml:mi>&#x003ba;</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>&#x022c5;</mml:mo><mml:mo>tanh</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mi>&#x003c3;</mml:mi><mml:mo>&#x022c5;</mml:mo><mml:mfenced separators="" open="(" close=")"><mml:mi mathvariant="normal">V</mml:mi><mml:mo>&#x02212;</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="normal">V</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">max</mml:mi></mml:mrow></mml:msub></mml:mfenced></mml:mfenced><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>&#x003ba;</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub></mml:mfenced><mml:mo>.</mml:mo></mml:mstyle></mml:math></alternatives></disp-formula> The parameter <italic>V</italic><sub>max</sub> shifts the sigmoidal tanh-function to the position of the maximum of the time constant function <italic>&#x003c4;<sub>h</sub></italic>(V). The slope factor of the sigmoidal tanh-function is <italic>&#x003c3;</italic> = 0.1 to ensure sufficiently rapid convergence to the limit of a three-fold change. The other parameters are <italic>&#x003ba;</italic><sub>1</sub> = 1.335 and <italic>&#x003ba;</italic><sub>2</sub> = 1.665. These parameters result from the two constraints <italic>&#x003ba;</italic><sub>1</sub> + <italic>&#x003ba;</italic><sub>2</sub> = <italic>f</italic> and <italic>&#x003ba;</italic><sub>2</sub>&#x02212;<italic>&#x003ba;</italic><sub>1</sub> = 1/<italic>f</italic> for an <italic>f</italic>-fold change. We chose <italic>f</italic> = 3.</p><p>To test the mutant time constant <inline-formula><alternatives><inline-graphic xlink:href="peerj-02-379-i018.jpg"/><tex-math id="M60">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${\tau }_{h}^{\ast }$\end{document}</tex-math><mml:math id="mml-ieqn-172"><mml:msubsup><mml:mrow><mml:mi>&#x003c4;</mml:mi></mml:mrow><mml:mrow><mml:mi>h</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x02217;</mml:mo></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula>, we simulated the experimental protocol performed by <xref rid="ref-7" ref-type="bibr">Dichgans et al. (2005)</xref> in the computational model. The membrane voltage is clamped to a holding potential of &#x02212;120 mV and then stepped to a potential of &#x02212;10 mV. At &#x02212;120 mV the <italic>h</italic>-gate is completely deinactivated, i.e., open. The step to &#x02212;10 mV causes the <italic>h</italic>-gate to inactivate. Therefore, we can measure the time constant of <italic>inactivation</italic> with this protocol (see <xref ref-type="fig" rid="fig-1">Fig. 1B</xref>). In contrast, holding the membrane potential at &#x02212;10 mV and then stepping back to &#x02212;120 mV allows us to measure the time constant of the process of <italic>deinactivation</italic>. At &#x02212;10 mV the <italic>h</italic>-gate is completely inactivated, i.e., closed, and the step to &#x02212;120 mV causes the gate to deinactivate again, i.e., the gate reopens. An illustration of this protocol can be found in <xref ref-type="fig" rid="fig-1">Fig. 1C</xref>. By using this procedure and measuring the two different time constants, it was assured that the chosen parameters lead to a 3-fold slower inactivation and a 3-fold faster deinactivation. The main part of <xref ref-type="fig" rid="fig-1">Fig. 1</xref> shows the inactivation time constants <italic>&#x003c4;<sub>h</sub></italic> (black line) and <inline-formula><alternatives><inline-graphic xlink:href="peerj-02-379-i019.jpg"/><tex-math id="M61">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${\tau }_{h}^{\ast }$\end{document}</tex-math><mml:math id="mml-ieqn-185"><mml:msubsup><mml:mrow><mml:mi>&#x003c4;</mml:mi></mml:mrow><mml:mrow><mml:mi>h</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x02217;</mml:mo></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> (green line) for the wild-type and mutant model, respectively, as a function of the membrane potential <italic>V</italic>.</p><p>Note that in the Hodgkin&#x02013;Huxley formalism, the gating subunits of a channel are assumed to be identical and the inactivation and deinactivation as being independent. Therefore this formalism cannot represent certain dependencies in a straightforward manner in the kinetic states. For example, the inactivation of the Na<sup>+</sup> channel (represented by the <italic>h</italic>-subunit) has a greater probability of occurring when all subunits are open, therefore the inactivation depends on activation (represented by the three <italic>m</italic>-subunits). This violates the assumption of independent gating. Because of this independence in the HH formulation, the dynamics of the <italic>h</italic>-gate is only described by a single time constant function <italic>&#x003c4;<sub>h</sub></italic>. An alternative ansatz is to use a Markov model to compute the occupancy of the channel in its various kinetic states as done by <xref rid="ref-2" ref-type="bibr">Clancy &#x00026; Rudy (1999)</xref>.</p></sec></sec><sec sec-type="results"><title>Results</title><p>Three different models are investigated, a model of action potentials (AP), a model of spreading depression (SD), and a model of anoxic depolarization (AD). These models describe normal cell functions in terms of the dynamic repertoire either without genetic defect (three wild-type models) or with altered cell functions in FHM3 (three mutant models). The three mutant models (AP, SD, and AD) are the same as the wild-type models except that the <italic>I</italic><sub>Na</sub> current has a different voltage-gating mechanism in the fast gating variable <italic>h</italic>. This is described in the wild-type model by the time constant <italic>&#x003c4;<sub>h</sub></italic> and in the mutant model by <inline-formula><alternatives><inline-graphic xlink:href="peerj-02-379-i020.jpg"/><tex-math id="M62">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${\tau }_{h}^{\ast }$\end{document}</tex-math><mml:math id="mml-ieqn-195"><mml:msubsup><mml:mrow><mml:mi>&#x003c4;</mml:mi></mml:mrow><mml:mrow><mml:mi>h</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x02217;</mml:mo></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> (see Methods). The observed functional consequences of FHM3 occur on time scales ranging from milliseconds to several tens of seconds.</p><sec><title>Mutant AP with marked plateau, increased responsiveness, delayed excitation block, and firing onset unchanged</title><p>We first consider the shape of APs. The AP is rather directly affected by FHM3 through altered voltage gating in <italic>h</italic>. In other words, the results are consistent with the measured tail currents and therefore the results for a mutant AP are even to some degree predictable. This situation will change, when we model dynamics separated three orders of magnitude from AP dynamics.</p><p>For a single AP stimulated by a transient applied current <italic>I</italic><sub>app</sub>(<italic>t</italic>) of 3 ms duration and 3 &#x000b5;A&#x02009;cm<sup>&#x02212;2</sup> amplitude (labeled &#x02018;excitatory&#x02019; in <xref ref-type="fig" rid="fig-2">Fig. 2</xref>), we observe that the mutant model compared to wild-type model leads to a prolonged AP with a marked plateau. This is consistent with the larger inactivation time constant <inline-formula><alternatives><inline-graphic xlink:href="peerj-02-379-i021.jpg"/><tex-math id="M63">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${\tau }_{h}^{\ast }({V}^{\mathrm{dep}})$\end{document}</tex-math><mml:math id="mml-ieqn-199"><mml:msubsup><mml:mrow><mml:mi>&#x003c4;</mml:mi></mml:mrow><mml:mrow><mml:mi>h</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x02217;</mml:mo></mml:mrow></mml:msubsup><mml:mfenced separators="" open="(" close=")"><mml:msup><mml:mrow><mml:mi>V</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">dep</mml:mi></mml:mrow></mml:msup></mml:mfenced></mml:math></alternatives></inline-formula> of the mutant as compared to the wild-type inactivation time scale <italic>&#x003c4;<sub>h</sub></italic>(<italic>V</italic><sup>dep</sup>), cf. tail currents in <xref ref-type="fig" rid="fig-1">Fig. 1B</xref>. Note that we omitted before the explicit voltage dependency of the time constants, but now we make the dependency explicit because the mutant time constant <italic>function</italic>
+<inline-formula><alternatives><inline-graphic xlink:href="peerj-02-379-i022.jpg"/><tex-math id="M64">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${\tau }_{h}^{\ast }(V)$\end{document}</tex-math><mml:math id="mml-ieqn-201"><mml:msubsup><mml:mrow><mml:mi>&#x003c4;</mml:mi></mml:mrow><mml:mrow><mml:mi>h</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x02217;</mml:mo></mml:mrow></mml:msubsup><mml:mfenced separators="" open="(" close=")"><mml:mi>V</mml:mi></mml:mfenced></mml:math></alternatives></inline-formula> is in FHM3 increased only for the regime of the membrane potential <italic>V</italic> being depolarised. This voltage regime is indicated by the superscript &#x0201c;dep&#x0201d; and it corresponds to an inactivation of <italic>h</italic> (closed <italic>h</italic> gates).</p><fig id="fig-2" orientation="portrait" position="float"><object-id pub-id-type="doi">10.7717/peerj.379/fig-2</object-id><label>Figure 2</label><caption><title>Spiking model.</title><p>Comparison of wild-type (A) and mutant (D) spiking behavior. The main plots show bifurcation diagrams by varying the external current <italic>I</italic><sub>app</sub>. For the wild-type model Hopf bifurcations can be found at <italic>I</italic><sub>app</sub> = 9.78 &#x000b5;A cm<sup>&#x02212;2</sup> and <italic>I</italic><sub>app</sub> = 154.52 &#x000b5;A cm<sup>&#x02212;2</sup>. For the mutant model Hopf bifurcations occur at <italic>I</italic><sub>app</sub> = 9.72 &#x000b5;A cm<sup>&#x02212;2</sup> and <italic>I</italic><sub>app</sub> = 175.02 &#x000b5;A cm<sup>&#x02212;2</sup>. (B) and (E) show behavior in the oscillatory regime as a response to a constant input current of 12 &#x000b5;A cm<sup>&#x02212;2</sup>. (C) and (F) show the response of the models in the excitatory regime to a 3 ms long current pulse with amplitude 3 &#x000b5;A cm<sup>&#x02212;2</sup>.</p></caption><graphic xlink:href="peerj-02-379-g002"/></fig><p>Furthermore and a bit more subtle to observe, the mutant dynamics reacts faster to a sudden brief stimulation. The mutant model fires an AP that reaches its maximal amplitude just below 2 ms after the <italic>I</italic><sub>app</sub> is turned off again, while in the wild-type model the maximal amplitude is reached only after about 3 ms. Again, this is also consistent with the defect in the time constant function <inline-formula><alternatives><inline-graphic xlink:href="peerj-02-379-i023.jpg"/><tex-math id="M65">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${\tau }_{h}^{\ast }(V)$\end{document}</tex-math><mml:math id="mml-ieqn-213"><mml:msubsup><mml:mrow><mml:mi>&#x003c4;</mml:mi></mml:mrow><mml:mrow><mml:mi>h</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x02217;</mml:mo></mml:mrow></mml:msubsup><mml:mfenced separators="" open="(" close=")"><mml:mi>V</mml:mi></mml:mfenced></mml:math></alternatives></inline-formula>. In this case it is explained by the decreased and therefore faster regime <italic>&#x003c4;<sub>h</sub></italic>(<italic>V</italic><sup>pol</sup>) compared to the wild-type. The mutant time constant function <inline-formula><alternatives><inline-graphic xlink:href="peerj-02-379-i024.jpg"/><tex-math id="M66">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${\tau }_{h}^{\ast }(V)$\end{document}</tex-math><mml:math id="mml-ieqn-215"><mml:msubsup><mml:mrow><mml:mi>&#x003c4;</mml:mi></mml:mrow><mml:mrow><mml:mi>h</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x02217;</mml:mo></mml:mrow></mml:msubsup><mml:mfenced separators="" open="(" close=")"><mml:mi>V</mml:mi></mml:mfenced></mml:math></alternatives></inline-formula> is decreased for <italic>V</italic> being in the polarised resting state indicated by the superscript &#x0201c;pol&#x0201d;, cf. tail currents in <xref ref-type="fig" rid="fig-1">Fig. 1A</xref>. This is the regime of deinactivation (open <italic>h</italic> gates).</p><p>The modified AP profile is also observed during spiking, i.e., in the oscillatory regime, when a constant <italic>I</italic><sub>app</sub> larger than&#x02014;by definition (see below)&#x02014;the rheobase current <italic>I</italic><sub>rh</sub> is applied. Individual APs in the spike train show this plateau (labeled &#x02018;oscillatory&#x02019; in <xref ref-type="fig" rid="fig-2">Fig. 2</xref>). As a result the spiking frequency is reduced in the mutant model, despite the overall increased responsiveness (<xref ref-type="fig" rid="fig-3">Fig. 3</xref>). This decreased spiking frequency can be associated with hypoexcitability as the neural response is usually characterized by the firing-rate function.</p><fig id="fig-3" orientation="portrait" position="float"><object-id pub-id-type="doi">10.7717/peerj.379/fig-3</object-id><label>Figure 3</label><caption><title>Nonlinear firing-rate function <italic>F</italic>(<italic>I</italic><sub>app</sub>) for wild-type model (black, solid) and mutant model (green, dashed).</title></caption><graphic xlink:href="peerj-02-379-g003"/></fig><p>To get some further quantitative measures of the effects of FHM3 with regard to excitability, we investigated the change of stability in the resting state by varying the input current <italic>I</italic><sub>app</sub>. This is a bifurcation analysis (<xref ref-type="fig" rid="fig-2">Fig. 2</xref>). The determined two so-called bifurcation points mark the beginning and end of the oscillatory spiking regime. The first Hopf bifurcation point (HB1) is the onset of oscillation at a minimal value of <italic>I</italic><sub>app</sub>, which is the definition of the rheobase current <italic>I</italic><sub>rh</sub>. For the wild-type model the first Hopf bifurcation (HB1) is at <inline-formula><alternatives><inline-graphic xlink:href="peerj-02-379-i025.jpg"/><tex-math id="M67">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${I}_{\mathrm{app}}^{\mathrm{HB1}}\equiv {I}_{\mathrm{rh}}=9.78~\mathrm{\mu} \mathrm{A}\hspace{0.167em} {\mathrm{cm}}^{-2}$\end{document}</tex-math><mml:math id="mml-ieqn-224"><mml:msubsup><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">app</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">HB1</mml:mi></mml:mrow></mml:msubsup><mml:mo>&#x02261;</mml:mo><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">rh</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>9</mml:mn><mml:mo>.</mml:mo><mml:mn>78</mml:mn><mml:mspace class="nbsp"/><mml:mi>&#x000b5;</mml:mi><mml:mi mathvariant="normal">A</mml:mi><mml:mi>&#x02009;</mml:mi><mml:msup><mml:mrow><mml:mi mathvariant="normal">cm</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x02212;</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:math></alternatives></inline-formula> and the second Hopf bifurcation (HB2) at <inline-formula><alternatives><inline-graphic xlink:href="peerj-02-379-i026.jpg"/><tex-math id="M68">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${I}_{\mathrm{app}}^{\mathrm{HB2}}=154.5~\mathrm{\mu} \mathrm{A}\hspace{0.167em} {\mathrm{cm}}^{-2}$\end{document}</tex-math><mml:math id="mml-ieqn-225"><mml:msubsup><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">app</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">HB2</mml:mi></mml:mrow></mml:msubsup><mml:mo>=</mml:mo><mml:mn>154</mml:mn><mml:mo>.</mml:mo><mml:mn>5</mml:mn><mml:mspace class="nbsp"/><mml:mi>&#x000b5;</mml:mi><mml:mi mathvariant="normal">A</mml:mi><mml:mi>&#x02009;</mml:mi><mml:msup><mml:mrow><mml:mi mathvariant="normal">cm</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x02212;</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:math></alternatives></inline-formula>, which determines the excitation block as the oscillation ceases at this point. For the mutant model these Hopf bifurcations occur at <italic>I</italic><sub>rh</sub> = 9.72 &#x000b5;A&#x02009;cm<sup>&#x02212;2</sup> and <inline-formula><alternatives><inline-graphic xlink:href="peerj-02-379-i027.jpg"/><tex-math id="M69">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${I}_{\mathrm{app}}^{\mathrm{HB2}}=175.0~\mathrm{\mu} \mathrm{A}\hspace{0.167em} {\mathrm{cm}}^{-2}$\end{document}</tex-math><mml:math id="mml-ieqn-227"><mml:msubsup><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">app</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">HB2</mml:mi></mml:mrow></mml:msubsup><mml:mo>=</mml:mo><mml:mn>175</mml:mn><mml:mo>.</mml:mo><mml:mn>0</mml:mn><mml:mspace class="nbsp"/><mml:mi>&#x000b5;</mml:mi><mml:mi mathvariant="normal">A</mml:mi><mml:mi>&#x02009;</mml:mi><mml:msup><mml:mrow><mml:mi mathvariant="normal">cm</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x02212;</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:math></alternatives></inline-formula>. The first Hopf bifurcations (HB1) are subcritical, while HB2 are both supercritical. This means that if the <italic>I</italic><sub>app</sub> is not slowly ramped towards the rheobase current <italic>I</italic><sub>rh</sub>, one can observe the oscillatory regime even before the <italic>I</italic><sub>rh</sub>. Hence the two firing-rate functions in <xref ref-type="fig" rid="fig-3">Fig. 3</xref> start slightly before the values given here for HB1, with the mutant model starting again earlier.</p><p>With regard to the rheobase current, the values for the wild-type and mutant differ by less then 0.6%, with the mutant value being smaller, which, at least in principal, corresponds to hyperexcitability, though due to the small magnitude this seems negligible for all practical purposes. However, the excitation block observed at the second critical transition HB2 occurs at larger values of <italic>I</italic><sub>app</sub> for the mutant model. The mutant channels tolerate an increased maximal <inline-formula><alternatives><inline-graphic xlink:href="peerj-02-379-i028.jpg"/><tex-math id="M70">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${I}_{\mathrm{app}}^{\mathrm{HB2}}$\end{document}</tex-math><mml:math id="mml-ieqn-232"><mml:msubsup><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">app</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">HB2</mml:mi></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula> by 13% compared to the wild-type. This means that the mutant neurons exhibit oscillatory behavior in a larger range of applied currents. Therefore, this shift establishes a gain-of-function, which indicates hyperexcitability.</p><p>To summarize, while the reduced firing frequency indicates hypoexcitability, increased responsiveness and delayed excitation block indicate hyperexcitability.</p></sec><sec><title>Mutant more vulnerable to SD</title><p>We now focus on effects of FHM3 upon cellular functioning that occurs in the same neural substrate that generates APs but on time scales at least three orders of magnitude separated from AP dynamics, that is, effects that occur during several tens of seconds up to minutes. This is the time scale of SD. It is therefore relevant for pathological conditions, for instance, in migraine with aura. In accordance with this pathophysiological context, we select the stimulations of SD in the wild-type and mutant model as rather large perturbations to neural homeostasis such as a compromised energy supply during focal hypoperfusion that induces and occurs in conjunction with migraine aura symptoms (<xref rid="ref-15" ref-type="bibr">Olesen et al., 1993</xref>; <xref rid="ref-9" ref-type="bibr">Friberg et al., 1994</xref>).</p><p>In particular, we investigate the effect of a breakdown of the Na<sup>+</sup>-K<sup>+</sup>-pump upon the membrane potential <italic>V</italic> and reversal potentials <italic>E</italic><sub>Na</sub> and <italic>E</italic><sub>K</sub>. For this purpose the maximum pump rate <italic>&#x003c1;</italic> is linearly down-regulated to 20% of its physiological value within 10 s, then <italic>&#x003c1;</italic> is kept at 20% for a variable time window, and finally <italic>&#x003c1;</italic> is linearly up-regulated back to 100% within 5 s. The stimulation trace of <italic>&#x003c1;</italic> is shown in <xref ref-type="fig" rid="fig-4">Fig. 4</xref> with the dashed-dotted line. The specific choice of the variable time window is additionally marked for the wild-type and mutant stimulation trace by an annotated two-headed arrow. Let us remark that in our studies we also used two other perturbations, namely a transient increase in extracellular K<sup>+</sup> concentration (by increasing K<sub>bath</sub>) and a large current pulse <italic>I</italic><sub>app</sub>, with basically the same results (not shown).</p><fig id="fig-4" orientation="portrait" position="float"><object-id pub-id-type="doi">10.7717/peerj.379/fig-4</object-id><label>Figure 4</label><caption><title>Spreading depression model.</title><p>Development of SD in wild-type (A) and mutant (B) models. A SD is elicited by down-regulating the pump current to 20% of its maximal value for 13.6 s (wild-type) and 7.2 s (mutant), respectively (see blacked dashed line). The red and blue dashed lines show the temporal development of the sodium and potassium reversal potentials.</p></caption><graphic xlink:href="peerj-02-379-g004"/></fig><p>We determined the minimal duration of the variable time window with reduced pump rate (20%) that is just no longer tolerated and results in a long lasting but transient breakdown of the reversal potentials <italic>E</italic><sub>Na</sub> and <italic>E</italic><sub>K</sub> characteristic for SD. For this purpose we increased the variable time window by 0.1 s steps. While the wild-type model could not tolerate a period of 13.6 s of reduced pump rate at 20%, the mutant model was less robust and could not tolerate a period of 7.2 s of reduced pump activity (<xref ref-type="fig" rid="fig-4">Fig. 4</xref>). Therefore, the mutant model is approximately only half (53%) as robust to periods of reduced ion pump activity as the wild-type model is.</p><p>Shorter stimulation periods did not lead to full blown SD signals. In this case, the spiking ceased about a second after the interval began that increased the pump rate back from 20% to 100% (this interval lasts 5 s) and, more importantly, both membrane potential <italic>V</italic> and reversal potentials <italic>E</italic><sub>Na</sub> and <italic>E</italic><sub>K</sub> recovered within only a few seconds back to physiological values (not shown). Thus, SD profiles of these potentials, which followed longer stimulation periods, are clearly distinguished by a all-or-none phenomenon. Not only do membrane potential <italic>V</italic> and reversal potentials <italic>E</italic><sub>Na</sub> and <italic>E</italic><sub>K</sub> change dramatically after the stimulation is off, but also full recovery from SD to the initial physiological values takes very long. Of course recovery reaches the resting state only asymptotically. For up to one to two hours the changes in particular in <italic>E</italic><sub>Na</sub> are observable, while the signals in <xref ref-type="fig" rid="fig-4">Fig. 4</xref> are shown only for 100 s. It is noteworthy that the neuronal state is already back to basic functioning emitting APs if stimulated after the repolarization, that is, even if the resting state is not fully recovered. Similar dynamics is described in other computational models of SD by <xref rid="ref-12" ref-type="bibr">Kager, Wadman &#x00026; Somjen (2000)</xref>, <xref rid="ref-20" ref-type="bibr">Yao, Huang &#x00026; Miura (2011)</xref> and <xref rid="ref-11" ref-type="bibr">H&#x000fc;bel, Sch&#x000f6;ll &#x00026; Dahlem (2014)</xref>.</p><p>To summarize, in terms of susceptibility to SD the mutant model is hyperexcitable. This seems to be in contrast to the major effect of the mutant upon the AP firing frequency that indicates that the mutant model is hypoexcitable (<xref ref-type="fig" rid="fig-3">Fig. 3</xref>). This will be further discussed in the Discussion.</p></sec><sec><title>Effects in anoxia model consistent with SD model</title><p>Last, we study a model of AD (<xref rid="ref-21" ref-type="bibr">Zandt et al., 2011</xref>); the AD model shares many features with the SD model but is more detailed (see Methods) and hence effects obtained with this model serve as control to compare them with effects obtained from the SD model. The model was first published to study slow waves after decapitation in a computational model (<xref rid="ref-21" ref-type="bibr">Zandt et al., 2011</xref>). By repeating this with a mutant version of this model, our focus is set very similar to the previous section. In the decapitation study, anoxia is modeled by completely switching off all pump, glial, and diffusion currents, see <xref ref-type="fig" rid="fig-5">Fig. 5</xref>. In fact, <xref ref-type="fig" rid="fig-5">Fig. 5A</xref> with the wild-type model is a reproduction of the simulations performed by <xref rid="ref-21" ref-type="bibr">Zandt et al. (2011)</xref>.</p><fig id="fig-5" orientation="portrait" position="float"><object-id pub-id-type="doi">10.7717/peerj.379/fig-5</object-id><label>Figure 5</label><caption><title>Anoxia model.</title><p>Response of wild-type (A) and mutant (B) membrane potential to a complete breakdown of pump, glial and diffusion currents at <italic>t</italic> = 5 s (black dashed vertical line). Red and blue dotted lines show the Na<sup>+</sup> and K<sup>+</sup> reversal potentials over time. The time from the onset of spiking until the beginning of the excitation block is approximately 6.7 s without and 2.7 s with mutation.</p></caption><graphic xlink:href="peerj-02-379-g005"/></fig><p>Note that patients with migraine with aura are at greater risk for stroke (<xref rid="ref-13" ref-type="bibr">Kurth &#x00026; Diener, 2012</xref>). Thus there is a rationale to perform this comparison beyond the mere confirmation of plausibility of our results obtained above with the SD model. However, the multiplicity of potential links include not only common genetic risk factors but also indirect links like common triggers outside the brain, e.g., microemboli caused by cardiac shunts. Furthermore, the model investigated by <xref rid="ref-21" ref-type="bibr">Zandt et al. (2011)</xref> is derived from a model suggested by <xref rid="ref-5" ref-type="bibr">Cressman et al. (2009)</xref>. This model exhibits periodic bursting similar to seizure activity. Both migraine and epilepsy have genetically based forms caused by various mutations in genes, while the mutation in FHM3 differs markedly within the several mutations in SCN1A therein that it is not associated with epilepsy (see Introduction). Investigating the underlying ion homeostasis in the three conditions of epilepsy, migraine, and stroke may yield interesting results in future investigations of computational models that can unify certain dynamical aspects and link disease genotype to phenotype. However, this is clearly beyond the scope of this study.</p><p>In this study, let us only refer to the dynamics resulting from switching off all pump, glial, and diffusion currents until the excitation block and compare the wild-type and mutant model. After a gradual rise of the membrane potential that lasts in either case about 30 s (note that the simulated &#x02018;decapitation&#x02019; occurs in <xref ref-type="fig" rid="fig-5">Fig. 5</xref> at <italic>t</italic> = 5 s), the membrane potential reaches the AP threshold, subsequently resulting in a final burst of spiking. These initial, less than a minute lasting, phases in the wild-type and mutant model are indeed very similar to the initial phases in the SD model following a transient energy failure. A minor difference is that the gradual rise is overall slower, but this is explained by a slightly different geometry (larger extracellular space) and by the chloride ion dynamics (<xref rid="ref-11" ref-type="bibr">H&#x000fc;bel, Sch&#x000f6;ll &#x00026; Dahlem, 2014</xref>). The similarity supports the robustness of our results, as this model is an established model showing anoxia (<xref rid="ref-21" ref-type="bibr">Zandt et al., 2011</xref>) and seizure activity (<xref rid="ref-5" ref-type="bibr">Cressman et al., 2009</xref>; <xref rid="ref-4" ref-type="bibr">Cressman et al., 2011</xref>).</p><p>To summarize, also for AD the slow gradual fall of the potentials does not significantly differ during the initial leak phase in the wild-type and mutant model, while once the model is spiking the excitation block occurs about 2.5-times faster, corresponding to a faster breakdown of ion gradients due to spiking, in the mutant model.</p></sec></sec><sec sec-type="discussion"><title>Discussion</title><p>Our main result is that the mutant model is more susceptible to spreading depression (SD). With our computational model, we bridge the gap between the tail currents measured by <xref rid="ref-7" ref-type="bibr">Dichgans et al. (2005)</xref> and altered cell function that constitutes the phenotype of migraine with aura. Importantly, in a computational model we can follow in all needed detail how the complex interactions of channel dynamics lead to altered cell function. A similar approach was taken, for instance, to link a genetic defect to its cellular phenotype in a cardiac arrhythmia by <xref rid="ref-2" ref-type="bibr">Clancy &#x00026; Rudy (1999)</xref>.</p><p>In the discussion, we mainly highlight aspects of hypoexcitable vs. hyperexcitable and the concept of a threshold.</p><sec><title>Hypoexcitable vs. hyperexcitable</title><p>The increased susceptiblility to SD does not contradict the reduced firing frequency for a given stimulation current <italic>I</italic><sub>app</sub>, although this change in firing frequency indicates that the mutant model is hypoexcitable.</p><p>Firing a single action potential (AP) is a form of cellular excitability manifested as a transmembrane voltage jump without significant changes in ion concentrations. SD is a form of cellular excitability manifested by massive changes in ion concentrations. There is not necessarily a direct relation between the two excitable systems, not even with regard to merely classifying terms such as hypoexcitable and hyperexcitable. Rather, AP and SD can be viewed as largely independent phenomena, because while sharing the same neural substrate, AP and SD are separated by time scales differing in three orders of magnitude (see below). Notwithstanding, the massive breakdown of ion gradients in SD is, of course, mediated by APs that occur on the fast time scale.</p><p>In our view, &#x0201c;hypoexcitable&#x0201d; vs. &#x0201c;hyperexcitable&#x0201d; is in any case too simple a classification scheme even considering AP and SD in isolation on their respective time scale. To support this criticism of classifying neural dynamics in migraine, let us mention that this problem was also addressed in the psychophysical and clinical contexts, see studies by <xref rid="ref-17" ref-type="bibr">Shepherd (2001)</xref> and <xref rid="ref-3" ref-type="bibr">Coppola, Pierelli &#x00026; Schoenen (2007)</xref> and references therein; further support comes from the mathematical picture (below)&#x02014;which are two sides of the same coin.</p><p>To illustrate this with only a single example, consider, as already mentioned above, that the mutant channels exhibit an increased range of spiking activity with a delayed excitation block by 13% compared to the wild-type. We argued that this larger spiking range establishes a gain-of-function. Consider further the increased responsiveness of the mutant model. Both indicate a form of hyperexcitability with regard to AP. In contrast, the change in firing frequency of AP indicates at the same time that the mutant model is hypoexcitable (<xref ref-type="fig" rid="fig-3">Fig. 3</xref>).</p></sec><sec><title>SD susceptibility</title><p>How do these three diverse effects observed for APs (delayed excitation block, increased responsiveness, and lower firing frequency) manifest on the longer time scale under the condition of SD?</p><p>In terms of susceptibility to SD, the shifted excitation block (see HB2 in <xref ref-type="fig" rid="fig-2">Fig. 2</xref>) might misleadingly suggest that the mutant model is less susceptible to SD. This is similar to the lower firing frequency that we considered above. Since the characteristic sustained breakdown of the reversal potentials <italic>E</italic><sub>Na</sub> and <italic>E</italic><sub>K</sub> is ignited in our model only if the system is driven by any stimulation into the excitation block, its delay in the mutant model seems to suggest that a longer stimulation may be needed and therefore a higher threshold exists.</p><p>To show the actual situation in <xref ref-type="fig" rid="fig-4">Fig. 4</xref>, we highlighted a critical time window by a gray shade. This critical time window opens with start of the reduced pump rate recovery (from 20% back to 100%) and it closes with the beginning of the excitation block. Considering only the delay of the excitation block and the low frequency, it may seem surprising at first, this critical period lasts 3.4 s in the wild-type model and only 2.5 s in the mutant model. Note that this &#x02018;paradox&#x02019; can also be observed in the overall shorter duration of the whole initial firing pattern in the mutant SD model. Our attention should be on signals that can actually be measured in a clinical setting, hence our focus is on these signals also in the presentation of the computational model, where we can &#x0201c;measure&#x0201d; everything. The reduced pump rate corresponds to hypoperfusion signals. The excitation block in SD corresponds to the first peak in an electroencephalography (EEG) signal, cf. the work by <xref rid="ref-21" ref-type="bibr">Zandt et al. (2011)</xref> where the simulated membrane potential is averaged and high-pass filtered, cut-off at 0.1 Hz, to estimate the EEG&#x02014;although this EEG might only be observable intracranially.</p><p>That the mutant model is more susceptible to spreading depression (SD) is exclusively explained by the much larger amount of ions transferred across the membrane during spiking. This, in particular the intracellular ion concentration, cannot easily be measured even in an <italic>in vitro</italic> setup. In <xref ref-type="fig" rid="fig-4">Fig. 4</xref>, we see this by the much steeper slope of the reversal potential <italic>E</italic><sub>K</sub> in the mutant model.</p></sec><sec><title>The multidimensional concept of thresholds</title><p>The complex question about susceptibility requires a deeper understanding of what a threshold is. In fact, the very reason why we have to get beyond the idea of &#x0201c;hypoexcitable&#x0201d; vs. &#x0201c;hyperexcitable&#x0201d; as a useful characterization of the system (see above) is that there is no one-dimensional ansatz to determine a threshold as a demarcation.</p><p>Before explaining this further, let us give one more explicit example. In other model variants of SD (<xref rid="ref-12" ref-type="bibr">Kager, Wadman &#x00026; Somjen, 2000</xref>), a stimulation of SD may even stop before the excitation block is reached. In this case a sustained afterdischarge carries the system into the depolarisation block that then marks the start of the actual SD events. Clearly, in this case the depolarisation block cannot be considered being the actual threshold, because the system is &#x02018;before&#x02019; this point when the stimulation is already off again.</p><p>In general, excitability or all-or-none phenomena do not possess a threshold in terms of single quantity, whether it is a particular membrane depolarisation that demarcates the all-or-none response in the form of an AP or a critical duration of hypoperfusion that demarcates the all-or-none response in form of SD. A detailed analysis of neural models shows that a threshold is a multidimensional surface (manifold) not a single number as first shown by <xref rid="ref-8" ref-type="bibr">FitzHugh (1955)</xref> and as discussed in a modern style by <xref rid="ref-14" ref-type="bibr">Mitry et al. (2013)</xref> and applied to migraine by <xref rid="ref-6" ref-type="bibr">Dahlem (2013)</xref>. So the actual use of computational models goes far beyond numerical simulations. We gain a deeper understanding of the principal mechanisms in precise mathematical relationships, of which we can only give a very general overview in this paper.</p></sec></sec></body><back><sec sec-type="additional-information"><title>Additional Information and Declarations</title><fn-group content-type="competing-interests"><title>Competing Interests</title><fn id="conflict-1" fn-type="con"><p>The authors declare there are no competing interests.</p></fn></fn-group><fn-group content-type="author-contributions"><title>Author Contributions</title><fn id="contribution-1" fn-type="con"><p><xref ref-type="contrib" rid="author-1">Markus A. Dahlem</xref> conceived and designed the experiments, performed the experiments, analyzed the data, contributed reagents/materials/analysis tools, wrote the paper, prepared figures and/or tables, reviewed drafts of the paper.</p></fn><fn id="contribution-2" fn-type="con"><p><xref ref-type="contrib" rid="author-2">Julia Schumacher</xref> performed the experiments, analyzed the data, wrote the paper, prepared figures and/or tables, reviewed drafts of the paper.</p></fn><fn id="contribution-3" fn-type="con"><p><xref ref-type="contrib" rid="author-3">Niklas H&#x000fc;bel</xref> performed the experiments, analyzed the data, wrote the paper, contributed reagents/materials/analysis tools, reviewed drafts of the paper.</p></fn></fn-group></sec><ref-list content-type="authoryear"><title>References</title><ref id="ref-1"><label>Barreto &#x00026; Cressman (2011)</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Barreto</surname><given-names>E</given-names></name><name><surname>Cressman</surname><given-names>JR</given-names></name></person-group><article-title>Ion concentration dynamics as a mechanism for neural bursting</article-title><source>Journal of Biological Physics</source><issue>3</issue><year>2011</year><volume>37</volume><fpage>361</fpage><lpage>373</lpage><pub-id pub-id-type="doi">10.1007/s10867-010-9212-6</pub-id><pub-id pub-id-type="pmid">22654181</pub-id></element-citation></ref><ref id="ref-2"><label>Clancy &#x00026; Rudy (1999)</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Clancy</surname><given-names>CE</given-names></name><name><surname>Rudy</surname><given-names>Y</given-names></name></person-group><article-title>Linking a genetic defect to its cellular phenotype in a cardiac arrhythmia</article-title><source>Nature</source><issue>6744</issue><year>1999</year><volume>400</volume><fpage>566</fpage><lpage>569</lpage><pub-id pub-id-type="doi">10.1038/23034</pub-id><pub-id pub-id-type="pmid">10448858</pub-id></element-citation></ref><ref id="ref-3"><label>Coppola, Pierelli &#x00026; Schoenen (2007)</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Coppola</surname><given-names>G</given-names></name><name><surname>Pierelli</surname><given-names>F</given-names></name><name><surname>Schoenen</surname><given-names>J</given-names></name></person-group><article-title>Is the cerebral cortex hyperexcitable or hyperresponsive in migraine?</article-title><source>Cephalalgia</source><year>2007</year><volume>27</volume><fpage>1427</fpage><lpage>1439</lpage><pub-id pub-id-type="doi">10.1111/j.1468-2982.2007.01500.x</pub-id><pub-id pub-id-type="pmid">18034686</pub-id></element-citation></ref><ref id="ref-4"><label>Cressman et al. (2011)</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Cressman</surname><given-names>JR</given-names></name><name><surname>Ullah</surname><given-names>G</given-names></name><name><surname>Ziburkus</surname><given-names>J</given-names></name><name><surname>Schiff</surname><given-names>SJ</given-names></name><name><surname>Barreto</surname><given-names>E</given-names></name></person-group><article-title>Erratum to: the influence of sodium and potassium dynamics on excitability, seizures, and the stability of persistent states: I. single neuron dynamics</article-title><source>Journal of Computational Neuroscience</source><issue>3</issue><year>2011</year><volume>30</volume><fpage>781</fpage><lpage>781</lpage><pub-id pub-id-type="doi">10.1007/s10827-011-0333-0</pub-id></element-citation></ref><ref id="ref-5"><label>Cressman et al. (2009)</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Cressman</surname><given-names>JR</given-names><suffix>Jr</suffix></name><name><surname>Ullah</surname><given-names>G</given-names></name><name><surname>Ziburkus</surname><given-names>J</given-names></name><name><surname>Schiff</surname><given-names>SJ</given-names></name><name><surname>Barreto</surname><given-names>E</given-names></name></person-group><article-title>The influence of sodium and potassium dynamics on excitability, seizures, and the stability of persistent states: I. single neuron dynamics</article-title><source>Journal of Computational Neuroscience</source><year>2009</year><volume>26</volume><fpage>159</fpage><lpage>170</lpage><pub-id pub-id-type="doi">10.1007/s10827-008-0132-4</pub-id><pub-id pub-id-type="pmid">19169801</pub-id></element-citation></ref><ref id="ref-6"><label>Dahlem (2013)</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Dahlem</surname><given-names>MA</given-names></name></person-group><article-title>Migraine generator network and spreading depression dynamics as neuromodulation targets in episodic migraine</article-title><source>Chaos</source><year>2013</year><volume>23</volume><elocation-id>e379</elocation-id><pub-id pub-id-type="doi">10.1063/1.4813815</pub-id></element-citation></ref><ref id="ref-7"><label>Dichgans et al. (2005)</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Dichgans</surname><given-names>M</given-names></name><name><surname>Freilinger</surname><given-names>T</given-names></name><name><surname>Eckstein</surname><given-names>G</given-names></name><name><surname>Babini</surname><given-names>E</given-names></name><name><surname>Lorenz-Depiereux</surname><given-names>B</given-names></name><name><surname>Biskup</surname><given-names>S</given-names></name><name><surname>Ferrari</surname><given-names>MD</given-names></name><name><surname>Herzog</surname><given-names>J</given-names></name><name><surname>van den Maagdenberg</surname><given-names>AM</given-names></name><name><surname>Pusch</surname><given-names>M</given-names></name><name><surname>Strom</surname><given-names>TM</given-names></name></person-group><article-title>Mutation in the neuronal voltage-gated sodium channel in familial hemiplegic migraine</article-title><source>The Lancet</source><issue>9483</issue><year>2005</year><volume>366</volume><fpage>371</fpage><lpage>377</lpage><pub-id pub-id-type="doi">10.1016/S0140-6736(05)66786-4</pub-id></element-citation></ref><ref id="ref-8"><label>FitzHugh (1955)</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>FitzHugh</surname><given-names>R</given-names></name></person-group><article-title>Mathematical models of threshold phenomena in the nerve membrane</article-title><source>Bulletin of Mathematical Biology</source><issue>4</issue><year>1955</year><volume>17</volume><fpage>257</fpage><lpage>278</lpage></element-citation></ref><ref id="ref-9"><label>Friberg et al. (1994)</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Friberg</surname><given-names>L</given-names></name><name><surname>Olesen</surname><given-names>J</given-names></name><name><surname>Olsen</surname><given-names>TS</given-names></name><name><surname>Karle</surname><given-names>A</given-names></name><name><surname>Ekman</surname><given-names>R</given-names></name><name><surname>Fahrenkrug</surname><given-names>J</given-names></name></person-group><article-title>Absence of vasoactive peptide release from brain to cerebral circulation during onset of migraine with aura</article-title><source>Cephalalgia</source><issue>1</issue><year>1994</year><volume>14</volume><fpage>47</fpage><lpage>54</lpage><pub-id pub-id-type="doi">10.1046/j.1468-2982.1994.1401047.x</pub-id><pub-id pub-id-type="pmid">7515329</pub-id></element-citation></ref><ref id="ref-10"><label>Hodgkin &#x00026; Huxley (1952)</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hodgkin</surname><given-names>AL</given-names></name><name><surname>Huxley</surname><given-names>AF</given-names></name></person-group><article-title>A quantitative description of membrane current and its application to conduction and excitation in nerve</article-title><source>Journal of Physiology</source><year>1952</year><volume>117</volume><fpage>500</fpage><lpage>544</lpage><pub-id pub-id-type="pmid">12991237</pub-id></element-citation></ref><ref id="ref-11"><label>H&#x000fc;bel, Sch&#x000f6;ll &#x00026; Dahlem (2014)</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>H&#x000fc;bel</surname><given-names>N</given-names></name><name><surname>Sch&#x000f6;ll</surname><given-names>E</given-names></name><name><surname>Dahlem</surname><given-names>MA</given-names></name></person-group><article-title>Bistable dynamics underlying excitability of ion homeostasis in neuron models</article-title><source>PLoS Computational Biology</source><issue>5</issue><year>2014</year><volume>10</volume><elocation-id>e379</elocation-id><pub-id pub-id-type="doi">10.1371/journal.pcbi.1003551</pub-id></element-citation></ref><ref id="ref-12"><label>Kager, Wadman &#x00026; Somjen (2000)</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kager</surname><given-names>H</given-names></name><name><surname>Wadman</surname><given-names>WJ</given-names></name><name><surname>Somjen</surname><given-names>GG</given-names></name></person-group><article-title>Simulated seizures and spreading depression in a neuron model incorporating interstitial space and ion concentrations</article-title><source>Journal of Neurophysiology</source><year>2000</year><volume>84</volume><fpage>495</fpage><lpage>512</lpage><pub-id pub-id-type="pmid">10899222</pub-id></element-citation></ref><ref id="ref-13"><label>Kurth &#x00026; Diener (2012)</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kurth</surname><given-names>T</given-names></name><name><surname>Diener</surname><given-names>HC</given-names></name></person-group><article-title>Migraine and stroke: perspectives for stroke physicians</article-title><source>Stroke</source><issue>12</issue><year>2012</year><volume>43</volume><fpage>3421</fpage><lpage>3426</lpage><pub-id pub-id-type="doi">10.1161/STROKEAHA.112.656603</pub-id><pub-id pub-id-type="pmid">22996957</pub-id></element-citation></ref><ref id="ref-14"><label>Mitry et al. (2013)</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Mitry</surname><given-names>J</given-names></name><name><surname>McCarthy</surname><given-names>M</given-names></name><name><surname>Kopell</surname><given-names>N</given-names></name><name><surname>Wechselberger</surname><given-names>M</given-names></name></person-group><article-title>Excitable neurons, firing threshold manifolds and canards</article-title><source>The Journal of Mathematical Neuroscience</source><issue>1</issue><year>2013</year><volume>3</volume><fpage>1</fpage><lpage>32</lpage><pub-id pub-id-type="doi">10.1186/2190-8567-3-12</pub-id></element-citation></ref><ref id="ref-15"><label>Olesen et al. (1993)</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Olesen</surname><given-names>J</given-names></name><name><surname>Friberg</surname><given-names>L</given-names></name><name><surname>Olsen</surname><given-names>TS</given-names></name><name><surname>Andersen</surname><given-names>AR</given-names></name><name><surname>Lassen</surname><given-names>NA</given-names></name><name><surname>Hansen</surname><given-names>PE</given-names></name><name><surname>Karle</surname><given-names>A</given-names></name></person-group><article-title>Ischaemia-induced (symptomatic) migraine attacks may be more frequent than migraine-induced ischaemic insults</article-title><source>Brain</source><year>1993</year><volume>116</volume><fpage>187</fpage><lpage>202</lpage><pub-id pub-id-type="doi">10.1093/brain/116.1.187</pub-id><pub-id pub-id-type="pmid">8453456</pub-id></element-citation></ref><ref id="ref-16"><label>Pietrobon (2010)</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Pietrobon</surname><given-names>D</given-names></name></person-group><article-title>Biological science of headache channels</article-title><source>Handbook of Clinical Neurology</source><year>2010</year><volume>97</volume><fpage>73</fpage><lpage>83</lpage><pub-id pub-id-type="pmid">20816411</pub-id></element-citation></ref><ref id="ref-17"><label>Shepherd (2001)</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Shepherd</surname><given-names>AJ</given-names></name></person-group><article-title>Increased visual after-effects following pattern adaptation in migraine: a lack of intracortical excitation?</article-title><source>Brain</source><year>2001</year><volume>124</volume><fpage>2310</fpage><lpage>2318</lpage><pub-id pub-id-type="doi">10.1093/brain/124.11.2310</pub-id><pub-id pub-id-type="pmid">11673331</pub-id></element-citation></ref><ref id="ref-18"><label>van den Maagdenberg et al. (2007)</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>van den Maagdenberg</surname><given-names>AM</given-names></name><name><surname>Haan</surname><given-names>J</given-names></name><name><surname>Terwindt</surname><given-names>GM</given-names></name><name><surname>Ferrari</surname><given-names>MD</given-names></name></person-group><article-title>Migraine: gene mutations and functional consequences</article-title><source>Current Opinion in Neurology</source><issue>3</issue><year>2007</year><volume>20</volume><fpage>299</fpage><lpage>305</lpage><pub-id pub-id-type="doi">10.1097/WCO.0b013e3281338d1f</pub-id><pub-id pub-id-type="pmid">17495624</pub-id></element-citation></ref><ref id="ref-19"><label>Vanmolkot et al. (2007)</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Vanmolkot</surname><given-names>KRJ</given-names></name><name><surname>Babini</surname><given-names>E</given-names></name><name><surname>de Vries</surname><given-names>B</given-names></name><name><surname>Stam</surname><given-names>AH</given-names></name><name><surname>Freilinger</surname><given-names>T</given-names></name><name><surname>Terwindt</surname><given-names>GM</given-names></name><name><surname>Norris</surname><given-names>L</given-names></name><name><surname>Haan</surname><given-names>J</given-names></name><name><surname>Frants</surname><given-names>RR</given-names></name><name><surname>Ramadan</surname><given-names>NM</given-names></name><name><surname>Ferrari</surname><given-names>MD</given-names></name><name><surname>Pusch</surname><given-names>M</given-names></name><name><surname>van den Maagdenberg</surname><given-names>AMJM</given-names></name><name><surname>Dichgans</surname><given-names>M</given-names></name></person-group><article-title>The novel p.L1649Q mutation in the SCN1A epilepsy gene is associated with familial hemiplegic migraine: genetic and functional studies</article-title><source>Human Mutation</source><year>2007</year><volume>28</volume><fpage>522</fpage><lpage>531</lpage><pub-id pub-id-type="doi">10.1002/humu.9486</pub-id><pub-id pub-id-type="pmid">17397047</pub-id></element-citation></ref><ref id="ref-20"><label>Yao, Huang &#x00026; Miura (2011)</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Yao</surname><given-names>W</given-names></name><name><surname>Huang</surname><given-names>H</given-names></name><name><surname>Miura</surname><given-names>RM</given-names></name></person-group><article-title>A continuum neural model for the instigation and propagation of cortical spreading depression</article-title><source>Bulletin of Mathematical Biology</source><year>2011</year><volume>73</volume><fpage>2773</fpage><lpage>2790</lpage><pub-id pub-id-type="doi">10.1007/s11538-011-9647-3</pub-id><pub-id pub-id-type="pmid">21404132</pub-id></element-citation></ref><ref id="ref-21"><label>Zandt et al. (2011)</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Zandt</surname><given-names>BJ</given-names></name><name><surname>ten Haken</surname><given-names>B</given-names></name><name><surname>van Dijk</surname><given-names>JG</given-names></name><name><surname>van Putten</surname><given-names>MJ</given-names></name></person-group><article-title>Neural dynamics during anoxia and the wave of death</article-title><source>PLoS ONE</source><year>2011</year><volume>6</volume><elocation-id>e379</elocation-id><pub-id pub-id-type="doi">10.1371/journal.pone.0022127</pub-id></element-citation></ref></ref-list></back></article>

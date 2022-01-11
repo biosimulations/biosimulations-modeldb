@@ -1,0 +1,313 @@
+references:
+- label: 'Young-Ah Rho & Steven A. Prescott. Identification of molecular pathologies
+    sufficient to cause neuropathic excitability in primary somatosensory afferents
+    using dynamical systems theory. PLoS Computational Biology 8, 5: e1002524 (2012).'
+  uri: http://identifiers.org/doi:10.1371/journal.pcbi.1002524
+taxa: []
+thumbnails:
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Neuropathic
+    changes in primary afferent excitability.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) Sample responses
+    from large diameter acutely isolated dorsal root ganglion (DRG) neurons under
+    control conditions (<italic>normal</italic>) and two days after L5 spinal nerve
+    transection (<italic>neuropathic</italic>). Spiking pattern switches from onset-only
+    to repetitive. (<bold>B</bold>) Sample responses, with the same average membrane
+    potential of &#8722;36 mV, showing development of membrane potential oscillations
+    (MPOs) after nerve injury. (<bold>C</bold>) Sample response showing bursting after
+    nerve injury. (<bold>D</bold>) Venn diagram distinguishing classes of molecular
+    changes and their relationship to primary afferent hyperexcitability and neuropathic
+    pain. In this study, we sought to define the red circle. Parts A&#8211;C were
+    modified from reference 4.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3359967/PMC3359967/pcbi.1002524.g001.jpg
+  id: pcbi.1002524/pcbi-1002524-g001
+  label: Figure 1
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulation
+    and dynamical explanation of change in spiking pattern.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) Spiking pattern
+    during sustained depolarization was converted from onset-only (normal, &#946;<sub>w</sub>&#8202;=&#8202;&#8722;21
+    mV) to repetitive (neuropathic, &#946;<sub>w</sub>&#8202;=&#8202;&#8722;13 mV)
+    by varying a single parameter. Onset-only spiking was observed in the neuropathic
+    model but for only a narrow stimulus range. (<bold>B</bold>) According to bifurcation
+    analysis in which stimulation (<italic>I</italic>
+
+    <sub>stim</sub>) was systematically varied, repetitive spiking was produced by
+    the neuropathic model when <italic>I</italic>
+
+    <sub>stim</sub> exceeded a critical value required for a subcritical Hopf bifurcation.
+    In contrast, the normal model did not undergo a bifurcation, which means spiking
+    was limited to single spikes generated through a QS-crossing (see below). Generation
+    of a single spike does not constitute a change in steady-state behavior, consistent
+    with the absence of a bifurcation. (<bold>C</bold>) Phase planes show the fast
+    activation variable <italic>V</italic> plotted against the slower recovery variable
+    <italic>w</italic>. Nullclines (color) indicate where <italic>V</italic> or <italic>w</italic>
+    do not change. Excitatory stimulation shifts the <italic>V</italic>-nullcline
+    upward without affecting the <italic>w</italic>-nullcline. In the neuropathic
+    model, <italic>V</italic>- and <italic>w</italic>-nullclines intersect at a stable
+    (<italic>s</italic>) fixed point prior to stimulation, but that point becomes
+    unstable (<italic>u</italic>) during stimulation &#8211; this corresponds to a
+    Hopf bifurcation and is responsible for repetitive spiking. In the normal model,
+    the fixed point remains stable during stimulation despite the <italic>V</italic>-nullcline
+    shifting upward, but a single spike can nonetheless be generated depending on
+    how the system moves to the newly positioned fixed point. The trajectory can be
+    predicted by reference to a quasi-separatrix (QS), which corresponds to a manifold
+    in phase space from which trajectories diverge. Quasi-separatrices were plotted
+    here by integrating with a negative time step with initial values indicated by
+    * on the phase planes (see <xref ref-type="sec" rid="s4">Methods</xref>). Like
+    the <italic>V</italic>-nullcline, the QS shifts instantaneously with stimulation.
+    If, as shown, the original fixed point ends up below the shifted QS, the trajectory
+    to the newly positioned fixed point must follow an indirect route around the end
+    of the QS (*), thus producing a spike; a more direct, subthreshold route would
+    require the trajectory to cross back over the QS, which is not possible. If the
+    original fixed point remained above the shifted QS, the trajectory would follow
+    a direct route and no spike would be produced (not illustrated).</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3359967/PMC3359967/pcbi.1002524.g002.jpg
+  id: pcbi.1002524/pcbi-1002524-g002
+  label: Figure 2
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulation
+    and dynamical explanation of membrane potential oscillations.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) Traces (<italic>top</italic>)
+    show sample responses for different <italic>I</italic>
+
+    <sub>stim</sub> indicated along the bifurcation diagrams (<italic>bottom</italic>).
+    One set of simulations included noise (see <xref ref-type="sec" rid="s4">Methods</xref>).
+    In the normal model, MPOs were negligible regardless of noise conditions. In the
+    neuropathic model, noise-dependent MPOs were present and were most prominent for
+    <italic>I</italic>
+
+    <sub>stim</sub> near the bifurcation, when the fixed point is nearly unstable.
+    Noise-dependent MPOs are not associated with a stable limit cycle. (<bold>B</bold>)
+    In model with &#946;<sub>w</sub>&#8202;=&#8202;&#8722;19 mV, noise-independent
+    MPOs occurred because a supercritical Hopf bifurcation produced a stable, subthreshold
+    limit cycle. The stable limit cycle existed for only a narrow range of <italic>I</italic>
+
+    <sub>stim</sub> before being destroyed through a saddle-node bifurcation of limit
+    cycles. Noise-dependent MPOs still occurred for <italic>I</italic>
+
+    <sub>stim</sub> just below the supercritical Hopf bifurcation. Boxed traces show
+    conditions analyzed in C. (<bold>C</bold>) Power spectra comparing noise-dependent
+    and -independent MPOs with and without noise. Colors correspond to boxes in B.
+    Broadly peaked power spectra (like those associated with MPOs under noisy conditions)
+    more closely resemble experimental data (see <xref ref-type="sec" rid="s2">Results</xref>).</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3359967/PMC3359967/pcbi.1002524.g003.jpg
+  id: pcbi.1002524/pcbi-1002524-g003
+  label: Figure 3
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Frequency
+    and voltage range of noise-dependent MPOs in neuropathic model.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) Power spectra
+    for MPOs at different average membrane potentials. Spike threshold was &#8722;33.4
+    mV according to bifurcation analysis. Noise-dependent MPOs occurred only within
+    &#8764;4 mV of spike threshold. With 10&#215; stronger noise (dotted line), the
+    power spectrum was shifted upwards but was otherwise unaffected when compared
+    against the weak noise condition (solid line) with equivalent mean depolarization.
+    Peak frequency shifted slightly with mean depolarization. (<bold>B</bold>) Bifurcation
+    diagrams show change in spike threshold caused by implementing cumulative Na<sup>+</sup>
+    inactivation, which is controlled by <italic>h</italic>. Diagrams are plotted
+    for no inactivation (<italic>h</italic>&#8202;=&#8202;1) and with 40% inactivation
+    (<italic>h</italic>&#8202;=&#8202;0.6). (<bold>C</bold>) Power spectra like in
+    A but in a model with 40% Na<sup>+</sup> channel inactivation. The shift in spike
+    threshold (see B) allowed MPOs to occur at more depolarized potentials. (<bold>D</bold>)
+    Change in spike threshold in a model that includes cumulative Na<sup>+</sup> channel
+    inactivation, controlled by <italic>h</italic>, as a third variable. Spike threshold
+    was estimated as the voltage at the inflection point for <italic>dV</italic>/<italic>dt</italic>.
+    Sample response shows progressive inactivation (decrease in <italic>h</italic>;
+    <italic>green</italic>) and the corresponding rise in spike threshold (<italic>red</italic>)
+    which eventually leads to the termination of repetitive spiking. Inset shows <italic>dV</italic>/<italic>dt</italic>
+    vs. <italic>V</italic> for spike near the beginning and end of the spike train
+    to highlight the change in spike shape and the shift in threshold.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3359967/PMC3359967/pcbi.1002524.g004.jpg
+  id: pcbi.1002524/pcbi-1002524-g004
+  label: Figure 4
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulation
+    and dynamical explanation of bursting.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) Sample responses
+    at different average membrane potentials in the neuropathic model (&#946;<sub>w</sub>&#8202;=&#8202;&#8722;13
+    mV) with slow adaptation mediated by <italic>I</italic>
+
+    <sub>AHP</sub>. Noise was included in all simulations and makes the bursting irregular
+    (and thus more realistic) but noise is not necessary for bursting. Duration and
+    frequency of bursts increased with average depolarization. (<bold>B</bold>) Bursting
+    depends on hysteresis caused by bistability associated with the subcritical Hopf
+    bifurcation. Inset shows <italic>V</italic> and <italic>z</italic> during sample
+    burst, where <italic>z</italic> controls activation of <italic>I</italic>
+
+    <sub>AHP</sub>. The same response, with its differently colored burst and interburst
+    phases, was projected onto the bifurcation diagram created by treating <italic>z</italic>
+    as a bifurcation parameter. The model tracks the stable limit cycle branch, spiking
+    repetitively as <italic>z</italic> increases until the end of the branch is reached,
+    at which point the burst stops. The model then tracks the stable fixed point as
+    <italic>z</italic> decreases (during which noise-dependent MPOs wax and wane)
+    until the fixed point becomes unstable, at which point another burst starts. Hysteresis
+    is evident from the bursts starting and stopping at different values of <italic>z</italic>.
+    This bifurcation diagram is flipped horizontally relative to those shown in other
+    figures because the bifurcation parameter here controls <italic>I</italic>
+
+    <sub>AHP</sub>, which is an inhibitory current, whereas <italic>I</italic>
+
+    <sub>stim</sub> (the bifurcation parameter used elsewhere) is excitatory.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3359967/PMC3359967/pcbi.1002524.g005.jpg
+  id: pcbi.1002524/pcbi-1002524-g005
+  label: Figure 5
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulating
+    the continuum of pathological change.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) Summary of <italic>I</italic>
+
+    <sub>stim</sub> thresholds to elicit onset-only or repetitive spiking for different
+    values of &#946;<sub>w</sub> in our standard 2-D model. Reduction in threshold
+    equates with an increase in excitability. Summary of peak MPO power (<bold>B</bold>)
+    and peak frequency (<bold>C</bold>) across a range of &#946;<sub>w</sub> values.
+    All simulations included noise. For each &#946;<sub>w</sub> value, <italic>I</italic>
+
+    <sub>stim</sub> was chosen relative to the threshold for repetitive spiking: <italic>high</italic>
+    and <italic>low I</italic>
+
+    <sub>stim</sub> were 1.3 and 4 &#181;A/cm<sup>2</sup> below threshold, respectively.
+    Those values were chosen in order to include or exclude, respectively, noise-independent
+    MPOs when a supercritical Hopf bifurcation occurs. Peak MPO amplitude and frequency
+    decreased as &#946;<sub>w</sub> was increased. That trend is not attributable
+    to noise-independent MPOs occurring at certain &#946;<sub>w</sub> values since
+    noise-independent MPOs were excluded when testing with <italic>low I</italic>
+
+    <sub>stim</sub> (see above). Moreover, re-setting &#947;<sub>m</sub> from 18 mV
+    to 15 mV prevented the supercritical Hopf bifurcation from occurring at any &#946;<sub>w</sub>,
+    but the same trend in MPO power and frequency was observed (data not shown). Dotted
+    curve in C shows minimum sustainable firing rate. * indicates data points that
+    include a noise-independent MPO component.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3359967/PMC3359967/pcbi.1002524.g006.jpg
+  id: pcbi.1002524/pcbi-1002524-g006
+  label: Figure 6
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Relating
+    parameter changes in the 2-D model with more biologically meaningful changes in
+    a 3-D model.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>)
+    Changing &#946;<sub>w</sub> from &#8722;21 mv to &#8722;13 mV shifts the <italic>I</italic>
+
+    <sub>slow</sub>-<italic>V</italic> curve to the right, which corresponds to a
+    rightward shift in the <italic>w</italic>-nullcline on the <italic>V-w</italic>
+    phase plane (inset) and switches the spike initiation mechanism (see <xref ref-type="fig"
+    rid="pcbi-1002524-g002">
+
+    <bold>Fig. 2</bold>
+
+    </xref>). In the 2-D model, &#946;<sub>w</sub> represents the voltage-dependency
+    of <italic>I</italic>
+
+    <sub>slow</sub> which, in reality, comprises multiple currents with slow kinetics.
+    The biological realism of the model can be increased by &#8220;ungrouping&#8221;
+    <italic>I</italic>
+
+    <sub>slow</sub> into two (or more) components, one representing the delayed-rectifier
+    potassium current <italic>I</italic>
+
+    <sub>K,dr</sub> and one representing a subthreshold current <italic>I</italic>
+
+    <sub>sub</sub> that can be inward or outward depending on the reversal potential.
+    (<bold>B</bold>) Voltage-dependent activation curve for <italic>I</italic>
+
+    <sub>sub</sub>. Parameter values (indicated on the figure) were determined as
+    explained below. In the 3-D model, the (<italic>I</italic>
+
+    <sub>K,dr</sub>+<italic>I</italic>
+
+    <sub>sub</sub>)&#8722;<italic>V</italic> curve was shifted the same as the <italic>I</italic>
+
+    <sub>sub</sub>-<italic>V</italic> curve in A by increasing inward <italic>I</italic>
+
+    <sub>sub</sub> (<bold>C</bold>) or by decreasing outward <italic>I</italic>
+
+    <sub>sub</sub> (<bold>D</bold>) on the basis of varying <italic>g</italic>
+
+    <sub>sub</sub>. Bifurcation diagrams demonstrate the change in spike initiation
+    mechanism. With <italic>I</italic>
+
+    <sub>K,dr</sub> properties fixed, maximal conductance and voltage-sensitivity
+    of <italic>I</italic>
+
+    <sub>sub</sub> were adjusted to recreate the shift shown in A; derived parameters
+    illustrate the importance of the modulated conductance activating at subthreshold
+    potentials. Adding or removing the same subthreshold currents to a Hodgkin-Huxley
+    model (rather than to our starting 2-D Morris-Lecar model) produces equivalent
+    changes in excitability (data not shown). By comparison, modulating current that
+    activates only at suprathreshold potentials (&#946;<sub>y</sub>&#8202;=&#8202;0
+    mV) had no effect on the (<italic>I</italic>
+
+    <sub>K,dr</sub>+<italic>I</italic>
+
+    <sub>supra</sub>)&#8722;<italic>V</italic> curve in the perithreshold voltage
+    range, and thus the spike initiation dynamics were unchanged (see <bold><xref
+    ref-type="supplementary-material" rid="pcbi.1002524.s004">Fig. S4</xref></bold>).</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3359967/PMC3359967/pcbi.1002524.g007.jpg
+  id: pcbi.1002524/pcbi-1002524-g007
+  label: Figure 7
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Dynamically
+    equivalent effects of varying other model parameters in the 2-D model.</title><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Effects
+    of changing &#946;<sub>w</sub> (<bold>A</bold>), <italic>g</italic>
+
+    <sub>fast</sub> (<bold>B</bold>), <italic>g</italic>
+
+    <sub>slow</sub> (<bold>C</bold>), and &#946;<sub>m</sub> (<bold>D</bold>) in the
+    original 2-D model. All parameters were at their default values (see <xref ref-type="sec"
+    rid="s4">Methods</xref>) except for the parameter of interest, which was varied
+    from its default value (green) to a value causing neuropathic excitability (red)
+    as indicated on each panel. In each case, the shape and/or positioning of the
+    <italic>V</italic>- or <italic>w</italic>-nullcline (shown on phase planes; left
+    panels) was affected in a distinct way, but the geometry of the nullcline intersection
+    showed the equivalent &#8220;neuropathic&#8221; change, as evidenced by the bifurcations
+    diagrams (right panels); specifically, all &#8220;neuropathic&#8221; bifurcation
+    diagrams exhibit a Hopf bifurcation. For A&#8211;D, the &#8220;normal&#8221; bifurcation
+    diagrams are equivalent and correspond to that shown in <xref ref-type="fig" rid="pcbi-1002524-g002">
+
+    <bold>Fig. 2B</bold>
+
+    </xref>
+
+    <bold> top</bold>.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3359967/PMC3359967/pcbi.1002524.g008.jpg
+  id: pcbi.1002524/pcbi-1002524-g008
+  label: Figure 8
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Effects
+    of multiple co-occurring molecular changes.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) A parameter change
+    affecting a subthreshold current (in this case in the original 2-D model) may
+    fail to cause hyperexcitability if that change is offset by a change in a second
+    parameter. In this example, varying &#946;<sub>w</sub> shifts the <italic>w</italic>-nullcline
+    whereas varying &#947;<sub>m</sub> re-shapes the <italic>V</italic>-nullcline,
+    but the combination of changes results in no change in the geometry of the nullcline
+    intersection. Parameter values are indicated on the bifurcation diagrams; the
+    color of each label corresponds to the color of nullclines shown on the <italic>V-w</italic>
+    phase plane. (<bold>B</bold>) Changes in excitability (quantified as the <italic>I</italic>
+
+    <sub>stim</sub> threshold for repetitive spiking) caused by co-varying &#946;<sub>w</sub>
+    and &#947;<sub>m</sub>. The increase in excitability caused by varying only &#946;<sub>w</sub>
+    (arrow <italic>a</italic>) could be produced by a much smaller change in &#947;<sub>m</sub>
+    (arrow <italic>b</italic>) or by small combined changes in &#946;<sub>w</sub>
+    and &#947;<sub>m</sub> (arrow <italic>c</italic>). Arrow <italic>d</italic> shows
+    conditions in A. Note that the reduction in &#947;<sub>m</sub> required to offset
+    a &#8220;neuropathic&#8221; change in &#946;<sub>w</sub> (arrow <italic>e</italic>)
+    is larger than the increase in &#947;<sub>m</sub> required to produce neuropathic
+    excitability (arrow <italic>b</italic>). Systematic testing of all parameter combinations
+    is beyond the scope of the current study, but this example highlights the importance
+    of parameter co-variation.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3359967/PMC3359967/pcbi.1002524.g009.jpg
+  id: pcbi.1002524/pcbi-1002524-g009
+  label: Figure 9
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Summary
+    of relationships between molecular and cellular changes.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>Scenario 1</bold>) A molecular
+    change of interest outside the red-shaded region is neither necessary nor sufficient
+    to cause hyperexcitability, but may nevertheless be correlated with it. (<bold>Scenario
+    2</bold>) In the absence of other changes, a molecular change of interest inside
+    the red-shaded region is both necessary and sufficient to cause hyperexcitability.
+    (<bold>Scenario 3</bold>) If only one molecular change occurs inside the red-shaded
+    region, that change will be necessary for hyperexcitability but may or may not
+    be sufficient depending on how the change interacts with other changes outside
+    the red-shaded region. (<bold>Scenario 4</bold>) If multiple molecular changes
+    occur inside the red-shaded region, then the change of interest will not be necessary
+    for hyperexcitability and may or may not be sufficient depending on how that change
+    interacts with other changes. This last scenario (hightlighted in yellow) is the
+    most likely given that nerve injury triggers multiple molecular changes and given
+    the degenerate manner by which spike initiation can be altered, as shown in this
+    study. Degeneracy implies that the red circle is large and thus likely to significantly
+    overlap the gray circle.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3359967/PMC3359967/pcbi.1002524.g010.jpg
+  id: pcbi.1002524/pcbi-1002524-g010
+  label: Figure 10

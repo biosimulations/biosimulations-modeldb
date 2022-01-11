@@ -1,0 +1,377 @@
+references:
+- label: 'Frank T. Horrigan, Jianmin Cui & Richard W. Aldrich. Allosteric voltage
+    gating of potassium channels I. Mslo ionic currents in the absence of Ca(2+).
+    Journal of General Physiology 114, 2: 277-304 (1999).'
+  uri: http://identifiers.org/doi:10.1085/jgp.114.2.277
+taxa: []
+thumbnails:
+- caption: []
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.s1.jpg
+  id: GP-7962/S1
+  label: Scheme S1
+- caption: []
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.s2.jpg
+  id: GP-7962/S2
+  label: Scheme S2
+- caption: []
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.s3.jpg
+  id: GP-7962/S3
+  label: Scheme S3
+- caption: []
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.s4.jpg
+  id: GP-7962/S4
+  label: Scheme S4
+- caption: []
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.s5.jpg
+  id: GP-7962/S5
+  label: Scheme S5
+- caption: []
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.s6.jpg
+  id: GP-7962/S6
+  label: Scheme S6
+- caption: []
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.s7.jpg
+  id: GP-7962/S7
+  label: Scheme S7
+- caption: []
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.s8.jpg
+  id: GP-7962/S8
+  label: Scheme S8
+- caption: []
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.s9.jpg
+  id: GP-7962/S9
+  label: Scheme S9
+- caption: <p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Delay
+    in I<sub>K</sub> activation. (A<sub>1</sub>) I<sub>K</sub> evoked by a voltage
+    pulse to +160 mV from a holding potential of &#8722;80 mV at 20&#176;C, representing
+    the average response to 110 pulses. The time course of activation and deactivation
+    are fit by exponential functions (dashed lines). (A<sub>2</sub>) The record from
+    A<sub>1</sub> is plotted on an expanded time scale, showing a delay before I<sub>K</sub>
+    achieves an exponential time course (dashed line). The delay duration (&#916;<italic>t</italic>)
+    is defined as the time where the exponential fit intersects the time axis, and
+    was determined after shifting the I<sub>K</sub> trace along the time axis by &#8722;25
+    &#956;s to correct for instrumentation delay (see <sc>methods</sc>). (B<sub>1</sub>)
+    A family of I<sub>K</sub> evoked at 5&#176;C in response to 70-ms voltage pulses
+    (+80 to +200 mV in 20-mV steps). Exponential fits (solid lines) are superimposed
+    on the current traces. (B<sub>2</sub>) The initial activation of I<sub>K</sub>
+    from B<sub>1</sub> exhibits a clear delay. An arrow indicates the start of the
+    voltage pulse. A capacitive transient (control) evoked in response to a pulse
+    to &#8722;180 mV was recorded using fast capacity compensation, but no leak subtraction,
+    demonstrating that membrane voltage settles rapidly.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.f1.jpg
+  id: GP-7962/F1
+  label: Figure 1
+- caption: '<p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Kinetics
+    of I<sub>K</sub> delay. (A<sub>1</sub>) I<sub>K</sub> evoked at +180 mV (7&#176;C)
+    is compared with the prediction of a Hodgkin-Huxley model (Scheme III: &#945;
+    = 375 s<sup>&#8722;1</sup>, &#946; = 660 s<sup>&#8722;1</sup>) that approximates
+    the delay in I<sub>K</sub> (A<sub>2</sub>), but does not reproduce the subsequent
+    time course of activation. <xref ref-type="fig" rid="S5">Fig. 5</xref> fits both
+    the delay and activation time course (&#945; = 2,018 s<sup>&#8722;1</sup>, &#946;
+    = 1,172 s<sup>&#8722;1</sup>, &#948; = 341 s<sup>&#8722;1</sup>, &#947; = 136
+    s<sup>&#8722;1</sup>). Both models were constrained to reproduce the steady state
+    open probability measured at the end of the pulse (<italic>P</italic>
+
+    <sub>o</sub> &#8773; G<sub>K</sub>/G<sub>Kmax</sub> = 0.29) and assume channels
+    occupy the first closed state (C<sub>0</sub>) at the start of the pulse. The derivative
+    of the trace in A [<italic>d</italic>(I<sub>K</sub>)/<italic>dt</italic>] is plotted
+    on linear (B<sub>1</sub>) and log&#8211;log (B<sub>2</sub>) scales and is fit
+    by a function (1 &#8722; <italic>e</italic>
+
+    <sup>&#8722;</sup>
+
+    <italic>t</italic>
+
+    <sup>/&#964;</sup>)<italic><sup>n</sup></italic>, where <italic>n</italic> = 4
+    and &#964; = 270 &#956;s (B<sub>1</sub> and B<sub>2</sub>, solid line). A better
+    fit is obtained with <italic>n</italic> = 2.9 and &#964; = 316 &#956;s (B<sub>2</sub>,
+    solid line). The predictions of sequential gating <xref ref-type="fig" rid="S5">Fig.
+    5</xref> and <xref ref-type="fig" rid="S6">Fig. 6</xref> are indicated by dashed
+    lines. (Scheme VI: X = 3, &#945; = 600 s<sup>&#8722;1</sup>, &#946; = 349 s<sup>&#8722;1</sup>,&#948;
+    = 341 s<sup>&#8722;1</sup>, &#947; = 136 s<sup>&#8722;1</sup>). Current traces
+    were shifted along the time axis by &#8722;25 &#956;s to correct for the instrumentation
+    delay (see <sc>methods</sc>).</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.f2.jpg
+  id: GP-7962/F2
+  label: Figure 2
+- caption: '<p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Voltage
+    dependence of I<sub>K</sub> delay. (A) The initial time course of I<sub>K</sub>
+    activation measured at +180 mV from the same patch as <xref ref-type="fig" rid="F2">Fig.
+    2</xref> shows a decreased delay following a 1-ms prepulse to various voltages
+    (&#8722;80, 0, 40, 80, 100, and 120 mV). To accurately represent the time course
+    of channel opening, currents during the prepulse were scaled by a factor I<sub>K</sub>(+180)/I<sub>K</sub>(V<sub>pre</sub>)
+    representing the ratio of single channel current amplitudes measured at the test
+    and prepulse voltages. (B) A family of I<sub>K</sub> evoked at different voltages
+    (+120 to +240 in 20-mV steps, holding potential = &#8722;80) are fit with exponential
+    functions (dashed lines), demonstrating a voltage-dependent change in delay. (C)
+    Delay duration (&#916;<italic>t</italic>) is plotted versus pulse voltage for
+    two experiments. The plots are fit by functions of the form &#916;<italic>t</italic>
+    = 1/(<italic>a</italic> + <italic>b</italic>) with <italic>a</italic>=<italic>a</italic>
+
+    <sub>o</sub>*<italic>e</italic>
+
+    <sup><italic>z</italic><sub><italic>a</italic></sub><italic>e</italic><italic>kt</italic></sup>,<italic>b</italic>=<italic>b</italic>
+
+    <sub>o</sub>*<italic>e</italic>
+
+    <sup><italic>z</italic><sub><italic>b</italic></sub><italic>e</italic><italic>kt</italic></sup>(<italic>z</italic>
+
+    <sub>a</sub> = +0.28 <italic>e</italic>, <italic>z</italic>
+
+    <sub>b</sub> = &#8722;0.28 <italic>e</italic> ; (&#9652;) <italic>a</italic>
+
+    <sub>o</sub> = 124 s<sup>&#8722;1</sup>, <italic>b</italic>
+
+    <sub>o</sub> = 4,767 s<sup>&#8722;1</sup>; (&#8226;) <italic>a</italic>
+
+    <sub>o</sub> = 98 s<sup>&#8722;1</sup>, <italic>b</italic>
+
+    <sub>o</sub> = 3,902 s<sup>&#8722;1</sup>). The delay was not well determined
+    at the lowest voltages; therefore, fits were constrained with the simplifying
+    assumption <italic>z</italic>
+
+    <sub>a</sub> = <italic>z</italic>
+
+    <sub>b</sub>. (D) The average &#916;<italic>t</italic>&#8211;V relationship (mean
+    &#177; SEM, <italic>n</italic> = 6), was obtained after first normalizing individual
+    plots (see text) to mean &#916;<italic>t</italic> measured from +180 to +195 mV.
+    The data are fit by the above function (solid line, <italic>z</italic>
+
+    <sub>a</sub> = +0.28 <italic>e</italic>; <italic>z</italic>
+
+    <sub>b</sub> = &#8722;0.28 <italic>e</italic> ; <italic>a</italic>
+
+    <sub>o</sub> = 119 s<sup>&#8722;1</sup>, <italic>b</italic>
+
+    <sub>o</sub> = 4,240 s<sup>&#8722;1</sup>) and reproduced by <xref ref-type="fig"
+    rid="S5">Fig. 5</xref> [dashed line: <italic>z</italic>
+
+    <sub>&#945;</sub> = +0.28 <italic>e</italic>, &#945;(0) = 244 s<sup>&#8722;1</sup>,
+    <italic>z</italic>
+
+    <sub>&#946;</sub> = &#8722;0.28 <italic>e</italic>, &#946;(0) = 8,670 s<sup>&#8722;1</sup>,
+    <italic>z</italic>
+
+    <sub>&#948;</sub> = 0.155 <italic>e</italic>, &#948;(0) = 49.4 s<sup>&#8722;1</sup>,
+    <italic>z</italic>
+
+    <sub>&#947;</sub> = &#8722;0.155 <italic>e</italic>, &#947;(0) = 134 s<sup>&#8722;1</sup>].
+    The rate constants in <xref ref-type="fig" rid="S5">Fig. 5</xref> that describe
+    voltage sensor movement (&#945;, &#946;) are 2.05-fold greater than (<italic>a</italic>,
+    <italic>b</italic>) at all voltages. Thus &#916;<italic>t</italic> = 1/(<italic>a</italic>
+    + <italic>b</italic>) is proportional the voltage-sensor time constant &#964;
+    = 1/(&#945; + &#946;). The parameters that describe the C&#8211;O transition in
+    <xref ref-type="fig" rid="S5">Fig. 5</xref> (&#948;, <italic>z</italic>
+
+    <sub>&#948;</sub>, &#947;, <italic>z</italic>
+
+    <sub>&#947;</sub>), were adjusted to fit the <italic>P</italic>
+
+    <sub>o</sub>&#8211;V relationship (see <xref ref-type="fig" rid="F6">Fig. 6</xref>
+    B) and to reproduce the time course of I<sub>K</sub> activation at the peak of
+    the &#916;<italic>t</italic>&#8211;V relationship (+153 mV).</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.f3.jpg
+  id: GP-7962/F3
+  label: Figure 3
+- caption: <p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
+    voltage-dependence of I<sub>K</sub> relaxation. (A) Activation and (B&#8211;D)
+    deactivation kinetics measured at 5&#176;C are fit by exponential functions (solid
+    lines). I<sub>K</sub> was activated in response to voltages from +100 to +240
+    mV. Deactivation was measured at the indicated voltages after a 50-ms depolarization
+    to +120 mV.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.f4.jpg
+  id: GP-7962/F4
+  label: Figure 4
+- caption: '<p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
+    voltage dependence of &#964;(I<sub>K</sub>). (A) Time constants [&#964;(I<sub>K</sub>)]
+    from the fits in <xref ref-type="fig" rid="F4">Fig. 4A</xref> and <xref ref-type="fig"
+    rid="F4">Fig. B</xref>, are plotted versus voltage and fit (dashed line) by two
+    exponential functions with the indicated equivalent charge (<italic>z</italic>).
+    The prediction of a two-state model [&#964;(I<sub>K</sub>) = 1/(<italic>a</italic>
+    + <italic>b</italic>), <italic>a</italic>=<italic>a</italic>
+
+    <sub>o</sub>*<italic>e</italic>
+
+    <sup><italic>z</italic><sub><italic>a</italic></sub><italic>e</italic><italic>kt</italic></sup>,<italic>b</italic>=<italic>b</italic>
+
+    <sub>o</sub>*<italic>e</italic>
+
+    <sup><italic>z</italic><sub><italic>b</italic></sub><italic>e</italic><italic>kt</italic></sup>]
+    is indicated by a solid line (<italic>z</italic>
+
+    <sub>a</sub> = 0.37 <italic>e</italic>, <italic>z</italic>
+
+    <sub>b</sub> = 0.67 <italic>e</italic> ; <italic>a</italic>
+
+    <sub>o</sub> = 4.86 s<sup>&#8722;1</sup>, <italic>b</italic>
+
+    <sub>o</sub> = 1,323 s<sup>&#8722;1</sup>). (B) &#964;(I<sub>K</sub>) is plotted
+    on a log scale versus voltage for all the records in <xref ref-type="fig" rid="F4">Fig.
+    4</xref>. Data were shifted along the voltage axis by &#916;V<sub>h</sub> = +5.6
+    mV (see <sc>methods</sc>). Three regions of exponential voltage dependence are
+    shown by dashed lines with the indicated equivalent charges (<italic>z</italic>).
+    A solid curve indicates a fit to <xref ref-type="fig" rid="S9">Fig. 9</xref> (<xref
+    ref-type="table" rid="T1">Table </xref>, Patch 1). (C) &#964;(I<sub>K</sub>)&#8211;V
+    plots obtained from multiple experiments at 5&#176; and 20&#176;C (&#9675;) were
+    normalized to mean &#964;(I<sub>K</sub>) at &#8722;80 mV, and then averaged in
+    15-mV bins (&#8226;). Solid curves indicate fits of <xref ref-type="fig" rid="S9">Fig.
+    9</xref> to the averaged data (<xref ref-type="table" rid="T1">Table </xref>:
+    average 5&#176; and 20&#176;C). The dashed curve represents a fit of <xref ref-type="fig"
+    rid="S8">Fig. 8</xref> to the average 5&#176;C data for V &lt; +100 mV (<italic>z</italic>
+
+    <sub>&#946;1</sub> = &#8722;0.45 <italic>e</italic>, &#946;<sub>1</sub>(0) = 2,400
+    s<sup>&#8722;1</sup>, <italic>z</italic>
+
+    <sub>&#946;2</sub> = &#8722;0.14 <italic>e</italic>, &#946;<sub>2</sub>(0) = 700
+    s<sup>&#8722;1</sup>, <italic>z</italic>
+
+    <sub>&#945;2</sub> = &#8722;0.26 <italic>e</italic>, &#945;<sub>2</sub>(0) = 300
+    s<sup>&#8722;1</sup>).</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.f5.jpg
+  id: GP-7962/F5
+  label: Figure 5
+- caption: '<p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Steady
+    state activation. (A) A family of I<sub>K</sub> evoked in response to 20-ms depolarizations
+    (+80 to +280 in 20-mV steps, holding potential = &#8722;80, 20&#176;C). G<sub>K</sub>(V)
+    was determined by measuring the tail current amplitude at &#8722;80 mV immediately
+    after each pulse. (B) The G<sub>K</sub>&#8211;V relationships from 23 experiments
+    (&#9675;) were normalized by G<sub>Kmax</sub> and shifted along the voltage axis
+    to align half-activation voltages (see <sc>methods</sc>). The average G&#8211;V
+    (&#8226;) represents the mean &#177; SEM of the normalized-shifted data determined
+    over 15-mV intervals. A Boltzmann function raised to a power of 3.2 (<italic>z</italic>
+    = 0.69 <italic>e</italic>, solid line) represents the best fit to the individual
+    data, excluding experiments where V<sub>max</sub> &lt; 240 mV. G<sub>Kmax</sub>
+    could not be directly determined for the excluded experiments; therefore, these
+    data were normalized based on the Boltzmann<sup>3.2</sup> fit. Dashed lines indicate
+    predictions of <xref ref-type="fig" rid="S5">Fig. 5</xref> [&#8712; = &#948;/&#947;,
+    &#8712;(0) = 0.367, <italic>z</italic>
+
+    <sub>&#8712;</sub> = 0.295 <italic>e</italic>, <italic>z<sub>J</sub></italic>
+    = 0.55 <italic>e</italic>, V<sub>h</sub>(<italic>J</italic>) = 145] and <xref
+    ref-type="fig" rid="S9">Fig. 9</xref> [<italic>L</italic>(0) = 2 <italic>e</italic>
+
+    <sup>&#8722;6</sup>, <italic>z<sub>L</sub></italic> = 0.4 <italic>e</italic>,
+    <italic>z<sub>J</sub></italic> = 0.55 <italic>e</italic>, V<sub>h</sub>(<italic>J</italic>)
+    = 145, <italic>D</italic> = 17]. (C) The data are replotted on a semi-log scale
+    together with the Boltzmann<sup>3.2</sup> fit (solid line). The maximum voltage
+    dependence of G&#8211;V is indicated by a dashed line (<italic>z</italic> = 2.0
+    <italic>e</italic>). (D) Single channel currents were recorded at the indicated
+    voltages and filtered at 20 kHz. The corresponding all-points histograms are plotted
+    on a semi-log scale (points versus picoamperes). (E) Normalized open probability
+    (<italic>P</italic>
+
+    <sub>o</sub>/<italic>P</italic>
+
+    <sub>omax</sub>, see text) determined from single channel currents is plotted
+    versus voltage for several experiments in 0 Ca<sup>2+</sup> (filled symbols) or
+    4.5 &#956;M Ca<sup>2+</sup> (open symbols). The dashed line indicates the maximum
+    voltage dependence of the macroscopic G&#8211;V from C. (F) The normalized <italic>P</italic>
+
+    <sub>o</sub>&#8211;V relationship from &#8722;120 to +300 mV combines the macroscopic
+    and single channel data. Filled symbols indicate averages (mean &#177; SEM, 15-mV
+    bin width), while open symbols represent data from individual experiments. Predictions
+    of <xref ref-type="fig" rid="S5">Fig. 5</xref> (dashed line) and IX (solid line)
+    are the same as in B.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.f6.jpg
+  id: GP-7962/F6
+  label: Figure 6
+- caption: <p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Interaction
+    between voltage sensors and channel gating. Cartoons illustrate two hypothetical
+    mechanisms of coupling between voltage-sensor movement and channel opening. Voltage
+    sensors in each subunit are shown to undergo a transition between resting (&#8722;)
+    and activated (+) conformations. For simplicity, only states with all four voltage
+    sensors in the same conformation are shown. The independent transitions of voltage
+    sensors are abbreviated by dashed arrows. (A) A direct coupling mechanism assumes
+    there exists a direct physical link between voltage sensor and a gate that controls
+    the flow of ions through the pore. Such a mechanism does not allow channels to
+    open unless voltage sensors are activated. (B) An allosteric mechanism assumes
+    that channel opening involves a quaternary rearrangement of subunits that alters
+    subunit&#8211;subunit interactions (indicated by shaded areas between subunits).
+    Voltage-sensor activation is also assumed to affect subunit&#8211;subunit interaction,
+    and is shown here as stabilizing the closed state when voltage sensors are in
+    the (&#8722;) conformation.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.f11.jpg
+  id: GP-7962/F11
+  label: Figure 11
+- caption: '<p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Allosteric
+    model: I<sub>K</sub> kinetics. <xref ref-type="fig" rid="S9">Fig. 9</xref> was
+    used to fit the time course of mSlo I<sub>K</sub> (solid lines; <xref ref-type="table"
+    rid="T1">Table </xref>: Patch 2, &#916;V<sub>h</sub> = &#8722;11.3 mV). (A<sub>1</sub>
+    and A<sub>2</sub>) I<sub>K</sub> evoked at +180 mV at 7&#176;C (from <xref ref-type="fig"
+    rid="F2">Fig. 2</xref> A). (B) <italic>d</italic>(I<sub>K</sub>)/<italic>dt</italic>
+    is plotted on a log&#8211;log scale (from <xref ref-type="fig" rid="F2">Fig. 2</xref>
+    B<sub>2</sub>). (C) The Cole-Moore shift (from <xref ref-type="fig" rid="F3">Fig.
+    3</xref> A).</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.f7.jpg
+  id: GP-7962/F7
+  label: Figure 7
+- caption: '<p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Allosteric
+    model: voltage dependence of I<sub>K</sub> kinetics. (A) The initial time course
+    of I<sub>K</sub> activation at different voltages (from <xref ref-type="fig" rid="F3">Fig.
+    3</xref> B, 5&#176;C) are fit by <xref ref-type="fig" rid="S9">Fig. 9</xref> (<xref
+    ref-type="table" rid="T1">Table </xref>: Patch 1, &#916;V<sub>h</sub> = +5.6 mV).
+    (B) The average &#916;<italic>t</italic>&#8211;V relationship (from <xref ref-type="fig"
+    rid="F3">Fig. 3</xref> D) is compared with the prediction of <xref ref-type="fig"
+    rid="S9">Fig. 9</xref> for &#916;<italic>t</italic> (solid line) and the time
+    constant of voltage-sensor movement &#964;<italic><sub>J</sub></italic> = 1/(&#945;
+    + &#946;) (dashed line). (<xref ref-type="table" rid="T1">Table </xref>: average
+    5&#176;C). (C) <xref ref-type="fig" rid="S9">Fig. 9</xref> (dashed lines; <xref
+    ref-type="table" rid="T1">Table </xref>: Patch 1, &#916;V<sub>h</sub> = +5.6 mV)
+    predicts a delay in tail currents measured from 0 to &#8722;160 mV (from <xref
+    ref-type="fig" rid="F4">Fig. 4</xref> C). (D) Tail currents and <xref ref-type="fig"
+    rid="S9">Fig. 9</xref> predictions (solid line) at &#8722;40 and &#8722;360 mV
+    show initial deviation from an exponential fit (dashed lines, from <xref ref-type="fig"
+    rid="F4">Fig. 4C</xref> and <xref ref-type="fig" rid="F4">Fig. D</xref>) at &#8722;40
+    mV, but not at &#8722;360 mV. Thus, a tail current delay is observed, but not
+    at very negative voltages.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.f8.jpg
+  id: GP-7962/F8
+  label: Figure 8
+- caption: '<p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Effect
+    of S4 mutation. G<sub>K</sub>&#8211;V relationships for mSlo WT and S4 mutant
+    R207Q in 0 Ca<sup>2+</sup> were obtained using both macroscopic and single channel
+    currents as in <xref ref-type="fig" rid="F6">Fig. 6</xref> and are plotted on
+    linear (A) and semi-log (B) scales. <xref ref-type="fig" rid="S9">Fig. 9</xref>
+    was used to fit both relationships (solid lines). Parameters are the same as in
+    <xref ref-type="fig" rid="F6">Fig. 6</xref> [<italic>L</italic>(0) = 2 <italic>e</italic>
+
+    <sup>&#8722;6</sup>, <italic>z<sub>L</sub></italic> = 0.4 <italic>e</italic>,
+    <italic>z<sub>J</sub></italic> = 0.55 <italic>e</italic>, <italic>D</italic> =
+    17], except V<sub>h</sub>(<italic>J</italic>) = &#8722;100 mV for R207Q, while
+    V<sub>h</sub>(<italic>J</italic>) = 145 mV for WT.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.f9.jpg
+  id: GP-7962/F9
+  label: Figure 9
+- caption: '<p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Properties
+    of the allosteric voltage-gating scheme. (A) The &#964;(I<sub>K</sub>)&#8211;V
+    relationship determined by simulating <xref ref-type="fig" rid="S9">Fig. 9</xref>
+    (&#8226;; <xref ref-type="table" rid="T1">Table </xref>: average 5&#176;C) can
+    be reproduced by an analytical approximation (solid line) that assumes horizontal
+    transitions are equilibrated. The voltage dependence of time constants for individual
+    C&#8211;O transitions are also plotted (&#964;<sub>i</sub> = [&#948;<sub>i</sub>
+    + &#947;<sub>i</sub>)<sup>&#8722;1</sup>]. (B) <italic>P</italic>
+
+    <sub>o</sub>&#8211;V relationships predicted by <xref ref-type="fig" rid="S9">Fig.
+    9</xref> (solid lines) are plotted on a semi-log scale as the allosteric factor
+    <italic>D</italic> is adjusted [with <italic>z<sub>L</sub></italic> = 0.4 <italic>e</italic>,
+    <italic>z<sub>J</sub></italic> = 0.55 <italic>e</italic>, V<sub>h</sub>(<italic>J</italic>)
+    = 145]. The equilibrium constant <italic>L</italic> was adjusted together with
+    <italic>D</italic> such that the half-activation voltage remained constant (for
+    <italic>D</italic> = 5&#8211;160: <italic>L</italic> = 2.18 <italic>e</italic>
+
+    <sup>&#8722;4</sup>, 1.57 <italic>e</italic>
+
+    <sup>&#8722;5</sup>, 1.05 <italic>e</italic>
+
+    <sup>&#8722;6</sup>, 6.80 <italic>e</italic>
+
+    <sup>&#8722;8</sup>, 4.33 <italic>e</italic>
+
+    <sup>&#8722;9</sup>, and 2.72 <italic>e</italic>
+
+    <sup>&#8722;10</sup>). A dashed line indicates the prediction of sequential <xref
+    ref-type="fig" rid="S5">Fig. 5</xref> (from <xref ref-type="fig" rid="F6">Fig.
+    6</xref>).</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.f10.jpg
+  id: GP-7962/F10
+  label: Figure 10

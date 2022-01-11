@@ -1,0 +1,2014 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS Comput Biol</journal-id><journal-id journal-id-type="iso-abbrev">PLoS Comput. Biol</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">ploscomp</journal-id><journal-title-group><journal-title>PLoS Computational Biology</journal-title></journal-title-group><issn pub-type="ppub">1553-734X</issn><issn pub-type="epub">1553-7358</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">18846205</article-id><article-id pub-id-type="pmc">2551735</article-id><article-id pub-id-type="publisher-id">08-PLCB-RA-0374R3</article-id><article-id pub-id-type="doi">10.1371/journal.pcbi.1000198</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Biophysics/Theory and Simulation</subject><subject>Mathematics</subject><subject>Neuroscience/Neuronal Signaling Mechanisms</subject><subject>Neuroscience/Theoretical Neuroscience</subject></subj-group></article-categories><title-group><article-title>Biophysical Basis for Three Distinct Dynamical Mechanisms of Action
+Potential Initiation</article-title><alt-title alt-title-type="running-head">Dynamics of Spike Initiation</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Prescott</surname><given-names>Steven A.</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref><xref ref-type="corresp" rid="cor1">
+<sup>&#x0002a;</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>De Koninck</surname><given-names>Yves</given-names></name><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Sejnowski</surname><given-names>Terrence J.</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref></contrib></contrib-group><aff id="aff1"><label>1</label><addr-line>Computational Neurobiology Laboratory, Salk Institute, La Jolla,
+California, United States of America</addr-line></aff><aff id="aff2"><label>2</label><addr-line>Howard Hughes Medical Institute, La Jolla, California, United States of
+America</addr-line></aff><aff id="aff3"><label>3</label><addr-line>Division de Neurobiologie Cellulaire, Centre de Recherche
+Universit&#x000e9; Laval Robert-Giffard, Qu&#x000e9;bec,
+Qu&#x000e9;bec, Canada</addr-line></aff><aff id="aff4"><label>4</label><addr-line>Division of Biological Sciences, University of California San Diego, La
+Jolla, California, United States of America</addr-line></aff><contrib-group><contrib contrib-type="editor"><name><surname>Graham</surname><given-names>Lyle J.</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">UFR Biom&#x000e9;dicale de l'Universit&#x000e9;
+Ren&#x000e9; Descartes, France</aff><author-notes><corresp id="cor1">&#x0002a; E-mail: <email>prescott@neurobio.pitt.edu</email></corresp><fn fn-type="con"><p>Conceived and designed the experiments: SAP YDK TJS. Performed the
+experiments: SAP. Analyzed the data: SAP. Wrote the paper: SAP YDK TJS.</p></fn></author-notes><pub-date pub-type="collection"><month>10</month><year>2008</year></pub-date><pub-date pub-type="epub"><day>10</day><month>10</month><year>2008</year></pub-date><volume>4</volume><issue>10</issue><elocation-id>e1000198</elocation-id><history><date date-type="received"><day>12</day><month>5</month><year>2008</year></date><date date-type="accepted"><day>3</day><month>9</month><year>2008</year></date></history><permissions><copyright-statement>Prescott et al.</copyright-statement><copyright-year>2008</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p>Transduction of graded synaptic input into trains of all-or-none action
+potentials (spikes) is a crucial step in neural coding. Hodgkin identified three
+classes of neurons with qualitatively different analog-to-digital transduction
+properties. Despite widespread use of this classification scheme, a
+generalizable explanation of its biophysical basis has not been described. We
+recorded from spinal sensory neurons representing each class and reproduced
+their transduction properties in a minimal model. With phase plane and
+bifurcation analysis, each class of excitability was shown to derive from
+distinct spike initiating dynamics. Excitability could be converted between all
+three classes by varying single parameters; moreover, several parameters, when
+varied one at a time, had functionally equivalent effects on excitability. From
+this, we conclude that the spike-initiating dynamics associated with each of
+Hodgkin's classes represent different outcomes in a nonlinear
+competition between oppositely directed, kinetically mismatched currents. Class
+1 excitability occurs through a saddle node on invariant circle bifurcation when
+net current at perithreshold potentials is inward (depolarizing) at steady
+state. Class 2 excitability occurs through a Hopf bifurcation when, despite net
+current being outward (hyperpolarizing) at steady state, spike initiation occurs
+because inward current activates faster than outward current. Class 3
+excitability occurs through a quasi-separatrix crossing when fast-activating
+inward current overpowers slow-activating outward current during a stimulus
+transient, although slow-activating outward current dominates during constant
+stimulation. Experiments confirmed that different classes of spinal lamina I
+neurons express the subthreshold currents predicted by our simulations and,
+further, that those currents are necessary for the excitability in each cell
+class. Thus, our results demonstrate that all three classes of excitability
+arise from a continuum in the direction and magnitude of subthreshold currents.
+Through detailed analysis of the spike-initiating process, we have explained a
+fundamental link between biophysical properties and qualitative differences in
+how neurons encode sensory input.</p></abstract><abstract abstract-type="summary"><title>Author Summary</title><p>Information is transmitted through the nervous system in the form of action
+potentials or spikes. Contrary to popular belief, a spike is not generated
+instantaneously when membrane potential crosses some preordained threshold. In
+fact, different neurons employ different rules to determine when and why they
+spike. These different rules translate into diverse spiking patterns that have
+been observed experimentally and replicated time and again in computational
+models. In this study, our aim was not simply to replicate different spiking
+patterns; instead, we sought to provide deeper insight into the connection
+between biophysics and neural coding by relating each to the process of spike
+initiation. We show that Hodgkin's three classes of excitability result
+from a nonlinear competition between oppositely directed, kinetically mismatched
+currents; the outcome of that competition is manifested as dynamically distinct
+spike-initiating mechanisms. Our results highlight the benefits of forward
+engineering minimal models capable of reproducing phenomena of interest and then
+dissecting those models in order to identify general explanations of how those
+phenomena arise. Furthermore, understanding nonlinear dynamical processes such
+as spike initiation is crucial for definitively explaining how biophysical
+properties impact neural coding.</p></abstract><counts><page-count count="18"/></counts></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Action potentials, or spikes, are responsible for transmitting information through
+the nervous system <xref rid="pcbi.1000198-Adrian1" ref-type="bibr">[1]</xref>. The biophysical basis of spike generation is well
+established <xref rid="pcbi.1000198-Hodgkin1" ref-type="bibr">[2]</xref>, but the stereotypic spike shape belies variation in
+spike initiating mechanisms. The myriad different ion channels expressed in
+different neurons produce diverse patterns of repetitive spiking <xref rid="pcbi.1000198-Llins1" ref-type="bibr">[3]</xref>,<xref rid="pcbi.1000198-Connors1" ref-type="bibr">[4]</xref>. The
+fact that equivalent stimulation can elicit qualitatively different spiking patterns
+in different neurons attests that intrinsic coding properties differ significantly
+from one neuron to the next.</p><p>Hodgkin recognized this and identified three basic classes of neurons distinguished
+by their frequency-current (<italic>f&#x02013;I</italic>) curves <xref rid="pcbi.1000198-Hodgkin2" ref-type="bibr">[5]</xref>. The
+ability of class 1 neurons to fire slowly in response to weak stimulation endows
+them with a continuous <italic>f&#x02013;I</italic> curve, whereas class 2 neurons
+have a discontinuous <italic>f&#x02013;I</italic> curve because of their inability
+to maintain spiking below a critical frequency. Class 3 neurons fail to spike
+repetitively, typically spiking only once at the onset of stimulation; their
+<italic>f&#x02013;I</italic> curve is undefined since calculation of firing
+rate requires at least two spikes for an interspike interval (ISI) to be measured.
+Although neuronal coding properties may change on slow time scales (e.g., because of
+adaptation or bursting), Hodgkin's classification provides a fundamental
+description of analog-to-digital transduction occurring on the time scale of single
+ISIs, and therefore addresses the very essence of how individual spikes are
+initiated.</p><p>The distinction between class 1 and 2 excitability has proven extremely useful for
+distinguishing neurons with different coding properties <xref rid="pcbi.1000198-Ermentrout1" ref-type="bibr">[6]</xref>&#x02013;<xref rid="pcbi.1000198-Tateno3" ref-type="bibr">[12]</xref>.
+Properties such as the phase-reset curve are not directly related to the
+<italic>f&#x02013;I</italic> curve per se, but can be explained by the same
+dynamical mechanisms that account for continuity or discontinuity of the
+<italic>f&#x02013;I</italic> curve. In terms of their nonlinear dynamics,
+class 1 neurons spike repetitively when their stable fixed point is destroyed
+through a saddle-node on invariant circle (SNIC) bifurcation (sometimes referred to
+simply as a saddle-node bifurcation) whereas class 2 neurons spike repetitively when
+their fixed point is destabilized through a subcritical Hopf bifurcation <xref rid="pcbi.1000198-Rinzel1" ref-type="bibr">[7]</xref>,<xref rid="pcbi.1000198-Izhikevich1" ref-type="bibr">[13]</xref>.
+The dynamical mechanism for spike initiation in class 3 neurons has not been
+explained. Given that mechanistic understanding of spike initiation clearly provides
+greater insight into neural coding than a purely phenomenological description of
+spiking pattern, the coding properties of class 3 neurons could be more readily
+explained if we understood the spike initiating dynamics in those neurons.
+Furthermore, abstract dynamical explanations of spike initiation must be translated
+into biophysically interpretable mechanisms if we are to explain the biophysical
+basis of neural coding.</p><p>This study set out to identify the biophysical basis for qualitative differences in
+neural coding exemplified by Hodgkin's three classes. By relating spike
+initiating dynamics with transduction properties, and by identifying the biophysical
+basis for those dynamics, we explain how Hodgkin's three classes of
+excitability result from a nonlinear, time-dependent competition between oppositely
+directed currents.</p></sec><sec id="s2"><title>Results</title><sec id="s2a"><title>Reproduction of Experimental Data in a Two-Dimensional Model</title><p>Spinal sensory neurons fall into several categories based on spiking pattern
+<xref rid="pcbi.1000198-Prescott1" ref-type="bibr">[14]</xref>&#x02013;<xref rid="pcbi.1000198-Grudt1" ref-type="bibr">[18]</xref>. Tonic-, phasic-,
+and single-spiking lamina I neurons exhibit the characteristic features of class
+1, 2, and 3 excitability, respectively, based on their
+<italic>f&#x02013;I</italic> curves (<xref ref-type="fig" rid="pcbi-1000198-g001">Figure 1A</xref>). Spiking pattern is related to,
+but not synonymous with, Hodgkin's classification scheme. For instance,
+phasic-spiking neurons are not class 2 because they stop spiking before the end
+of stimulation, but the fact that they stop spiking so abruptly suggests that
+they cannot maintain spiking below a certain rate, which is consistent with a
+discontinuous (class 2) <italic>f&#x02013;I</italic> curve; in contrast,
+adaptation causes tonic-spiking neurons to spike more slowly but without
+stopping, consistent with a continuous (class 1) <italic>f&#x02013;I</italic>
+curve.</p><fig id="pcbi-1000198-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pcbi.1000198.g001</object-id><label>Figure 1</label><caption><title>Hodgkin's three classes of neuronal excitability. (A) Sample
+responses from spinal lamina I neurons representing each of
+Hodgkin's three classes. Hodgkin's classification is
+based on the <italic>f&#x02013;I</italic> curve which is continuous
+(class 1), discontinuous (class 2), or undefined because measurement of
+firing rate requires at least two spikes (class 3). Data points
+comprising a single spike (<italic>ss</italic>) are indicated with open
+symbols in (A) or gray shading in (B&#x02013;D). (B) Each cell class
+could be reproduced in a Morris-Lecar model by varying a single
+parameter, in this case <italic>&#x003b2;</italic>
+<sub>w</sub>. Like in
+(A), rheobasic stimulation (minimum <italic>I</italic>
+<sub>stim</sub>
+eliciting &#x02265;1 spike) elicited a single spike at short latency in
+class 2 and 3 neurons compared with slow repetitive spiking in class 1
+neurons. Despite reproducing the discontinuous
+<italic>f&#x02013;I</italic> curve, the 2D model could not reproduce
+the phasic-spiking pattern. (C) Phasic-spiking was generated by adding
+slow adaptation, thus giving a 3D model described by <italic>C
+dV</italic>/<italic>dt</italic>&#x0200a;=&#x0200a;<italic>I</italic>
+<sub>stim</sub>&#x02212;<italic>g</italic>&#x000af;<sub>fast</sub>
+<italic>m</italic>
+<sub>&#x0221e;</sub>(<italic>V</italic>)(<italic>V</italic>&#x02212;<italic>E</italic>
+<sub>Na</sub>)&#x02212;<italic>g</italic>&#x000af;<sub>slow</sub>
+<italic>w</italic>(<italic>V</italic>&#x02212;<italic>E</italic>
+<sub>K</sub>)&#x02212;<italic>g</italic>
+<sub>leak</sub>(<italic>V</italic>&#x02212;<italic>E</italic>
+<sub>leak</sub>)&#x02212;<italic>g</italic>
+<sub>adapt</sub>
+<italic>a</italic>(<italic>V</italic>&#x02212;<italic>E</italic>
+<sub>K</sub>)
+and <inline-formula><inline-graphic xlink:href="pcbi.1000198.e001.jpg" mimetype="image"/></inline-formula> where <italic>a</italic> controls activation of
+adaptation and
+<italic>g</italic>&#x000af;<sub>adapt</sub>&#x0200a;=&#x0200a;0.5
+mS/cm<sup>2</sup>,
+<italic>&#x003c6;</italic>
+<sub>a</sub>&#x0200a;=&#x0200a;0.05
+ms<sup>&#x02212;1</sup>,
+<italic>&#x003b2;</italic>
+<sub>a</sub>&#x0200a;=&#x0200a;&#x02212;40
+mV, and
+<italic>&#x003b3;</italic>
+<sub>a</sub>&#x0200a;=&#x0200a;10
+mV. Bottom traces show single-spike elicited by second stimulus applied
+shortly after the end of first stimulus, which suggests that adaptation
+slowly shifts the neuron from class 2 towards class 3 excitability. (D)
+Firing rate (color) is plotted against <italic>I</italic>
+<sub>stim</sub>
+and <italic>&#x003b2;</italic>
+<sub>w</sub>. Separable regions of the
+graph correspond to different classes of excitability. Neuronal
+classification is based on which class of excitability is predominant
+(i.e., exhibited over the broadest range of
+<italic>I</italic>
+<sub>stim</sub>) and is indicated above the
+graph.</title></caption><graphic xlink:href="pcbi.1000198.g001"/></fig><p>To explain the differences between cell classes, our first step was to reproduce
+the behavior of each class in as simple a computational model as possible, and
+then to analyze that minimal model. We found that a 2D Morris-Lecar-like model
+could display class 1, 2, or 3 excitability with variation of as few as one
+parameter (<xref ref-type="fig" rid="pcbi-1000198-g001">Figure 1B</xref>). The
+discontinuous <italic>f&#x02013;I</italic> curve characteristic of class 2
+excitability was observed when parameter <italic>&#x003b2;</italic>
+<sub>w</sub>
+(see below) was set between values giving class 1 or 3 excitability, but
+phasic-spiking could not be reproduced in the 2D model. Phasic-spiking was
+achieved by incorporating adaptation (<xref ref-type="fig" rid="pcbi-1000198-g001">Figure 1C</xref>), although this makes the model 3D
+because adaptation operates on a slower time scale than the activation and
+recovery variables comprising the 2D model. If the neuron was allowed to fully
+adapt before a second stimulus was applied, the second stimulus elicited only
+one spike, which suggests that adaptation caused a slow transition from class 2
+to class 3 excitability (see below). But, since un-adapted phasic-spiking
+neurons exhibit class 2 excitability, we used the class 2 model without
+adaptation for subsequent phase plane analysis.</p><p>In the process of building the model (see <xref ref-type="sec" rid="s4">Methods</xref>), <italic>&#x003b2;</italic>
+<sub>w</sub> was identified as an
+important parameter given its capacity to convert the model between all three
+classes of excitability. The biophysical meaning of
+<italic>&#x003b2;</italic>
+<sub>w</sub> is deferred until <xref ref-type="fig" rid="pcbi-1000198-g004">Figure 4</xref>, after its functional
+significance has been established. See <xref ref-type="fig" rid="pcbi-1000198-g008">Figure 8</xref> for the effects of changing other
+parameters. Therefore, to begin, we explored the effects on the model's
+<italic>f&#x02013;I</italic> curve of systematically varying
+<italic>&#x003b2;</italic>
+<sub>w</sub> (<xref ref-type="fig" rid="pcbi-1000198-g001">Figure 1D</xref>). The model exhibited class 1
+excitability for <italic>&#x003b2;</italic>
+<sub>w</sub>&#x0003e;&#x02212;10 mV,
+but class 2 and 3 excitability coexisted for all
+<italic>&#x003b2;</italic>
+<sub>w</sub>&#x0003c;&#x02212;10 mV; in other
+words, class 2 or 3 excitability was exhibited depending on stimulus intensity
+<italic>I</italic>
+<sub>stim</sub>. This is evident in <xref ref-type="fig" rid="pcbi-1000198-g001">Figure 1B</xref> where, in the model with
+<italic>&#x003b2;</italic>
+<sub>w</sub>&#x0200a;=&#x0200a;&#x02212;13
+mV, rheobasic stimulation elicited a single spike while stronger stimulation
+elicited repetitive spiking. This pattern is characteristic of phasic-spiking
+spinal lamina I neurons (<xref ref-type="fig" rid="pcbi-1000198-g001">Figure
+1A</xref>) and is commonly observed in other &#x0201c;class 2&#x0201d;
+neurons including the squid giant axon <xref rid="pcbi.1000198-Hodgkin1" ref-type="bibr">[2]</xref>, trigeminal
+motoneurons <xref rid="pcbi.1000198-Chandler1" ref-type="bibr">[19]</xref>, and fast-spiking neocortical interneurons
+<xref rid="pcbi.1000198-Tateno1" ref-type="bibr">[10]</xref>,<xref rid="pcbi.1000198-Erisir1" ref-type="bibr">[20]</xref>. Conversely,
+&#x0201c;class 3&#x0201d; neurons should theoretically begin spiking
+repetitively if given extremely strong stimulation. In reality, strong
+stimulation elicits, at most, a burst of 2&#x02013;4 high frequency spikes in
+single-spiking spinal lamina I neurons <xref rid="pcbi.1000198-Prescott1" ref-type="bibr">[14]</xref>, which is
+consistent with Hodgkin's classification in which class 3 neurons are
+said to &#x0201c;repeat <italic>only with difficulty</italic> or not at
+all&#x0201d; <xref rid="pcbi.1000198-Hodgkin2" ref-type="bibr">[5]</xref>. Responses to strong stimulation can be more
+accurately reproduced in the model by incorporating slow processes like
+cumulative Na<sup>&#x0002b;</sup> channel inactivation, but such processes were
+not included in the models analyzed here in order to keep the model as simple as
+possible and because such strong stimulation is arguably unphysiological in the
+first place.</p><p>Thus, neurons should not strictly be labeled class 2 or 3 but, rather, as
+exhibiting predominantly class 2 or 3 excitability based on the range of
+<italic>I</italic>
+<sub>stim</sub> over which they exhibit each class.
+However, phasic-spiking lamina I neurons exhibited class 3 excitability over a
+negligible stimulus range (i.e., &#x0003c;5&#x00025; of the range for
+<italic>I</italic>
+<sub>stim</sub> tested as high as 200 pA) and
+single-spiking neurons never exhibited class 2 excitability for
+<italic>I</italic>
+<sub>stim</sub> as high as 500 pA. So, although a neuron
+may exhibit both class 2 and class 3 excitability, lamina I neurons exhibit
+<italic>almost entirely</italic> one or the other class over the
+physiologically relevant stimulus range. We therefore label tonic-, phasic-, and
+single-spiking spinal lamina I neurons as class 1, 2, and 3 neurons,
+respectively. Although practical, such labeling may be inappropriate for other
+cell populations if a more balanced mix of class 2 and 3 excitability exists
+within a single cell type.</p></sec><sec id="s2b"><title>Dynamical Basis for Different Classes of Excitability</title><p>Having reproduced each class of excitability in a 2D model, our next step was to
+exploit the simplicity of that model to uncover the spike initiating dynamics
+associated with each class. Because the model is 2D, its behavior can be
+explained entirely by the interaction between two variables: a fast activation
+variable <italic>V</italic> and a slower recovery variable <italic>w</italic>.
+This interaction can be visualized by plotting <italic>V</italic> against
+<italic>w</italic> to create a phase portrait. Behavior of the model can be
+understood by how the <italic>V</italic>- and <italic>w</italic>-nullclines
+intersect; nullclines represent everywhere in phase space where
+<italic>V</italic> or <italic>w</italic> remain constant.</p><p>Right panels of <xref ref-type="fig" rid="pcbi-1000198-g002">Figure 2A</xref>
+illustrate the spike initiating dynamics associated with class 1 excitability.
+Before stimulation, the <italic>V</italic>- and <italic>w</italic>-nullclines
+intersect at three points; the leftmost intersection constitutes a stable fixed
+point that controls membrane potential. Stimulation shifts the
+<italic>V</italic>-nullcline upwards. If the <italic>V</italic>-nullcline was
+shifted far enough (i.e., if <italic>I</italic>
+<sub>stim</sub> exceeded
+rheobase), two of the intersection points were destroyed and the class 1 model
+began to spike repetitively. Disappearance of the two fixed points and the
+qualitative change in behavior that results (i.e., the transition from
+quiescence to repetitive spiking) is referred to most precisely as a saddle-node
+on invariant circle (SNIC) bifurcation <xref rid="pcbi.1000198-Izhikevich1" ref-type="bibr">[13]</xref>.</p><fig id="pcbi-1000198-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pcbi.1000198.g002</object-id><label>Figure 2</label><caption><title>Each class of excitability is derived from a distinct dynamical
+mechanism of spike initiation.</title><p>(A) Phase planes show the fast activation variable <italic>V</italic>
+plotted against the slower recovery variable <italic>w</italic>.
+Nullclines represent all points in phase space where <italic>V</italic>
+or <italic>w</italic> remain constant. <italic>V</italic>-nullclines
+(colored) were calculated at rest (red) and at the onset of stimulation
+(blue) (<italic>I</italic>
+<sub>stim</sub> is indicated beside each
+curve); <italic>w</italic>-nullclines do not change upon stimulation and
+are plotted only once (gray). Black curves show response of model with
+direction of trajectory indicated by arrows. Class 1 neuron: Red and
+gray nullclines intersect at three points (red arrowheads) representing
+stable (<italic>s</italic>) or unstable (<italic>u</italic>) fixed
+points. Stimulation shifts that <italic>V</italic>-nullcline upward and
+destroys two of those points, thereby allowing the system to enter a
+limit cycle and spike repetitively. The trajectory slows as it passes
+through constriction between blue and gray nullclines (yellow shading)
+thereby allowing the neuron to spike slowly, hence the continuous
+<italic>f&#x02013;I</italic> curve. Class 2 neuron: Red and gray
+curves intersect at a single, stable fixed point. Spiking begins when
+stimulation destabilizes (rather than destroys) that point. The
+<italic>f&#x02013;I</italic> curve is discontinuous because slow
+spiking is not possible without the constriction (compare with class 1
+neuron). Class 3 neuron: Stimulation displaces but does not destroy or
+destabilize the fixed point. System variables
+<italic>V</italic>,<italic>w</italic> can follow different paths to
+the newly positioned fixed point: a single spike is initiated when
+stimulation instantaneously displaces the quasi-separatrix (dotted
+curves) so that the system, which existed above the (red)
+quasi-separatrix prior to stimulation, finds itself below the (blue)
+quasi-separatrix once stimulation begins; the trajectory must go around
+the head of the quasi-separatrix (&#x0002a;) to get to the new fixed
+point &#x02013; we refer to this mechanism of spike initiation as a
+quasi-separatrix-crossing or QSC. Dashed black curve shows alternative,
+subthreshold path that would be followed if trajectory remained above
+the (blue) quasi-separatrix. (B) Bifurcation diagrams show voltage at
+fixed point and at max/min of limit cycle as
+<italic>I</italic>
+<sub>stim</sub> is increased. A bifurcation represents
+the transition from quiescence to repetitive spiking. Type of
+bifurcation is indicated on each plot. The range of
+<italic>I</italic>
+<sub>stim</sub> over which a QSC occurs is
+indicated in gray and was determined by separate simulations since a QSC
+is not revealed by bifurcation analysis.</p></caption><graphic xlink:href="pcbi.1000198.g002"/></fig><p>Center panels of <xref ref-type="fig" rid="pcbi-1000198-g002">Figure 2A</xref>
+illustrate the spike initiating dynamics associated with class 2 excitability.
+Before stimulation, the <italic>V</italic>- and <italic>w</italic>-nullclines
+intersect at a single, stable point. Spiking began when the vertical shift in
+the <italic>V</italic>-nullcline caused by stimulation destabilized that point
+through a Hopf bifurcation <xref rid="pcbi.1000198-Rinzel1" ref-type="bibr">[7]</xref>. Destabilization occurred when the
+<italic>V</italic>- and <italic>w</italic>-nullclines intersected to the right
+of the local minimum in the <italic>V</italic>-nullcline whereas the fixed point
+was stable when the nullclines intersected to the left of the minimum (this is
+not strictly true, but it is a very close approximation). Destabilization of the
+fixed point (in class 2 excitability) is distinct from destruction of the stable
+fixed point (in class 1 excitability), but both cause the neuron to spike
+repetitively rather than remaining at a stable, subthreshold voltage.</p><p>Left panels of <xref ref-type="fig" rid="pcbi-1000198-g002">Figure 2A</xref>
+illustrate the spike initiating dynamics associated with class 3 excitability.
+In this case, the <italic>V</italic>- and <italic>w</italic>-nullclines
+intersected at a single, stable point that remained stable for
+<italic>I</italic>
+<sub>stim</sub>&#x0003e;rheobase, meaning spike initiation
+occurred without a bifurcation. The system moved to the <italic>newly
+positioned</italic> stable fixed point, but could do so via different paths:
+trajectories starting below the quasi-separatrix made a long excursion around
+the elbow of the <italic>V</italic>-nullcline, resulting in a single spike;
+trajectories starting above the quasi-separatrix followed a more direct,
+subthreshold route. We refer to the boundary in phase space from which
+trajectories diverge (see <xref ref-type="fig" rid="pcbi-1000198-g001">Figure
+1</xref> in <xref rid="pcbi.1000198-Hong1" ref-type="bibr">[21]</xref>) as a quasi-separatrix (see below).
+Importantly, although system variables <italic>V</italic> and <italic>w</italic>
+cannot change instantaneously, the quasi-separatrix does move instantaneously as
+<italic>I</italic>
+<sub>stim</sub> changes; therefore, stimulation can move
+the quasi-separatrix so that a point (<italic>V</italic>,<italic>w</italic>)
+that was above the quasi-separatrix before stimulation ends up below the
+quasi-separatrix during stimulation. We refer to this mechanism as a
+quasi-separatrix-crossing (QSC) since spike initiation requires that system
+variables cross from one side of the quasi-separatrix to the other. Such a
+mechanism was first described by Fitzhugh <xref rid="pcbi.1000198-FitzHugh1" ref-type="bibr">[22]</xref>,<xref rid="pcbi.1000198-FitzHugh2" ref-type="bibr">[23]</xref>.</p><p>The quasi-separatrix was plotted by integrating backward in time (&#x02212;0.01
+ms time step) from point &#x0002a; indicated on <xref ref-type="fig" rid="pcbi-1000198-g002">Figure 2A</xref>; that point was chosen based on
+where forward trajectories clinging to the quasi-separatrix eventually
+dissipate, thus suggesting the end of the quasi-separatrix, which is arguably
+the best location to begin plotting the reverse trajectory. We refer to this
+boundary as a quasi-separatrix since a true separatrix corresponds to the stable
+manifold associated with a saddle-point, but both represent a boundary from
+which trajectories diverge.</p><p>
+<xref ref-type="fig" rid="pcbi-1000198-g002">Figure 2B</xref> shows the
+bifurcation diagrams associated with the dynamical mechanisms explained in <xref ref-type="fig" rid="pcbi-1000198-g002">Figure 2A</xref>. The SNIC and Hopf
+bifurcations are readily distinguishable on those diagrams. Transition between
+these two types of bifurcations occurred near
+<italic>&#x003b2;</italic>
+<sub>w</sub>&#x0200a;=&#x0200a;&#x02212;10
+mV, which, on the phase plane, corresponds to the <italic>V</italic>- and
+<italic>w</italic>-nullclines meeting tangentially at the minimum of the
+<italic>V</italic>-nullcline so that rheobasic stimulation simultaneously
+destroys and destabilizes the fixed point (data not shown). There was no
+bifurcation for
+<italic>&#x003b2;</italic>
+<sub>w</sub>&#x0200a;=&#x0200a;&#x02212;21
+mV and <italic>I</italic>
+<sub>stim</sub>&#x0003c;80 &#x000b5;A/cm<sup>2</sup>;
+stronger stimulation eventually caused a Hopf bifurcation, but such stimulation
+is unphysiological and is likely to activate other processes not included in the
+model (see above). The range of <italic>I</italic>
+<sub>stim</sub> over which
+spike initiation occurred through a QSC is indicated with gray shading. Notice
+that a neuron that generated repetitive spiking through a Hopf bifurcation
+(<italic>&#x003b2;</italic>
+<sub>w</sub>&#x0200a;=&#x0200a;&#x02212;13
+mV) would, for a narrow range of weaker <italic>I</italic>
+<sub>stim</sub>,
+generate a single spike through a QSC, consistent with data in <xref ref-type="fig" rid="pcbi-1000198-g001">Figure 1</xref>.</p></sec><sec id="s2c"><title>Validation of the Model</title><p>Since model parameters were chosen to produce one or another spiking pattern,
+simply reproducing a given pattern is not necessarily informative&#x02014;this
+constitutes an inverse problem akin to circular reasoning. To ensure that the
+model does not simply mimic spiking pattern, it must predict behaviors separate
+from those used to choose parameters. The model makes such a prediction: spikes
+initiated through different dynamical mechanisms are predicted to exhibit
+different variability in their amplitudes. Specifically, spikes initiated
+through an SNIC bifurcation should have uniform amplitudes because all
+suprathreshold trajectories follow the invariant circle formed when the stable
+manifolds (green curves on <xref ref-type="fig" rid="pcbi-1000198-g003">Figure
+3A</xref>) fuse at the moment of the bifurcation. In contrast, spikes
+initiated through a QSC are predicted to have variable amplitudes that are
+sensitive to stimulus intensity because each trajectory (including how far it
+extends on the abscissa) depends on where that trajectory starts relative to the
+quasi-separatrix.</p><fig id="pcbi-1000198-g003" position="float"><object-id pub-id-type="doi">10.1371/journal.pcbi.1000198.g003</object-id><label>Figure 3</label><caption><title>Comparison of spikes initiated through different dynamical
+mechanisms.</title><p>(A) Spikes initiated through a QSC or SNIC bifurcation exhibit different
+spike amplitude variability. Data are from 2D models stimulated with
+noisy <italic>I</italic>
+<sub>stim</sub>
+(&#x003c3;<sub>noise</sub>&#x0200a;=&#x0200a;10
+&#x000b5;A/cm<sup>2</sup>). <italic>V</italic>-nullclines are
+shown for rest (red) and for one stimulus intensity (blue) although
+<italic>I</italic>
+<sub>stim</sub> varies continuously during
+stimulation. Spikes initiated through a QSC exhibit variable amplitudes
+(yellow shading) because variations in <italic>I</italic>
+<sub>stim</sub>
+affect the <italic>V-w</italic> trajectory: trajectories starting close
+to the quasi-separatrix (produced by <italic>I</italic>
+<sub>stim</sub>
+fluctuations just exceeding rheobase) produce smaller spikes than
+trajectories starting further from the quasi-separatrix (produced by
+larger <italic>I</italic>
+<sub>stim</sub> fluctuations). Spikes initiated
+through an SNIC bifurcation exhibit little variability (pink shading)
+because all trajectories follow the invariant circle once the
+heteroclinic trajectories (green curves) fuse at the moment of the SNIC
+bifurcation to form a single homoclinic orbit. Histogram shows
+distribution of voltage maxima; maxima above cutoff (&#x0002a;) are
+considered spikes. Distributions differed significantly between cell
+classes after normalizing by maximum or by average spike amplitude
+(<italic>p</italic>&#x0003c;0.005 and
+<italic>p</italic>&#x0003c;0.001, respectively; Kolmogorov-Smirnov test).
+(B) As predicted, class 3 (single-spiking) neurons showed significantly
+greater variability in spike amplitude than class 1 (tonic-spiking)
+neurons (<italic>p</italic>&#x0003c;0.001 regardless of normalization by
+peak or average; Kolmogorov-Smirnov test).
+&#x003c3;<sub>noise</sub>&#x0200a;=&#x0200a;10 pA.</p></caption><graphic xlink:href="pcbi.1000198.g003"/></fig><p>To test this, we stimulated the model neurons with noisy, near-threshold
+<italic>I</italic>
+<sub>stim</sub> fluctuations. As predicted, the class 1
+model produced uniformly sized spikes whereas the class 3 model produced
+variably sized spikes (<xref ref-type="fig" rid="pcbi-1000198-g003">Figure
+3A</xref>). The class 2 model exhibited spikes with intermediate variability
+(data not shown), which was expected given that near-threshold stimulation can
+elicit spikes through a QSC in this cell class (see above). Equivalent testing
+in real neurons confirmed the predicted pattern of spike amplitude variability
+(<xref ref-type="fig" rid="pcbi-1000198-g003">Figure 3B</xref>). Since spike
+amplitude variability was not the basis for choosing model parameters,
+experimental confirmation of our prediction of differential variability in spike
+amplitude argues that our model and the dynamical mechanisms inferred therefrom
+provide a robust explanation of spike initiation rather than superficially
+mimicking spiking pattern.</p></sec><sec id="s2d"><title>Biophysical Correlate of the Differences between Class 1, 2, and 3 Models</title><p>With the model thus validated, our next step was to compare class 1, 2 and 3
+models to identify differences in parameters that could be related to
+differences in the biophysical properties of real neurons. As shown in <xref ref-type="fig" rid="pcbi-1000198-g001">Figure 1</xref>, varying
+<italic>&#x003b2;</italic>
+<sub>w</sub> converted the model between all three
+classes of excitability. <italic>&#x003b2;</italic>
+<sub>w</sub> controls
+horizontal positioning of the <italic>w</italic>-nullcline on the phase plane
+(<xref ref-type="fig" rid="pcbi-1000198-g004">Figure 4A, inset</xref>),
+which corresponds to the voltage-dependency of <italic>I</italic>
+<sub>slow</sub>
+in the 2D model (<xref ref-type="fig" rid="pcbi-1000198-g004">Figure 4A</xref>;
+see <xref ref-type="sec" rid="s4">Methods</xref>). However, since phenotypic
+diversity is typically attributed to expression of different channels rather
+than to drastic changes in the voltage-sensitivity of a single channel <xref rid="pcbi.1000198-ToledoRodriguez1" ref-type="bibr">[24]</xref>, we hypothesized that different cell classes
+express different channels. To model this, we split
+<italic>I</italic>
+<sub>slow</sub> into <italic>I</italic>
+<sub>K,dr</sub> and
+<italic>I</italic>
+<sub>sub</sub>, thus transforming the 2D model into a 3D
+model. Grouping currents with similar kinetics is a method for reducing
+dimensionality (e.g., <xref rid="pcbi.1000198-Kepler1" ref-type="bibr">[25]</xref>); here, we deliberately ungroup those
+currents in order to increase the biological realism of the model. The
+low-dimensional model is better for mathematical analysis, but the
+higher-dimensional model is arguably better for biological interpretation.</p><fig id="pcbi-1000198-g004" position="float"><object-id pub-id-type="doi">10.1371/journal.pcbi.1000198.g004</object-id><label>Figure 4</label><caption><title>Biophysical correlate of differences in
+<italic>&#x003b2;</italic>
+<sub>w</sub>.</title><p>(A) The <italic>w</italic>-nullcline (inset) corresponds to the
+voltage-dependent activation curve for
+<italic>I</italic>
+<sub>slow</sub>. Horizontal positioning of that curve
+is controlled by <italic>&#x003b2;</italic>
+<sub>w</sub>. Differences
+between class 1, 2, and 3 models may thus reflect differences in the
+voltage-dependency of <italic>I</italic>
+<sub>slow</sub>. (B) It is more
+likely, however, that the components of
+<italic>I</italic>
+<sub>slow</sub> vary between cells of different
+classes (see <xref ref-type="sec" rid="s2">Results</xref>).
+<italic>I</italic>
+<sub>slow</sub> may comprise multiple currents
+with similar kinetics. If
+<italic>I</italic>
+<sub>slow</sub>&#x0200a;=&#x0200a;<italic>I</italic>
+<sub>K,dr</sub>&#x0002b;<italic>I</italic>
+<sub>sub</sub>,
+the position of the net <italic>I&#x02013;V</italic> curve can be
+changed in qualitatively the same way as in (A) by changing the
+direction and magnitude of <italic>I</italic>
+<sub>sub</sub> (see insets)
+without changing the voltage-dependencies of
+<italic>I</italic>
+<sub>sub</sub>
+(<italic>&#x003b2;</italic>
+<sub>z</sub>&#x0200a;=&#x0200a;&#x02212;21
+mV,
+<italic>&#x003b3;</italic>
+<sub>z</sub>&#x0200a;=&#x0200a;15
+mV) or of <italic>I</italic>
+<sub>K,dr</sub>
+(<italic>&#x003b2;</italic>
+<sub>y</sub>&#x0200a;=&#x0200a;&#x02212;10
+mV,
+<italic>&#x003b3;</italic>
+<sub>y</sub>&#x0200a;=&#x0200a;10
+mV); voltage-dependencies of <italic>I</italic>
+<sub>sub</sub> and
+<italic>I</italic>
+<sub>K,dr</sub> are different, however, with the
+former being more strongly activated at subthreshold potentials. These
+results predict that tonic-spiking neurons express a subthreshold inward
+current and/or that single-spiking neurons express a subthreshold
+outward current.</p></caption><graphic xlink:href="pcbi.1000198.g004"/></fig><p>We fixed the voltage-dependencies of <italic>I</italic>
+<sub>K,dr</sub> and
+<italic>I</italic>
+<sub>sub</sub>, and varied the direction and magnitude of
+<italic>I</italic>
+<sub>sub</sub> in order to represent variable expression
+levels of a channel carrying inward or outward current. Those changes affected
+the net slow current
+(<italic>I</italic>
+<sub>sub</sub>&#x0002b;<italic>I</italic>
+<sub>K,dr</sub>)
+in the 3D model the same way that varying <italic>&#x003b2;</italic>
+<sub>w</sub>
+affected <italic>I</italic>
+<sub>slow</sub> in the 2D model (compare <xref ref-type="fig" rid="pcbi-1000198-g004">Figure 4B</xref> with <xref ref-type="fig" rid="pcbi-1000198-g004">Figure 4A</xref>). Note that the
+voltage-dependency of <italic>I</italic>
+<sub>sub</sub> is such that the current
+activates at subthreshold potentials. These data therefore suggest that spike
+initiating dynamics may differ between neurons depending on the expression of
+different slow ionic currents, and, more specifically, that class 3 neurons
+express a subthreshold outward current and/or class 1 neurons express a
+subthrehsold inward current, with class 2 neurons expressing intermediate levels
+of those currents.</p><p>Several lines of experimental evidence support this prediction. First, the
+response to brief, subthreshold depolarizing pulses was amplified and prolonged
+relative to the equivalent hyperpolarizing response in class 1 neurons,
+consistent with effects of a subthreshold inward current (<xref ref-type="fig" rid="pcbi-1000198-g005">Figure 5A, right</xref>); the opposite pattern was
+observed in class 3 neurons, consistent with effects of a subthrehsold outward
+current (<xref ref-type="fig" rid="pcbi-1000198-g005">Figure 5A, left</xref>).
+Second, in voltage clamp, stepping command potential from &#x02212;70 mV to
+perithreshold potentials elicited the largest outward current in class 3
+neurons, followed by class 2 and class 1 neurons (<xref ref-type="fig" rid="pcbi-1000198-g005">Figure 5B</xref>). The relative positioning of
+<italic>I&#x02013;V</italic> curves plotted from those experiments (<xref ref-type="fig" rid="pcbi-1000198-g005">Figure 5C</xref>) bore a striking
+resemblance to the relative positioning of <italic>I&#x02013;V</italic> curves
+in the 2D and 3D models (<xref ref-type="fig" rid="pcbi-1000198-g004">Figure
+4</xref>); this is especially true if the persistent Na<sup>&#x0002b;</sup>
+current that was blocked by TTX in the aforementioned experiments is taken into
+account; this current is expressed exclusively in tonic-spiking neurons <xref rid="pcbi.1000198-Prescott2" ref-type="bibr">[26]</xref>.
+Application of 4-AP confirmed the presence of a persistent, low-threshold
+K<sup>&#x0002b;</sup> current in single-spiking lamina I neurons (<xref ref-type="fig" rid="pcbi-1000198-g005">Figure 5D</xref>).</p><fig id="pcbi-1000198-g005" position="float"><object-id pub-id-type="doi">10.1371/journal.pcbi.1000198.g005</object-id><label>Figure 5</label><caption><title>Different classes of spinal lamina I neurons express different
+subthreshold currents.</title><p>(A) Traces show responses to 60 pA, 20-ms-long depolarizing pulses
+(black) and to equivalent hyperpolarizing pulses (gray); the latter are
+inverted to facilitate comparison with former. In class 1
+(tonic-spiking) neurons, depolarization was amplified and prolonged
+relative to hyperpolarization, consistent with effects of an inward
+current activated by perithreshold depolarization. Class 3
+(single-spiking) neurons exhibited the opposite pattern, consistent with
+effects of a subthreshold outward current, which is also evident from
+outward rectification (arrow) in the <italic>I&#x02013;V</italic>
+curve. Depolarizing and hyperpolarizing responses were symmetrical in
+class 2 (phasic-spiking) neurons, consistent with negligible net
+subthreshold current. (B) Membrane current activated by voltage-clamp
+steps from &#x02212;70 mV to &#x02212;60, &#x02212;50,
+&#x02212;40, and &#x02212;30 mV. For a given command potential,
+class 3 neurons exhibited the largest persistent outward current and
+class 1 neurons exhibited the smallest outward current. Red line
+highlights difference in current activated by step to &#x02212;40 mV.
+(C) Steady-state <italic>I&#x02013;V</italic> curves for voltage clamp
+protocols in (B). Because recordings were performed in TTX to prevent
+unclamped spiking, the persistent Na<sup>&#x0002b;</sup> current
+(<italic>I</italic>
+<sub>Na,p</sub>), which is expressed exclusively
+in tonic-spiking neurons, was blocked; to correct for this,
+<italic>I</italic>
+<sub>Na,p</sub> measured in separate voltage clamp
+ramp protocols <xref rid="pcbi.1000198-Prescott2" ref-type="bibr">[26]</xref> was added to give a corrected
+<italic>I&#x02013;V</italic> curve (dotted line). Compare with
+<xref ref-type="fig" rid="pcbi-1000198-g004">Figure 4</xref>. (D)
+4-AP-sensitive current determined by subtraction of response before and
+during application of 5 mM 4-AP to a single-spiking neuron. Protocol
+included prepulse to &#x02212;100 mV, which revealed a small
+persistent outward current active at &#x02212;70 mV that was
+deactivated by hyperpolarization to &#x02212;100 mV (&#x0002a;).
+Although depolarization also activates a large transient outward
+current, we are concerned with the persistent component (arrowhead);
+effects of the transient outward current are beyond the scope of this
+study and were minimized by adjusting pre-stimulus membrane potential to
+&#x02212;60 mV for all current clamp protocols. Gray line shows
+baseline current.</p></caption><graphic xlink:href="pcbi.1000198.g005"/></fig></sec><sec id="s2e"><title>Connection between Subthreshold Currents and Spike-Initiating Dynamics</title><p>Thus, lamina I neurons express the sort of currents predicted by our model, but
+that result is purely correlative, i.e., based on comparison of simulated and
+experimental <italic>I&#x02013;V</italic> curves. Are the identified currents
+necessary and sufficient to explain differences in the excitability of lamina I
+neurons? One prediction is that blocking the subthreshold inward current in
+class 1 neurons, or the subthreshold outward current in class 3 neurons, should
+convert those neurons to class 2 excitability. To test this, we
+pharmacologically blocked the low-threshold Ca<sup>2&#x0002b;</sup> or
+K<sup>&#x0002b;</sup> current in class 1 and 3 neurons, respectively. As
+predicted, spiking was converted to a phasic pattern (<xref ref-type="fig" rid="pcbi-1000198-g006">Figure 6A</xref>) and <italic>f&#x02013;I</italic>
+curves became discontinuous (<xref ref-type="fig" rid="pcbi-1000198-g006">Figure
+6B</xref>) in both cases, consistent with conversion to class 2
+excitability. This demonstrates the necessity, in spinal lamina I neurons at
+least, of subthreshold inward and outward currents for producing class 1 and 3
+excitability, respectively.</p><fig id="pcbi-1000198-g006" position="float"><object-id pub-id-type="doi">10.1371/journal.pcbi.1000198.g006</object-id><label>Figure 6</label><caption><title>Necessity of oppositely directed subthreshold currents to explain
+excitability in spinal lamina I neurons.</title><p>(A) Blocking a subthreshold Ca<sup>2&#x0002b;</sup> current with
+Ni<sup>2&#x0002b;</sup> converted tonic-spiking neurons to
+phasic-spiking (right). Blocking a subthreshold K<sup>&#x0002b;</sup>
+current with 4-AP converted single-spiking neurons to phasic-spiking
+(left). Compare with naturally occurring phasic-spiking pattern
+(center). (B) Application of Ni<sup>2&#x0002b;</sup> and 4-AP converted
+class 1 and 3 neurons, respectively, to class 2 neurons according to the
+<italic>f&#x02013;I</italic> curves. Firing rate was determined
+from the reciprocal of first interspike interval. According to these
+data, a subthreshold inward current is necessary for class 1
+excitability, a subthreshold outward current is necessary for class 3
+excitability, and class 2 excitability occurs when neither current is
+present.</p></caption><graphic xlink:href="pcbi.1000198.g006"/></fig><p>To demonstrate the sufficiency of subthreshold currents for determining
+excitability, we explicitly incorporated a subthreshold inward or outward
+current by adding an additional term for <italic>I</italic>
+<sub>sub</sub> to the
+2D model with
+<italic>&#x003b2;</italic>
+<sub>w</sub>&#x0200a;=&#x0200a;&#x02212;10
+mV (see Equation 7); recall that the 2D model lies at the interface between
+class 1 and 2 excitability when
+<italic>&#x003b2;</italic>
+<sub>w</sub>&#x0200a;=&#x0200a;&#x02212;10
+mV (see <xref ref-type="fig" rid="pcbi-1000198-g001">Figure 1D</xref>). Adding
+an inward current produced class 1 excitability, whereas adding an outward
+current produced class 2 or 3 excitability depending on the magnitude of
+<italic>g</italic>
+<sub>sub</sub> (which is controlled by the maximal
+conductance, <italic>&#x01e21;</italic>
+<sub>sub</sub>) (<xref ref-type="fig" rid="pcbi-1000198-g007">Figure 7A</xref>). With
+<italic>&#x003b2;</italic>
+<sub>w</sub>&#x0200a;=&#x0200a;&#x02212;13
+mV (like the class 2 model in <xref ref-type="fig" rid="pcbi-1000198-g001">Figure 1B</xref>), the default 3D model was class 2; adding a subthreshold
+inward or outward current converted it to class 1 or 3, respectively (data not
+shown). The three classes of excitability can be readily identified from the
+bifurcation diagrams of the 3D model (<xref ref-type="fig" rid="pcbi-1000198-g007">Figure 7B</xref>; compare with 2D model in <xref ref-type="fig" rid="pcbi-1000198-g002">Figure 2B</xref>). Varying
+<italic>&#x01e21;</italic>
+<sub>sub</sub> affected the
+<italic>f&#x02013;I</italic> curve in this 3D model in exactly the same
+manner as varying <italic>&#x003b2;</italic>
+<sub>w</sub> in the 2D model
+(compare <xref ref-type="fig" rid="pcbi-1000198-g007">Figure 7C</xref> with
+<xref ref-type="fig" rid="pcbi-1000198-g001">Figure 1D</xref>). The
+transition between class 1 and 2 excitability occurred at
+<italic>&#x01e21;</italic>
+<sub>sub</sub>&#x0200a;=&#x0200a;0
+mS/cm<sup>2</sup>, although that value varied depending on
+<italic>&#x003b2;</italic>
+<sub>w</sub> (see above). For a given value of
+<italic>I</italic>
+<sub>stim</sub>, class 1 and 2 excitability were mutually
+exclusive whereas class 2 and 3 excitability coexisted. Furthermore, the 3D
+model exhibited constant or variably sized spikes depending on whether the model
+was class 1 or 3, respectively (<xref ref-type="fig" rid="pcbi-1000198-g007">Figure 7D</xref>; compare with <xref ref-type="fig" rid="pcbi-1000198-g003">Figure 3A and 3B</xref>). This demonstrates the sufficiency of subthreshold
+inward and outward currents for producing class 1 and 3 excitability,
+respectively.</p><fig id="pcbi-1000198-g007" position="float"><object-id pub-id-type="doi">10.1371/journal.pcbi.1000198.g007</object-id><label>Figure 7</label><caption><title>Sufficiency of oppositely directed subthrehsold currents to explain
+excitability.</title><p>(A) Responses from 3D model described in <xref ref-type="fig" rid="pcbi-1000198-g004">Figure 4B</xref>. Without
+<italic>I</italic>
+<sub>sub</sub>, the model operated at the
+interface between class 1 and 2 excitability (see (C)). Adding an
+outward current
+(<italic>E</italic>
+<sub>sub</sub>&#x0200a;=&#x0200a;&#x02212;100
+mV) produced class 2 or 3 excitability, with the latter becoming more
+predominant (i.e. over a wider range of
+<italic>I</italic>
+<sub>stim</sub>) as
+<italic>&#x01e21;</italic>
+<sub>sub</sub> was increased. Adding an
+inward current
+(<italic>E</italic>
+<sub>sub</sub>&#x0200a;=&#x0200a;50
+mV) produced class 1 excitability. (B) Bifurcation diagrams show voltage
+at fixed point and at max/min of limit cycle as
+<italic>I</italic>
+<sub>stim</sub> was increased. Class 1, 2, and 3
+versions of the 3D models exhibited exactly the same spike initiating
+dynamics seen in class 1, 2 and 3 versions of the 2D models (compare
+with <xref ref-type="fig" rid="pcbi-1000198-g002">Figure 2B</xref>). (C)
+Firing rate (color) is plotted against <italic>I</italic>
+<sub>stim</sub>
+and <italic>&#x01e21;</italic>
+<sub>sub</sub>. These data are
+qualitatively identical to those for the 2D model (see <xref ref-type="fig" rid="pcbi-1000198-g001">Figure 1D</xref>) and
+indicate that direction and magnitude of
+<italic>I</italic>
+<sub>sub</sub> are sufficient to explain different
+classes of excitability. The phasic-spiking that results from adaptation
+(see <xref ref-type="fig" rid="pcbi-1000198-g001">Figure 1C</xref>) can
+be understood in terms of slowly activating outward current (or
+inactivating inward current) causing a shift from class 2 to class 3
+excitability. (D) As with the 2D model (<xref ref-type="fig" rid="pcbi-1000198-g003">Figure 3A</xref>), the class 3 version of
+the 3D model exhibited significantly greater spike amplitude variability
+than the class 1 version when driven by noisy stimulation
+(<italic>p</italic>&#x0003c;0.001, respectively; Kolmogorov-Smirnov
+test). &#x003c3;<sub>noise</sub>&#x0200a;=&#x0200a;10
+&#x000b5;A/cm<sup>2</sup>.</p></caption><graphic xlink:href="pcbi.1000198.g007"/></fig><p>Thus, expression of distinct subthreshold currents accounts for the different
+classes of excitability observed amongst spinal lamina I neurons. But can other
+biophysical properties also account for differences in excitability? And, if so,
+do those properties confer the same or different spike initiating dynamics than
+those described above? In other words, can we generalize our biophysical
+explanation of excitability?</p></sec><sec id="s2f"><title>Effects of Varying Other Parameters in the 2D Model</title><p>We summarize here how spike initiating dynamics can be inferred from the phase
+plane geometry of the 2D model. We start by considering
+<italic>&#x003b2;</italic>
+<sub>w</sub> (<xref ref-type="fig" rid="pcbi-1000198-g008">Figure 8A</xref>) since its effects on excitability
+have already been described in <xref ref-type="fig" rid="pcbi-1000198-g001">Figures 1</xref> and <xref ref-type="fig" rid="pcbi-1000198-g002">2</xref>.
+An SNIC bifurcation occurs when the <italic>V</italic> and
+<italic>w</italic>-nullclines intersect tangentially at rheobasic stimulation
+(<italic>&#x003b2;</italic>
+<sub>w</sub>&#x0003e;&#x02212;10 mV). A Hopf
+bifurcation occurs when the <italic>w</italic>-nullcline crosses the
+<italic>V</italic>-nullcline on its middle arm
+(<italic>&#x003b2;</italic>
+<sub>w</sub>&#x0003c;&#x02212;10 mV); although
+necessary, this is not strictly sufficient for the bifurcation (see below), but
+it is a close enough approximation for our demonstration. A QSC can occur when
+the <italic>w</italic>-nullcline crosses the <italic>V</italic>-nullcline on its
+left arm. Given this connection between phase plane geometry and spike
+initiating dynamics, one can predict the effects on excitability of changing the
+shape or relative positioning of the two nullclines regardless of which specific
+parameters are varied.</p><fig id="pcbi-1000198-g008" position="float"><object-id pub-id-type="doi">10.1371/journal.pcbi.1000198.g008</object-id><label>Figure 8</label><caption><title>Common phase plane geometries associated with different parameter
+changes.</title><p>(A) <italic>&#x003b2;</italic>
+<sub>w</sub> controls positioning of the
+<italic>w</italic>-nullcline (i.e. voltage-dependency of
+<italic>I</italic>
+<sub>slow</sub>). For
+<italic>&#x003b2;</italic>
+<sub>w</sub>&#x0200a;=&#x0200a;0
+mV, the nullclines intersect tangentially at rheobasic stimulation,
+which translates into an SNIC bifurcation. For
+<italic>&#x003b2;</italic>
+<sub>w</sub>&#x0200a;=&#x0200a;&#x02212;13
+mV, the <italic>w</italic>-nullcline crosses the
+<italic>V</italic>-nullcline on its middle arm, which translates into a
+Hopf bifurcation. For
+<italic>&#x003b2;</italic>
+<sub>w</sub>&#x0200a;=&#x0200a;&#x02212;21
+mV, the <italic>w</italic>-nullcline crosses the
+<italic>V</italic>-nullcline on its left arm, meaning spike initiation
+is limited to a QSC. See <xref ref-type="fig" rid="pcbi-1000198-g002">Figure 2B</xref> for corresponding bifurcation diagrams. Thus,
+spike initiating dynamics (and the resulting pattern of excitability)
+are directly related to phase plane geometry (i.e. how the nullclines
+intersect). (B) <italic>&#x003b2;</italic>
+<sub>m</sub> controls
+positioning of the <italic>V</italic>-nullcline (i.e.,
+voltage-dependency of <italic>I</italic>
+<sub>fast</sub>). Reducing
+<italic>&#x003b2;</italic>
+<sub>m</sub> had the same effect on phase
+plane geometry as increasing <italic>&#x003b2;</italic>
+<sub>w</sub>. The
+predicted consequences for excitability are confirmed on the bifurcation
+diagrams. Like <italic>I</italic>
+<sub>slow</sub>,
+<italic>I</italic>
+<sub>fast</sub> may comprise more than one
+current; therefore, differences in the voltage-dependency of the net
+fast current may reflect the expression of different fast currents
+rather than variation in the voltage-dependency of any one current (see
+<xref ref-type="fig" rid="pcbi-1000198-g004">Figure 4</xref>). For
+(B&#x02013;E),
+<italic>&#x003b2;</italic>
+<sub>w</sub>&#x0200a;=&#x0200a;&#x02212;10
+mV,
+<italic>&#x003b3;</italic>
+<sub>w</sub>&#x0200a;=&#x0200a;13
+mV, and all other parameters are as indicated in <xref ref-type="sec" rid="s4">Methods</xref> unless otherwise stated. (C) Varying
+<italic>&#x01e21;</italic>
+<sub>fast</sub> changed the shape
+rather than positioning of the <italic>V</italic>-nullcline, but both
+had equivalent consequences for excitability. (D) Varying
+<italic>&#x01e21;</italic>
+<sub>slow</sub> also changed the shape
+of the <italic>V</italic>-nullcline, in a slightly different manner than
+<italic>&#x01e21;</italic>
+<sub>fast</sub>, but with the same
+consequences for excitability. (E) Varying
+<italic>&#x003b3;</italic>
+<sub>w</sub>, which controls the slope of
+the voltage-dependent activation curve for
+<italic>I</italic>
+<sub>slow</sub>, altered the
+<italic>w</italic>-nullcline, again, with predictable consequences for
+excitability.
+<italic>&#x003b2;</italic>
+<sub>w</sub>&#x0200a;=&#x0200a;0
+mV.</p></caption><graphic xlink:href="pcbi.1000198.g008"/></fig><p>Moving the <italic>V</italic>-nullcline in one direction (via
+<italic>&#x003b2;</italic>
+<sub>m</sub>) should have the same effect as
+moving the <italic>w</italic>-nullcline in the opposite direction (via
+<italic>&#x003b2;</italic>
+<sub>w</sub>), which indeed it did (<xref ref-type="fig" rid="pcbi-1000198-g008">Figure 8B</xref>). The biophysical
+interpretation is straightforward: reducing
+<italic>&#x003b2;</italic>
+<sub>m</sub> causes a hyperpolarizing shift in the
+voltage-dependency of <italic>I</italic>
+<sub>fast</sub>, causing
+<italic>I</italic>
+<sub>fast</sub> to be more strongly activated by
+perithreshold depolarization and thus encouraging class 1 excitability. As
+explained in <xref ref-type="fig" rid="pcbi-1000198-g004">Figure 4</xref> for
+<italic>&#x003b2;</italic>
+<sub>w</sub>, a change in
+<italic>&#x003b2;</italic>
+<sub>m</sub> may reflect the contribution of a
+second fast current (inward or outward) with different voltage-dependency than
+the classic Na<sup>&#x0002b;</sup> current comprising most of
+<italic>I</italic>
+<sub>fast</sub>. Increasing
+<italic>&#x01e21;</italic>
+<sub>fast</sub> in the 2D model without
+altering its voltage-dependency should also have an effect comparable to
+reducing <italic>&#x003b2;</italic>
+<sub>m</sub>, which indeed it did (<xref ref-type="fig" rid="pcbi-1000198-g008">Figure 8C</xref>). Thus,
+<italic>&#x003b2;</italic>
+<sub>w</sub>,
+<italic>&#x003b2;</italic>
+<sub>m</sub>, or
+<italic>&#x01e21;</italic>
+<sub>fast</sub> all affect phase plane geometry
+(i.e., how the nullclines intersect) in essentially the same way and with
+equivalent consequences for spike initiating dynamics. Although the specific
+biophysical mechanism is different in each case (voltage-dependency of
+<italic>g</italic>
+<sub>slow</sub>, voltage-dependency of
+<italic>g</italic>
+<sub>fast</sub>, or magnitude of
+<italic>g</italic>
+<sub>fast</sub>, respectively), the common outcome is a
+change in the balance of fast and slow currents near threshold.</p><p>It stands to reason, therefore, that reducing
+<italic>&#x01e21;</italic>
+<sub>slow</sub> (where
+<italic>I</italic>
+<sub>slow</sub> is outward) should have effects comparable
+to increasing <italic>&#x01e21;</italic>
+<sub>fast</sub>, which indeed it did
+(<xref ref-type="fig" rid="pcbi-1000198-g008">Figure 8D</xref>). Relatively
+large changes in <italic>&#x01e21;</italic>
+<sub>fast</sub> or
+<italic>&#x01e21;</italic>
+<sub>slow</sub> were required to convert
+excitability from class 1 to class 3, but one must consider that both of those
+net currents are most strongly activated at suprathreshold potentials. If spike
+initiating dynamics are dictated by currents at perithreshold potentials (see
+above), changes in maximal conductance should have small effects if the
+conductance is only marginally activated near threshold. By comparison, small
+changes in <italic>&#x01e21;</italic>
+<sub>sub</sub> were sufficient to alter
+spike initiating dynamics in the 3D model (see <xref ref-type="fig" rid="pcbi-1000198-g007">Figure 7</xref>) because
+<italic>I</italic>
+<sub>sub</sub> was strongly activated at perithreshold
+potentials. Accordingly, reducing slope of the <italic>w</italic>-nullcline (by
+increasing <italic>&#x003b3;</italic>
+<sub>w</sub>) extended the tail of the
+activation curve for <italic>g</italic>
+<sub>slow</sub> so that
+<italic>I</italic>
+<sub>slow</sub> was more strongly activated at
+perithreshold potentials; this predictably encouraged class 3 excitability
+(<xref ref-type="fig" rid="pcbi-1000198-g008">Figure 8E</xref>).</p></sec><sec id="s2g"><title>Spike-Initiating Dynamics: Geometric Representation and Biophysical
+Explanation</title><p>Results in <xref ref-type="fig" rid="pcbi-1000198-g008">Figure 8</xref> show that
+several different parameters can influence spike initiating dynamics (and, in
+turn, excitability), but there appear to be a limited number of phase plane
+geometries that result from varying those parameters. Other, more complex
+geometries are possible in higher dimensional systems, but the success of our 2D
+model in reproducing all of Hodgkin's classes attests that nonlinear
+interaction between two variables is sufficient to explain the patterns he
+described. Furthermore, &#x0201c;ultra-slow&#x0201d; processes like
+adaptation can, on a spike by spike basis, be treated as providing a constant
+current. Ultimately, spike generation is a two dimensional phenomenon requiring
+fast activation (positive feedback) to produce the rapid upstroke plus slower
+recovery (negative feedback) to produce the downstroke. Beyond shaping the spike
+waveform by their interaction at suprathreshold potentials, we explain here how
+these feedback processes interact at perithreshold potentials to control spike
+initiation.</p><p>Interpretation of the phase plane geometry can be formalized by doing local
+stability analysis near the fixed points (<xref rid="pcbi.1000198-Borisyuk1" ref-type="bibr">[27]</xref>, see also chapter
+11 in <xref rid="pcbi.1000198-Jack1" ref-type="bibr">[28]</xref>). In class 3 neurons, <inline-formula><inline-graphic xlink:href="pcbi.1000198.e002.jpg" mimetype="image"/></inline-formula> at the stable fixed point. This means, <italic>at steady
+state</italic>, that positive feedback is slower than the rate of negative
+feedback,
+<italic>&#x003c6;</italic>
+<sub>w</sub>/<italic>&#x003c4;</italic>
+<sub>w</sub>.
+Subthreshold activation of <italic>I</italic>
+<sub>slow</sub> produces a steady
+state <italic>I&#x02013;V</italic> curve that is monotonic and sufficiently
+steep near the apex of the instantaneous <italic>I&#x02013;V</italic> curve
+that <italic>V</italic> is prohibited from rising high enough to strongly
+activate <italic>I</italic>
+<sub>fast</sub> (<xref ref-type="fig" rid="pcbi-1000198-g009">Figure 9A, left</xref>). However, because the two
+feedback processes have different kinetics, a spike can be initiated if the
+system is perturbed from steady state: if <italic>V</italic> escapes high enough
+to activate <italic>I</italic>
+<sub>fast</sub> (e.g., at the onset of an abrupt
+step in <italic>I</italic>
+<sub>stim</sub>), fast-activating inward current can
+overpower slow-activating outward current&#x02014;the latter is stronger when
+fully activated, but can only partially activate (because of its slow kinetics)
+before a spike is inevitable. Through this mechanism, a single spike can be
+initiated before negative feedback forces the system back to its stable fixed
+point, hence class 3 excitability. Speeding up the kinetics of
+<italic>I</italic>
+<sub>slow</sub> predictably allows
+<italic>I</italic>
+<sub>slow</sub> to compete more effectively with
+<italic>I</italic>
+<sub>fast</sub> (see below).</p><fig id="pcbi-1000198-g009" position="float"><object-id pub-id-type="doi">10.1371/journal.pcbi.1000198.g009</object-id><label>Figure 9</label><caption><title>Competition between kinetically mismatched currents.</title><p>(A) Top panels show individual currents in 2D model; bottom panels show
+how they combine to produce the instantaneous
+(<italic>I</italic>
+<sub>inst</sub>) and steady state
+(<italic>I</italic>
+<sub>ss</sub>) <italic>I&#x02013;V</italic>
+curves. Double-headed arrows highlight effect of
+<italic>&#x003b2;</italic>
+<sub>w</sub> on the voltage-dependency of
+<italic>I</italic>
+<sub>slow</sub>. Class 3 neuron:
+<italic>I</italic>
+<sub>slow</sub> activates at lower
+<italic>V</italic> than <italic>I</italic>
+<sub>fast</sub>, meaning slow
+negative feedback keeps <italic>V</italic> from increasing high enough
+to initiate fast positive feedback <italic>at steady state</italic>.
+Fast positive feedback (that results in a spike) can be initiated only
+if the system is perturbed from steady state. Quasi-separatrix (blue)
+has a region of negative slope (&#x0002a;) indicating where net positive
+feedback occurs given the kinetic difference between fast and slow
+currents: positive feedback that activates rapidly can compete
+effectively with stronger negative feedback whose full activation is
+delayed by its slower kinetics. If <italic>V</italic> is forced rapidly
+past the blue arrowhead, fast positive feedback initiates a single spike
+before slow negative feedback catches up and forces the system back to
+its stable fixed point. Quasi-separatrix is plotted as the sum of all
+currents but with <italic>I</italic>
+<sub>slow</sub> calculated as a
+function of <italic>w</italic> at the quasi-separatrix (see phase plane
+in <xref ref-type="fig" rid="pcbi-1000198-g002">Figure 2A</xref>) rather
+than at steady state and is shown here for
+<italic>I</italic>
+<sub>stim</sub>&#x0200a;=&#x0200a;60
+&#x000b5;A/cm<sup>2</sup>. Class 2 neuron:
+<italic>I</italic>
+<sub>slow</sub> and
+<italic>I</italic>
+<sub>fast</sub> activate at roughly the same
+<italic>V</italic>. A Hopf bifurcation occurs at the point indicated by
+the arrow, where <inline-formula><inline-graphic xlink:href="pcbi.1000198.e003.jpg" mimetype="image"/></inline-formula> (see <xref ref-type="sec" rid="s2">Results</xref>).
+This means that fast positive feedback exceeds slow negative feedback at
+steady state; as for class 3 neurons, this relies on positive feedback
+having fast kinetics since the net perithreshold current is still
+outward (i.e., steady state <italic>I&#x02013;V</italic> curve is
+monotonic). Note that the slope of the steady-state
+<italic>I&#x02013;V</italic> curve is less steep in the class 2
+model than in the class 3 model. Class 1 neuron:
+<italic>I</italic>
+<sub>slow</sub> activates at higher
+<italic>V</italic> than <italic>I</italic>
+<sub>fast</sub>, meaning slow
+negative feedback does not begin activating until after the spike is
+initiated. This gives a steady state
+<italic>I</italic>&#x02013;<italic>V</italic> curve that is
+non-monotonic with a region of negative slope (&#x0002a;) near the apex
+of the instantaneous <italic>I</italic>&#x02013;<italic>V</italic>
+curve. The SNIC bifurcation occurs when
+&#x02202;<italic>I</italic>
+<sub>ss</sub>/&#x02202;<italic>t</italic>&#x0200a;=&#x0200a;0
+(arrowhead) because, at this voltage, <italic>I</italic>
+<sub>fast</sub>
+counterbalances <italic>I</italic>
+<sub>leak</sub> and any further
+depolarization will cause progressive activation of
+<italic>I</italic>
+<sub>fast</sub>. (B) Changing
+<italic>&#x01e21;</italic>
+<sub>fast</sub> in the 2D model had
+equivalent effects on the shape of the steady state
+<italic>I&#x02013;V</italic> curves. Unlike in (A), voltage at the
+apex of the instantaneous
+<italic>I</italic>&#x02013;<italic>V</italic> curve (purple arrows)
+changes as <italic>&#x01e21;</italic>
+<sub>fast</sub> is varied; in
+other words, the net current at perithreshold potentials can be
+modulated by changing fast currents (which directly impact voltage
+threshold) rather than by changing the amplitude or voltage-dependency
+of slow currents. This is consistent with results in <xref ref-type="fig" rid="pcbi-1000198-g008">Figure 8</xref>. (C) Speeding
+up the kinetics of <italic>I</italic>
+<sub>slow</sub> impacts the onset
+of class 2 and 3 excitability. Compared with original model
+(<italic>&#x003c6;</italic>
+<sub>w</sub>&#x0200a;=&#x0200a;0.15;
+black), increasing <italic>&#x003c6;</italic>
+<sub>w</sub> to 0.25
+(red) increased <italic>I</italic>
+<sub>stim</sub> required to cause a
+Hopf bifurcation or a QSC, but did not affect
+<italic>I</italic>
+<sub>stim</sub> required to cause an SNIC
+bifurcation; reducing <italic>&#x003c6;</italic>
+<sub>w</sub> to 0.10
+(green) had the opposite effect (summarized in right panel). Increasing
+<italic>&#x003c6;</italic>
+<sub>w</sub> also widened the
+discontinuity in the class 2 <italic>f&#x02013;I</italic> curve and
+allowed class 2 and 3 neurons to achieve higher spiking rates with
+strong <italic>I</italic>
+<sub>stim</sub> because of the faster recovery
+between spikes; reducing <italic>&#x003c6;</italic>
+<sub>w</sub> had
+the opposite effects.</p></caption><graphic xlink:href="pcbi.1000198.g009"/></fig><p>In class 2 neurons, <inline-formula><inline-graphic xlink:href="pcbi.1000198.e004.jpg" mimetype="image"/></inline-formula> at the unstable fixed point, meaning positive feedback
+outpaces negative feedback, and repetitive spiking ensues. The steady state
+<italic>I&#x02013;V</italic> curve (<xref ref-type="fig" rid="pcbi-1000198-g009">Figure 9A, center</xref>) is monotonic but less
+steep than in the class 3 model. Under these conditions, stimulation can force
+<italic>V</italic> high enough that fast-activating inward current competes
+with slow-activating outward current. As in the class 3 neuron (see above), it
+is crucial that <italic>I</italic>
+<sub>fast</sub> activates more rapidly than
+<italic>I</italic>
+<sub>slow</sub> in order for positive feedback to outrun
+negative feedback, since the latter would dominate and prohibit spiking if given
+enough time to fully activate. The difference from class 3 excitability is that
+fast positive feedback can outrun slow negative feedback with constant
+stimulation in a class 2 neuron; in the class 3 neuron, positive feedback can
+outrun negative feedback only during the stimulus transient.</p><p>In class 1 neurons,
+&#x02202;<italic>I</italic>
+<sub>ss</sub>/&#x02202;<italic>V</italic>&#x0200a;=&#x0200a;0
+at the saddle-node, meaning the steady state <italic>I&#x02013;V</italic>
+curve is non-monotonic with a local maximum above which depolarization activates
+net <italic>inward</italic> current at steady state (<xref ref-type="fig" rid="pcbi-1000198-g009">Figure 9A, right</xref>). The negative feedback
+responsible for spike repolarization only begins to activate at higher,
+suprathreshold potentials. Under these conditions, fast positive feedback has no
+slow negative feedback with which to compete at perithreshold potentials and the
+voltage trajectory can pass slowly through threshold, thereby producing slow
+spiking and a continuous <italic>f&#x02013;I</italic> curve. That contrasts
+class 2 and 3 neurons in which activation of <italic>I</italic>
+<sub>fast</sub>
+races subthreshold activation of <italic>I</italic>
+<sub>slow</sub> to determine
+whether a spike is initiated. And although class 2 neurons can spike
+repetitively, they cannot maintain spiking below a critical frequency lest
+slow-activating outward current catch up with the fast-activating inward
+current.</p><p>Slope of the steady state <italic>I&#x02013;V</italic> curve at perithreshold
+voltages (i.e., voltages near the apex of the instantaneous
+<italic>I&#x02013;V</italic> curve) thus reveals the strength and
+direction of feedback with which <italic>I</italic>
+<sub>fast</sub> must compete.
+Changing the direction and magnitude of <italic>I</italic>
+<sub>sub</sub> in the
+3D model had the same consequences on the steady state
+<italic>I&#x02013;V</italic> curve (data not shown) as changing
+<italic>&#x003b2;</italic>
+<sub>w</sub> in the 2D model. Changing other
+parameters in the 2D model, such as <italic>&#x01e21;</italic>
+<sub>Na</sub>,
+also had similar effects (<xref ref-type="fig" rid="pcbi-1000198-g009">Figure
+9B</xref>), which illustrates how the magnitude of slow current active at
+perithreshold voltages can be changed by modulating threshold rather than
+changing the voltage-dependency or density of the slow current itself (like in
+<xref ref-type="fig" rid="pcbi-1000198-g008">Figure 8B and 8C</xref>).</p><p>The <italic>I&#x02013;V</italic> curve does not, however, provide information
+about the temporal features of the competition between kinetically mismatched
+currents. The relative kinetics of fast and slow currents are critical for class
+2 and 3 excitability, whereas they are irrelevant for class 1 excitability since
+there is no competition (see above). To investigate this further, we changed the
+kinetics of <italic>I</italic>
+<sub>slow</sub> by varying
+<italic>&#x003c6;</italic>
+<sub>w</sub> in the 2D model. Consistent with
+our dynamical explanations of spike initiation, speeding up
+<italic>I</italic>
+<sub>slow</sub> increased the minimum stimulation required
+to produce class 2 or 3 excitability (especially the latter), whereas slowing
+down <italic>I</italic>
+<sub>slow</sub> had the opposite effects; the minimum
+stimulation required to produce class 1 excitability was unaffected (<xref ref-type="fig" rid="pcbi-1000198-g009">Figure 9C</xref>). Increasing
+<italic>&#x003c6;</italic>
+<sub>z</sub> had the same effects in the 3D
+model (data not shown).</p><p>If the balance of fast and slow currents at perithreshold potentials is the
+crucial determinant of excitability, then perithreshold
+<italic>in</italic>activation of a slow outward current (e.g., an A-type
+K<sup>&#x0002b;</sup> current, <italic>I</italic>
+<sub>K,A</sub>) should
+encourage class 1 excitability the same way perithreshold activation of a slow
+inward current does. To test this, we incorporated
+<italic>I</italic>
+<sub>K,A</sub> by warping the <italic>w</italic>-nullcline to
+create a 2D model similar to that of Wilson <xref rid="pcbi.1000198-Wilson1" ref-type="bibr">[29]</xref>. Rather than
+initiating spikes through a Hopf bifurcation, the <italic>V</italic>-nullcline
+intercepted the negatively sloping region of the <italic>w</italic>-nullcline
+tangentially (<xref ref-type="fig" rid="pcbi-1000198-g010">Figure 10A</xref>)
+and repetitive spiking was generated through an SNIC bifurcation (<xref ref-type="fig" rid="pcbi-1000198-g010">Figure 10B</xref>), which resulted in
+a continuous <italic>f&#x02013;I</italic> curve (not shown) typical of class 1
+excitability. Furthermore, inactivation of <italic>I</italic>
+<sub>K,A</sub>
+introduced a region of negative slope into the steady state
+<italic>I&#x02013;V</italic> curve that overlapped the apex of the
+instantaneous <italic>I&#x02013;V</italic> curve (<xref ref-type="fig" rid="pcbi-1000198-g010">Figure 10C</xref>; compare with <xref ref-type="fig" rid="pcbi-1000198-g009">Figure 9</xref>). The same results were found if
+<italic>I</italic>
+<sub>K,A</sub> was explicitly incorporated to produce a 3D
+model (data not shown). Thus, <italic>I</italic>
+<sub>K,A</sub> increased
+rheobase but its slow inactivation as voltage passed through threshold amounted
+to a slow positive feedback process that encouraged class 1 excitability. The
+converse has been shown in medial superior olive neurons, where inactivation of
+<italic>I</italic>
+<sub>Na</sub> encourages coincidence detection associated
+with class 3 excitability <xref rid="pcbi.1000198-Svirskis1" ref-type="bibr">[30]</xref>.</p><fig id="pcbi-1000198-g010" position="float"><object-id pub-id-type="doi">10.1371/journal.pcbi.1000198.g010</object-id><label>Figure 10</label><caption><title>Depolarization-induced inactivation of a subthreshold outward current
+can also produce class 1 excitability.</title><p>(A) Inactivation of an A-type K<sup>&#x0002b;</sup> current by
+subthreshold depolarization should shift the balance of inward and
+outward currents the same way that depolarization-induced activation of
+an inward current does, and is therefore predicted to encourage class 1
+excitability. To test this, we warped the <italic>w</italic>-nullcline
+to give it a region of negative slope at subthreshold potentials (see
+<xref rid="pcbi.1000198-Rose1" ref-type="bibr">[55]</xref>); this was done by changing Equation
+5 so that <inline-formula><inline-graphic xlink:href="pcbi.1000198.e005.jpg" mimetype="image"/></inline-formula> where
+<italic>&#x003b2;</italic>
+<sub>w</sub>&#x0200a;=&#x0200a;&#x02212;10
+mV,
+<italic>&#x003b3;</italic>
+<sub>w</sub>&#x0200a;=&#x0200a;10
+mV,
+<italic>&#x003b2;</italic>
+<sub>w&#x0002a;</sub>&#x0200a;=&#x0200a;&#x02212;60
+mV,
+<italic>&#x003b3;</italic>
+<sub>w&#x0002a;</sub>&#x0200a;=&#x0200a;&#x0200a;=&#x0200a;20
+mV, and &#x003be;&#x0200a;=&#x0200a;0.1. Under these
+conditions, the <italic>V</italic>- and <italic>w</italic>-nullclines
+intersected tangentially at rheobasic stimulation. (B) This phase plane
+geometry resulted in an SNIC bifurcation and class 1 excitability, as
+predicted. (C) Inactivation of the A-type K<sup>&#x0002b;</sup> current
+at subthrehsold potentials gave a region of negative slope on the steady
+state <italic>I</italic>&#x02013;<italic>V</italic> curve that
+overlapped the apex of the instantaneous
+<italic>I</italic>&#x02013;<italic>V</italic> curve.</p></caption><graphic xlink:href="pcbi.1000198.g010"/></fig></sec></sec><sec id="s3"><title>Discussion</title><p>Our results demonstrate that the three classes of excitability first described by
+Hodgkin <xref rid="pcbi.1000198-Hodgkin2" ref-type="bibr">[5]</xref> represent distinct outcomes in a nonlinear competition
+between fast and slow currents active at perithreshold potentials. We have
+experimentally confirmed (<xref ref-type="fig" rid="pcbi-1000198-g005">Figure
+5</xref>) that spinal lamina I neurons express the currents predicted by our
+simulations (<xref ref-type="fig" rid="pcbi-1000198-g004">Figure 4</xref>) and that
+those currents are necessary (<xref ref-type="fig" rid="pcbi-1000198-g006">Figure
+6</xref>) and sufficient (<xref ref-type="fig" rid="pcbi-1000198-g007">Figure
+7</xref>) to produce the excitability exhibited by each cell type. <xref ref-type="fig" rid="pcbi-1000198-g011">Figure 11</xref> summarizes the phase
+plane geometry associated with each class of excitability together with the results
+of local stability analysis near the fixed point, which explain how different spike
+initiating dynamics arise from a competition between fast and slow feedback
+processes. Voltage-dependent inward and outward currents mediate positive and
+negative feedback, respectively. Effects of changing the magnitude,
+voltage-dependency, or kinetics of those currents can be conceptualized in terms of
+how those parameter changes impact that competition; the consequences of such
+parameter changes for spike initiating dynamics are thus readily explained.</p><fig id="pcbi-1000198-g011" position="float"><object-id pub-id-type="doi">10.1371/journal.pcbi.1000198.g011</object-id><label>Figure 11</label><caption><title>Summary of phase plane geometry and local stability analysis.</title><p>Class 1 excitability results when slow-activating outward current is absent
+at voltages below threshold; inward current faces no competition and can
+drive arbitrarily slow spiking. Class 2 excitability results when outward
+current is activated at subthreshold voltages, but although net current is
+outward at steady state, fast-activating inward current ensures repetitive
+spiking above a critical frequency; spiking cannot be sustained below a rate
+that would allow enough time for slow-activating outward current to activate
+sufficiently that net current becomes outward during the interspike
+interval. Class 3 excitability results when outward current is sufficiently
+strong that repetitive spiking is prohibited despite fast-activating inward
+current; spike generation is only possible when the system is perturbed from
+steady state, as during a stimulus transient, during which fast-activating
+inward current initiates a spike before slow-activating outward current has
+an opportunity to counteract the positive feedback process.</p></caption><graphic xlink:href="pcbi.1000198.g011"/></fig><p>Our approach for uncovering the biophysical basis for Hodgkin's
+classification was to forward engineer a simple model in order to help reverse
+engineer complex neurons. The benefit of such an approach is that the model starts
+simple and is made only as complex as required to reproduce the phenomena of
+interest; extraneous details are thus excluded. Building a biologically realistic,
+high-dimensional model that exhibits one or another firing pattern is reasonably
+straightforward, but such a model almost certainly contains extraneous detail and
+may fail to provide greater insight than the experiments upon which it is based. The
+challenge when forward engineering simple models is that one may reproduce the
+phenomena of interest through a mechanism that is not the same as that used by real
+neurons; for example, a QSC produces a single-spiking pattern, but single-spiking
+neurons may use a completely different mechanism to produce the same result. This
+constitutes an inverse problem that requires careful consideration in order to
+validate the forward engineered model, as we demonstrated in <xref ref-type="fig" rid="pcbi-1000198-g003">Figure 3</xref>.</p><p>The forward engineering approach gave a model complex enough to reproduce each class
+of excitability yet simple enough for its spike initiating dynamics to be rigorously
+characterized using phase plane analysis. By expressing the problem geometrically,
+we were able to visualize and uncover the functional equivalence of changing
+different model parameters (<xref ref-type="fig" rid="pcbi-1000198-g008">Figure
+8</xref>). As a result, our biophysical explanation of excitability is not specific
+to one set of neurons but, rather, should generalize to all neurons; for instance,
+spinal lamina I neurons exhibit different classes of excitability because they
+express different slow, subthreshold currents (<xref ref-type="fig" rid="pcbi-1000198-g005">Figures 5</xref> and <xref ref-type="fig" rid="pcbi-1000198-g006">6</xref>), but other neurons may achieve similar
+diversity through other mechanisms affecting spike initiation. Even a single neuron
+may exhibit different spike initiating dynamics depending on outside conditions such
+as the strength of background synaptic input <xref rid="pcbi.1000198-Prescott3" ref-type="bibr">[31]</xref>. According to our
+analysis, oppositely directed currents compete to determine spike initiation. Net
+current must be inward to sustain the depolarization necessary to initiate a spike
+(that much is obvious), but the balance between oppositely directed currents is not
+static. The importance of differences in the activation kinetics of the competing
+currents is far less obvious. In this regard, local stability analysis at the fixed
+point was critical for formalizing our explanation of the time-dependency of the
+competition, and for providing the insight that prompted us to test the effects of
+changing the relative kinetics of the competing currents (<xref ref-type="fig" rid="pcbi-1000198-g009">Figure 9C</xref>).</p><p>The mechanistic explanation of excitability afforded by quantitative analysis (i.e.,
+phase plane analysis, local stability analysis, and bifurcation analysis) is
+precisely what is needed to make sense of the ever accumulating mass of experimental
+data. It provides an organizing framework for understanding which parameters are
+important and why, for instance, by explaining the functional equivalence of
+different biophysical changes (see <xref ref-type="fig" rid="pcbi-1000198-g008">Figure 8</xref>). By comparison, the reverse engineering approach, whereby the
+computational model is built with experimentally measured parameter values, does not
+typically provide results that can be so readily generalized.</p><p>According to our results, the direction, magnitude, and <italic>kinetics</italic> of
+currents activating or inactivating at perithreshold potentials influence the
+process of spike initiation. Previous studies have identified the competition
+between inward and outward currents as a critical determinant of excitability (e.g.,
+<xref rid="pcbi.1000198-Lundstrom1" ref-type="bibr">[32]</xref>), but our results go further by explaining the
+importance of the temporal features of that competition. Conceptualizing spike
+initiation as a competition between fast and slow currents helps explain the shape
+of the <italic>f&#x02013;I</italic> curve. If <italic>I</italic>
+<sub>slow</sub> is
+absent or inward at perithreshold potentials, positive feedback mediated by
+<italic>I</italic>
+<sub>fast</sub> faces no competition as it drives voltage
+slowly through threshold; a slow voltage trajectory between spikes means that the
+neuron can fire repetitively at low rates, thus producing the continuous
+<italic>f&#x02013;</italic>I curve characteristic of class 1 excitability. If
+<italic>I</italic>
+<sub>slow</sub> is outward at perithreshold potentials, then
+<italic>I</italic>
+<sub>fast</sub> must compete with slow negative feedback. To
+compete successfully, <italic>I</italic>
+<sub>fast</sub> must exploit its fast
+kinetics, which means driving voltage through threshold with sufficient rapidity
+that <italic>I</italic>
+<sub>slow</sub> cannot catch up; a rapid voltage trajectory
+between spikes means that the neuron cannot fire repetitively at low rates, thus
+producing the discontinuous <italic>f&#x02013;I</italic> curve characteristic of
+class 2 excitability. Whether <italic>I</italic>
+<sub>slow</sub> is &#x0201c;strong
+enough&#x0201d; to prevent repetitive spiking altogether (thus producing class 3
+excitability) depends on <italic>I</italic>
+<sub>stim</sub>, hence the diagonal
+border between class 2 and 3 excitability on <xref ref-type="fig" rid="pcbi-1000198-g001">Figures 1D</xref> and <xref ref-type="fig" rid="pcbi-1000198-g007">7C</xref>; in contrast, the direction of feedback is
+independent of <italic>I</italic>
+<sub>stim</sub>, hence the vertical border between
+class 1 and 2 excitability on the same plots.</p><p>The adaptation observed in phasic-spiking neurons is also interesting insofar as it
+indicates that shifting the balance of fast and slow currents has important
+consequences for coding, and that a given neuron is not restricted to a unique spike
+initiation mechanism. Effects of activating an outward current or inactivating an
+inward current on ultra-slow time scales (across several ISIs) can be predicted from
+plots like <xref ref-type="fig" rid="pcbi-1000198-g007">Figure 7C</xref>: individual
+spikes are still generated through one of the three dynamical mechanisms we have
+described, but that mechanism can change over time according to dynamics of the
+ultra-slow process. Bursting, stuttering, and other interesting phenomena occur when
+ultra-slow processes interact with the fast-slow dynamics controlling spike
+initiation <xref rid="pcbi.1000198-Rinzel1" ref-type="bibr">[7]</xref>,<xref rid="pcbi.1000198-Izhikevich1" ref-type="bibr">[13]</xref>,<xref rid="pcbi.1000198-Golomb1" ref-type="bibr">[33]</xref>.
+Understanding the relatively simple process of spike initiation will surely
+facilitate our understanding of how modulation of intrinsic properties impacts
+excitability and how more complex phenomena arise.</p><p>Although the dynamical bases for class 1 and 2 excitability have been established for
+some time <xref rid="pcbi.1000198-Rinzel1" ref-type="bibr">[7]</xref>, the connection between class 3 excitability and spike
+initiation through a QSC has not been made explicitly. The concept of spike
+initiation through a QSC was first proposed by FitzHugh <xref rid="pcbi.1000198-FitzHugh1" ref-type="bibr">[22]</xref>,<xref rid="pcbi.1000198-FitzHugh2" ref-type="bibr">[23]</xref>, who considered
+responses to brief pulses as well as to prolonged depolarizing and hyperpolarizing
+steps. However, Fitzhugh's explanation seems to have faded or, at best, is
+remembered in specific contexts such as post-inhibitory rebound excitation (e.g.,
+<xref rid="pcbi.1000198-Borisyuk1" ref-type="bibr">[27]</xref>). Class 3 excitability has been reproduced in a
+Morris-Lecar-like model <xref rid="pcbi.1000198-AgmonSnir1" ref-type="bibr">[34]</xref>, but the spike initiating dynamics were not
+explored in that study. Izhikevich <xref rid="pcbi.1000198-Izhikevich1" ref-type="bibr">[13]</xref> accurately
+described class 3 excitability and ascribed it to <italic>accommodation</italic>,
+but this does not provide as satisfying a dynamical explanation as a QSC, which can
+accurately predict whether a spike will be initiated based on where the trajectory
+starts relative to the quasi-separatrix (see <xref ref-type="fig" rid="pcbi-1000198-g002">Figure 2</xref>). Indeed, the predictive power of a QSC
+(see <xref ref-type="fig" rid="pcbi-1000198-g003">Figure 3</xref>) attests to its
+utility and will hopefully lead to increased application of this concept within the
+field.</p><p>Experimental study of class 3 excitability has been neglected at least partly because
+of the mistaken assumption that all neurons displaying a single-spiking pattern are
+unhealthy (i.e., that the quality of the recording is poor). Indeed, an unhealthy
+neuron will often fail to spike repetitively, but many other indices of neuronal
+health (e.g., resting membrane potential) have proven that a single-spiking pattern
+is not synonymous with dysfunction. Indeed, &#x0201c;healthy&#x0201d;
+single-spiking neurons have been described not only in the superficial dorsal horn
+of the spinal cord <xref rid="pcbi.1000198-Prescott1" ref-type="bibr">[14]</xref>,<xref rid="pcbi.1000198-Ruscheweyh1" ref-type="bibr">[15]</xref>,<xref rid="pcbi.1000198-Balasubramanyan1" ref-type="bibr">[35]</xref>, but also deeper in the spinal cord <xref rid="pcbi.1000198-Miura1" ref-type="bibr">[36]</xref>, as well
+as in dorsal root ganglia <xref rid="pcbi.1000198-Glazebrook1" ref-type="bibr">[37]</xref>,<xref rid="pcbi.1000198-Sculptoreanu1" ref-type="bibr">[38]</xref>, retina <xref rid="pcbi.1000198-Wang1" ref-type="bibr">[39]</xref>, amygdala
+<xref rid="pcbi.1000198-Faber1" ref-type="bibr">[40]</xref>,
+nucleus tractus solitarius <xref rid="pcbi.1000198-Paton1" ref-type="bibr">[41]</xref>, medial superior olive <xref rid="pcbi.1000198-Smith1" ref-type="bibr">[42]</xref>, medial nucleus of the
+trapezoid body <xref rid="pcbi.1000198-Brew1" ref-type="bibr">[43]</xref>, and anteroventral cochlear nucleus <xref rid="pcbi.1000198-Agar1" ref-type="bibr">[44]</xref>. This
+list is not complete, at least in part because of the sampling bias explained above,
+but it nonetheless suggests that class 3 neurons are common within sensory pathways
+and certainly warrant increased investigation. Interestingly, mossy fiber boutons
+<xref rid="pcbi.1000198-Rancz1" ref-type="bibr">[45]</xref>
+and the axons of neocortical pyramidal neurons <xref rid="pcbi.1000198-Shu1" ref-type="bibr">[46]</xref> also exhibit a
+single-spiking pattern when stimulated with prolonged depolarizing steps.</p><p>Class 3 excitability has been most extensively studied in the auditory system where
+the single- (or onset-) spiking pattern has been shown to result from a
+low-threshold K<sup>&#x0002b;</sup> current <xref rid="pcbi.1000198-Brew1" ref-type="bibr">[43]</xref>,<xref rid="pcbi.1000198-Rathouz1" ref-type="bibr">[47]</xref>. Svirskis et al. <xref rid="pcbi.1000198-Svirskis1" ref-type="bibr">[30]</xref> have
+also shown that inactivation of Na<sup>&#x0002b;</sup> current factors into the
+coding properties of those neurons, arguing that well-timed spikes are generated by
+rapid depolarizing input that minimizes activation of
+<italic>I</italic>
+<sub>K,lt</sub> and inactivation of
+<italic>I</italic>
+<sub>Na</sub>; ideally, that rapid depolarization is preceded by
+hyperpolarizing input that primes the neuron by deactivating
+<italic>I</italic>
+<sub>K,lt</sub> and deinactivating
+<italic>I</italic>
+<sub>Na</sub>. That biophysical explanation is consistent with our
+data. Single-spiking cells in the auditory system also exhibit variably sized spikes
+(e.g., <xref rid="pcbi.1000198-Ferragamo1" ref-type="bibr">[48]</xref>), which is also consistent with our results (see
+<xref ref-type="fig" rid="pcbi-1000198-g003">Figure 3A and 3B</xref>), as is the
+temperature-dependence of that variability <xref rid="pcbi.1000198-Cao1" ref-type="bibr">[49]</xref>: in our model, the rate at
+which <italic>V</italic> changes relative to <italic>w</italic> is controlled by
+<italic>&#x003c6;</italic>
+<sub>w</sub> (see Equation 3) and is liable to vary
+with temperature <xref rid="pcbi.1000198-Rinzel1" ref-type="bibr">[7]</xref>, meaning temperature can influence spike amplitude
+in the model by changing how quickly trajectories peel away from the
+quasi-separatrix (data not shown). Based on these several lines of evidence, a QSC
+appears to be a robust explanation of the single-spiking pattern, not only for
+spinal lamina I neurons, but also for similar neurons elsewhere in the nervous
+system.</p><p>As explained in the Introduction, Hodgkin identified three classes of neurons based
+on phenomenological differences in their spiking pattern <xref rid="pcbi.1000198-Hodgkin2" ref-type="bibr">[5]</xref>. Subsequent work has
+linked that classification to differences in neural coding <xref rid="pcbi.1000198-Ermentrout1" ref-type="bibr">[6]</xref>&#x02013;<xref rid="pcbi.1000198-Tateno3" ref-type="bibr">[12]</xref>. We
+have not formally investigated in this study how spike initiating dynamics impact
+neural coding, but increased understanding of spike initiation will facilitate
+future investigations into important issues such as spike-timing reliability.
+Indeed, our data (e.g., <xref ref-type="fig" rid="pcbi-1000198-g001">Figure
+1</xref>) suggest that class 3 neurons are ideally suited to encode stimulus onset
+(timing) whereas class 1 neurons are better suited to encode stimulus intensity.
+Future work will focus on how spike initiating dynamics impact encoding of different
+stimulus features.</p><p>To conclude, Hodgkin's three classes of excitability result from different
+outcomes in a competition between fast and slow currents. The kinetic mismatch
+between currents is crucial for allowing single-spiking (class 3 excitability) or
+repetitive spiking faster than a critical frequency (class 2 excitability) despite
+the net steady state current being outward at threshold. Moreover, reproduction of
+qualitatively different spiking patterns in a 2D model emphasizes that rich dynamics
+are possible in simple systems based on their nonlinearities. Identifying
+functionally important nonlinearities and then determining how they are biologically
+implemented represents a powerful way of deciphering the functional significance of
+biophysical properties.</p></sec><sec id="s4"><title>Methods</title><sec id="s4a"><title>Slicing and Electrophysiology in Spinal Cord</title><p>All experiments were performed in accordance with regulations of the Canadian
+Council on Animal Care. Adult male Sprague Dawley rats were anesthetized with
+intraperitoneal injection of sodium pentobarbital (30 mg/kg) and perfused
+intracardially with ice-cold oxygenated (95&#x00025; O<sub>2</sub> and
+5&#x00025; CO<sub>2</sub>) sucrose-substituted artificial cerebrospinal fluid
+(S-ACSF) containing (in mM) 252 sucrose, 2.5 KCl, 2 CaCl<sub>2</sub>, 2
+MgCl<sub>2</sub>, 10 glucose, 26 NaHCO<sub>3</sub>, 1.25
+NaH<sub>2</sub>PO<sub>4</sub>, and 5 kynurenic acid; pH 7.35;
+340&#x02013;350 mOsm. The spinal cord was removed by hydraulic extrusion and
+sliced in the parasagittal plane as previously described <xref rid="pcbi.1000198-Chry1" ref-type="bibr">[50]</xref>. Slices were stored
+at room temperature in normal oxygenated ACSF (126 mM NaCl instead of sucrose
+and without kynurenic acid; 300&#x02013;310 mOsm) until recording.</p><p>Slices were transferred to a recording chamber constantly perfused at &#x0223c;2
+ml/min with oxygenated (95&#x00025; O<sub>2</sub> and 5&#x00025;
+CO<sub>2</sub>), room temperature ACSF. Lamina I neurons were visualized with
+gradient-contrast optics on a modified Zeiss Axioplan2 microscope (Oberkochen,
+Germany) and were patched on with pipettes filled with (in mM) 135
+KMeSO<sub>4</sub>, 5 KCl, 10 HEPES, and 2 MgCl<sub>2</sub>, 4 ATP (Sigma, St
+Louis, MO), 0.4 GTP (Sigma); pH was adjusted to 7.2 with KOH and osmolarity
+ranged from 270&#x02013;290 mOsm. Whole cell current clamp recordings were
+performed using an Axopatch 200B amplifier (Molecular Devices, Palo Alto, CA).
+Functional classification was determined from responses to 900 ms-long current
+steps <xref rid="pcbi.1000198-Prescott1" ref-type="bibr">[14]</xref> with pre-stimulus membrane potential adjusted to
+&#x02212;60 mV by constant current injection in order to standardize across
+cells. Other stimuli included a noisy waveform generated through an
+Ornstein-Uhlenbeck process <xref rid="pcbi.1000198-Uhlenbeck1" ref-type="bibr">[51]</xref>,<disp-formula><graphic xlink:href="pcbi.1000198.e006.jpg" mimetype="image" position="float"/><label>(1)</label></disp-formula>where <italic>N</italic>(0,1) is a random number drawn from a
+Gaussian distribution with average 0 and unit variance, which is then adjusted
+according to size of the time step. Noise amplitude
+(<italic>&#x003c3;</italic>
+<sub>noise</sub>) and filtering
+(<italic>&#x003c4;</italic>
+<sub>noise</sub>) are reported in the text. DC
+offset (<italic>I</italic>
+<sub>avg</sub>) was adjusted to give roughly
+equivalent firing rates across different neurons.</p><p>Traces were low-passed filtered at 3&#x02013;10 KHz and stored on videotape
+using a digital data recorder (VR-10B, Instrutech, Port Washington, NY).
+Recordings were later sampled at 10&#x02013;20 KHz on a computer using
+Strathclyde Electrophysiology software (J. Dempster, Department of Physiology
+and Pharmacology, University of Strathclyde, Glasgow, UK).</p></sec><sec id="s4b"><title>Computational Modeling</title><sec id="s4b1"><title>Two-dimensional model</title><p>Our starting model was derived from the Morris-Lecar model <xref rid="pcbi.1000198-Rinzel1" ref-type="bibr">[7]</xref>,<xref rid="pcbi.1000198-Morris1" ref-type="bibr">[52]</xref> with a fast
+activation variable <italic>V</italic> and a slower recovery variable
+<italic>w</italic>. <italic>V</italic> represents voltage and controls
+instantaneous activation of fast currents
+(<italic>I</italic>
+<sub>fast</sub>); <italic>w</italic> is a function of
+voltage and controls activation of slower currents
+(<italic>I</italic>
+<sub>slow</sub>). Both
+<italic>I</italic>
+<sub>fast</sub> and <italic>I</italic>
+<sub>slow</sub> may
+comprise more than one current (see below); currents with similar kinetics
+were bundled together in order to create a low-dimensional model. The system
+is described by<disp-formula><graphic xlink:href="pcbi.1000198.e007.jpg" mimetype="image" position="float"/><label>(2)</label></disp-formula>
+<disp-formula><graphic xlink:href="pcbi.1000198.e008.jpg" mimetype="image" position="float"/><label>(3)</label></disp-formula>
+<disp-formula><graphic xlink:href="pcbi.1000198.e009.jpg" mimetype="image" position="float"/><label>(4)</label></disp-formula>
+<disp-formula><graphic xlink:href="pcbi.1000198.e010.jpg" mimetype="image" position="float"/><label>(5)</label></disp-formula>
+<disp-formula><graphic xlink:href="pcbi.1000198.e011.jpg" mimetype="image" position="float"/><label>(6)</label></disp-formula>Unless otherwise stated,
+<italic>E</italic>
+<sub>Na</sub>&#x0200a;=&#x0200a;50 mV,
+<italic>E</italic>
+<sub>K</sub>&#x0200a;=&#x0200a;&#x02212;100
+mV,
+<italic>E</italic>
+<sub>leak</sub>&#x0200a;=&#x0200a;&#x02212;70
+mV,
+<italic>&#x01e21;</italic>
+<sub>fast</sub>&#x0200a;=&#x0200a;20
+mS/cm<sup>2</sup>,
+<italic>&#x01e21;</italic>
+<sub>slow</sub>&#x0200a;=&#x0200a;20
+mS/cm<sup>2</sup>,
+<italic>g</italic>
+<sub>leak</sub>&#x0200a;=&#x0200a;2
+mS/cm<sup>2</sup>,
+<italic>&#x003c6;</italic>
+<sub>w</sub>&#x0200a;=&#x0200a;0.15,
+<italic>C</italic>&#x0200a;=&#x0200a;2
+&#x000b5;F/cm<sup>2</sup>,
+<italic>&#x003b2;</italic>
+<sub>m</sub>&#x0200a;=&#x0200a;&#x02212;1.2
+mV,
+<italic>&#x003b3;</italic>
+<sub>m</sub>&#x0200a;=&#x0200a;18
+mV,
+<italic>&#x003b3;</italic>
+<sub>w</sub>&#x0200a;=&#x0200a;10
+mV, and <italic>&#x003b2;</italic>
+<sub>w</sub> was varied as explained
+below.</p><p>This simple 2D model displayed each of Hodgkin's three classes of
+excitability but excluded details unnecessary for explaining the response
+properties of interest. Within that minimalist framework, we sought to
+isolate parameters sufficient to distinguish one class of excitability from
+another. Parameter values were found by manually varying them to produce a
+tonic- or single-spiking pattern. Once a set of parameters was found for
+each pattern, parameters were compared and adjusted to isolate those
+sufficient to explain each pattern. Varying
+<italic>&#x003b2;</italic>
+<sub>w</sub> was found to be sufficient to convert
+the model between tonic-spiking (class 1 excitability) and single-spiking
+(class 3 excitability); varying other parameters including
+<italic>&#x01e21;</italic>
+<sub>fast</sub>,
+<italic>&#x01e21;</italic>
+<sub>slow</sub>,
+<italic>&#x003b2;</italic>
+<sub>m</sub> or
+<italic>&#x003b3;</italic>
+<sub>w</sub> also affected excitability
+through the same geometrical changes associated with varying
+<italic>&#x003b2;</italic>
+<sub>w</sub> (see <xref ref-type="fig" rid="pcbi-1000198-g008">Figure 8</xref>). Intermediate values of the
+aforementioned parameters consistently produced class 2 excitability.</p></sec><sec id="s4b2"><title>Three-dimensional model</title><p>To make the model more biophysically realistic, we converted the 2D model
+into a 3D model (see <xref ref-type="fig" rid="pcbi-1000198-g004">Figure
+4</xref>) by splitting <italic>I</italic>
+<sub>slow</sub> into its component
+parts which include the delayed rectifier K<sup>&#x0002b;</sup> current
+<italic>I</italic>
+<sub>K,dr</sub> and a subthreshold current
+<italic>I</italic>
+<sub>sub</sub> that is either inward or outward
+depending on <italic>E</italic>
+<sub>sub</sub>. Activation of
+<italic>g</italic>
+<sub>K,dr</sub> and <italic>g</italic>
+<sub>sub</sub>
+was controlled by <italic>y</italic> and <italic>z</italic>, respectively,
+so that<disp-formula><graphic xlink:href="pcbi.1000198.e012.jpg" mimetype="image" position="float"/><label>(7)</label></disp-formula>
+<disp-formula><graphic xlink:href="pcbi.1000198.e013.jpg" mimetype="image" position="float"/><label>(8)</label></disp-formula>
+<disp-formula><graphic xlink:href="pcbi.1000198.e014.jpg" mimetype="image" position="float"/><label>(9)</label></disp-formula>
+<disp-formula><graphic xlink:href="pcbi.1000198.e015.jpg" mimetype="image" position="float"/><label>(10)</label></disp-formula>
+<disp-formula><graphic xlink:href="pcbi.1000198.e016.jpg" mimetype="image" position="float"/><label>(11)</label></disp-formula>
+<disp-formula><graphic xlink:href="pcbi.1000198.e017.jpg" mimetype="image" position="float"/><label>(12)</label></disp-formula>
+<disp-formula><graphic xlink:href="pcbi.1000198.e018.jpg" mimetype="image" position="float"/><label>(13)</label></disp-formula>
+<italic>I</italic>
+<sub>sub</sub> was either inward
+(<italic>E</italic>
+<sub>sub</sub>&#x0200a;=&#x0200a;<italic>E</italic>
+<sub>Na</sub>&#x0200a;=&#x0200a;50
+mV) or outward
+(<italic>E</italic>
+<sub>sub</sub>&#x0200a;=&#x0200a;<italic>E</italic>
+<sub>K</sub>&#x0200a;=&#x0200a;&#x02212;100
+mV) and <italic>&#x01e21;</italic>
+<sub>sub</sub> was varied. Kinetics of
+<italic>I</italic>
+<sub>sub</sub> were adjusted to match experimental
+data so that
+<italic>&#x003c6;</italic>
+<sub>z</sub>&#x0200a;=&#x0200a;0.5
+for inward current and
+<italic>&#x003c6;</italic>
+<sub>z</sub>&#x0200a;=&#x0200a;0.15
+for outward current. The steady-state activation curve for
+<italic>z</italic> was the same for all models with
+<italic>&#x003b2;</italic>
+<sub>z</sub>&#x0200a;=&#x0200a;&#x02212;21
+mV and
+<italic>&#x003b3;</italic>
+<sub>z</sub>&#x0200a;=&#x0200a;15
+mV.
+<italic>&#x003c6;</italic>
+<sub>y</sub>&#x0200a;=&#x0200a;0.15,
+<italic>&#x003b2;</italic>
+<sub>y</sub>&#x0200a;=&#x0200a;&#x02212;10
+mV,
+<italic>&#x003b3;</italic>
+<sub>y</sub>&#x0200a;=&#x0200a;10
+mV, and all other parameters were the same as in the 2D model.</p></sec><sec id="s4b3"><title>Simulation methods</title><p>To stimulate the model, <italic>I</italic>
+<sub>stim</sub> (in
+&#x000b5;A/cm<sup>2</sup>) was varied to produce steps, noise, or
+ramps comparable to stimuli used in experiments. Equations were integrated
+numerically in XPP <xref rid="pcbi.1000198-Ermentrout2" ref-type="bibr">[53]</xref> using the Euler method and a 0.1 ms time
+step. Phase plane and bifurcation analyses were performed according to
+standard procedures <xref rid="pcbi.1000198-Rinzel1" ref-type="bibr">[7]</xref>,<xref rid="pcbi.1000198-Strogatz1" ref-type="bibr">[54]</xref>. Briefly,
+phase plane analysis involves plotting system variables relative to each
+other. Nullclines represent areas in phase space where a given variable
+remains constant. How the nullclines intersect (i.e., whether the
+intersection is stable or unstable) determines whether the system evolves
+towards a fixed point or towards a limit cycle (i.e., subthreshold membrane
+potential or repetitive spiking, respectively).</p><p>Nullclines were calculated in XPP <xref rid="pcbi.1000198-Ermentrout2" ref-type="bibr">[53]</xref>. For
+calculating a nullcline at time <italic>t</italic>, all variables not
+associated with the nullcline were held constant at their value at time
+<italic>t</italic>. Stability of fixed points was determined from the
+eigenvalues found by local stability analysis near the fixed point. A
+quasi-separatrix is distinct from a nullcline and was identified by the
+separation of flow on the phase plane (i.e., trajectories peal away to the
+right or left of the quasi-separatrix). The quasi-separatrix was plotted by
+integrating backward in time (&#x02212;0.01 ms time step) from point
+&#x0002a; indicated on relevant figures; see <xref ref-type="sec" rid="s2">Results</xref> for additional details.</p><p>In bifurcation analysis, <italic>I</italic>
+<sub>stim</sub> was systematically
+varied to determine at what point the system qualitatively changes behavior
+(i.e., starts or stops spiking), which corresponds to a bifurcation. Whereas
+repetitive spiking is generated through a bifurcation, single-spiking
+generated through a QSC is not evident on a bifurcation diagram since the
+system's steady state has not changed. The stimulus range over
+which a QSC occurs is therefore indicated based on independent
+simulations.</p></sec></sec></sec></body><back><fn-group><fn fn-type="COI-statement"><p>The authors have declared that no competing interests exist.</p></fn><fn fn-type="financial-disclosure"><p>This research was supported by the Howard Hughes Medical Institute (TJS) and the
+Natural Sciences and Engineering Research Council of Canada (YDK). SAP is a long
+term fellow with the Human Frontier Science Program and YDK is a Chercheur
+National with the Fonds de la Recherche en Sant&#x000e9; du
+Qu&#x000e9;bec. None of the funding agencies had any role in the design or
+conduct of the study.</p></fn></fn-group><ref-list><title>References</title><ref id="pcbi.1000198-Adrian1"><label>1</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Adrian</surname><given-names>ED</given-names></name></person-group>
+<year>1932</year>
+<source>The Mechanism of Nervous Action: Electrical Studies of the Neurone</source>
+<publisher-loc>Philadelphia</publisher-loc>
+<publisher-name>University of Pennsylvania Press</publisher-name>
+</element-citation></ref><ref id="pcbi.1000198-Hodgkin1"><label>2</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hodgkin</surname><given-names>AL</given-names></name><name><surname>Huxley</surname><given-names>AF</given-names></name></person-group>
+<year>1952</year>
+<article-title>A quantitative description of membrane current and its
+application to conduction and excitation in nerve.</article-title>
+<source>J Physiol</source>
+<volume>117</volume>
+<fpage>500</fpage>
+<lpage>544</lpage>
+<pub-id pub-id-type="pmid">12991237</pub-id></element-citation></ref><ref id="pcbi.1000198-Llins1"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Llin&#x000e1;s</surname><given-names>RR</given-names></name></person-group>
+<year>1988</year>
+<article-title>The intrinsic electrophysiological properties of mammalian
+neurons: insights into central nervous system function.</article-title>
+<source>Science</source>
+<volume>242</volume>
+<fpage>1654</fpage>
+<lpage>1664</lpage>
+<pub-id pub-id-type="pmid">3059497</pub-id></element-citation></ref><ref id="pcbi.1000198-Connors1"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Connors</surname><given-names>BW</given-names></name><name><surname>Gutnick</surname><given-names>MJ</given-names></name></person-group>
+<year>1990</year>
+<article-title>Intrinsic firing patterns of diverse neocortical neurons.</article-title>
+<source>Trends Neurosci</source>
+<volume>13</volume>
+<fpage>99</fpage>
+<lpage>104</lpage>
+<pub-id pub-id-type="pmid">1691879</pub-id></element-citation></ref><ref id="pcbi.1000198-Hodgkin2"><label>5</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hodgkin</surname><given-names>AL</given-names></name></person-group>
+<year>1948</year>
+<article-title>The local electric changes associated with repetitive action in a
+non-medullated axon.</article-title>
+<source>J Physiol</source>
+<fpage>165</fpage>
+<lpage>181</lpage>
+<pub-id pub-id-type="pmid">16991796</pub-id></element-citation></ref><ref id="pcbi.1000198-Ermentrout1"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ermentrout</surname><given-names>B</given-names></name></person-group>
+<year>1996</year>
+<article-title>Type I membranes, phase resetting curves, and synchrony.</article-title>
+<source>Neural Comput</source>
+<volume>8</volume>
+<fpage>979</fpage>
+<lpage>1001</lpage>
+<pub-id pub-id-type="pmid">8697231</pub-id></element-citation></ref><ref id="pcbi.1000198-Rinzel1"><label>7</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Rinzel</surname><given-names>J</given-names></name><name><surname>Ermentrout</surname><given-names>GB</given-names></name></person-group>
+<year>1998</year>
+<article-title>Analysis of neural excitability and oscillations.</article-title>
+<person-group person-group-type="editor"><name><surname>Koch</surname><given-names>C</given-names></name><name><surname>Segev</surname><given-names>I</given-names></name></person-group>
+<source>Methods in Neuronal Modeling: From Ions to Networks</source>
+<publisher-loc>Cambridge (Massachusetts)</publisher-loc>
+<publisher-name>The MIT Press</publisher-name>
+<fpage>251</fpage>
+<lpage>291</lpage>
+</element-citation></ref><ref id="pcbi.1000198-Gutkin1"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gutkin</surname><given-names>B</given-names></name><name><surname>Ermentrout</surname><given-names>GB</given-names></name><name><surname>Rudolph</surname><given-names>M</given-names></name></person-group>
+<year>2003</year>
+<article-title>Spike generating dynamics and the conditions for spike-time
+precision in cortical neurons.</article-title>
+<source>J Comput Neurosci</source>
+<volume>15</volume>
+<fpage>91</fpage>
+<lpage>103</lpage>
+<pub-id pub-id-type="pmid">12843697</pub-id></element-citation></ref><ref id="pcbi.1000198-StHilaire1"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>St Hilaire</surname><given-names>M</given-names></name><name><surname>Longtin</surname><given-names>A</given-names></name></person-group>
+<year>2004</year>
+<article-title>Comparison of coding capabilities of type I and type II neurons.</article-title>
+<source>J Comput Neurosci</source>
+<volume>16</volume>
+<fpage>299</fpage>
+<lpage>313</lpage>
+<pub-id pub-id-type="pmid">15114051</pub-id></element-citation></ref><ref id="pcbi.1000198-Tateno1"><label>10</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tateno</surname><given-names>T</given-names></name><name><surname>Harsch</surname><given-names>A</given-names></name><name><surname>Robinson</surname><given-names>HP</given-names></name></person-group>
+<year>2004</year>
+<article-title>Threshold firing frequency-current relationships of neurons in
+rat somatosensory cortex: type 1 and type 2 dynamics.</article-title>
+<source>J Neurophysiol</source>
+<volume>92</volume>
+<fpage>2283</fpage>
+<lpage>2294</lpage>
+<pub-id pub-id-type="pmid">15381746</pub-id></element-citation></ref><ref id="pcbi.1000198-Tateno2"><label>11</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tateno</surname><given-names>T</given-names></name><name><surname>Robinson</surname><given-names>HP</given-names></name></person-group>
+<year>2006</year>
+<article-title>Rate coding and spike-time variability in cortical neurons with
+two types of threshold dynamics.</article-title>
+<source>J Neurophysiol</source>
+<volume>95</volume>
+<fpage>2650</fpage>
+<lpage>2663</lpage>
+<pub-id pub-id-type="pmid">16551842</pub-id></element-citation></ref><ref id="pcbi.1000198-Tateno3"><label>12</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tateno</surname><given-names>T</given-names></name><name><surname>Robinson</surname><given-names>HP</given-names></name></person-group>
+<year>2007</year>
+<article-title>Phase resetting curves and oscillatory stability in interneurons
+of rat somatosensory cortex.</article-title>
+<source>Biophys J</source>
+<volume>92</volume>
+<fpage>683</fpage>
+<lpage>695</lpage>
+<pub-id pub-id-type="pmid">17192317</pub-id></element-citation></ref><ref id="pcbi.1000198-Izhikevich1"><label>13</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Izhikevich</surname><given-names>EM</given-names></name></person-group>
+<year>2007</year>
+<source>Dynamical Systems in Neuroscience</source>
+<publisher-loc>Cambridge (Massachusetts)</publisher-loc>
+<publisher-name>MIT Press</publisher-name>
+</element-citation></ref><ref id="pcbi.1000198-Prescott1"><label>14</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Prescott</surname><given-names>SA</given-names></name><name><surname>De Koninck</surname><given-names>Y</given-names></name></person-group>
+<year>2002</year>
+<article-title>Four cell types with distinctive membrane properties and
+morphologies in lamina I of the spinal dorsal horn of the adult rat.</article-title>
+<source>J Physiol</source>
+<volume>539</volume>
+<fpage>817</fpage>
+<lpage>836</lpage>
+<pub-id pub-id-type="pmid">11897852</pub-id></element-citation></ref><ref id="pcbi.1000198-Ruscheweyh1"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ruscheweyh</surname><given-names>R</given-names></name><name><surname>Sandkuhler</surname><given-names>J</given-names></name></person-group>
+<year>2002</year>
+<article-title>Lamina-specific membrane and discharge properties of rat spinal
+dorsal horn neurones in vitro.</article-title>
+<source>J Physiol</source>
+<volume>541</volume>
+<fpage>231</fpage>
+<lpage>244</lpage>
+<pub-id pub-id-type="pmid">12015432</pub-id></element-citation></ref><ref id="pcbi.1000198-LopezGarcia1"><label>16</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lopez-Garcia</surname><given-names>JA</given-names></name><name><surname>King</surname><given-names>AE</given-names></name></person-group>
+<year>1994</year>
+<article-title>Membrane properties of physiologically classified rat dorsal horn
+neurons in vitro: correlation with cutaneous sensory afferent input.</article-title>
+<source>Eur J Neurosci</source>
+<volume>6</volume>
+<fpage>998</fpage>
+<lpage>1007</lpage>
+<pub-id pub-id-type="pmid">7952286</pub-id></element-citation></ref><ref id="pcbi.1000198-Thomson1"><label>17</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Thomson</surname><given-names>AM</given-names></name><name><surname>West</surname><given-names>DC</given-names></name><name><surname>Headley</surname><given-names>PM</given-names></name></person-group>
+<year>1989</year>
+<article-title>Membrane characteristics and synaptic responsiveness of
+superficial dorsal horn neurons in a slice preparation of adult rat spinal
+cord.</article-title>
+<source>Eur J Neurosci</source>
+<volume>1</volume>
+<fpage>479</fpage>
+<lpage>488</lpage>
+<pub-id pub-id-type="pmid">12106133</pub-id></element-citation></ref><ref id="pcbi.1000198-Grudt1"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Grudt</surname><given-names>TJ</given-names></name><name><surname>Perl</surname><given-names>ER</given-names></name></person-group>
+<year>2002</year>
+<article-title>Correlations between neuronal morphology and electrophysiological
+features in the rodent superficial dorsal horn.</article-title>
+<source>J Physiol</source>
+<volume>540</volume>
+<fpage>189</fpage>
+<lpage>207</lpage>
+<pub-id pub-id-type="pmid">11927679</pub-id></element-citation></ref><ref id="pcbi.1000198-Chandler1"><label>19</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chandler</surname><given-names>SH</given-names></name><name><surname>Hsaio</surname><given-names>CF</given-names></name><name><surname>Inoue</surname><given-names>T</given-names></name><name><surname>Goldberg</surname><given-names>LJ</given-names></name></person-group>
+<year>1994</year>
+<article-title>Electrophysiological properties of guinea pig trigeminal
+motoneurons recorded in vitro.</article-title>
+<source>J Neurophysiol</source>
+<volume>71</volume>
+<fpage>129</fpage>
+<lpage>145</lpage>
+<pub-id pub-id-type="pmid">7908952</pub-id></element-citation></ref><ref id="pcbi.1000198-Erisir1"><label>20</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Erisir</surname><given-names>A</given-names></name><name><surname>Lau</surname><given-names>D</given-names></name><name><surname>Rudy</surname><given-names>B</given-names></name><name><surname>Leonard</surname><given-names>CS</given-names></name></person-group>
+<year>1999</year>
+<article-title>Function of specific K<sup>&#x0002b;</sup> channels in sustained
+high-frequency firing of fast-spiking neocortical interneurons.</article-title>
+<source>J Neurophysiol</source>
+<volume>82</volume>
+<fpage>2476</fpage>
+<lpage>2489</lpage>
+<pub-id pub-id-type="pmid">10561420</pub-id></element-citation></ref><ref id="pcbi.1000198-Hong1"><label>21</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hong</surname><given-names>S</given-names></name><name><surname>Arcas</surname><given-names>B</given-names></name><name><surname>Fairhall</surname><given-names>AL</given-names></name></person-group>
+<year>2007</year>
+<article-title>Single neuron computation: from dynamical system to feature
+detector.</article-title>
+<source>Neural Comput</source>
+<volume>19</volume>
+<fpage>3133</fpage>
+<lpage>3172</lpage>
+<pub-id pub-id-type="pmid">17970648</pub-id></element-citation></ref><ref id="pcbi.1000198-FitzHugh1"><label>22</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>FitzHugh</surname><given-names>R</given-names></name></person-group>
+<year>1961</year>
+<article-title>Impulses and physiological states in theoretical models of nerve
+membrane.</article-title>
+<source>Biophys J</source>
+<volume>1</volume>
+<fpage>445</fpage>
+<lpage>466</lpage>
+<pub-id pub-id-type="pmid">19431309</pub-id></element-citation></ref><ref id="pcbi.1000198-FitzHugh2"><label>23</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>FitzHugh</surname><given-names>R</given-names></name></person-group>
+<year>1969</year>
+<article-title>Mathematical models of excitation and propagation in nerve.</article-title>
+<person-group person-group-type="editor"><name><surname>Schwan</surname><given-names>HP</given-names></name></person-group>
+<source>Biological Engineering</source>
+<publisher-loc>Toronto, Canada</publisher-loc>
+<publisher-name>McGraw-Hill Book Company</publisher-name>
+<fpage>1</fpage>
+<lpage>85</lpage>
+</element-citation></ref><ref id="pcbi.1000198-ToledoRodriguez1"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Toledo-Rodriguez</surname><given-names>M</given-names></name><name><surname>Blumenfeld</surname><given-names>B</given-names></name><name><surname>Wu</surname><given-names>C</given-names></name><name><surname>Luo</surname><given-names>J</given-names></name><name><surname>Attali</surname><given-names>B</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Correlation maps allow neuronal electrical properties to be
+predicted from single-cell gene expression profiles in rat neocortex.</article-title>
+<source>Cereb Cortex</source>
+<volume>14</volume>
+<fpage>1310</fpage>
+<lpage>1327</lpage>
+<pub-id pub-id-type="pmid">15192011</pub-id></element-citation></ref><ref id="pcbi.1000198-Kepler1"><label>25</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kepler</surname><given-names>TB</given-names></name><name><surname>Abbott</surname><given-names>LF</given-names></name><name><surname>Marder</surname><given-names>E</given-names></name></person-group>
+<year>1992</year>
+<article-title>Reduction of conductance-based neuron models.</article-title>
+<source>Biol Cybern</source>
+<volume>66</volume>
+<fpage>381</fpage>
+<lpage>387</lpage>
+<pub-id pub-id-type="pmid">1562643</pub-id></element-citation></ref><ref id="pcbi.1000198-Prescott2"><label>26</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Prescott</surname><given-names>SA</given-names></name><name><surname>De Koninck</surname><given-names>Y</given-names></name></person-group>
+<year>2005</year>
+<article-title>Integration time in a subset of spinal lamina I neurons is
+lengthened by sodium and calcium currents acting synergistically to prolong
+subthreshold depolarization.</article-title>
+<source>J Neurosci</source>
+<volume>25</volume>
+<fpage>4743</fpage>
+<lpage>4754</lpage>
+<pub-id pub-id-type="pmid">15888650</pub-id></element-citation></ref><ref id="pcbi.1000198-Borisyuk1"><label>27</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Borisyuk</surname><given-names>A</given-names></name><name><surname>Rinzel</surname><given-names>J</given-names></name></person-group>
+<year>2005</year>
+<article-title>Understanding neuronal dynamics by geometrical dissection of
+minimal models.</article-title>
+<person-group person-group-type="editor"><name><surname>Chow</surname><given-names>C</given-names></name><name><surname>Gutkin</surname><given-names>B</given-names></name><name><surname>Hansel</surname><given-names>D</given-names></name><name><surname>Meunier</surname><given-names>C</given-names></name><name><surname>Dalibard</surname><given-names>J</given-names></name></person-group>
+<source>Methods and Models in Neurophysics, Proceedings of Les Houches Summer
+School</source>
+<publisher-name>Elsevier</publisher-name>
+<fpage>19</fpage>
+<lpage>72</lpage>
+</element-citation></ref><ref id="pcbi.1000198-Jack1"><label>28</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Jack</surname><given-names>JJB</given-names></name><name><surname>Noble</surname><given-names>D</given-names></name><name><surname>Tsien</surname><given-names>RY</given-names></name></person-group>
+<year>1975</year>
+<source>Electric Current Flow in Excitable Cells</source>
+<publisher-loc>Oxford, UK</publisher-loc>
+<publisher-name>Clarendon Press</publisher-name>
+</element-citation></ref><ref id="pcbi.1000198-Wilson1"><label>29</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wilson</surname><given-names>HR</given-names></name></person-group>
+<year>1999</year>
+<article-title>Simplified dynamics of human and mammalian neocortical neurons.</article-title>
+<source>J Theor Biol</source>
+<volume>200</volume>
+<fpage>375</fpage>
+<lpage>388</lpage>
+<pub-id pub-id-type="pmid">10525397</pub-id></element-citation></ref><ref id="pcbi.1000198-Svirskis1"><label>30</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Svirskis</surname><given-names>G</given-names></name><name><surname>Kotak</surname><given-names>V</given-names></name><name><surname>Sanes</surname><given-names>DH</given-names></name><name><surname>Rinzel</surname><given-names>J</given-names></name></person-group>
+<year>2004</year>
+<article-title>Sodium along with low-threshold potassium currents enhance
+coincidence detection of subthreshold noisy signals in MSO neurons.</article-title>
+<source>J Neurophysiol</source>
+<volume>91</volume>
+<fpage>2465</fpage>
+<lpage>2473</lpage>
+<pub-id pub-id-type="pmid">14749317</pub-id></element-citation></ref><ref id="pcbi.1000198-Prescott3"><label>31</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Prescott</surname><given-names>SA</given-names></name><name><surname>Ratt&#x000e9;</surname><given-names>S</given-names></name><name><surname>De Koninck</surname><given-names>Y</given-names></name><name><surname>Sejnowski</surname><given-names>TJ</given-names></name></person-group>
+<year>2008</year>
+<article-title>Pyramidal neurons switch from integrators in vitro to resonators
+under in vivo-like conditions.</article-title>
+<source>J Neurophysiol. Submitted</source>
+</element-citation></ref><ref id="pcbi.1000198-Lundstrom1"><label>32</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lundstrom</surname><given-names>BN</given-names></name><name><surname>Hong</surname><given-names>S</given-names></name><name><surname>Higgs</surname><given-names>MH</given-names></name><name><surname>Fairhall</surname><given-names>AL</given-names></name></person-group>
+<year>2008</year>
+<article-title>Two computational regimes of a single-compartment neuron
+separated by a planar boundary in conductance space.</article-title>
+<source>Neural Comput</source>
+<volume>20</volume>
+<fpage>1239</fpage>
+<lpage>1260</lpage>
+<pub-id pub-id-type="pmid">18194104</pub-id></element-citation></ref><ref id="pcbi.1000198-Golomb1"><label>33</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Golomb</surname><given-names>D</given-names></name><name><surname>Donner</surname><given-names>K</given-names></name><name><surname>Shacham</surname><given-names>L</given-names></name><name><surname>Shlosberg</surname><given-names>D</given-names></name><name><surname>Amitai</surname><given-names>Y</given-names></name><name><surname>Hansel</surname><given-names>D</given-names></name></person-group>
+<year>2007</year>
+<article-title>Mechanisms of firing patterns in fast-spiking cortical
+interneurons.</article-title>
+<source>PLoS Comput Biol</source>
+<volume>3</volume>
+<fpage>e156</fpage>
+<comment>doi:10.1371/journal.pcbi.0030156</comment>
+<pub-id pub-id-type="pmid">17696606</pub-id></element-citation></ref><ref id="pcbi.1000198-AgmonSnir1"><label>34</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Agmon-Snir</surname><given-names>H</given-names></name><name><surname>Carr</surname><given-names>CE</given-names></name><name><surname>Rinzel</surname><given-names>J</given-names></name></person-group>
+<year>1998</year>
+<article-title>The role of dendrites in auditory coincidence detection.</article-title>
+<source>Nature</source>
+<volume>393</volume>
+<fpage>268</fpage>
+<lpage>272</lpage>
+<pub-id pub-id-type="pmid">9607764</pub-id></element-citation></ref><ref id="pcbi.1000198-Balasubramanyan1"><label>35</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Balasubramanyan</surname><given-names>S</given-names></name><name><surname>Stemkowski</surname><given-names>PL</given-names></name><name><surname>Stebbing</surname><given-names>MJ</given-names></name><name><surname>Smith</surname><given-names>PA</given-names></name></person-group>
+<year>2006</year>
+<article-title>Sciatic chronic constriction injury produces cell-type-specific
+changes in the electrophysiological properties of rat substantia gelatinosa
+neurons.</article-title>
+<source>J Neurophysiol</source>
+<volume>96</volume>
+<fpage>579</fpage>
+<lpage>590</lpage>
+<pub-id pub-id-type="pmid">16611846</pub-id></element-citation></ref><ref id="pcbi.1000198-Miura1"><label>36</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Miura</surname><given-names>A</given-names></name><name><surname>Kawatani</surname><given-names>M</given-names></name><name><surname>Araki</surname><given-names>I</given-names></name><name><surname>de Groat</surname><given-names>WC</given-names></name></person-group>
+<year>2000</year>
+<article-title>Electrophysiological properties of lumbosacral preganglionic
+neurons in the neonatal rat spinal cord.</article-title>
+<source>Brain Res</source>
+<volume>872</volume>
+<fpage>54</fpage>
+<lpage>63</lpage>
+<pub-id pub-id-type="pmid">10924675</pub-id></element-citation></ref><ref id="pcbi.1000198-Glazebrook1"><label>37</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Glazebrook</surname><given-names>PA</given-names></name><name><surname>Ramirez</surname><given-names>AN</given-names></name><name><surname>Schild</surname><given-names>JH</given-names></name><name><surname>Shieh</surname><given-names>CC</given-names></name><name><surname>Doan</surname><given-names>T</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Potassium channels Kv1.1, Kv1.2 and Kv1.6 influence excitability
+of rat visceral sensory neurons.</article-title>
+<source>J Physiol</source>
+<volume>541</volume>
+<fpage>467</fpage>
+<lpage>482</lpage>
+<pub-id pub-id-type="pmid">12042352</pub-id></element-citation></ref><ref id="pcbi.1000198-Sculptoreanu1"><label>38</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sculptoreanu</surname><given-names>A</given-names></name><name><surname>de Groat</surname><given-names>WC</given-names></name></person-group>
+<year>2007</year>
+<article-title>Neurokinins enhance excitability in capsaicin-responsive DRG
+neurons.</article-title>
+<source>Exp Neurol</source>
+<volume>205</volume>
+<fpage>92</fpage>
+<lpage>100</lpage>
+<pub-id pub-id-type="pmid">17362934</pub-id></element-citation></ref><ref id="pcbi.1000198-Wang1"><label>39</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>GY</given-names></name><name><surname>Ratto</surname><given-names>G</given-names></name><name><surname>Bisti</surname><given-names>S</given-names></name><name><surname>Chalupa</surname><given-names>LM</given-names></name></person-group>
+<year>1997</year>
+<article-title>Functional development of intrinsic properties in ganglion cells
+of the mammalian retina.</article-title>
+<source>J Neurophysiol</source>
+<volume>78</volume>
+<fpage>2895</fpage>
+<lpage>2903</lpage>
+<pub-id pub-id-type="pmid">9405510</pub-id></element-citation></ref><ref id="pcbi.1000198-Faber1"><label>40</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Faber</surname><given-names>ES</given-names></name><name><surname>Callister</surname><given-names>RJ</given-names></name><name><surname>Sah</surname><given-names>P</given-names></name></person-group>
+<year>2001</year>
+<article-title>Morphological and electrophysiological properties of principal
+neurons in the rat lateral amygdala in vitro.</article-title>
+<source>J Neurophysiol</source>
+<volume>85</volume>
+<fpage>714</fpage>
+<lpage>723</lpage>
+<pub-id pub-id-type="pmid">11160506</pub-id></element-citation></ref><ref id="pcbi.1000198-Paton1"><label>41</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Paton</surname><given-names>JF</given-names></name><name><surname>Foster</surname><given-names>WR</given-names></name><name><surname>Schwaber</surname><given-names>JS</given-names></name></person-group>
+<year>1993</year>
+<article-title>Characteristic firing behavior of cell types in the
+cardiorespiratory region of the nucleus tractus solitarii of the rat.</article-title>
+<source>Brain Res</source>
+<volume>604</volume>
+<fpage>112</fpage>
+<lpage>125</lpage>
+<pub-id pub-id-type="pmid">8457840</pub-id></element-citation></ref><ref id="pcbi.1000198-Smith1"><label>42</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Smith</surname><given-names>PH</given-names></name></person-group>
+<year>1995</year>
+<article-title>Structural and functional differences distinguish principal from
+nonprincipal cells in the guinea pig MSO slice.</article-title>
+<source>J Neurophysiol</source>
+<volume>73</volume>
+<fpage>1653</fpage>
+<lpage>1667</lpage>
+<pub-id pub-id-type="pmid">7643173</pub-id></element-citation></ref><ref id="pcbi.1000198-Brew1"><label>43</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brew</surname><given-names>HM</given-names></name><name><surname>Forsythe</surname><given-names>ID</given-names></name></person-group>
+<year>1995</year>
+<article-title>Two voltage-dependent K<sup>&#x0002b;</sup> conductances with
+complementary functions in postsynaptic integration at a central auditory
+synapse.</article-title>
+<source>J Neurosci</source>
+<volume>15</volume>
+<fpage>8011</fpage>
+<lpage>8022</lpage>
+<pub-id pub-id-type="pmid">8613738</pub-id></element-citation></ref><ref id="pcbi.1000198-Agar1"><label>44</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Agar</surname><given-names>E</given-names></name><name><surname>Green</surname><given-names>GG</given-names></name><name><surname>Sanders</surname><given-names>DJ</given-names></name></person-group>
+<year>1996</year>
+<article-title>Membrane properties of mouse anteroventral cochlear nucleus
+neurons in vitro.</article-title>
+<source>J Basic Clin Physiol Pharmacol</source>
+<volume>7</volume>
+<fpage>179</fpage>
+<lpage>198</lpage>
+<pub-id pub-id-type="pmid">8910136</pub-id></element-citation></ref><ref id="pcbi.1000198-Rancz1"><label>45</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rancz</surname><given-names>EA</given-names></name><name><surname>Ishikawa</surname><given-names>T</given-names></name><name><surname>Duguid</surname><given-names>I</given-names></name><name><surname>Chadderton</surname><given-names>P</given-names></name><name><surname>Mahon</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>High-fidelity transmission of sensory information by single
+cerebellar mossy fibre boutons.</article-title>
+<source>Nature</source>
+<volume>450</volume>
+<fpage>1245</fpage>
+<lpage>1248</lpage>
+<pub-id pub-id-type="pmid">18097412</pub-id></element-citation></ref><ref id="pcbi.1000198-Shu1"><label>46</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shu</surname><given-names>Y</given-names></name><name><surname>Yu</surname><given-names>Y</given-names></name><name><surname>Yang</surname><given-names>J</given-names></name><name><surname>McCormick</surname><given-names>DA</given-names></name></person-group>
+<year>2007</year>
+<article-title>Selective control of cortical axonal spikes by a slowly
+inactivating K<sup>&#x0002b;</sup> current.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>104</volume>
+<fpage>11453</fpage>
+<lpage>11458</lpage>
+<pub-id pub-id-type="pmid">17581873</pub-id></element-citation></ref><ref id="pcbi.1000198-Rathouz1"><label>47</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rathouz</surname><given-names>M</given-names></name><name><surname>Trussell</surname><given-names>L</given-names></name></person-group>
+<year>1998</year>
+<article-title>Characterization of outward currents in neurons of the avian
+nucleus magnocellularis.</article-title>
+<source>J Neurophysiol</source>
+<volume>80</volume>
+<fpage>2824</fpage>
+<lpage>2835</lpage>
+<pub-id pub-id-type="pmid">9862887</pub-id></element-citation></ref><ref id="pcbi.1000198-Ferragamo1"><label>48</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ferragamo</surname><given-names>MJ</given-names></name><name><surname>Oertel</surname><given-names>D</given-names></name></person-group>
+<year>2002</year>
+<article-title>Octopus cells of the mammalian ventral cochlear nucleus sense the
+rate of depolarization.</article-title>
+<source>J Neurophysiol</source>
+<volume>87</volume>
+<fpage>2262</fpage>
+<lpage>2270</lpage>
+<pub-id pub-id-type="pmid">11976365</pub-id></element-citation></ref><ref id="pcbi.1000198-Cao1"><label>49</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cao</surname><given-names>XJ</given-names></name><name><surname>Oertel</surname><given-names>D</given-names></name></person-group>
+<year>2005</year>
+<article-title>Temperature affects voltage-sensitive conductances differentially
+in octopus cells of the mammalian cochlear nucleus.</article-title>
+<source>J Neurophysiol</source>
+<volume>94</volume>
+<fpage>821</fpage>
+<lpage>832</lpage>
+<pub-id pub-id-type="pmid">15800074</pub-id></element-citation></ref><ref id="pcbi.1000198-Chry1"><label>50</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ch&#x000e9;ry</surname><given-names>N</given-names></name><name><surname>Yu</surname><given-names>XH</given-names></name><name><surname>De Koninck</surname><given-names>Y</given-names></name></person-group>
+<year>2000</year>
+<article-title>Visualization of lamina I of the dorsal horn in live adult rat
+spinal cord slices.</article-title>
+<source>J Neurosci Methods</source>
+<volume>96</volume>
+<fpage>133</fpage>
+<lpage>142</lpage>
+<pub-id pub-id-type="pmid">10720677</pub-id></element-citation></ref><ref id="pcbi.1000198-Uhlenbeck1"><label>51</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Uhlenbeck</surname><given-names>GE</given-names></name><name><surname>Ornstein</surname><given-names>LS</given-names></name></person-group>
+<year>1930</year>
+<article-title>On the theory of Brownian motion.</article-title>
+<source>Phys Rev</source>
+<volume>36</volume>
+<fpage>823</fpage>
+<lpage>841</lpage>
+</element-citation></ref><ref id="pcbi.1000198-Morris1"><label>52</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Morris</surname><given-names>C</given-names></name><name><surname>Lecar</surname><given-names>H</given-names></name></person-group>
+<year>1981</year>
+<article-title>Voltage oscillations in the barnacle giant muscle fiber.</article-title>
+<source>Biophys J</source>
+<volume>35</volume>
+<fpage>193</fpage>
+<lpage>213</lpage>
+<pub-id pub-id-type="pmid">7260316</pub-id></element-citation></ref><ref id="pcbi.1000198-Ermentrout2"><label>53</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Ermentrout</surname><given-names>B</given-names></name></person-group>
+<year>2002</year>
+<source>Simulating, Analyzing, and Animating Dynamical Systems: A Guide to
+Xppaut for Researchers and Students</source>
+<publisher-loc>Philadelphia</publisher-loc>
+<publisher-name>SIAM</publisher-name>
+</element-citation></ref><ref id="pcbi.1000198-Strogatz1"><label>54</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Strogatz</surname><given-names>SH</given-names></name></person-group>
+<year>1998</year>
+<source>Nonlinear Dynamics and Chaos: With Applications to Physics, Biology,
+Chemistry, and Engineering</source>
+<publisher-loc>Don Mills, Canada</publisher-loc>
+<publisher-name>Addison-Wesley</publisher-name>
+</element-citation></ref><ref id="pcbi.1000198-Rose1"><label>55</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rose</surname><given-names>RM</given-names></name><name><surname>Hindmarsh</surname><given-names>JL</given-names></name></person-group>
+<year>1989</year>
+<article-title>The assembly of ionic currents in a thalamic neuron. I. The
+three-dimensional model.</article-title>
+<source>Proc R Soc Lond B Biol Sci</source>
+<volume>237</volume>
+<fpage>267</fpage>
+<lpage>288</lpage>
+<pub-id pub-id-type="pmid">2571154</pub-id></element-citation></ref></ref-list></back></article>

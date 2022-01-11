@@ -15,4 +15,5 @@ After installing `Python <https://www.python.org/downloads/>`_ (>= 3.7), `pip <h
 
 .. code-block:: text
 
-    pip install git+https://github.com/biosimulations/biosimulations-modeldb#egg=biosimulations-modeldb
+    git clone --recurse-submodules https://github.com/biosimulations/biosimulations-modeldb
+    pip install biosimulations-modeldb/

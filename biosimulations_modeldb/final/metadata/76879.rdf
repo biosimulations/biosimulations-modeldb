@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/76879.omex">
+    <dc:title>Excitatory and inhibitory interactions in populations of model neurons (Wilson and Cowan 1972)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/76879.omex">
+    <dc:abstract>Coupled nonlinear differential equations are derived for the dynamics&#13;
+of spatially localized populations containing both excitatory and inhibitory model&#13;
+neurons. Phase plane methods and numerical solutions are then used to investigate&#13;
+population responses to various types of stimuli. The results obtained show simple&#13;
+and multiple hysteresis phenomena and limit cycle activity. The latter is particularly&#13;
+interesting since the frequency of the limit cycle oscillation is found to be a monotonic&#13;
+function of stimulus intensity. Finally, it is proved that the existence of limit cycle&#13;
+dynamics in response to one class of stimuli implies the existence of multiple stable&#13;
+states and hysteresis in response to a different class of stimuli. The relation between&#13;
+these findings and a number of experiments is discussed.</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3536">http://modeldb.science/ModelList?id=3536</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Realistic Network</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/76879.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3543">http://modeldb.science/ModelList?id=3543</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Activity Patterns</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/76879.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="mailto:bill.lytton@downstate.edu">mailto:bill.lytton@downstate.edu</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>William Lytton</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <foaf:accountName rdf:resource="mailto:bill.lytton@downstate.edu">mailto:bill.lytton@downstate.edu</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <foaf:name>William Lytton</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/76879.omex">
+    <dc:creator rdf:resource="local:00003">local:00003</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="mailto:bard_at_pitt.edu]@">mailto:bard_at_pitt.edu]@</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>Bard Ermentrout</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <foaf:accountName rdf:resource="mailto:bard_at_pitt.edu]@">mailto:bard_at_pitt.edu]@</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <foaf:name>Bard Ermentrout</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/76879.omex">
+    <dc:creator rdf:resource="local:00004">local:00004</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/76879.omex">
+    <dc:contributor rdf:resource="local:00005">local:00005</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/76879.omex">
+    <dc:contributor rdf:resource="local:00006">local:00006</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:76879">https://identifiers.org/modeldb:76879</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>modeldb:76879</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/76879.omex">
+    <bqmodel:is rdf:resource="local:00007">local:00007</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1016/S0006-3495(72)86068-5">http://identifiers.org/doi:10.1016/S0006-3495(72)86068-5</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>Hugh R. Wilson &amp; Jack D. Cowan. Excitatory and inhibitory interactions in localized populations of model neurons. Biophysical Journal 12, 1: 1-24 (1972).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/76879.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00008">local:00008</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/76879.omex">
+    <dc:created>2006-07-28</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/76879.omex">
+    <dc:modified>2015-01-02</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

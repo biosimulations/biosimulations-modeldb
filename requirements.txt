@@ -1,8 +1,9 @@
 biopython
 biosimulators_xpp
-biosimulators_utils >= 0.1.152
+biosimulators_utils >= 0.1.158
 boto3
 cement
+gitpython
 pyyaml
 python_dateutil
 requests_cache

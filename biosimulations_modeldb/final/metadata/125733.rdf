@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/125733.omex">
+    <dc:title>Hippocampus CA1: Temporal sensitivity of signaling pathways underlying LTP (Kim et al. 2010)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125733.omex">
+    <dc:abstract>Temporal sensitivity of signaling pathways underlying L-LTP. Single compartment, deterministic model of calcium and dopamine activated pathways, leading to CaMKII and PKA activation.  Experimental verification of model prediction.</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3539">http://modeldb.science/ModelList?id=3539</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Synapse</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125733.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=258">http://modeldb.science/ModelList?id=258</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Hippocampus CA1 pyramidal GLU cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125733.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=224">http://modeldb.science/ModelList?id=224</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>Dopamine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125733.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=223">http://modeldb.science/ModelList?id=223</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>Dopaminergic Receptor</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125733.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3647">http://modeldb.science/ModelList?id=3647</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>Long-term Synaptic Plasticity</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125733.omex">
+    <bqbiol:encodes rdf:resource="local:00005">local:00005</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=55277">http://modeldb.science/ModelList?id=55277</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>Signaling pathways</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125733.omex">
+    <bqbiol:encodes rdf:resource="local:00006">local:00006</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125733.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/125733.omex/figures/PMC2829045/pcbi.1000691.g001.jpg">http://omex-library.org/125733.omex/figures/PMC2829045/pcbi.1000691.g001.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125733.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/125733.omex/figures/PMC2829045/pcbi.1000691.g002.jpg">http://omex-library.org/125733.omex/figures/PMC2829045/pcbi.1000691.g002.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125733.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/125733.omex/figures/PMC2829045/pcbi.1000691.g003.jpg">http://omex-library.org/125733.omex/figures/PMC2829045/pcbi.1000691.g003.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125733.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/125733.omex/figures/PMC2829045/pcbi.1000691.g004.jpg">http://omex-library.org/125733.omex/figures/PMC2829045/pcbi.1000691.g004.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125733.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/125733.omex/figures/PMC2829045/pcbi.1000691.g005.jpg">http://omex-library.org/125733.omex/figures/PMC2829045/pcbi.1000691.g005.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125733.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/125733.omex/figures/PMC2829045/pcbi.1000691.g006.jpg">http://omex-library.org/125733.omex/figures/PMC2829045/pcbi.1000691.g006.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="mailto:avrama@gmu.edu">mailto:avrama@gmu.edu</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>Avrama Blackwell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <foaf:accountName rdf:resource="mailto:avrama@gmu.edu">mailto:avrama@gmu.edu</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <foaf:name>Avrama Blackwell</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125733.omex">
+    <dc:creator rdf:resource="local:00007">local:00007</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125733.omex">
+    <dc:contributor rdf:resource="local:00008">local:00008</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125733.omex">
+    <dc:contributor rdf:resource="local:00009">local:00009</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:125733">https://identifiers.org/modeldb:125733</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <rdfs:label>modeldb:125733</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125733.omex">
+    <bqmodel:is rdf:resource="local:00010">local:00010</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1371/journal.pcbi.1000691">http://identifiers.org/doi:10.1371/journal.pcbi.1000691</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <rdfs:label>MyungSook Kim, Ted Huang, Ted Abel &amp; Kim T. Blackwell. Temporal sensitivity of protein kinase a activation in late-phase long term potentiation. PLoS Computational Biology 6, 2: e1000691 (2010).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125733.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00011">local:00011</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125733.omex">
+    <dc:created>2010-01-27</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/125733.omex">
+    <dc:modified>2010-02-26</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

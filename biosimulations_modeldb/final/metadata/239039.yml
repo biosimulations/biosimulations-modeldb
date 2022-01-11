@@ -1,0 +1,267 @@
+references:
+- label: 'Hojeong Kim. Impact of the localization of dendritic calcium persistent
+    inward current on the input-output properties of spinal motoneuron pool: a computational
+    study. Journal of Applied Physiology 123, 5: 1166-1187 (2017).'
+  uri: http://identifiers.org/doi:10.1152/japplphysiol.00034.2017
+- label: 'Hojeong Kim, Kelvin E. Jones & C. J. Heckman. Asymmetry in signal propagation
+    between the soma and dendrites plays a key role in determining dendritic excitability
+    in motoneurons. PLoS ONE 9, 8: e95454 (2014).'
+  uri: http://identifiers.org/doi:10.1371/journal.pone.0095454
+taxa: []
+thumbnails:
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Characterization
+    of voltage attenuation property of the dendrites.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) &#8211; (<bold>E</bold>).
+    Morphologies of the motoneurons in the left column and the three voltage attenuation
+    (VA) factors measured at all distances (D<sub>path</sub>) from the soma (VA<sub>SD</sub>
+
+    <sup>DC</sup> in black, VA<sub>SD</sub>
+
+    <sup>AC</sup> in gray and VA<sub>DS</sub>
+
+    <sup>DC</sup> in purple) in the right column. A single exponential function (exp(-D<sub>path</sub>/&#955;))
+    was used to fit the VA<sub>SD</sub>
+
+    <sup>DC</sup> (&#955;&#8202;=&#8202;2678.7, 3085.6, 2763.7, 1945.5 and 2156.4
+    for <bold>A&#8211;E</bold>) and VA<sub>SD</sub>
+
+    <sup>AC</sup> (&#955;&#8202;=&#8202;420.1, 437.1, 402.3, 373.1 and 464.7 for <bold>A</bold>&#8211;<bold>E</bold>),
+    and a modified Boltzmann <xref ref-type="disp-formula" rid="pone.0095454.e001">equation
+    (1</xref>/[1&#8722;exp(&#8722;&#945;<sub>1</sub>/&#945;<sub>2</sub>)+exp((D<sub>path</sub>&#8722;&#945;<sub>1</sub>)/&#945;<sub>2</sub>)])
+    for VA<sub>DS</sub>
+
+    <sup>DC</sup> (&#945;<sub>1</sub>&amp; &#945;<sub>2</sub>&#8202;=&#8202;1020.8&amp;307.7,
+    635.2&amp;439.5, 327.9&amp;469.6, 374.2&amp;504.8 and 861.9&amp;268.3 for <bold>A</bold>&#8211;<bold>E</bold>).
+    Note that purple solid lines represents the VA<sub>DS</sub>
+
+    <sup>DC</sup> between the soma and all points in the dendrites at the same distance
+    (i.e. point-to-all) whereas purple dotted lines (exp(-D<sub>path</sub>/&#955;)
+    where &#955;&#8202;=&#8202;225, 143.6, 118.5, 144, 193.7 for <bold>A</bold>&#8211;<bold>E</bold>)
+    for the VA<sub>DS</sub>
+
+    <sup>DC</sup> between the soma and a single point along the path of all individual
+    dendritic trees from the soma (i.e. point-to-point). (<bold>F</bold>). The VA<sub>DS</sub>
+
+    <sup>DC</sup> was measured in six type identified anatomically reconstructed motoneurons
+    while varying the input resistance (R<sub>N</sub>) from 0.4 to 4.0 M&#937;. The
+    &#945;<sub>1</sub> (the distance at which the VA<sub>DS</sub>
+
+    <sup>DC</sup> dropped to 50%) parameter was more sensitive to changes in R<sub>N</sub>
+    compared with &#945;<sub>2</sub> parameter (a measure of the slope of the curve
+    at &#945;<sub>1</sub>). The insets show examples of the VA<sub>DS</sub>
+
+    <sup>DC</sup> curves at extreme R<sub>N</sub> values of 0.4 and 4.0 M&#937;. Note
+    that the distribution of points (&#945;<sub>1</sub>, &#945;<sub>2</sub>) at the
+    same R<sub>N</sub> is not type specific (e.g. gray and black filled circles for
+    FR-type motoneurons). S, FR and FF indicate slow twitch, fast twitch and fatigue
+    resistant, and fast twitch and fast fatigable motoneuron type respectively.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4118843/PMC4118843/pone.0095454.g001.jpg
+  id: pone.0095454/pone-0095454-g001
+  label: Figure 1
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Comparison
+    of the anatomical (blue) and reduced (red) MN model.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>). Reduction of
+    anatomical dendrites. A dendrogram (upper panel) of a MN (i.e. vemoto6 in Methods)
+    with path length (D<sub>path</sub>) from the soma and two compartments (bottom
+    panel) of the reduced model representing the soma/initial segment/axonal hillock
+    (indicated by left arrow) and all points in the narrow band (e.g. mean of 600
+    &#181;m and standard deviation of 4 &#181;m, right arrow) of dendrites of its
+    original cell. Note that membrane potentials at individual points in the dendrites
+    of the anatomical model were averaged for the purpose of comparison to the reduced
+    model. (<bold>B</bold>) &#8211; (<bold>E</bold>). Passive dynamics. All five passive
+    parameters (G<sub>m,S</sub>&#8202;=&#8202;0.143 mS/cm<sup>2</sup>, G<sub>m,D</sub>&#8202;=&#8202;0.131
+    mS/cm<sup>2</sup>, C<sub>m,S</sub>&#8202;=&#8202;1.058 &#181;F/cm<sup>2</sup>,
+    C<sub>m,D</sub>&#8202;=&#8202;0.915 &#181;F/cm<sup>2</sup>, G<sub>C</sub>&#8202;=&#8202;0.211
+    mS/cm<sup>2</sup>) of the reduced model were analytically determined to retain
+    the five system properties measured from the anatomical model: input resistance
+    (R<sub>N</sub>&#8202;=&#8202;1.29 M&#937;) and membrane time constant (&#964;<sub>m</sub>&#8202;=&#8202;7.2
+    ms) obtained by peeling analysis at the soma, and three voltage attenuation factors
+    (VA<sub>SD</sub>
+
+    <sup>DC</sup>&#8202;=&#8202;0.76, VA<sub>DS</sub>
+
+    <sup>DC</sup>&#8202;=&#8202;0.75, VA<sub>SD</sub>
+
+    <sup>AC</sup>&#8202;=&#8202;0.27) at D<sub>path</sub>&#8202;=&#8202;600 &#181;m.
+    (<bold>B</bold>). Time course of membrane potential (V<sub>m</sub>) in response
+    to the step current (I<sub>soma</sub>) injected to the soma for calculating R<sub>N</sub>.
+    (<bold>C</bold>). The semilog plot (solid lines) of transient voltage response
+    at the soma to brief current pulse with smaller amplitude for anatomical than
+    reduced case for &#964;<sub>m</sub> and &#964;<sub>1</sub> (equalizing time constant)
+    equivalent to the inverse of slope of linear regression (dotted) line fitting
+    the tail of each curve. (<bold>D</bold>). Time courses of V<sub>m</sub> for VA<sub>SD</sub>
+
+    <sup>DC</sup> from the soma (solid lines) to dendrites (dotted lines) and VA<sub>DS</sub>
+
+    <sup>DC</sup> in the opposite direction, in response to DC input (bottom panel)
+    to the soma (solid line) and dendrites (dotted line). (<bold>E</bold>). Time course
+    of V<sub>m</sub> normalized with its amplitude for VA<sub>SD</sub>
+
+    <sup>AC</sup> from the soma (solid line) to dendrites (dotted line), in response
+    to somatically injected AC current (I<sub>soma</sub>) with the frequency of 250
+    Hz. (<bold>F</bold>), (<bold>G</bold>). PIC activation with the addition of I<sub>Ca,L</sub>
+    to the dendrites of both models. (<bold>F</bold>). Time course of effective PIC
+    (I<sub>PIC</sub>, upper panel) obtained by subtracting leak (I<sub>Leak</sub>)
+    from total current (I<sub>Total</sub>) injected for following the triangular voltage-clamp
+    (V<sub>m</sub>, middle panel) at the soma, and I<sub>Total</sub>-V<sub>m</sub>
+    relationship (bottom panel). (<bold>G</bold>). Time course of V<sub>m</sub> (upper
+    panel) at the soma (solid lines) and dendrites (dotted lines) in response to triangular
+    current clamp at the soma (I<sub>soma</sub>, middle panel), and V<sub>m</sub>-I<sub>soma</sub>
+    relationship (bottom panel). Arrows indicate the ascending and descending phase
+    of triangular voltage and current clamp. Maximum conductance (G<sub>Ca,L</sub>)
+    for I<sub>Ca,L</sub> was 1.37 mS/cm<sup>2</sup> for the anatomical and 0.124 mS/cm<sup>2</sup>
+    for the reduced case. (<bold>H</bold>), (<bold>I</bold>). Cellular excitability
+    with the addition of I<sub>Na,f</sub>, I<sub>Na,p</sub>, I<sub>K,Dr</sub>, I<sub>Ca,N</sub>
+    and I<sub>K(Ca)</sub> to the soma of both models. (<bold>H</bold>). Instantaneous
+    firing rates (F, upper panel), time course of V<sub>m</sub> (blue &amp; red for
+    the soma, and gray for the dendrite) in response to triangular current stimulation
+    (I<sub>soma</sub>) to the soma, and F-I<sub>soma</sub> curve (bottom panel). Maximum
+    conductances for the active currents in the anatomical case were G<sub>Na,f</sub>&#8202;=&#8202;0.71
+    [S/cm<sup>2</sup>], G<sub>K,Dr</sub>&#8202;=&#8202;0.23 [S/cm<sup>2</sup>], G<sub>Ca,N</sub>&#8202;=&#8202;0.01
+    [S/cm<sup>2</sup>], G<sub>K(Ca)</sub>&#8202;=&#8202;0.0258 [S/cm<sup>2</sup>]
+    at the soma, G<sub>Na,f</sub>&#8202;=&#8202;2.7 [S/cm<sup>2</sup>], G<sub>Na,p</sub>&#8202;=&#8202;0.033*10<sup>&#8722;3</sup>
+    [S/cm<sup>2</sup>], G<sub>K,Dr</sub>&#8202;=&#8202;0.17 [S/cm<sup>2</sup>] at
+    the initial segment and axon hillock, and G<sub>Ca,L</sub>&#8202;=&#8202;1.37
+    [mS/cm<sup>2</sup>] in the dendrites. For the reduced model, G<sub>Na,f</sub>&#8202;=&#8202;26.75
+    [mS/cm<sup>2</sup>], G<sub>Na,p</sub>&#8202;=&#8202;0.00086 [mS/cm<sup>2</sup>],
+    G<sub>K,Dr</sub>&#8202;=&#8202;6.2 [mS/cm<sup>2</sup>], G<sub>Ca,N</sub>&#8202;=&#8202;0.008
+    [mS/cm<sup>2</sup>], G<sub>K(Ca)</sub>&#8202;=&#8202;0.54 [mS/cm<sup>2</sup>]
+    at the soma and G<sub>Ca,L</sub>&#8202;=&#8202;0.124 [mS/cm<sup>2</sup>] at the
+    dendrite. (<bold>I</bold>). F, V<sub>m</sub> (blue &amp; red for the soma, and
+    gray for the dendrite) in response to triangular variation of the maximum conductance
+    (G<sub>syn</sub>) for the synaptic receptors positioned at all points at D<sub>path</sub>&#8202;=&#8202;600
+    &#181;m, and F-G<sub>syn</sub> curve. Arrows indicate the ascending and descending
+    phase of G<sub>syn</sub>.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4118843/PMC4118843/pone.0095454.g002.jpg
+  id: pone.0095454/pone-0095454-g002
+  label: Figure 2
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Cellular
+    excitability of the anatomical (blue) and reduced (red) model with different locations
+    of PIC channels in the dendrites.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">The neuron models and stimulation
+    protocols were the same as those used in <xref ref-type="fig" rid="pone-0095454-g002">Figure
+    2(H)</xref> &amp; (I) except for variation of PIC channel location in the dendrites.
+    (A) &#8211; (D). Firing rates (F) in response to triangular current stimulation
+    to the soma (I<sub>soma</sub>). (E) &#8211; (H). Firing rates (F) in response
+    to triangular variation of maximum conductance (G<sub>syn</sub>) of excitatory
+    synaptic receptors in the dendrites. The direction of black arrows indicates the
+    ascending and descending phase of triangular current stimulation and change in
+    G<sub>syn</sub>. The gray arrows indicate the current and G<sub>syn</sub> threshold
+    for activating plateau potentials at different distances from the soma. Note the
+    negative relation between the distance and input threshold. At different locations
+    in the dendrites, the three VA factors were VA<sub>SD</sub>
+
+    <sup>DC</sup>&#8202;=&#8202;{0.91, 0.77, 0.69, 0.63}, VA<sub>DS</sub>
+
+    <sup>DC</sup>&#8202;=&#8202;{0.96, 0.79, 0.57, 0.38} and VA<sub>SD</sub>
+
+    <sup>AC</sup>&#8202;=&#8202;{0.65, 0.31, 0.18, 0.12}; the density of Ca PIC channels
+    were G<sub>Ca,L</sub>&#8202;=&#8202;{1.14, 1.27, 1.95, 4.1 mS/cm<sup>2</sup>}
+    in the anatomical and {0.11, 0.122, 0.132, 0.189 mS/cm<sup>2</sup>} in the reduced
+    model; the passive parameter values of the reduced model were G<sub>m,S</sub>&#8202;=&#8202;{0.078,
+    0.132, 0.174, 0.2 mS/cm<sup>2</sup>}, G<sub>m,D</sub>&#8202;=&#8202;{0.179, 0.143,
+    0.1, 0.07 mS/cm<sup>2</sup>}, G<sub>C</sub>&#8202;=&#8202;{0.918, 0.244, 0.114,
+    0.06 mS/cm<sup>2</sup>}, C<sub>m,S</sub>&#8202;=&#8202;{0.609, 1.077, 1.211, 1.302
+    &#181;F/cm<sup>2</sup>}, C<sub>m,D</sub>&#8202;=&#8202;{1.239, 0.903, 0.764, 0.62
+    &#181;F/cm<sup>2</sup>}. Parameter values in the parentheses are in the order
+    of increasing distance from 200 to 1000 &#181;m.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4118843/PMC4118843/pone.0095454.g003.jpg
+  id: pone.0095454/pone-0095454-g003
+  label: Figure 3
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Sensitivity
+    of cellular excitability to the VA factors.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Using the same reduced model and
+    ramp stimulation protocols used in <xref ref-type="fig" rid="pone-0095454-g002">Figure
+    2(<bold>H</bold>)</xref> &amp; (<bold>I</bold>), F-I<sub>soma</sub> and F-G<sub>syn</sub>
+    relationships were simulated while varying individual VA factors independently.
+    (<bold>A</bold>), (<bold>B</bold>). F-I<sub>soma</sub> curves with VA<sub>SD</sub>
+
+    <sup>DC</sup> decreased by 4.7% and increased by 20.4% from its original value
+    (0.76). Circled letters, I<sub>S1</sub> (8.1 nA) and I<sub>S2</sub> (19.8 nA),
+    on vertical gray lines indicate decreased and increased current threshold for
+    initiating firing acceleration as a result of changing the VA<sub>SD</sub>
+
+    <sup>DC</sup>. Black arrows indicate the rising and falling phase of triangular
+    current stimulation to the soma. (<bold>C</bold>), (<bold>D</bold>). F-G<sub>syn</sub>
+    curves with VA<sub>SD</sub>
+
+    <sup>DC</sup> changed by the same variation (%) as applied to (<bold>A</bold>)
+    and (<bold>B</bold>). Vertical gray arrows indicate increased (about 0.055 mS/cm<sup>2</sup>,
+    left column) and decreased (about 0.029 mS/cm<sup>2</sup>, right column) threshold-G<sub>syn</sub>
+    for the firing acceleration as a result of varying the VA<sub>SD</sub>
+
+    <sup>DC</sup>. Black arrows indicate the rising and falling phase of triangular
+    change in G<sub>syn</sub> at the dendrite. (<bold>E</bold>). The percent variation
+    in individual VA factors (VA<sub>SD</sub>
+
+    <sup>DC</sup>, VA<sub>DS</sub>
+
+    <sup>DC</sup>, VA<sub>SD</sub>
+
+    <sup>AC</sup>) to produce the firing acceleration at either I<sub>S1</sub> or
+    I<sub>S2</sub>. 0% represents the original values of VA factors and minus sign
+    in the ordinate indicates the decrease in VA factor values. (<bold>F</bold>).
+    Relationship of threshold current (I<sub>S</sub>) for the firing acceleration
+    and the percent variation in DC VA factors. Data points were fitted to a linear
+    regression line. Note that R<sub>N</sub> for the reduced model was set to be 1.29
+    M&#937;.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4118843/PMC4118843/pone.0095454.g004.jpg
+  id: pone.0095454/pone-0095454-g004
+  label: Figure 4
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Spatial
+    dependence of cellular excitability on VA<sub>DS</sub>
+
+    <sup>DC</sup> and VA<sub>SD</sub>
+
+    <sup>AC</sup>.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">All
+    simulation conditions were identical to those used in <xref ref-type="fig" rid="pone-0095454-g004">Figure
+    4</xref> except for systematically varying the values of the VA<sub>DS</sub>
+
+    <sup>DC</sup> and VA<sub>SD</sub>
+
+    <sup>AC</sup>. Note the inverse order of firing patterns with increasing distance
+    compared to the physiological case (<xref ref-type="fig" rid="pone-0095454-g003">Figure
+    3</xref>). (<bold>A</bold>) &#8211; (<bold>D</bold>). F-I<sub>soma</sub> relationships.
+    (<bold>E</bold>) &#8211; (<bold>H</bold>). F-G<sub>syn</sub> relationships. The
+    direction of black arrows indicates the ascending and descending phase of triangular
+    current stimulation and change in G<sub>syn</sub>. The gray arrows indicate the
+    current and G<sub>syn</sub> threshold for activating plateau potentials at different
+    distances from the soma. At different locations, the VA<sub>DS</sub>
+
+    <sup>DC</sup> and VA<sub>SD</sub>
+
+    <sup>AC</sup> were {0.47, 0.6, 0.78, 0.876} and {0.65, 0.31, 0.18, 0.5}. The passive
+    parameter values of the reduced model were G<sub>m,S</sub>&#8202;=&#8202;{0.228,
+    0.183, 0.117, 0.067 mS/cm<sup>2</sup>}, G<sub>m,D</sub>&#8202;=&#8202;{0.019,
+    0.079, 0.181, 0.276 mS/cm<sup>2</sup>}, G<sub>C</sub>&#8202;=&#8202;{0.099, 0.135,
+    0.204, 0.234 mS/cm<sup>2</sup>}, C<sub>m,S</sub>&#8202;=&#8202;{1.644, 1.387,
+    0.766, 1.617 &#181;F/cm<sup>2</sup>}, C<sub>m,D</sub>&#8202;=&#8202;{0.134, 0.499,
+    1.373, 0.352 &#181;F/cm<sup>2</sup>}. Parameter values in the parentheses are
+    in the order of increasing distance from 200 to 1000 &#181;m. Note that R<sub>N</sub>
+    for all reduced models was set to be 1.29 M&#937;.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4118843/PMC4118843/pone.0095454.g005.jpg
+  id: pone.0095454/pone-0095454-g005
+  label: Figure 5
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Dependence
+    of input resistance at the dendrites on the DC VA factors.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Input resistance (R<sub>N,D,</sub>
+    gray dots) was measured at individual points of the motoneuron dendrites at the
+    same distance with respect to the total current injected to the dendrites (see
+    the stimulation protocol used for the VA<sub>DS</sub>
+
+    <sup>DC</sup>). The measured R<sub>N,D</sub> was superimposed by the R<sub>N,D</sub>
+    (black line) that was predicted from fitting curves to the DC VA data using the
+    equation (R<sub>N,D</sub>(D<sub>path</sub>)&#8202;=&#8202;R<sub>N</sub>*VA<sub>SD</sub>
+
+    <sup>DC</sup>(D<sub>path</sub>)/VA<sub>DS</sub>
+
+    <sup>DC</sup>(D<sub>path</sub>) where R<sub>N</sub> is input resistance at the
+    soma (D<sub>path</sub>&#8202;=&#8202;0)). Note the agreement between the predicted
+    and measured input resistance in the dendrites. The poor fit at the distal distance
+    was attributed to the error between the VA<sub>DS</sub>
+
+    <sup>DC</sup> data and its fitting curve (see <xref ref-type="fig" rid="pone-0095454-g001">Figure
+    1(<bold>A</bold>)</xref>).</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4118843/PMC4118843/pone.0095454.g006.jpg
+  id: pone.0095454/pone-0095454-g006
+  label: Figure 6

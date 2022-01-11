@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <dc:title>Multiscale model of olfactory receptor neuron in mouse (Dougherty 2009)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <dc:abstract>Collection of XPP (.ode) files simulating the signal transduction (slow) and action potential (fast)  currents in the olfactory receptor neuron of mouse.  Collection contains model configured for dual odorant pulse delivery and model configured for prolonged odorant delivery.  For those interested more in transduction processes, each whole cell recording model comes with a counter part file configured to show just the slow transduction current for ease of use and convenience.  These transduction-only models typically run faster than the full multi-scale models but do not demonstrate action potentials.</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Neuron or other electrically excitable cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3538">http://modeldb.science/ModelList?id=3538</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Axon</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=8114">http://modeldb.science/ModelList?id=8114</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>Dendrite</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=268">http://modeldb.science/ModelList?id=268</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>Olfactory receptor GLU cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=248">http://modeldb.science/ModelList?id=248</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>I K</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <bqbiol:encodes rdf:resource="local:00005">local:00005</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=252">http://modeldb.science/ModelList?id=252</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>I Cl,Ca</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <bqbiol:encodes rdf:resource="local:00006">local:00006</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=254">http://modeldb.science/ModelList?id=254</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>I CNG</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <bqbiol:encodes rdf:resource="local:00007">local:00007</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=88209">http://modeldb.science/ModelList?id=88209</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>Na/Ca exchanger</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <bqbiol:encodes rdf:resource="local:00008">local:00008</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=88210">http://modeldb.science/ModelList?id=88210</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>I_Na,Ca</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <bqbiol:encodes rdf:resource="local:00009">local:00009</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=116966">http://modeldb.science/ModelList?id=116966</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <rdfs:label>I_K,Na</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <bqbiol:encodes rdf:resource="local:00010">local:00010</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=136104">http://modeldb.science/ModelList?id=136104</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <rdfs:label>I ANO2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <bqbiol:encodes rdf:resource="local:00011">local:00011</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <rdfs:label>I ANO2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <bqbiol:encodes rdf:resource="local:00012">local:00012</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=236">http://modeldb.science/ModelList?id=236</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <rdfs:label>Ions</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <bqbiol:encodes rdf:resource="local:00013">local:00013</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3541">http://modeldb.science/ModelList?id=3541</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <rdfs:label>Action Potential Initiation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <bqbiol:encodes rdf:resource="local:00014">local:00014</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3634">http://modeldb.science/ModelList?id=3634</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <rdfs:label>Oscillations</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <bqbiol:encodes rdf:resource="local:00015">local:00015</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3637">http://modeldb.science/ModelList?id=3637</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <rdfs:label>Parameter Fitting</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <bqbiol:encodes rdf:resource="local:00016">local:00016</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3638">http://modeldb.science/ModelList?id=3638</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <rdfs:label>Simplified Models</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <bqbiol:encodes rdf:resource="local:00017">local:00017</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3645">http://modeldb.science/ModelList?id=3645</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <rdfs:label>Axonal Action Potentials</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <bqbiol:encodes rdf:resource="local:00018">local:00018</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00019">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3649">http://modeldb.science/ModelList?id=3649</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00019">
+    <rdfs:label>Action Potentials</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <bqbiol:encodes rdf:resource="local:00019">local:00019</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00020">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=55277">http://modeldb.science/ModelList?id=55277</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00020">
+    <rdfs:label>Signaling pathways</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <bqbiol:encodes rdf:resource="local:00020">local:00020</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00021">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=136106">http://modeldb.science/ModelList?id=136106</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00021">
+    <rdfs:label>G-protein coupled</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <bqbiol:encodes rdf:resource="local:00021">local:00021</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00022">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=225299">http://modeldb.science/ModelList?id=225299</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00022">
+    <rdfs:label>Multiscale</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <bqbiol:encodes rdf:resource="local:00022">local:00022</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00023">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=245690">http://modeldb.science/ModelList?id=245690</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00023">
+    <rdfs:label>Olfaction</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <bqbiol:encodes rdf:resource="local:00023">local:00023</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00024">
+    <rdfs:label>G-protein coupled</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <bqbiol:encodes rdf:resource="local:00024">local:00024</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00025">
+    <dc:identifier rdf:resource="mailto:dpdoughe@mbi.ohio-state.edu">mailto:dpdoughe@mbi.ohio-state.edu</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00025">
+    <rdfs:label>Daniel P Dougherty</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00025">
+    <foaf:accountName rdf:resource="mailto:dpdoughe@mbi.ohio-state.edu">mailto:dpdoughe@mbi.ohio-state.edu</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00025">
+    <foaf:name>Daniel P Dougherty</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <dc:creator rdf:resource="local:00025">local:00025</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00026">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00026">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00026">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00026">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <dc:contributor rdf:resource="local:00026">local:00026</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00027">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00027">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00027">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00027">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <dc:contributor rdf:resource="local:00027">local:00027</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00028">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:136097">https://identifiers.org/modeldb:136097</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00028">
+    <rdfs:label>modeldb:136097</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <bqmodel:is rdf:resource="local:00028">local:00028</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00029">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1093/chemse/bjp032">http://identifiers.org/doi:10.1093/chemse/bjp032</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00029">
+    <rdfs:label>Abstracts from the Thirty-first Annual Meeting of the Association for Chemoreception Sciences. Chemical Senses 34, 7: A1-A121 (2009).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00029">local:00029</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <dc:created>2010-11-01</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <dc:modified>2018-10-17</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

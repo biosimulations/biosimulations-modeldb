@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/167715.omex">
+    <dc:title>Spreading depression model for FHM3 with Nav1.1 mutation (Dahlem et al. 2014)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167715.omex">
+    <dc:abstract>Familial hemiplegic migraine (FHM) is a rare subtype of migraine with aura. A mutation causing FHM type 3 (FHM3) has been identified in SCN1A encoding the Nav1.1 Na+ channel. This genetic defect affects the inactivation gate. The code describes an extended Hodgkin-Huxley framework with dynamic ion concentrations in a wilde-type and mutant form.&#13;
+</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Neuron or other electrically excitable cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167715.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=242">http://modeldb.science/ModelList?id=242</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>I Na,t</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167715.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=248">http://modeldb.science/ModelList?id=248</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>I K</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167715.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=249">http://modeldb.science/ModelList?id=249</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>I K,leak</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167715.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=120693">http://modeldb.science/ModelList?id=120693</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>Na/K pump</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167715.omex">
+    <bqbiol:encodes rdf:resource="local:00005">local:00005</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=139267">http://modeldb.science/ModelList?id=139267</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>I Cl, leak</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167715.omex">
+    <bqbiol:encodes rdf:resource="local:00006">local:00006</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=139268">http://modeldb.science/ModelList?id=139268</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>I Na, leak</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167715.omex">
+    <bqbiol:encodes rdf:resource="local:00007">local:00007</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=92082">http://modeldb.science/ModelList?id=92082</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>Nav1.1 SCN1A</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167715.omex">
+    <bqbiol:encodes rdf:resource="local:00008">local:00008</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>Spreading depression</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167715.omex">
+    <bqbiol:encodes rdf:resource="local:00009">local:00009</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167715.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/167715.omex/figures/PMC4017887/peerj-02-379-g001.jpg">http://omex-library.org/167715.omex/figures/PMC4017887/peerj-02-379-g001.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167715.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/167715.omex/figures/PMC4017887/peerj-02-379-g002.jpg">http://omex-library.org/167715.omex/figures/PMC4017887/peerj-02-379-g002.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167715.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/167715.omex/figures/PMC4017887/peerj-02-379-g003.jpg">http://omex-library.org/167715.omex/figures/PMC4017887/peerj-02-379-g003.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167715.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/167715.omex/figures/PMC4017887/peerj-02-379-g004.jpg">http://omex-library.org/167715.omex/figures/PMC4017887/peerj-02-379-g004.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167715.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/167715.omex/figures/PMC4017887/peerj-02-379-g005.jpg">http://omex-library.org/167715.omex/figures/PMC4017887/peerj-02-379-g005.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167715.omex">
+    <dc:contributor rdf:resource="local:00010">local:00010</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167715.omex">
+    <dc:contributor rdf:resource="local:00011">local:00011</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:167715">https://identifiers.org/modeldb:167715</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <rdfs:label>modeldb:167715</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167715.omex">
+    <bqmodel:is rdf:resource="local:00012">local:00012</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.7717/peerj.379">http://identifiers.org/doi:10.7717/peerj.379</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <rdfs:label>Markus A. Dahlem, Julia Schumacher &amp; Niklas Hübel. Linking a genetic defect in migraine to spreading depression in a computational model. PeerJ 2: e379 (2014).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167715.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00013">local:00013</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167715.omex">
+    <dc:created>2014-10-08</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167715.omex">
+    <dc:modified>2014-10-08</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

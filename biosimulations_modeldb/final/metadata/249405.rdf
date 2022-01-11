@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/249405.omex">
+    <dc:title>A Computational Model of Bidirectional Plasticity Regulation by betaCaMKII (Pinto et al. 2019)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/249405.omex">
+    <dc:abstract>We present a computational model that suggests how calcium-calmodulin dependent protein kinase II can act as a molecular switch in synaptic plasticity induction at an important cerebellar synapse (between parallel fibres and Purkinje cells). Our simulation results provide a potential explanation for experimental data by van Woerden et al (Van Woerden G, Hoebeek F, Gao Z, Nagaraja R, Hoogenraad C, Kushner S, et al. [beta]CaMKII controls the direction of plasticity at parallel fiber-Purkinje cell synapses. Nat Neurosci. 2009;12(7):823-825). These experiments were performed in the lab led by Professor Chris De Zeeuw.</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3539">http://modeldb.science/ModelList?id=3539</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Synapse</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/249405.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=115953">http://modeldb.science/ModelList?id=115953</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Cerebellum</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/249405.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=205">http://modeldb.science/ModelList?id=205</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>AMPA</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/249405.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3647">http://modeldb.science/ModelList?id=3647</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>Long-term Synaptic Plasticity</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/249405.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3643">http://modeldb.science/ModelList?id=3643</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>Synaptic Plasticity</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/249405.omex">
+    <bqbiol:encodes rdf:resource="local:00005">local:00005</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=98012">http://modeldb.science/ModelList?id=98012</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>Calcium dynamics</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/249405.omex">
+    <bqbiol:encodes rdf:resource="local:00006">local:00006</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=22012">http://modeldb.science/ModelList?id=22012</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>Depression</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/249405.omex">
+    <bqbiol:encodes rdf:resource="local:00007">local:00007</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="mailto:thiago.pinto@ifrj.edu.br">mailto:thiago.pinto@ifrj.edu.br</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>Thiago Matos Pinto</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <foaf:accountName rdf:resource="mailto:thiago.pinto@ifrj.edu.br">mailto:thiago.pinto@ifrj.edu.br</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <foaf:name>Thiago Matos Pinto</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/249405.omex">
+    <dc:contributor rdf:resource="local:00008">local:00008</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/249405.omex">
+    <dc:contributor rdf:resource="local:00009">local:00009</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/249405.omex">
+    <dc:contributor rdf:resource="local:00010">local:00010</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:249405">https://identifiers.org/modeldb:249405</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <rdfs:label>modeldb:249405</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/249405.omex">
+    <bqmodel:is rdf:resource="local:00011">local:00011</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <rdfs:label>Pinto TM, Schilstra MJ, Roque AC &amp; Steuber V. Binding of Filamentous Actin to CaMKII as a Potential Mechanism for the Regulation of Bidirectional Synaptic Plasticity by ßCaMKII in Cerebellar Purkinje Cells. PLOS Computational Biology, accepted (2019).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/249405.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00012">local:00012</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/249405.omex">
+    <dc:created>2019-01-10</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/249405.omex">
+    <dc:modified>2019-01-14</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

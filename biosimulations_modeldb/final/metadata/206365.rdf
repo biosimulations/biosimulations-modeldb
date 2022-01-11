@@ -1,0 +1,417 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <dc:title>Subiculum network model with dynamic chloride/potassium homeostasis (Buchin et al 2016)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <dc:abstract>This is the code implementing the single neuron and spiking neural network dynamics. The network has the dynamic ion concentrations of extracellular potassium and intracellular chloride. The code contains multiple parameter variations to study various mechanisms of the neural excitability in the context of chloride homeostasis.</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3539">http://modeldb.science/ModelList?id=3539</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Synapse</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=183720">http://modeldb.science/ModelList?id=183720</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Extracellular</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=8114">http://modeldb.science/ModelList?id=8114</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>Dendrite</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3536">http://modeldb.science/ModelList?id=3536</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>Realistic Network</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=120799">http://modeldb.science/ModelList?id=120799</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>Glia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00005">local:00005</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=115946">http://modeldb.science/ModelList?id=115946</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>Hippocampus</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00006">local:00006</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=258">http://modeldb.science/ModelList?id=258</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>Hippocampus CA1 pyramidal GLU cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00007">local:00007</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=114737">http://modeldb.science/ModelList?id=114737</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>Hodgkin-Huxley neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00008">local:00008</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=182866">http://modeldb.science/ModelList?id=182866</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>Hippocampus CA1 PV+ fast-firing interneuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00009">local:00009</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=146505">http://modeldb.science/ModelList?id=146505</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <rdfs:label>KCC2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00010">local:00010</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=2395">http://modeldb.science/ModelList?id=2395</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <rdfs:label>I Sodium</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00011">local:00011</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=2405">http://modeldb.science/ModelList?id=2405</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <rdfs:label>I Potassium</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00012">local:00012</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=120693">http://modeldb.science/ModelList?id=120693</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <rdfs:label>Na/K pump</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00013">local:00013</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=2396">http://modeldb.science/ModelList?id=2396</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <rdfs:label>I Calcium</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00014">local:00014</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=240">http://modeldb.science/ModelList?id=240</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <rdfs:label>I Chloride</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00015">local:00015</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=139267">http://modeldb.science/ModelList?id=139267</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <rdfs:label>I Cl, leak</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00016">local:00016</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=250">http://modeldb.science/ModelList?id=250</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <rdfs:label>I M</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00017">local:00017</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=139268">http://modeldb.science/ModelList?id=139268</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <rdfs:label>I Na, leak</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00018">local:00018</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00019">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=249">http://modeldb.science/ModelList?id=249</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00019">
+    <rdfs:label>I K,leak</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00019">local:00019</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00020">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=148257">http://modeldb.science/ModelList?id=148257</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00020">
+    <rdfs:label>I_HCO3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00020">local:00020</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00021">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=241">http://modeldb.science/ModelList?id=241</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00021">
+    <rdfs:label>I Na,p</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00021">local:00021</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00022">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=236">http://modeldb.science/ModelList?id=236</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00022">
+    <rdfs:label>Ions</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00022">local:00022</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00023">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=232">http://modeldb.science/ModelList?id=232</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00023">
+    <rdfs:label>Gaba</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00023">local:00023</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00024">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=233">http://modeldb.science/ModelList?id=233</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00024">
+    <rdfs:label>Glutamate</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00024">local:00024</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00025">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=206">http://modeldb.science/ModelList?id=206</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00025">
+    <rdfs:label>NMDA</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00025">local:00025</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00026">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=205">http://modeldb.science/ModelList?id=205</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00026">
+    <rdfs:label>AMPA</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00026">local:00026</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00027">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=202">http://modeldb.science/ModelList?id=202</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00027">
+    <rdfs:label>GabaA</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00027">local:00027</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00028">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3630">http://modeldb.science/ModelList?id=3630</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00028">
+    <rdfs:label>Bursting</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00028">local:00028</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00029">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=52405">http://modeldb.science/ModelList?id=52405</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00029">
+    <rdfs:label>Epilepsy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00029">local:00029</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00030">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=143004">http://modeldb.science/ModelList?id=143004</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00030">
+    <rdfs:label>Chloride regulation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00030">local:00030</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00031">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3543">http://modeldb.science/ModelList?id=3543</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00031">
+    <rdfs:label>Activity Patterns</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00031">local:00031</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00032">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3634">http://modeldb.science/ModelList?id=3634</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00032">
+    <rdfs:label>Oscillations</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00032">local:00032</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00033">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=144409">http://modeldb.science/ModelList?id=144409</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00033">
+    <rdfs:label>Homeostasis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00033">local:00033</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00034">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=151948">http://modeldb.science/ModelList?id=151948</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00034">
+    <rdfs:label>Potassium buffering</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00034">local:00034</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00035">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=139148">http://modeldb.science/ModelList?id=139148</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00035">
+    <rdfs:label>Brain Rhythms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00035">local:00035</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00036">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=84598">http://modeldb.science/ModelList?id=84598</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00036">
+    <rdfs:label>Extracellular Fields</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqbiol:encodes rdf:resource="local:00036">local:00036</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00037">
+    <dc:identifier rdf:resource="mailto:anat.buchin@gmail.com">mailto:anat.buchin@gmail.com</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00037">
+    <rdfs:label>Anatoly Buchin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00037">
+    <foaf:accountName rdf:resource="mailto:anat.buchin@gmail.com">mailto:anat.buchin@gmail.com</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00037">
+    <foaf:name>Anatoly Buchin</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <dc:creator rdf:resource="local:00037">local:00037</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00038">
+    <dc:identifier rdf:resource="mailto:anat.buchin@gmail.com">mailto:anat.buchin@gmail.com</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00038">
+    <rdfs:label>Anatoly Buchin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00038">
+    <foaf:accountName rdf:resource="mailto:anat.buchin@gmail.com">mailto:anat.buchin@gmail.com</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00038">
+    <foaf:name>Anatoly Buchin</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <dc:contributor rdf:resource="local:00038">local:00038</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00039">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00039">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00039">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00039">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <dc:contributor rdf:resource="local:00039">local:00039</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00040">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00040">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00040">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00040">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <dc:contributor rdf:resource="local:00040">local:00040</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00041">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:206365">https://identifiers.org/modeldb:206365</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00041">
+    <rdfs:label>modeldb:206365</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqmodel:is rdf:resource="local:00041">local:00041</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00042">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1523/JNEUROSCI.4228-15.2016">http://identifiers.org/doi:10.1523/JNEUROSCI.4228-15.2016</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00042">
+    <rdfs:label>Anatoly Buchin, Anton Chizhov, Gilles Huberfeld, Richard Miles &amp; Boris S. Gutkin. Reduced Efficacy of the KCC2 Cotransporter Promotes Epileptic Oscillations in a Subiculum Network Model. The Journal of Neuroscience 36, 46: 11619-11633 (2016).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00042">local:00042</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <dc:created>2016-10-27</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <dc:modified>2019-03-22</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

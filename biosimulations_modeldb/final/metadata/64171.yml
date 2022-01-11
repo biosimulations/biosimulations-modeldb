@@ -1,0 +1,10 @@
+references:
+- label: 'C H Luo & Y Rudy. A model of the ventricular cardiac action potential. Depolarization,
+    repolarization, and their interaction. Circulation Research 68, 6: 1501-1526 (1991).'
+  uri: http://identifiers.org/doi:10.1161/01.res.68.6.1501
+- label: 'Wu SN. Simulations of the cardiac action potential based on the Hodgkin-Huxley
+    kinetics with the use of Microsoft Excel spreadsheets. The Chinese journal of
+    physiology 47, 1: 15-22 (2004).'
+  uri: http://identifiers.org/pubmed:15239590
+taxa: []
+thumbnails: []

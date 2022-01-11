@@ -1,0 +1,172 @@
+references:
+- label: 'Andrey Dovzhenok, Choongseok Park, Robert M. Worth & Leonid L. Rubchinsky.
+    Failure of delayed feedback deep brain stimulation for intermittent pathological
+    synchronization in Parkinson''s disease. PLoS ONE 8, 3: e58264 (2013).'
+  uri: http://identifiers.org/doi:10.1371/journal.pone.0058264
+taxa: []
+thumbnails:
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
+    schematics of the model network with examples of synaptic connections between
+    neurons.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Bars
+    represent inhibitory synapses and arrows represent excitatory synapses. Delayed
+    feedback stimulation I<sub>stim</sub> is modeled as an applied current to specified
+    STN neurons.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3585780/PMC3585780/pone.0058264.g001.jpg
+  id: pone.0058264/pone-0058264-g001
+  label: Figure 1
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Stimulation
+    setup for STN neurons.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">STN
+    LFP is first computed from synaptic currents and then band-pass filtered using
+    a damped harmonic oscillator. Differential delay signal is then constructed from
+    the filtered signal, bounded by nonlinear transformation, amplified and injected
+    into the same neurons.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3585780/PMC3585780/pone.0058264.g002.jpg
+  id: pone.0058264/pone-0058264-g002
+  label: Figure 2
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Parameter
+    plane with the number of principal components in the network without stimulation.</title><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Dashed
+    contours represent parameter values for which the model network synchronization
+    dynamics is close to the experimental dynamics as analyzed in <xref rid="pone.0058264-Park1"
+    ref-type="bibr">[26]</xref> for the weight parameter <italic>w</italic>
+
+    <sub>1</sub>&#8202;=&#8202;0.3. Simulations with feedback stimulation were performed
+    for the parameter values inside the dotted rectangle. The filling of the circles
+    specifies the number of principle components; red being synchronized dynamics
+    and black being incoherent dynamics.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3585780/PMC3585780/pone.0058264.g003.jpg
+  id: pone.0058264/pone-0058264-g003
+  label: Figure 3
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Delayed
+    feedback stimulation effect in the model network.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">A) Desynchronization of strongly
+    synchronous STN neurons with delayed feedback stimulation. B) Feedback stimulation
+    leads to increased synchrony in the model network in the physiological intermittent
+    regime. Half of model STN neurons are affected by stimulation. Electrodes are
+    placed near the 5<sup>th</sup> and 7<sup>th</sup> STN neurons in the array and
+    their membrane potentials (in mV) are shown in the top and bottom time traces
+    in A) and B). Middle boxes contain voltage for the 5<sup>th</sup> (red curve)
+    and 7<sup>th</sup> (blue curve) STN neurons together filtered to the beta-band.
+    Stimulation is switched on at 2000 ms (indicated by vertical dashed line). Parameters
+    are: <italic>w</italic>
+
+    <sub>1</sub>&#8202;=&#8202;0.3, <italic>w</italic>
+
+    <sub>2</sub>&#8202;=&#8202;0, &#964;<sub>s</sub>&#8202;=&#8202;50 ms, &#964;&#8202;=&#8202;50
+    ms, <italic>C</italic>
+
+    <sub>1</sub>&#8202;=&#8202;0.04, <italic>I</italic>
+
+    <sub>app</sub>&#8202;=&#8202;5, A) <italic>g</italic>
+
+    <sub>syn</sub>&#8202;=&#8202;1.3, <italic>K</italic>
+
+    <sub>f</sub>&#8202;=&#8202;45. B) <italic>g</italic>
+
+    <sub>syn</sub>&#8202;=&#8202;0.9, <italic>K</italic>
+
+    <sub>f</sub>&#8202;=&#8202;35. The mean period of the model network without stimulation
+    is <italic>T</italic> &#8776; 100 ms.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3585780/PMC3585780/pone.0058264.g004.jpg
+  id: pone.0058264/pone-0058264-g004
+  label: Figure 4
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Change
+    in the number of PCA components in the network with different feedback stimulation
+    set-ups.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Positive
+    change indicates dynamics less synchronous than pre-stimulation dynamics, negative
+    change indicates more coherent dynamics. Two different spatial stimulation set-ups
+    and two different weights are presented. A, B) 50% or 70% of STN neurons are directly
+    affected by stimulation current, correspondingly. Electrodes are placed near the
+    5<sup>th</sup> and 7<sup>th</sup> STN neurons in the array. C, D) 50% or 70% of
+    STN neurons are directly affected by stimulation current, correspondingly. Electrodes
+    are placed near the 5<sup>th</sup>, 6<sup>th</sup> and 7<sup>th</sup> STN neurons.
+    Weight parameters are <italic>w</italic>
+
+    <sub>1</sub>&#8202;=&#8202;0.3, A, C) <italic>w</italic>
+
+    <sub>2</sub>&#8202;=&#8202;0; B, D) <italic>w</italic>
+
+    <sub>2</sub>&#8202;=&#8202;0.1. <italic>I</italic>
+
+    <sub>app</sub>&#8202;=&#8202;5 in all simulations.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3585780/PMC3585780/pone.0058264.g005.jpg
+  id: pone.0058264/pone-0058264-g005
+  label: Figure 5
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Change
+    in the number of PCA components in a network with feedback stimulation.</title><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
+    spatial set-up of stimulation is different from that in <xref ref-type="fig" rid="pone-0058264-g005">Figure
+    5</xref>. A, B) 30% or 50% of STN neurons are directly affected by stimulation.
+    Electrode is placed near the 5<sup>th</sup> STN neuron. C, D) 40% or 60% of STN
+    neurons are directly affected by stimulation current, correspondingly. Electrodes
+    are placed near the 5<sup>th</sup> and 6<sup>th</sup> STN neurons. E, F) 70% or
+    90% of STN neurons are directly affected by stimulation current, correspondingly.
+    Electrodes are placed near the 5<sup>th</sup>, 7<sup>th</sup> and 9<sup>th</sup>
+    STN neurons. Weight parameters are <italic>w</italic>
+
+    <sub>1</sub>&#8202;=&#8202;0.3, A, C, E) <italic>w</italic>
+
+    <sub>2</sub>&#8202;=&#8202;0; B, D, F) <italic>w</italic>
+
+    <sub>2</sub>&#8202;=&#8202;0.1. <italic>I</italic>
+
+    <sub>app</sub>&#8202;=&#8202;5 in all simulations.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3585780/PMC3585780/pone.0058264.g006.jpg
+  id: pone.0058264/pone-0058264-g006
+  label: Figure 6
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Maximum
+    improvement in the number of principal components during stimulation.</title><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
+    spatial electrode setups are the same as in <xref ref-type="fig" rid="pone-0058264-g005">Figure
+    5</xref>. While the desynchronizing action (filled circles) is consistent for
+    the lower right corner (strongly correlated dynamics), it is very rare outside
+    of that corner, for moderately synchronous (and more realistic) dynamics. Filled
+    circles indicate desynchronizing action of stimulation of various efficiency (indicated
+    by different colors). Empty circles indicate no desynchronization. Note that unlike
+    <xref ref-type="fig" rid="pone-0058264-g005">Figure 5</xref>, here we consider
+    the maximum improvement, so that it cannot be negative (it is always zero for
+    zero stimulation strength). Dashed contours represent parameter values for which
+    the model network synchronization dynamics is close to the experimental dynamics
+    as analyzed in <xref rid="pone.0058264-Park1" ref-type="bibr">[26]</xref> for
+    the weight parameter <italic>w</italic>
+
+    <sub>1</sub>&#8202;=&#8202;0.3. A, B) 50% or 70% of STN neurons are directly affected
+    by the stimulation current. Electrodes are placed near the 5<sup>th</sup> and
+    7<sup>th</sup> STN neurons in the array. C, D) 50% or 70% of STN neurons are directly
+    affected by stimulation current. Electrodes are placed near the 5<sup>th</sup>,
+    6<sup>th</sup> and 7<sup>th</sup> STN neurons. Weight parameters are <italic>w</italic>
+
+    <sub>1</sub>&#8202;=&#8202;0.3, A, C) <italic>w</italic>
+
+    <sub>2</sub>&#8202;=&#8202;0; B, D) <italic>w</italic>
+
+    <sub>2</sub>&#8202;=&#8202;0.1.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3585780/PMC3585780/pone.0058264.g007.jpg
+  id: pone.0058264/pone-0058264-g007
+  label: Figure 7
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Maximum
+    improvement in the number of principal components during stimulation.</title><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
+    spatial electrode setups are the same as in <xref ref-type="fig" rid="pone-0058264-g006">Figure
+    6</xref>. These results are overall similar to those in <xref ref-type="fig" rid="pone-0058264-g007">Figure
+    7</xref>. Dashed contours represent parameter values for which the model network
+    synchronization dynamics is close to the experimental dynamics as analyzed in
+    <xref rid="pone.0058264-Park1" ref-type="bibr">[26]</xref> for the weight parameter
+    <italic>w</italic>
+
+    <sub>1</sub>&#8202;=&#8202;0.3. A, B) 30% or 50% of STN neurons are directly affected
+    by the stimulation current, correspondingly. Electrode is placed near the 5<sup>th</sup>
+    STN neuron in the array. C, D) 40% or 60% of STN neurons are directly affected
+    by the stimulation current. Electrodes are placed near the 5<sup>th</sup> and
+    6<sup>th</sup> STN neurons. E, F) 70% or 90% of STN neurons are directly affected
+    by the stimulation current. Electrodes are placed near the 5<sup>th</sup>, 7<sup>th</sup>
+    and 9<sup>th</sup> STN neurons. Weight parameters are <italic>w</italic>
+
+    <sub>1</sub>&#8202;=&#8202;0.3, A, C, E) <italic>w</italic>
+
+    <sub>2</sub>&#8202;=&#8202;0; B, D, F) <italic>w</italic>
+
+    <sub>2</sub>&#8202;=&#8202;0.1.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3585780/PMC3585780/pone.0058264.g008.jpg
+  id: pone.0058264/pone-0058264-g008
+  label: Figure 8

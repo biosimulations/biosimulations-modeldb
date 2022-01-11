@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <dc:title>Respiratory central pattern generator (mammalian brainstem) (Rubin &amp; Smith 2019)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <dc:abstract>This model includes a conditional respiratory pacemaker unit (representing the pre-Botzinger Complex), which can be tuned across oscillatory and non-oscillatory dynamic regimes in isolation,  embedded into a full respiratory network.  The work shows that under this embedding, the pacemaker unit's dynamics become masked: the network exhibits similar dynamical properties regardless of the conditional pacemaker node's tuning, and that node's outputs are dominated by&#13;
+network influences.</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Neuron or other electrically excitable cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=183076">http://modeldb.science/ModelList?id=183076</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Brainstem</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=232103">http://modeldb.science/ModelList?id=232103</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>PreBotzinger complex neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>Respiratory rhythm generator neurons</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=241">http://modeldb.science/ModelList?id=241</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>I Na,p</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <bqbiol:encodes rdf:resource="local:00005">local:00005</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>adaptation current</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <bqbiol:encodes rdf:resource="local:00006">local:00006</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=233">http://modeldb.science/ModelList?id=233</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>Glutamate</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <bqbiol:encodes rdf:resource="local:00007">local:00007</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=232">http://modeldb.science/ModelList?id=232</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>Gaba</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <bqbiol:encodes rdf:resource="local:00008">local:00008</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=205">http://modeldb.science/ModelList?id=205</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>AMPA</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <bqbiol:encodes rdf:resource="local:00009">local:00009</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=202">http://modeldb.science/ModelList?id=202</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <rdfs:label>GabaA</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <bqbiol:encodes rdf:resource="local:00010">local:00010</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=232102">http://modeldb.science/ModelList?id=232102</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <rdfs:label>Respiratory control</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <bqbiol:encodes rdf:resource="local:00011">local:00011</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <rdfs:label>rhythm generation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <bqbiol:encodes rdf:resource="local:00012">local:00012</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/257608.omex/figures/PMC6697358/pcbi.1006860.g001.jpg">http://omex-library.org/257608.omex/figures/PMC6697358/pcbi.1006860.g001.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/257608.omex/figures/PMC6697358/pcbi.1006860.g002.jpg">http://omex-library.org/257608.omex/figures/PMC6697358/pcbi.1006860.g002.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/257608.omex/figures/PMC6697358/pcbi.1006860.g003.jpg">http://omex-library.org/257608.omex/figures/PMC6697358/pcbi.1006860.g003.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/257608.omex/figures/PMC6697358/pcbi.1006860.g004.jpg">http://omex-library.org/257608.omex/figures/PMC6697358/pcbi.1006860.g004.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/257608.omex/figures/PMC6697358/pcbi.1006860.g005.jpg">http://omex-library.org/257608.omex/figures/PMC6697358/pcbi.1006860.g005.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/257608.omex/figures/PMC6697358/pcbi.1006860.g006.jpg">http://omex-library.org/257608.omex/figures/PMC6697358/pcbi.1006860.g006.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/257608.omex/figures/PMC6697358/pcbi.1006860.g007.jpg">http://omex-library.org/257608.omex/figures/PMC6697358/pcbi.1006860.g007.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/257608.omex/figures/PMC6697358/pcbi.1006860.g008.jpg">http://omex-library.org/257608.omex/figures/PMC6697358/pcbi.1006860.g008.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/257608.omex/figures/PMC6697358/pcbi.1006860.g009.jpg">http://omex-library.org/257608.omex/figures/PMC6697358/pcbi.1006860.g009.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/257608.omex/figures/PMC6697358/pcbi.1006860.g010.jpg">http://omex-library.org/257608.omex/figures/PMC6697358/pcbi.1006860.g010.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/257608.omex/figures/PMC6697358/pcbi.1006860.g011.jpg">http://omex-library.org/257608.omex/figures/PMC6697358/pcbi.1006860.g011.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/257608.omex/figures/PMC6697358/pcbi.1006860.g012.jpg">http://omex-library.org/257608.omex/figures/PMC6697358/pcbi.1006860.g012.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/257608.omex/figures/PMC6697358/pcbi.1006860.g013.jpg">http://omex-library.org/257608.omex/figures/PMC6697358/pcbi.1006860.g013.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <dc:identifier rdf:resource="mailto:jonrubin@pitt.edu">mailto:jonrubin@pitt.edu</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <rdfs:label>Jonathan E Rubin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <foaf:accountName rdf:resource="mailto:jonrubin@pitt.edu">mailto:jonrubin@pitt.edu</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <foaf:name>Jonathan E Rubin</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <dc:creator rdf:resource="local:00013">local:00013</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <dc:identifier rdf:resource="mailto:jonrubin@pitt.edu">mailto:jonrubin@pitt.edu</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <rdfs:label>Jonathan Rubin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <foaf:accountName rdf:resource="mailto:jonrubin@pitt.edu">mailto:jonrubin@pitt.edu</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <foaf:name>Jonathan Rubin</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <dc:contributor rdf:resource="local:00014">local:00014</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <dc:contributor rdf:resource="local:00015">local:00015</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <dc:contributor rdf:resource="local:00016">local:00016</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:257608">https://identifiers.org/modeldb:257608</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <rdfs:label>modeldb:257608</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <bqmodel:is rdf:resource="local:00017">local:00017</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1371/journal.pcbi.1006860">http://identifiers.org/doi:10.1371/journal.pcbi.1006860</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <rdfs:label>Jonathan E. Rubin &amp; Jeffrey C. Smith. Robustness of respiratory rhythm generation across dynamic regimes. PLOS Computational Biology 15, 7: e1006860 (2019).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00018">local:00018</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <dc:created>2019-07-03</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/257608.omex">
+    <dc:modified>2019-07-14</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

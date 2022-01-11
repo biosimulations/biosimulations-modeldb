@@ -1,0 +1,175 @@
+references:
+- label: "Niklas H\xFCbel, Mahshid S. Hosseini-Zare, Jok\u016Bbas \u017Diburkus &\
+    \ Ghanim Ullah. The role of glutamate in neuronal ion homeostasis: A case study\
+    \ of spreading depolarization. PLOS Computational Biology 13, 10: e1005804 (2017)."
+  uri: http://identifiers.org/doi:10.1371/journal.pcbi.1005804
+taxa: []
+thumbnails:
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Neurons
+    and synaptic connections.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">When a signal travels from the
+    right to the left neuron along the axon, glutamate is released at the dendritic
+    terminals. The terminals are separated from the neighboring neuron by the synaptic
+    cleft. Signal transmission goes via release of the neurotransmitter glutamate.
+    It binds to receptors on the postsynaptic neuron and can initiate new action potentials.
+    The synaptic terminals are located at the dendrites of the receiving neuron. At
+    the same time the right neuron can receive glutamate&#8211;mediated signals from
+    other neurons through the dendritic terminals located near its own soma. The inset
+    on the left shows additional details: glutamate is contained in vesicles and in
+    the release process all molecules are released into the cleft at once. The inset
+    on the right shows idealized geometry of the synapse considered in the model.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5655358/PMC5655358/pcbi.1005804.g001.jpg
+  id: pcbi.1005804/pcbi.1005804.g001
+  label: Fig 1
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Two
+    variants of SD with intact glutamate clearance.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">The left panels <bold>(a)</bold>
+    and <bold>(c)</bold> show SD induced by perfusion with high K<sup>+</sup>, the
+    right panels <bold>(b)</bold> and <bold>(d)</bold> are for OGD. The OGD protocol
+    is indicated by the horizontal bar where the light sections at the beginning and
+    the end indicate the smooth de&#8211; and reactivation of the regulatory functions.
+    The figure shows all the familiar aspects of SD. In <bold>(a)</bold> and <bold>(b)</bold>
+    the neuron depolarizes and the differences between Nernst potentials become very
+    small. Depolarization is maintained for about 70 sec and ends with an abrupt repolarization
+    drop after which the Nernst potentials slowly return to their initial values.
+    Changes in ion concentrations in <bold>(c)</bold> and <bold>(d)</bold> correspond
+    to the evolution of the potentials. There is, for example, a huge increase in
+    extracellular K<sup>+</sup> and a huge drop in extracellular Na<sup>+</sup>. The
+    ion fluxes induce swelling of the glia cell and the neuron (see the insets), which
+    result in shrinkage of the ECS. The time of de&#8211; and repolarization are marked
+    by a red upward pointing and a green downward pointing triangle. These symbols
+    will be used in the following figures to indicate these events.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5655358/PMC5655358/pcbi.1005804.g002.jpg
+  id: pcbi.1005804/pcbi.1005804.g002
+  label: Fig 2
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Glutamate
+    dynamics for the simulations from <xref ref-type="fig" rid="pcbi.1005804.g002">Fig
+    2</xref>.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Panels
+    <bold>(a)</bold> and <bold>(b)</bold> show a jump of the cleft glutamate concentration
+    to about 15 mM when the neuron depolarizes. In the simulation of K<sup>+</sup>
+    perfusion we assume intact glutamate uptake at all times, and the high cleft concentration
+    is brought back to a much lower level within 2 sec (see upper inset of <bold>(a)</bold>).
+    There is a plateau concentration near 0.01 mM that is maintained as long as the
+    neuron is depolarized, and is only cleared after repolarization (lower inset of
+    <bold>(a)</bold>). There is no noticeable glutamate elevation in the ECS. In panel
+    <bold>(b)</bold> we see different dynamics, because there is no glutamate clearance
+    during OGD. The sharp jump in the cleft concentration also decays within 2 sec,
+    but the concentration then settles to a much higher level of 5 mM (see upper inset).
+    It keeps increasing slowly until glutamate clearance is slowly reactivated (see
+    horizontal bar for the OGD protocol). The lower inset shows that glutamate is
+    back to a very low level before the neuron repolarizes. The extracellular concentration
+    goes up to more than 5 mM. When there is no glutamate clearance at all (center
+    part of the OGD bar) the concentrations in the cleft and the ECS are equal because
+    of diffusion. The lower panels show pathways of glutamate clearance. Glutamate
+    that has been taken up from the cleft or the ECS by either the neuron or the glial
+    cell, but has not yet been recycled, counts as buffered glutamate (see <xref ref-type="disp-formula"
+    rid="pcbi.1005804.e046">Eq 30</xref>). The main plots show glutamate clearance
+    from the cleft, the inset show clearance from the ECS. For K<sup>+</sup> perfusion,
+    more glutamate is cleared directly from the cleft than from the ECS (see peak
+    values in the main plot and inset of panel <bold>(c)</bold>). In the cleft, more
+    glutamate is cleared by glia than by the neuron (compare the orange and the yellow
+    portion of the total uptake from the cleft). In the ECS, this relation is even
+    more pronounced (compare turquoise to blue in the second inset). In panel <bold>(d)</bold>,
+    glutamate clearance only sets in with the reactivation of regulatory functions
+    at the end of the OGD protocol. Now more glutamate is cleared from the ECS, since
+    there is more in the ECS than in the clefts. The relation between uptake by glia
+    and neural uptake is consistent with <bold>(c)</bold> and Eqs <xref ref-type="disp-formula"
+    rid="pcbi.1005804.e037">(26)</xref> and <xref ref-type="disp-formula" rid="pcbi.1005804.e027">(18)</xref>.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5655358/PMC5655358/pcbi.1005804.g003.jpg
+  id: pcbi.1005804/pcbi.1005804.g003
+  label: Fig 3
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">SD
+    simulations with reduced uptake rates.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Panel <bold>(a)</bold> and <bold>(b)</bold>
+    show SD for K<sup>+</sup> perfusion with uptake rates reduced to 20% and 18% of
+    the normal value from Table C in <xref ref-type="supplementary-material" rid="pcbi.1005804.s001">S1
+    Text</xref>. The plots show that repolarization and recovery are delayed and the
+    delay is longer for more reduced glutamate uptake. The repolarization time with
+    normal uptake is indicated by the vertical dashed line. Before repolarization,
+    the system shows low amplitude membrane potential oscillations. Panel <bold>(c)</bold>
+    shows the evolution of the glutamate concentration in the synaptic clefts during
+    the two simulations. Delayed recovery correlates with slower glutamate clearance.
+    Before repolarization, there are glutamate spikes because of the membrane potential
+    oscillations. Panel <bold>(d)</bold> gives an overview of SD durations for reduced
+    uptake rates. In our model, the effect becomes noticeable only for rates of 35%
+    and less. Extreme durations can be up to 500 sec, and recovery fails for uptake
+    rates of less than 16%.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5655358/PMC5655358/pcbi.1005804.g004.jpg
+  id: pcbi.1005804/pcbi.1005804.g004
+  label: Fig 4
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Phase
+    space perspective of SD.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Panel <bold>(a)</bold> shows the
+    evolution of slow variables. &#916;<italic>N</italic><sup><italic>K</italic></sup>
+    takes extremum values at de&#8211; and repolarization. It is used as a bifurcation
+    parameter to derive the fixed point structures in panel <bold>(b)</bold> that
+    guide the trajectory in phase space. <inline-formula id="pcbi.1005804.e060"><alternatives><graphic
+    id="pcbi.1005804.e060g" xlink:href="pcbi.1005804.e060"/><mml:math id="M60"><mml:mrow><mml:mo>&#916;</mml:mo><mml:msubsup><mml:mi>N</mml:mi><mml:mi>g</mml:mi><mml:mi>K</mml:mi></mml:msubsup></mml:mrow></mml:math></alternatives></inline-formula>
+    contributes to &#916;<italic>N</italic><sup><italic>K</italic></sup> and its evolution
+    is also shown. The values at the two points of interest are indicated by colored
+    X markers. The values are used to compute the fixed point structures that guide
+    the dynamics near the de&#8211; and repolarization point in <bold>(b)</bold>,
+    respectively.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5655358/PMC5655358/pcbi.1005804.g005.jpg
+  id: pcbi.1005804/pcbi.1005804.g005
+  label: Fig 5
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Dependence
+    of the fixed point structure on <italic>G</italic><sub><italic>c</italic></sub>.</title><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Panel
+    <bold>(a)</bold> shows the fixed point curves for three different <italic>G</italic><sub><italic>c</italic></sub>&#8211;values.
+    The beginning of the polarized fixed point branch is shifted towards larger &#916;<italic>N</italic><sup><italic>K</italic></sup>&#8211;vaues
+    as <italic>G</italic><sub><italic>c</italic></sub> increases. The depolarized
+    and polarized branch only overlap for <italic>G</italic><sub><italic>c</italic></sub>
+    = 0.02 mM. Scanning through all values of <italic>G</italic><sub><italic>c</italic></sub>
+    from 0 to 0.3 mM and higher yields the red and green line indicating the beginning
+    of the lower and the end of the upper stable fixed point branches. The green line
+    is only a short curve connecting the triangle markers indicating the ends of the
+    three upper fixed point branches. In panel <bold>(b)</bold> these curves are shown
+    in the (<italic>G</italic><sub><italic>c</italic></sub>, &#916;<italic>N</italic><sup><italic>K</italic></sup>)&#8211;plane.
+    As long as the lower branch begins before the upper branch ends, i.e. whenever
+    the green curve is above the red curve, repolarization is possible. The critical
+    value of intersection is near 0.032 mM and for higher values of <italic>G</italic><sub><italic>c</italic></sub>
+    there is no recovery (shaded region).</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5655358/PMC5655358/pcbi.1005804.g006.jpg
+  id: pcbi.1005804/pcbi.1005804.g006
+  label: Fig 6
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Membrane
+    phase space near repolarization point.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Panel <bold>(a)</bold> shows the
+    stable and unstable fixed points of the membrane model as &#916;<italic>N</italic><sup><italic>K</italic></sup>
+    varies for extremely low <italic>G</italic><sub><italic>c</italic></sub> (set
+    to 0.0001 mM as in <xref ref-type="fig" rid="pcbi.1005804.g002">Fig 2</xref>).
+    There is a stable depolarized and a stable (hyper&#8211;)polarized state. At the
+    repolarization point (triangle marker) the depolarized state becomes unstable.
+    The trajectory is guided by the fixed point branches and gets close to the lower
+    branch before ion concentrations adjust and the neuron approaches a level slightly
+    above the lower branch. A de&#8211; and a hyperpolarized state close to but before
+    repolarization are marked. The values are given in Table D in <xref ref-type="supplementary-material"
+    rid="pcbi.1005804.s001">S1 Text</xref>. Panel <bold>(b)</bold> shows the potentials
+    at the ends of the upper fixed point branches for all <italic>G</italic><sub><italic>c</italic></sub>&#8211;values
+    between 0 and 0.05 mM. The other membrane fixed point states, stable hyperpolarization,
+    and an unstable state, are also shown. The stable hyperpolarized state ceases
+    to exist for <italic>G</italic><sub><italic>c</italic></sub>&#8211;values higher
+    than 0.32 mM. Beyond this critical value repolarization is no longer possible
+    (shaded region). The critical value is consistent with the value we have derived
+    for the transmembrane model in <xref ref-type="fig" rid="pcbi.1005804.g006">Fig
+    6</xref>.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5655358/PMC5655358/pcbi.1005804.g007.jpg
+  id: pcbi.1005804/pcbi.1005804.g007
+  label: Fig 7
+- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Inhibitor
+    of astrocytic glutamate transporters, TFB-TBOA, significantly increases the duration
+    of SD.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Here
+    we show the network and single cell properties of SD in control and TFB-TBOA treated
+    groups. Representative time traces of membrane potential of individual pyramidal
+    neurons (bottom trace) and network level (top trace) in layers 2-3 of visual cortex
+    recorded using whole-cell patch clamp and extracellular recording techniques respectively
+    in control (n = 9) and TFB-TBOA treated groups (n = 9) are shown in panels <bold>(a&#8211;c)</bold>.
+    <bold>(d-e)</bold> SD duration defined as the time from the initiation of rapid
+    depolarization in individual neurons and network to the time when the membrane
+    potential repolarizes to its pre-SD value. TFB-TBOA prolonged the duration of
+    SD both at the network level <bold>(d)</bold> (n = 9, p&lt;0.001) and single cell
+    level <bold>(e)</bold> (n = 9, p&lt;0.01).</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5655358/PMC5655358/pcbi.1005804.g008.jpg
+  id: pcbi.1005804/pcbi.1005804.g008
+  label: Fig 8

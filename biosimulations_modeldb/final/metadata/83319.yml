@@ -1,0 +1,14 @@
+references:
+- label: 'Vogels TP & Abbott LF. Signal propagation and logic gating in networks of
+    integrate-and-fire neurons. Journal of Neuroscience 25, 46: 10786-10795 (2005).'
+  uri: http://identifiers.org/doi:10.1523/JNEUROSCI.3508-05.2005
+- label: "Romain Brette, Michelle Rudolph, Ted Carnevale, Michael Hines, David Beeman,\
+    \ James M. Bower, Markus Diesmann, Abigail Morrison, Philip H. Goodman, Frederick\
+    \ C. Harris, Milind Zirpe, Thomas Natschl\xE4ger, Dejan Pecevski, Bard Ermentrout,\
+    \ Mikael Djurfeldt, Anders Lansner, Olivier Rochel, Thierry Vieville, Eilif Muller,\
+    \ Andrew P. Davison, Sami El Boustani & Alain Destexhe. Simulation of networks\
+    \ of spiking neurons: a review of tools and strategies. Journal of Computational\
+    \ Neuroscience 23, 3: 349-398 (2007)."
+  uri: http://identifiers.org/doi:10.1007/s10827-007-0038-6
+taxa: []
+thumbnails: []

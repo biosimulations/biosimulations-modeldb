@@ -16,7 +16,8 @@ This command-line program is run weekly by the GitHub action in this repository.
 
 ### Install latest revision from GitHub
 ```
-pip install git+https://github.com/biosimulations/biosimulations-modeldb.git#biosimulations-modeldb
+git clone --recurse-submodules https://github.com/biosimulations/biosimulations-modeldb
+pip install biosimulations-modeldb/
 ```
 
 ## API documentation

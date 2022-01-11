@@ -1,0 +1,487 @@
+references:
+- label: 'Mingming Chen, Daqing Guo, Tiebin Wang, Wei Jing, Yang Xia, Peng Xu, Cheng
+    Luo, Pedro A. Valdes-Sosa & Dezhong Yao. Bidirectional control of absence seizures
+    by the basal ganglia: a computational evidence. PLoS Computational Biology 10,
+    3: e1003495 (2014).'
+  uri: http://identifiers.org/doi:10.1371/journal.pcbi.1003495
+- label: 'Mingming Chen, Daqing Guo, Min Li, Tao Ma, Shengdun Wu, Jingling Ma, Yan
+    Cui, Yang Xia, Peng Xu & Dezhong Yao. Critical Roles of the Direct GABAergic Pallido-cortical
+    Pathway in Controlling Absence Seizures. PLOS Computational Biology 11, 10: e1004539
+    (2015).'
+  uri: http://identifiers.org/doi:10.1371/journal.pcbi.1004539
+taxa: []
+thumbnails:
+- caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Framework of the basal ganglia-corticothalamic
+    network.</title><p xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Neural populations include <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e013.jpg"/></inline-formula>excitatory pyramidal neurons
+    (EPN); <inline-formula><inline-graphic xlink:href="pcbi.1003495.e014.jpg"/></inline-formula>inhibitory
+    interneurons (IIN); <inline-formula><inline-graphic xlink:href="pcbi.1003495.e015.jpg"/></inline-formula>thalamic
+    reticular nucleus (TRN); <inline-formula><inline-graphic xlink:href="pcbi.1003495.e016.jpg"/></inline-formula>specific
+    relay nuclei (SRN); <inline-formula><inline-graphic xlink:href="pcbi.1003495.e017.jpg"/></inline-formula>striatal
+    D1 neurons; <inline-formula><inline-graphic xlink:href="pcbi.1003495.e018.jpg"/></inline-formula>striatal
+    D2 neurons; <inline-formula><inline-graphic xlink:href="pcbi.1003495.e019.jpg"/></inline-formula>substantia
+    nigra pars reticulata (SNr); <inline-formula><inline-graphic xlink:href="pcbi.1003495.e020.jpg"/></inline-formula>globus
+    pallidus external (GPe) segment; <inline-formula><inline-graphic xlink:href="pcbi.1003495.e021.jpg"/></inline-formula>subthalamic
+    nucleus (STN). Note that we do not model the globus pallidus internal (GPi) segment
+    independently but consider SNr and GPi as a single structure in this work. Red
+    lines with arrow heads denote the excitatory projections mediated by glutamate
+    receptors. Blue solid and dashed lines with round heads represent the inhibitory
+    projections mediated by GABA<sub>A</sub> and GABA<sub>B</sub> receptors, respectively.
+    Compared with the traditional model of corticothalamic system on absence seizures,
+    the basal ganglia are also included in our biophysical model.</p>
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3952815/PMC3952815/pcbi.1003495.g001.jpg
+  id: pcbi.1003495/pcbi-1003495-g001
+  label: Figure 1
+- caption: '<title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Absence seizure activities induced
+    by the slow kinetics of</title><p xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">
+
+    <inline-formula><inline-graphic xlink:href="pcbi.1003495.e184.jpg"/></inline-formula>
+
+    <bold> receptors in TRN.</bold> A, B: Bifurcation diagrams of <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e185.jpg"/></inline-formula> as a function of the TRN-SRN
+    inhibitory coupling strength <inline-formula><inline-graphic xlink:href="pcbi.1003495.e186.jpg"/></inline-formula>
+    (A) and the delay parameter <inline-formula><inline-graphic xlink:href="pcbi.1003495.e187.jpg"/></inline-formula>
+    (B), respectively. Four different dynamical states can be observed from the time
+    series of <inline-formula><inline-graphic xlink:href="pcbi.1003495.e188.jpg"/></inline-formula>,
+    which are: the saturation state (I), the SWD oscillation state (II), the simple
+    oscillation state (III) and the low firing state (IV). C: Typical time series
+    of <inline-formula><inline-graphic xlink:href="pcbi.1003495.e189.jpg"/></inline-formula>
+    correspond to the above four dynamical states. Here we set <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e190.jpg"/></inline-formula> and chose <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e191.jpg"/></inline-formula> (I), <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e192.jpg"/></inline-formula> (II), <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e193.jpg"/></inline-formula> (III), <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e194.jpg"/></inline-formula> (IV), respectively. The
+    colors in bifurcation diagrams (A) and (B) correspond to the typical time series
+    plotted in (C). D, E: The state analysis (D) and frequency analysis (E) in the
+    (<inline-formula><inline-graphic xlink:href="pcbi.1003495.e195.jpg"/></inline-formula>)
+    panel. Different colors in (D) represent different dynamical state regions, corresponding
+    to those dynamical states given in (A), (B) and (C). The yellow asterisk regions
+    surrounded by black dashed lines in (D) and (E) represent the SWD oscillation
+    regions falling into the 2&#8211;4 Hz frequency range. The other symbols in (D)
+    and (E) are linked to parameter values used for different typical time series
+    in (C): I (white filled circle), II (red filled square), III (yellow filled triangle),
+    and IV (purple filled star). For all simulations, we set <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e196.jpg"/></inline-formula>.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3952815/PMC3952815/pcbi.1003495.g002.jpg
+  id: pcbi.1003495/pcbi-1003495-g002
+  label: Figure 2
+- caption: '<title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Control of absence seizures by
+    the isolated SNr-TRN pathway.</title><p xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">A,
+    B: The state analysis (A) and frequency analysis (B) in the (<inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e197.jpg"/></inline-formula>) panel. Here <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e198.jpg"/></inline-formula> is the inhibitory coupling
+    strength of the TRN-SRN pathway, whereas <inline-formula><inline-graphic xlink:href="pcbi.1003495.e199.jpg"/></inline-formula>
+    is the excitatory coupling strength of the STN-SNr pathway. Different colors in
+    (A) represent different dynamical state regions: the saturation region (I), the
+    SWD oscillation region (II), the simple oscillation region (III) and the low firing
+    region (IV). The suppression of SWDs appears to the right of the white dashed
+    line in (A), where the white down arrow indicates that the SWD oscillation can
+    be inhibited by decreasing <inline-formula><inline-graphic xlink:href="pcbi.1003495.e200.jpg"/></inline-formula>.
+    The yellow asterisk region surrounded by black dashed lines in (B) denotes the
+    typical 2&#8211;4 Hz SWD oscillation region. C, D: Bifurcation diagrams of <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e201.jpg"/></inline-formula> as a function of <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e202.jpg"/></inline-formula> for different <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e203.jpg"/></inline-formula>. The strengths of the inhibitory
+    projections from the TRN to SRN are set as <inline-formula><inline-graphic xlink:href="pcbi.1003495.e204.jpg"/></inline-formula>
+    (C) and <inline-formula><inline-graphic xlink:href="pcbi.1003495.e205.jpg"/></inline-formula>
+    (D), respectively. Different colors in (C) and (D) represent different dynamical
+    state regions, corresponding to those in phase diagram (A). E: The mean firing
+    rates (MFRs) of several key neural populations as a function of <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e206.jpg"/></inline-formula>, with <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e207.jpg"/></inline-formula>. Here four neural populations
+    are considered: SNr (blue dot), excitatory pyramidal neurons (green asterisk),
+    SRN (black circle) and TRN (red square). Two black dashed lines in (E) represent
+    the occurring positions of the low and high triggering mean firing rates (TMFRs),
+    respectively. F: The low (red filled circle) and high (green filled square) TMFRs
+    as a function of <inline-formula><inline-graphic xlink:href="pcbi.1003495.e208.jpg"/></inline-formula>.
+    For all simulations, the SNr-SRN pathway is artificially blocked (i.e., <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e209.jpg"/></inline-formula>).</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3952815/PMC3952815/pcbi.1003495.g003.jpg
+  id: pcbi.1003495/pcbi-1003495-g003
+  label: Figure 3
+- caption: '<title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Control of absence seizures by
+    the isolated SNr-SRN pathway.</title><p xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">A,
+    B: The state analysis (A) and frequency analysis (B) in the (<inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e274.jpg"/></inline-formula>) panel. Here <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e275.jpg"/></inline-formula> is the inhibitory coupling
+    strength of the TRN-SRN pathway, whereas <inline-formula><inline-graphic xlink:href="pcbi.1003495.e276.jpg"/></inline-formula>
+    is the excitatory coupling strength of the STN-SNr pathway. Similar to previous
+    results, four different dynamical state regions are observed: the saturation region
+    (I), the SWD oscillation region (II), the simple oscillation region (III) and
+    the low firing region (IV), which correspond to those defined in <xref ref-type="fig"
+    rid="pcbi-1003495-g002">Fig. 2</xref> (D). The region between two white dashed
+    lines in (A) represents the suppression region of SWDs, where the white up arrow
+    indicates that the SWD oscillation can be inhibited by increasing <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e277.jpg"/></inline-formula>. The yellow asterisk region
+    surrounded by black dashed lines in (B) denotes the typical 2&#8211;4 Hz SWD oscillation
+    region. C: Two different types of SWD suppressions caused by linearly increasing
+    <inline-formula><inline-graphic xlink:href="pcbi.1003495.e278.jpg"/></inline-formula>.
+    Top (C<sub>1</sub>): The value of <inline-formula><inline-graphic xlink:href="pcbi.1003495.e279.jpg"/></inline-formula>
+    as a function of time. Middle (C<sub>2</sub>): Corresponding <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e280.jpg"/></inline-formula> trace for <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e281.jpg"/></inline-formula>. Bottom (C<sub>3</sub>):
+    Corresponding <inline-formula><inline-graphic xlink:href="pcbi.1003495.e282.jpg"/></inline-formula>
+    trace for <inline-formula><inline-graphic xlink:href="pcbi.1003495.e283.jpg"/></inline-formula>.
+    D: The MFRs of several key neural populations as a function of <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e284.jpg"/></inline-formula>, with <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e285.jpg"/></inline-formula>. Here four neural populations
+    are considered: SNr (blue dot), excitatory pyramidal neurons (green asterisk),
+    SRN (black circle) and TRN (red square). The black dashed line in (D) represents
+    the occurring position of TMFR. E: The TMFR as a function of <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e286.jpg"/></inline-formula>. Note that the SNr-TRN pathway
+    is artificially blocked (i.e., <inline-formula><inline-graphic xlink:href="pcbi.1003495.e287.jpg"/></inline-formula>)
+    for all simulations.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3952815/PMC3952815/pcbi.1003495.g004.jpg
+  id: pcbi.1003495/pcbi-1003495-g004
+  label: Figure 4
+- caption: '<title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Control of absence seizures by
+    the combination effects of the SNr-TRN and SNr-SRN pathways.</title><p xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">A,
+    B: The state analysis (A) and frequency analysis (B) in the (<inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e304.jpg"/></inline-formula>) panel. Here <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e305.jpg"/></inline-formula> is the scale factor, and
+    <inline-formula><inline-graphic xlink:href="pcbi.1003495.e306.jpg"/></inline-formula>
+    is the excitatory coupling strength of the STN-SNr pathway. Unlike previous results,
+    only three dynamical state regions are observed in the phase diagram (A): the
+    SWD oscillation region (II), the simple oscillation region (III) and the low firing
+    region (IV), corresponding to the dynamical states defined in <xref ref-type="fig"
+    rid="pcbi-1003495-g002">Fig. 2</xref>(D). For relatively weaker scale factor <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e307.jpg"/></inline-formula>, both increase and decrease
+    in the activation level of SNr can inhibit the SWDs (double arrow, bidirectional
+    suppression); whereas for sufficiently strong <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e308.jpg"/></inline-formula>, only reducing the activation
+    level of SNr suppresses the SWDs (single arrow, unidirectional suppression). In
+    (A), the white dashed line represents the boundary of suppression region, and
+    the red dashed line stands for the demarcation between the bidirectional and unidirectional
+    suppression regions. The yellow asterisk region surrounded by black dashed lines
+    in (B) denotes the SWD oscillation region that falls into the 2&#8211;4 Hz frequency
+    range. C: The MFRs of several key neural populations as a function of <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e309.jpg"/></inline-formula>, with the scale factor <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e310.jpg"/></inline-formula>. Here four neural populations
+    are considered: SNr (blue dot), excitatory pyramidal neurons (green asterisk),
+    SRN (black circle) and TRN (red square). Two black dashed lines in (C) represent
+    the occurring positions of low and high triggering mean firing rates (TMFRs),
+    respectively. D: The low (red filled circle) and high (green filled square) TMFRs
+    as a function of <inline-formula><inline-graphic xlink:href="pcbi.1003495.e311.jpg"/></inline-formula>.
+    For all simulations, the coupling strength of the TRN-SRN pathway is set as <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e312.jpg"/></inline-formula>.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3952815/PMC3952815/pcbi.1003495.g005.jpg
+  id: pcbi.1003495/pcbi-1003495-g005
+  label: Figure 5
+- caption: '<title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">Effect of inhibitory coupling strength</title><p
+    xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">
+
+    <inline-formula><inline-graphic xlink:href="pcbi.1003495.e328.jpg"/></inline-formula>
+
+    <bold> on the control of absence seizures by the SNr-TRN and SNr-SRN pathways.</bold>
+    Tow-dimensional state analysis (A) and corresponding frequency analysis (B) in
+    the (<inline-formula><inline-graphic xlink:href="pcbi.1003495.e329.jpg"/></inline-formula>)
+    panel for different values of <inline-formula><inline-graphic xlink:href="pcbi.1003495.e330.jpg"/></inline-formula>.
+    Here only three dynamical state regions are observed in (A): the SWD oscillation
+    region (II), the simple oscillation region (III) and the low firing region (IV).
+    In (A<sub>1</sub>)&#8211;(A<sub>4</sub>), the regions marked by red diamonds denote
+    the whole suppression regions of SWDs, the white dashed lines represent the boundaries
+    of suppression regions, and the red dashed lines stand for the demarcations between
+    the bidirectional (double arrow) and unidirectional (single arrow) suppression
+    regions. In (B<sub>1</sub>)&#8211;(B<sub>4</sub>), the yellow asterisk regions
+    surrounded by black dashed lines denote the typical 2&#8211;4 Hz SWD oscillation
+    regions. From left to right, the strengths of inhibitory projections from the
+    TRN to SRN are: <inline-formula><inline-graphic xlink:href="pcbi.1003495.e331.jpg"/></inline-formula>
+    (A<sub>1</sub>, B<sub>1</sub>), <inline-formula><inline-graphic xlink:href="pcbi.1003495.e332.jpg"/></inline-formula>
+    (A<sub>2</sub>, B<sub>2</sub>), <inline-formula><inline-graphic xlink:href="pcbi.1003495.e333.jpg"/></inline-formula>
+    (A<sub>3</sub>, B<sub>3</sub>), and <inline-formula><inline-graphic xlink:href="pcbi.1003495.e334.jpg"/></inline-formula>
+    (A<sub>4</sub>, B<sub>4</sub>), respectively. For better showing and comparing
+    the bidirectional suppression regions among different subfigures, here we mainly
+    consider the scale factor for all values of <inline-formula><inline-graphic xlink:href="pcbi.1003495.e335.jpg"/></inline-formula>
+    within the same and small interval from 0 to 1. As an additional comparison, both
+    the state analysis and frequency analysis for <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e336.jpg"/></inline-formula> in a relatively larger <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e337.jpg"/></inline-formula> interval is given in <xref
+    ref-type="supplementary-material" rid="pcbi.1003495.s002">Fig. S2</xref>.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3952815/PMC3952815/pcbi.1003495.g006.jpg
+  id: pcbi.1003495/pcbi-1003495-g006
+  label: Figure 6
+- caption: '<title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">An example illustrating that the
+    bidirectional control of absence seizures by the basal ganglia is also available
+    for the corticothalamic loop transmission delay induced SWDs.</title><p xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">A,
+    B: Tow-dimensional state analysis (A) and corresponding frequency analysis (B)
+    in the (<inline-formula><inline-graphic xlink:href="pcbi.1003495.e356.jpg"/></inline-formula>)
+    panel. Here <inline-formula><inline-graphic xlink:href="pcbi.1003495.e357.jpg"/></inline-formula>
+    is the scale factor, and <inline-formula><inline-graphic xlink:href="pcbi.1003495.e358.jpg"/></inline-formula>
+    represents the excitatory coupling strength of the STN-SNr pathway. Four different
+    dynamical states are observed in (A): the saturation state (I), the SWD oscillation
+    state (II), the simple oscillation state (III) and the low firing state (IV),
+    which also correspond to previous figures. In (A), the region between two red
+    dashed lines denotes the main bidirectional suppression region of SWDs, where
+    the double arrow represents both increasing and decreasing the excitatory coupling
+    strength <inline-formula><inline-graphic xlink:href="pcbi.1003495.e359.jpg"/></inline-formula>
+    can inhibit the SWDs. In (B), the yellow asterisk region surrounded by black dashed
+    lines denotes the typical 2&#8211;4 Hz SWD oscillation region. (C) Three typical
+    time series of <inline-formula><inline-graphic xlink:href="pcbi.1003495.e360.jpg"/></inline-formula>
+    for different values of <inline-formula><inline-graphic xlink:href="pcbi.1003495.e361.jpg"/></inline-formula>,
+    with <inline-formula><inline-graphic xlink:href="pcbi.1003495.e362.jpg"/></inline-formula>.
+    Here we choose <inline-formula><inline-graphic xlink:href="pcbi.1003495.e363.jpg"/></inline-formula>
+    (top), <inline-formula><inline-graphic xlink:href="pcbi.1003495.e364.jpg"/></inline-formula>
+    (middle) and <inline-formula><inline-graphic xlink:href="pcbi.1003495.e365.jpg"/></inline-formula>
+    (bottom), respectively. In all simulations, we set <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e366.jpg"/></inline-formula>, <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e367.jpg"/></inline-formula>, <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e368.jpg"/></inline-formula>, <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e369.jpg"/></inline-formula>, <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e370.jpg"/></inline-formula> and <inline-formula><inline-graphic
+    xlink:href="pcbi.1003495.e371.jpg"/></inline-formula>.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3952815/PMC3952815/pcbi.1003495.g007.jpg
+  id: pcbi.1003495/pcbi-1003495-g007
+  label: Figure 7
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Framework
+    of the basal ganglia-corticothalamic (BGCT) network used in this work.</title><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
+    BGCT network contains three components: (I) the cerebral cortex, (II) the thalamus
+    and (III) the basal ganglia. Neural populations include: <italic>e</italic> =
+    excitatory pyramidal neurons, <italic>i</italic> = inhibitory interneurons, <italic>s</italic>
+    = SRN, <italic>r</italic> = TRN, <italic>d</italic>
+
+    <sub>1</sub> = striatal D1 neurons, <italic>d</italic>
+
+    <sub>2</sub> = striatal D2 neurons, <italic>p</italic>
+
+    <sub>1</sub> = SNr/GPi, <italic>p</italic>
+
+    <sub>2</sub> = GPe and &#950; = STN. Parameter <italic>&#981;</italic>
+
+    <sub><italic>n</italic></sub> denotes the non-specific external inputs to SRN.
+    Excitatory projections are mediated by glutamate, which are shown by the red lines
+    with square heads. Inhibitory projections are mediated by GABA<sub>A</sub> and
+    GABA<sub>B</sub>, which are represented by the solid and dashed blue lines with
+    arrow heads, respectively. Compared with the BGCT networks developed in previous
+    studies, a new efferent pathway representing direct connection from the GPe to
+    the cerebral cortex is incorporated in our current BGCT model.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4619822/PMC4619822/pcbi.1004539.g001.jpg
+  id: pcbi.1004539/pcbi.1004539.g001
+  label: Fig 1
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Absence
+    seizures induced by strong coupling of the cortico-thalamic pathway and slow dynamics
+    of GABA<sub>B</sub> receptors in TRN.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">A, B: Two-dimensional state analysis
+    (A) and frequency analysis (B) in the (<italic>v<sub>se</sub></italic>, <italic>&#964;</italic>)
+    panel. Here <italic>v<sub>se</sub></italic> represents the excitatory coupling
+    strength of the cortico-thalamic pathway emitting from the pyramidal neurons to
+    SRN, whereas <italic>&#964;</italic> denotes the GABA<sub>B</sub> delay. Similar
+    to previous work, four types of dynamical state regions are observed: the saturation
+    region (I), the SWD oscillation region (II), the simple oscillation region (III)
+    and the low firing region (IV). The asterisk (&#8220;*&#8221;) regions surrounded
+    by black dashed lines in (A) and (B) represent the typical SWD oscillation regions
+    falling into the 2&#8211;4 Hz frequency range. C-F: Typical time series of <italic>&#981;</italic>
+
+    <sub><italic>e</italic></sub> correspond to the above four dynamical states. Four
+    symbols in the state analysis diagram (A) are linked to parameter values used
+    for different typical time series in (C)-(F): I (&#8220;&#8728;&#8221;), II (&#8220;&#9671;&#8221;),
+    III (&#8220;&#9723;&#8221;), and IV (&#8220;&#9663;&#8221;). Note that we set
+    <italic>v</italic>
+
+    <sub><italic>cp</italic><sub>2</sub></sub> = &#8722;0.05 mV s for all simulations.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4619822/PMC4619822/pcbi.1004539.g002.jpg
+  id: pcbi.1004539/pcbi.1004539.g002
+  label: Fig 2
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Control
+    of absence seizures by the direct GABAergic pallido-cortical pathway.</title><p
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">A:
+    Bifurcation diagrams of <italic>&#981;</italic>
+
+    <sub><italic>e</italic></sub> as a function of the inhibitory coupling strength
+    of the GABAergic pallidocortical pathway &#8722;<italic>v</italic>
+
+    <sub><italic>cp</italic><sub>2</sub></sub> (A<sub>1</sub>) and the external stimulation
+    <italic>V</italic>
+
+    <sub>stim</sub> to GPe neurons (A<sub>2</sub>). It can be seen that both increasing
+    the values of &#8722;<italic>v</italic>
+
+    <sub><italic>cp</italic><sub>2</sub></sub> and <italic>V</italic>
+
+    <sub>stim</sub> push the model dynamics from the SWD oscillation region (II) into
+    the low firing region (IV). B: The dominant frequency of neural oscillations as
+    a function of &#8722;<italic>v</italic>
+
+    <sub><italic>cp</italic><sub>2</sub></sub> (B<sub>1</sub>) and <italic>V</italic>
+
+    <sub>stim</sub> (B<sub>2</sub>). C: The mean firing rates (MFRs) of several key
+    neural populations as a function of &#8722;<italic>v</italic>
+
+    <sub><italic>cp</italic><sub>2</sub></sub> (C<sub>1</sub>) and V<sub>stim</sub>
+    (C<sub>2</sub>). Here four neural populations are considered: GPe (&#8220;&#9653;&#8221;),
+    excitatory pyramidal neurons (&#8220;*&#8221;), SRN (&#8220;&#8728;&#8221;) and
+    TRN (&#8220;&#9723;&#8221;). Note that the gray regions in (A)&#8211;(C) denote
+    the SWD oscillations falling into the typical 2&#8211;4 Hz.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4619822/PMC4619822/pcbi.1004539.g003.jpg
+  id: pcbi.1004539/pcbi.1004539.g003
+  label: Fig 3
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Effects
+    of direct GPe-related pathways on regulating absence seizures.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">A, B: Two dimensional state analysis
+    (A) and frequency analysis (B) in different parameter spaces. Here we consider
+    three direct GPe-related pathways: the excitatory STN-GPe pathway (A<sub>1</sub>,
+    B<sub>1</sub>), the inhibitory GPe recurrent pathway (A<sub>2</sub>, B<sub>2</sub>)
+    and the inhibitory striatal D2-GPe pathway (A<sub>3</sub>, B<sub>3</sub>), corresponding
+    to parameter spaces (&#8722;<italic>v</italic>
+
+    <sub><italic>cp</italic><sub>2</sub></sub>, <italic>v</italic>
+
+    <sub><italic>p</italic><sub>2</sub></sub>
+
+    <italic>&#950;</italic>), (&#8722;<italic>v</italic>
+
+    <sub><italic>cp</italic><sub>2</sub></sub>, &#8722;<italic>v</italic>
+
+    <sub><italic>p</italic><sub>2</sub><italic>p</italic><sub>2</sub></sub>) and (&#8722;<italic>v</italic>
+
+    <sub><italic>cp</italic><sub>2</sub></sub>, &#8722;<italic>v</italic>
+
+    <sub><italic>p</italic><sub>2</sub><italic>d</italic><sub>2</sub></sub>), respectively.
+    In (A<sub>1</sub>)&#8211;(A<sub>3</sub>), two dynamical state regions are observed:
+    the SWD oscillation region (II) and the low firing region (IV). The suppression
+    of SWDs appears to the right of the white dashed line in (A<sub>1</sub>) and (A<sub>2</sub>),
+    where the arrows denote the suppression directions of SWDs. The red lines in (A<sub>1</sub>)-(A<sub>3</sub>)
+    represent the default coupling strengths of these direct GPe-related pathways.
+    The asterisk (&#8220;*&#8221;) regions surrounded by black dashed lines in (B<sub>1</sub>)-(B<sub>3</sub>)
+    denote the typical 2&#8211;4 Hz SWD oscillation regions. C: The triggering mean
+    firing rate (TMFR) as a function of &#8722;<italic>v</italic>
+
+    <sub><italic>cp</italic><sub>2</sub></sub> for the excitatory STN-GPe pathway
+    (C<sub>1</sub>) and inhibitory GPe recurrent pathway (C<sub>2</sub>). D: The relative
+    ratios (RRs) as a function of &#8722;<italic>v</italic>
+
+    <sub><italic>cp</italic><sub>2</sub></sub> for the excitatory STN-GPe pathway
+    (D<sub>1</sub>) and inhibitory GPe recurrent pathway (D<sub>2</sub>). E: Typical
+    time series of <italic>&#981;</italic>
+
+    <sub><italic>e</italic></sub> by changing &#8722;<italic>v</italic>
+
+    <sub><italic>cp</italic><sub>2</sub></sub> under two conditions of the inhibitory
+    striatal D2-GPe pathway (&#8220;default&#8221; and &#8220;block&#8221;). The pink
+    region in (E) denotes the suppression of SWDs by increasing &#8722;<italic>v</italic>
+
+    <sub><italic>cp</italic><sub>2</sub></sub>. Obviously, blockade of the inhibitory
+    striatal D2-GPe pathway does not impact the model dynamics significantly.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4619822/PMC4619822/pcbi.1004539.g004.jpg
+  id: pcbi.1004539/pcbi.1004539.g004
+  label: Fig 4
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Effects
+    of indirect GPe-related pathways on regulating absence seizures.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">A, B: Two-dimensional state analysis
+    (A) and frequency analysis (B) in the combined (&#8722;<italic>v</italic>
+
+    <sub><italic>cp</italic><sub>2</sub></sub>, &#8722;<italic>v</italic>
+
+    <sub><italic>&#950;p</italic><sub>2</sub></sub>) and (&#8722;<italic>v</italic>
+
+    <sub><italic>cp</italic><sub>2</sub></sub>, &#8722;<italic>v</italic>
+
+    <sub><italic>&#950;e</italic></sub>) parameter spaces. Two considered indirect
+    GPe-related pathways are: the inhibitory GPe-STN pathway (A<sub>1</sub>, B<sub>1</sub>)
+    and the excitatory hyperdirect pathway from pyramidal neurons to STN (A<sub>2</sub>,
+    B<sub>2</sub>). Three dynamical state regions are observed in the state analysis
+    diagrams: the saturation region (I), the SWD oscillation region (II) and the low
+    firing region (IV). In (A<sub>1</sub>) and (A<sub>2</sub>), the red dashed lines
+    stand for the default coupling strengths of these two indirect GPe-related pathways,
+    the white dashed lines represent the boundaries of suppression regions of SWDs,
+    and the arrows denote the suppression directions of SWDs. In (B<sub>1</sub>) and
+    (B<sub>2</sub>), the asterisk (&#8220;*&#8221;) regions surrounded by black dashed
+    lines are the SWD oscillation regions falling into the 2&#8211;4 Hz frequency
+    range. C: The TMFR as a function of &#8722;<italic>v</italic>
+
+    <sub><italic>cp</italic><sub>2</sub></sub> for the inhibitory GPe-STN pathway
+    (C<sub>1</sub>) and the excitatory hyperdirect pathway (C<sub>2</sub>). D: The
+    RR as a function of &#8722;<italic>v</italic>
+
+    <sub><italic>cp</italic><sub>2</sub></sub> for the inhibitory GPe-STN pathway
+    (D<sub>1</sub>) and the excitatory hyperdirect pathway (D<sub>2</sub>). Compared
+    to the results in <xref ref-type="fig" rid="pcbi.1004539.g004">Fig 4</xref>, these
+    two indirect GPe-related pathways have relatively weak effects on controlling
+    absence seizures.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4619822/PMC4619822/pcbi.1004539.g005.jpg
+  id: pcbi.1004539/pcbi.1004539.g005
+  label: Fig 5
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Bidirectional
+    control of absence seizures due to the competition between the SNr-TRN and SNr-SRN
+    pathways.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">A,
+    B: The state analysis (A) and frequency analysis (B) in the (<italic>K</italic>,
+    <italic>v</italic>
+
+    <sub><italic>p</italic><sub>1</sub><italic>&#950;</italic></sub>) panel. Here
+    <italic>K</italic> is the scale factor, and <italic>v</italic>
+
+    <sub><italic>p</italic><sub>1</sub><italic>&#950;</italic></sub> is the excitatory
+    coupling strength of the STN-SNr pathway. The BGCT model mainly exhibits three
+    types of dynamical states: the SWD oscillation region (II), the simple oscillation
+    region (III) and the low firing region (IV), but occasionally displays the saturation
+    state in the large <italic>K</italic> and strong <italic>v</italic>
+
+    <sub><italic>p</italic><sub>1</sub><italic>&#950;</italic></sub> region. For intermediate
+    scale factor <italic>K</italic>, both increase and decrease in the activation
+    level of SNr can inhibit the SWDs (double arrow, bidirectional suppression). In
+    (A), the black dashed line represents the demarcation between the bidirectional
+    (double arrow) and unidirectional suppression (single arrow) regions. The asterisk
+    (&#8220;*&#8221;) region surrounded by dashed lines in (B) denotes the SWD oscillation
+    region that falls into the 2&#8211;4 Hz frequency range. C: The low and high TMFRs
+    of SNr neurons as a function of <italic>K</italic>. D: The low and high RRs of
+    the STN-SNr pathway as a function of <italic>K</italic>. In all simulations, we
+    set <italic>&#964;</italic> = 45 ms and <italic>v</italic>
+
+    <sub><italic>cp</italic><sub>2</sub></sub> = &#8722;0.06 mV s.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4619822/PMC4619822/pcbi.1004539.g006.jpg
+  id: pcbi.1004539/pcbi.1004539.g006
+  label: Fig 6
+- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Shaping
+    effects of the direct GABAergic pallido-cortical pathway on the bidirectional
+    control of absence seizures by the BG.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:mml="http://www.w3.org/1998/Math/MathML">A, B: Tow-dimensional state analysis
+    (A) and frequency analysis (B) in the (<italic>K</italic>, <italic>v</italic>
+
+    <sub><italic>p</italic><sub>1</sub><italic>&#950;</italic></sub>) panel for different
+    values of <italic>v</italic>
+
+    <sub><italic>cp</italic><sub>2</sub></sub>. Similar to the results in <xref ref-type="fig"
+    rid="pcbi.1004539.g006">Fig 6A</xref>, our BGCT model mainly exhibits three types
+    of dynamical states: the SWD oscillation region (II), the simple oscillation region
+    (III) and the low firing region (IV), but occasionally displays the saturation
+    state in the large <italic>K</italic> and strong <italic>v</italic>
+
+    <sub><italic>p</italic><sub>1</sub><italic>&#950;</italic></sub> region. In (A<sub>1</sub>)-(A<sub>4</sub>),
+    the double arrows denote the bidirectional suppression and the single arrows represent
+    the unidirectional suppression. The black dashed lines in (A<sub>1</sub>) and
+    (A<sub>2</sub>) stand for the demarcations between the bidirectional and unidirectional
+    suppression regions. In (B<sub>1</sub>)-(B<sub>4</sub>), the asterisk (&#8220;*&#8221;)
+    regions surrounded by dashed lines denote the regions of 2&#8211;4 Hz SWDs. From
+    left to right, the strengths of direct GABAergic pallido-cortical pathway are:
+    <italic>v</italic>
+
+    <sub><italic>cp</italic><sub>2</sub></sub> = &#8722;0.05 mV s (A<sub>1</sub>,
+    B<sub>1</sub>), <italic>v</italic>
+
+    <sub><italic>cp</italic><sub>2</sub></sub> = &#8722;0.055 mV s (A<sub>2</sub>,
+    B<sub>2</sub>), <italic>v</italic>
+
+    <sub><italic>cp</italic><sub>2</sub></sub> = &#8722;0.065 mV s (A<sub>3</sub>,
+    B<sub>3</sub>), and <italic>v</italic>
+
+    <sub><italic>cp</italic><sub>2</sub></sub> = &#8722;0.07 mV s (A<sub>4</sub>,
+    B<sub>4</sub>), respectively. In all simulations, we set <italic>&#964;</italic>
+    = 45 ms.</p>'
+  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4619822/PMC4619822/pcbi.1004539.g007.jpg
+  id: pcbi.1004539/pcbi.1004539.g007
+  label: Fig 7

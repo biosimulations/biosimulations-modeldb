@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/145801.omex">
+    <dc:title>Circadian clock model in mammals (detailed version)  (Kim &amp; Forger 2012)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/145801.omex">
+    <dc:abstract>"… To understand the biochemical mechanisms of this timekeeping, we have developed a detailed mathematical model of the mammalian circadian clock. &#13;
+&#13;
+Our model can accurately predict diverse experimental data including the phenotypes of mutations or knockdown of clock genes as well as the time courses and relative expression of clock transcripts and proteins. &#13;
+&#13;
+Using this model, we show how a universal motif of circadian timekeeping, where repressors tightly bind activators rather than directly binding to DNA, can generate oscillations when activators and repressors are in stoichiometric balance. &#13;
+…"</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=145174">http://modeldb.science/ModelList?id=145174</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Molecular Network</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/145801.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=145884">http://modeldb.science/ModelList?id=145884</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Suprachiasmatic nucleus (SCN) neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/145801.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>SCN</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/145801.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3634">http://modeldb.science/ModelList?id=3634</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>Oscillations</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/145801.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=139148">http://modeldb.science/ModelList?id=139148</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>Brain Rhythms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/145801.omex">
+    <bqbiol:encodes rdf:resource="local:00005">local:00005</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=145886">http://modeldb.science/ModelList?id=145886</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>Circadian Rhythms</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/145801.omex">
+    <bqbiol:encodes rdf:resource="local:00006">local:00006</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/145801.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/145801.omex/figures/PMC3542529/msb201262-f1.jpg">http://omex-library.org/145801.omex/figures/PMC3542529/msb201262-f1.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/145801.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/145801.omex/figures/PMC3542529/msb201262-f2.jpg">http://omex-library.org/145801.omex/figures/PMC3542529/msb201262-f2.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/145801.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/145801.omex/figures/PMC3542529/msb201262-f3.jpg">http://omex-library.org/145801.omex/figures/PMC3542529/msb201262-f3.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/145801.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/145801.omex/figures/PMC3542529/msb201262-f4.jpg">http://omex-library.org/145801.omex/figures/PMC3542529/msb201262-f4.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/145801.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/145801.omex/figures/PMC3542529/msb201262-f5.jpg">http://omex-library.org/145801.omex/figures/PMC3542529/msb201262-f5.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/145801.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/145801.omex/figures/PMC3542529/msb201262-f6.jpg">http://omex-library.org/145801.omex/figures/PMC3542529/msb201262-f6.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="mailto:kimjack0@kaist.ac.kr">mailto:kimjack0@kaist.ac.kr</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>Jae Kyoung Kim</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <foaf:accountName rdf:resource="mailto:kimjack0@kaist.ac.kr">mailto:kimjack0@kaist.ac.kr</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <foaf:name>Jae Kyoung Kim</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/145801.omex">
+    <dc:creator rdf:resource="local:00007">local:00007</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/145801.omex">
+    <dc:contributor rdf:resource="local:00008">local:00008</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/145801.omex">
+    <dc:contributor rdf:resource="local:00009">local:00009</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:145801">https://identifiers.org/modeldb:145801</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <rdfs:label>modeldb:145801</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/145801.omex">
+    <bqmodel:is rdf:resource="local:00010">local:00010</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1038/msb.2012.62">http://identifiers.org/doi:10.1038/msb.2012.62</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <rdfs:label>Jae Kyoung Kim &amp; Daniel B Forger. A mechanism for robust circadian timekeeping via stoichiometric balance. Molecular Systems Biology 8: 630 (2012).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/145801.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00011">local:00011</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/145801.omex">
+    <dc:created>2012-09-13</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/145801.omex">
+    <dc:modified>2016-05-26</dc:modified>
+  </rdf:Description>
+</rdf:RDF>
