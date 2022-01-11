@@ -20,25 +20,25 @@ Use "Bndryval -&gt; Show" in XPPAUT.&#13;
 </dc:abstract>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/151677.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/151677.omex/figures/PMC3828597/elife01350f001.jpg">http://omex-library.org/151677.omex/figures/PMC3828597/elife01350f001.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/151677.omex/article-figures/PMC3828597/elife01350f001.jpg">http://omex-library.org/151677.omex/article-figures/PMC3828597/elife01350f001.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/151677.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/151677.omex/figures/PMC3828597/elife01350f002.jpg">http://omex-library.org/151677.omex/figures/PMC3828597/elife01350f002.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/151677.omex/article-figures/PMC3828597/elife01350f002.jpg">http://omex-library.org/151677.omex/article-figures/PMC3828597/elife01350f002.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/151677.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/151677.omex/figures/PMC3828597/elife01350f003.jpg">http://omex-library.org/151677.omex/figures/PMC3828597/elife01350f003.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/151677.omex/article-figures/PMC3828597/elife01350f003.jpg">http://omex-library.org/151677.omex/article-figures/PMC3828597/elife01350f003.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/151677.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/151677.omex/figures/PMC3828597/elife01350f004.jpg">http://omex-library.org/151677.omex/figures/PMC3828597/elife01350f004.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/151677.omex/article-figures/PMC3828597/elife01350f004.jpg">http://omex-library.org/151677.omex/article-figures/PMC3828597/elife01350f004.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/151677.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/151677.omex/figures/PMC3828597/elife01350f005.jpg">http://omex-library.org/151677.omex/figures/PMC3828597/elife01350f005.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/151677.omex/article-figures/PMC3828597/elife01350f005.jpg">http://omex-library.org/151677.omex/article-figures/PMC3828597/elife01350f005.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/151677.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/151677.omex/figures/PMC3828597/elife01350f006.jpg">http://omex-library.org/151677.omex/figures/PMC3828597/elife01350f006.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/151677.omex/article-figures/PMC3828597/elife01350f006.jpg">http://omex-library.org/151677.omex/article-figures/PMC3828597/elife01350f006.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/151677.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/151677.omex/figures/PMC3828597/elife01350f007.jpg">http://omex-library.org/151677.omex/figures/PMC3828597/elife01350f007.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/151677.omex/article-figures/PMC3828597/elife01350f007.jpg">http://omex-library.org/151677.omex/article-figures/PMC3828597/elife01350f007.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="mailto:golomb@bgu.ac.il">mailto:golomb@bgu.ac.il</dc:identifier>

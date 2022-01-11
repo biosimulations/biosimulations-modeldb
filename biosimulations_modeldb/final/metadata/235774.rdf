@@ -139,28 +139,28 @@
     <bqbiol:encodes rdf:resource="local:00015">local:00015</bqbiol:encodes>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/235774.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/235774.omex/figures/PMC5655358/pcbi.1005804.g001.jpg">http://omex-library.org/235774.omex/figures/PMC5655358/pcbi.1005804.g001.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/235774.omex/article-figures/PMC5655358/pcbi.1005804.g001.jpg">http://omex-library.org/235774.omex/article-figures/PMC5655358/pcbi.1005804.g001.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/235774.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/235774.omex/figures/PMC5655358/pcbi.1005804.g002.jpg">http://omex-library.org/235774.omex/figures/PMC5655358/pcbi.1005804.g002.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/235774.omex/article-figures/PMC5655358/pcbi.1005804.g002.jpg">http://omex-library.org/235774.omex/article-figures/PMC5655358/pcbi.1005804.g002.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/235774.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/235774.omex/figures/PMC5655358/pcbi.1005804.g003.jpg">http://omex-library.org/235774.omex/figures/PMC5655358/pcbi.1005804.g003.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/235774.omex/article-figures/PMC5655358/pcbi.1005804.g003.jpg">http://omex-library.org/235774.omex/article-figures/PMC5655358/pcbi.1005804.g003.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/235774.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/235774.omex/figures/PMC5655358/pcbi.1005804.g004.jpg">http://omex-library.org/235774.omex/figures/PMC5655358/pcbi.1005804.g004.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/235774.omex/article-figures/PMC5655358/pcbi.1005804.g004.jpg">http://omex-library.org/235774.omex/article-figures/PMC5655358/pcbi.1005804.g004.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/235774.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/235774.omex/figures/PMC5655358/pcbi.1005804.g005.jpg">http://omex-library.org/235774.omex/figures/PMC5655358/pcbi.1005804.g005.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/235774.omex/article-figures/PMC5655358/pcbi.1005804.g005.jpg">http://omex-library.org/235774.omex/article-figures/PMC5655358/pcbi.1005804.g005.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/235774.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/235774.omex/figures/PMC5655358/pcbi.1005804.g006.jpg">http://omex-library.org/235774.omex/figures/PMC5655358/pcbi.1005804.g006.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/235774.omex/article-figures/PMC5655358/pcbi.1005804.g006.jpg">http://omex-library.org/235774.omex/article-figures/PMC5655358/pcbi.1005804.g006.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/235774.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/235774.omex/figures/PMC5655358/pcbi.1005804.g007.jpg">http://omex-library.org/235774.omex/figures/PMC5655358/pcbi.1005804.g007.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/235774.omex/article-figures/PMC5655358/pcbi.1005804.g007.jpg">http://omex-library.org/235774.omex/article-figures/PMC5655358/pcbi.1005804.g007.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/235774.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/235774.omex/figures/PMC5655358/pcbi.1005804.g008.jpg">http://omex-library.org/235774.omex/figures/PMC5655358/pcbi.1005804.g008.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/235774.omex/article-figures/PMC5655358/pcbi.1005804.g008.jpg">http://omex-library.org/235774.omex/article-figures/PMC5655358/pcbi.1005804.g008.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="local:00016">
     <dc:identifier rdf:resource="mailto:ghanim.phy@gmail.com">mailto:ghanim.phy@gmail.com</dc:identifier>

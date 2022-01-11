@@ -69,22 +69,22 @@ Using this model, we show how a universal motif of circadian timekeeping, where 
     <bqbiol:encodes rdf:resource="local:00007">local:00007</bqbiol:encodes>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/145800.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/145800.omex/figures/PMC3542529/msb201262-f1.jpg">http://omex-library.org/145800.omex/figures/PMC3542529/msb201262-f1.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/145800.omex/article-figures/PMC3542529/msb201262-f1.jpg">http://omex-library.org/145800.omex/article-figures/PMC3542529/msb201262-f1.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/145800.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/145800.omex/figures/PMC3542529/msb201262-f2.jpg">http://omex-library.org/145800.omex/figures/PMC3542529/msb201262-f2.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/145800.omex/article-figures/PMC3542529/msb201262-f2.jpg">http://omex-library.org/145800.omex/article-figures/PMC3542529/msb201262-f2.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/145800.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/145800.omex/figures/PMC3542529/msb201262-f3.jpg">http://omex-library.org/145800.omex/figures/PMC3542529/msb201262-f3.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/145800.omex/article-figures/PMC3542529/msb201262-f3.jpg">http://omex-library.org/145800.omex/article-figures/PMC3542529/msb201262-f3.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/145800.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/145800.omex/figures/PMC3542529/msb201262-f4.jpg">http://omex-library.org/145800.omex/figures/PMC3542529/msb201262-f4.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/145800.omex/article-figures/PMC3542529/msb201262-f4.jpg">http://omex-library.org/145800.omex/article-figures/PMC3542529/msb201262-f4.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/145800.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/145800.omex/figures/PMC3542529/msb201262-f5.jpg">http://omex-library.org/145800.omex/figures/PMC3542529/msb201262-f5.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/145800.omex/article-figures/PMC3542529/msb201262-f5.jpg">http://omex-library.org/145800.omex/article-figures/PMC3542529/msb201262-f5.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/145800.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/145800.omex/figures/PMC3542529/msb201262-f6.jpg">http://omex-library.org/145800.omex/figures/PMC3542529/msb201262-f6.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/145800.omex/article-figures/PMC3542529/msb201262-f6.jpg">http://omex-library.org/145800.omex/article-figures/PMC3542529/msb201262-f6.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="local:00008">
     <dc:identifier rdf:resource="mailto:kimjack0@kaist.ac.kr">mailto:kimjack0@kaist.ac.kr</dc:identifier>

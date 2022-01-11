@@ -1,4 +1,5 @@
 from Bio import Entrez
+from biosimulators_utils.biosimulations.utils import get_file_extension_combine_uri_map as base_get_file_extension_combine_uri_map
 from biosimulators_utils.combine.data_model import CombineArchive, CombineArchiveContent, CombineArchiveContentFormat
 from biosimulators_utils.combine.io import CombineArchiveWriter
 from biosimulators_utils.config import Config
@@ -22,6 +23,8 @@ import dataclasses
 import datetime
 import dateutil.parser
 import git
+import glob
+import lxml.etree
 import os
 import shutil
 import tempfile
@@ -370,7 +373,7 @@ def export_project_metadata_for_model_to_omex_metadata(model, taxa, references, 
         'taxa': taxa,
         'encodes': encodes,
         'thumbnails': [
-            os.path.join('figures', os.path.basename(os.path.dirname(thumbnail.filename)), os.path.basename(thumbnail.filename))
+            os.path.join('article-figures', os.path.basename(os.path.dirname(thumbnail.filename)), os.path.basename(thumbnail.filename))
             for thumbnail in thumbnails
         ],
         'sources': [],
@@ -401,7 +404,81 @@ def export_project_metadata_for_model_to_omex_metadata(model, taxa, references, 
         raise ValueError('The metadata is not valid:\n  {}'.format(flatten_nested_list_of_strings(errors).replace('\n', '\n  ')))
 
 
-def build_combine_archive_for_model(model_filename, archive_filename, extra_contents):
+file_extension_combine_uri_map = None
+
+
+def get_file_extension_combine_uri_map():
+    """ Get a map from file extensions to URIs for use with manifests of COMBINE/OMEX archives
+
+    Args:
+        config (:obj:`Config`, optional): configuration
+
+    Returns:
+        :obj:`dict`: which maps extensions to lists of associated URIs
+    """
+    global file_extension_combine_uri_map
+    if file_extension_combine_uri_map is None:
+        file_extension_combine_uri_map = base_get_file_extension_combine_uri_map()
+        file_extension_combine_uri_map['ac'] = {'http://purl.org/NET/mediatypes/text/x-autoconf'}
+        file_extension_combine_uri_map['auto'] = {CombineArchiveContentFormat.XPP_AUTO}
+        file_extension_combine_uri_map['cc'] = file_extension_combine_uri_map['cpp']
+        file_extension_combine_uri_map['dist'] = {CombineArchiveContentFormat.MARKDOWN}
+        file_extension_combine_uri_map['eps'] = {CombineArchiveContentFormat.POSTSCRIPT}
+        file_extension_combine_uri_map['fig'] = {CombineArchiveContentFormat.MATLAB_FIGURE}
+        file_extension_combine_uri_map['g'] = {CombineArchiveContentFormat.GENESIS}
+        file_extension_combine_uri_map['hoc'] = {CombineArchiveContentFormat.HOC}
+        file_extension_combine_uri_map['html'] = {CombineArchiveContentFormat.HTML}
+        file_extension_combine_uri_map['in'] = {CombineArchiveContentFormat.NCS}
+        file_extension_combine_uri_map['inc'] = {CombineArchiveContentFormat.NMODL}
+        file_extension_combine_uri_map['map'] = {CombineArchiveContentFormat.TSV}
+        file_extension_combine_uri_map['md'] = {CombineArchiveContentFormat.MARKDOWN}
+        file_extension_combine_uri_map['mlx'] = {'http://purl.org/NET/mediatypes/application/matlab-live-script'}
+        file_extension_combine_uri_map['mod'] = {CombineArchiveContentFormat.NMODL}
+        file_extension_combine_uri_map['mw'] = {CombineArchiveContentFormat.MAPLE_WORKSHEET}
+        file_extension_combine_uri_map['nb'] = {CombineArchiveContentFormat.MATHEMATICA_NOTEBOOK}
+        file_extension_combine_uri_map['nrn'] = {CombineArchiveContentFormat.HOC}
+        file_extension_combine_uri_map['ode'] = {CombineArchiveContentFormat.XPP}
+        file_extension_combine_uri_map['p'] = {CombineArchiveContentFormat.GENESIS}
+        file_extension_combine_uri_map['ps'] = {CombineArchiveContentFormat.POSTSCRIPT}
+        file_extension_combine_uri_map['sce'] = {CombineArchiveContentFormat.Scilab}
+        file_extension_combine_uri_map['ses'] = {CombineArchiveContentFormat.NEURON_SESSION}
+        file_extension_combine_uri_map['set'] = {CombineArchiveContentFormat.XPP_SET}
+        file_extension_combine_uri_map['sfit'] = {CombineArchiveContentFormat.MATLAB_DATA}
+        file_extension_combine_uri_map['sli'] = {CombineArchiveContentFormat.SLI}
+        file_extension_combine_uri_map['tab'] = {CombineArchiveContentFormat.TSV}
+        file_extension_combine_uri_map['txt'] = {CombineArchiveContentFormat.TEXT}
+        file_extension_combine_uri_map['xls'] = {CombineArchiveContentFormat.XLS}
+        file_extension_combine_uri_map['xpp'] = {CombineArchiveContentFormat.XPP}
+
+        file_extension_combine_uri_map['inp'] = {CombineArchiveContentFormat.TEXT}
+
+        file_extension_combine_uri_map[''] = {CombineArchiveContentFormat.OTHER}
+        file_extension_combine_uri_map['bin'] = {CombineArchiveContentFormat.OTHER}
+        file_extension_combine_uri_map['dat'] = {CombineArchiveContentFormat.OTHER}
+        file_extension_combine_uri_map['mexmaci64'] = {CombineArchiveContentFormat.OTHER}
+        file_extension_combine_uri_map['mexw64'] = {CombineArchiveContentFormat.OTHER}
+        file_extension_combine_uri_map['mexa64'] = {CombineArchiveContentFormat.OTHER}
+
+        file_extension_combine_uri_map['set3'] = {CombineArchiveContentFormat.XPP_SET}
+        file_extension_combine_uri_map['setdb'] = {CombineArchiveContentFormat.XPP_SET}
+        file_extension_combine_uri_map['setnorm'] = {CombineArchiveContentFormat.XPP_SET}
+        file_extension_combine_uri_map['setpark'] = {CombineArchiveContentFormat.XPP_SET}
+        file_extension_combine_uri_map['setsb'] = {CombineArchiveContentFormat.XPP_SET}
+        file_extension_combine_uri_map['setsdb'] = {CombineArchiveContentFormat.XPP_SET}
+    return file_extension_combine_uri_map
+
+
+def build_combine_archive_for_model(id, model_dirname, archive_filename, extra_contents):
+    """ Build a COMBINE/OMEX archive for a model including a SED-ML file
+
+    Args:
+        id (:obj:`str`): model id
+        model_dirname (:obj:`str`): path to the directory of files for the model
+        archive_filename (:obj:`str`): path to save the COMBINE/OMEX archive
+        extra_contents (:obj:`dict`): dictionary that maps the local path of each additional file that
+            should be included in the arrchive to its intended location within the archive and format
+    """
+
     params, sims, vars, outputs = get_parameters_variables_outputs_for_simulation(
         model_filename, ModelLanguage.SBML, SteadyStateSimulation, native_ids=True)
 
@@ -480,22 +557,64 @@ def build_combine_archive_for_model(model_filename, archive_filename, extra_cont
 
     # make temporary directory for archive
     archive_dirname = tempfile.mkdtemp()
-    shutil.copyfile(model_filename, os.path.join(archive_dirname, os.path.basename(model_filename)))
+    shutil.rmtree(archive_dirname)
+    archive = CombineArchive()
+
+    shutil.copytree(model_dirname, archive_dirname)
+    file_extension_combine_uri_map = get_file_extension_combine_uri_map()
+    for filename in glob.glob(os.path.join(model_dirname, '**', '*'), recursive=True):
+        location = os.path.relpath(filename, model_dirname)
+        if os.path.isdir(filename):
+            continue
+        if location in ['.git', 'desktop.ini']:
+            continue
+
+        _, ext = os.path.splitext(location)
+        if ext:
+            ext = ext[1:]
+        if ext == 'pyc':
+            continue
+
+        if ext == 'xml':
+            doc = lxml.etree.parse(filename)
+            ns = doc.getroot().nsmap[None]
+            if ns.startswith('http://www.sbml.org/sbml/'):
+                uri = CombineArchiveContentFormat.SBML
+            elif ns.startswith('http://morphml.org/neuroml/schema'):
+                uri = CombineArchiveContentFormat.NeuroML
+            else:
+                uri = CombineArchiveContentFormat.XML
+
+        else:
+            uris = list(file_extension_combine_uri_map.get(ext.lower(), set()))
+            if len(uris) == 0:
+                uri = CombineArchiveContentFormat.OTHER
+                msg = 'URI for `{}` for model `{}` is not known'.format(location, id)
+                warnings.warn(msg, UserWarning)
+            elif len(uris) == 1:
+                uri = uris[0]
+            else:
+                uri = uris[0]
+                msg = 'URI for `{}` for model `{}` could not be uniquely determined:\n  {}'.format(
+                    location, id, '\n  '.join(sorted(uris)))
+                warnings.warn(msg, UserWarning)
+
+        archive.contents.append(CombineArchiveContent(
+            location=location,
+            format=uri,
+        ))
 
     SedmlSimulationWriter().run(sedml_doc, os.path.join(archive_dirname, 'simulation.sedml'))
-
-    # form a description of the archive
-    archive = CombineArchive()
-    archive.contents.append(CombineArchiveContent(
-        location=os.path.basename(model_filename),
-        format=CombineArchiveContentFormat.SBML.value,
-    ))
     archive.contents.append(CombineArchiveContent(
         location='simulation.sedml',
         format=CombineArchiveContentFormat.SED_ML.value,
         master=True,
     ))
+
     for local_path, extra_content in extra_contents.items():
+        extra_content_dirname = os.path.dirname(os.path.join(archive_dirname, extra_content.location))
+        if not os.path.isdir(extra_content_dirname):
+            os.makedirs(extra_content_dirname)
         shutil.copyfile(local_path, os.path.join(archive_dirname, extra_content.location))
         archive.contents.append(extra_content)
 
@@ -590,7 +709,7 @@ def import_models(config):
 
     # download models, convert them to COMBINE/OMEX archives, simulate them, and deposit them to the BioSimulations database
     for i_model, model in enumerate(models):
-        model_filename = os.path.join(config['source_models_dirname'], str(model['id']) + '.xml')
+        model_dirname = os.path.join(config['source_models_dirname'], str(model['id']))
 
         # get additional metadata about the model
         print('Getting metadata for {} of {}: {}'.format(i_model + 1, len(models), str(model['id'])))
@@ -599,41 +718,29 @@ def import_models(config):
         # export metadata to RDF
         print('Exporting project metadata for {} of {}: {}'.format(i_model + 1, len(models), str(model['id'])))
         project_metadata_filename = os.path.join(config['final_metadata_dirname'], str(model['id']) + '.rdf')
-        export_project_metadata_for_model_to_omex_metadata(model, taxa, references, thumbnails,
-                                                           project_metadata_filename, config)
-
-        # print('Exporting model metadata for {} of {}: {}'.format(i_model + 1, len(models), str(model['id'])))
-        # model_metadata_filename = os.path.join(config['final_metadata_dirname'], str(model['id']) + '-omex-metadata.rdf')
-        # build_omex_meta_file_for_model(model_filename, model_metadata_filename, metadata_format=OmexMetaOutputFormat.rdfxml_abbrev)
+        if not os.path.isfile(project_metadata_filename) or config['update_combine_archives']:
+            export_project_metadata_for_model_to_omex_metadata(model, taxa, references, thumbnails,
+                                                               project_metadata_filename, config)
 
         # package model into COMBINE/OMEX archive
         print('Converting model {} of {}: {} ...'.format(i_model + 1, len(models), str(model['id'])))
-
         project_filename = os.path.join(config['final_projects_dirname'], str(model['id']) + '.omex')
+        if not os.path.isfile(project_filename) or config['update_combine_archives']:
+            extra_contents = {}
 
-        extra_contents = {}
-        extra_contents[project_metadata_filename] = CombineArchiveContent(
-            location='metadata.rdf',
-            format=CombineArchiveContentFormat.OMEX_METADATA,
-        )
-        # extra_contents[model_metadata_filename] = CombineArchiveContent(
-        #     location=str(model['id']) + '.rdf',
-        #     format=CombineArchiveContentFormat.OMEX_METADATA,
-        # )
-        extra_contents[config['source_license_filename']] = CombineArchiveContent(
-            location='LICENSE',
-            format=CombineArchiveContentFormat.TEXT,
-        )
-        for thumbnail in thumbnails:
-            extra_contents[thumbnail.filename] = CombineArchiveContent(
-                location=thumbnail.location,
-                format=CombineArchiveContentFormat.JPEG,
+            extra_contents[project_metadata_filename] = CombineArchiveContent(
+                location='metadata.rdf',
+                format=CombineArchiveContentFormat.OMEX_METADATA,
             )
 
-        project_filename = os.path.join(config['final_projects_dirname'], str(model['id']) + '.omex')
+            for thumbnail in thumbnails:
+                extra_contents[thumbnail.filename] = CombineArchiveContent(
+                    location=os.path.join('article-figures', os.path.basename(os.path.dirname(
+                        thumbnail.filename)), os.path.basename(thumbnail.filename)),
+                    format=CombineArchiveContentFormat.JPEG,
+                )
 
-        if not os.path.isfile(project_filename) or config['update_combine_archives']:
-            build_combine_archive_for_model(model_filename, project_filename, extra_contents=extra_contents)
+            build_combine_archive_for_model(model['id'], model_dirname, project_filename, extra_contents=extra_contents)
 
         # simulate COMBINE/OMEX archives
         print('Simulating model {} of {}: {} ...'.format(i_model + 1, len(models), str(model['id'])))
@@ -648,13 +755,8 @@ def import_models(config):
             if log.exception:
                 print('Simulation of `{}` failed'.format(str(model['id'])))
                 raise log.exception
-            objective = results['simulation.sedml']['objective']['obj'].tolist()
-            print('  {}: Objective: {}'.format(str(model['id']), objective))
-            if objective <= 0:
-                raise ValueError('`{}` is not a meaningful simulation.'.format(str(model['id'])))
             duration = log.duration
         else:
-            objective = status.get(str(model['id']), {}).get('objective', None)
             duration = status.get(str(model['id']), {}).get('duration', None)
 
         # submit COMBINE/OMEX archive to BioSimulations
@@ -673,14 +775,13 @@ def import_models(config):
             project_url = '{}{}'.format(config['bucket_public_endpoint'], project_bucket_key)
 
             runbiosimulations_id = biosimulators_utils.biosimulations.utils.run_simulation_project(
-                name, project_url, 'cobrapy', project_id=project_id, purpose='academic', auth=auth)
+                name, project_url, 'xpp', project_id=project_id, purpose='academic', auth=auth)
             updated = str(update_times[str(model['id'])])
 
         # output status
         status[str(model['id'])] = {
             'created': status.get(str(model['id']), {}).get('created', str(update_times[str(model['id'])])),
             'updated': updated,
-            'objective': objective,
             'duration': duration,
             'runbiosimulationsId': runbiosimulations_id,
         }

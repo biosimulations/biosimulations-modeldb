@@ -76,22 +76,22 @@
     <bqbiol:encodes rdf:resource="local:00008">local:00008</bqbiol:encodes>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/256627.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/256627.omex/figures/PMC3970756/elife02370f001.jpg">http://omex-library.org/256627.omex/figures/PMC3970756/elife02370f001.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/256627.omex/article-figures/PMC3970756/elife02370f001.jpg">http://omex-library.org/256627.omex/article-figures/PMC3970756/elife02370f001.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/256627.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/256627.omex/figures/PMC3970756/elife02370fs001.jpg">http://omex-library.org/256627.omex/figures/PMC3970756/elife02370fs001.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/256627.omex/article-figures/PMC3970756/elife02370fs001.jpg">http://omex-library.org/256627.omex/article-figures/PMC3970756/elife02370fs001.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/256627.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/256627.omex/figures/PMC3970756/elife02370f002.jpg">http://omex-library.org/256627.omex/figures/PMC3970756/elife02370f002.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/256627.omex/article-figures/PMC3970756/elife02370f002.jpg">http://omex-library.org/256627.omex/article-figures/PMC3970756/elife02370f002.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/256627.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/256627.omex/figures/PMC3970756/elife02370f003.jpg">http://omex-library.org/256627.omex/figures/PMC3970756/elife02370f003.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/256627.omex/article-figures/PMC3970756/elife02370f003.jpg">http://omex-library.org/256627.omex/article-figures/PMC3970756/elife02370f003.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/256627.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/256627.omex/figures/PMC3970756/elife02370f004.jpg">http://omex-library.org/256627.omex/figures/PMC3970756/elife02370f004.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/256627.omex/article-figures/PMC3970756/elife02370f004.jpg">http://omex-library.org/256627.omex/article-figures/PMC3970756/elife02370f004.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/256627.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/256627.omex/figures/PMC3970756/elife02370f005.jpg">http://omex-library.org/256627.omex/figures/PMC3970756/elife02370f005.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/256627.omex/article-figures/PMC3970756/elife02370f005.jpg">http://omex-library.org/256627.omex/article-figures/PMC3970756/elife02370f005.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="local:00009">
     <dc:identifier rdf:resource="mailto:tom.morse@yale.edu">mailto:tom.morse@yale.edu</dc:identifier>

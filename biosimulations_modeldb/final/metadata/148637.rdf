@@ -120,28 +120,28 @@ Implemented by Andrey Dovzhenok, to whom questions should be addressed.</dc:abst
     <bqbiol:encodes rdf:resource="local:00012">local:00012</bqbiol:encodes>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/148637.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/148637.omex/figures/PMC3585780/pone.0058264.g001.jpg">http://omex-library.org/148637.omex/figures/PMC3585780/pone.0058264.g001.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/148637.omex/article-figures/PMC3585780/pone.0058264.g001.jpg">http://omex-library.org/148637.omex/article-figures/PMC3585780/pone.0058264.g001.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/148637.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/148637.omex/figures/PMC3585780/pone.0058264.g002.jpg">http://omex-library.org/148637.omex/figures/PMC3585780/pone.0058264.g002.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/148637.omex/article-figures/PMC3585780/pone.0058264.g002.jpg">http://omex-library.org/148637.omex/article-figures/PMC3585780/pone.0058264.g002.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/148637.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/148637.omex/figures/PMC3585780/pone.0058264.g003.jpg">http://omex-library.org/148637.omex/figures/PMC3585780/pone.0058264.g003.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/148637.omex/article-figures/PMC3585780/pone.0058264.g003.jpg">http://omex-library.org/148637.omex/article-figures/PMC3585780/pone.0058264.g003.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/148637.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/148637.omex/figures/PMC3585780/pone.0058264.g004.jpg">http://omex-library.org/148637.omex/figures/PMC3585780/pone.0058264.g004.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/148637.omex/article-figures/PMC3585780/pone.0058264.g004.jpg">http://omex-library.org/148637.omex/article-figures/PMC3585780/pone.0058264.g004.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/148637.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/148637.omex/figures/PMC3585780/pone.0058264.g005.jpg">http://omex-library.org/148637.omex/figures/PMC3585780/pone.0058264.g005.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/148637.omex/article-figures/PMC3585780/pone.0058264.g005.jpg">http://omex-library.org/148637.omex/article-figures/PMC3585780/pone.0058264.g005.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/148637.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/148637.omex/figures/PMC3585780/pone.0058264.g006.jpg">http://omex-library.org/148637.omex/figures/PMC3585780/pone.0058264.g006.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/148637.omex/article-figures/PMC3585780/pone.0058264.g006.jpg">http://omex-library.org/148637.omex/article-figures/PMC3585780/pone.0058264.g006.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/148637.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/148637.omex/figures/PMC3585780/pone.0058264.g007.jpg">http://omex-library.org/148637.omex/figures/PMC3585780/pone.0058264.g007.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/148637.omex/article-figures/PMC3585780/pone.0058264.g007.jpg">http://omex-library.org/148637.omex/article-figures/PMC3585780/pone.0058264.g007.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/148637.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/148637.omex/figures/PMC3585780/pone.0058264.g008.jpg">http://omex-library.org/148637.omex/figures/PMC3585780/pone.0058264.g008.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/148637.omex/article-figures/PMC3585780/pone.0058264.g008.jpg">http://omex-library.org/148637.omex/article-figures/PMC3585780/pone.0058264.g008.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="local:00013">
     <dc:identifier rdf:resource="mailto:andrey.dovzhenok@uc.edu">mailto:andrey.dovzhenok@uc.edu</dc:identifier>

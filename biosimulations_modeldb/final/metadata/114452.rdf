@@ -63,34 +63,34 @@ This shows that the CaMKII protein network can account for both induction, throu
     <bqbiol:encodes rdf:resource="local:00006">local:00006</bqbiol:encodes>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/114452.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g001.jpg">http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g001.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/114452.omex/article-figures/PMC2098851/pcbi.0030221.g001.jpg">http://omex-library.org/114452.omex/article-figures/PMC2098851/pcbi.0030221.g001.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/114452.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g002.jpg">http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g002.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/114452.omex/article-figures/PMC2098851/pcbi.0030221.g002.jpg">http://omex-library.org/114452.omex/article-figures/PMC2098851/pcbi.0030221.g002.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/114452.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g003.jpg">http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g003.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/114452.omex/article-figures/PMC2098851/pcbi.0030221.g003.jpg">http://omex-library.org/114452.omex/article-figures/PMC2098851/pcbi.0030221.g003.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/114452.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g004.jpg">http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g004.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/114452.omex/article-figures/PMC2098851/pcbi.0030221.g004.jpg">http://omex-library.org/114452.omex/article-figures/PMC2098851/pcbi.0030221.g004.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/114452.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g005.jpg">http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g005.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/114452.omex/article-figures/PMC2098851/pcbi.0030221.g005.jpg">http://omex-library.org/114452.omex/article-figures/PMC2098851/pcbi.0030221.g005.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/114452.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g006.jpg">http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g006.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/114452.omex/article-figures/PMC2098851/pcbi.0030221.g006.jpg">http://omex-library.org/114452.omex/article-figures/PMC2098851/pcbi.0030221.g006.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/114452.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g007.jpg">http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g007.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/114452.omex/article-figures/PMC2098851/pcbi.0030221.g007.jpg">http://omex-library.org/114452.omex/article-figures/PMC2098851/pcbi.0030221.g007.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/114452.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g008.jpg">http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g008.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/114452.omex/article-figures/PMC2098851/pcbi.0030221.g008.jpg">http://omex-library.org/114452.omex/article-figures/PMC2098851/pcbi.0030221.g008.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/114452.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g009.jpg">http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g009.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/114452.omex/article-figures/PMC2098851/pcbi.0030221.g009.jpg">http://omex-library.org/114452.omex/article-figures/PMC2098851/pcbi.0030221.g009.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/114452.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g010.jpg">http://omex-library.org/114452.omex/figures/PMC2098851/pcbi.0030221.g010.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/114452.omex/article-figures/PMC2098851/pcbi.0030221.g010.jpg">http://omex-library.org/114452.omex/article-figures/PMC2098851/pcbi.0030221.g010.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="local:00007">
     <dc:identifier rdf:resource="mailto:michael.graupner@ens.fr">mailto:michael.graupner@ens.fr</dc:identifier>

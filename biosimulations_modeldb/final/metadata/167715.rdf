@@ -86,19 +86,19 @@
     <bqbiol:encodes rdf:resource="local:00009">local:00009</bqbiol:encodes>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/167715.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/167715.omex/figures/PMC4017887/peerj-02-379-g001.jpg">http://omex-library.org/167715.omex/figures/PMC4017887/peerj-02-379-g001.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/167715.omex/article-figures/PMC4017887/peerj-02-379-g001.jpg">http://omex-library.org/167715.omex/article-figures/PMC4017887/peerj-02-379-g001.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/167715.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/167715.omex/figures/PMC4017887/peerj-02-379-g002.jpg">http://omex-library.org/167715.omex/figures/PMC4017887/peerj-02-379-g002.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/167715.omex/article-figures/PMC4017887/peerj-02-379-g002.jpg">http://omex-library.org/167715.omex/article-figures/PMC4017887/peerj-02-379-g002.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/167715.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/167715.omex/figures/PMC4017887/peerj-02-379-g003.jpg">http://omex-library.org/167715.omex/figures/PMC4017887/peerj-02-379-g003.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/167715.omex/article-figures/PMC4017887/peerj-02-379-g003.jpg">http://omex-library.org/167715.omex/article-figures/PMC4017887/peerj-02-379-g003.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/167715.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/167715.omex/figures/PMC4017887/peerj-02-379-g004.jpg">http://omex-library.org/167715.omex/figures/PMC4017887/peerj-02-379-g004.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/167715.omex/article-figures/PMC4017887/peerj-02-379-g004.jpg">http://omex-library.org/167715.omex/article-figures/PMC4017887/peerj-02-379-g004.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/167715.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/167715.omex/figures/PMC4017887/peerj-02-379-g005.jpg">http://omex-library.org/167715.omex/figures/PMC4017887/peerj-02-379-g005.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/167715.omex/article-figures/PMC4017887/peerj-02-379-g005.jpg">http://omex-library.org/167715.omex/article-figures/PMC4017887/peerj-02-379-g005.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="local:00010">
     <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>

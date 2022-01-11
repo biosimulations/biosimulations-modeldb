@@ -202,31 +202,31 @@ concentrations, Nernst potentials, the membrane potential, gating variables and 
     <bqbiol:encodes rdf:resource="local:00021">local:00021</bqbiol:encodes>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/187599.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g001.jpg">http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g001.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/187599.omex/article-figures/PMC4790933/pone.0147060.g001.jpg">http://omex-library.org/187599.omex/article-figures/PMC4790933/pone.0147060.g001.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/187599.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g002.jpg">http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g002.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/187599.omex/article-figures/PMC4790933/pone.0147060.g002.jpg">http://omex-library.org/187599.omex/article-figures/PMC4790933/pone.0147060.g002.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/187599.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g003.jpg">http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g003.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/187599.omex/article-figures/PMC4790933/pone.0147060.g003.jpg">http://omex-library.org/187599.omex/article-figures/PMC4790933/pone.0147060.g003.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/187599.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g004.jpg">http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g004.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/187599.omex/article-figures/PMC4790933/pone.0147060.g004.jpg">http://omex-library.org/187599.omex/article-figures/PMC4790933/pone.0147060.g004.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/187599.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g005.jpg">http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g005.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/187599.omex/article-figures/PMC4790933/pone.0147060.g005.jpg">http://omex-library.org/187599.omex/article-figures/PMC4790933/pone.0147060.g005.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/187599.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g006.jpg">http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g006.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/187599.omex/article-figures/PMC4790933/pone.0147060.g006.jpg">http://omex-library.org/187599.omex/article-figures/PMC4790933/pone.0147060.g006.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/187599.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g007.jpg">http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g007.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/187599.omex/article-figures/PMC4790933/pone.0147060.g007.jpg">http://omex-library.org/187599.omex/article-figures/PMC4790933/pone.0147060.g007.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/187599.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g008.jpg">http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g008.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/187599.omex/article-figures/PMC4790933/pone.0147060.g008.jpg">http://omex-library.org/187599.omex/article-figures/PMC4790933/pone.0147060.g008.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/187599.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g009.jpg">http://omex-library.org/187599.omex/figures/PMC4790933/pone.0147060.g009.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/187599.omex/article-figures/PMC4790933/pone.0147060.g009.jpg">http://omex-library.org/187599.omex/article-figures/PMC4790933/pone.0147060.g009.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="local:00022">
     <dc:identifier rdf:resource="mailto:niklas.huebel@gmail.com">mailto:niklas.huebel@gmail.com</dc:identifier>

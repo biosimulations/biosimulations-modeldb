@@ -76,31 +76,31 @@
     <bqbiol:encodes rdf:resource="local:00008">local:00008</bqbiol:encodes>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/189088.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/189088.omex/figures/PMC4927618/10827_2016_606_Fig1_HTML.jpg">http://omex-library.org/189088.omex/figures/PMC4927618/10827_2016_606_Fig1_HTML.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/189088.omex/article-figures/PMC4927618/10827_2016_606_Fig1_HTML.jpg">http://omex-library.org/189088.omex/article-figures/PMC4927618/10827_2016_606_Fig1_HTML.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/189088.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/189088.omex/figures/PMC4927618/10827_2016_606_Fig2_HTML.jpg">http://omex-library.org/189088.omex/figures/PMC4927618/10827_2016_606_Fig2_HTML.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/189088.omex/article-figures/PMC4927618/10827_2016_606_Fig2_HTML.jpg">http://omex-library.org/189088.omex/article-figures/PMC4927618/10827_2016_606_Fig2_HTML.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/189088.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/189088.omex/figures/PMC4927618/10827_2016_606_Fig3_HTML.jpg">http://omex-library.org/189088.omex/figures/PMC4927618/10827_2016_606_Fig3_HTML.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/189088.omex/article-figures/PMC4927618/10827_2016_606_Fig3_HTML.jpg">http://omex-library.org/189088.omex/article-figures/PMC4927618/10827_2016_606_Fig3_HTML.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/189088.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/189088.omex/figures/PMC4927618/10827_2016_606_Fig4_HTML.jpg">http://omex-library.org/189088.omex/figures/PMC4927618/10827_2016_606_Fig4_HTML.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/189088.omex/article-figures/PMC4927618/10827_2016_606_Fig4_HTML.jpg">http://omex-library.org/189088.omex/article-figures/PMC4927618/10827_2016_606_Fig4_HTML.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/189088.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/189088.omex/figures/PMC4927618/10827_2016_606_Fig5_HTML.jpg">http://omex-library.org/189088.omex/figures/PMC4927618/10827_2016_606_Fig5_HTML.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/189088.omex/article-figures/PMC4927618/10827_2016_606_Fig5_HTML.jpg">http://omex-library.org/189088.omex/article-figures/PMC4927618/10827_2016_606_Fig5_HTML.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/189088.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/189088.omex/figures/PMC4927618/10827_2016_606_Fig6_HTML.jpg">http://omex-library.org/189088.omex/figures/PMC4927618/10827_2016_606_Fig6_HTML.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/189088.omex/article-figures/PMC4927618/10827_2016_606_Fig6_HTML.jpg">http://omex-library.org/189088.omex/article-figures/PMC4927618/10827_2016_606_Fig6_HTML.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/189088.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/189088.omex/figures/PMC4927618/10827_2016_606_Fig7_HTML.jpg">http://omex-library.org/189088.omex/figures/PMC4927618/10827_2016_606_Fig7_HTML.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/189088.omex/article-figures/PMC4927618/10827_2016_606_Fig7_HTML.jpg">http://omex-library.org/189088.omex/article-figures/PMC4927618/10827_2016_606_Fig7_HTML.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/189088.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/189088.omex/figures/PMC4927618/10827_2016_606_Fig8_HTML.jpg">http://omex-library.org/189088.omex/figures/PMC4927618/10827_2016_606_Fig8_HTML.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/189088.omex/article-figures/PMC4927618/10827_2016_606_Fig8_HTML.jpg">http://omex-library.org/189088.omex/article-figures/PMC4927618/10827_2016_606_Fig8_HTML.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/189088.omex">
-    <collex:thumbnail rdf:resource="http://omex-library.org/189088.omex/figures/PMC4927618/10827_2016_606_Fig9_HTML.jpg">http://omex-library.org/189088.omex/figures/PMC4927618/10827_2016_606_Fig9_HTML.jpg</collex:thumbnail>
+    <collex:thumbnail rdf:resource="http://omex-library.org/189088.omex/article-figures/PMC4927618/10827_2016_606_Fig9_HTML.jpg">http://omex-library.org/189088.omex/article-figures/PMC4927618/10827_2016_606_Fig9_HTML.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="local:00009">
     <rdfs:label>Laura  Atherton</rdfs:label>
