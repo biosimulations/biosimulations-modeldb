@@ -26,6 +26,7 @@ import git
 import glob
 import lxml.etree
 import os
+import pkg_resources
 import shutil
 import tempfile
 import time
@@ -37,98 +38,15 @@ Entrez.email = os.getenv('ENTREZ_EMAIL', None)
 __all__ = ['import_models']
 
 CONCEPT_URI_PATTERN = 'http://modeldb.science/ModelList?id={}'
+BIOSIMULATIONS_PROJECT_ID_PATTERN = 'modeldb-{}'
+BIOSIMULATORS_SIMULATOR_ID = 'xpp'
+ARTICLE_FIGURES_COMBINE_ARCHIVE_SUBDIRECTORY_PATTERN = os.path.join('article-figures', '{}')
 
-ENCODES_ATTRIBUTES = [
-    {
-        'attribute': 'model_type',
-        'label': 'model type',
-        'hasUri': True,
-    },
-    {
-        'attribute': 'other_type',
-        'label': 'model type',
-        'hasUri': False,
-    },
-    {
-        'attribute': 'region',
-        'label': 'brain region',
-        'hasUri': True,
-    },
-    {
-        'attribute': 'neurons',
-        'label': 'neuron',
-        'hasUri': True,
-    },
-    {
-        'attribute': 'other_neurons',
-        'label': 'neuron',
-        'hasUri': False,
-    },
-    {
-        'attribute': 'currents',
-        'label': 'ionic current',
-        'hasUri': True,
-    },
-    {
-        'attribute': 'other_currents',
-        'label': 'ionic current',
-        'hasUri': False,
-    },
-    {
-        'attribute': 'neurotransmitters',
-        'label': 'neurotransmitter',
-        'hasUri': True,
-    },
-    {
-        'attribute': 'other_neurotransmitter',
-        'label': 'neurotransmitter',
-        'hasUri': False,
-    },
-    {
-        'attribute': 'receptors',
-        'label': 'receptor',
-        'hasUri': True,
-    },
-    {
-        'attribute': 'other_receptors',
-        'label': 'receptor',
-        'hasUri': False,
-    },
-    {
-        'attribute': 'gene',
-        'label': 'gene',
-        'hasUri': True,
-    },
-    {
-        'attribute': 'model_concept',
-        'label': 'model concept',
-        'hasUri': True,
-    },
-    {
-        'attribute': 'other_concept',
-        'label': 'model concept',
-        'hasUri': False,
-    },
-]
+with open(pkg_resources.resource_filename('biosimulations_modeldb', os.path.join('final', 'modeldb-bqbiol-map.yml')), 'r') as file:
+    MODELDB_BQBIOL_MAP = yaml.load(file, Loader=yaml.Loader)
 
-TAXA = {
-    'Aplysia': {
-        'label': 'Aplysia',
-        'uri': 'http://identifiers.org/taxonomy:6499',
-    },
-    'Drosophila': {
-        'label': 'Drosophila',
-        'uri': 'http://identifiers.org/taxonomy:7215',
-    },
-    'Drosophila (fruit fly)': {
-        'label': 'Drosophila',
-        'uri': 'http://identifiers.org/taxonomy:7215',
-    },
-    'Helix pomatia (snail)': {
-        'label': 'Helix pomatia',
-        'uri': 'http://identifiers.org/taxonomy:6536',
-    },
-}
+with open(pkg_resources.resource_filename('biosimulations_modeldb', os.path.join('final', 'taxa.yml')), 'r') as file:
+    TAXA = yaml.load(file, Loader=yaml.Loader)
 
 
 def get_model_ids(config, modeling_application):
@@ -265,6 +183,7 @@ def get_metadata_for_model(model, config):
                 cross_ref_session=config['cross_ref_session'],
             )
 
+            # manually correct an invalid DOI
             if paper['object_id'] == 39981:
                 article.doi = '10.1523/JNEUROSCI.22-07-02963.2002'
 
@@ -314,7 +233,7 @@ def export_project_metadata_for_model_to_omex_metadata(model, taxa, references, 
         config (:obj:`dict`): configuration
     """
     encodes = []
-    for attr in ENCODES_ATTRIBUTES:
+    for attr in MODELDB_BQBIOL_MAP:
         if attr['hasUri']:
             for object in model.get(attr['attribute'], {}).get('value', []):
                 object_name = object['object_name']
@@ -373,7 +292,10 @@ def export_project_metadata_for_model_to_omex_metadata(model, taxa, references, 
         'taxa': taxa,
         'encodes': encodes,
         'thumbnails': [
-            os.path.join('article-figures', os.path.basename(os.path.dirname(thumbnail.filename)), os.path.basename(thumbnail.filename))
+            os.path.join(
+                ARTICLE_FIGURES_COMBINE_ARCHIVE_SUBDIRECTORY_PATTERN.format(os.path.basename(os.path.dirname(thumbnail.filename))),
+                os.path.basename(thumbnail.filename),
+            )
             for thumbnail in thumbnails
         ],
         'sources': [],
@@ -735,8 +657,9 @@ def import_models(config):
 
             for thumbnail in thumbnails:
                 extra_contents[thumbnail.filename] = CombineArchiveContent(
-                    location=os.path.join('article-figures', os.path.basename(os.path.dirname(
-                        thumbnail.filename)), os.path.basename(thumbnail.filename)),
+                    location=os.path.join(
+                        ARTICLE_FIGURES_COMBINE_ARCHIVE_SUBDIRECTORY_PATTERN.format(os.path.basename(os.path.dirname(thumbnail.filename))),
+                        os.path.basename(thumbnail.filename)),
                     format=CombineArchiveContentFormat.JPEG,
                 )
 
@@ -764,9 +687,9 @@ def import_models(config):
             runbiosimulations_id = status.get(str(model['id']), {}).get('runbiosimulationsId', None)
             updated = status.get(str(model['id']), {}).get('updated', None)
         else:
-            name = str(model['id'])
+            run_name = model['name']
             if config['publish_models']:
-                project_id = name
+                project_id = BIOSIMULATIONS_PROJECT_ID_PATTERN.format(model['id'])
             else:
                 project_id = None
 
@@ -775,7 +698,7 @@ def import_models(config):
             project_url = '{}{}'.format(config['bucket_public_endpoint'], project_bucket_key)
 
             runbiosimulations_id = biosimulators_utils.biosimulations.utils.run_simulation_project(
-                name, project_url, 'xpp', project_id=project_id, purpose='academic', auth=auth)
+                run_name, project_url, BIOSIMULATORS_SIMULATOR_ID, project_id=project_id, purpose='academic', auth=auth)
             updated = str(update_times[str(model['id'])])
 
         # output status

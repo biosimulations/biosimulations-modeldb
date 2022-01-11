@@ -1,0 +1,12 @@
+Aplysia:
+    label: Aplysia
+    uri: http://identifiers.org/taxonomy:6499
+Drosophila:
+    label: Drosophila
+    uri: http://identifiers.org/taxonomy:7215
+Drosophila (fruit fly):
+    label: Drosophila
+    uri: http://identifiers.org/taxonomy:7215
+Helix pomatia (snail):
+    label: Helix pomatia
+    uri: http://identifiers.org/taxonomy:6536

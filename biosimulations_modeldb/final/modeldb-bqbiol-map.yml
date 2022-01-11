@@ -1,0 +1,55 @@
+- attribute: model_type
+  label: model type
+  hasUri: true
+
+- attribute: other_type
+  label: model type
+  hasUri: false
+
+- attribute: region
+  label: brain region
+  hasUri: true
+
+- attribute: neurons
+  label: neuron
+  hasUri: true
+
+- attribute: other_neurons
+  label: neuron
+  hasUri: false
+
+- attribute: currents
+  label: ionic current
+  hasUri: true
+
+- attribute: other_currents
+  label: ionic current
+  hasUri: false
+
+- attribute: neurotransmitters
+  label: neurotransmitter
+  hasUri: true
+
+- attribute: other_neurotransmitter
+  label: neurotransmitter
+  hasUri: false
+
+- attribute: receptors
+  label: receptor
+  hasUri: true
+
+- attribute: other_receptors
+  label: receptor
+  hasUri: false
+
+- attribute: gene
+  label: gene
+  hasUri: true
+
+- attribute: model_concept
+  label: model concept
+  hasUri: true
+
+- attribute: other_concept
+  label: model concept
+  hasUri: false
