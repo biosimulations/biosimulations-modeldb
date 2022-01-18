@@ -1,0 +1,58 @@
+45513:
+  DBdep+A.ode:
+    - filename: 45513/DBdep+A.ode.set
+      id: figure_9d
+      name: Figure 9d
+116867:
+  rubin_terman_dbs.ode:
+    - filename: rubin_terman_dbs.ode.set
+      id: normal_with_periodic_dbs_stimulation
+      name: Normal with periodic DBS stimulation
+  rubin_terman_pd.ode:
+    - filename: rubin_terman_pd.ode.setnorm
+      id: normal_figure_5c
+      name: Normal (Figure 5c)
+    - filename: rubin_terman_pd.ode.setpark
+      id: parkinsons_disease_figure_5d
+      name: Parkinson's disease (Figure 5d)
+152292:
+  OneCellTwoOsc.ode:
+    - filename: OneCellTwoOsc.ode.setsb
+      id: figure_2a
+      name: Figure 2a
+    - filenane: OneCellTwoOsc.ode.setdb
+      id: figure_2b
+      name: Figure 2b
+    - filename: OneCellTwoOsc.ode.setsdb
+      id: figure_2c
+      name: Figure 2c
+235377:
+  single_cells.ode:
+    - filename: single_cells.ode.set
+      id: pair_neuron_astrocyte_figure_2
+      name: One pair of a neuron and a astrocyte (Figure 2)
+  waves.ode:
+    - filename: waves.ode.set
+      id: network_25_pairs_neuron_astrocyte_figure_11
+      name: Network of 25 pairs of neurons and astrocytes (Figure 11)
+257608:
+  basenet.ode:
+    - filename: basenet.ode.set
+      id: baseline
+      name: Baseline
+  basenetpico3.ode:
+    - filename: basenetpico3.ode.set3
+      id: without_pico_block_of_inhibition
+      name: Without PiCo and without block of inhibition
+  basenetTA.ode:
+    - filename: basenetTA.ode.set
+      id: with_pico
+      name: With PiCo
+260730:
+  ML.ode:
+    - filename: ML_SNIC.set
+      id: morris_lecar_with_snic_figure_11
+      name: Morris-Lecar model with a SNIC (Figure 11)
+    - filename: ML_Hopf.set
+      id: morris_lecar_with_hopf_bifurcation_figure_12
+      name: Morris-Lecar model with a Hopf bifurcation (Figure 12)

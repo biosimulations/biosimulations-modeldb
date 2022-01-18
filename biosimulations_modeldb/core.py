@@ -1,5 +1,4 @@
 from Bio import Entrez
-from biosimulators_utils.biosimulations.utils import get_file_extension_combine_uri_map as base_get_file_extension_combine_uri_map
 from biosimulators_utils.combine.data_model import CombineArchive, CombineArchiveContent, CombineArchiveContentFormat
 from biosimulators_utils.combine.io import CombineArchiveWriter
 from biosimulators_utils.config import Config
@@ -9,7 +8,7 @@ from biosimulators_utils.omex_meta.io import BiosimulationsOmexMetaWriter, Biosi
 from biosimulators_utils.ref.data_model import Reference, JournalArticle, PubMedCentralOpenAccesGraphic  # noqa: F401
 from biosimulators_utils.ref.utils import get_reference, get_pubmed_central_open_access_graphics
 from biosimulators_utils.sedml.data_model import (
-    SedDocument, Model, ModelLanguage, SteadyStateSimulation,
+    SedDocument, Model, ModelLanguage, UniformTimeCourseSimulation,
     Task, DataGenerator, Report, DataSet)
 from biosimulators_utils.sedml.io import SedmlSimulationWriter
 from biosimulators_utils.sedml.model_utils import get_parameters_variables_outputs_for_simulation
@@ -25,6 +24,7 @@ import dateutil.parser
 import git
 import glob
 import lxml.etree
+import natsort
 import os
 import pkg_resources
 import shutil
@@ -37,6 +37,7 @@ Entrez.email = os.getenv('ENTREZ_EMAIL', None)
 
 __all__ = ['import_models']
 
+MODELING_APPLICATION = 'XPP'
 CONCEPT_URI_PATTERN = 'http://modeldb.science/ModelList?id={}'
 BIOSIMULATIONS_PROJECT_ID_PATTERN = 'modeldb-{}'
 BIOSIMULATORS_SIMULATOR_ID = 'xpp'
@@ -47,6 +48,12 @@ with open(pkg_resources.resource_filename('biosimulations_modeldb', os.path.join
 
 with open(pkg_resources.resource_filename('biosimulations_modeldb', os.path.join('final', 'taxa.yml')), 'r') as file:
     TAXA = yaml.load(file, Loader=yaml.Loader)
+
+with open(pkg_resources.resource_filename('biosimulations_modeldb', os.path.join('final', 'file-ext-format-uri-map.yml')), 'r') as file:
+    FILE_EXTENSION_FORMAT_URI_MAP = yaml.load(file, Loader=yaml.Loader)
+
+with open(pkg_resources.resource_filename('biosimulations_modeldb', os.path.join('final', 'set-file-map.yml')), 'r') as file:
+    SET_FILE_MAP = yaml.load(file, Loader=yaml.Loader)
 
 
 def get_model_ids(config, modeling_application):
@@ -122,7 +129,7 @@ def get_model(id, config):
     return model
 
 
-def get_metadata_for_model(model, config):
+def get_metadata_for_model(model, model_dirname, config):
     """ Get additional metadata about a model
 
     * NCBI Taxonomy id of the organism
@@ -131,11 +138,13 @@ def get_metadata_for_model(model, config):
 
     Args:
         model (:obj:`dict`): information about a model
+        model_dirname (:obj:`str`): path to the directory of files for the model
         config (:obj:`dict`): configuration
 
     Returns:
         :obj:`tuple`:
 
+            * :obj:`str`: description
             * :obj:`list` of :obj:`dict`: NCBI taxonomy identifiers and names
             * :obj:`list` of :obj:`dict`: structured information about the references
             * :obj:`list` of :obj:`PubMedCentralOpenAccesGraphic`: figures of the references
@@ -146,13 +155,35 @@ def get_metadata_for_model(model, config):
     if os.path.isfile(metadata_filename):
         with open(metadata_filename, 'r') as file:
             metadata = yaml.load(file, Loader=yaml.Loader)
+        description = metadata.get('description', None)
         taxa = metadata.get('taxa', [])
         references = metadata.get('references', [])
         thumbnails = metadata.get('thumbnails', [])
 
         thumbnails = [PubMedCentralOpenAccesGraphic(**thumbnail) for thumbnail in thumbnails]
 
-        return taxa, references, thumbnails
+        return description, taxa, references, thumbnails
+
+    # get description from readme
+    description = None
+    for rel_filename in os.listdir(model_dirname):
+        basename, ext = os.path.splitext(filename.lower())
+        abs_filename = os.path.join(model_dirname, rel_filename)
+        if basename == 'readme':
+            if ext in ['', '.txt', '.md']:
+                with open(abs_filename, 'r') as file:
+                    description = file.read()
+
+            elif ext in ['.html']:
+                description = None # TODO
+
+            elif ext in ['.docx']:
+                description = None # TODO
+
+            else:
+                raise NotImplementedError('README type `{}` is not supported.'.format(ext))
+
+            break
 
     # get taxa
     taxa_ids = set()
@@ -211,6 +242,7 @@ def get_metadata_for_model(model, config):
 
     # save metadata
     metadata = {
+        'description': description,
         'taxa': taxa,
         'references': references,
         'thumbnails': [dataclasses.asdict(thumbnail) for thumbnail in thumbnails],
@@ -218,14 +250,15 @@ def get_metadata_for_model(model, config):
     with open(metadata_filename, 'w') as file:
         file.write(yaml.dump(metadata))
 
-    return (taxa, references, thumbnails)
+    return (description, taxa, references, thumbnails)
 
 
-def export_project_metadata_for_model_to_omex_metadata(model, taxa, references, thumbnails, metadata_filename, config):
+def export_project_metadata_for_model_to_omex_metadata(model, description, taxa, references, thumbnails, metadata_filename, config):
     """ Export metadata about a model to an OMEX metadata RDF-XML file
 
     Args:
         model (:obj:`str`): information about the model
+        description (:obj:`str`): description of the model
         taxa (:obj:`list` of :obj:`dict`): NCBI taxonomy identifier and name
         references (:obj:`list` of :obj:`dict`): structured information about the reference
         thumbnails (:obj:`list` of :obj:`PubMedCentralOpenAccesGraphic`): figures of the reference
@@ -288,7 +321,7 @@ def export_project_metadata_for_model_to_omex_metadata(model, taxa, references, 
         'abstract': model.get('notes', {}).get('value', None),
         'keywords': [
         ],
-        'description': None,
+        'description': description,
         'taxa': taxa,
         'encodes': encodes,
         'thumbnails': [
@@ -326,70 +359,6 @@ def export_project_metadata_for_model_to_omex_metadata(model, taxa, references, 
         raise ValueError('The metadata is not valid:\n  {}'.format(flatten_nested_list_of_strings(errors).replace('\n', '\n  ')))
 
 
-file_extension_combine_uri_map = None
-
-
-def get_file_extension_combine_uri_map():
-    """ Get a map from file extensions to URIs for use with manifests of COMBINE/OMEX archives
-
-    Args:
-        config (:obj:`Config`, optional): configuration
-
-    Returns:
-        :obj:`dict`: which maps extensions to lists of associated URIs
-    """
-    global file_extension_combine_uri_map
-    if file_extension_combine_uri_map is None:
-        file_extension_combine_uri_map = base_get_file_extension_combine_uri_map()
-        file_extension_combine_uri_map['ac'] = {'http://purl.org/NET/mediatypes/text/x-autoconf'}
-        file_extension_combine_uri_map['auto'] = {CombineArchiveContentFormat.XPP_AUTO}
-        file_extension_combine_uri_map['cc'] = file_extension_combine_uri_map['cpp']
-        file_extension_combine_uri_map['dist'] = {CombineArchiveContentFormat.MARKDOWN}
-        file_extension_combine_uri_map['eps'] = {CombineArchiveContentFormat.POSTSCRIPT}
-        file_extension_combine_uri_map['fig'] = {CombineArchiveContentFormat.MATLAB_FIGURE}
-        file_extension_combine_uri_map['g'] = {CombineArchiveContentFormat.GENESIS}
-        file_extension_combine_uri_map['hoc'] = {CombineArchiveContentFormat.HOC}
-        file_extension_combine_uri_map['html'] = {CombineArchiveContentFormat.HTML}
-        file_extension_combine_uri_map['in'] = {CombineArchiveContentFormat.NCS}
-        file_extension_combine_uri_map['inc'] = {CombineArchiveContentFormat.NMODL}
-        file_extension_combine_uri_map['map'] = {CombineArchiveContentFormat.TSV}
-        file_extension_combine_uri_map['md'] = {CombineArchiveContentFormat.MARKDOWN}
-        file_extension_combine_uri_map['mlx'] = {'http://purl.org/NET/mediatypes/application/matlab-live-script'}
-        file_extension_combine_uri_map['mod'] = {CombineArchiveContentFormat.NMODL}
-        file_extension_combine_uri_map['mw'] = {CombineArchiveContentFormat.MAPLE_WORKSHEET}
-        file_extension_combine_uri_map['nb'] = {CombineArchiveContentFormat.MATHEMATICA_NOTEBOOK}
-        file_extension_combine_uri_map['nrn'] = {CombineArchiveContentFormat.HOC}
-        file_extension_combine_uri_map['ode'] = {CombineArchiveContentFormat.XPP}
-        file_extension_combine_uri_map['p'] = {CombineArchiveContentFormat.GENESIS}
-        file_extension_combine_uri_map['ps'] = {CombineArchiveContentFormat.POSTSCRIPT}
-        file_extension_combine_uri_map['sce'] = {CombineArchiveContentFormat.Scilab}
-        file_extension_combine_uri_map['ses'] = {CombineArchiveContentFormat.NEURON_SESSION}
-        file_extension_combine_uri_map['set'] = {CombineArchiveContentFormat.XPP_SET}
-        file_extension_combine_uri_map['sfit'] = {CombineArchiveContentFormat.MATLAB_DATA}
-        file_extension_combine_uri_map['sli'] = {CombineArchiveContentFormat.SLI}
-        file_extension_combine_uri_map['tab'] = {CombineArchiveContentFormat.TSV}
-        file_extension_combine_uri_map['txt'] = {CombineArchiveContentFormat.TEXT}
-        file_extension_combine_uri_map['xls'] = {CombineArchiveContentFormat.XLS}
-        file_extension_combine_uri_map['xpp'] = {CombineArchiveContentFormat.XPP}
-
-        file_extension_combine_uri_map['inp'] = {CombineArchiveContentFormat.TEXT}
-
-        file_extension_combine_uri_map[''] = {CombineArchiveContentFormat.OTHER}
-        file_extension_combine_uri_map['bin'] = {CombineArchiveContentFormat.OTHER}
-        file_extension_combine_uri_map['dat'] = {CombineArchiveContentFormat.OTHER}
-        file_extension_combine_uri_map['mexmaci64'] = {CombineArchiveContentFormat.OTHER}
-        file_extension_combine_uri_map['mexw64'] = {CombineArchiveContentFormat.OTHER}
-        file_extension_combine_uri_map['mexa64'] = {CombineArchiveContentFormat.OTHER}
-
-        file_extension_combine_uri_map['set3'] = {CombineArchiveContentFormat.XPP_SET}
-        file_extension_combine_uri_map['setdb'] = {CombineArchiveContentFormat.XPP_SET}
-        file_extension_combine_uri_map['setnorm'] = {CombineArchiveContentFormat.XPP_SET}
-        file_extension_combine_uri_map['setpark'] = {CombineArchiveContentFormat.XPP_SET}
-        file_extension_combine_uri_map['setsb'] = {CombineArchiveContentFormat.XPP_SET}
-        file_extension_combine_uri_map['setsdb'] = {CombineArchiveContentFormat.XPP_SET}
-    return file_extension_combine_uri_map
-
-
 def build_combine_archive_for_model(id, model_dirname, archive_filename, extra_contents):
     """ Build a COMBINE/OMEX archive for a model including a SED-ML file
 
@@ -400,90 +369,13 @@ def build_combine_archive_for_model(id, model_dirname, archive_filename, extra_c
         extra_contents (:obj:`dict`): dictionary that maps the local path of each additional file that
             should be included in the arrchive to its intended location within the archive and format
     """
-
-    params, sims, vars, outputs = get_parameters_variables_outputs_for_simulation(
-        model_filename, ModelLanguage.SBML, SteadyStateSimulation, native_ids=True)
-
-    obj_vars = list(filter(lambda var: var.target.startswith('/sbml:sbml/sbml:model/fbc:listOfObjectives/'), vars))
-    rxn_flux_vars = list(filter(lambda var: var.target.startswith('/sbml:sbml/sbml:model/sbml:listOfReactions/'), vars))
-
-    sedml_doc = SedDocument()
-    model = Model(
-        id='model',
-        source=os.path.basename(model_filename),
-        language=ModelLanguage.SBML.value,
-        changes=params,
-    )
-    sedml_doc.models.append(model)
-    sim = sims[0]
-    sedml_doc.simulations.append(sim)
-
-    task = Task(
-        id='task',
-        model=model,
-        simulation=sim,
-    )
-    sedml_doc.tasks.append(task)
-
-    report = Report(
-        id='objective',
-        name='Objective',
-    )
-    sedml_doc.outputs.append(report)
-    for var in obj_vars:
-        var_id = var.id
-        var_name = var.name
-
-        var.id = 'variable_' + var_id
-        var.name = None
-
-        var.task = task
-        data_gen = DataGenerator(
-            id='data_generator_{}'.format(var_id),
-            variables=[var],
-            math=var.id,
-        )
-        sedml_doc.data_generators.append(data_gen)
-        report.data_sets.append(DataSet(
-            id=var_id,
-            label=var_id,
-            name=var_name,
-            data_generator=data_gen,
-        ))
-
-    report = Report(
-        id='reaction_fluxes',
-        name='Reaction fluxes',
-    )
-    sedml_doc.outputs.append(report)
-    for var in rxn_flux_vars:
-        var_id = var.id
-        var_name = var.name
-
-        var.id = 'variable_' + var_id
-        var.name = None
-
-        var.task = task
-        data_gen = DataGenerator(
-            id='data_generator_{}'.format(var_id),
-            variables=[var],
-            math=var.id,
-        )
-        sedml_doc.data_generators.append(data_gen)
-        report.data_sets.append(DataSet(
-            id=var_id,
-            label=var_id[2:] if var_id.startswith('R_') else var_id,
-            name=var_name if len(rxn_flux_vars) < 4000 else None,
-            data_generator=data_gen,
-        ))
-
     # make temporary directory for archive
     archive_dirname = tempfile.mkdtemp()
     shutil.rmtree(archive_dirname)
     archive = CombineArchive()
 
+    # add files from ModelDB
     shutil.copytree(model_dirname, archive_dirname)
-    file_extension_combine_uri_map = get_file_extension_combine_uri_map()
     for filename in glob.glob(os.path.join(model_dirname, '**', '*'), recursive=True):
         location = os.path.relpath(filename, model_dirname)
         if os.path.isdir(filename):
@@ -508,17 +400,10 @@ def build_combine_archive_for_model(id, model_dirname, archive_filename, extra_c
                 uri = CombineArchiveContentFormat.XML
 
         else:
-            uris = list(file_extension_combine_uri_map.get(ext.lower(), set()))
-            if len(uris) == 0:
+            uri = FILE_EXTENSION_FORMAT_URI_MAP.get(ext.lower(), None)
+            if uri is None:
                 uri = CombineArchiveContentFormat.OTHER
                 msg = 'URI for `{}` for model `{}` is not known'.format(location, id)
-                warnings.warn(msg, UserWarning)
-            elif len(uris) == 1:
-                uri = uris[0]
-            else:
-                uri = uris[0]
-                msg = 'URI for `{}` for model `{}` could not be uniquely determined:\n  {}'.format(
-                    location, id, '\n  '.join(sorted(uris)))
                 warnings.warn(msg, UserWarning)
 
         archive.contents.append(CombineArchiveContent(
@@ -526,13 +411,129 @@ def build_combine_archive_for_model(id, model_dirname, archive_filename, extra_c
             format=uri,
         ))
 
-    SedmlSimulationWriter().run(sedml_doc, os.path.join(archive_dirname, 'simulation.sedml'))
-    archive.contents.append(CombineArchiveContent(
-        location='simulation.sedml',
-        format=CombineArchiveContentFormat.SED_ML.value,
-        master=True,
-    ))
+    # create simulations
+    model_filenames = natsort.natsorted(
+        glob.glob(os.path.join(model_dirname, '*.ode'))
+        + glob.glob(os.path.join(model_dirname, '*.ODE'))
+        + glob.glob(os.path.join(model_dirname, '*.xpp'))
+        + glob.glob(os.path.join(model_dirname, '*.XPP'))
+    )
 
+    for model_filename in model_filenames:
+        model_location = os.path.relpath(model_filename, model_dirname)
+
+        sed_doc = SedDocument()
+
+        # base model
+        sed_base_model = Model(
+            id='model',
+            name='Model',
+            source=os.path.basename(model_filename),
+            language=ModelLanguage.XPP.value,
+        )
+        sed_doc.models.append(sed_base_model)
+
+        # model variants
+        set_files = SET_FILE_MAP.get(str(id), {}).get(model_location, [])
+        if set_files:
+            for set_file in set_files:
+                set_file['filename'] = os.path.join(model_dirname, set_file['filename'])
+        else:
+            set_files = [{
+                'filename': None,
+                'id': None,
+                'name': None,
+            }]
+
+        for set_file in set_files:
+            sed_params, sed_sims, sed_vars, _ = get_parameters_variables_outputs_for_simulation(
+                model_filename, ModelLanguage.XPP, UniformTimeCourseSimulation, native_ids=True,
+                model_language_options={
+                    'set_filename': set_file['filename'],
+                })
+
+            # model
+            if set_file['id']:
+                sed_model = Model(
+                    id='model_' + set_file['id'],
+                    name=set_file['name'],
+                    source='#' + sed_base_model.id,
+                    language=ModelLanguage.XPP.value,
+                    changes=sed_params,
+                )
+                sed_doc.models.append(sed_model)
+            else:
+                sed_model = sed_base_model
+
+            # simulation
+            sed_sim = sed_sims[0]
+            sed_sim.id = 'simulation'
+            if set_file['id']:
+                sed_sim.id += '_' + set_file['id']
+            sed_sim.name = set_file['name'] or 'Simulation'
+            sed_doc.simulations.append(sed_sim)
+
+            # task
+            sed_task = Task(
+                id='task',
+                name=set_file['name'] or 'Task',
+                model=sed_model,
+                simulation=sed_sim,
+            )
+            if set_file['id']:
+                sed_task.id += '_' + set_file['id']
+            sed_doc.tasks.append(sed_task)
+
+            # data generators and report
+            sed_report = Report(
+                id='report',
+                name=set_file['name'] or 'Report',
+            )
+            if set_file['id']:
+                sed_report.id += '_' + set_file['id']
+
+            sed_doc.outputs.append(sed_report)
+
+            for sed_var in sed_vars:
+                var_id = sed_var.id or 'T'
+
+                sed_var.id = 'variable_' + var_id
+                if set_file['id']:
+                    sed_var.id += '_' + set_file['id']
+                sed_var.name = var_id
+                sed_var.task = sed_task
+
+                sed_data_gen = DataGenerator(
+                    id='data_generator_{}'.format(var_id),
+                    name=var_id,
+                    variables=[sed_var],
+                    math=sed_var.id,
+                )
+                if set_file['id']:
+                    sed_data_gen.id += '_' + set_file['id']
+                sed_doc.data_generators.append(sed_data_gen)
+
+                sed_data_set = DataSet(
+                    id='data_set_{}'.format(var_id),
+                    name=var_id,
+                    label=var_id,
+                    data_generator=sed_data_gen,
+                )
+                if set_file['id']:
+                    sed_data_set.id += '_' + set_file['id']
+                sed_report.data_sets.append(sed_data_set)
+
+            # TODO: plots
+
+        sim_location = os.path.splitext(model_location)[0] + '.sedml'
+        SedmlSimulationWriter().run(sed_doc, os.path.join(archive_dirname, sim_location))
+        archive.contents.append(CombineArchiveContent(
+            location=sim_location,
+            format=CombineArchiveContentFormat.SED_ML.value,
+            master=True,
+        ))
+
+    # add metadata and thumbnails
     for local_path, extra_content in extra_contents.items():
         extra_content_dirname = os.path.dirname(os.path.join(archive_dirname, extra_content.location))
         if not os.path.isdir(extra_content_dirname):
@@ -581,7 +582,7 @@ def import_models(config):
         issues = yaml.load(file, Loader=yaml.Loader)
 
     # get a list of the ids of all models available in the source database
-    model_ids = get_model_ids(config, 'XPP')
+    model_ids = get_model_ids(config, MODELING_APPLICATION)
 
     # limit the number of models to import
     model_ids = model_ids[0:config['max_models']]
@@ -598,6 +599,17 @@ def import_models(config):
         # get the details of the model and download it from the source database
         model = get_model(model_id, config)
         models.append(model)
+
+    # filter out models that don't have XPP files
+    for model in list(models):
+        model_dirname = os.path.join(config['source_models_dirname'], str(model['id']))
+        if (
+            not glob.glob(os.path.join(model_dirname, '**', '*.ode'), recursive=True)
+            and not glob.glob(os.path.join(model_dirname, '**', '*.ODE'), recursive=True)
+            and not glob.glob(os.path.join(model_dirname, '**', '*.xpp'), recursive=True)
+            and not glob.glob(os.path.join(model_dirname, '**', '*.XPP'), recursive=True)
+        ):
+            models.remove(model)
 
     # filter out models that don't need to be imported because they've already been imported and haven't been updated
     if not config['update_simulation_runs']:
@@ -635,13 +647,13 @@ def import_models(config):
 
         # get additional metadata about the model
         print('Getting metadata for {} of {}: {}'.format(i_model + 1, len(models), str(model['id'])))
-        taxa, references, thumbnails = get_metadata_for_model(model, config)
+        description, taxa, references, thumbnails = get_metadata_for_model(model, model_dirname, config)
 
         # export metadata to RDF
         print('Exporting project metadata for {} of {}: {}'.format(i_model + 1, len(models), str(model['id'])))
         project_metadata_filename = os.path.join(config['final_metadata_dirname'], str(model['id']) + '.rdf')
         if not os.path.isfile(project_metadata_filename) or config['update_combine_archives']:
-            export_project_metadata_for_model_to_omex_metadata(model, taxa, references, thumbnails,
+            export_project_metadata_for_model_to_omex_metadata(model, description, taxa, references, thumbnails,
                                                                project_metadata_filename, config)
 
         # package model into COMBINE/OMEX archive
