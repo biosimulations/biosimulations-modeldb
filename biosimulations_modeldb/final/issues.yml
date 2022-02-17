@@ -65,7 +65,7 @@
   - type: "No files"
     severity: "warning"
     detail: "No files are associated with the record"
-97850
+97850:
   - type: "Non-standard file name"
     severity: "warning"
     detail: "`'hfs.data'` should likely be `hfs.dat`"
