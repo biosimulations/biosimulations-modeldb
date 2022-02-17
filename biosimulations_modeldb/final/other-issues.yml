@@ -1,6 +1,10 @@
+models:
+  - 206365: has `.DS_Store` files
+  - 229640: has `.DS_Store` files
 concepts:
   - paper `39981`: DOI is `10.1523/JNEUROSCI.22-07-02963.2002`, not `20026266`
   - region `125736`: is a species
   - region `206363`: is a species
 website:
   - [receptor page](http://modeldb.science/FindByReceptor): title should be `Find models that contain a particular [receptor]`, not `Find models that contain a particular ionic current`
+  - Simulators and model languages are used interchangeably
