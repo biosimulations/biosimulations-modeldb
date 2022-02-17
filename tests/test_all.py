@@ -75,7 +75,6 @@ class TestCase(unittest.TestCase):
             final_dirname=os.path.join(self.dirname, 'final'),
             status_filename=os.path.join(self.dirname, 'final', 'status.yml'),
             max_models=1,
-            max_num_reactions=200,
             bucket_name='bucket',
         )
 
@@ -106,8 +105,7 @@ class TestCase(unittest.TestCase):
                         with mock.patch.object(biosimulations_modeldb.__main__, 'get_config', side_effect=mock_get_config):
                             with __main__.App(argv=[
                                 'publish',
-                                '--max-models', '1',
-                                '--max-num-reactions', '200',
+                                '--max-models', '1',                            
                             ]) as app:
                                 app.run()
 
