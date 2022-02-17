@@ -4,6 +4,7 @@ biosimulators_utils >= 0.1.158
 boto3
 cement
 gitpython
+markdownify
 natsort
 pyyaml
 python_dateutil

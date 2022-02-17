@@ -24,6 +24,7 @@ import dateutil.parser
 import git
 import glob
 import lxml.etree
+import markdownify
 import natsort
 import os
 import pkg_resources
@@ -178,7 +179,9 @@ def get_metadata_for_model(model, model_dirname, config):
                     description = file.read()
 
             elif ext in ['.html']:
-                description = None  # TODO
+                with open(abs_filename, 'rb') as file:
+                    doc = bs4.BeautifulSoup(file.read())
+                    description = markdownify.MarkdownConverter(strip=['img']).convert_soup(doc.find('body') or doc).strip()
 
             elif ext in ['.docx']:
                 description = None  # TODO
@@ -187,6 +190,8 @@ def get_metadata_for_model(model, model_dirname, config):
                 raise NotImplementedError('README type `{}` is not supported.'.format(ext))
 
             break
+
+    # TODO: get images (png, jpg, JPG)
 
     # get taxa
     taxa_ids = set()
