@@ -170,7 +170,7 @@ def get_metadata_for_model(model, model_dirname, config):
     # get description from readme
     description = None
     for rel_filename in os.listdir(model_dirname):
-        basename, ext = os.path.splitext(filename.lower())
+        basename, ext = os.path.splitext(rel_filename.lower())
         abs_filename = os.path.join(model_dirname, rel_filename)
         if basename == 'readme':
             if ext in ['', '.txt', '.md']:
