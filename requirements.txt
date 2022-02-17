@@ -1,9 +1,11 @@
+beautifulsoup4
 biopython
 biosimulators_xpp
 biosimulators_utils >= 0.1.158
 boto3
 cement
 gitpython
+mammoth
 markdownify
 natsort
 pyyaml

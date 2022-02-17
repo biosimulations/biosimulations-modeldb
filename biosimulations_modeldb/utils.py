@@ -87,7 +87,7 @@ def case_insensitive_glob(pattern, **kwargs):
     """
     def either(c):
         if c.isalpha():
-            return '[%s%s]'.format(c.lower(), c.upper())
+            return '[{}{}]'.format(c.lower(), c.upper())
         else:
             return c
     return glob.glob(''.join(map(either, pattern)), **kwargs)

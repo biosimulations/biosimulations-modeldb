@@ -1,3 +1,4 @@
+from .utils import case_insensitive_glob
 from Bio import Entrez
 from biosimulators_utils.combine.data_model import CombineArchive, CombineArchiveContent, CombineArchiveContentFormat
 from biosimulators_utils.combine.io import CombineArchiveWriter
@@ -14,16 +15,20 @@ from biosimulators_utils.sedml.io import SedmlSimulationWriter
 from biosimulators_utils.sedml.model_utils import get_parameters_variables_outputs_for_simulation
 from biosimulators_utils.utils.core import flatten_nested_list_of_strings
 from biosimulators_utils.warnings import BioSimulatorsWarning
+import base64
 import biosimulators_xpp
 import biosimulators_utils.biosimulations.utils
 import boto3
+import bs4
 import copy
 import dataclasses
 import datetime
 import dateutil.parser
 import git
 import glob
+import imghdr
 import lxml.etree
+import mammoth
 import markdownify
 import natsort
 import os
@@ -170,26 +175,49 @@ def get_metadata_for_model(model, model_dirname, config):
 
     # get description from readme
     description = None
-    for rel_filename in os.listdir(model_dirname):
-        basename, ext = os.path.splitext(rel_filename.lower())
-        abs_filename = os.path.join(model_dirname, rel_filename)
-        if basename == 'readme':
-            if ext in ['', '.txt', '.md']:
-                with open(abs_filename, 'r') as file:
-                    description = file.read()
+    readme_filenames = case_insensitive_glob(os.path.join(model_dirname, '**', 'readme*'), recursive=True)
+    readme_filenames.sort(key=lambda filename: filename.count('/'))
+    if readme_filenames:
+        readme_filename = readme_filenames[0]
+        _, ext = os.path.splitext(readme_filename.lower())
+        if ext in ['', '.txt', '.md']:
+            with open(readme_filename, 'r') as file:
+                description = file.read()
 
-            elif ext in ['.html']:
-                with open(abs_filename, 'rb') as file:
-                    doc = bs4.BeautifulSoup(file.read())
-                    description = markdownify.MarkdownConverter(strip=['img']).convert_soup(doc.find('body') or doc).strip()
+        elif ext in ['.html']:
+            with open(readme_filename, 'rb') as file:
+                doc = bs4.BeautifulSoup(file.read())
+            content = doc.find('body') or doc
 
-            elif ext in ['.docx']:
-                description = None  # TODO
+            image_work_dirname = os.path.dirname(readme_filename)
+            for image_el in content.find_all('img'):
+                image_src = os.path.join(image_work_dirname, image_el.get('src'))
+                image_format = imghdr.what(image_src)
+                with open(image_src, 'rb') as image_file:
+                    image_value = base64.b64encode(image_file.read()).decode()
+                    image_el['src'] = f'data:image/{image_format};base64,{image_value}'
 
-            else:
-                raise NotImplementedError('README type `{}` is not supported.'.format(ext))
+                parent_el = image_el.parent
+                if parent_el.name == 'pre':
+                    sibling_els = list(parent_el.children)
+                    i_image = sibling_els.index(image_el)
 
-            break
+                    below_container = bs4.BeautifulSoup('<pre></pre>').pre
+                    parent_el.insert_after(below_container)
+                    for sibling_el in sibling_els[i_image + 1:]:
+                        below_container.append(sibling_el)
+
+                    parent_el.insert_after(image_el)
+
+            description = markdownify.MarkdownConverter().convert_soup(content).strip()
+
+        elif ext in ['.docx']:
+            with open(readme_filename, 'rb') as file:
+                result = mammoth.convert_to_markdown(file)
+                description = result.value.strip()
+
+        else:
+            raise NotImplementedError('README type `{}` is not supported.'.format(ext))
 
     # TODO: get images (png, jpg, JPG)
 
