@@ -13,7 +13,7 @@ thumbnails:
     compartments separated by a membrane, and the surroundings of the system. The
     latter provides an energy source and, if the system is not closed, also an ion
     reservoir.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g001.jpg
+  filename: PMC4256015/PMC4256015/pcbi.1003941.g001.jpg
   id: pcbi.1003941/pcbi-1003941-g001
   label: Figure 1
 - caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -47,7 +47,7 @@ thumbnails:
     i.e., because of ion exchange with a reservoir (&#8216;r&#8217;). Note that along
     the horizontal directions only the ICS potassium concentration changes by a precise
     mixture of fluxes across the membrane and ion exchange with a reservoir.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g002.jpg
+  filename: PMC4256015/PMC4256015/pcbi.1003941.g002.jpg
   id: pcbi.1003941/pcbi-1003941-g002
   label: Figure 2
 - caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -62,7 +62,7 @@ thumbnails:
     in <xref ref-type="fig" rid="pcbi-1003941-g002">Fig. 2</xref>. Note the similar
     shape to <xref ref-type="fig" rid="pcbi-1003941-g002">Fig. 2</xref>, but also
     the different scale of the two figures.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g003.jpg
+  filename: PMC4256015/PMC4256015/pcbi.1003941.g003.jpg
   id: pcbi.1003941/pcbi-1003941-g003
   label: Figure 3
 - caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -82,7 +82,7 @@ thumbnails:
     curves from <xref ref-type="fig" rid="pcbi-1003941-g002">Figs. 2</xref> and <xref
     ref-type="fig" rid="pcbi-1003941-g003">3</xref> are also included in the diagram
     and drawn in grey.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g004.jpg
+  filename: PMC4256015/PMC4256015/pcbi.1003941.g004.jpg
   id: pcbi.1003941/pcbi-1003941-g004
   label: Figure 4
 - caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -98,7 +98,7 @@ thumbnails:
     for all ion species are included to the diagrams as a reference. Ion dynamics
     are shown in (<bold>c</bold>) and (<bold>d</bold>) where extracellular ion concentrations
     are in lighter color.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g005.jpg
+  filename: PMC4256015/PMC4256015/pcbi.1003941.g005.jpg
   id: pcbi.1003941/pcbi-1003941-g005
   label: Figure 5
 - caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -117,7 +117,7 @@ thumbnails:
     for the unbuffered models with dynamical chloride are slightly darker. The pair
     of arrows in the extracellular potassium plots indicates the direction of pure
     transmembrane (vertical) and pure buffering dynamics (diagonal).</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g006.jpg
+  filename: PMC4256015/PMC4256015/pcbi.1003941.g006.jpg
   id: pcbi.1003941/pcbi-1003941-g006
   label: Figure 6
 - caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -137,7 +137,7 @@ thumbnails:
     (<bold>c</bold>) and (<bold>d</bold>) tonic firing, (<bold>e</bold>) and (<bold>f</bold>)
     periodic SD. Note the different time scales of SLA, tonic firing and period SD
     and also the different oscillation amplitudes in the ionic variables.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g007.jpg
+  filename: PMC4256015/PMC4256015/pcbi.1003941.g007.jpg
   id: pcbi.1003941/pcbi-1003941-g007
   label: Figure 7
 - caption: '<title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -157,7 +157,7 @@ thumbnails:
     (<bold>b</bold>) shows the extracellular potassium concentration. (<bold>b</bold>)
     does not contain the limit cycle, because it can hardly be distinguished from
     the fixed point line.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g008.jpg
+  filename: PMC4256015/PMC4256015/pcbi.1003941.g008.jpg
   id: pcbi.1003941/pcbi-1003941-g008
   label: Figure 8
 - caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -167,7 +167,7 @@ thumbnails:
     bifurcation diagram of <xref ref-type="fig" rid="pcbi-1003941-g008">Fig. 8</xref>.
     Panel (<bold>a</bold>) shows the extracellular sodium concentration and includes
     an inset around TR4 and PD. Panel (<bold>b</bold>) presents the potassium gain/loss.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g009.jpg
+  filename: PMC4256015/PMC4256015/pcbi.1003941.g009.jpg
   id: pcbi.1003941/pcbi-1003941-g009
   label: Figure 9
 - caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -182,7 +182,7 @@ thumbnails:
     chloride) are darker. The limit cycle and fixed point are not graphically distinguished,
     but comparison with <xref ref-type="fig" rid="pcbi-1003941-g002">Fig. 2</xref>
     should avoid confusion.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g010.jpg
+  filename: PMC4256015/PMC4256015/pcbi.1003941.g010.jpg
   id: pcbi.1003941/pcbi-1003941-g010
   label: Figure 10
 - caption: '<title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -201,6 +201,6 @@ thumbnails:
     caused by a particular mixture of these fluxes that induces potassium ion concentration
     changes exclusively to the intracellular compartment. Ionic excitability can be
     understood as a cyclic process in this diagram (see text).</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g011.jpg
+  filename: PMC4256015/PMC4256015/pcbi.1003941.g011.jpg
   id: pcbi.1003941/pcbi-1003941-g011
   label: Figure 11

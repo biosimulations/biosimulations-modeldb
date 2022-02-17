@@ -6,39 +6,39 @@ references:
 taxa: []
 thumbnails:
 - caption: []
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.s1.jpg
+  filename: PMC2230643/PMC2230643/JGP7962.s1.jpg
   id: GP-7962/S1
   label: Scheme S1
 - caption: []
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.s2.jpg
+  filename: PMC2230643/PMC2230643/JGP7962.s2.jpg
   id: GP-7962/S2
   label: Scheme S2
 - caption: []
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.s3.jpg
+  filename: PMC2230643/PMC2230643/JGP7962.s3.jpg
   id: GP-7962/S3
   label: Scheme S3
 - caption: []
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.s4.jpg
+  filename: PMC2230643/PMC2230643/JGP7962.s4.jpg
   id: GP-7962/S4
   label: Scheme S4
 - caption: []
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.s5.jpg
+  filename: PMC2230643/PMC2230643/JGP7962.s5.jpg
   id: GP-7962/S5
   label: Scheme S5
 - caption: []
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.s6.jpg
+  filename: PMC2230643/PMC2230643/JGP7962.s6.jpg
   id: GP-7962/S6
   label: Scheme S6
 - caption: []
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.s7.jpg
+  filename: PMC2230643/PMC2230643/JGP7962.s7.jpg
   id: GP-7962/S7
   label: Scheme S7
 - caption: []
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.s8.jpg
+  filename: PMC2230643/PMC2230643/JGP7962.s8.jpg
   id: GP-7962/S8
   label: Scheme S8
 - caption: []
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.s9.jpg
+  filename: PMC2230643/PMC2230643/JGP7962.s9.jpg
   id: GP-7962/S9
   label: Scheme S9
 - caption: <p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Delay
@@ -58,7 +58,7 @@ thumbnails:
     voltage pulse. A capacitive transient (control) evoked in response to a pulse
     to &#8722;180 mV was recorded using fast capacity compensation, but no leak subtraction,
     demonstrating that membrane voltage settles rapidly.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.f1.jpg
+  filename: PMC2230643/PMC2230643/JGP7962.f1.jpg
   id: GP-7962/F1
   label: Figure 1
 - caption: '<p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Kinetics
@@ -91,7 +91,7 @@ thumbnails:
     = 341 s<sup>&#8722;1</sup>, &#947; = 136 s<sup>&#8722;1</sup>). Current traces
     were shifted along the time axis by &#8722;25 &#956;s to correct for the instrumentation
     delay (see <sc>methods</sc>).</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.f2.jpg
+  filename: PMC2230643/PMC2230643/JGP7962.f2.jpg
   id: GP-7962/F2
   label: Figure 2
 - caption: '<p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Voltage
@@ -170,7 +170,7 @@ thumbnails:
     <sub>o</sub>&#8211;V relationship (see <xref ref-type="fig" rid="F6">Fig. 6</xref>
     B) and to reproduce the time course of I<sub>K</sub> activation at the peak of
     the &#916;<italic>t</italic>&#8211;V relationship (+153 mV).</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.f3.jpg
+  filename: PMC2230643/PMC2230643/JGP7962.f3.jpg
   id: GP-7962/F3
   label: Figure 3
 - caption: <p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
@@ -179,7 +179,7 @@ thumbnails:
     lines). I<sub>K</sub> was activated in response to voltages from +100 to +240
     mV. Deactivation was measured at the indicated voltages after a 50-ms depolarization
     to +120 mV.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.f4.jpg
+  filename: PMC2230643/PMC2230643/JGP7962.f4.jpg
   id: GP-7962/F4
   label: Figure 4
 - caption: '<p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
@@ -227,7 +227,7 @@ thumbnails:
 
     <sub>&#945;2</sub> = &#8722;0.26 <italic>e</italic>, &#945;<sub>2</sub>(0) = 300
     s<sup>&#8722;1</sup>).</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.f5.jpg
+  filename: PMC2230643/PMC2230643/JGP7962.f5.jpg
   id: GP-7962/F5
   label: Figure 5
 - caption: '<p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Steady
@@ -272,7 +272,7 @@ thumbnails:
     bin width), while open symbols represent data from individual experiments. Predictions
     of <xref ref-type="fig" rid="S5">Fig. 5</xref> (dashed line) and IX (solid line)
     are the same as in B.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.f6.jpg
+  filename: PMC2230643/PMC2230643/JGP7962.f6.jpg
   id: GP-7962/F6
   label: Figure 6
 - caption: <p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Interaction
@@ -290,7 +290,7 @@ thumbnails:
     Voltage-sensor activation is also assumed to affect subunit&#8211;subunit interaction,
     and is shown here as stabilizing the closed state when voltage sensors are in
     the (&#8722;) conformation.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.f11.jpg
+  filename: PMC2230643/PMC2230643/JGP7962.f11.jpg
   id: GP-7962/F11
   label: Figure 11
 - caption: '<p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Allosteric
@@ -302,7 +302,7 @@ thumbnails:
     is plotted on a log&#8211;log scale (from <xref ref-type="fig" rid="F2">Fig. 2</xref>
     B<sub>2</sub>). (C) The Cole-Moore shift (from <xref ref-type="fig" rid="F3">Fig.
     3</xref> A).</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.f7.jpg
+  filename: PMC2230643/PMC2230643/JGP7962.f7.jpg
   id: GP-7962/F7
   label: Figure 7
 - caption: '<p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Allosteric
@@ -324,7 +324,7 @@ thumbnails:
     rid="F4">Fig. 4C</xref> and <xref ref-type="fig" rid="F4">Fig. D</xref>) at &#8722;40
     mV, but not at &#8722;360 mV. Thus, a tail current delay is observed, but not
     at very negative voltages.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.f8.jpg
+  filename: PMC2230643/PMC2230643/JGP7962.f8.jpg
   id: GP-7962/F8
   label: Figure 8
 - caption: '<p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Effect
@@ -339,7 +339,7 @@ thumbnails:
     <italic>z<sub>J</sub></italic> = 0.55 <italic>e</italic>, <italic>D</italic> =
     17], except V<sub>h</sub>(<italic>J</italic>) = &#8722;100 mV for R207Q, while
     V<sub>h</sub>(<italic>J</italic>) = 145 mV for WT.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.f9.jpg
+  filename: PMC2230643/PMC2230643/JGP7962.f9.jpg
   id: GP-7962/F9
   label: Figure 9
 - caption: '<p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Properties
@@ -372,6 +372,6 @@ thumbnails:
     <sup>&#8722;10</sup>). A dashed line indicates the prediction of sequential <xref
     ref-type="fig" rid="S5">Fig. 5</xref> (from <xref ref-type="fig" rid="F6">Fig.
     6</xref>).</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2230643/PMC2230643/JGP7962.f10.jpg
+  filename: PMC2230643/PMC2230643/JGP7962.f10.jpg
   id: GP-7962/F10
   label: Figure 10

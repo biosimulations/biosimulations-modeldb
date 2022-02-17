@@ -17,7 +17,7 @@ thumbnails:
 
     <sub>&#8734;</sub>(V) with respect to <italic>V</italic> (<xref ref-type="disp-formula"
     rid="pcbi-0030156-e006">Equation 6</xref>) is plotted as a function of &#952;<sub>m</sub>.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1941757/PMC1941757/pcbi.0030156.g001.jpg
+  filename: PMC1941757/PMC1941757/pcbi.0030156.g001.jpg
   id: pcbi.0030156/pcbi-0030156-g001
   label: Figure 1
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Responses
@@ -60,7 +60,7 @@ thumbnails:
     <sub>d</sub> = 1.8 mS/cm<sup>2</sup> and <italic>I</italic>
 
     <sub>app</sub> = 4.2 &#956;A/cm<sup>2</sup>, the neuron exhibits delayed stuttering.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1941757/PMC1941757/pcbi.0030156.g002.jpg
+  filename: PMC1941757/PMC1941757/pcbi.0030156.g002.jpg
   id: pcbi.0030156/pcbi-0030156-g002
   label: Figure 2
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Responses
@@ -94,7 +94,7 @@ thumbnails:
 
     <sub>d</sub> is as in (B). The average firing frequency goes to zero at firing
     threshold. Between the two solid circles, the neuron fires doublets of spikes.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1941757/PMC1941757/pcbi.0030156.g003.jpg
+  filename: PMC1941757/PMC1941757/pcbi.0030156.g003.jpg
   id: pcbi.0030156/pcbi-0030156-g003
   label: Figure 3
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Dependence
@@ -118,7 +118,7 @@ thumbnails:
     lines represent one standard deviation around the mean value of <italic>t</italic>
 
     <sub>delay</sub> for noisy input.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1941757/PMC1941757/pcbi.0030156.g004.jpg
+  filename: PMC1941757/PMC1941757/pcbi.0030156.g004.jpg
   id: pcbi.0030156/pcbi-0030156-g004
   label: Figure 4
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Bifurcation
@@ -169,7 +169,7 @@ thumbnails:
     of amplitude <italic>I</italic>
 
     <sub>app</sub>.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1941757/PMC1941757/pcbi.0030156.g005.jpg
+  filename: PMC1941757/PMC1941757/pcbi.0030156.g005.jpg
   id: pcbi.0030156/pcbi-0030156-g005
   label: Figure 5
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Fast&#8211;Slow
@@ -203,7 +203,7 @@ thumbnails:
     for limit cycles (<xref ref-type="disp-formula" rid="pcbi-0030156-e002">Equation
     2</xref>) as functions of <italic>b</italic> (B,D). Symbols are as in <xref ref-type="fig"
     rid="pcbi-0030156-g005">Figure 5</xref>.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1941757/PMC1941757/pcbi.0030156.g006.jpg
+  filename: PMC1941757/PMC1941757/pcbi.0030156.g006.jpg
   id: pcbi.0030156/pcbi-0030156-g006
   label: Figure 6
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Voltage
@@ -236,7 +236,7 @@ thumbnails:
     <sub>app</sub>, is also plotted. The membrane potentials during the delay periods
     are magnified in the panels on the right. Note the presence of subthreshold oscillations
     in (A) and (B). The peaks of these oscillations are denoted by the arrows.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1941757/PMC1941757/pcbi.0030156.g007.jpg
+  filename: PMC1941757/PMC1941757/pcbi.0030156.g007.jpg
   id: pcbi.0030156/pcbi-0030156-g007
   label: Figure 7
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Dependence
@@ -260,7 +260,7 @@ thumbnails:
     4</xref>). The arrow on the <italic>y</italic>-axis indicates the value of <italic>t</italic>
 
     <sub>delay</sub> for a noiseless input (<italic>D</italic> = 0).</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1941757/PMC1941757/pcbi.0030156.g008.jpg
+  filename: PMC1941757/PMC1941757/pcbi.0030156.g008.jpg
   id: pcbi.0030156/pcbi-0030156-g008
   label: Figure 8
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Fourier
@@ -286,7 +286,7 @@ thumbnails:
     <sub>d</sub> = 0.39 mS/cm<sup>2</sup>, <italic>I</italic>
 
     <sub>app</sub> = 1.25 &#956;A/cm<sup>2</sup>.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1941757/PMC1941757/pcbi.0030156.g009.jpg
+  filename: PMC1941757/PMC1941757/pcbi.0030156.g009.jpg
   id: pcbi.0030156/pcbi-0030156-g009
   label: Figure 9
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Noise-Induced
@@ -319,7 +319,7 @@ thumbnails:
     of <italic>b</italic> are either the fixed-point value (in (A)) or the average
     value on the limit cycle (in (C)). Solid circles denote stable fixed points, solid
     lines denote stable limit cycles, and dotted lines denote unstable limit cycles.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1941757/PMC1941757/pcbi.0030156.g010.jpg
+  filename: PMC1941757/PMC1941757/pcbi.0030156.g010.jpg
   id: pcbi.0030156/pcbi-0030156-g010
   label: Figure 10
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Experimental
@@ -333,7 +333,7 @@ thumbnails:
     irregular firing.</p><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(D)
     A neuron that fires at low rates after a delay. The dotted line denotes &#8722;70
     mV.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1941757/PMC1941757/pcbi.0030156.g011.jpg
+  filename: PMC1941757/PMC1941757/pcbi.0030156.g011.jpg
   id: pcbi.0030156/pcbi-0030156-g011
   label: Figure 11
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Experimental
@@ -353,6 +353,6 @@ thumbnails:
     or (B). This neuron does not exhibit subthreshold oscillations during the delay
     period. Spectra were calculated over the time intervals denoted by the horizontal
     bars in the top panels.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1941757/PMC1941757/pcbi.0030156.g012.jpg
+  filename: PMC1941757/PMC1941757/pcbi.0030156.g012.jpg
   id: pcbi.0030156/pcbi-0030156-g012
   label: Figure 12

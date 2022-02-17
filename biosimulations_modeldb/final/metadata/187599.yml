@@ -14,7 +14,7 @@ thumbnails:
     counteracts these fluxes and ion gradients are maintained. Under resting conditions
     Cl<sup>&#8722;</sup> is in electrochemical equilibrium and <italic>I</italic><sub><italic>Cl</italic></sub>
     = 0 <italic>&#956;</italic>A/cm<sup>2</sup> (not included in scheme).</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4790933/PMC4790933/pone.0147060.g001.jpg
+  filename: PMC4790933/PMC4790933/pone.0147060.g001.jpg
   id: pone.0147060/pone.0147060.g001
   label: Fig 1
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Illustration
@@ -24,7 +24,7 @@ thumbnails:
     the cell leads to an osmotic gradient. The overall particle concentration in the
     ICS is higher. The cell swells in response to this imbalance until intra&#8211;
     and extracellular concentrations are equal again.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4790933/PMC4790933/pone.0147060.g002.jpg
+  filename: PMC4790933/PMC4790933/pone.0147060.g002.jpg
   id: pone.0147060/pone.0147060.g002
   label: Fig 2
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Transition
@@ -36,7 +36,7 @@ thumbnails:
     model based on <xref ref-type="disp-formula" rid="pone.0147060.e049">Eq (28)</xref>.
     The insets show the results for the exponential model from <xref ref-type="disp-formula"
     rid="pone.0147060.e045">Eq (25)</xref>.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4790933/PMC4790933/pone.0147060.g003.jpg
+  filename: PMC4790933/PMC4790933/pone.0147060.g003.jpg
   id: pone.0147060/pone.0147060.g003
   label: Fig 3
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
@@ -45,7 +45,7 @@ thumbnails:
     xmlns:mml="http://www.w3.org/1998/Math/MathML">The pumps are switched off after
     50 sec (marked by the star). The main plots show <bold>(a)</bold> potentials and
     <bold>(b)</bold> ion concentrations. Volumes are shown in the inset in <bold>(b)</bold>.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4790933/PMC4790933/pone.0147060.g004.jpg
+  filename: PMC4790933/PMC4790933/pone.0147060.g004.jpg
   id: pone.0147060/pone.0147060.g004
   label: Fig 4
 - caption: <p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML"><bold>(a)</bold>
@@ -58,7 +58,7 @@ thumbnails:
     shows the ICS volume, which is larger for FES (swollen cell). The initial and
     asymptotic states for long times from <bold>(a)</bold> are marked by a black and
     white triangle, respectively.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4790933/PMC4790933/pone.0147060.g005.jpg
+  filename: PMC4790933/PMC4790933/pone.0147060.g005.jpg
   id: pone.0147060/pone.0147060.g005
   label: Fig 5
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Illustration
@@ -70,7 +70,7 @@ thumbnails:
     deviates from the unbounded model. Instead of further shrinkage of the ECS there
     is tissue swelling for very high particle contents inside the cells (low values
     of <italic>N</italic><sub><italic>e</italic></sub>).</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4790933/PMC4790933/pone.0147060.g006.jpg
+  filename: PMC4790933/PMC4790933/pone.0147060.g006.jpg
   id: pone.0147060/pone.0147060.g006
   label: Fig 6
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">SD
@@ -86,7 +86,7 @@ thumbnails:
     ECS, and the glia cell are shown in <bold>(b)</bold>. Relative changes of the
     three compartments and the full system are shown in <bold>(c)</bold> with an inset
     for finer resolution between 40 sec and 110 sec.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4790933/PMC4790933/pone.0147060.g007.jpg
+  filename: PMC4790933/PMC4790933/pone.0147060.g007.jpg
   id: pone.0147060/pone.0147060.g007
   label: Fig 7
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Cl<sup>&#8722;</sup>
@@ -98,7 +98,7 @@ thumbnails:
     we used <italic>&#967;</italic> = 0.2 which means less Cl<sup>&#8722;</sup> uptake
     and more Na<sup>+</sup> release. The cell does not recover from depolarization,
     but remains in FES.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4790933/PMC4790933/pone.0147060.g008.jpg
+  filename: PMC4790933/PMC4790933/pone.0147060.g008.jpg
   id: pone.0147060/pone.0147060.g008
   label: Fig 8
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulation
@@ -114,6 +114,6 @@ thumbnails:
     perfusion the neuron remains on the physiological branch, with fast perfusion
     it goes into FES. <italic>K</italic><sub><italic>e</italic></sub> and <italic>&#969;</italic><sub><italic>i</italic></sub>
     (inset) are significantly increased.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4790933/PMC4790933/pone.0147060.g009.jpg
+  filename: PMC4790933/PMC4790933/pone.0147060.g009.jpg
   id: pone.0147060/pone.0147060.g009
   label: Fig 9

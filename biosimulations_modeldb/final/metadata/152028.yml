@@ -31,7 +31,7 @@ thumbnails:
     5</xref>.); voltage dependence of time constants and the gates of activation (m)
     and inactivation (h). The Kf current model also included a second, slow inactivation
     with a time constant of 135 ms (not shown).</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4433181/PMC4433181/pcbi.1004189.g001.jpg
+  filename: PMC4433181/PMC4433181/pcbi.1004189.g001.jpg
   id: pcbi.1004189/pcbi.1004189.g001
   label: Fig 1
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Isopotential
@@ -47,7 +47,7 @@ thumbnails:
     spike in response to current injection. (<bold>D</bold>) The firing rate-membrane
     voltage (f-V) response of only the two-compartment model qualitatively mimicked
     the inter-spike voltage depolarizations that appeared for high firing rates.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4433181/PMC4433181/pcbi.1004189.g002.jpg
+  filename: PMC4433181/PMC4433181/pcbi.1004189.g002.jpg
   id: pcbi.1004189/pcbi.1004189.g002
   label: Fig 2
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Morphological
@@ -64,7 +64,7 @@ thumbnails:
     to voltage-clamp step to &#8722;90 mV from a holding potential of &#8722;60 mV
     is simulated in Neuron with the fitted parameters (see <xref rid="pcbi.1004189.t002"
     ref-type="table">Table 2</xref>).</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4433181/PMC4433181/pcbi.1004189.g003.jpg
+  filename: PMC4433181/PMC4433181/pcbi.1004189.g003.jpg
   id: pcbi.1004189/pcbi.1004189.g003
   label: Fig 3
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulations
@@ -92,7 +92,7 @@ thumbnails:
     in simulated morphology, we showed that the membrane response is filtered dependent
     on frequency. Dashed gray line shows the fastest (<italic>&#964;</italic> = 0.3
     ms) current stimulus applied distally.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4433181/PMC4433181/pcbi.1004189.g004.jpg
+  filename: PMC4433181/PMC4433181/pcbi.1004189.g004.jpg
   id: pcbi.1004189/pcbi.1004189.g004
   label: Fig 4
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulated
@@ -130,7 +130,7 @@ thumbnails:
     the I-V curves (showing input conductance) were also similar (bottom; using markers
     instead of lines). The input conductance at the soma only increased by about 1
     nS in the presumed Ks activation voltage range.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4433181/PMC4433181/pcbi.1004189.g005.jpg
+  filename: PMC4433181/PMC4433181/pcbi.1004189.g005.jpg
   id: pcbi.1004189/pcbi.1004189.g005
   label: Fig 5
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Different
@@ -146,7 +146,7 @@ thumbnails:
     for comparison. Change of voltage offset (<bold>K</bold>) and spike amplitude
     (<bold>L</bold>) with current injection compared between the NaT/Ks placements
     in (<bold>A</bold>-<bold>D</bold>) and the biological recording (aCC w/ Cd<sup>2+</sup>).</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4433181/PMC4433181/pcbi.1004189.g006.jpg
+  filename: PMC4433181/PMC4433181/pcbi.1004189.g006.jpg
   id: pcbi.1004189/pcbi.1004189.g006
   label: Fig 6
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">NaT
@@ -161,6 +161,6 @@ thumbnails:
     5-fold. (<bold>D</bold>) Clamp currents recorded at the soma for the same three
     conditions and in a model where the SIZ was 20 &#956;m closer to the soma (50
     &#956;m).</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4433181/PMC4433181/pcbi.1004189.g007.jpg
+  filename: PMC4433181/PMC4433181/pcbi.1004189.g007.jpg
   id: pcbi.1004189/pcbi.1004189.g007
   label: Fig 7

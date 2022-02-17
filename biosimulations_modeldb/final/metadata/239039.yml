@@ -55,7 +55,7 @@ thumbnails:
     same R<sub>N</sub> is not type specific (e.g. gray and black filled circles for
     FR-type motoneurons). S, FR and FF indicate slow twitch, fast twitch and fatigue
     resistant, and fast twitch and fast fatigable motoneuron type respectively.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4118843/PMC4118843/pone.0095454.g001.jpg
+  filename: PMC4118843/PMC4118843/pone.0095454.g001.jpg
   id: pone.0095454/pone-0095454-g001
   label: Figure 1
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Comparison
@@ -132,7 +132,7 @@ thumbnails:
     (G<sub>syn</sub>) for the synaptic receptors positioned at all points at D<sub>path</sub>&#8202;=&#8202;600
     &#181;m, and F-G<sub>syn</sub> curve. Arrows indicate the ascending and descending
     phase of G<sub>syn</sub>.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4118843/PMC4118843/pone.0095454.g002.jpg
+  filename: PMC4118843/PMC4118843/pone.0095454.g002.jpg
   id: pone.0095454/pone-0095454-g002
   label: Figure 2
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Cellular
@@ -165,7 +165,7 @@ thumbnails:
     &#181;F/cm<sup>2</sup>}, C<sub>m,D</sub>&#8202;=&#8202;{1.239, 0.903, 0.764, 0.62
     &#181;F/cm<sup>2</sup>}. Parameter values in the parentheses are in the order
     of increasing distance from 200 to 1000 &#181;m.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4118843/PMC4118843/pone.0095454.g003.jpg
+  filename: PMC4118843/PMC4118843/pone.0095454.g003.jpg
   id: pone.0095454/pone-0095454-g003
   label: Figure 3
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Sensitivity
@@ -205,7 +205,7 @@ thumbnails:
     and the percent variation in DC VA factors. Data points were fitted to a linear
     regression line. Note that R<sub>N</sub> for the reduced model was set to be 1.29
     M&#937;.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4118843/PMC4118843/pone.0095454.g004.jpg
+  filename: PMC4118843/PMC4118843/pone.0095454.g004.jpg
   id: pone.0095454/pone-0095454-g004
   label: Figure 4
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Spatial
@@ -239,7 +239,7 @@ thumbnails:
     1.373, 0.352 &#181;F/cm<sup>2</sup>}. Parameter values in the parentheses are
     in the order of increasing distance from 200 to 1000 &#181;m. Note that R<sub>N</sub>
     for all reduced models was set to be 1.29 M&#937;.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4118843/PMC4118843/pone.0095454.g005.jpg
+  filename: PMC4118843/PMC4118843/pone.0095454.g005.jpg
   id: pone.0095454/pone-0095454-g005
   label: Figure 5
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Dependence
@@ -262,6 +262,6 @@ thumbnails:
 
     <sup>DC</sup> data and its fitting curve (see <xref ref-type="fig" rid="pone-0095454-g001">Figure
     1(<bold>A</bold>)</xref>).</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4118843/PMC4118843/pone.0095454.g006.jpg
+  filename: PMC4118843/PMC4118843/pone.0095454.g006.jpg
   id: pone.0095454/pone-0095454-g006
   label: Figure 6

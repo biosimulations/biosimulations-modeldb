@@ -26,7 +26,7 @@ thumbnails:
     in D. F. Membrane potential distributions computed from a somatic whole-cell patch-clamp
     recording from a Purkinje cell during injection of a stimulus current evoking
     transitions between spiking and silent states (A).</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4991839/PMC4991839/pcbi.1005000.g001.jpg
+  filename: PMC4991839/PMC4991839/pcbi.1005000.g001.jpg
   id: pcbi.1005000/pcbi.1005000.g001
   label: Fig 1
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Experimental
@@ -46,7 +46,7 @@ thumbnails:
     range &#916;<italic>I</italic> and the optimal noise level for ISR <italic>&#963;</italic><sub><italic>opt</italic></sub>.
     Error bars indicate standard deviation, <italic>R</italic><sup>2</sup> = 0.79
     (n = 19).</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4991839/PMC4991839/pcbi.1005000.g002.jpg
+  filename: PMC4991839/PMC4991839/pcbi.1005000.g002.jpg
   id: pcbi.1005000/pcbi.1005000.g002
   label: Fig 2
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">aEIF
@@ -74,7 +74,7 @@ thumbnails:
     spike-triggered adaptation is fitted to a single exponential, with time constant
     <italic>&#964;</italic><sub><italic>w</italic></sub> and <italic>w</italic><sub><italic>sp</italic></sub>
     (t = 0) = b. Error bars indicate SD.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4991839/PMC4991839/pcbi.1005000.g003.jpg
+  filename: PMC4991839/PMC4991839/pcbi.1005000.g003.jpg
   id: pcbi.1005000/pcbi.1005000.g003
   label: Fig 3
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Hysteresis
@@ -92,7 +92,7 @@ thumbnails:
     (E) and <italic>A</italic> = <italic>a</italic>/<italic>g</italic><sub><italic>L</italic></sub>
     (F). G. Membrane potential distribution in the aEIF model during spiking and silent
     states.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4991839/PMC4991839/pcbi.1005000.g004.jpg
+  filename: PMC4991839/PMC4991839/pcbi.1005000.g004.jpg
   id: pcbi.1005000/pcbi.1005000.g004
   label: Fig 4
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Bifurcation
@@ -110,7 +110,7 @@ thumbnails:
     (inset) when stimulated by Ornstein-Uhlenbeck noise for 1000 ms with mean <italic>I</italic>
     = &#8722;150 pA and noise amplitudes <italic>&#963;</italic> = 10 pA, 30 pA and
     60 pA.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4991839/PMC4991839/pcbi.1005000.g005.jpg
+  filename: PMC4991839/PMC4991839/pcbi.1005000.g005.jpg
   id: pcbi.1005000/pcbi.1005000.g005
   label: Fig 5
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">ISR
@@ -127,7 +127,7 @@ thumbnails:
     = 0 pA the duration of stimulus-induced spiking state is infinite, while for <italic>&#963;</italic>
     = 100 pA the duration of this state could not be distinguished from the firing
     baseline.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4991839/PMC4991839/pcbi.1005000.g006.jpg
+  filename: PMC4991839/PMC4991839/pcbi.1005000.g006.jpg
   id: pcbi.1005000/pcbi.1005000.g006
   label: Fig 6
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">ISR
@@ -143,6 +143,6 @@ thumbnails:
     For <italic>&#963;</italic> = 0 pA the duration of the stimulus-induced spiking
     state is infinite, while for <italic>&#963;</italic> = 100 pA the duration of
     this state could not be distinguished from the firing baseline.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4991839/PMC4991839/pcbi.1005000.g007.jpg
+  filename: PMC4991839/PMC4991839/pcbi.1005000.g007.jpg
   id: pcbi.1005000/pcbi.1005000.g007
   label: Fig 7

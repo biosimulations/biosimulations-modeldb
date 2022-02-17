@@ -27,7 +27,7 @@ thumbnails:
     xmlns:mml="http://www.w3.org/1998/Math/MathML"><bold>DOI:</bold>
 
     <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.02370.003">http://dx.doi.org/10.7554/eLife.02370.003</ext-link></p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3970756/PMC3970756/elife02370f001.jpg
+  filename: PMC3970756/PMC3970756/elife02370f001.jpg
   id: elife02370/fig1
   label: Figure 1
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Spike
@@ -68,7 +68,7 @@ thumbnails:
     both required for bursting.</p><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML"><bold>DOI:</bold>
 
     <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.02370.004">http://dx.doi.org/10.7554/eLife.02370.004</ext-link></p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3970756/PMC3970756/elife02370fs001.jpg
+  filename: PMC3970756/PMC3970756/elife02370fs001.jpg
   id: elife02370/fig1s1
   label: "Figure 1\u2014figure supplement 1"
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Reproduction
@@ -94,7 +94,7 @@ thumbnails:
     current via dynamic clamp.</p><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML"><bold>DOI:</bold>
 
     <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.02370.005">http://dx.doi.org/10.7554/eLife.02370.005</ext-link></p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3970756/PMC3970756/elife02370f002.jpg
+  filename: PMC3970756/PMC3970756/elife02370f002.jpg
   id: elife02370/fig2
   label: Figure 2
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Additivity
@@ -116,7 +116,7 @@ thumbnails:
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML"><bold>DOI:</bold>
 
     <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.02370.006">http://dx.doi.org/10.7554/eLife.02370.006</ext-link></p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3970756/PMC3970756/elife02370f003.jpg
+  filename: PMC3970756/PMC3970756/elife02370f003.jpg
   id: elife02370/fig3
   label: Figure 3
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Reversal
@@ -136,7 +136,7 @@ thumbnails:
     xmlns:mml="http://www.w3.org/1998/Math/MathML"><bold>DOI:</bold>
 
     <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.02370.007">http://dx.doi.org/10.7554/eLife.02370.007</ext-link></p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3970756/PMC3970756/elife02370f004.jpg
+  filename: PMC3970756/PMC3970756/elife02370f004.jpg
   id: elife02370/fig4
   label: Figure 4
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Reproduction
@@ -163,6 +163,6 @@ thumbnails:
     xmlns:mml="http://www.w3.org/1998/Math/MathML"><bold>DOI:</bold>
 
     <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.02370.008">http://dx.doi.org/10.7554/eLife.02370.008</ext-link></p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3970756/PMC3970756/elife02370f005.jpg
+  filename: PMC3970756/PMC3970756/elife02370f005.jpg
   id: elife02370/fig5
   label: Figure 5

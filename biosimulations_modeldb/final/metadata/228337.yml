@@ -28,7 +28,7 @@ thumbnails:
     reduction peak potentials (approximately +0.6 V and approximately
 
     &#8722;0.2 V, respectively) that identify dopamine.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4198061/PMC4198061/cn-2014-00126t_0002.jpg
+  filename: PMC4198061/PMC4198061/cn-2014-00126t_0002.jpg
   id: cn500126t/fig1
   label: Figure 1
 - caption: '<p xmlns:mml="http://www.w3.org/1998/Math/MathML">Synaptic
@@ -53,7 +53,7 @@ thumbnails:
     glutamatergic afferent. For clarity, the &#945;4&#946;2* NNRs on
 
     the DA and GABA neurons or their afferents are not shown.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4198061/PMC4198061/cn-2014-00126t_0003.jpg
+  filename: PMC4198061/PMC4198061/cn-2014-00126t_0003.jpg
   id: cn500126t/fig2
   label: Figure 2
 - caption: '<p xmlns:mml="http://www.w3.org/1998/Math/MathML">Synaptic organization
@@ -73,7 +73,7 @@ thumbnails:
     Information</xref>, and TC-7020 reached a peak concentration of 3
 
     nM.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4198061/PMC4198061/cn-2014-00126t_0004.jpg
+  filename: PMC4198061/PMC4198061/cn-2014-00126t_0004.jpg
   id: cn500126t/fig3
   label: Figure 3
 - caption: '<p xmlns:mml="http://www.w3.org/1998/Math/MathML">Responses to coadministration
@@ -92,7 +92,7 @@ thumbnails:
     &#956;M. The presence of PNU-120596 was modeled by multiplying the
 
     IC<sub>50</sub> of TC-7020 by a factor of 10.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4198061/PMC4198061/cn-2014-00126t_0005.jpg
+  filename: PMC4198061/PMC4198061/cn-2014-00126t_0005.jpg
   id: cn500126t/fig4
   label: Figure 4
 - caption: '<p xmlns:mml="http://www.w3.org/1998/Math/MathML">Effect of TC-7020 on
@@ -118,7 +118,7 @@ thumbnails:
     plotted on the horizontal axis; ACh tone is color-coded. (C) Same
 
     data as in panel B, but for a full agonist.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4198061/PMC4198061/cn-2014-00126t_0006.jpg
+  filename: PMC4198061/PMC4198061/cn-2014-00126t_0006.jpg
   id: cn500126t/fig5
   label: Figure 5
 - caption: '<p xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulated accumbal dopamine
@@ -138,6 +138,6 @@ thumbnails:
     &#945;4&#946;2 NNRs (33 vs 3 &#956;M). The red trace plots the
 
     response after pretreatment with PNU-120596.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4198061/PMC4198061/cn-2014-00126t_0007.jpg
+  filename: PMC4198061/PMC4198061/cn-2014-00126t_0007.jpg
   id: cn500126t/fig6
   label: Figure 6

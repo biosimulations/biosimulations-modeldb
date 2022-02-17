@@ -10,7 +10,7 @@ thumbnails:
     and their outputs, while blue denotes inhibitory units and their outputs. Black
     arrows correspond to tonic drives to units in the network. The PiCo is only included
     in a subset of our simulations, as indicated in the text.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g001.jpg
+  filename: PMC6697358/PMC6697358/pcbi.1006860.g001.jpg
   id: pcbi.1006860/pcbi.1006860.g001
   label: Fig 1
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Pre-I
@@ -30,7 +30,7 @@ thumbnails:
     &#8722;0.011). Inset shows dependence of periods on <italic>c</italic><sub>11</sub>;
     period jumps sharply from 0 at the onset of oscillations, drops abruptly, and
     then decays more gradually as <italic>c</italic><sub>11</sub> increases.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g002.jpg
+  filename: PMC6697358/PMC6697358/pcbi.1006860.g002.jpg
   id: pcbi.1006860/pcbi.1006860.g002
   label: Fig 2
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Pre-I
@@ -42,7 +42,7 @@ thumbnails:
     illustrate the same quantities for the pre-I unit when it is embedded in the full
     model respiratory network, over the range of <italic>c</italic><sub>11</sub> values
     for which the network oscillates.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g003.jpg
+  filename: PMC6697358/PMC6697358/pcbi.1006860.g003.jpg
   id: pcbi.1006860/pcbi.1006860.g003
   label: Fig 3
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Basic
@@ -55,7 +55,7 @@ thumbnails:
     = 0.045), when (C) pre-I is intrinsically oscillatory (<italic>c</italic><sub>11</sub>
     = &#8722;0.03) or (D) pre-I is intrinsically tonic (<italic>c</italic><sub>11</sub>
     = 0.01). Black: pre-I. Red: early-I. Cyan: PiCo. Blue: post-I. Magenta: aug-E.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g004.jpg
+  filename: PMC6697358/PMC6697358/pcbi.1006860.g004.jpg
   id: pcbi.1006860/pcbi.1006860.g004
   label: Fig 4
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Parameter-dependence
@@ -74,7 +74,7 @@ thumbnails:
     through a threshold of -35 mV. (D) Grey-coded expiratory phase duration (seconds),
     measured as the period minus the inspiratory phase duration. The blue boxed regions
     are explained in the text.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g005.jpg
+  filename: PMC6697358/PMC6697358/pcbi.1006860.g005.jpg
   id: pcbi.1006860/pcbi.1006860.g005
   label: Fig 5
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Network
@@ -118,7 +118,7 @@ thumbnails:
     to aug-E when <italic>V</italic><sub><italic>pre</italic>&#8722;<italic>I</italic></sub>
     is at its peak (0.283); and to inhibition to aug-E when <italic>V</italic><sub><italic>post</italic>&#8722;<italic>I</italic></sub>
     is at its peak (0.35, marked by black square at same time point as in other plots).</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g006.jpg
+  filename: PMC6697358/PMC6697358/pcbi.1006860.g006.jpg
   id: pcbi.1006860/pcbi.1006860.g006
   label: Fig 6
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Network
@@ -132,7 +132,7 @@ thumbnails:
     becomes monotone. (B) Analogous curves to <xref ref-type="fig" rid="pcbi.1006860.g006">Fig
     6B</xref>. The termination of the curve of left knees is also evident here (around
     inhibition of 0.7 &#215;10<sup>&#8722;2</sup>).</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g007.jpg
+  filename: PMC6697358/PMC6697358/pcbi.1006860.g007.jpg
   id: pcbi.1006860/pcbi.1006860.g007
   label: Fig 7
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Input
@@ -149,7 +149,7 @@ thumbnails:
     = &#8722;0.03, and tonic (C), with <italic>c</italic><sub>11</sub> = 0.01. Increasing
     <italic>b</italic><sub>31</sub> prolongs the time until pre-I activity can rise,
     leading to longer expiratory phase durations and periods.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g008.jpg
+  filename: PMC6697358/PMC6697358/pcbi.1006860.g008.jpg
   id: pcbi.1006860/pcbi.1006860.g008
   label: Fig 8
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Inputs
@@ -166,7 +166,7 @@ thumbnails:
     parameters are fixed at <italic>c</italic><sub>12</sub> = 0.19, <italic>c</italic><sub>13</sub>
     = 0.58, <italic>c</italic><sub>14</sub> = 0.2 unless being varied. The same horizontal
     and vertical axis ranges are used in all panels.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g009.jpg
+  filename: PMC6697358/PMC6697358/pcbi.1006860.g009.jpg
   id: pcbi.1006860/pcbi.1006860.g009
   label: Fig 9
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Dependence
@@ -187,7 +187,7 @@ thumbnails:
     in inhibition to the preB&#246;tC units than by changes in inhibition to the B&#246;tC
     units; note also that the slopes of the period curves are opposite in the two
     cases.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g010.jpg
+  filename: PMC6697358/PMC6697358/pcbi.1006860.g010.jpg
   id: pcbi.1006860/pcbi.1006860.g010
   label: Fig 10
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Pre-I
@@ -199,7 +199,7 @@ thumbnails:
     yields a faster period due to shortening of <italic>T</italic><sub><italic>I</italic></sub>
     and, especially, <italic>T</italic><sub><italic>E</italic></sub>, with less deinactivation
     and total magnitude of <italic>I</italic><sub><italic>NaP</italic></sub>.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g011.jpg
+  filename: PMC6697358/PMC6697358/pcbi.1006860.g011.jpg
   id: pcbi.1006860/pcbi.1006860.g011
   label: Fig 11
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Effect
@@ -219,7 +219,7 @@ thumbnails:
     = 0.4 (magenta). FP and LK as in (C). In both (C) and (D), the projected trajectories
     reach the points marked with circles at the start of the aug-E phase. The arrow
     indicates the direction of flow.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g012.jpg
+  filename: PMC6697358/PMC6697358/pcbi.1006860.g012.jpg
   id: pcbi.1006860/pcbi.1006860.g012
   label: Fig 12
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Period
@@ -237,6 +237,6 @@ thumbnails:
     to those in <xref ref-type="fig" rid="pcbi.1006860.g009">Fig 9</xref> (middle
     row) except for extension to more negative relative values of <italic>c</italic><sub>13</sub>
     here, since rhythmicity persists down to these lower levels.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g013.jpg
+  filename: PMC6697358/PMC6697358/pcbi.1006860.g013.jpg
   id: pcbi.1006860/pcbi.1006860.g013
   label: Fig 13

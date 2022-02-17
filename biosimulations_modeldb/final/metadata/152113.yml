@@ -31,7 +31,7 @@ thumbnails:
     projections mediated by GABA<sub>A</sub> and GABA<sub>B</sub> receptors, respectively.
     Compared with the traditional model of corticothalamic system on absence seizures,
     the basal ganglia are also included in our biophysical model.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3952815/PMC3952815/pcbi.1003495.g001.jpg
+  filename: PMC3952815/PMC3952815/pcbi.1003495.g001.jpg
   id: pcbi.1003495/pcbi-1003495-g001
   label: Figure 1
 - caption: '<title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -67,7 +67,7 @@ thumbnails:
     in (C): I (white filled circle), II (red filled square), III (yellow filled triangle),
     and IV (purple filled star). For all simulations, we set <inline-formula><inline-graphic
     xlink:href="pcbi.1003495.e196.jpg"/></inline-formula>.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3952815/PMC3952815/pcbi.1003495.g002.jpg
+  filename: PMC3952815/PMC3952815/pcbi.1003495.g002.jpg
   id: pcbi.1003495/pcbi-1003495-g002
   label: Figure 2
 - caption: '<title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -103,7 +103,7 @@ thumbnails:
     as a function of <inline-formula><inline-graphic xlink:href="pcbi.1003495.e208.jpg"/></inline-formula>.
     For all simulations, the SNr-SRN pathway is artificially blocked (i.e., <inline-formula><inline-graphic
     xlink:href="pcbi.1003495.e209.jpg"/></inline-formula>).</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3952815/PMC3952815/pcbi.1003495.g003.jpg
+  filename: PMC3952815/PMC3952815/pcbi.1003495.g003.jpg
   id: pcbi.1003495/pcbi-1003495-g003
   label: Figure 3
 - caption: '<title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -140,7 +140,7 @@ thumbnails:
     xlink:href="pcbi.1003495.e286.jpg"/></inline-formula>. Note that the SNr-TRN pathway
     is artificially blocked (i.e., <inline-formula><inline-graphic xlink:href="pcbi.1003495.e287.jpg"/></inline-formula>)
     for all simulations.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3952815/PMC3952815/pcbi.1003495.g004.jpg
+  filename: PMC3952815/PMC3952815/pcbi.1003495.g004.jpg
   id: pcbi.1003495/pcbi-1003495-g004
   label: Figure 4
 - caption: '<title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -175,7 +175,7 @@ thumbnails:
     as a function of <inline-formula><inline-graphic xlink:href="pcbi.1003495.e311.jpg"/></inline-formula>.
     For all simulations, the coupling strength of the TRN-SRN pathway is set as <inline-formula><inline-graphic
     xlink:href="pcbi.1003495.e312.jpg"/></inline-formula>.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3952815/PMC3952815/pcbi.1003495.g005.jpg
+  filename: PMC3952815/PMC3952815/pcbi.1003495.g005.jpg
   id: pcbi.1003495/pcbi-1003495-g005
   label: Figure 5
 - caption: '<title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -210,7 +210,7 @@ thumbnails:
     xlink:href="pcbi.1003495.e336.jpg"/></inline-formula> in a relatively larger <inline-formula><inline-graphic
     xlink:href="pcbi.1003495.e337.jpg"/></inline-formula> interval is given in <xref
     ref-type="supplementary-material" rid="pcbi.1003495.s002">Fig. S2</xref>.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3952815/PMC3952815/pcbi.1003495.g006.jpg
+  filename: PMC3952815/PMC3952815/pcbi.1003495.g006.jpg
   id: pcbi.1003495/pcbi-1003495-g006
   label: Figure 6
 - caption: '<title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -244,7 +244,7 @@ thumbnails:
     xlink:href="pcbi.1003495.e369.jpg"/></inline-formula>, <inline-formula><inline-graphic
     xlink:href="pcbi.1003495.e370.jpg"/></inline-formula> and <inline-formula><inline-graphic
     xlink:href="pcbi.1003495.e371.jpg"/></inline-formula>.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3952815/PMC3952815/pcbi.1003495.g007.jpg
+  filename: PMC3952815/PMC3952815/pcbi.1003495.g007.jpg
   id: pcbi.1003495/pcbi-1003495-g007
   label: Figure 7
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Framework
@@ -270,7 +270,7 @@ thumbnails:
     arrow heads, respectively. Compared with the BGCT networks developed in previous
     studies, a new efferent pathway representing direct connection from the GPe to
     the cerebral cortex is incorporated in our current BGCT model.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4619822/PMC4619822/pcbi.1004539.g001.jpg
+  filename: PMC4619822/PMC4619822/pcbi.1004539.g001.jpg
   id: pcbi.1004539/pcbi.1004539.g001
   label: Fig 1
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Absence
@@ -294,7 +294,7 @@ thumbnails:
     <italic>v</italic>
 
     <sub><italic>cp</italic><sub>2</sub></sub> = &#8722;0.05 mV s for all simulations.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4619822/PMC4619822/pcbi.1004539.g002.jpg
+  filename: PMC4619822/PMC4619822/pcbi.1004539.g002.jpg
   id: pcbi.1004539/pcbi.1004539.g002
   label: Fig 2
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Control
@@ -327,7 +327,7 @@ thumbnails:
     excitatory pyramidal neurons (&#8220;*&#8221;), SRN (&#8220;&#8728;&#8221;) and
     TRN (&#8220;&#9723;&#8221;). Note that the gray regions in (A)&#8211;(C) denote
     the SWD oscillations falling into the typical 2&#8211;4 Hz.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4619822/PMC4619822/pcbi.1004539.g003.jpg
+  filename: PMC4619822/PMC4619822/pcbi.1004539.g003.jpg
   id: pcbi.1004539/pcbi.1004539.g003
   label: Fig 3
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Effects
@@ -377,7 +377,7 @@ thumbnails:
 
     <sub><italic>cp</italic><sub>2</sub></sub>. Obviously, blockade of the inhibitory
     striatal D2-GPe pathway does not impact the model dynamics significantly.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4619822/PMC4619822/pcbi.1004539.g004.jpg
+  filename: PMC4619822/PMC4619822/pcbi.1004539.g004.jpg
   id: pcbi.1004539/pcbi.1004539.g004
   label: Fig 4
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Effects
@@ -413,7 +413,7 @@ thumbnails:
     to the results in <xref ref-type="fig" rid="pcbi.1004539.g004">Fig 4</xref>, these
     two indirect GPe-related pathways have relatively weak effects on controlling
     absence seizures.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4619822/PMC4619822/pcbi.1004539.g005.jpg
+  filename: PMC4619822/PMC4619822/pcbi.1004539.g005.jpg
   id: pcbi.1004539/pcbi.1004539.g005
   label: Fig 5
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Bidirectional
@@ -443,7 +443,7 @@ thumbnails:
     set <italic>&#964;</italic> = 45 ms and <italic>v</italic>
 
     <sub><italic>cp</italic><sub>2</sub></sub> = &#8722;0.06 mV s.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4619822/PMC4619822/pcbi.1004539.g006.jpg
+  filename: PMC4619822/PMC4619822/pcbi.1004539.g006.jpg
   id: pcbi.1004539/pcbi.1004539.g006
   label: Fig 6
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Shaping
@@ -482,6 +482,6 @@ thumbnails:
     <sub><italic>cp</italic><sub>2</sub></sub> = &#8722;0.07 mV s (A<sub>4</sub>,
     B<sub>4</sub>), respectively. In all simulations, we set <italic>&#964;</italic>
     = 45 ms.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4619822/PMC4619822/pcbi.1004539.g007.jpg
+  filename: PMC4619822/PMC4619822/pcbi.1004539.g007.jpg
   id: pcbi.1004539/pcbi.1004539.g007
   label: Fig 7

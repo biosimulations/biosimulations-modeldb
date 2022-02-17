@@ -27,7 +27,7 @@ thumbnails:
     (C) Simulated time course of Ca<sup>2+</sup> and dopamine input for a single 1
     sec train of synaptic input at 100 Hz with the magnitude of 10 &#181;M and 1 &#181;M
     respectively.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2829045/PMC2829045/pcbi.1000691.g001.jpg
+  filename: PMC2829045/PMC2829045/pcbi.1000691.g001.jpg
   id: pcbi.1000691/pcbi-1000691-g001
   label: Figure 1
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Temporal
@@ -48,7 +48,7 @@ thumbnails:
     kinase activity (divided by two for graphical purposes) is constant for inter-train
     intervals greater than 3 sec, suggesting that the increase in PKA is compensating
     for a phosphoCaMKII deficit with larger for inter-train intervals.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2829045/PMC2829045/pcbi.1000691.g002.jpg
+  filename: PMC2829045/PMC2829045/pcbi.1000691.g002.jpg
   id: pcbi.1000691/pcbi-1000691-g002
   label: Figure 2
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Experiments
@@ -62,7 +62,7 @@ thumbnails:
     are shown with red circles, and vehicle controls with blue circles. (C) Summary
     of temporal sensitivity of PKA dependence of L-LTP. Data for 3 sec, 20 sec and
     300 sec are from <xref rid="pcbi.1000691-Woo1" ref-type="bibr">[3]</xref>.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2829045/PMC2829045/pcbi.1000691.g003.jpg
+  filename: PMC2829045/PMC2829045/pcbi.1000691.g003.jpg
   id: pcbi.1000691/pcbi-1000691-g003
   label: Figure 3
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulations
@@ -73,7 +73,7 @@ thumbnails:
     to PKA activity with massed stimulation and dopamine unblocked. The reduction
     in PKA activity for the massed stimulation case is not functionally significant
     because PKA is not needed for L-LTP produced by massed stimulation.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2829045/PMC2829045/pcbi.1000691.g004.jpg
+  filename: PMC2829045/PMC2829045/pcbi.1000691.g004.jpg
   id: pcbi.1000691/pcbi-1000691-g004
   label: Figure 4
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Mechanism
@@ -91,7 +91,7 @@ thumbnails:
     not for spaced stimulation (C2). Dashed horizontal line allows comparison of unbound
     calmodulin between first and second train. Dotted horizontal line allows comparison
     of unbound adenylyl cyclase 1 between first and second train.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2829045/PMC2829045/pcbi.1000691.g005.jpg
+  filename: PMC2829045/PMC2829045/pcbi.1000691.g005.jpg
   id: pcbi.1000691/pcbi-1000691-g005
   label: Figure 5
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
@@ -107,6 +107,6 @@ thumbnails:
     simulation shows the concentration of protein phosphatase 1 is reduced &#8764;50%
     more by the spaced stimulation protocol than the massed protocol (in the legend
     a negative value of area under the curve denotes a decrease in activity).</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2829045/PMC2829045/pcbi.1000691.g006.jpg
+  filename: PMC2829045/PMC2829045/pcbi.1000691.g006.jpg
   id: pcbi.1000691/pcbi-1000691-g006
   label: Figure 6

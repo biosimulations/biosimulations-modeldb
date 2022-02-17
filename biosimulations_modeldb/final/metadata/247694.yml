@@ -51,7 +51,7 @@ thumbnails:
     emulate co-localization between <italic>IP</italic><sub>3</sub><italic>R</italic>-dependent
     and <italic>IP</italic><sub>3</sub><italic>R</italic>-independent Ca<sup>2+</sup>
     influx sources.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6726244/PMC6726244/pcbi.1006795.g001.jpg
+  filename: PMC6726244/PMC6726244/pcbi.1006795.g001.jpg
   id: pcbi.1006795/pcbi.1006795.g001
   label: Fig 1
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Model
@@ -78,7 +78,7 @@ thumbnails:
     <italic>IP</italic><sub>3</sub><italic>R</italic>-independent Ca<sup>2+</sup>
     sources. For SSA and particle-based models, the figure shows the average &#177;
     standard deviation over 20 simulations.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6726244/PMC6726244/pcbi.1006795.g002.jpg
+  filename: PMC6726244/PMC6726244/pcbi.1006795.g002.jpg
   id: pcbi.1006795/pcbi.1006795.g002
   label: Fig 2
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
@@ -97,7 +97,7 @@ thumbnails:
     = 7). Red crosses show the locations of peaks from automatic detection. <italic>D</italic><sub>Ca</sub>
     = <italic>D</italic><sub>IP3</sub> = &#8734;, <italic>&#951;</italic> = 1, <italic>R</italic><sub><italic>&#947;</italic></sub>
     = 200.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6726244/PMC6726244/pcbi.1006795.g003.jpg
+  filename: PMC6726244/PMC6726244/pcbi.1006795.g003.jpg
   id: pcbi.1006795/pcbi.1006795.g003
   label: Fig 3
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Ca<sup>2+</sup>
@@ -129,7 +129,7 @@ thumbnails:
     (<italic>D</italic>), (<italic>E</italic>) and (<italic>F</italic>) is not regularly
     spaced. Other parameters: <italic>&#951;</italic> = 1 (no clustering), <italic>a</italic><sub>1</sub>
     = 1 a.u, <italic>&#956;</italic> = 50 a.u.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6726244/PMC6726244/pcbi.1006795.g004.jpg
+  filename: PMC6726244/PMC6726244/pcbi.1006795.g004.jpg
   id: pcbi.1006795/pcbi.1006795.g004
   label: Fig 4
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML"><italic>IP</italic><sub>3</sub><italic>R</italic>
@@ -149,7 +149,7 @@ thumbnails:
     presented as mean &#177; standard deviation over 20 simulations. Lines are guide
     for the eyes. Other parameters: <italic>D</italic><sub>Ca</sub> = 0.1 a.u, <italic>a</italic><sub>1</sub>
     = 1 a.u, <italic>&#956;</italic> = 50 a.u.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6726244/PMC6726244/pcbi.1006795.g005.jpg
+  filename: PMC6726244/PMC6726244/pcbi.1006795.g005.jpg
   id: pcbi.1006795/pcbi.1006795.g005
   label: Fig 5
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">3d
@@ -181,7 +181,7 @@ thumbnails:
     width at half maximum, FWHM) D3. Significance is assigned by * for <italic>p</italic>
     &#8804; 0.05, ** for <italic>p</italic> &#8804; 0.01, *** for <italic>p</italic>
     &#8804; 0.001.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6726244/PMC6726244/pcbi.1006795.g006.jpg
+  filename: PMC6726244/PMC6726244/pcbi.1006795.g006.jpg
   id: pcbi.1006795/pcbi.1006795.g006
   label: Fig 6
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
@@ -198,6 +198,6 @@ thumbnails:
     * for <italic>p</italic> &#8804; 0.05, ** for <italic>p</italic> &#8804; 0.01,
     *** for <italic>p</italic> &#8804; 0.001. Data are presented as mean &#177; standard
     deviation over 20 simulations. Lines are guide for the eyes.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC6726244/PMC6726244/pcbi.1006795.g007.jpg
+  filename: PMC6726244/PMC6726244/pcbi.1006795.g007.jpg
   id: pcbi.1006795/pcbi.1006795.g007
   label: Fig 7

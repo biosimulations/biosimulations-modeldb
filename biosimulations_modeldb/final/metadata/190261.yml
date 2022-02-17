@@ -18,7 +18,7 @@ thumbnails:
     changes and their relationship to primary afferent hyperexcitability and neuropathic
     pain. In this study, we sought to define the red circle. Parts A&#8211;C were
     modified from reference 4.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3359967/PMC3359967/pcbi.1002524.g001.jpg
+  filename: PMC3359967/PMC3359967/pcbi.1002524.g001.jpg
   id: pcbi.1002524/pcbi-1002524-g001
   label: Figure 1
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulation
@@ -60,7 +60,7 @@ thumbnails:
     require the trajectory to cross back over the QS, which is not possible. If the
     original fixed point remained above the shifted QS, the trajectory would follow
     a direct route and no spike would be produced (not illustrated).</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3359967/PMC3359967/pcbi.1002524.g002.jpg
+  filename: PMC3359967/PMC3359967/pcbi.1002524.g002.jpg
   id: pcbi.1002524/pcbi-1002524-g002
   label: Figure 2
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulation
@@ -88,7 +88,7 @@ thumbnails:
     and -independent MPOs with and without noise. Colors correspond to boxes in B.
     Broadly peaked power spectra (like those associated with MPOs under noisy conditions)
     more closely resemble experimental data (see <xref ref-type="sec" rid="s2">Results</xref>).</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3359967/PMC3359967/pcbi.1002524.g003.jpg
+  filename: PMC3359967/PMC3359967/pcbi.1002524.g003.jpg
   id: pcbi.1002524/pcbi-1002524-g003
   label: Figure 3
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Frequency
@@ -114,7 +114,7 @@ thumbnails:
     which eventually leads to the termination of repetitive spiking. Inset shows <italic>dV</italic>/<italic>dt</italic>
     vs. <italic>V</italic> for spike near the beginning and end of the spike train
     to highlight the change in spike shape and the shift in threshold.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3359967/PMC3359967/pcbi.1002524.g004.jpg
+  filename: PMC3359967/PMC3359967/pcbi.1002524.g004.jpg
   id: pcbi.1002524/pcbi-1002524-g004
   label: Figure 4
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulation
@@ -144,7 +144,7 @@ thumbnails:
     <sub>AHP</sub>, which is an inhibitory current, whereas <italic>I</italic>
 
     <sub>stim</sub> (the bifurcation parameter used elsewhere) is excitatory.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3359967/PMC3359967/pcbi.1002524.g005.jpg
+  filename: PMC3359967/PMC3359967/pcbi.1002524.g005.jpg
   id: pcbi.1002524/pcbi-1002524-g005
   label: Figure 5
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulating
@@ -172,7 +172,7 @@ thumbnails:
     but the same trend in MPO power and frequency was observed (data not shown). Dotted
     curve in C shows minimum sustainable firing rate. * indicates data points that
     include a noise-independent MPO component.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3359967/PMC3359967/pcbi.1002524.g006.jpg
+  filename: PMC3359967/PMC3359967/pcbi.1002524.g006.jpg
   id: pcbi.1002524/pcbi-1002524-g006
   label: Figure 6
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Relating
@@ -234,7 +234,7 @@ thumbnails:
     <sub>supra</sub>)&#8722;<italic>V</italic> curve in the perithreshold voltage
     range, and thus the spike initiation dynamics were unchanged (see <bold><xref
     ref-type="supplementary-material" rid="pcbi.1002524.s004">Fig. S4</xref></bold>).</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3359967/PMC3359967/pcbi.1002524.g007.jpg
+  filename: PMC3359967/PMC3359967/pcbi.1002524.g007.jpg
   id: pcbi.1002524/pcbi-1002524-g007
   label: Figure 7
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Dynamically
@@ -261,7 +261,7 @@ thumbnails:
     </xref>
 
     <bold> top</bold>.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3359967/PMC3359967/pcbi.1002524.g008.jpg
+  filename: PMC3359967/PMC3359967/pcbi.1002524.g008.jpg
   id: pcbi.1002524/pcbi-1002524-g008
   label: Figure 8
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Effects
@@ -287,7 +287,7 @@ thumbnails:
     excitability (arrow <italic>b</italic>). Systematic testing of all parameter combinations
     is beyond the scope of the current study, but this example highlights the importance
     of parameter co-variation.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3359967/PMC3359967/pcbi.1002524.g009.jpg
+  filename: PMC3359967/PMC3359967/pcbi.1002524.g009.jpg
   id: pcbi.1002524/pcbi-1002524-g009
   label: Figure 9
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Summary
@@ -308,6 +308,6 @@ thumbnails:
     the degenerate manner by which spike initiation can be altered, as shown in this
     study. Degeneracy implies that the red circle is large and thus likely to significantly
     overlap the gray circle.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3359967/PMC3359967/pcbi.1002524.g010.jpg
+  filename: PMC3359967/PMC3359967/pcbi.1002524.g010.jpg
   id: pcbi.1002524/pcbi-1002524-g010
   label: Figure 10

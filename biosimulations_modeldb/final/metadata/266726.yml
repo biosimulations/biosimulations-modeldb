@@ -44,7 +44,7 @@ thumbnails:
     2) &lt; 0.05, <italic>P</italic>(interaction) &lt; 0.05, followed by Duncan&#8217;s
     post hoc test, <italic>P</italic> &lt; 0.05. * Significantly different from controls
     measured at the same level of membrane potential (<italic>P</italic> &lt; 0.05).</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC7411736/PMC7411736/molecules-25-03062-g001.jpg
+  filename: PMC7411736/PMC7411736/molecules-25-03062-g001.jpg
   id: molecules-25-03062/molecules-25-03062-f001
   label: Figure 1
 - caption: '<p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Comparison
@@ -64,7 +64,7 @@ thumbnails:
     Tef: tefluthrin; Tel: telmisartan. * Significantly different from control (<italic>P</italic>
     &lt; 0.05) and <sup>&#8224;</sup> significantly different from the SSM (3 &#956;M)
     alone group (<italic>P</italic> &lt; 0.05).</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC7411736/PMC7411736/molecules-25-03062-g002.jpg
+  filename: PMC7411736/PMC7411736/molecules-25-03062-g002.jpg
   id: molecules-25-03062/molecules-25-03062-f002
   label: Figure 2
 - caption: <p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Concentration-dependent
@@ -81,7 +81,7 @@ thumbnails:
     by the vertical dashed line) needed for the inhibition of the peak (&#9675;) or
     sustained (&#9632;) <italic>I</italic><sub>Na</sub> in the presence of SesA were
     9.8 and 2.5 &#956;M, respectively.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC7411736/PMC7411736/molecules-25-03062-g003.jpg
+  filename: PMC7411736/PMC7411736/molecules-25-03062-g003.jpg
   id: molecules-25-03062/molecules-25-03062-f003
   label: Figure 3
 - caption: '<p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Inhibitory
@@ -99,7 +99,7 @@ thumbnails:
     2) &lt; 0.05, <italic>P</italic>(interaction) &lt; 0.05, followed by Duncan&#8217;s
     post hoc test, <italic>P</italic> &lt; 0.05. * Significantly different from controls
     measured at the same level of membrane potential (<italic>P</italic> &lt; 0.05).</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC7411736/PMC7411736/molecules-25-03062-g004.jpg
+  filename: PMC7411736/PMC7411736/molecules-25-03062-g004.jpg
   id: molecules-25-03062/molecules-25-03062-f004
   label: Figure 4
 - caption: '<p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Inhibitory
@@ -116,7 +116,7 @@ thumbnails:
     amplitudes in different concentrations of SSM were obtained at the end of the
     depolarizing pulse delivered. The continuous line shows the best fit to the modified
     Hill equation, while the vertical dashed line indicates the IC<sub>50</sub> value.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC7411736/PMC7411736/molecules-25-03062-g005.jpg
+  filename: PMC7411736/PMC7411736/molecules-25-03062-g005.jpg
   id: molecules-25-03062/molecules-25-03062-f005
   label: Figure 5
 - caption: <p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Inhibitory
@@ -136,7 +136,7 @@ thumbnails:
     &lt; 0.05, followed by Duncan&#8217;s post hoc test, <italic>P</italic> &lt; 0.05.
     * Significantly different from controls measured at the same level of membrane
     potential (<italic>P</italic> &lt; 0.05).</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC7411736/PMC7411736/molecules-25-03062-g006.jpg
+  filename: PMC7411736/PMC7411736/molecules-25-03062-g006.jpg
   id: molecules-25-03062/molecules-25-03062-f006
   label: Figure 6
 - caption: <p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Inhibitory
@@ -152,7 +152,7 @@ thumbnails:
     were measured at the end of each depolarizing pulse. * Significantly different
     from controls measured at the same level of membrane potential (<italic>P</italic>
     &lt; 0.05).</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC7411736/PMC7411736/molecules-25-03062-g007.jpg
+  filename: PMC7411736/PMC7411736/molecules-25-03062-g007.jpg
   id: molecules-25-03062/molecules-25-03062-f007
   label: Figure 7
 - caption: <p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Failure
@@ -171,7 +171,7 @@ thumbnails:
     alone (<italic>P</italic> &lt; 0.05) and <sup>&#8224;</sup> significantly different
     from the SSM (10 &#956;M) plus cilobradine (3 &#956;M) group (<italic>P</italic>
     &lt; 0.05).</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC7411736/PMC7411736/molecules-25-03062-g008.jpg
+  filename: PMC7411736/PMC7411736/molecules-25-03062-g008.jpg
   id: molecules-25-03062/molecules-25-03062-f008
   label: Figure 8
 - caption: '<p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Numerical
@@ -211,11 +211,11 @@ thumbnails:
     and in the presence of 0.3 and 1 &#956;M SSM. Of note, in the presence of SSM,
     the probability of the blocked (OB) state of the channel was suppressed to a greater
     extent than that in the open (O) state.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC7411736/PMC7411736/molecules-25-03062-g009.jpg
+  filename: PMC7411736/PMC7411736/molecules-25-03062-g009.jpg
   id: molecules-25-03062/molecules-25-03062-f009
   label: Figure 9
 - caption: <p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simple
     scheme for simulation of the <italic>SCN8A</italic>-encoded channel</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC7411736/PMC7411736/molecules-25-03062-sch001.jpg
+  filename: PMC7411736/PMC7411736/molecules-25-03062-sch001.jpg
   id: molecules-25-03062/molecules-25-03062-sch001
   label: Scheme 1

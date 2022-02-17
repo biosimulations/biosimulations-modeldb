@@ -61,7 +61,7 @@ thumbnails:
     activation of calcineurin activates PP1 by dephosphorylating inhibitor 1, which
     in turn leads to increased CaMKII dephosphorylation. This pathway, shown in red
     dotted lines, decreases CaMKII activity.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2098851/PMC2098851/pcbi.0030221.g001.jpg
+  filename: PMC2098851/PMC2098851/pcbi.0030221.g001.jpg
   id: pcbi.0030221/pcbi-0030221-g001
   label: Figure 1
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">CaMKII
@@ -108,7 +108,7 @@ thumbnails:
 
     <sub>12</sub>&#183;<italic>D</italic>) = 6.648 &#956;M/s). See <xref ref-type="table"
     rid="pcbi-0030221-t001">Table 1</xref> for other parameters.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2098851/PMC2098851/pcbi.0030221.g002.jpg
+  filename: PMC2098851/PMC2098851/pcbi.0030221.g002.jpg
   id: pcbi.0030221/pcbi-0030221-g002
   label: Figure 2
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Ca<sup>2+</sup>-Dependent
@@ -169,7 +169,7 @@ thumbnails:
     1</xref> and text for parameters, <italic>k</italic>
 
     <sub>CaN</sub> = 18 1/s).</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2098851/PMC2098851/pcbi.0030221.g003.jpg
+  filename: PMC2098851/PMC2098851/pcbi.0030221.g003.jpg
   id: pcbi.0030221/pcbi-0030221-g003
   label: Figure 3
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Calcium
@@ -192,7 +192,7 @@ thumbnails:
 
     <sub>pre</sub> = 0.34 &#956;M) responses are indicated in the panel. See <xref
     ref-type="table" rid="pcbi-0030221-t002">Table 2</xref> for parameters.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2098851/PMC2098851/pcbi.0030221.g004.jpg
+  filename: PMC2098851/PMC2098851/pcbi.0030221.g004.jpg
   id: pcbi.0030221/pcbi-0030221-g004
   label: Figure 4
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Time
@@ -229,7 +229,7 @@ thumbnails:
 
     <sub>0</sub> = 0.1 &#956;M (compare <xref ref-type="fig" rid="pcbi-0030221-g003">Figure
     3</xref>B).</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2098851/PMC2098851/pcbi.0030221.g005.jpg
+  filename: PMC2098851/PMC2098851/pcbi.0030221.g005.jpg
   id: pcbi.0030221/pcbi-0030221-g005
   label: Figure 5
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Dynamics
@@ -282,7 +282,7 @@ thumbnails:
     <sub>CaN</sub> = 18 1/s, &#916;<italic>Ca</italic>
 
     <sub>pre</sub> = 0.17 &#956;M).</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2098851/PMC2098851/pcbi.0030221.g006.jpg
+  filename: PMC2098851/PMC2098851/pcbi.0030221.g006.jpg
   id: pcbi.0030221/pcbi-0030221-g006
   label: Figure 6
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Synaptic
@@ -325,7 +325,7 @@ thumbnails:
 
     <sub>CaN</sub> = 20 1/s. In all panels, the stochastic stimulation results are
     averaged over <italic>N</italic> = 300 synapses.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2098851/PMC2098851/pcbi.0030221.g007.jpg
+  filename: PMC2098851/PMC2098851/pcbi.0030221.g007.jpg
   id: pcbi.0030221/pcbi-0030221-g007
   label: Figure 7
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Phosphorylated
@@ -360,7 +360,7 @@ thumbnails:
     <sub>0</sub> = 0.2 &#956;M as given in <xref ref-type="table" rid="pcbi-0030221-t001">Table
     1</xref>, i.e<italic>.</italic>, the 100% case (<italic>N</italic> = 300, see
     <xref ref-type="table" rid="pcbi-0030221-t001">Table 1</xref> for other parameters).</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2098851/PMC2098851/pcbi.0030221.g008.jpg
+  filename: PMC2098851/PMC2098851/pcbi.0030221.g008.jpg
   id: pcbi.0030221/pcbi-0030221-g008
   label: Figure 8
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">PP1
@@ -406,7 +406,7 @@ thumbnails:
     1</xref> for parameters, <italic>k</italic>
 
     <sub>CaN</sub> = 18 1/s).</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2098851/PMC2098851/pcbi.0030221.g009.jpg
+  filename: PMC2098851/PMC2098851/pcbi.0030221.g009.jpg
   id: pcbi.0030221/pcbi-0030221-g009
   label: Figure 9
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Impact
@@ -451,6 +451,6 @@ thumbnails:
     <sub>CaN</sub> = 18 1/s, &#916;<italic>Ca</italic>
 
     <sub>pre</sub> = 0.17 &#956;M).</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2098851/PMC2098851/pcbi.0030221.g010.jpg
+  filename: PMC2098851/PMC2098851/pcbi.0030221.g010.jpg
   id: pcbi.0030221/pcbi-0030221-g010
   label: Figure 10

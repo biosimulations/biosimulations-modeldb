@@ -14,7 +14,7 @@ thumbnails:
     of the dopamine D<sub>1</sub> receptor activates the PKA cascade via AC5 and cAMP
     formation. PKA in its turn increases phosphorylation of DARPP-32 on Thr34, which
     then inhibits PP1.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1562452/PMC1562452/pcbi.0020119.g001.jpg
+  filename: PMC1562452/PMC1562452/pcbi.0020119.g001.jpg
   id: pcbi.0020119/pcbi-0020119-g001
   label: Figure 1
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Model
@@ -31,7 +31,7 @@ thumbnails:
     contrast to the result in A1 and A2, this response requires calcium-dependent
     activation of PP2A; if left out of the model (purple dotted line), calcium causes
     an increase in Thr75 phosphorylation.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1562452/PMC1562452/pcbi.0020119.g002.jpg
+  filename: PMC1562452/PMC1562452/pcbi.0020119.g002.jpg
   id: pcbi.0020119/pcbi-0020119-g002
   label: Figure 2
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulations
@@ -48,7 +48,7 @@ thumbnails:
     it is phosphorylated on Thr34.</p><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">(C) Time course of dopamine and
     calcium elevation.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1562452/PMC1562452/pcbi.0020119.g003.jpg
+  filename: PMC1562452/PMC1562452/pcbi.0020119.g003.jpg
   id: pcbi.0020119/pcbi-0020119-g003
   label: Figure 3
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Responses
@@ -71,7 +71,7 @@ thumbnails:
     increase in phosphoThr34 (B4, solid line). A slower calcium input has minor effects
     on PKAc (B3, dashed line), but causes an initial decrease in phosphoThr34 (B4,
     dashed line), mostly due to a prolonged activation of PP2B.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1562452/PMC1562452/pcbi.0020119.g004.jpg
+  filename: PMC1562452/PMC1562452/pcbi.0020119.g004.jpg
   id: pcbi.0020119/pcbi-0020119-g004
   label: Figure 4
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Effect
@@ -97,7 +97,7 @@ thumbnails:
     PKA (both free and bound to phosphoThr75) is larger with dopamine inputs alone.
     This is partly due to the calcium-dependent decrease in the cAMP formation, but
     also the PKAc interaction with phosphoThr75 is important.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1562452/PMC1562452/pcbi.0020119.g005.jpg
+  filename: PMC1562452/PMC1562452/pcbi.0020119.g005.jpg
   id: pcbi.0020119/pcbi-0020119-g005
   label: Figure 5
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Role
@@ -126,7 +126,7 @@ thumbnails:
     phosphoThr34 (D2) than paired calcium and dopamine (red lines). Also, calcium
     alone (blue lines) produces no significant response in PKAc and even causes a
     decrease in phosphoThr34.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1562452/PMC1562452/pcbi.0020119.g006.jpg
+  filename: PMC1562452/PMC1562452/pcbi.0020119.g006.jpg
   id: pcbi.0020119/pcbi-0020119-g006
   label: Figure 6
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Consequences
@@ -147,7 +147,7 @@ thumbnails:
     Furthermore, the calcium-activated form of PP2A (PP2Ac) is significantly less
     activated following a small but slower calcium input (dashed line) than if a high-amplitude
     calcium input is given (solid line).</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1562452/PMC1562452/pcbi.0020119.g007.jpg
+  filename: PMC1562452/PMC1562452/pcbi.0020119.g007.jpg
   id: pcbi.0020119/pcbi-0020119-g007
   label: Figure 7
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Effects
@@ -166,7 +166,7 @@ thumbnails:
     rate, the enhancing role of calcium decreases because the activation of PP2A is
     too brief to dephosphorylate significant amounts of phosphoThr75 following brief
     calcium inputs.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1562452/PMC1562452/pcbi.0020119.g008.jpg
+  filename: PMC1562452/PMC1562452/pcbi.0020119.g008.jpg
   id: pcbi.0020119/pcbi-0020119-g008
   label: Figure 8
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Role
@@ -192,7 +192,7 @@ thumbnails:
     dopamine pulses.</p><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(B2)
     Thr34 phosphorylation increases with successive paired stimuli, and is higher
     for paired calcium and dopamine inputs.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1562452/PMC1562452/pcbi.0020119.g009.jpg
+  filename: PMC1562452/PMC1562452/pcbi.0020119.g009.jpg
   id: pcbi.0020119/pcbi-0020119-g009
   label: Figure 9
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Schematic
@@ -204,6 +204,6 @@ thumbnails:
     affects this loop in two ways: 1) by increasing dephosphorylation of phosphoThr75,
     thus reducing inhibition of PKA; and 2) less PP2A is available for PKA binding,
     thus shifting this equilibrium to increase the amount of active PKA (B).</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC1562452/PMC1562452/pcbi.0020119.g010.jpg
+  filename: PMC1562452/PMC1562452/pcbi.0020119.g010.jpg
   id: pcbi.0020119/pcbi-0020119-g010
   label: Figure 10

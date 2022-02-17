@@ -22,7 +22,7 @@ thumbnails:
     \ fast (<italic>double arrow</italic>) segments. Increasing <italic>z</italic>\
     \ narrows the gap between the left branches of the <italic>x</italic> and <italic>y</italic>\
     \ nullclines, increasing the period by prolonging the interspike interval</p>"
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5483227/PMC5483227/13408_2017_47_Fig1_HTML.jpg
+  filename: PMC5483227/PMC5483227/13408_2017_47_Fig1_HTML.jpg
   id: 13408_2017_Article_47/Fig1
   label: "Fig.\_1"
 - caption: "<p xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\
@@ -44,7 +44,7 @@ thumbnails:
     false\">&#9001;</mml:mo><mml:mi>x</mml:mi><mml:mo stretchy=\"false\">&#9002;</mml:mo></mml:math><inline-graphic\
     \ xlink:href=\"13408_2017_47_Article_IEq8.gif\"/></alternatives></inline-formula>\n\
     </p>"
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5483227/PMC5483227/13408_2017_47_Fig2_HTML.jpg
+  filename: PMC5483227/PMC5483227/13408_2017_47_Fig2_HTML.jpg
   id: 13408_2017_Article_47/Fig2
   label: "Fig.\_2"
 - caption: "<p xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\
@@ -78,7 +78,7 @@ thumbnails:
     \ with adaptation turned off. (<bold>B</bold>) <italic>x</italic>; (<bold>C</bold>)\
     \ <italic>z</italic>; (<bold>D</bold>) frequency obtained as reciprocal of interspike\
     \ interval</p>"
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5483227/PMC5483227/13408_2017_47_Fig3_HTML.jpg
+  filename: PMC5483227/PMC5483227/13408_2017_47_Fig3_HTML.jpg
   id: 13408_2017_Article_47/Fig3
   label: "Fig.\_3"
 - caption: "<p xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\
@@ -116,7 +116,7 @@ thumbnails:
     \t\t\t\\begin{document}$s=22$\\end{document}</tex-math><mml:math id=\"M50\"><mml:mi>s</mml:mi><mml:mo>=</mml:mo><mml:mn>22</mml:mn></mml:math><inline-graphic\
     \ xlink:href=\"13408_2017_47_Article_IEq24.gif\"/></alternatives></inline-formula>\
     \ for all <italic>I</italic>\n</p>"
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5483227/PMC5483227/13408_2017_47_Fig4_HTML.jpg
+  filename: PMC5483227/PMC5483227/13408_2017_47_Fig4_HTML.jpg
   id: 13408_2017_Article_47/Fig4
   label: "Fig.\_4"
 - caption: "<p xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\
@@ -174,7 +174,7 @@ thumbnails:
     \ the corresponding value of <italic>s</italic>. (<bold>D</bold>) L<sub>2</sub>\
     \ error for <italic>I</italic> over intervals of length 6 (<italic>lower</italic>)\
     \ and 10 (<italic>upper</italic>) as a function of <italic>s</italic>\n</p>"
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5483227/PMC5483227/13408_2017_47_Fig5_HTML.jpg
+  filename: PMC5483227/PMC5483227/13408_2017_47_Fig5_HTML.jpg
   id: 13408_2017_Article_47/Fig5
   label: "Fig.\_5"
 - caption: "<p xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\
@@ -269,7 +269,7 @@ thumbnails:
     \ stretchy=\"false\">(</mml:mo><mml:mi>I</mml:mi><mml:mo stretchy=\"false\">)</mml:mo></mml:math><inline-graphic\
     \ xlink:href=\"13408_2017_47_Article_IEq50.gif\"/></alternatives></inline-formula>\n\
     </p>"
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5483227/PMC5483227/13408_2017_47_Fig6_HTML.jpg
+  filename: PMC5483227/PMC5483227/13408_2017_47_Fig6_HTML.jpg
   id: 13408_2017_Article_47/Fig6
   label: "Fig.\_6"
 - caption: "<p xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\
@@ -307,7 +307,7 @@ thumbnails:
     \t\t\t\\begin{document}$s = 22$\\end{document}</tex-math><mml:math id=\"M318\"\
     ><mml:mi>s</mml:mi><mml:mo>=</mml:mo><mml:mn>22</mml:mn></mml:math><inline-graphic\
     \ xlink:href=\"13408_2017_47_Article_IEq140.gif\"/></alternatives></inline-formula>)</p>"
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5483227/PMC5483227/13408_2017_47_Fig7_HTML.jpg
+  filename: PMC5483227/PMC5483227/13408_2017_47_Fig7_HTML.jpg
   id: 13408_2017_Article_47/Fig7
   label: "Fig.\_7"
 - caption: <p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">Modified
@@ -315,7 +315,7 @@ thumbnails:
     to <italic>z</italic>. The change was accomplished by shifting the <italic>x</italic>-nullcline
     to the right by 0.13 (see <italic>&#952;</italic> in Table&#160;<xref rid="Tab1"
     ref-type="table">1</xref>)</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5483227/PMC5483227/13408_2017_47_Fig8_HTML.jpg
+  filename: PMC5483227/PMC5483227/13408_2017_47_Fig8_HTML.jpg
   id: 13408_2017_Article_47/Fig8
   label: "Fig.\_8"
 - caption: "<p xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\
@@ -346,7 +346,7 @@ thumbnails:
     \ and 5.8, increasing from the left. <italic>z</italic>-nullclines (<italic>dotted</italic>)\
     \ correspond to =20 (<italic>steeper</italic>) and 60. Other parameters as in\
     \ Fig.&#160;<xref rid=\"Fig8\" ref-type=\"fig\">8</xref>\n</p>"
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5483227/PMC5483227/13408_2017_47_Fig9_HTML.jpg
+  filename: PMC5483227/PMC5483227/13408_2017_47_Fig9_HTML.jpg
   id: 13408_2017_Article_47/Fig9
   label: "Fig.\_9"
 - caption: <p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">Firing
@@ -356,7 +356,7 @@ thumbnails:
     shows that a SNIC in the unadapted system is not necessary for adaptation and
     linearization, but larger <italic>s</italic> values are required (compare to Fig.&#160;<xref
     rid="Fig5" ref-type="fig">5</xref>B)</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5483227/PMC5483227/13408_2017_47_Fig10_HTML.jpg
+  filename: PMC5483227/PMC5483227/13408_2017_47_Fig10_HTML.jpg
   id: 13408_2017_Article_47/Fig10
   label: "Fig.\_10"
 - caption: "<p xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\
@@ -408,7 +408,7 @@ thumbnails:
     \ stretchy=\"false\">)</mml:mo><mml:mo>=</mml:mo><mml:mo>&#8722;</mml:mo><mml:mn>54</mml:mn><mml:mtext>&#160;mV</mml:mtext></mml:math><inline-graphic\
     \ xlink:href=\"13408_2017_47_Article_IEq196.gif\"/></alternatives></inline-formula>\n\
     </p>"
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5483227/PMC5483227/13408_2017_47_Fig11_HTML.jpg
+  filename: PMC5483227/PMC5483227/13408_2017_47_Fig11_HTML.jpg
   id: 13408_2017_Article_47/Fig11
   label: "Fig.\_11"
 - caption: "<p xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\
@@ -458,6 +458,6 @@ thumbnails:
     \ stretchy=\"false\">)</mml:mo><mml:mo>=</mml:mo><mml:mo>&#8722;</mml:mo><mml:mn>63</mml:mn><mml:mtext>&#160;mV</mml:mtext></mml:math><inline-graphic\
     \ xlink:href=\"13408_2017_47_Article_IEq201.gif\"/></alternatives></inline-formula>\n\
     </p>"
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5483227/PMC5483227/13408_2017_47_Fig12_HTML.jpg
+  filename: PMC5483227/PMC5483227/13408_2017_47_Fig12_HTML.jpg
   id: 13408_2017_Article_47/Fig12
   label: "Fig.\_12"

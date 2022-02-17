@@ -11,7 +11,7 @@ thumbnails:
     represent inhibitory synapses and arrows represent excitatory synapses. Delayed
     feedback stimulation I<sub>stim</sub> is modeled as an applied current to specified
     STN neurons.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3585780/PMC3585780/pone.0058264.g001.jpg
+  filename: PMC3585780/PMC3585780/pone.0058264.g001.jpg
   id: pone.0058264/pone-0058264-g001
   label: Figure 1
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Stimulation
@@ -20,7 +20,7 @@ thumbnails:
     a damped harmonic oscillator. Differential delay signal is then constructed from
     the filtered signal, bounded by nonlinear transformation, amplified and injected
     into the same neurons.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3585780/PMC3585780/pone.0058264.g002.jpg
+  filename: PMC3585780/PMC3585780/pone.0058264.g002.jpg
   id: pone.0058264/pone-0058264-g002
   label: Figure 2
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Parameter
@@ -34,7 +34,7 @@ thumbnails:
     for the parameter values inside the dotted rectangle. The filling of the circles
     specifies the number of principle components; red being synchronized dynamics
     and black being incoherent dynamics.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3585780/PMC3585780/pone.0058264.g003.jpg
+  filename: PMC3585780/PMC3585780/pone.0058264.g003.jpg
   id: pone.0058264/pone-0058264-g003
   label: Figure 3
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Delayed
@@ -67,7 +67,7 @@ thumbnails:
 
     <sub>f</sub>&#8202;=&#8202;35. The mean period of the model network without stimulation
     is <italic>T</italic> &#8776; 100 ms.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3585780/PMC3585780/pone.0058264.g004.jpg
+  filename: PMC3585780/PMC3585780/pone.0058264.g004.jpg
   id: pone.0058264/pone-0058264-g004
   label: Figure 4
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Change
@@ -89,7 +89,7 @@ thumbnails:
     <sub>2</sub>&#8202;=&#8202;0.1. <italic>I</italic>
 
     <sub>app</sub>&#8202;=&#8202;5 in all simulations.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3585780/PMC3585780/pone.0058264.g005.jpg
+  filename: PMC3585780/PMC3585780/pone.0058264.g005.jpg
   id: pone.0058264/pone-0058264-g005
   label: Figure 5
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Change
@@ -111,7 +111,7 @@ thumbnails:
     <sub>2</sub>&#8202;=&#8202;0.1. <italic>I</italic>
 
     <sub>app</sub>&#8202;=&#8202;5 in all simulations.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3585780/PMC3585780/pone.0058264.g006.jpg
+  filename: PMC3585780/PMC3585780/pone.0058264.g006.jpg
   id: pone.0058264/pone-0058264-g006
   label: Figure 6
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Maximum
@@ -141,7 +141,7 @@ thumbnails:
     <sub>2</sub>&#8202;=&#8202;0; B, D) <italic>w</italic>
 
     <sub>2</sub>&#8202;=&#8202;0.1.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3585780/PMC3585780/pone.0058264.g007.jpg
+  filename: PMC3585780/PMC3585780/pone.0058264.g007.jpg
   id: pone.0058264/pone-0058264-g007
   label: Figure 7
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Maximum
@@ -167,6 +167,6 @@ thumbnails:
     <sub>2</sub>&#8202;=&#8202;0; B, D, F) <italic>w</italic>
 
     <sub>2</sub>&#8202;=&#8202;0.1.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3585780/PMC3585780/pone.0058264.g008.jpg
+  filename: PMC3585780/PMC3585780/pone.0058264.g008.jpg
   id: pone.0058264/pone-0058264-g008
   label: Figure 8

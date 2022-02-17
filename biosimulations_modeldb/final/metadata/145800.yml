@@ -15,7 +15,7 @@ thumbnails:
     the activators (BMALs and CLOCK/NPAS2) of their own transcription expression through
     the core negative feedback loop. The activators inactivate their own transcription
     expression by inducing the Rev-erbs through the secondary negative feedback loop.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3542529/PMC3542529/msb201262-f1.jpg
+  filename: PMC3542529/PMC3542529/msb201262-f1.jpg
   id: msb201262/f1
   label: Figure 1
 - caption: <p>Validation of the detailed model. (<bold>A</bold>) Predicted mRNAs time
@@ -34,7 +34,7 @@ thumbnails:
     fibroblast (<xref ref-type="bibr" rid="b40">Lee et al, 2009</xref>). From this,
     we assumed that total CKI&#603;/&#948; would be &#8764;67.5% of the maximum value
     of CRY1 in mice liver and fibroblast.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3542529/PMC3542529/msb201262-f2.jpg
+  filename: PMC3542529/PMC3542529/msb201262-f2.jpg
   id: msb201262/f2
   label: Figure 2
 - caption: <p>Proper stoichiometry between activators and repressors is the key to
@@ -56,7 +56,7 @@ thumbnails:
     is changed. The range of the stoichiometry widens as the dissociation constant
     (<italic>K</italic><sub>d</sub>) decreases or the binding between the activator
     and the repressor tightens.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3542529/PMC3542529/msb201262-f3.jpg
+  filename: PMC3542529/PMC3542529/msb201262-f3.jpg
   id: msb201262/f3
   label: Figure 3
 - caption: <p>The NNF structure maintains stoichiometry in balance by active compensation
@@ -93,7 +93,7 @@ thumbnails:
     the expression level of <italic>Bmal1</italic> and <italic>Cry1</italic>, but
     decreases that of <italic>Per2.</italic> All the values were normalized by the
     average of <italic>Per2</italic> expression level in WT.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3542529/PMC3542529/msb201262-f4.jpg
+  filename: PMC3542529/PMC3542529/msb201262-f4.jpg
   id: msb201262/f4
   label: Figure 4
 - caption: <p>The NNF structure oscillates over the widest range of parameters. (<bold>A</bold>)
@@ -109,7 +109,7 @@ thumbnails:
     model. Details about these plots, as well as our methods for generating them are
     described in <xref ref-type="supplementary-material" rid="S1">Supplementary Figure
     5A&#8211;C</xref>.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3542529/PMC3542529/msb201262-f5.jpg
+  filename: PMC3542529/PMC3542529/msb201262-f5.jpg
   id: msb201262/f5
   label: Figure 5
 - caption: <p>A design suitable for the cellular clocks with a fixed period. (<bold>A</bold>)
@@ -129,6 +129,6 @@ thumbnails:
     as in <xref ref-type="supplementary-material" rid="S1">Supplementary Figure 5C</xref>.
     The period is plotted as a color where green refers to the period with the unperturbed
     parameters.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC3542529/PMC3542529/msb201262-f6.jpg
+  filename: PMC3542529/PMC3542529/msb201262-f6.jpg
   id: msb201262/f6
   label: Figure 6

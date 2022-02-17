@@ -118,7 +118,7 @@ thumbnails:
     <sub>stim</sub>) and is indicated above the
 
     graph.</title>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2551735/PMC2551735/pcbi.1000198.g001.jpg
+  filename: PMC2551735/PMC2551735/pcbi.1000198.g001.jpg
   id: pcbi.1000198/pcbi-1000198-g001
   label: Figure 1
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Each
@@ -213,7 +213,7 @@ thumbnails:
     indicated in gray and was determined by separate simulations since a QSC
 
     is not revealed by bifurcation analysis.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2551735/PMC2551735/pcbi.1000198.g002.jpg
+  filename: PMC2551735/PMC2551735/pcbi.1000198.g002.jpg
   id: pcbi.1000198/pcbi-1000198-g002
   label: Figure 2
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Comparison
@@ -285,7 +285,7 @@ thumbnails:
     peak or average; Kolmogorov-Smirnov test).
 
     &#963;<sub>noise</sub>&#8202;=&#8202;10 pA.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2551735/PMC2551735/pcbi.1000198.g003.jpg
+  filename: PMC2551735/PMC2551735/pcbi.1000198.g003.jpg
   id: pcbi.1000198/pcbi-1000198-g003
   label: Figure 3
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Biophysical
@@ -387,7 +387,7 @@ thumbnails:
     current and/or that single-spiking neurons express a subthreshold
 
     outward current.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2551735/PMC2551735/pcbi.1000198.g004.jpg
+  filename: PMC2551735/PMC2551735/pcbi.1000198.g004.jpg
   id: pcbi.1000198/pcbi-1000198-g004
   label: Figure 4
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Different
@@ -472,7 +472,7 @@ thumbnails:
     &#8722;60 mV for all current clamp protocols. Gray line shows
 
     baseline current.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2551735/PMC2551735/pcbi.1000198.g005.jpg
+  filename: PMC2551735/PMC2551735/pcbi.1000198.g005.jpg
   id: pcbi.1000198/pcbi-1000198-g005
   label: Figure 5
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Necessity
@@ -505,7 +505,7 @@ thumbnails:
     excitability, and class 2 excitability occurs when neither current is
 
     present.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2551735/PMC2551735/pcbi.1000198.g006.jpg
+  filename: PMC2551735/PMC2551735/pcbi.1000198.g006.jpg
   id: pcbi.1000198/pcbi-1000198-g006
   label: Figure 6
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Sufficiency
@@ -596,7 +596,7 @@ thumbnails:
     test). &#963;<sub>noise</sub>&#8202;=&#8202;10
 
     &#181;A/cm<sup>2</sup>.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2551735/PMC2551735/pcbi.1000198.g007.jpg
+  filename: PMC2551735/PMC2551735/pcbi.1000198.g007.jpg
   id: pcbi.1000198/pcbi-1000198-g007
   label: Figure 7
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Common
@@ -736,7 +736,7 @@ thumbnails:
     <sub>w</sub>&#8202;=&#8202;0
 
     mV.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2551735/PMC2551735/pcbi.1000198.g008.jpg
+  filename: PMC2551735/PMC2551735/pcbi.1000198.g008.jpg
   id: pcbi.1000198/pcbi-1000198-g008
   label: Figure 8
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Competition
@@ -949,7 +949,7 @@ thumbnails:
     <sub>w</sub> had
 
     the opposite effects.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2551735/PMC2551735/pcbi.1000198.g009.jpg
+  filename: PMC2551735/PMC2551735/pcbi.1000198.g009.jpg
   id: pcbi.1000198/pcbi-1000198-g009
   label: Figure 9
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Depolarization-induced
@@ -1014,7 +1014,7 @@ thumbnails:
     overlapped the apex of the instantaneous
 
     <italic>I</italic>&#8211;<italic>V</italic> curve.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2551735/PMC2551735/pcbi.1000198.g010.jpg
+  filename: PMC2551735/PMC2551735/pcbi.1000198.g010.jpg
   id: pcbi.1000198/pcbi-1000198-g010
   label: Figure 10
 - caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Summary
@@ -1047,6 +1047,6 @@ thumbnails:
     inward current initiates a spike before slow-activating outward current has
 
     an opportunity to counteract the positive feedback process.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC2551735/PMC2551735/pcbi.1000198.g011.jpg
+  filename: PMC2551735/PMC2551735/pcbi.1000198.g011.jpg
   id: pcbi.1000198/pcbi-1000198-g011
   label: Figure 11

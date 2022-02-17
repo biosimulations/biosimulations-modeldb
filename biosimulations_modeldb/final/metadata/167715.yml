@@ -34,7 +34,7 @@ thumbnails:
     \\begin{document}\n}{}${\\tau }_{h}^{\\ast }$\\end{document}</tex-math><mml:math\
     \ id=\"mml-ieqn-156\"><mml:msubsup><mml:mrow><mml:mi>&#964;</mml:mi></mml:mrow><mml:mrow><mml:mi>h</mml:mi></mml:mrow><mml:mrow><mml:mo>*</mml:mo></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula>\
     \ is three-fold lager than <italic>&#964;<sub>h</sub></italic>.</p>"
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4017887/PMC4017887/peerj-02-379-g001.jpg
+  filename: PMC4017887/PMC4017887/peerj-02-379-g001.jpg
   id: peerj-02-379/fig-1
   label: Figure 1
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Spiking
@@ -49,13 +49,13 @@ thumbnails:
     regime as a response to a constant input current of 12 &#181;A cm<sup>&#8722;2</sup>.
     (C) and (F) show the response of the models in the excitatory regime to a 3 ms
     long current pulse with amplitude 3 &#181;A cm<sup>&#8722;2</sup>.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4017887/PMC4017887/peerj-02-379-g002.jpg
+  filename: PMC4017887/PMC4017887/peerj-02-379-g002.jpg
   id: peerj-02-379/fig-2
   label: Figure 2
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Nonlinear
     firing-rate function <italic>F</italic>(<italic>I</italic><sub>app</sub>) for
     wild-type model (black, solid) and mutant model (green, dashed).</title>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4017887/PMC4017887/peerj-02-379-g003.jpg
+  filename: PMC4017887/PMC4017887/peerj-02-379-g003.jpg
   id: peerj-02-379/fig-3
   label: Figure 3
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Spreading
@@ -64,7 +64,7 @@ thumbnails:
     the pump current to 20% of its maximal value for 13.6 s (wild-type) and 7.2 s
     (mutant), respectively (see blacked dashed line). The red and blue dashed lines
     show the temporal development of the sodium and potassium reversal potentials.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4017887/PMC4017887/peerj-02-379-g004.jpg
+  filename: PMC4017887/PMC4017887/peerj-02-379-g004.jpg
   id: peerj-02-379/fig-4
   label: Figure 4
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Anoxia
@@ -74,6 +74,6 @@ thumbnails:
     line). Red and blue dotted lines show the Na<sup>+</sup> and K<sup>+</sup> reversal
     potentials over time. The time from the onset of spiking until the beginning of
     the excitation block is approximately 6.7 s without and 2.7 s with mutation.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4017887/PMC4017887/peerj-02-379-g005.jpg
+  filename: PMC4017887/PMC4017887/peerj-02-379-g005.jpg
   id: peerj-02-379/fig-5
   label: Figure 5

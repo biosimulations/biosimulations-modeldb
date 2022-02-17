@@ -160,6 +160,9 @@ def get_metadata_for_model(model, model_dirname, config):
         references = metadata.get('references', [])
         thumbnails = metadata.get('thumbnails', [])
 
+        for thumbnail in thumbnails:
+            thumbnail['filename'] = os.path.join(config['source_thumbnails_dirname'], thumbnail['filename'])
+
         thumbnails = [PubMedCentralOpenAccesGraphic(**thumbnail) for thumbnail in thumbnails]
 
         return description, taxa, references, thumbnails
@@ -175,10 +178,10 @@ def get_metadata_for_model(model, model_dirname, config):
                     description = file.read()
 
             elif ext in ['.html']:
-                description = None # TODO
+                description = None  # TODO
 
             elif ext in ['.docx']:
-                description = None # TODO
+                description = None  # TODO
 
             else:
                 raise NotImplementedError('README type `{}` is not supported.'.format(ext))
@@ -247,6 +250,8 @@ def get_metadata_for_model(model, model_dirname, config):
         'references': references,
         'thumbnails': [dataclasses.asdict(thumbnail) for thumbnail in thumbnails],
     }
+    for thumbnail in metadata['thumbnails']:
+        thumbnail['filename'] = os.path.relpath(thumbnail['filename'], config['source_thumbnails_dirname'])
     with open(metadata_filename, 'w') as file:
         file.write(yaml.dump(metadata))
 

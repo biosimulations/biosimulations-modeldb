@@ -45,7 +45,7 @@ thumbnails:
     M34\"><mml:msub><mml:mrow><mml:mi>q</mml:mi></mml:mrow><mml:mrow><mml:mi>&#8734;</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic\
     \ xlink:href=\"10827_2016_606_Article_IEq7.gif\"/></alternatives></inline-formula>\
     \ and <italic>&#967;</italic>\n</p>"
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4927618/PMC4927618/10827_2016_606_Fig1_HTML.jpg
+  filename: PMC4927618/PMC4927618/10827_2016_606_Fig1_HTML.jpg
   id: 10827_2016_Article_606/Fig1
   label: Fig. 1
 - caption: '<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">Comparison
@@ -89,7 +89,7 @@ thumbnails:
     Traub model (Traub et al. <xref ref-type="bibr" rid="CR68">1991</xref>) in <italic>blue</italic>.
     <italic>Circles</italic> indicate burst frequency, <italic>triangles</italic>
     are spike frequency and <italic>squares</italic> are mixed burst-spike frequency</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4927618/PMC4927618/10827_2016_606_Fig2_HTML.jpg
+  filename: PMC4927618/PMC4927618/10827_2016_606_Fig2_HTML.jpg
   id: 10827_2016_Article_606/Fig2
   label: Fig. 2
 - caption: '<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">Bifurcation
@@ -110,7 +110,7 @@ thumbnails:
     traces of somatic voltage at different values of <italic>I</italic>
 
     <sub>Sapp</sub>. <italic>Dashed line</italic> represents &#8722;75 mV for reference</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4927618/PMC4927618/10827_2016_606_Fig3_HTML.jpg
+  filename: PMC4927618/PMC4927618/10827_2016_606_Fig3_HTML.jpg
   id: 10827_2016_Article_606/Fig3
   label: Fig. 3
 - caption: '<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">Bifurcation
@@ -132,7 +132,7 @@ thumbnails:
     of <italic>I</italic>
 
     <sub>Dapp</sub>. <italic>Dashed line</italic> represents &#8722;75 mV for reference</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4927618/PMC4927618/10827_2016_606_Fig4_HTML.jpg
+  filename: PMC4927618/PMC4927618/10827_2016_606_Fig4_HTML.jpg
   id: 10827_2016_Article_606/Fig4
   label: Fig. 4
 - caption: '<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">Bifurcation
@@ -189,7 +189,7 @@ thumbnails:
     <italic>I</italic>
 
     <sub>Dapp</sub>. SN1 is represented by a magenta dot</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4927618/PMC4927618/10827_2016_606_Fig5_HTML.jpg
+  filename: PMC4927618/PMC4927618/10827_2016_606_Fig5_HTML.jpg
   id: 10827_2016_Article_606/Fig5
   label: Fig. 5
 - caption: '<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">Projection
@@ -213,7 +213,7 @@ thumbnails:
 
     <sub>Ca</sub> (i.e. that of Figs.&#160;<xref rid="Fig3" ref-type="fig">3</xref>&#8211;<xref
     rid="Fig4" ref-type="fig">4</xref>)</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4927618/PMC4927618/10827_2016_606_Fig6_HTML.jpg
+  filename: PMC4927618/PMC4927618/10827_2016_606_Fig6_HTML.jpg
   id: 10827_2016_Article_606/Fig6
   label: Fig. 6
 - caption: "<p xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"\
@@ -278,7 +278,7 @@ thumbnails:
     \ mathvariant=\"normal\">K</mml:mi></mml:mrow><mml:mrow><mml:mtext>Ca</mml:mtext></mml:mrow></mml:msub></mml:mrow></mml:msub></mml:math><inline-graphic\
     \ xlink:href=\"10827_2016_606_Article_IEq15.gif\"/></alternatives></inline-formula>\n\
     </p>"
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4927618/PMC4927618/10827_2016_606_Fig7_HTML.jpg
+  filename: PMC4927618/PMC4927618/10827_2016_606_Fig7_HTML.jpg
   id: 10827_2016_Article_606/Fig7
   label: Fig. 7
 - caption: '<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">Bifurcation
@@ -320,7 +320,7 @@ thumbnails:
     and HC bifurcation (<bold>e</bold>) - note the lack of overlap between the SNIC
     (magenta dot) and the saddle at the HC (<italic>cyan dot</italic>). <bold>f</bold>
     Period of bursting solutions</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4927618/PMC4927618/10827_2016_606_Fig8_HTML.jpg
+  filename: PMC4927618/PMC4927618/10827_2016_606_Fig8_HTML.jpg
   id: 10827_2016_Article_606/Fig8
   label: Fig. 8
 - caption: '<p xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">Bifurcation
@@ -349,6 +349,6 @@ thumbnails:
     <sub>s</sub> and <italic>h</italic> at the homoclinic bifurcation point. Note
     the lack of overlap between SN1 (<italic>magenta dot</italic>) and the saddle
     at the HC (<italic>cyan dot</italic>)</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC4927618/PMC4927618/10827_2016_606_Fig9_HTML.jpg
+  filename: PMC4927618/PMC4927618/10827_2016_606_Fig9_HTML.jpg
   id: 10827_2016_Article_606/Fig9
   label: Fig. 9

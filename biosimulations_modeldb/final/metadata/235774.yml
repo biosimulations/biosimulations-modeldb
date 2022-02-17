@@ -18,7 +18,7 @@ thumbnails:
     on the left shows additional details: glutamate is contained in vesicles and in
     the release process all molecules are released into the cleft at once. The inset
     on the right shows idealized geometry of the synapse considered in the model.</p>'
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5655358/PMC5655358/pcbi.1005804.g001.jpg
+  filename: PMC5655358/PMC5655358/pcbi.1005804.g001.jpg
   id: pcbi.1005804/pcbi.1005804.g001
   label: Fig 1
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Two
@@ -39,7 +39,7 @@ thumbnails:
     result in shrinkage of the ECS. The time of de&#8211; and repolarization are marked
     by a red upward pointing and a green downward pointing triangle. These symbols
     will be used in the following figures to indicate these events.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5655358/PMC5655358/pcbi.1005804.g002.jpg
+  filename: PMC5655358/PMC5655358/pcbi.1005804.g002.jpg
   id: pcbi.1005804/pcbi.1005804.g002
   label: Fig 2
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Glutamate
@@ -75,7 +75,7 @@ thumbnails:
     there is more in the ECS than in the clefts. The relation between uptake by glia
     and neural uptake is consistent with <bold>(c)</bold> and Eqs <xref ref-type="disp-formula"
     rid="pcbi.1005804.e037">(26)</xref> and <xref ref-type="disp-formula" rid="pcbi.1005804.e027">(18)</xref>.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5655358/PMC5655358/pcbi.1005804.g003.jpg
+  filename: PMC5655358/PMC5655358/pcbi.1005804.g003.jpg
   id: pcbi.1005804/pcbi.1005804.g003
   label: Fig 3
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">SD
@@ -94,7 +94,7 @@ thumbnails:
     uptake rates. In our model, the effect becomes noticeable only for rates of 35%
     and less. Extreme durations can be up to 500 sec, and recovery fails for uptake
     rates of less than 16%.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5655358/PMC5655358/pcbi.1005804.g004.jpg
+  filename: PMC5655358/PMC5655358/pcbi.1005804.g004.jpg
   id: pcbi.1005804/pcbi.1005804.g004
   label: Fig 4
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Phase
@@ -110,7 +110,7 @@ thumbnails:
     X markers. The values are used to compute the fixed point structures that guide
     the dynamics near the de&#8211; and repolarization point in <bold>(b)</bold>,
     respectively.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5655358/PMC5655358/pcbi.1005804.g005.jpg
+  filename: PMC5655358/PMC5655358/pcbi.1005804.g005.jpg
   id: pcbi.1005804/pcbi.1005804.g005
   label: Fig 5
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Dependence
@@ -130,7 +130,7 @@ thumbnails:
     the green curve is above the red curve, repolarization is possible. The critical
     value of intersection is near 0.032 mM and for higher values of <italic>G</italic><sub><italic>c</italic></sub>
     there is no recovery (shaded region).</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5655358/PMC5655358/pcbi.1005804.g006.jpg
+  filename: PMC5655358/PMC5655358/pcbi.1005804.g006.jpg
   id: pcbi.1005804/pcbi.1005804.g006
   label: Fig 6
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Membrane
@@ -154,7 +154,7 @@ thumbnails:
     (shaded region). The critical value is consistent with the value we have derived
     for the transmembrane model in <xref ref-type="fig" rid="pcbi.1005804.g006">Fig
     6</xref>.</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5655358/PMC5655358/pcbi.1005804.g007.jpg
+  filename: PMC5655358/PMC5655358/pcbi.1005804.g007.jpg
   id: pcbi.1005804/pcbi.1005804.g007
   label: Fig 7
 - caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Inhibitor
@@ -170,6 +170,6 @@ thumbnails:
     potential repolarizes to its pre-SD value. TFB-TBOA prolonged the duration of
     SD both at the network level <bold>(d)</bold> (n = 9, p&lt;0.001) and single cell
     level <bold>(e)</bold> (n = 9, p&lt;0.01).</p>
-  filename: /home/jonrkarr/Documents/biosimulations-modeldb/biosimulations_modeldb/./source/thumbnails/PMC5655358/PMC5655358/pcbi.1005804.g008.jpg
+  filename: PMC5655358/PMC5655358/pcbi.1005804.g008.jpg
   id: pcbi.1005804/pcbi.1005804.g008
   label: Fig 8
