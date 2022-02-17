@@ -1,6 +1,9 @@
 from biosimulators_utils.biosimulations.utils import get_file_extension_combine_uri_map as base_get_file_extension_combine_uri_map
 from biosimulators_utils.combine.data_model import CombineArchiveContentFormat
+import glob
 import warnings
+
+__all__ = ['get_file_extension_combine_uri_map', 'case_insensitive_glob']
 
 
 def get_file_extension_combine_uri_map():
@@ -70,3 +73,21 @@ def get_file_extension_combine_uri_map():
         map[ext] = list(uris)[0]
 
     return map
+
+
+def case_insensitive_glob(pattern, **kwargs):
+    """ Glob without case sensitivity
+
+    Args:
+        pattern (:obj:`str`): glob pattern
+        **kwargs
+
+    Returns:
+        :obj:`list` of :obj:`str`: path of files that match the glob pattern
+    """
+    def either(c):
+        if c.isalpha():
+            return '[%s%s]'.format(c.lower(), c.upper())
+        else:
+            return c
+    return glob.glob(''.join(map(either, pattern)), **kwargs)
