@@ -7,5 +7,6 @@ gitpython
 natsort
 pyyaml
 python_dateutil
+python_dotenv
 requests_cache
 setuptools

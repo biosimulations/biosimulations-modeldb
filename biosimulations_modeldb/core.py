@@ -705,9 +705,9 @@ def import_models(config):
             else:
                 project_id = None
 
-            project_bucket_key = '{}{}.omex'.format(config['bucket_prefix'], str(model['id']))
-            bucket.upload_file(project_filename, project_bucket_key, ExtraArgs={'ACL': 'public-read'})
-            project_url = '{}{}'.format(config['bucket_public_endpoint'], project_bucket_key)
+            project_bucket_key = '{}.omex'.format(str(model['id']))
+            bucket.upload_file(project_filename, project_bucket_key)
+            project_url = '{}/{}/{}'.format(config['bucket_endpoint'], config['bucket_name'], project_bucket_key)
 
             runbiosimulations_id = biosimulators_utils.biosimulations.utils.run_simulation_project(
                 run_name, project_url, BIOSIMULATORS_SIMULATOR_ID, project_id=project_id, purpose='academic', auth=auth)

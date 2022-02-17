@@ -6,10 +6,8 @@ First, set the following environment variables
 * ``ENTREZ_EMAIL``: email address to credit queries to NCBI Entrez to (e.g., ``biosimulations.daemon@gmail.com``)
 * ``BIOSIMULATIONS_API_CLIENT_ID``: id of the client for the BioSimulations API
 * ``BIOSIMULATIONS_API_CLIENT_SECRET``: secret for this client
-* ``BUCKET_ENDPOINT``: Endpoint for uploading COMBINE archives to be published to an S3 bucket
-* ``BUCKET_PUBLIC_ENDPOINT``: Endpoint which the BioSimulations API can use to download COMBINE archives submitted to it
+* ``BUCKET_ENDPOINT``: Endpoint for uploading COMBINE/OMEX archives to be published to an S3 bucket
 * ``BUCKET_NAME``: Name of the bucket
-* ``BUCKET_PREFIX``: Prefix to store COMBINE archives in the bucket
 * ``BUCKET_ACCESS_KEY_ID``: Access key for the bucket
 * ``BUCKET_SECRET_ACCESS_KEY``: Secret for the access key
 
