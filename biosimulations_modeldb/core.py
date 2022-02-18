@@ -61,6 +61,7 @@ with open(pkg_resources.resource_filename('biosimulations_modeldb', os.path.join
     TAXA = yaml.load(file, Loader=yaml.Loader)
 
 with open(pkg_resources.resource_filename('biosimulations_modeldb', os.path.join('final', 'file-ext-format-uri-map.yml')), 'r') as file:
+    # file was built using ``biosimulations_modeldb.utils.get_file_extension_combine_uri_map``
     FILE_EXTENSION_FORMAT_URI_MAP = yaml.load(file, Loader=yaml.Loader)
 
 with open(pkg_resources.resource_filename('biosimulations_modeldb', os.path.join('final', 'set-file-map.yml')), 'r') as file:
