@@ -467,7 +467,7 @@ def build_combine_archive_for_model(id, model_dirname, archive_filename, extra_c
         _, ext = os.path.splitext(location)
         if ext:
             ext = ext[1:]
-        if ext == 'pyc':
+        if ext.lower() in ['gif', 'jpeg', 'jpg', 'png', 'webp']:  # ignore image files because they will be included as 'extra_contents'
             continue
 
         if ext == 'xml':
