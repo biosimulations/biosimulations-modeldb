@@ -1,3 +1,10 @@
+description: "From Excitatory and Inhibitory Interactions in Localized Populations\
+  \ of Model Neurons\nHugh R. Wilson and Jack D. Cowan; Biophys J. 1972 January; 12:1-24.\n\
+  \nTo run:\n  nrnivmodl\n  nrngui wc.hoc\n\nButtons marked 'slow' use movierun so\
+  \ as to allow the trajectory to be viewed\nduring the run. \n\nParameters can be\
+  \ set in the PointProcessManager.  Then use 'As set' button to run\nwithout resetting\
+  \ the parameters.\n\nThis implementation was copied from Bard Ermentrout's xppaut\
+  \ file: wc.ode\n(included)\n"
 references:
 - label: 'Hugh R. Wilson & Jack D. Cowan. Excitatory and inhibitory interactions in
     localized populations of model neurons. Biophysical Journal 12, 1: 1-24 (1972).'

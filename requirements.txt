@@ -5,6 +5,7 @@ biosimulators_utils >= 0.1.158
 boto3
 cement
 gitpython
+lxml
 mammoth
 markdownify
 natsort

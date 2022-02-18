@@ -8,12 +8,11 @@ import yaml
 
 __all__ = ['get_config']
 
-BASE_DIR = pkg_resources.resource_filename('biosimulations_modeldb', '.')
-
 
 def get_config(
         source_api_endpoint='http://modeldb.science/api/v1',
         source_models_git_repository_organization='https://github.com/ModelDBRepository',
+        base_dir=pkg_resources.resource_filename('biosimulations_modeldb', '.'),
         source_dirname=None,
         sessions_dirname=None,
         final_dirname=None,
@@ -39,6 +38,7 @@ def get_config(
     Args:
         source_api_endpoint (obj:`str`, optional): endpoint for retrieving metadata about ModelDB models
         source_models_git_repository_organization (obj:`str`, optional): organization for git repositories for ModelDB models
+        base_dir (:obj:`str`, optional): base directory for data
         source_dirname (obj:`str`, optional): directory where source models, metabolic flux maps, and thumbnails should be stored
         sessions_dirname (obj:`str`, optional): directory where cached HTTP sessions should be stored
         final_dirname (obj:`str`, optional): directory where created SED-ML, metadata, and COMBINE/OMEX archives should be stored
@@ -69,17 +69,17 @@ def get_config(
     }
 
     if source_dirname is None:
-        source_dirname = env.get('SOURCE_DIRNAME', os.path.join(BASE_DIR, 'source'))
+        source_dirname = env.get('SOURCE_DIRNAME', os.path.join(base_dir, 'source'))
     if sessions_dirname is None:
-        sessions_dirname = env.get('SESSIONS_DIRNAME', os.path.join(BASE_DIR, 'source'))
+        sessions_dirname = env.get('SESSIONS_DIRNAME', os.path.join(base_dir, 'source'))
     if final_dirname is None:
-        final_dirname = env.get('FINAL_DIRNAME', os.path.join(BASE_DIR, 'final'))
+        final_dirname = env.get('FINAL_DIRNAME', os.path.join(base_dir, 'final'))
     if curators_filename is None:
-        curators_filename = env.get('CURATORS_FILENAME', os.path.join(BASE_DIR, 'final', 'curators.yml'))
+        curators_filename = env.get('CURATORS_FILENAME', os.path.join(base_dir, 'final', 'curators.yml'))
     if issues_filename is None:
-        issues_filename = env.get('ISSUES_FILENAME', os.path.join(BASE_DIR, 'final', 'issues.yml'))
+        issues_filename = env.get('ISSUES_FILENAME', os.path.join(base_dir, 'final', 'issues.yml'))
     if status_filename is None:
-        status_filename = env.get('STATUS_FILENAME', os.path.join(BASE_DIR, 'final', 'status.yml'))
+        status_filename = env.get('STATUS_FILENAME', os.path.join(base_dir, 'final', 'status.yml'))
 
     if bucket_endpoint is None:
         bucket_endpoint = env.get('BUCKET_ENDPOINT')
@@ -101,6 +101,8 @@ def get_config(
     return {
         'source_api_endpoint': source_api_endpoint,
         'source_models_git_repository_organization': source_models_git_repository_organization,
+
+        'base_dir': base_dir,
 
         'source_repository': os.path.join(source_dirname, '..', '..'),
         'source_models_dirname': os.path.join(source_dirname, 'models'),

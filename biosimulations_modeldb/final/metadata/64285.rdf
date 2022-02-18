@@ -25,6 +25,27 @@ soma of the high-frequency oscillation of the dendrites, which is&#13;
 normally too weak to exert a large influence on the overall oscillation&#13;
 frequency of the neuron.</dc:abstract>
   </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/64285.omex">
+    <dc:description>This model is associated with the paper:
+
+Kuznetsov AS, Kopell NJ, Wilson CJ.
+Transient high-frequency firing in a coupled-oscillator model of the
+mesencephalic dopaminergic neuron.
+J Neurophysiol. 2006 Feb;95(2):932-47. Epub 2005 Oct 5.
+
+and was supplied by AS Kuznetsov.
+
+Use:
+
+Expand the archive and cd into the newly created directory and run:
+
+xppaut KuzKopWil2006.ode
+
+then click on Initialcond -&gt; Go
+
+The soma trace from Fig 8A of the paper is reproduced.
+</dc:description>
+  </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>
   </rdf:Description>
@@ -105,6 +126,9 @@ frequency of the neuron.</dc:abstract>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/64285.omex">
     <bqbiol:encodes rdf:resource="local:00009">local:00009</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/64285.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/64285.omex/screenshot.jpg">http://omex-library.org/64285.omex/screenshot.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="local:00010">
     <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>

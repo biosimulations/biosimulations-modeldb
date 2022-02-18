@@ -1,3 +1,61 @@
+description: "```\n\nThis is the readme for the models for the paper:\n\nPrescott\
+  \ SA, Ratte S, De Koninck Y, Sejnowski TJ. Pyramidal neurons\nswitch from integrators\
+  \ in vitro to resonators under in vivo-like\nconditions. J. Neurophysiol. In press.\n\
+  \nAbstract: During wakefulness, pyramidal neurons in the intact brain\nare bombarded\
+  \ by synaptic input that causes tonic depolarization,\nincreased membrane conductance\
+  \ (i.e. shunting), and noisy fluctuations\nin membrane potential; by comparison,\
+  \ pyramidal neurons in acute\nslices typically experience little background input.\
+  \ Such differences\nin operating conditions can compromise extrapolation of in vitro\
+  \ data\nto explain neuronal operation in vivo. For instance, pyramidal neurons\n\
+  have been identified as integrators (i.e. class 1 neurons according to\nHodgkin's\
+  \ classification of intrinsic excitability) based on in vitro\nexperiments, but\
+  \ that classification is inconsistent with the ability\nof hippocampal pyramidal\
+  \ neurons to oscillate/resonate at theta\nfrequency since intrinsic oscillatory\
+  \ behavior is limited to class 2\nneurons. Using long depolarizing stimuli and dynamic\
+  \ clamp to\nreproduce in vivo-like conditions in slice experiments, we show that\n\
+  CA1 hippocampal pyramidal cells switch from integrators to resonators,\ni.e. from\
+  \ class 1 to class 2 excitability. The switch is explained by\nincreased outward\
+  \ current contributed by the M-type potassium current\nI(M), which shifts the balance\
+  \ of inward and outward currents active\nat perithreshold potentials and thereby\
+  \ converts the spike initiating\nmechanism as predicted by dynamical analysis of\
+  \ our computational\nmodel. Perithreshold activation of I(M) is enhanced by the\n\
+  depolarizing shift in spike threshold caused by shunting and/or sodium\nchannel\
+  \ inactivation secondary to tonic depolarization. Our\nconclusions were validated\
+  \ by multiple comparisons between simulation\nand experimental data. Thus, even\
+  \ so-called \"intrinsic\" properties may\ndiffer qualitatively between in vitro\
+  \ and in vivo conditions.\n \n\nModel Notes:\n\nThe Morris-Lecar-type model included\
+  \ here shows how spike initiating\ndynamics can be influenced by external factors\
+  \ like the level of\nbackground synaptic input.  High levels of synaptic input cause\n\
+  shunting (i.e. increased membrane conductance) and tonic\ndepolarization which can\
+  \ cause activation/inactivation of\nvoltage-sensitive currents.  In this study,\
+  \ we show that shunting\nand/or tonic depolarization can convert a neuron exhibiting\
+  \ class 1\nexcitability (spike initiation through a saddle-node on invariant\ncircle\
+  \ bifurcation) to class 2 excitability (spike initiation through\na subcritical\
+  \ Hopf bifurcation).  One importance consequence is that\nclass 2 neurons can oscillate/resonate\
+  \ whereas class 1 neurons cannot.\n\nIn the first model, ML(noNainactivation).ode,\
+  \ there is no sodium\nchannel inactivation.  Try varying gshunt and/or gM to add/remove\n\
+  shunting and adaptation from the model.  Be sure to include\nsmall-amplitude noise\
+  \ (sigma>0) in order to see noise-induced\noscillations.\n\nIn the second model,\
+  \ ML(withNainactivation).ode, sodium channel\ninactivation is included.  Strength\
+  \ of inactivation is controlled by\nalpha\\_h; set alpha\\_h to 1 to turn off this\
+  \ mechanism.  In this model,\nother parameters have been adjusted to correspond\
+  \ to those described\nin Figure 9B of the paper.\n\nThe main idea is that shunting\
+  \ and/or tonic depolarization (causing\ninactivation of sodium channels or activation\
+  \ of M channels) will lead\nto depolarizing shift in voltage threshold.  Shifting\
+  \ threshold\ninfluences how strongly certain currents will activate at voltages\n\
+  just below threshold.  Increased subthreshold activation of the\ndelayed-rectifier\
+  \ potassium current can lead to high-frequency\noscillations.  Increased subtheshold\
+  \ activation of the M-type\npotassium current can lead to theta-frequency oscillations.\
+  \  An\nimportant conclusion of this study is that although M-type potassium\ncurrent\
+  \ is present in CA1 pyramidal neurons, that current may not be\nstrongly activated\
+  \ at subthrehsold potentials under in vitro\nconditions whereas it would more strongly\
+  \ activated under in vivo\nconditions because of the shift in threshold caused by\
+  \ background\nsynaptic input.  The resulting shift in balance of inward and outward\n\
+  currents near threshold can qualitatively change the spike initiating\nmechanism,\
+  \ with important consequences for the integrative properties\nof the neuron.\n\n\
+  The code contains numerous comments that help explain the model.  For\nmore information\
+  \ about XPP, visit\n<http://www.scholarpedia.org/article/XPPAUT> or\n<http://www.math.pitt.edu/~bard/xpp/xpp.html>.\n\
+  \n```"
 references:
 - label: "Steven A. Prescott, St\xE9phanie Ratt\xE9, Yves De Koninck & Terrence J.\
     \ Sejnowski. Pyramidal neurons switch from integrators in vitro to resonators\

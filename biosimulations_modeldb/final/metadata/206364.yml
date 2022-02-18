@@ -1,3 +1,17 @@
+description: "# ISR-of-Purkinje-cells\n\nThis is the README for the model associated\
+  \ with the paper:\n\nBuchin A, Rieubland S, H\xE4usser M, Gutkin BS, Roth A (2016)\n\
+  Inverse Stochastic Resonance in Cerebellar Purkinje Cells.\nPLoS Comput Biol 12:e1005000\n\
+  \nThis code was contributed by A Buchin.\n\nThe code shows the simulations of the\
+  \ adaptive exponential\nintegrate-and-fire model\n(http://www.scholarpedia.org/article/Adaptive_exponential_integrate-and-fire_model)\n\
+  at different stimulus conditions. The parameters of the model were\ntuned to the\
+  \ Purkinje cell of cerebellum to reproduce the inhibiion of\nthese cells by noisy\
+  \ current injections. Similar experimental\nprotocols were also applied to the detailed\
+  \ biophysical model of\nPurkinje cells, Bower-de-Shutter model\n(http://jn.physiology.org/content/71/1/375.short).\
+  \ The repository also\nincludes the XPPaut version of the model with the corresponding\n\
+  bifurcation analysis.\n\nIf you would like to use this code for the scientific publication,\n\
+  please do not forget to cite the original paper\nhttp://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005000\n\
+  \nIf you have any troubles with running these simulations, do not\nhesitate to let\
+  \ me know.\n\nBest\nAnatoly\n"
 references:
 - label: "Anatoly Buchin, Sarah Rieubland, Michael H\xE4usser, Boris S. Gutkin & Arnd\
     \ Roth. Inverse Stochastic Resonance in Cerebellar Purkinje Cells. PLOS Computational\
@@ -5,7 +19,8 @@ references:
   uri: http://identifiers.org/doi:10.1371/journal.pcbi.1005000
 taxa: []
 thumbnails:
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Cerebellar
+- archive_filename: article-figures/PMC4991839/pcbi.1005000.g001.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Cerebellar
     Purkinje cells show inverse stochastic resonance (ISR).</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">A. Whole-cell patch-clamp recording
     from a Purkinje cell in a cerebellar slice, showing current injection of 1 s noise
@@ -26,10 +41,12 @@ thumbnails:
     in D. F. Membrane potential distributions computed from a somatic whole-cell patch-clamp
     recording from a Purkinje cell during injection of a stimulus current evoking
     transitions between spiking and silent states (A).</p>
-  filename: PMC4991839/PMC4991839/pcbi.1005000.g001.jpg
+  format: jpeg
   id: pcbi.1005000/pcbi.1005000.g001
   label: Fig 1
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Experimental
+  local_filename: source/thumbnails/PMC4991839/PMC4991839/pcbi.1005000.g001.jpg
+- archive_filename: article-figures/PMC4991839/pcbi.1005000.g002.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Experimental
     characterization of Purkinje cell bistability.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">A. Whole-cell patch-clamp recording
     from a Purkinje cell, showing a representative hysteresis measurement with slow
@@ -46,10 +63,12 @@ thumbnails:
     range &#916;<italic>I</italic> and the optimal noise level for ISR <italic>&#963;</italic><sub><italic>opt</italic></sub>.
     Error bars indicate standard deviation, <italic>R</italic><sup>2</sup> = 0.79
     (n = 19).</p>
-  filename: PMC4991839/PMC4991839/pcbi.1005000.g002.jpg
+  format: jpeg
   id: pcbi.1005000/pcbi.1005000.g002
   label: Fig 2
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">aEIF
+  local_filename: source/thumbnails/PMC4991839/PMC4991839/pcbi.1005000.g002.jpg
+- archive_filename: article-figures/PMC4991839/pcbi.1005000.g003.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">aEIF
     model fitting procedure to Purkinje cell experimental data.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">A. Double somatic whole-cell patch-clamp
     recording from a representative Purkinje cell: one electrode for current injection
@@ -74,10 +93,12 @@ thumbnails:
     spike-triggered adaptation is fitted to a single exponential, with time constant
     <italic>&#964;</italic><sub><italic>w</italic></sub> and <italic>w</italic><sub><italic>sp</italic></sub>
     (t = 0) = b. Error bars indicate SD.</p>'
-  filename: PMC4991839/PMC4991839/pcbi.1005000.g003.jpg
+  format: jpeg
   id: pcbi.1005000/pcbi.1005000.g003
   label: Fig 3
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Hysteresis
+  local_filename: source/thumbnails/PMC4991839/PMC4991839/pcbi.1005000.g003.jpg
+- archive_filename: article-figures/PMC4991839/pcbi.1005000.g004.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Hysteresis
     and ISR of the aEIF model.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">A Voltage response of the aEIF
     model to Ornstein-Uhlenbeck current noise injection with increasing amplitude.
@@ -92,10 +113,12 @@ thumbnails:
     (E) and <italic>A</italic> = <italic>a</italic>/<italic>g</italic><sub><italic>L</italic></sub>
     (F). G. Membrane potential distribution in the aEIF model during spiking and silent
     states.</p>'
-  filename: PMC4991839/PMC4991839/pcbi.1005000.g004.jpg
+  format: jpeg
   id: pcbi.1005000/pcbi.1005000.g004
   label: Fig 4
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Bifurcation
+  local_filename: source/thumbnails/PMC4991839/PMC4991839/pcbi.1005000.g004.jpg
+- archive_filename: article-figures/PMC4991839/pcbi.1005000.g005.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Bifurcation
     diagram and phase plane of the aEIF model.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">A. Phase-plane of the model. Gray
     lines are the null-clines of the model. Drop-like set (black) corresponds to the
@@ -110,10 +133,12 @@ thumbnails:
     (inset) when stimulated by Ornstein-Uhlenbeck noise for 1000 ms with mean <italic>I</italic>
     = &#8722;150 pA and noise amplitudes <italic>&#963;</italic> = 10 pA, 30 pA and
     60 pA.</p>
-  filename: PMC4991839/PMC4991839/pcbi.1005000.g005.jpg
+  format: jpeg
   id: pcbi.1005000/pcbi.1005000.g005
   label: Fig 5
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">ISR
+  local_filename: source/thumbnails/PMC4991839/PMC4991839/pcbi.1005000.g005.jpg
+- archive_filename: article-figures/PMC4991839/pcbi.1005000.g006.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">ISR
     transforms brief inputs into long-term firing states depending on background noise.</title><p
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">A,
     B, C. Characteristic voltage traces of the aEIF model in response to a single
@@ -127,10 +152,12 @@ thumbnails:
     = 0 pA the duration of stimulus-induced spiking state is infinite, while for <italic>&#963;</italic>
     = 100 pA the duration of this state could not be distinguished from the firing
     baseline.</p>'
-  filename: PMC4991839/PMC4991839/pcbi.1005000.g006.jpg
+  format: jpeg
   id: pcbi.1005000/pcbi.1005000.g006
   label: Fig 6
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">ISR
+  local_filename: source/thumbnails/PMC4991839/PMC4991839/pcbi.1005000.g006.jpg
+- archive_filename: article-figures/PMC4991839/pcbi.1005000.g007.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">ISR
     leads to local optimum of mutual information between the input and output spike
     train.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">A,
     B, C. Voltage traces (top) of the aEIF model in response to series of excitatory
@@ -143,6 +170,31 @@ thumbnails:
     For <italic>&#963;</italic> = 0 pA the duration of the stimulus-induced spiking
     state is infinite, while for <italic>&#963;</italic> = 100 pA the duration of
     this state could not be distinguished from the firing baseline.</p>'
-  filename: PMC4991839/PMC4991839/pcbi.1005000.g007.jpg
+  format: jpeg
   id: pcbi.1005000/pcbi.1005000.g007
   label: Fig 7
+  local_filename: source/thumbnails/PMC4991839/PMC4991839/pcbi.1005000.g007.jpg
+- archive_filename: trajectory_increase_noise.jpg
+  format: jpeg
+  local_filename: source/models/206364/trajectory_increase_noise.jpg
+- archive_filename: trajectory_rand_noise.jpg
+  format: jpeg
+  local_filename: source/models/206364/trajectory_rand_noise.jpg
+- archive_filename: trajectory_rand_noise.png
+  format: png
+  local_filename: source/models/206364/trajectory_rand_noise.png
+- archive_filename: deShutter-Bower/DSB94_play/Imean=-160pA.jpg
+  format: jpeg
+  local_filename: source/models/206364/deShutter-Bower/DSB94_play/Imean=-160pA.jpg
+- archive_filename: XPP/Basin of attraction/aEIF_bif_bassin.jpg
+  format: jpeg
+  local_filename: source/models/206364/XPP/Basin of attraction/aEIF_bif_bassin.jpg
+- archive_filename: XPP/Basin of attraction/-100/V_w_100.jpg
+  format: jpeg
+  local_filename: source/models/206364/XPP/Basin of attraction/-100/V_w_100.jpg
+- archive_filename: XPP/Basin of attraction/-150/V_w_150.jpg
+  format: jpeg
+  local_filename: source/models/206364/XPP/Basin of attraction/-150/V_w_150.jpg
+- archive_filename: XPP/Basin of attraction/-200/V_w_200.jpg
+  format: jpeg
+  local_filename: source/models/206364/XPP/Basin of attraction/-200/V_w_200.jpg

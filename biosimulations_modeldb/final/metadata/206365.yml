@@ -1,3 +1,4 @@
+description: null
 references:
 - label: 'Anatoly Buchin, Anton Chizhov, Gilles Huberfeld, Richard Miles & Boris S.
     Gutkin. Reduced Efficacy of the KCC2 Cotransporter Promotes Epileptic Oscillations
@@ -5,4 +6,415 @@ references:
     (2016).'
   uri: http://identifiers.org/doi:10.1523/JNEUROSCI.4228-15.2016
 taxa: []
-thumbnails: []
+thumbnails:
+- archive_filename: Fig. 1/Fig.1.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 1/Fig.1.jpg
+- archive_filename: Fig. 2/Fig.2_1_test.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/Fig.2_1_test.jpg
+- archive_filename: Fig. 3/all.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 3/all.jpg
+- archive_filename: Fig. 3/Fig3_new.png
+  format: png
+  local_filename: source/models/206365/Fig. 3/Fig3_new.png
+- archive_filename: Fig. 3/glia_potassium.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 3/glia_potassium.jpg
+- archive_filename: Fig. 3/IKCC2_(+)_(-).jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 3/IKCC2_(+)_(-).jpg
+- archive_filename: Fig. 3/IKCC2_comparison.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 3/IKCC2_comparison.jpg
+- archive_filename: Fig. 3/IKCC2_VD_compare.png
+  format: png
+  local_filename: source/models/206365/Fig. 3/IKCC2_VD_compare.png
+- archive_filename: Fig. 3/noglia.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 3/noglia.jpg
+- archive_filename: Fig. 3/nopump.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 3/nopump.jpg
+- archive_filename: Fig. 3/VD_comparison.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 3/VD_comparison.jpg
+- archive_filename: Fig. 4/Fig.3.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 4/Fig.3.jpg
+- archive_filename: Fig. 5/Fig.6_1.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 5/Fig.6_1.jpg
+- archive_filename: Fig. 6/Fig.5_1.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 6/Fig.5_1.jpg
+- archive_filename: Fig. 7/Fig.7.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 7/Fig.7.jpg
+- archive_filename: Fig. 8/Fig.8.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 8/Fig.8.jpg
+- archive_filename: Fig. 2/B/Cli_Ko.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/B/Cli_Ko.jpg
+- archive_filename: Fig. 2/B/Cli_Ko_analysis.png
+  format: png
+  local_filename: source/models/206365/Fig. 2/B/Cli_Ko_analysis.png
+- archive_filename: Fig. 2/bif diagram/Ko.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/bif diagram/Ko.jpg
+- archive_filename: Fig. 4/A/raster.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 4/A/raster.jpg
+- archive_filename: Fig. 4/B/Ko_Cli.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 4/B/Ko_Cli.jpg
+- archive_filename: Fig. 4/C/PY_IN.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 4/C/PY_IN.jpg
+- archive_filename: Fig. 4/D/LFP.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 4/D/LFP.jpg
+- archive_filename: Fig. 4/D/spectrum.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 4/D/spectrum.jpg
+- archive_filename: Fig. 5/A/raster_6.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 5/A/raster_6.jpg
+- archive_filename: Fig. 5/B/Ko_Cli.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 5/B/Ko_Cli.jpg
+- archive_filename: Fig. 5/C/LFP_model.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 5/C/LFP_model.jpg
+- archive_filename: Fig. 5/C/LFP_repr.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 5/C/LFP_repr.jpg
+- archive_filename: Fig. 5/C/LFP_spect.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 5/C/LFP_spect.jpg
+- archive_filename: Fig. 5/D/I=0.4.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 5/D/I=0.4.jpg
+- archive_filename: Fig. 6/A/Seizure_frequency.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 6/A/Seizure_frequency.jpg
+- archive_filename: Fig. 6/B/LFP_time_to.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 6/B/LFP_time_to.jpg
+- archive_filename: Fig. 6/B/Time_to_seizure.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 6/B/Time_to_seizure.jpg
+- archive_filename: Fig. 6/C/gEE_gEI_Frequency.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 6/C/gEE_gEI_Frequency.jpg
+- archive_filename: Fig. 6/C/gEE_gEI_Frequency_1.png
+  format: png
+  local_filename: source/models/206365/Fig. 6/C/gEE_gEI_Frequency_1.png
+- archive_filename: Fig. 6/C/gEE_gIE_Frequency.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 6/C/gEE_gIE_Frequency.jpg
+- archive_filename: Fig. 6/C/gEE_gII_Frequency.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 6/C/gEE_gII_Frequency.jpg
+- archive_filename: Fig. 7/A/raster_scaled_100.png
+  format: png
+  local_filename: source/models/206365/Fig. 7/A/raster_scaled_100.png
+- archive_filename: Fig. 7/B/5_LFP_exp_repr_minimal.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 7/B/5_LFP_exp_repr_minimal.jpg
+- archive_filename: Fig. 7/B/5_LFP_model_repr.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 7/B/5_LFP_model_repr.jpg
+- archive_filename: Fig. 7/B/LFP_experiment.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 7/B/LFP_experiment.jpg
+- archive_filename: Fig. 7/B/LFP_model.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 7/B/LFP_model.jpg
+- archive_filename: Fig. 7/C/Ko_Cli.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 7/C/Ko_Cli.jpg
+- archive_filename: Fig. 7/D/LFP_spect_exp_E3_762_767.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 7/D/LFP_spect_exp_E3_762_767.jpg
+- archive_filename: Fig. 7/D/LFP_spect_model.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 7/D/LFP_spect_model.jpg
+- archive_filename: Fig. 8/A/raster.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 8/A/raster.jpg
+- archive_filename: Fig. 8/B/norm_neurons.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 8/B/norm_neurons.jpg
+- archive_filename: Fig. 8/B/norm_spect.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 8/B/norm_spect.jpg
+- archive_filename: Fig. 8/B/path_neurons.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 8/B/path_neurons.jpg
+- archive_filename: Fig. 8/B/seizure_spect.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 8/B/seizure_spect.jpg
+- archive_filename: Fig. 8/C/ions_KCC2_back.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 8/C/ions_KCC2_back.jpg
+- archive_filename: Fig. 8/Simulations/raster_0-10.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 8/Simulations/raster_0-10.jpg
+- archive_filename: Fig. 8/Simulations/raster_40-50.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 8/Simulations/raster_40-50.jpg
+- archive_filename: Fig. 1/D/Data_fit/Data_fit.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 1/D/Data_fit/Data_fit.jpg
+- archive_filename: Fig. 1/D/Data_fit/NKCC1_effect.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 1/D/Data_fit/NKCC1_effect.jpg
+- archive_filename: Fig. 1/D/Data_fit/NKCC1_effect.png
+  format: png
+  local_filename: source/models/206365/Fig. 1/D/Data_fit/NKCC1_effect.png
+- archive_filename: Fig. 1/D/Data_fit/NORM_lin.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 1/D/Data_fit/NORM_lin.jpg
+- archive_filename: Fig. 1/D/Data_fit/PATH_lin.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 1/D/Data_fit/PATH_lin.jpg
+- archive_filename: Fig. 2/C/5Hz/NORM_KCC2(+)_5Hz.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/5Hz/NORM_KCC2(+)_5Hz.jpg
+- archive_filename: Fig. 2/C/5Hz/PATH_KCC2(-)_5Hz.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/5Hz/PATH_KCC2(-)_5Hz.jpg
+- archive_filename: Fig. 6/D/Experiment/LFP&Cell_E3.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 6/D/Experiment/LFP&Cell_E3.jpg
+- archive_filename: Fig. 6/D/Experiment/LFP&Cell_E4.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 6/D/Experiment/LFP&Cell_E4.jpg
+- archive_filename: Fig. 6/D/Model/LFP_model_dipole.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 6/D/Model/LFP_model_dipole.jpg
+- archive_filename: Fig. 6/D/Model/LFP_model_full.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 6/D/Model/LFP_model_full.jpg
+- archive_filename: Fig. 6/D/Model/LFP_model_syn.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 6/D/Model/LFP_model_syn.jpg
+- archive_filename: Fig. 6/Simulations/gEE_gEI/border_gEE_gEI.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 6/Simulations/gEE_gEI/border_gEE_gEI.jpg
+- archive_filename: Fig. 6/Simulations/gEE_gEI/gEE_gEI_Frequency.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 6/Simulations/gEE_gEI/gEE_gEI_Frequency.jpg
+- archive_filename: Fig. 6/Simulations/gEE_gIE/gEE_gIE_Frequency.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 6/Simulations/gEE_gIE/gEE_gIE_Frequency.jpg
+- archive_filename: Fig. 7/simulations/KCC2%/KCC2(-)0_LFP.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 7/simulations/KCC2%/KCC2(-)0_LFP.jpg
+- archive_filename: Fig. 7/simulations/KCC2%/KCC2(-)100_LFP.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 7/simulations/KCC2%/KCC2(-)100_LFP.jpg
+- archive_filename: Fig. 7/simulations/KCC2%/KCC2(-)10_LFP.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 7/simulations/KCC2%/KCC2(-)10_LFP.jpg
+- archive_filename: Fig. 7/simulations/KCC2%/KCC2(-)15_LFP.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 7/simulations/KCC2%/KCC2(-)15_LFP.jpg
+- archive_filename: Fig. 7/simulations/KCC2%/KCC2(-)20_LFP.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 7/simulations/KCC2%/KCC2(-)20_LFP.jpg
+- archive_filename: Fig. 7/simulations/KCC2%/KCC2(-)25_LFP.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 7/simulations/KCC2%/KCC2(-)25_LFP.jpg
+- archive_filename: Fig. 7/simulations/KCC2%/KCC2(-)30_LFP.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 7/simulations/KCC2%/KCC2(-)30_LFP.jpg
+- archive_filename: Fig. 7/simulations/KCC2%/KCC2(-)35_LFP.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 7/simulations/KCC2%/KCC2(-)35_LFP.jpg
+- archive_filename: Fig. 7/simulations/KCC2%/KCC2(-)40_LFP.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 7/simulations/KCC2%/KCC2(-)40_LFP.jpg
+- archive_filename: Fig. 7/simulations/KCC2%/KCC2(-)45_LFP.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 7/simulations/KCC2%/KCC2(-)45_LFP.jpg
+- archive_filename: Fig. 7/simulations/KCC2%/KCC2(-)50_LFP.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 7/simulations/KCC2%/KCC2(-)50_LFP.jpg
+- archive_filename: Fig. 7/simulations/KCC2%/KCC2(-)55_LFP.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 7/simulations/KCC2%/KCC2(-)55_LFP.jpg
+- archive_filename: Fig. 7/simulations/KCC2%/KCC2(-)5_LFP.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 7/simulations/KCC2%/KCC2(-)5_LFP.jpg
+- archive_filename: Fig. 7/simulations/KCC2%/KCC2(-)60_LFP.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 7/simulations/KCC2%/KCC2(-)60_LFP.jpg
+- archive_filename: Fig. 7/simulations/KCC2%/KCC2(-)65_LFP.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 7/simulations/KCC2%/KCC2(-)65_LFP.jpg
+- archive_filename: Fig. 7/simulations/KCC2%/KCC2(-)70_LFP.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 7/simulations/KCC2%/KCC2(-)70_LFP.jpg
+- archive_filename: Fig. 7/simulations/KCC2%/KCC2(-)75_LFP.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 7/simulations/KCC2%/KCC2(-)75_LFP.jpg
+- archive_filename: Fig. 7/simulations/KCC2%/KCC2(-)80_LFP.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 7/simulations/KCC2%/KCC2(-)80_LFP.jpg
+- archive_filename: Fig. 7/simulations/KCC2%/KCC2(-)85_LFP.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 7/simulations/KCC2%/KCC2(-)85_LFP.jpg
+- archive_filename: Fig. 7/simulations/KCC2%/KCC2(-)90_LFP.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 7/simulations/KCC2%/KCC2(-)90_LFP.jpg
+- archive_filename: Fig. 7/simulations/KCC2%/KCC2(-)95_LFP.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 7/simulations/KCC2%/KCC2(-)95_LFP.jpg
+- archive_filename: Fig. 7/simulations/KCC2%/Seizure_frequency.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 7/simulations/KCC2%/Seizure_frequency.jpg
+- archive_filename: Fig. 7/simulations/KCC2%/Time_to_seizure.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 7/simulations/KCC2%/Time_to_seizure.jpg
+- archive_filename: Fig. 8/Simulations/40% run/ions_Ko_Cli.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 8/Simulations/40% run/ions_Ko_Cli.jpg
+- archive_filename: Fig. 8/Simulations/40% run/raster_E_I.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 8/Simulations/40% run/raster_E_I.jpg
+- archive_filename: Fig. 1/C/KCC2 norm/PSP/PSP.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 1/C/KCC2 norm/PSP/PSP.jpg
+- archive_filename: Fig. 1/C/KCC2 norm/V=-64mV/VS_norm_-64.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 1/C/KCC2 norm/V=-64mV/VS_norm_-64.jpg
+- archive_filename: Fig. 1/C/KCC2 norm/V=-90mV/VS_norm_-90.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 1/C/KCC2 norm/V=-90mV/VS_norm_-90.jpg
+- archive_filename: Fig. 1/C/KCC2 path/PSP/psp_path.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 1/C/KCC2 path/PSP/psp_path.jpg
+- archive_filename: Fig. 1/C/KCC2 path/V=-68mV/-68.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 1/C/KCC2 path/V=-68mV/-68.jpg
+- archive_filename: Fig. 1/C/KCC2 path/V=-68mV/VS_path_-68.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 1/C/KCC2 path/V=-68mV/VS_path_-68.jpg
+- archive_filename: Fig. 1/C/KCC2 path/V=-90mV/-90.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 1/C/KCC2 path/V=-90mV/-90.jpg
+- archive_filename: Fig. 1/C/KCC2 path/V=-90mV/VS_path_-90.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 1/C/KCC2 path/V=-90mV/VS_path_-90.jpg
+- archive_filename: Fig. 2/C/One neuron and Net/SN_fit/SN_fit.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron and Net/SN_fit/SN_fit.jpg
+- archive_filename: Fig. 2/C/One neuron/Different frequencies/Bazh_Ko_Cli_altKCC2_NORM_EX.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron/Different frequencies/Bazh_Ko_Cli_altKCC2_NORM_EX.jpg
+- archive_filename: Fig. 2/C/One neuron/Different frequencies/Bazh_Ko_Cli_altKCC2_PATH_EX.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron/Different frequencies/Bazh_Ko_Cli_altKCC2_PATH_EX.jpg
+- archive_filename: Fig. 2/C/One neuron/Different frequencies/PATH_NORM_Afterdischarge.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron/Different frequencies/PATH_NORM_Afterdischarge.jpg
+- archive_filename: Fig. 2/C/One neuron/Single series/Bazh_Ko_Cli_altKCC2_norm.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron/Single series/Bazh_Ko_Cli_altKCC2_norm.jpg
+- archive_filename: Fig. 2/C/One neuron/Single series/Bazh_Ko_Cli_altKCC2_path.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron/Single series/Bazh_Ko_Cli_altKCC2_path.jpg
+- archive_filename: Fig. 2/C/One neuron/SN_fit/SN_fit.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron/SN_fit/SN_fit.jpg
+- archive_filename: Fig. 6/Simulations/Control - no KCC2(-) cells/gEE_gEI/Frequency.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 6/Simulations/Control - no KCC2(-) cells/gEE_gEI/Frequency.jpg
+- archive_filename: Fig. 6/Simulations/Control - no KCC2(-) cells/gEE_gIE/Frequency.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 6/Simulations/Control - no KCC2(-) cells/gEE_gIE/Frequency.jpg
+- archive_filename: Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_0.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_0.jpg
+- archive_filename: Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_1.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_1.jpg
+- archive_filename: Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_10.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_10.jpg
+- archive_filename: Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_2.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_2.jpg
+- archive_filename: Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_3.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_3.jpg
+- archive_filename: Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_4.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_4.jpg
+- archive_filename: Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_5.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_5.jpg
+- archive_filename: Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_6.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_6.jpg
+- archive_filename: Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_7.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_7.jpg
+- archive_filename: Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_8.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_8.jpg
+- archive_filename: Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_9.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_9.jpg
+- archive_filename: Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_0.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_0.jpg
+- archive_filename: Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_1.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_1.jpg
+- archive_filename: Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_10.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_10.jpg
+- archive_filename: Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_2.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_2.jpg
+- archive_filename: Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_3.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_3.jpg
+- archive_filename: Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_4.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_4.jpg
+- archive_filename: Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_5.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_5.jpg
+- archive_filename: Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_6.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_6.jpg
+- archive_filename: Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_7.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_7.jpg
+- archive_filename: Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_8.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_8.jpg
+- archive_filename: Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_9.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_9.jpg
+- archive_filename: Fig. 2/C/One neuron/Single series/10Hz/KCC2(+).jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron/Single series/10Hz/KCC2(+).jpg
+- archive_filename: Fig. 2/C/One neuron/Single series/10Hz/KCC2(-).jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron/Single series/10Hz/KCC2(-).jpg
+- archive_filename: Fig. 2/C/One neuron/Single series/10Hz/Norm_10Hz.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron/Single series/10Hz/Norm_10Hz.jpg
+- archive_filename: Fig. 2/C/One neuron/Single series/10Hz/Path_10Hz.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron/Single series/10Hz/Path_10Hz.jpg
+- archive_filename: Fig. 2/C/One neuron/Single series/10Hz/Path_10Hz_1.jpg
+  format: jpeg
+  local_filename: source/models/206365/Fig. 2/C/One neuron/Single series/10Hz/Path_10Hz_1.jpg

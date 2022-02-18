@@ -94,6 +94,9 @@ and more.&#13;
     <rdfs:label>Paul Miller</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="local:00009">
+    <foaf:mbox rdf:resource="mailto:pmiller@brandeis.edu">mailto:pmiller@brandeis.edu</foaf:mbox>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
     <foaf:accountName rdf:resource="mailto:pmiller@brandeis.edu">mailto:pmiller@brandeis.edu</foaf:accountName>
   </rdf:Description>
   <rdf:Description rdf:about="local:00009">

@@ -1,10 +1,24 @@
+description: 'This is the model associated with the paper:
+
+
+  Hires SA, Pammer L, Svoboda K, Golomb D (2013) Tapered whiskers are
+
+  required for active tactile sensation. Elife 2:e01350
+
+
+  This is the code that the authors used.  Please contact David Golomb
+
+  for more information.
+
+  '
 references:
 - label: Samuel Andrew Hires, Lorenz Pammer, Karel Svoboda & David Golomb. Tapered
     whiskers are required for active tactile sensation. eLife 2 (2013).
   uri: http://identifiers.org/doi:10.7554/eLife.01350
 taxa: []
 thumbnails:
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Schematic
+- archive_filename: article-figures/PMC3828597/elife01350f001.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Schematic
     of the whisker in two dimensions.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) The whisker is
     modeled as a truncated cone of length <italic>L</italic><sub>W</sub>, virtually
@@ -42,10 +56,12 @@ thumbnails:
     xmlns:mml="http://www.w3.org/1998/Math/MathML"><bold>DOI:</bold>
 
     <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.01350.003">http://dx.doi.org/10.7554/eLife.01350.003</ext-link></p>'
-  filename: PMC3828597/PMC3828597/elife01350f001.jpg
+  format: jpeg
   id: elife01350/fig1
   label: Figure 1
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Interactions
+  local_filename: source/thumbnails/PMC3828597/PMC3828597/elife01350f001.jpg
+- archive_filename: article-figures/PMC3828597/elife01350f002.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Interactions
     between whiskers and an object.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">Solutions of the quasi-static model
     (<xref ref-type="disp-formula" rid="equ8">Equations 8</xref>&#8211;<xref ref-type="disp-formula"
@@ -76,10 +92,12 @@ thumbnails:
     = 4.29 mm.</p><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML"><bold>DOI:</bold>
 
     <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.01350.004">http://dx.doi.org/10.7554/eLife.01350.004</ext-link></p>'
-  filename: PMC3828597/PMC3828597/elife01350f002.jpg
+  format: jpeg
   id: elife01350/fig2
   label: Figure 2
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Analysis
+  local_filename: source/thumbnails/PMC3828597/PMC3828597/elife01350f002.jpg
+- archive_filename: article-figures/PMC3828597/elife01350f003.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Analysis
     of conical (<bold>A</bold>&#8211;<bold>E</bold>) and cylindrical whiskers (<bold>F</bold>&#8211;<bold>J</bold>)
     pushing into a pole.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>)
     Schematic of a conical whisker. Parameters for panels (<bold>B</bold>&#8211;<bold>E</bold>):
@@ -121,10 +139,12 @@ thumbnails:
     xmlns:mml="http://www.w3.org/1998/Math/MathML"><bold>DOI:</bold>
 
     <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.01350.005">http://dx.doi.org/10.7554/eLife.01350.005</ext-link></p>'
-  filename: PMC3828597/PMC3828597/elife01350f003.jpg
+  format: jpeg
   id: elife01350/fig3
   label: Figure 3
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Isolated
+  local_filename: source/thumbnails/PMC3828597/PMC3828597/elife01350f003.jpg
+- archive_filename: article-figures/PMC3828597/elife01350f004.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Isolated
     whiskers interacting with cylindrical poles.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) Top-down view
     of a mouse C2 whisker mounted on a galvanometer scanner. The scanner rotates the
@@ -149,10 +169,12 @@ thumbnails:
     xmlns:mml="http://www.w3.org/1998/Math/MathML"><bold>DOI:</bold>
 
     <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.01350.006">http://dx.doi.org/10.7554/eLife.01350.006</ext-link></p>'
-  filename: PMC3828597/PMC3828597/elife01350f004.jpg
+  format: jpeg
   id: elife01350/fig4
   label: Figure 4
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Slip-offs
+  local_filename: source/thumbnails/PMC3828597/PMC3828597/elife01350f004.jpg
+- archive_filename: article-figures/PMC3828597/elife01350f005.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Slip-offs
     during object location discrimination behavior.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) Schematic of a
     mouse whisking to touch a pole (experiments from <xref ref-type="bibr" rid="bib38">Pammer
@@ -171,10 +193,12 @@ thumbnails:
     xmlns:mml="http://www.w3.org/1998/Math/MathML"><bold>DOI:</bold>
 
     <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.01350.009">http://dx.doi.org/10.7554/eLife.01350.009</ext-link></p>'
-  filename: PMC3828597/PMC3828597/elife01350f005.jpg
+  format: jpeg
   id: elife01350/fig5
   label: Figure 5
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
+  local_filename: source/thumbnails/PMC3828597/PMC3828597/elife01350f005.jpg
+- archive_filename: article-figures/PMC3828597/elife01350f006.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
     whisker taper is necessary for slips across textures.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) Dual-perspective
     imaging of a conical whisker, mounted on a galvo, sweeping across a texture (600
@@ -197,10 +221,12 @@ thumbnails:
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML"><bold>DOI:</bold>
 
     <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.01350.010">http://dx.doi.org/10.7554/eLife.01350.010</ext-link></p>'
-  filename: PMC3828597/PMC3828597/elife01350f006.jpg
+  format: jpeg
   id: elife01350/fig6
   label: Figure 6
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Neural
+  local_filename: source/thumbnails/PMC3828597/PMC3828597/elife01350f006.jpg
+- archive_filename: article-figures/PMC3828597/elife01350f007.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Neural
     signals of slip-off in the barrel cortex.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) Silicon probe
     recording during a pole localization task (experiments from <xref ref-type="bibr"
@@ -227,6 +253,7 @@ thumbnails:
     xmlns:mml="http://www.w3.org/1998/Math/MathML"><bold>DOI:</bold>
 
     <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.01350.013">http://dx.doi.org/10.7554/eLife.01350.013</ext-link></p>'
-  filename: PMC3828597/PMC3828597/elife01350f007.jpg
+  format: jpeg
   id: elife01350/fig7
   label: Figure 7
+  local_filename: source/thumbnails/PMC3828597/PMC3828597/elife01350f007.jpg

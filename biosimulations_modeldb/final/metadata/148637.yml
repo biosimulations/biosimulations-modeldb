@@ -1,3 +1,19 @@
+description: "Reproduces figures 5 - 8 from\n\nDovzhenok, A., C. Park, R.M. Worth,\
+  \ L.L. Rubchinsky. \nFailure of delayed feedback deep brain stimulation for intermittent\n\
+  pathological synchronization in Parkinson's disease.\nPLoS One 8(3):e58264, 2013.\n\
+  \nImplemented by Andrey Dovzhenok, to whom questions should be\naddressed.\n\nUsage:\n\
+  \n1. Unzip Dovzhenoketal2013.zip into an empty directory.\n\n2. Open the folder\
+  \ in Matlab.\n\n3a. Run PCAgenerator1el.m to compute principal components for the\n\
+  arrangement with a single electrode. The ode file with a single\nelectrode arrangement\
+  \ is used.\n3b Run PCAgenerator.m to compute principal components for the\narrangements\
+  \ with two or three electrodes. Included ode-files\ncorrespond to the various electrode\
+  \ arrangements considered in the\npaper.  Specify the name of the ode-file corresponding\
+  \ to the desired\nelectrode arrangements on line 9 in odeFileName variable.\n\n\
+  4a. Run Sign_subset_1el.m with the outcome of the step 3a to generate\nfigures 6A\
+  \ and 6B.\n4b. Run Sign_subset.m with the outcome of the step 3b to generate\nfigure\
+  \ 5 and the rest of figure 6.\n\n5a. Run Max_plane_1el.m with the outcomes of the\
+  \ step 3a to generate\nfigures 8A and 8B.\n5b. Run Max_plane.m with the outcomes\
+  \ of the step 3b to generate\nfigure 7 and the rest of figure 8.\n"
 references:
 - label: 'Andrey Dovzhenok, Choongseok Park, Robert M. Worth & Leonid L. Rubchinsky.
     Failure of delayed feedback deep brain stimulation for intermittent pathological
@@ -5,25 +21,30 @@ references:
   uri: http://identifiers.org/doi:10.1371/journal.pone.0058264
 taxa: []
 thumbnails:
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
+- archive_filename: article-figures/PMC3585780/pone.0058264.g001.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
     schematics of the model network with examples of synaptic connections between
     neurons.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Bars
     represent inhibitory synapses and arrows represent excitatory synapses. Delayed
     feedback stimulation I<sub>stim</sub> is modeled as an applied current to specified
     STN neurons.</p>
-  filename: PMC3585780/PMC3585780/pone.0058264.g001.jpg
+  format: jpeg
   id: pone.0058264/pone-0058264-g001
   label: Figure 1
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Stimulation
+  local_filename: source/thumbnails/PMC3585780/PMC3585780/pone.0058264.g001.jpg
+- archive_filename: article-figures/PMC3585780/pone.0058264.g002.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Stimulation
     setup for STN neurons.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">STN
     LFP is first computed from synaptic currents and then band-pass filtered using
     a damped harmonic oscillator. Differential delay signal is then constructed from
     the filtered signal, bounded by nonlinear transformation, amplified and injected
     into the same neurons.</p>
-  filename: PMC3585780/PMC3585780/pone.0058264.g002.jpg
+  format: jpeg
   id: pone.0058264/pone-0058264-g002
   label: Figure 2
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Parameter
+  local_filename: source/thumbnails/PMC3585780/PMC3585780/pone.0058264.g002.jpg
+- archive_filename: article-figures/PMC3585780/pone.0058264.g003.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Parameter
     plane with the number of principal components in the network without stimulation.</title><p
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Dashed
     contours represent parameter values for which the model network synchronization
@@ -34,10 +55,12 @@ thumbnails:
     for the parameter values inside the dotted rectangle. The filling of the circles
     specifies the number of principle components; red being synchronized dynamics
     and black being incoherent dynamics.</p>'
-  filename: PMC3585780/PMC3585780/pone.0058264.g003.jpg
+  format: jpeg
   id: pone.0058264/pone-0058264-g003
   label: Figure 3
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Delayed
+  local_filename: source/thumbnails/PMC3585780/PMC3585780/pone.0058264.g003.jpg
+- archive_filename: article-figures/PMC3585780/pone.0058264.g004.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Delayed
     feedback stimulation effect in the model network.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">A) Desynchronization of strongly
     synchronous STN neurons with delayed feedback stimulation. B) Feedback stimulation
@@ -67,10 +90,12 @@ thumbnails:
 
     <sub>f</sub>&#8202;=&#8202;35. The mean period of the model network without stimulation
     is <italic>T</italic> &#8776; 100 ms.</p>'
-  filename: PMC3585780/PMC3585780/pone.0058264.g004.jpg
+  format: jpeg
   id: pone.0058264/pone-0058264-g004
   label: Figure 4
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Change
+  local_filename: source/thumbnails/PMC3585780/PMC3585780/pone.0058264.g004.jpg
+- archive_filename: article-figures/PMC3585780/pone.0058264.g005.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Change
     in the number of PCA components in the network with different feedback stimulation
     set-ups.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Positive
     change indicates dynamics less synchronous than pre-stimulation dynamics, negative
@@ -89,10 +114,12 @@ thumbnails:
     <sub>2</sub>&#8202;=&#8202;0.1. <italic>I</italic>
 
     <sub>app</sub>&#8202;=&#8202;5 in all simulations.</p>'
-  filename: PMC3585780/PMC3585780/pone.0058264.g005.jpg
+  format: jpeg
   id: pone.0058264/pone-0058264-g005
   label: Figure 5
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Change
+  local_filename: source/thumbnails/PMC3585780/PMC3585780/pone.0058264.g005.jpg
+- archive_filename: article-figures/PMC3585780/pone.0058264.g006.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Change
     in the number of PCA components in a network with feedback stimulation.</title><p
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
     spatial set-up of stimulation is different from that in <xref ref-type="fig" rid="pone-0058264-g005">Figure
@@ -111,10 +138,12 @@ thumbnails:
     <sub>2</sub>&#8202;=&#8202;0.1. <italic>I</italic>
 
     <sub>app</sub>&#8202;=&#8202;5 in all simulations.</p>'
-  filename: PMC3585780/PMC3585780/pone.0058264.g006.jpg
+  format: jpeg
   id: pone.0058264/pone-0058264-g006
   label: Figure 6
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Maximum
+  local_filename: source/thumbnails/PMC3585780/PMC3585780/pone.0058264.g006.jpg
+- archive_filename: article-figures/PMC3585780/pone.0058264.g007.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Maximum
     improvement in the number of principal components during stimulation.</title><p
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
     spatial electrode setups are the same as in <xref ref-type="fig" rid="pone-0058264-g005">Figure
@@ -141,10 +170,12 @@ thumbnails:
     <sub>2</sub>&#8202;=&#8202;0; B, D) <italic>w</italic>
 
     <sub>2</sub>&#8202;=&#8202;0.1.</p>'
-  filename: PMC3585780/PMC3585780/pone.0058264.g007.jpg
+  format: jpeg
   id: pone.0058264/pone-0058264-g007
   label: Figure 7
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Maximum
+  local_filename: source/thumbnails/PMC3585780/PMC3585780/pone.0058264.g007.jpg
+- archive_filename: article-figures/PMC3585780/pone.0058264.g008.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Maximum
     improvement in the number of principal components during stimulation.</title><p
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
     spatial electrode setups are the same as in <xref ref-type="fig" rid="pone-0058264-g006">Figure
@@ -167,6 +198,7 @@ thumbnails:
     <sub>2</sub>&#8202;=&#8202;0; B, D, F) <italic>w</italic>
 
     <sub>2</sub>&#8202;=&#8202;0.1.</p>'
-  filename: PMC3585780/PMC3585780/pone.0058264.g008.jpg
+  format: jpeg
   id: pone.0058264/pone-0058264-g008
   label: Figure 8
+  local_filename: source/thumbnails/PMC3585780/PMC3585780/pone.0058264.g008.jpg

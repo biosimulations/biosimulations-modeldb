@@ -1,10 +1,18 @@
+description: "This is a simple mathematical model of intracellularcircadian clock\
+  \ developed in the paper  \n\nJae Kyoung Kim and Daniel B. Forger (2012) \"A mechanism\
+  \ for robust circadian timekeeping via balanced stoichiometry\", Molecular Systems\
+  \ Biology\n\n\nSNF: Single negative feedback loop.\nNNF: Negative feedback loop\
+  \ with additional negative feedback loop. \nPNF: Negative feedback loop with additional\
+  \ positive feedback loop. \n\nThe model is available in the format of \n\n1) XPPAUT:\
+  \ *.ode\n2) Matlab: *.m\n3) Mathematica: *.nb\n4) SBML: *.xml\n\n\n\n"
 references:
 - label: 'Jae Kyoung Kim & Daniel B Forger. A mechanism for robust circadian timekeeping
     via stoichiometric balance. Molecular Systems Biology 8: 630 (2012).'
   uri: http://identifiers.org/doi:10.1038/msb.2012.62
 taxa: []
 thumbnails:
-- caption: <p>Schematic of the detailed mammalian circadian clock model. (<bold>A</bold>)
+- archive_filename: article-figures/PMC3542529/msb201262-f1.jpg
+  caption: <p>Schematic of the detailed mammalian circadian clock model. (<bold>A</bold>)
     Only some of the relevant species are shown. Circles refer to transcripts and
     squares are proteins, possibly in complex. Small circles refer to phosphorylation
     states that are color coded by the kinases that perform the phosphorylation. See
@@ -15,10 +23,12 @@ thumbnails:
     the activators (BMALs and CLOCK/NPAS2) of their own transcription expression through
     the core negative feedback loop. The activators inactivate their own transcription
     expression by inducing the Rev-erbs through the secondary negative feedback loop.</p>
-  filename: PMC3542529/PMC3542529/msb201262-f1.jpg
+  format: jpeg
   id: msb201262/f1
   label: Figure 1
-- caption: <p>Validation of the detailed model. (<bold>A</bold>) Predicted mRNAs time
+  local_filename: source/thumbnails/PMC3542529/PMC3542529/msb201262-f1.jpg
+- archive_filename: article-figures/PMC3542529/msb201262-f2.jpg
+  caption: <p>Validation of the detailed model. (<bold>A</bold>) Predicted mRNAs time
     courses in SCN (<xref ref-type="bibr" rid="b67">Ueda et al, 2005</xref>). Time
     courses were normalized so that the peak value is 1, matching experimental data.
     (<bold>B</bold>) Predicted protein time courses in SCN (<xref ref-type="bibr"
@@ -34,10 +44,12 @@ thumbnails:
     fibroblast (<xref ref-type="bibr" rid="b40">Lee et al, 2009</xref>). From this,
     we assumed that total CKI&#603;/&#948; would be &#8764;67.5% of the maximum value
     of CRY1 in mice liver and fibroblast.</p>
-  filename: PMC3542529/PMC3542529/msb201262-f2.jpg
+  format: jpeg
   id: msb201262/f2
   label: Figure 2
-- caption: <p>Proper stoichiometry between activators and repressors is the key to
+  local_filename: source/thumbnails/PMC3542529/PMC3542529/msb201262-f2.jpg
+- archive_filename: article-figures/PMC3542529/msb201262-f3.jpg
+  caption: <p>Proper stoichiometry between activators and repressors is the key to
     sustained oscillations. (<bold>A</bold>) Our detailed mathematical model accurately
     predicts the phenotype of the known mutations in circadian genes (<xref ref-type="table"
     rid="t1">Table I</xref>). We plot the stoichiometry predicted by our model in
@@ -56,10 +68,12 @@ thumbnails:
     is changed. The range of the stoichiometry widens as the dissociation constant
     (<italic>K</italic><sub>d</sub>) decreases or the binding between the activator
     and the repressor tightens.</p>
-  filename: PMC3542529/PMC3542529/msb201262-f3.jpg
+  format: jpeg
   id: msb201262/f3
   label: Figure 3
-- caption: <p>The NNF structure maintains stoichiometry in balance by active compensation
+  local_filename: source/thumbnails/PMC3542529/PMC3542529/msb201262-f3.jpg
+- archive_filename: article-figures/PMC3542529/msb201262-f4.jpg
+  caption: <p>The NNF structure maintains stoichiometry in balance by active compensation
     of both repressors and activators. (<bold>A</bold>) A negative or positive feedback
     controlling the activator is added to the original negative feedback controlling
     the repressor. (<bold>B</bold>) The relative sensitivity (% change in mean level
@@ -93,10 +107,12 @@ thumbnails:
     the expression level of <italic>Bmal1</italic> and <italic>Cry1</italic>, but
     decreases that of <italic>Per2.</italic> All the values were normalized by the
     average of <italic>Per2</italic> expression level in WT.</p>
-  filename: PMC3542529/PMC3542529/msb201262-f4.jpg
+  format: jpeg
   id: msb201262/f4
   label: Figure 4
-- caption: <p>The NNF structure oscillates over the widest range of parameters. (<bold>A</bold>)
+  local_filename: source/thumbnails/PMC3542529/PMC3542529/msb201262-f4.jpg
+- archive_filename: article-figures/PMC3542529/msb201262-f5.jpg
+  caption: <p>The NNF structure oscillates over the widest range of parameters. (<bold>A</bold>)
     The transcription rate of the repressor and the activator are changed from their
     initial value, and the range of parameters where the rhythms persist is shown.
     Here, dissociation constant, <italic>K</italic><sub>d</sub>=10<sup>&#8722;5</sup>
@@ -109,10 +125,12 @@ thumbnails:
     model. Details about these plots, as well as our methods for generating them are
     described in <xref ref-type="supplementary-material" rid="S1">Supplementary Figure
     5A&#8211;C</xref>.</p>
-  filename: PMC3542529/PMC3542529/msb201262-f5.jpg
+  format: jpeg
   id: msb201262/f5
   label: Figure 5
-- caption: <p>A design suitable for the cellular clocks with a fixed period. (<bold>A</bold>)
+  local_filename: source/thumbnails/PMC3542529/PMC3542529/msb201262-f5.jpg
+- archive_filename: article-figures/PMC3542529/msb201262-f6.jpg
+  caption: <p>A design suitable for the cellular clocks with a fixed period. (<bold>A</bold>)
     A single-negative feedback loop with an additional fast positive feedback loop,
     with which activator (<italic>A</italic>) activates itself and degrades quickly.
     This structure has been identified in various biological oscillators like the
@@ -129,6 +147,7 @@ thumbnails:
     as in <xref ref-type="supplementary-material" rid="S1">Supplementary Figure 5C</xref>.
     The period is plotted as a color where green refers to the period with the unperturbed
     parameters.</p>
-  filename: PMC3542529/PMC3542529/msb201262-f6.jpg
+  format: jpeg
   id: msb201262/f6
   label: Figure 6
+  local_filename: source/thumbnails/PMC3542529/PMC3542529/msb201262-f6.jpg

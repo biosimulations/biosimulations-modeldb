@@ -6,6 +6,24 @@
   <rdf:Description rdf:about="http://omex-library.org/150217.omex">
     <dc:abstract>We investigated the reliability of the timing of spikes in a spike train in a Morris-Lecar model with several extensions. A frozen Gaussian noise current, superimposed on a DC current, was injected. The neuron responded with spike trains that showed trial-to-trial variability. The reliability depends on the shape (steepness) of the current input versus spike frequency output curve. The model also allowed to study the contribution of three relevant ionic membrane currents to reliability: a T-type calcium current, a cation selective h-current and a calcium dependent potassium current in order to allow bursting, investigate the consequences of a more complex current-frequency relation and produce realistic firing rates.</dc:abstract>
   </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/150217.omex">
+    <dc:description>```
+
+The XPP code was run and set with MATLAB (using file runchange.m),
+using the MATLAB-XPP interface that can be downloaded here:
+&lt;http://www2.gsu.edu/~matrhc/XPP-Matlab.html&gt;
+
+There were five sets of simulations
+1 The original Prescott model: prescott
+2 Model with added T-current: prescott + T
+3 Model with added T-current and adaptation current: prescott + T+adap
+4 Model with added T-current and h-current: prescott + T+h
+5 Model with added T-current with variable gT: prescott+Tvar
+
+All used the same input stimulus, taken from the experiments, stim.tab
+
+```</dc:description>
+  </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>
   </rdf:Description>
@@ -104,6 +122,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="local:00012">
     <rdfs:label>Fleur Zeldenrust</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <foaf:mbox rdf:resource="mailto:fleurzeldenrust@gmail.com">mailto:fleurzeldenrust@gmail.com</foaf:mbox>
   </rdf:Description>
   <rdf:Description rdf:about="local:00012">
     <foaf:accountName rdf:resource="mailto:fleurzeldenrust@gmail.com">mailto:fleurzeldenrust@gmail.com</foaf:accountName>

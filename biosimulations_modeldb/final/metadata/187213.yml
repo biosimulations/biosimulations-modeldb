@@ -1,3 +1,40 @@
+description: "**************************************************************************************************\n\
+  **************************************************************************************************\n\
+  **************************************************************************************************\n\
+  \nThe code can be used to reproduce time series and bifurcation diagrams shown in\
+  \ Figs. 4 and 5.\n\nTime series (obtained from time_series.ode):\na.) time series\
+  \ for \u2018par vle=720\u2019:\n    - parameter specification from line 33\nb.)\
+  \ time series for \u2018par vle=3700\u2019:\n    - parameter specification from\
+  \ line 34\n\nBifurcation diagrams (obtained from continuatons.ode)\nc.) bifurcation\
+  \ diagram for \u2018par vle=720\u2019:\n    - initial conditions from line 64-68\
+  \ (instead of line 72-76)\n    - parameter specification from line 87 (instead of\
+  \ line 88) \n    - change \u2018PARMIN=-250\u2019 to \u2018PARMIN=-50\u2019 in line\
+  \ 201\n    - change \u2018XAUTOMIN=-250\u2019 to \u2018XAUTOMIN=-50\u2019 in line\
+  \ 202 \n    - forward and backward continuation as described in the general instructions\
+  \ 1-8.) given below\n\nd.) upper branch of bifurcation diagram for \u2018par vle=3700\u2019\
+  :\n    - initial conditions from line 72-76\n    - parameter specification from\
+  \ line 88\n    - default values for  \u2018PARMIN\u2019 and \u2018XAUTOMIN\u2019\
+  \ in lines 201-202 \n    - forward and backward continuation as described in the\
+  \ general instructions 1-8.) given below\n\nd.) lower branch of bifurcation diagram\
+  \ for \u2018par vle=3700\u2019:\n    - initial conditions from line 64-68\n    -\
+  \ parameter specification from line 88\n    - default values for  \u2018PARMIN\u2019\
+  \ and \u2018XAUTOMIN\u2019 in lines 201-202 \n    - forward and backward continuation\
+  \ as described in the general instructions 1-8.) given below\n\n\n\n\nThe fixed\
+  \ point curves from Figs. 4 and 5 can be obtained as follows:\n\n1.) open file with\
+  \ XPPAUT\n2.) run simulation twice to make sure the system is in its fixed point:\n\
+  \     click \"Initialconds\" + \"(G)o\"; \"Initialconds\" + \"(L)ast\"\n     (keyboard\
+  \ shortcuts: \"I\" + \"G\", \"I\" + \u201CL\")\n3.) open AUTO interface:\n     click\
+  \ \"File\" + \"Auto\"\n     (keyboard shortcut: \"F\" + \u201CA\")\n4.) run 'forward'\
+  \ fixed point continuation:\n     click \"Run\" + \"Steady state\"\n     (keyboard\
+  \ shortcut: \"R\" + \u201CS\")\n5.) grab point to start 'backward' continuation\
+  \ if desired: \n     click \u201CGrab\u201D, then navigate along the curve with\
+  \ \"tab\u201D key, press\n     \"enter\" to choose point\n6.) set continuation step\
+  \ size to negative: \n     click \"Numerics\u201D and change 'Ds:0.002' to 'Ds:-0.002\u2019\
+  , click \"Ok\"\n7.) run backward coninuation by clicking \"Run\"\n8.) save the fixed\
+  \ point curves and bifurcation information: \n     click \"File\" + \"All info\u201D\
+  , choose a filename and click \"Ok\"\n\n**************************************************************************************************\n\
+  **************************************************************************************************\n\
+  **************************************************************************************************\n"
 references:
 - label: "Niklas H\xFCbel, R. David Andrew & Ghanim Ullah. Large extracellular space\
     \ leads to neuronal susceptibility to ischemic injury in a Na+/K+ pumps-dependent\

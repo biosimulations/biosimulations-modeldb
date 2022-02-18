@@ -6,6 +6,47 @@
   <rdf:Description rdf:about="http://omex-library.org/152028.omex">
     <dc:abstract>Single compartmental, ball-and-stick models implemented in XPP and full morphological model in Neuron. Paper has been submitted and correlates anatomical properties with electrophysiological recordings from these hard-to-access neurons. For instance we make predictions about location of the spike initiation zone, channel distributions, and synaptic input parameters.</dc:abstract>
   </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152028.omex">
+    <dc:description>```
+&#13;&#13;
+This is the modeling package to accompany paper by:&#13;&#13;
+&#13;&#13;
+Cengiz Gunay, Fred Sieling, Logesh Dharmar, Wei-Hsiang Lin, Verena&#13;&#13;
+Wolfram, Richard Marley, Richard A. Baines, and Astrid A. Prinz.&#13;&#13;
+Title: TBD; in preparation.&#13;&#13;
+&#13;&#13;
+Download from:&#13;&#13;
+&lt;http://www.biology.emory.edu/research/Prinz/Cengiz/Gunay_etal_2014.zip&gt;&#13;&#13;
+&#13;&#13;
+Requirements:&#13;&#13;
+XPPAUT 5.99 - &lt;http://www.math.pitt.edu/~bard/xpp/xpp.html&gt;&#13;&#13;
+Neuron 7.1 - &lt;http://www.neuron.yale.edu&gt;&#13;&#13;
+PANDORA 1.3b - &lt;http://software.incf.org/software/pandora&gt;&#13;&#13;
+&#13;&#13;
+Directories:&#13;&#13;
+channels/	Results of channel fits and related figures (see all\_channels.m).&#13;&#13;
+xpp-models/	Isopotential and ball-and-stick models and their figures (see figure\_models.m).&#13;&#13;
+morphological/	Multicompartmental model in Neuron (see figures.m).&#13;&#13;
+param-fitter/   Matlab code used for channel parameter fitting (add to Matlab path).&#13;&#13;
+&#13;&#13;
+Workflow/history of project:&#13;&#13;
+- Channel data were fit with the Neurofit tool and then re-adjusted with param-fitter in Matlab.&#13;&#13;
+- XPP models were built with these channels and hand-tuned to fit observed f-I, v-I, and delay.&#13;&#13;
+- Neuron model used these channels and some properties of the ball-and-stick model.&#13;&#13;
+- Morphological reconstruction passive parameters were tuned to recorded capacitance responses.&#13;&#13;
+- Channel distribution hand tuned to mimick observed current responses.&#13;&#13;
+&#13;&#13;
+Note:&#13;&#13;
+- Matlab files are scripts with sections that correspond to&#13;&#13;
+figures. They are NOT meant to be run as a whole. Sections must be run&#13;&#13;
+separately.&#13;&#13;
+&#13;&#13;
+Please report problems/suggestions/comments to:&#13;&#13;
+Cengiz Gunay (cengique AT users.sf.net)&#13;&#13;
+2014/01/08&#13;&#13;
+
+```</dc:description>
+  </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://identifiers.org/taxonomy:7215">http://identifiers.org/taxonomy:7215</dc:identifier>
   </rdf:Description>
@@ -109,6 +150,9 @@
     <rdfs:label>Cengiz Gunay</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="local:00010">
+    <foaf:mbox rdf:resource="mailto:cgunay@emory.edu">mailto:cgunay@emory.edu</foaf:mbox>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
     <foaf:accountName rdf:resource="mailto:cgunay@emory.edu">mailto:cgunay@emory.edu</foaf:accountName>
   </rdf:Description>
   <rdf:Description rdf:about="local:00010">
@@ -124,6 +168,9 @@
     <rdfs:label>Fred Sieling</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="local:00011">
+    <foaf:mbox rdf:resource="mailto:fred.sieling@gmail.com">mailto:fred.sieling@gmail.com</foaf:mbox>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
     <foaf:accountName rdf:resource="mailto:fred.sieling@gmail.com">mailto:fred.sieling@gmail.com</foaf:accountName>
   </rdf:Description>
   <rdf:Description rdf:about="local:00011">
@@ -137,6 +184,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="local:00012">
     <rdfs:label>Astrid Prinz</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <foaf:mbox rdf:resource="mailto:astrid.prinz@emory.edu">mailto:astrid.prinz@emory.edu</foaf:mbox>
   </rdf:Description>
   <rdf:Description rdf:about="local:00012">
     <foaf:accountName rdf:resource="mailto:astrid.prinz@emory.edu">mailto:astrid.prinz@emory.edu</foaf:accountName>

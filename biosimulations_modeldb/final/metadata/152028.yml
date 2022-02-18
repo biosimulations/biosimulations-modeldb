@@ -1,3 +1,24 @@
+description: "```\n\r\r\nThis is the modeling package to accompany paper by:\r\r\n\
+  \r\r\nCengiz Gunay, Fred Sieling, Logesh Dharmar, Wei-Hsiang Lin, Verena\r\r\nWolfram,\
+  \ Richard Marley, Richard A. Baines, and Astrid A. Prinz.\r\r\nTitle: TBD; in preparation.\r\
+  \r\n\r\r\nDownload from:\r\r\n<http://www.biology.emory.edu/research/Prinz/Cengiz/Gunay_etal_2014.zip>\r\
+  \r\n\r\r\nRequirements:\r\r\nXPPAUT 5.99 - <http://www.math.pitt.edu/~bard/xpp/xpp.html>\r\
+  \r\nNeuron 7.1 - <http://www.neuron.yale.edu>\r\r\nPANDORA 1.3b - <http://software.incf.org/software/pandora>\r\
+  \r\n\r\r\nDirectories:\r\r\nchannels/\tResults of channel fits and related figures\
+  \ (see all\\_channels.m).\r\r\nxpp-models/\tIsopotential and ball-and-stick models\
+  \ and their figures (see figure\\_models.m).\r\r\nmorphological/\tMulticompartmental\
+  \ model in Neuron (see figures.m).\r\r\nparam-fitter/   Matlab code used for channel\
+  \ parameter fitting (add to Matlab path).\r\r\n\r\r\nWorkflow/history of project:\r\
+  \r\n- Channel data were fit with the Neurofit tool and then re-adjusted with param-fitter\
+  \ in Matlab.\r\r\n- XPP models were built with these channels and hand-tuned to\
+  \ fit observed f-I, v-I, and delay.\r\r\n- Neuron model used these channels and\
+  \ some properties of the ball-and-stick model.\r\r\n- Morphological reconstruction\
+  \ passive parameters were tuned to recorded capacitance responses.\r\r\n- Channel\
+  \ distribution hand tuned to mimick observed current responses.\r\r\n\r\r\nNote:\r\
+  \r\n- Matlab files are scripts with sections that correspond to\r\r\nfigures. They\
+  \ are NOT meant to be run as a whole. Sections must be run\r\r\nseparately.\r\r\n\
+  \r\r\nPlease report problems/suggestions/comments to:\r\r\nCengiz Gunay (cengique\
+  \ AT users.sf.net)\r\r\n2014/01/08\r\r\n\n```"
 references:
 - label: "Cengiz G\xFCnay, Fred H. Sieling, Logesh Dharmar, Wei-Hsiang Lin, Verena\
     \ Wolfram, Richard Marley, Richard A. Baines & Astrid A. Prinz. Distal spike initiation\
@@ -9,7 +30,8 @@ taxa:
 - label: Drosophila
   uri: http://identifiers.org/taxonomy:7215
 thumbnails:
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Ionic
+- archive_filename: article-figures/PMC4433181/pcbi.1004189.g001.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Ionic
     currents modeled from identified larval aCC motoneurons.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) Simulated voltage
     clamp Na<sup>+</sup> current to replicate previously published responses by [<xref
@@ -31,10 +53,12 @@ thumbnails:
     5</xref>.); voltage dependence of time constants and the gates of activation (m)
     and inactivation (h). The Kf current model also included a second, slow inactivation
     with a time constant of 135 ms (not shown).</p>
-  filename: PMC4433181/PMC4433181/pcbi.1004189.g001.jpg
+  format: jpeg
   id: pcbi.1004189/pcbi.1004189.g001
   label: Fig 1
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Isopotential
+  local_filename: source/thumbnails/PMC4433181/PMC4433181/pcbi.1004189.g001.jpg
+- archive_filename: article-figures/PMC4433181/pcbi.1004189.g002.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Isopotential
     and two-compartment models compared to recordings.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) Third instar aCC
     motoneuron recording (i.) in presence of 0.2 mM Cd<sup>+2</sup> to block Ca<sup>+2</sup>
@@ -47,10 +71,12 @@ thumbnails:
     spike in response to current injection. (<bold>D</bold>) The firing rate-membrane
     voltage (f-V) response of only the two-compartment model qualitatively mimicked
     the inter-spike voltage depolarizations that appeared for high firing rates.</p>'
-  filename: PMC4433181/PMC4433181/pcbi.1004189.g002.jpg
+  format: jpeg
   id: pcbi.1004189/pcbi.1004189.g002
   label: Fig 2
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Morphological
+  local_filename: source/thumbnails/PMC4433181/PMC4433181/pcbi.1004189.g002.jpg
+- archive_filename: article-figures/PMC4433181/pcbi.1004189.g003.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Morphological
     reconstruction of the 3rd instar aCC motoneuron.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) Schematic muscle
     projections of aCC motoneurons based on their location in the nerve cord segment.
@@ -64,10 +90,12 @@ thumbnails:
     to voltage-clamp step to &#8722;90 mV from a holding potential of &#8722;60 mV
     is simulated in Neuron with the fitted parameters (see <xref rid="pcbi.1004189.t002"
     ref-type="table">Table 2</xref>).</p>
-  filename: PMC4433181/PMC4433181/pcbi.1004189.g003.jpg
+  format: jpeg
   id: pcbi.1004189/pcbi.1004189.g003
   label: Fig 3
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulations
+  local_filename: source/thumbnails/PMC4433181/PMC4433181/pcbi.1004189.g003.jpg
+- archive_filename: article-figures/PMC4433181/pcbi.1004189.g004.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulations
     of the passive morphology showed its compactness and filtering properties.</title><p
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>)
     Simulation setup for the ipsilateral dendritic field of the reconstructed morphology
@@ -92,10 +120,12 @@ thumbnails:
     in simulated morphology, we showed that the membrane response is filtered dependent
     on frequency. Dashed gray line shows the fastest (<italic>&#964;</italic> = 0.3
     ms) current stimulus applied distally.</p>
-  filename: PMC4433181/PMC4433181/pcbi.1004189.g004.jpg
+  format: jpeg
   id: pcbi.1004189/pcbi.1004189.g004
   label: Fig 4
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulated
+  local_filename: source/thumbnails/PMC4433181/PMC4433181/pcbi.1004189.g004.jpg
+- archive_filename: article-figures/PMC4433181/pcbi.1004189.g005.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulated
     and observed evidence for delayed rectifier Ks channel activity and distribution.</title><p
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>)
     Simulating voltage clamp (VC) to 0 mV at the soma and observing voltage distribution
@@ -130,10 +160,12 @@ thumbnails:
     the I-V curves (showing input conductance) were also similar (bottom; using markers
     instead of lines). The input conductance at the soma only increased by about 1
     nS in the presumed Ks activation voltage range.</p>'
-  filename: PMC4433181/PMC4433181/pcbi.1004189.g005.jpg
+  format: jpeg
   id: pcbi.1004189/pcbi.1004189.g005
   label: Fig 5
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Different
+  local_filename: source/thumbnails/PMC4433181/PMC4433181/pcbi.1004189.g005.jpg
+- archive_filename: article-figures/PMC4433181/pcbi.1004189.g006.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Different
     distributions of NaT/Ks channels on the constructed morphology predicted SIZ location
     that can reproduce firing activity characteristics.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>-<bold>C</bold>)
@@ -146,10 +178,12 @@ thumbnails:
     for comparison. Change of voltage offset (<bold>K</bold>) and spike amplitude
     (<bold>L</bold>) with current injection compared between the NaT/Ks placements
     in (<bold>A</bold>-<bold>D</bold>) and the biological recording (aCC w/ Cd<sup>2+</sup>).</p>
-  filename: PMC4433181/PMC4433181/pcbi.1004189.g006.jpg
+  format: jpeg
   id: pcbi.1004189/pcbi.1004189.g006
   label: Fig 6
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">NaT
+  local_filename: source/thumbnails/PMC4433181/PMC4433181/pcbi.1004189.g006.jpg
+- archive_filename: article-figures/PMC4433181/pcbi.1004189.g007.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">NaT
     sodium current component was filtered more than NaP in the simulated morphology.</title><p
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>)
     Total axial sodium currents (top) recorded at several color-coded locations on
@@ -161,6 +195,7 @@ thumbnails:
     5-fold. (<bold>D</bold>) Clamp currents recorded at the soma for the same three
     conditions and in a model where the SIZ was 20 &#956;m closer to the soma (50
     &#956;m).</p>
-  filename: PMC4433181/PMC4433181/pcbi.1004189.g007.jpg
+  format: jpeg
   id: pcbi.1004189/pcbi.1004189.g007
   label: Fig 7
+  local_filename: source/thumbnails/PMC4433181/PMC4433181/pcbi.1004189.g007.jpg

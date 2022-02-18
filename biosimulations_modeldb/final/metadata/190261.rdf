@@ -6,6 +6,20 @@
   <rdf:Description rdf:about="http://omex-library.org/190261.omex">
     <dc:abstract>In this paper, we demonstrate how dorsal root ganglion (DRG) neuron excitability can become pathologically altered, as occurs in neuropathic pain. Specifically, we reproduce pathological changes in spiking pattern (from transient to repetitive spiking) and the development of membrane potential oscillations and bursting.</dc:abstract>
   </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/190261.omex">
+    <dc:description>This is the readme for the models associated with the paper:
+
+Rho YA, Prescott SA (2012) Identification of molecular pathologies
+sufficient to cause neuropathic excitability in primary somatosensory
+afferents using dynamical systems theory. PLoS Comput Biol 8:e1002524
+
+These models require xpp which is available from
+http://www.math.pitt.edu/~bard/xpp/xpp.html
+
+More documentation on running XPP is available here:
+http://www.math.pitt.edu/~bard/xpp/help/xppauto.html
+</dc:description>
+  </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=150222">http://modeldb.science/ModelList?id=150222</dc:identifier>
   </rdf:Description>
@@ -77,6 +91,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="local:00005">
     <rdfs:label>Steven Prescott</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <foaf:mbox rdf:resource="mailto:steve.prescott@sickkids.ca]">mailto:steve.prescott@sickkids.ca]</foaf:mbox>
   </rdf:Description>
   <rdf:Description rdf:about="local:00005">
     <foaf:accountName rdf:resource="mailto:steve.prescott@sickkids.ca]">mailto:steve.prescott@sickkids.ca]</foaf:accountName>

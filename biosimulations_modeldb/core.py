@@ -6,7 +6,7 @@ from biosimulators_utils.config import Config
 from biosimulators_utils.omex_meta.data_model import BIOSIMULATIONS_ROOT_URI_FORMAT, OmexMetadataOutputFormat
 from biosimulators_utils.omex_meta.io import BiosimulationsOmexMetaWriter, BiosimulationsOmexMetaReader
 # from biosimulators_utils.omex_meta.utils import build_omex_meta_file_for_model
-from biosimulators_utils.ref.data_model import Reference, JournalArticle, PubMedCentralOpenAccesGraphic  # noqa: F401
+from biosimulators_utils.ref.data_model import JournalArticle
 from biosimulators_utils.ref.utils import get_reference, get_pubmed_central_open_access_graphics
 from biosimulators_utils.sedml.data_model import (
     SedDocument, Model, ModelLanguage, UniformTimeCourseSimulation,
@@ -21,9 +21,9 @@ import biosimulators_utils.biosimulations.utils
 import boto3
 import bs4
 import copy
-import dataclasses
 import datetime
 import dateutil.parser
+import dotenv
 import git
 import glob
 import imghdr
@@ -39,7 +39,12 @@ import time
 import warnings
 import yaml
 
-Entrez.email = os.getenv('ENTREZ_EMAIL', None)
+env = {
+    **dotenv.dotenv_values("config.env"),
+    **os.environ,
+}
+
+Entrez.email = env.get('ENTREZ_EMAIL', None)
 
 __all__ = ['import_models']
 
@@ -153,7 +158,7 @@ def get_metadata_for_model(model, model_dirname, config):
             * :obj:`str`: description
             * :obj:`list` of :obj:`dict`: NCBI taxonomy identifiers and names
             * :obj:`list` of :obj:`dict`: structured information about the references
-            * :obj:`list` of :obj:`PubMedCentralOpenAccesGraphic`: figures of the references
+            * :obj:`list` of :obj:`dict`: thumbnails
     """
     metadata_filename = os.path.join(config['final_metadata_dirname'], str(model['id']) + '.yml')
 
@@ -167,15 +172,35 @@ def get_metadata_for_model(model, model_dirname, config):
         thumbnails = metadata.get('thumbnails', [])
 
         for thumbnail in thumbnails:
-            thumbnail['filename'] = os.path.join(config['source_thumbnails_dirname'], thumbnail['filename'])
-
-        thumbnails = [PubMedCentralOpenAccesGraphic(**thumbnail) for thumbnail in thumbnails]
+            thumbnail['local_filename'] = os.path.join(config['base_dir'], thumbnail['local_filename'])
 
         return description, taxa, references, thumbnails
 
+    # get images (gif, png, jpeg, jpg, webp)
+    project_image_filenames = (
+        case_insensitive_glob(os.path.join(model_dirname, '**', '*.gif'), recursive=True)
+        + case_insensitive_glob(os.path.join(model_dirname, '**', '*.jpeg'), recursive=True)
+        + case_insensitive_glob(os.path.join(model_dirname, '**', '*.jpg'), recursive=True)
+        + case_insensitive_glob(os.path.join(model_dirname, '**', '*.png'), recursive=True)
+        + case_insensitive_glob(os.path.join(model_dirname, '**', '*.webp'), recursive=True)
+    )
+    project_image_filenames.sort(key=lambda filename: (filename.count('/'), filename.lower()))
+    project_thumbnails = []
+    for project_image_filename in project_image_filenames:
+        project_thumbnails.append({
+            'local_filename': project_image_filename,
+            'archive_filename': os.path.relpath(project_image_filename, model_dirname),
+            'format': imghdr.what(project_image_filename),
+        })
+
+    project_image_filename_map = {}
+    for project_image_filename in project_image_filenames:
+        basename, ext = os.path.splitext(os.path.relpath(project_image_filename, model_dirname))
+        project_image_filename_map[basename.lower() + ext.lower()] = project_image_filename
+
     # get description from readme
     description = None
-    readme_filenames = case_insensitive_glob(os.path.join(model_dirname, '**', 'readme*'), recursive=True)
+    readme_filenames = case_insensitive_glob(os.path.join(model_dirname, '**', 'readme.*'), recursive=True)
     readme_filenames.sort(key=lambda filename: filename.count('/'))
     if readme_filenames:
         readme_filename = readme_filenames[0]
@@ -186,12 +211,21 @@ def get_metadata_for_model(model, model_dirname, config):
 
         elif ext in ['.html']:
             with open(readme_filename, 'rb') as file:
-                doc = bs4.BeautifulSoup(file.read())
+                doc = bs4.BeautifulSoup(file.read(), features='lxml')
             content = doc.find('body') or doc
 
             image_work_dirname = os.path.dirname(readme_filename)
             for image_el in content.find_all('img'):
-                image_src = os.path.join(image_work_dirname, image_el.get('src'))
+                image_src_html = os.path.join(image_work_dirname, os.path.relpath(image_el.get('src'), '.'))
+                image_basename, image_ext = os.path.splitext(os.path.relpath(image_src_html, model_dirname))
+                image_src = project_image_filename_map.get(image_basename.lower() + image_ext.lower(), None)
+                if image_src != image_src_html:
+                    warnings.warn((
+                        f'Image source `{image_el.get("src")}` '
+                        f'in readme `{os.path.relpath(readme_filename, model_dirname)}` '
+                        f'for model `{model["id"]}` is incorrect'
+                    ), UserWarning)
+
                 image_format = imghdr.what(image_src)
                 with open(image_src, 'rb') as image_file:
                     image_value = base64.b64encode(image_file.read()).decode()
@@ -202,7 +236,7 @@ def get_metadata_for_model(model, model_dirname, config):
                     sibling_els = list(parent_el.children)
                     i_image = sibling_els.index(image_el)
 
-                    below_container = bs4.BeautifulSoup('<pre></pre>').pre
+                    below_container = bs4.BeautifulSoup('<pre></pre>', features='lxml').pre
                     parent_el.insert_after(below_container)
                     for sibling_el in sibling_els[i_image + 1:]:
                         below_container.append(sibling_el)
@@ -218,8 +252,6 @@ def get_metadata_for_model(model, model_dirname, config):
 
         else:
             raise NotImplementedError('README type `{}` is not supported.'.format(ext))
-
-    # TODO: get images (png, jpg, JPG)
 
     # get taxa
     taxa_ids = set()
@@ -239,7 +271,7 @@ def get_metadata_for_model(model, model_dirname, config):
 
     # get citations and figures
     references = []
-    thumbnails = []
+    reference_thumbnails = []
     for paper in model.get('model_paper', {}).get('value', []):
         if paper['uris']['doi'] or paper['uris']['pubmed']:
             time.sleep(config['entrez_delay'])
@@ -261,11 +293,24 @@ def get_metadata_for_model(model, model_dirname, config):
 
             # Figures for the associated publication from open-access subset of PubMed Central
             if article.pubmed_central_id:
-                thumbnails.extend(get_pubmed_central_open_access_graphics(
+                graphics = get_pubmed_central_open_access_graphics(
                     article.pubmed_central_id,
                     os.path.join(config['source_thumbnails_dirname'], article.pubmed_central_id),
                     session=config['pubmed_central_open_access_session'],
-                ))
+                )
+                for graphic in graphics:
+                    reference_thumbnails.append({
+                        'id': graphic.id,
+                        'local_filename': graphic.filename,
+                        'archive_filename': os.path.join(
+                            ARTICLE_FIGURES_COMBINE_ARCHIVE_SUBDIRECTORY_PATTERN.format(
+                                os.path.basename(os.path.dirname(graphic.filename))),
+                            os.path.basename(graphic.filename),
+                        ),
+                        'format': imghdr.what(graphic.filename),
+                        'label': graphic.label,
+                        'caption': graphic.caption,
+                    })
 
         else:
             uri = paper['uris']['url']
@@ -277,14 +322,15 @@ def get_metadata_for_model(model, model_dirname, config):
         })
 
     # save metadata
+    thumbnails = reference_thumbnails + project_thumbnails
     metadata = {
         'description': description,
         'taxa': taxa,
         'references': references,
-        'thumbnails': [dataclasses.asdict(thumbnail) for thumbnail in thumbnails],
+        'thumbnails': copy.deepcopy(thumbnails),
     }
     for thumbnail in metadata['thumbnails']:
-        thumbnail['filename'] = os.path.relpath(thumbnail['filename'], config['source_thumbnails_dirname'])
+        thumbnail['local_filename'] = os.path.relpath(thumbnail['local_filename'], config['base_dir'])
     with open(metadata_filename, 'w') as file:
         file.write(yaml.dump(metadata))
 
@@ -299,7 +345,7 @@ def export_project_metadata_for_model_to_omex_metadata(model, description, taxa,
         description (:obj:`str`): description of the model
         taxa (:obj:`list` of :obj:`dict`): NCBI taxonomy identifier and name
         references (:obj:`list` of :obj:`dict`): structured information about the reference
-        thumbnails (:obj:`list` of :obj:`PubMedCentralOpenAccesGraphic`): figures of the reference
+        thumbnails (:obj:`list` of :obj:`dict`): thumbnails
         metadata_filename (:obj:`str`): path to save metadata
         config (:obj:`dict`): configuration
     """
@@ -363,10 +409,7 @@ def export_project_metadata_for_model_to_omex_metadata(model, description, taxa,
         'taxa': taxa,
         'encodes': encodes,
         'thumbnails': [
-            os.path.join(
-                ARTICLE_FIGURES_COMBINE_ARCHIVE_SUBDIRECTORY_PATTERN.format(os.path.basename(os.path.dirname(thumbnail.filename))),
-                os.path.basename(thumbnail.filename),
-            )
+            thumbnail['archive_filename']
             for thumbnail in thumbnails
         ],
         'sources': [],
@@ -451,10 +494,8 @@ def build_combine_archive_for_model(id, model_dirname, archive_filename, extra_c
 
     # create simulations
     model_filenames = natsort.natsorted(
-        glob.glob(os.path.join(model_dirname, '*.ode'))
-        + glob.glob(os.path.join(model_dirname, '*.ODE'))
-        + glob.glob(os.path.join(model_dirname, '*.xpp'))
-        + glob.glob(os.path.join(model_dirname, '*.XPP'))
+        case_insensitive_glob(os.path.join(model_dirname, '*.ode'), recursive=True)
+        + case_insensitive_glob(os.path.join(model_dirname, '*.xpp'), recursive=True)
     )
 
     for model_filename in model_filenames:
@@ -484,7 +525,7 @@ def build_combine_archive_for_model(id, model_dirname, archive_filename, extra_c
             }]
 
         for set_file in set_files:
-            sed_params, sed_sims, sed_vars, _ = get_parameters_variables_outputs_for_simulation(
+            sed_params, sed_sims, sed_vars, sed_plots = get_parameters_variables_outputs_for_simulation(
                 model_filename, ModelLanguage.XPP, UniformTimeCourseSimulation, native_ids=True,
                 model_language_options={
                     'set_filename': set_file['filename'],
@@ -532,6 +573,8 @@ def build_combine_archive_for_model(id, model_dirname, archive_filename, extra_c
 
             sed_doc.outputs.append(sed_report)
 
+            data_gen_map = {}
+
             for sed_var in sed_vars:
                 var_id = sed_var.id or 'T'
 
@@ -550,6 +593,7 @@ def build_combine_archive_for_model(id, model_dirname, archive_filename, extra_c
                 if set_file['id']:
                     sed_data_gen.id += '_' + set_file['id']
                 sed_doc.data_generators.append(sed_data_gen)
+                data_gen_map[sed_data_gen.math] = sed_data_gen
 
                 sed_data_set = DataSet(
                     id='data_set_{}'.format(var_id),
@@ -562,6 +606,43 @@ def build_combine_archive_for_model(id, model_dirname, archive_filename, extra_c
                 sed_report.data_sets.append(sed_data_set)
 
             # TODO: plots
+            plot_data_generators = set()
+            for sed_plot in sed_plots:
+                if set_file['id']:
+                    sed_plot.id += '_' + set_file['id']
+
+                for sed_curve in sed_plot.curves:
+                    if set_file['id']:
+                        sed_curve.id += '_' + set_file['id']
+
+                    plot_data_generators.add(sed_curve.x_data_generator)
+                    plot_data_generators.add(sed_curve.y_data_generator)
+
+            for plot_data_generator in plot_data_generators:
+                if set_file['id']:
+                    plot_data_generator.id += '_' + set_file['id']
+                for variable in plot_data_generator.variables:
+                    if set_file['id']:
+                        variable.id += '_' + set_file['id']
+                    variable.task = sed_task
+                plot_data_generator.math = plot_data_generator.variables[0].id
+
+            for sed_plot in sed_plots:
+                sed_doc.outputs.append(sed_plot)
+                for sed_curve in sed_plot.curves:
+                    sed_x_data_generator = data_gen_map.get(sed_curve.x_data_generator.math, None)
+                    if sed_x_data_generator is None:
+                        sed_doc.data_generators.append(sed_curve.x_data_generator)
+                        data_gen_map[sed_curve.x_data_generator.math] = sed_curve.x_data_generator
+                    else:
+                        sed_curve.x_data_generator = sed_x_data_generator
+
+                    sed_y_data_generator = data_gen_map.get(sed_curve.y_data_generator.math, None)
+                    if sed_y_data_generator is None:
+                        sed_doc.data_generators.append(sed_curve.y_data_generator)
+                        data_gen_map[sed_curve.y_data_generator.math] = sed_curve.y_data_generator
+                    else:
+                        sed_curve.y_data_generator = sed_y_data_generator
 
         sim_location = os.path.splitext(model_location)[0] + '.sedml'
         SedmlSimulationWriter().run(sed_doc, os.path.join(archive_dirname, sim_location))
@@ -632,7 +713,7 @@ def import_models(config):
         print('Retrieving {} of {}: {} ...'.format(i_model + 1, len(models), model_id))
 
         # update status
-        update_times[model_id] = datetime.datetime.utcnow()
+        update_times[str(model_id)] = datetime.datetime.utcnow()
 
         # get the details of the model and download it from the source database
         model = get_model(model_id, config)
@@ -642,10 +723,8 @@ def import_models(config):
     for model in list(models):
         model_dirname = os.path.join(config['source_models_dirname'], str(model['id']))
         if (
-            not glob.glob(os.path.join(model_dirname, '**', '*.ode'), recursive=True)
-            and not glob.glob(os.path.join(model_dirname, '**', '*.ODE'), recursive=True)
-            and not glob.glob(os.path.join(model_dirname, '**', '*.xpp'), recursive=True)
-            and not glob.glob(os.path.join(model_dirname, '**', '*.XPP'), recursive=True)
+            not case_insensitive_glob(os.path.join(model_dirname, '**', '*.ode'), recursive=True)
+            and not case_insensitive_glob(os.path.join(model_dirname, '**', '*.xpp'), recursive=True)
         ):
             models.remove(model)
 
@@ -665,7 +744,9 @@ def import_models(config):
         ))
 
     # filter out models with issues
-    models = list(filter(lambda model: str(model['id']) not in issues, models))
+    models = list(filter(lambda model: int(model['id']) not in issues, models))
+
+    models = list(filter(lambda model: int(model['id']) not in [227577, 235377], models))  # TODO: remove models that use arrays
 
     # get S3 bucket to save archives
     s3 = boto3.resource('s3',
@@ -706,11 +787,9 @@ def import_models(config):
             )
 
             for thumbnail in thumbnails:
-                extra_contents[thumbnail.filename] = CombineArchiveContent(
-                    location=os.path.join(
-                        ARTICLE_FIGURES_COMBINE_ARCHIVE_SUBDIRECTORY_PATTERN.format(os.path.basename(os.path.dirname(thumbnail.filename))),
-                        os.path.basename(thumbnail.filename)),
-                    format=CombineArchiveContentFormat.JPEG,
+                extra_contents[thumbnail['local_filename']] = CombineArchiveContent(
+                    location=thumbnail['archive_filename'],
+                    format='http://purl.org/NET/mediatypes/image/' + thumbnail['format'],
                 )
 
             build_combine_archive_for_model(model['id'], model_dirname, project_filename, extra_contents=extra_contents)

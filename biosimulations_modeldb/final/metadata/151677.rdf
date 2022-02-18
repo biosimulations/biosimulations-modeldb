@@ -20,6 +20,16 @@ Use "Bndryval -&gt; Show" in XPPAUT.&#13;
 </dc:abstract>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/151677.omex">
+    <dc:description>This is the model associated with the paper:
+
+Hires SA, Pammer L, Svoboda K, Golomb D (2013) Tapered whiskers are
+required for active tactile sensation. Elife 2:e01350
+
+This is the code that the authors used.  Please contact David Golomb
+for more information.
+</dc:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/151677.omex">
     <collex:thumbnail rdf:resource="http://omex-library.org/151677.omex/article-figures/PMC3828597/elife01350f001.jpg">http://omex-library.org/151677.omex/article-figures/PMC3828597/elife01350f001.jpg</collex:thumbnail>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/151677.omex">
@@ -45,6 +55,9 @@ Use "Bndryval -&gt; Show" in XPPAUT.&#13;
   </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <rdfs:label>David Golomb</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <foaf:mbox rdf:resource="mailto:golomb@bgu.ac.il">mailto:golomb@bgu.ac.il</foaf:mbox>
   </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <foaf:accountName rdf:resource="mailto:golomb@bgu.ac.il">mailto:golomb@bgu.ac.il</foaf:accountName>

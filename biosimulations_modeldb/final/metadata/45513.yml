@@ -1,3 +1,30 @@
+description: "This is the readme.txt for the models associated with the paper\n\n\
+  Bose A, Manor Y, Nadim F. The activity phase of postsynaptic neurons in a \nsimplified\
+  \ rhythmic network. J Comput Neurosci. 2004\n\nAbstract:\n\nMany inhibitory rhythmic\
+  \ networks produce activity in a range of frequencies.\nThe relative phase of activity\
+  \ between neurons in these networks is often a \ndeterminant of the network output.\
+  \ This relative phase is determined by the \ninteraction between synaptic inputs\
+  \ to the neurons and their intrinsic \nproperties. We show, in a simplified network\
+  \ consisting of an oscillator \ninhibiting a follower neuron, how the interaction\
+  \ between synaptic depression\nand a transient potassium current in the follower\
+  \ neuron determines the \nactivity phase of this neuron. We derive a mathematical\
+  \ expression to \ndetermine at what phase of the oscillation the follower neuron\
+  \ becomes \nactive. This expression can be used to understand which parameters determine\n\
+  the phase of activity of the follower as the frequency of the oscillator is \nchanged.\
+  \ We show that in the presence of synaptic depression, there can be \nthree distinct\
+  \ frequency intervals, in which the phase of the follower neuron\nis determined\
+  \ by different sets of parameters. Alternatively, when the \nsynapse is not depressing,\
+  \ only one set of parameters determines the phase of\nactivity at all frequencies.\n\
+  \n---\n\nThis model is a a Morris-Lecar system with IA and depression.\nThe interesting\
+  \ phase plane for the \"middle\" branch is the v vs. ha. \nNote also that the v\
+  \ vs w phase plane can have a quintic v nullcline.\n\nTo run the models:\nMatlab:\
+  \ after you add the path of the activityphase directory start the \nDBjcns1.m file.\
+  \  It will compute and display fig 9D.\n\nXPP: start with the command\nxpp DBdep+A.ode\n\
+  \nClick File, Read Set and then DBdep+A.ode.set\nType i g for Initial Conditions\
+  \ Go. \nYou should see the voltage trace shown in Figure 10 corresponding to the\
+  \ \nunscaled version of Period = 800 (lower left).  You can change the period\n\
+  by changing the parameter per.\n\nBard Ermentrout's website http://www.pitt.edu/~phase/\n\
+  describes how to get and use xpp (Bard wrote xpp).\n"
 references:
 - label: 'Amitabha Bose, Yair Manor & Farzan Nadim. The activity phase of postsynaptic
     neurons in a simplified rhythmic network. Journal of Computational Neuroscience

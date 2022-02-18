@@ -1,3 +1,27 @@
+description: "This is the readme.txt for a model associated with the publication:\n\
+  \nGoldberg JA, Rokni U, Sompolinsky H (2004) Patterns of ongoing\nactivity and the\
+  \ functional architecture of the primary visual\ncortex. Neuron 42:489-500\n\nNotes\
+  \ from Josh Goldberg:\n\nThis model is at the heart of our 2004 Neuron paper. It\
+  \ is analyzed in\nand about figure 3 in that paper. The initial code was run in\
+  \ Matlab\nand the paper includes a variety of models that elaborate on this\nmodel....\
+  \ I do believe that this is the most elegant/central part of\nthe paper.\n\nUsage\
+  \ notes:\n\nTo run the .tab file must be in the same directory as the .ode file.\n\
+  ... run the program as usual in the main XPP window, that is: I,G.\nThen once you\
+  \ fill in the the entries in the Edit Arrayplot Window\n(see the begining of NoisyRing.ode),\
+  \ you must press \"redraw\". then\neach time you continue the integration in the\
+  \ main XPP window (e.g.,\nE,I,L) do \"redraw\" again and see the continuation of\
+  \ the\nsimulation.\n\nThe model has three states, homogeneous for low gains (lambda<1)\
+  \ and\nthen Marginal for lambda that is between 1 and 2 (for mu>0). (the\nintegration\
+  \ diverges for lambda larger than 2). this is all explained\nin the paper. Marginal\
+  \ means that you get a noisy hill of activity.  I\nthink it is important to point\
+  \ out that this model corresponds only to\nfigure 3 in that paper.\n\nDefault values\
+  \ lambda=1.8 and mu=1 give a nice hill of activity with\nsome of the neurons with\
+  \ rates that are very close to zero. (The\nspatial pattern on the ring is a noisy\
+  \ clipped sinusoid).\n\nFinally the line\n\naux phiang=atan(rfunds/rfundc)\n\ngives\
+  \ the phase of the order parameter (between -pi and pi) and it \ncorresponds to\
+  \ the position of the center of the hill of activity along \nthe ring. It is well\
+  \ defined when there is a nice hill, as in the case \nof the above default values\
+  \ of lambda and mu.\n"
 references:
 - label: 'Joshua A. Goldberg, Uri Rokni & Haim Sompolinsky. Patterns of ongoing activity
     and the functional architecture of the primary visual cortex. Neuron 42, 3: 489-500

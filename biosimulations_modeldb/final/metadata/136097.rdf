@@ -6,6 +6,19 @@
   <rdf:Description rdf:about="http://omex-library.org/136097.omex">
     <dc:abstract>Collection of XPP (.ode) files simulating the signal transduction (slow) and action potential (fast)  currents in the olfactory receptor neuron of mouse.  Collection contains model configured for dual odorant pulse delivery and model configured for prolonged odorant delivery.  For those interested more in transduction processes, each whole cell recording model comes with a counter part file configured to show just the slow transduction current for ease of use and convenience.  These transduction-only models typically run faster than the full multi-scale models but do not demonstrate action potentials.</dc:abstract>
   </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136097.omex">
+    <dc:description>This is the readme for the model associated with the AChems abstract:
+
+Dougherty DP (2009) Workshop: Computational Problems in Sequential
+Stages of Odor Processing. Modeling Diversity in the Signal
+Transduction of the Mouse Olfactory Receptor Neuron. Abstracts from
+the Thirty-first Annual Meeting of the Association for Chemoreception
+Sciences AChemS:A13-A13
+
+This XPP code was supplied by Daniel Dougherty.  The first few lines
+of the ode files contains information on the simulations.
+</dc:description>
+  </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>
   </rdf:Description>
@@ -221,6 +234,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="local:00025">
     <rdfs:label>Daniel P Dougherty</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00025">
+    <foaf:mbox rdf:resource="mailto:dpdoughe@mbi.ohio-state.edu">mailto:dpdoughe@mbi.ohio-state.edu</foaf:mbox>
   </rdf:Description>
   <rdf:Description rdf:about="local:00025">
     <foaf:accountName rdf:resource="mailto:dpdoughe@mbi.ohio-state.edu">mailto:dpdoughe@mbi.ohio-state.edu</foaf:accountName>

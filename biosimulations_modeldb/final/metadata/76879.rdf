@@ -15,6 +15,24 @@ dynamics in response to one class of stimuli implies the existence of multiple s
 states and hysteresis in response to a different class of stimuli. The relation between&#13;
 these findings and a number of experiments is discussed.</dc:abstract>
   </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/76879.omex">
+    <dc:description>From Excitatory and Inhibitory Interactions in Localized Populations of Model Neurons
+Hugh R. Wilson and Jack D. Cowan; Biophys J. 1972 January; 12:1-24.
+
+To run:
+  nrnivmodl
+  nrngui wc.hoc
+
+Buttons marked 'slow' use movierun so as to allow the trajectory to be viewed
+during the run. 
+
+Parameters can be set in the PointProcessManager.  Then use 'As set' button to run
+without resetting the parameters.
+
+This implementation was copied from Bard Ermentrout's xppaut file: wc.ode
+(included)
+</dc:description>
+  </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3536">http://modeldb.science/ModelList?id=3536</dc:identifier>
   </rdf:Description>
@@ -40,6 +58,9 @@ these findings and a number of experiments is discussed.</dc:abstract>
     <rdfs:label>William Lytton</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="local:00003">
+    <foaf:mbox rdf:resource="mailto:bill.lytton@downstate.edu">mailto:bill.lytton@downstate.edu</foaf:mbox>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
     <foaf:accountName rdf:resource="mailto:bill.lytton@downstate.edu">mailto:bill.lytton@downstate.edu</foaf:accountName>
   </rdf:Description>
   <rdf:Description rdf:about="local:00003">
@@ -53,6 +74,9 @@ these findings and a number of experiments is discussed.</dc:abstract>
   </rdf:Description>
   <rdf:Description rdf:about="local:00004">
     <rdfs:label>Bard Ermentrout</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <foaf:mbox rdf:resource="mailto:bard_at_pitt.edu]@">mailto:bard_at_pitt.edu]@</foaf:mbox>
   </rdf:Description>
   <rdf:Description rdf:about="local:00004">
     <foaf:accountName rdf:resource="mailto:bard_at_pitt.edu]@">mailto:bard_at_pitt.edu]@</foaf:accountName>

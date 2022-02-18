@@ -1,3 +1,23 @@
+description: 'These are the source codes used in
+
+
+  Cressman JR, Ullah G, Ziburkus J, Schiff SJ, Barreto E (2009) The
+
+  influence of sodium and potassium dynamics on excitability, seizures,
+
+  and the stability of persistent states: I. Single neuron dynamics. J
+
+  Comput Neurosci 26:159-70
+
+
+  The code for the full model is written in C and uses routines from
+
+  Numerical Recipes in C.
+
+
+  The code for the reduced model runs on XPP.
+
+  '
 references:
 - label: 'John R. Cressman, Ghanim Ullah, Jokubas Ziburkus, Steven J. Schiff & Ernest
     Barreto. The influence of sodium and potassium dynamics on excitability, seizures,
@@ -5,8 +25,9 @@ references:
     Computational Neuroscience 26, 2: 159-170 (2009).'
   uri: http://identifiers.org/doi:10.1007/s10827-008-0132-4
 - label: 'John R. Cressman, Ghanim Ullah, Jokubas Ziburkus, Steven J. Schiff & Ernest
-    Barreto. Underserved Does Not Mean Undeserved: Unfurling the HCV Care in the Safety
-    Net. Journal of Computational Neuroscience 63, 12: 781-781 (2018).'
+    Barreto. Erratum to: The influence of sodium and potassium dynamics on excitability,
+    seizures, and the stability of persistent states: I. Single neuron dynamics. Journal
+    of Computational Neuroscience 30, 3: 781-781 (2011).'
   uri: http://identifiers.org/doi:10.1007/s10827-011-0333-0
 taxa: []
 thumbnails: []

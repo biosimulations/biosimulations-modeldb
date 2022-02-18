@@ -11,6 +11,27 @@ Our model can accurately predict diverse experimental data including the phenoty
 Using this model, we show how a universal motif of circadian timekeeping, where repressors tightly bind activators rather than directly binding to DNA, can generate oscillations when activators and repressors are in stoichiometric balance. &#13;
 …"</dc:abstract>
   </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/145800.omex">
+    <dc:description>This is a simple mathematical model of intracellularcircadian clock developed in the paper  
+
+Jae Kyoung Kim and Daniel B. Forger (2012) "A mechanism for robust circadian timekeeping via balanced stoichiometry", Molecular Systems Biology
+
+
+SNF: Single negative feedback loop.
+NNF: Negative feedback loop with additional negative feedback loop. 
+PNF: Negative feedback loop with additional positive feedback loop. 
+
+The model is available in the format of 
+
+1) XPPAUT: *.ode
+2) Matlab: *.m
+3) Mathematica: *.nb
+4) SBML: *.xml
+
+
+
+</dc:description>
+  </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=145174">http://modeldb.science/ModelList?id=145174</dc:identifier>
   </rdf:Description>
@@ -91,6 +112,9 @@ Using this model, we show how a universal motif of circadian timekeeping, where 
   </rdf:Description>
   <rdf:Description rdf:about="local:00008">
     <rdfs:label>Jae Kyoung Kim</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <foaf:mbox rdf:resource="mailto:kimjack0@kaist.ac.kr">mailto:kimjack0@kaist.ac.kr</foaf:mbox>
   </rdf:Description>
   <rdf:Description rdf:about="local:00008">
     <foaf:accountName rdf:resource="mailto:kimjack0@kaist.ac.kr">mailto:kimjack0@kaist.ac.kr</foaf:accountName>

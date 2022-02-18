@@ -1,19 +1,43 @@
+description: "This is the XPP code associated with the paper:\n\nJ.E. Rubin and J.C.\
+  \ Smith, \"Robustness of respiratory rhythm\ngeneration across dynamic regimes\"\
+  , PLoS Computational Biology, 2019\n\nThis code was contributed by J.E. Rubin.\n\
+  \nbasenet.ode, basenet.ode.set:\n\nThese files were used for simulations without\
+  \ PiCo and without block\nof inhibition.  They include several auxiliary variables\
+  \ that can be\nused to plot the inhibition level to each neuron in the network and\n\
+  the output level from each neuron in the network.\n\nbasenetpico3.ode, basenetpico3.ode.set3:\n\
+  \nThese files are similar but have been augmented to include the PiCo,\nincluding\
+  \ an additional auxiliary variable represented PiCo output.\n\nbasenetTA.ode, basenetTA.ode.set:\n\
+  \nThese files allow for easy block of the inhibition to units in the\npreBotC or\
+  \ to units in the BotC.  They are set-up to run from the\ncommand line in silent\
+  \ mode, which I do with the command:\n\nxpp basenetTA.ode -silent -setfile basenetTA.ode.set\n\
+  \nNote that in the ode file:\n\n\u2014 The line \u201Conly t,fv1,v1\u201D means\
+  \ that only these three variables will\nbe saved.\n\n\u2014 The line \u201C@ output=b31range_ton.test\u201D\
+  \ specifies that these variables\nwill be saved into the file b31range_ton.test.\
+  \ This can be edited to\nsave data under a different file name.  Values of each\
+  \ variable are\nsaved in a corresponding column in the file.\n\n\u2014 The additional\
+  \ numerical instructions set up integration over a\nrange of values of a parameter;\
+  \ the default parameter is b31.  This\nrange information also shows up in the set\
+  \ file.  To change it for a\nparticular run, I change the information in the set\
+  \ file, where it is\nstored under \u201C#Range information\u201D.\n"
 references:
 - label: 'Jonathan E. Rubin & Jeffrey C. Smith. Robustness of respiratory rhythm generation
     across dynamic regimes. PLOS Computational Biology 15, 7: e1006860 (2019).'
   uri: http://identifiers.org/doi:10.1371/journal.pcbi.1006860
 taxa: []
 thumbnails:
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Schematic
+- archive_filename: article-figures/PMC6697358/pcbi.1006860.g001.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Schematic
     illustration of the respiratory network configuration considered.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">Red is used for excitatory units
     and their outputs, while blue denotes inhibitory units and their outputs. Black
     arrows correspond to tonic drives to units in the network. The PiCo is only included
     in a subset of our simulations, as indicated in the text.</p>
-  filename: PMC6697358/PMC6697358/pcbi.1006860.g001.jpg
+  format: jpeg
   id: pcbi.1006860/pcbi.1006860.g001
   label: Fig 1
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Pre-I
+  local_filename: source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g001.jpg
+- archive_filename: article-figures/PMC6697358/pcbi.1006860.g002.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Pre-I
     tuning.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(A):
     The <italic>V</italic><sub><italic>pre</italic>&#8722;<italic>I</italic></sub>-nullcline
     structure for the pre-I unit in the preB&#246;tC depends on its tonic drive parameter,
@@ -30,10 +54,12 @@ thumbnails:
     &#8722;0.011). Inset shows dependence of periods on <italic>c</italic><sub>11</sub>;
     period jumps sharply from 0 at the onset of oscillations, drops abruptly, and
     then decays more gradually as <italic>c</italic><sub>11</sub> increases.</p>'
-  filename: PMC6697358/PMC6697358/pcbi.1006860.g002.jpg
+  format: jpeg
   id: pcbi.1006860/pcbi.1006860.g002
   label: Fig 2
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Pre-I
+  local_filename: source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g002.jpg
+- archive_filename: article-figures/PMC6697358/pcbi.1006860.g003.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Pre-I
     output properties are altered by embedding within the full respiratory network.</title><p
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Dashed
     curves show the period (blue) and amplitude (red) of oscillations exhibited by
@@ -42,10 +68,12 @@ thumbnails:
     illustrate the same quantities for the pre-I unit when it is embedded in the full
     model respiratory network, over the range of <italic>c</italic><sub>11</sub> values
     for which the network oscillates.</p>
-  filename: PMC6697358/PMC6697358/pcbi.1006860.g003.jpg
+  format: jpeg
   id: pcbi.1006860/pcbi.1006860.g003
   label: Fig 3
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Basic
+  local_filename: source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g003.jpg
+- archive_filename: article-figures/PMC6697358/pcbi.1006860.g004.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Basic
     model behavior.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(A-B):
     Time courses of outputs of all 4 neurons (with PiCo silent and omitted) in the
     network rhythm when (A) pre-I is intrinsically oscillatory (<italic>c</italic><sub>11</sub>
@@ -55,10 +83,12 @@ thumbnails:
     = 0.045), when (C) pre-I is intrinsically oscillatory (<italic>c</italic><sub>11</sub>
     = &#8722;0.03) or (D) pre-I is intrinsically tonic (<italic>c</italic><sub>11</sub>
     = 0.01). Black: pre-I. Red: early-I. Cyan: PiCo. Blue: post-I. Magenta: aug-E.</p>'
-  filename: PMC6697358/PMC6697358/pcbi.1006860.g004.jpg
+  format: jpeg
   id: pcbi.1006860/pcbi.1006860.g004
   label: Fig 4
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Parameter-dependence
+  local_filename: source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g004.jpg
+- archive_filename: article-figures/PMC6697358/pcbi.1006860.g005.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Parameter-dependence
     of model output.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">In
     all cases, <italic>g</italic><sub><italic>NaP</italic></sub> refers to the persistent
     sodium conductance for the pre-I unit (i.e., <italic>g</italic><sub><italic>NaP</italic>,<italic>exc</italic></sub>
@@ -74,10 +104,12 @@ thumbnails:
     through a threshold of -35 mV. (D) Grey-coded expiratory phase duration (seconds),
     measured as the period minus the inspiratory phase duration. The blue boxed regions
     are explained in the text.</p>
-  filename: PMC6697358/PMC6697358/pcbi.1006860.g005.jpg
+  format: jpeg
   id: pcbi.1006860/pcbi.1006860.g005
   label: Fig 5
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Network
+  local_filename: source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g005.jpg
+- archive_filename: article-figures/PMC6697358/pcbi.1006860.g006.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Network
     oscillation mechanisms when pre-I is intrinsically oscillatory, with <italic>c</italic><sub>11</sub>
     = &#8722;0.03.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(A)
     Phase plane (<italic>h</italic><sub><italic>pre</italic>&#8722;<italic>I</italic></sub>
@@ -118,10 +150,12 @@ thumbnails:
     to aug-E when <italic>V</italic><sub><italic>pre</italic>&#8722;<italic>I</italic></sub>
     is at its peak (0.283); and to inhibition to aug-E when <italic>V</italic><sub><italic>post</italic>&#8722;<italic>I</italic></sub>
     is at its peak (0.35, marked by black square at same time point as in other plots).</p>
-  filename: PMC6697358/PMC6697358/pcbi.1006860.g006.jpg
+  format: jpeg
   id: pcbi.1006860/pcbi.1006860.g006
   label: Fig 6
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Network
+  local_filename: source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g006.jpg
+- archive_filename: article-figures/PMC6697358/pcbi.1006860.g007.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Network
     oscillation mechanisms when pre-I is intrinsically tonic, with <italic>c</italic><sub>11</sub>
     = 0.01.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Mechanisms
     are identical to the case when pre-I is intrinsically oscillatory. (A) Analogous
@@ -132,10 +166,12 @@ thumbnails:
     becomes monotone. (B) Analogous curves to <xref ref-type="fig" rid="pcbi.1006860.g006">Fig
     6B</xref>. The termination of the curve of left knees is also evident here (around
     inhibition of 0.7 &#215;10<sup>&#8722;2</sup>).</p>
-  filename: PMC6697358/PMC6697358/pcbi.1006860.g007.jpg
+  format: jpeg
   id: pcbi.1006860/pcbi.1006860.g007
   label: Fig 7
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Input
+  local_filename: source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g007.jpg
+- archive_filename: article-figures/PMC6697358/pcbi.1006860.g008.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Input
     to the preB&#246;tC pre-I node controls period by modulating <italic>T</italic><sub><italic>E</italic></sub>.</title><p
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(A):
     Period (black), inspiratory duration (blue), and expiratory duration (red) versus
@@ -149,10 +185,12 @@ thumbnails:
     = &#8722;0.03, and tonic (C), with <italic>c</italic><sub>11</sub> = 0.01. Increasing
     <italic>b</italic><sub>31</sub> prolongs the time until pre-I activity can rise,
     leading to longer expiratory phase durations and periods.</p>'
-  filename: PMC6697358/PMC6697358/pcbi.1006860.g008.jpg
+  format: jpeg
   id: pcbi.1006860/pcbi.1006860.g008
   label: Fig 8
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Inputs
+  local_filename: source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g008.jpg
+- archive_filename: article-figures/PMC6697358/pcbi.1006860.g009.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Inputs
     to different nodes in the network provide distinct period control mechanisms.</title><p
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Left
     column: pre-I is tuned to be intrinsically oscillatory (<italic>c</italic><sub>11</sub>
@@ -166,10 +204,12 @@ thumbnails:
     parameters are fixed at <italic>c</italic><sub>12</sub> = 0.19, <italic>c</italic><sub>13</sub>
     = 0.58, <italic>c</italic><sub>14</sub> = 0.2 unless being varied. The same horizontal
     and vertical axis ranges are used in all panels.</p>'
-  filename: PMC6697358/PMC6697358/pcbi.1006860.g009.jpg
+  format: jpeg
   id: pcbi.1006860/pcbi.1006860.g009
   label: Fig 9
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Dependence
+  local_filename: source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g009.jpg
+- archive_filename: article-figures/PMC6697358/pcbi.1006860.g010.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Dependence
     of respiratory period and amplitude of inspiratory signal on inhibition levels.</title><p
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(A)
     pre-I unit is intrinsically oscillatory (<italic>c</italic><sub>11</sub> = &#8722;0.03)
@@ -187,10 +227,12 @@ thumbnails:
     in inhibition to the preB&#246;tC units than by changes in inhibition to the B&#246;tC
     units; note also that the slopes of the period curves are opposite in the two
     cases.</p>
-  filename: PMC6697358/PMC6697358/pcbi.1006860.g010.jpg
+  format: jpeg
   id: pcbi.1006860/pcbi.1006860.g010
   label: Fig 10
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Pre-I
+  local_filename: source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g010.jpg
+- archive_filename: article-figures/PMC6697358/pcbi.1006860.g011.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Pre-I
     dynamics varies across inhibition levels.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">(A) Baseline levels of inhibition
     to the preB&#246;tC yield relatively long respiratory periods with large amplitude
@@ -199,10 +241,12 @@ thumbnails:
     yields a faster period due to shortening of <italic>T</italic><sub><italic>I</italic></sub>
     and, especially, <italic>T</italic><sub><italic>E</italic></sub>, with less deinactivation
     and total magnitude of <italic>I</italic><sub><italic>NaP</italic></sub>.</p>
-  filename: PMC6697358/PMC6697358/pcbi.1006860.g011.jpg
+  format: jpeg
   id: pcbi.1006860/pcbi.1006860.g011
   label: Fig 11
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Effect
+  local_filename: source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g011.jpg
+- archive_filename: article-figures/PMC6697358/pcbi.1006860.g012.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Effect
     of increasing drive from PiCo to the post-I unit (<italic>a</italic><sub>53</sub>)
     on respiratory period.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(A)
     Period (black) and expiratory phase duration (red) for <italic>c</italic><sub>11</sub>
@@ -219,10 +263,12 @@ thumbnails:
     = 0.4 (magenta). FP and LK as in (C). In both (C) and (D), the projected trajectories
     reach the points marked with circles at the start of the aug-E phase. The arrow
     indicates the direction of flow.</p>
-  filename: PMC6697358/PMC6697358/pcbi.1006860.g012.jpg
+  format: jpeg
   id: pcbi.1006860/pcbi.1006860.g012
   label: Fig 12
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Period
+  local_filename: source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g012.jpg
+- archive_filename: article-figures/PMC6697358/pcbi.1006860.g013.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Period
     is insensitive to drive to the PiCo and to the presence of PiCo.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">Period <italic>T</italic> (black),
     expiratory duration <italic>T</italic><sub><italic>E</italic></sub> (red), and
@@ -237,6 +283,7 @@ thumbnails:
     to those in <xref ref-type="fig" rid="pcbi.1006860.g009">Fig 9</xref> (middle
     row) except for extension to more negative relative values of <italic>c</italic><sub>13</sub>
     here, since rhythmicity persists down to these lower levels.</p>
-  filename: PMC6697358/PMC6697358/pcbi.1006860.g013.jpg
+  format: jpeg
   id: pcbi.1006860/pcbi.1006860.g013
   label: Fig 13
+  local_filename: source/thumbnails/PMC6697358/PMC6697358/pcbi.1006860.g013.jpg

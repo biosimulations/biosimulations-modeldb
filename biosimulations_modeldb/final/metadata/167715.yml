@@ -1,3 +1,11 @@
+description: "\nTwo programs \n\n* sd-wild-type.ode\n* sd-mutation.ode\n \nSee:\n\n\
+  M. A. Dahlem, J. Schumacher, and N. Huebel (2014) Linking a genetic\ndefect in migraine\
+  \ to spreading depression in a computational model,\nPeerJ, 2:e379, http://dx.doi.org/10.7717/peerj.379\n\
+  \nPurpose: Model spreading depression with an extended Hodgkin-Huxley\nframework\
+  \ that includes time-dependend ion concentrations and to\nestablish a connection\
+  \ between a migraine genotype, namely the\nfamilial hemiplegic migraine type 3 (FHM3),\
+  \ and cellular phenotype of\nthis disease.\n\nCode for xppaut.\n\nEmail: markus.dahlem@gmail.com\n\
+  Web: https://sites.google.com/site/markusadahlem/\n\n"
 references:
 - label: "Markus A. Dahlem, Julia Schumacher & Niklas H\xFCbel. Linking a genetic\
     \ defect in migraine to spreading depression in a computational model. PeerJ 2:\
@@ -5,7 +13,8 @@ references:
   uri: http://identifiers.org/doi:10.7717/peerj.379
 taxa: []
 thumbnails:
-- caption: "<title xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"\
+- archive_filename: article-figures/PMC4017887/peerj-02-379-g001.jpg
+  caption: "<title xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"\
     >Inactivation time constant as a function of membrane potential.</title><p xmlns:xlink=\"\
     http://www.w3.org/1999/xlink\" xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"\
     >(A) Voltage-dependent time constant for mutation <inline-formula><alternatives><inline-graphic\
@@ -34,10 +43,12 @@ thumbnails:
     \\begin{document}\n}{}${\\tau }_{h}^{\\ast }$\\end{document}</tex-math><mml:math\
     \ id=\"mml-ieqn-156\"><mml:msubsup><mml:mrow><mml:mi>&#964;</mml:mi></mml:mrow><mml:mrow><mml:mi>h</mml:mi></mml:mrow><mml:mrow><mml:mo>*</mml:mo></mml:mrow></mml:msubsup></mml:math></alternatives></inline-formula>\
     \ is three-fold lager than <italic>&#964;<sub>h</sub></italic>.</p>"
-  filename: PMC4017887/PMC4017887/peerj-02-379-g001.jpg
+  format: jpeg
   id: peerj-02-379/fig-1
   label: Figure 1
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Spiking
+  local_filename: source/thumbnails/PMC4017887/PMC4017887/peerj-02-379-g001.jpg
+- archive_filename: article-figures/PMC4017887/peerj-02-379-g002.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Spiking
     model.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Comparison
     of wild-type (A) and mutant (D) spiking behavior. The main plots show bifurcation
     diagrams by varying the external current <italic>I</italic><sub>app</sub>. For
@@ -49,31 +60,38 @@ thumbnails:
     regime as a response to a constant input current of 12 &#181;A cm<sup>&#8722;2</sup>.
     (C) and (F) show the response of the models in the excitatory regime to a 3 ms
     long current pulse with amplitude 3 &#181;A cm<sup>&#8722;2</sup>.</p>
-  filename: PMC4017887/PMC4017887/peerj-02-379-g002.jpg
+  format: jpeg
   id: peerj-02-379/fig-2
   label: Figure 2
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Nonlinear
+  local_filename: source/thumbnails/PMC4017887/PMC4017887/peerj-02-379-g002.jpg
+- archive_filename: article-figures/PMC4017887/peerj-02-379-g003.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Nonlinear
     firing-rate function <italic>F</italic>(<italic>I</italic><sub>app</sub>) for
     wild-type model (black, solid) and mutant model (green, dashed).</title>
-  filename: PMC4017887/PMC4017887/peerj-02-379-g003.jpg
+  format: jpeg
   id: peerj-02-379/fig-3
   label: Figure 3
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Spreading
+  local_filename: source/thumbnails/PMC4017887/PMC4017887/peerj-02-379-g003.jpg
+- archive_filename: article-figures/PMC4017887/peerj-02-379-g004.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Spreading
     depression model.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Development
     of SD in wild-type (A) and mutant (B) models. A SD is elicited by down-regulating
     the pump current to 20% of its maximal value for 13.6 s (wild-type) and 7.2 s
     (mutant), respectively (see blacked dashed line). The red and blue dashed lines
     show the temporal development of the sodium and potassium reversal potentials.</p>
-  filename: PMC4017887/PMC4017887/peerj-02-379-g004.jpg
+  format: jpeg
   id: peerj-02-379/fig-4
   label: Figure 4
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Anoxia
+  local_filename: source/thumbnails/PMC4017887/PMC4017887/peerj-02-379-g004.jpg
+- archive_filename: article-figures/PMC4017887/peerj-02-379-g005.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Anoxia
     model.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Response
     of wild-type (A) and mutant (B) membrane potential to a complete breakdown of
     pump, glial and diffusion currents at <italic>t</italic> = 5 s (black dashed vertical
     line). Red and blue dotted lines show the Na<sup>+</sup> and K<sup>+</sup> reversal
     potentials over time. The time from the onset of spiking until the beginning of
     the excitation block is approximately 6.7 s without and 2.7 s with mutation.</p>
-  filename: PMC4017887/PMC4017887/peerj-02-379-g005.jpg
+  format: jpeg
   id: peerj-02-379/fig-5
   label: Figure 5
+  local_filename: source/thumbnails/PMC4017887/PMC4017887/peerj-02-379-g005.jpg

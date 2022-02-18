@@ -1,3 +1,48 @@
+description: "```\n\nThis archive contains MATLAB codes of both the original BGCT\
+  \ and\nimproved BGCT models described in the following two papers:\n\n     Paper\
+  \ 1\n     Title:   Bidirectional Control of Absence Seizures by the Basal\n    \
+  \          Ganglia: A Computational Evidence (2014)\n     Authors: Mingming Chen,\
+  \ Daqing Guo*, Tiebin Wang, Wei Jing, Yang\n              Xia, Peng Xu, Cheng Luo,\
+  \ Pedro A. Valdes-Sosa, and Dezhong Yao*\n     Journal: PLoS Computational Biology\n\
+  \     Emails:  twqylsf@gmail.com and dqguo@uestc.edu.cn\n\n     Paper 2 \n\nTitle:\
+  \ Critical Roles of the Direct GABAergic Pallido-cortical Pathway\n       in Controlling\
+  \ Absence Seizures (2015, in press, DOI:\n       10.1371/journal.pcbi.1004539) Authors:\
+  \ Mingming Chen, Daqing\n       Guo*, Min Li, Tao Ma, Shengdun Wu, Jingling Ma,\
+  \ Yan Cui, Yang\n       Xia, Peng Xu, and Dezhong Yao*\n     Journal: PLoS Computational\
+  \ Biology\n     Emails:  twqylsf at gmail.com and dqguo at uestc.edu.cn\n\nIn addition,\
+  \ this archive also provides a comparable XPPAUT\nimplementation of the original\
+  \ BGCT model.\n\nPlease see the scripts in BGCT\\_matlab\\_paper1 file for the MATLAB\
+  \ codes\nof the original BGCT model, and the BGCT\\_Basic.ode for the comparable\n\
+  XPPAUT code. The detailed information of these codes is described as\nfollows:\n\
+  \n1. The main mainFig2C.m script generates figures similar (not\nidentical due to\
+  \ starting in a random initial condition) to Fig 2C in\nthe paper 1. Zooming in\
+  \ on the origins of the subplots in the figure\nmainFig2C.m generated should therefore\
+  \ look something like:\n\n\n```\n![screenshot](data:image/png;base64,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)\n\
+  ```\n \n\n2. The scripts (main\\_bifurcation\\_Fig2A, main\\_bifurcation\\_Fig2B,\n\
+  main\\_bifurcation\\_Fig3C, and main\\_bifurcation\\_Fig3D) generate all\nbifurcation\
+  \ diagrams presented in paper 1. For each set of\nexperimental parameters, we run\
+  \ 30 trails using different random\ninitial conditions for checking the possible\
+  \ bistable dynamics.\n\n3. The scripts (main\\_2D\\_analysis\\_Fig2DE, main\\_2D\\\
+  _analysis\\_Fig3AB,\nmain\\_2D\\_analysis\\_Fig4AB, main\\_2D\\_analysis\\_Fig5AB)\
+  \ generate\ntwo-dimensional state and frequency diagrams similar to Figs 2D, 2E,\n\
+  3A, 3B, 4A, 4B, 5A, and 5B in paper 1.\n\nPlease see the scripts in BGCT\\_matlab\\\
+  _paper2 file for the MATLAB codes\nof the improved BGCT model by incorporating a\
+  \ new efferent pathway\nrepresenting direct connection from the GPe to the cerebral\n\
+  cortex. The detailed information of these codes is described as\nfollows:\n\n1.\
+  \ The BGCT\\_subfun\\_GPe\\_Basic script is the basic implementation of the\nimproved\
+  \ BGCT model.\n2. The scripts (BGCT\\_subfun\\_GPe\\_Fig2\\_So,\nBGCT\\_subfun\\\
+  _GPe\\_Fig4\\_Fig5\\_Sol, BGCT\\_subfun\\_GPe\\_Fig6\\_Fig7\\_Sol) generate\nthe\
+  \ data used to plot two-dimensional state and frequency diagrams\nsimilar to Figs.\
+  \ 2, 4, 5, 6 and 7 in paper 2. For each set of\nexperimental parameters, we run\
+  \ 30 trails using different random\ninitial conditions for checking the possible\
+  \ bistable dynamics.\n3. The BGCT\\_subfun\\_GPe\\_Fig3\\_Sol script generates all\
+  \ data used to plot\nthe bifurcation diagrams, frequency diagrams as well as the\
+  \ mean\nfiring rates for several critical neural populations in Fig 3 (paper\n2).\n\
+  \nNote that the other figures in these two papers could be easily\nreproduced using\
+  \ the codes provided in this archive by suitably tuning\nparameters.\n\nMATLAB is\
+  \ commercial software available from <http://www.mathworks.com>\nand XPPAut is free\
+  \ from <http://www.math.pitt.edu/~bard/xpp/xpp.html>\nThis archive was provided\
+  \ by Daqing Guo and Mingming Chen.\n\n```"
 references:
 - label: 'Mingming Chen, Daqing Guo, Tiebin Wang, Wei Jing, Yang Xia, Peng Xu, Cheng
     Luo, Pedro A. Valdes-Sosa & Dezhong Yao. Bidirectional control of absence seizures
@@ -11,7 +56,8 @@ references:
   uri: http://identifiers.org/doi:10.1371/journal.pcbi.1004539
 taxa: []
 thumbnails:
-- caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+- archive_filename: article-figures/PMC3952815/pcbi.1003495.g001.jpg
+  caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">Framework of the basal ganglia-corticothalamic
     network.</title><p xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">Neural populations include <inline-formula><inline-graphic
@@ -31,10 +77,12 @@ thumbnails:
     projections mediated by GABA<sub>A</sub> and GABA<sub>B</sub> receptors, respectively.
     Compared with the traditional model of corticothalamic system on absence seizures,
     the basal ganglia are also included in our biophysical model.</p>
-  filename: PMC3952815/PMC3952815/pcbi.1003495.g001.jpg
+  format: jpeg
   id: pcbi.1003495/pcbi-1003495-g001
   label: Figure 1
-- caption: '<title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+  local_filename: source/thumbnails/PMC3952815/PMC3952815/pcbi.1003495.g001.jpg
+- archive_filename: article-figures/PMC3952815/pcbi.1003495.g002.jpg
+  caption: '<title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">Absence seizure activities induced
     by the slow kinetics of</title><p xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">
@@ -67,10 +115,12 @@ thumbnails:
     in (C): I (white filled circle), II (red filled square), III (yellow filled triangle),
     and IV (purple filled star). For all simulations, we set <inline-formula><inline-graphic
     xlink:href="pcbi.1003495.e196.jpg"/></inline-formula>.</p>'
-  filename: PMC3952815/PMC3952815/pcbi.1003495.g002.jpg
+  format: jpeg
   id: pcbi.1003495/pcbi-1003495-g002
   label: Figure 2
-- caption: '<title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+  local_filename: source/thumbnails/PMC3952815/PMC3952815/pcbi.1003495.g002.jpg
+- archive_filename: article-figures/PMC3952815/pcbi.1003495.g003.jpg
+  caption: '<title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">Control of absence seizures by
     the isolated SNr-TRN pathway.</title><p xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">A,
@@ -103,10 +153,12 @@ thumbnails:
     as a function of <inline-formula><inline-graphic xlink:href="pcbi.1003495.e208.jpg"/></inline-formula>.
     For all simulations, the SNr-SRN pathway is artificially blocked (i.e., <inline-formula><inline-graphic
     xlink:href="pcbi.1003495.e209.jpg"/></inline-formula>).</p>'
-  filename: PMC3952815/PMC3952815/pcbi.1003495.g003.jpg
+  format: jpeg
   id: pcbi.1003495/pcbi-1003495-g003
   label: Figure 3
-- caption: '<title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+  local_filename: source/thumbnails/PMC3952815/PMC3952815/pcbi.1003495.g003.jpg
+- archive_filename: article-figures/PMC3952815/pcbi.1003495.g004.jpg
+  caption: '<title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">Control of absence seizures by
     the isolated SNr-SRN pathway.</title><p xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">A,
@@ -140,10 +192,12 @@ thumbnails:
     xlink:href="pcbi.1003495.e286.jpg"/></inline-formula>. Note that the SNr-TRN pathway
     is artificially blocked (i.e., <inline-formula><inline-graphic xlink:href="pcbi.1003495.e287.jpg"/></inline-formula>)
     for all simulations.</p>'
-  filename: PMC3952815/PMC3952815/pcbi.1003495.g004.jpg
+  format: jpeg
   id: pcbi.1003495/pcbi-1003495-g004
   label: Figure 4
-- caption: '<title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+  local_filename: source/thumbnails/PMC3952815/PMC3952815/pcbi.1003495.g004.jpg
+- archive_filename: article-figures/PMC3952815/pcbi.1003495.g005.jpg
+  caption: '<title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">Control of absence seizures by
     the combination effects of the SNr-TRN and SNr-SRN pathways.</title><p xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">A,
@@ -175,10 +229,12 @@ thumbnails:
     as a function of <inline-formula><inline-graphic xlink:href="pcbi.1003495.e311.jpg"/></inline-formula>.
     For all simulations, the coupling strength of the TRN-SRN pathway is set as <inline-formula><inline-graphic
     xlink:href="pcbi.1003495.e312.jpg"/></inline-formula>.</p>'
-  filename: PMC3952815/PMC3952815/pcbi.1003495.g005.jpg
+  format: jpeg
   id: pcbi.1003495/pcbi-1003495-g005
   label: Figure 5
-- caption: '<title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+  local_filename: source/thumbnails/PMC3952815/PMC3952815/pcbi.1003495.g005.jpg
+- archive_filename: article-figures/PMC3952815/pcbi.1003495.g006.jpg
+  caption: '<title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">Effect of inhibitory coupling strength</title><p
     xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">
@@ -210,10 +266,12 @@ thumbnails:
     xlink:href="pcbi.1003495.e336.jpg"/></inline-formula> in a relatively larger <inline-formula><inline-graphic
     xlink:href="pcbi.1003495.e337.jpg"/></inline-formula> interval is given in <xref
     ref-type="supplementary-material" rid="pcbi.1003495.s002">Fig. S2</xref>.</p>'
-  filename: PMC3952815/PMC3952815/pcbi.1003495.g006.jpg
+  format: jpeg
   id: pcbi.1003495/pcbi-1003495-g006
   label: Figure 6
-- caption: '<title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+  local_filename: source/thumbnails/PMC3952815/PMC3952815/pcbi.1003495.g006.jpg
+- archive_filename: article-figures/PMC3952815/pcbi.1003495.g007.jpg
+  caption: '<title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">An example illustrating that the
     bidirectional control of absence seizures by the basal ganglia is also available
     for the corticothalamic loop transmission delay induced SWDs.</title><p xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
@@ -244,10 +302,12 @@ thumbnails:
     xlink:href="pcbi.1003495.e369.jpg"/></inline-formula>, <inline-formula><inline-graphic
     xlink:href="pcbi.1003495.e370.jpg"/></inline-formula> and <inline-formula><inline-graphic
     xlink:href="pcbi.1003495.e371.jpg"/></inline-formula>.</p>'
-  filename: PMC3952815/PMC3952815/pcbi.1003495.g007.jpg
+  format: jpeg
   id: pcbi.1003495/pcbi-1003495-g007
   label: Figure 7
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Framework
+  local_filename: source/thumbnails/PMC3952815/PMC3952815/pcbi.1003495.g007.jpg
+- archive_filename: article-figures/PMC4619822/pcbi.1004539.g001.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Framework
     of the basal ganglia-corticothalamic (BGCT) network used in this work.</title><p
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
     BGCT network contains three components: (I) the cerebral cortex, (II) the thalamus
@@ -270,10 +330,12 @@ thumbnails:
     arrow heads, respectively. Compared with the BGCT networks developed in previous
     studies, a new efferent pathway representing direct connection from the GPe to
     the cerebral cortex is incorporated in our current BGCT model.</p>'
-  filename: PMC4619822/PMC4619822/pcbi.1004539.g001.jpg
+  format: jpeg
   id: pcbi.1004539/pcbi.1004539.g001
   label: Fig 1
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Absence
+  local_filename: source/thumbnails/PMC4619822/PMC4619822/pcbi.1004539.g001.jpg
+- archive_filename: article-figures/PMC4619822/pcbi.1004539.g002.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Absence
     seizures induced by strong coupling of the cortico-thalamic pathway and slow dynamics
     of GABA<sub>B</sub> receptors in TRN.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">A, B: Two-dimensional state analysis
@@ -294,10 +356,12 @@ thumbnails:
     <italic>v</italic>
 
     <sub><italic>cp</italic><sub>2</sub></sub> = &#8722;0.05 mV s for all simulations.</p>'
-  filename: PMC4619822/PMC4619822/pcbi.1004539.g002.jpg
+  format: jpeg
   id: pcbi.1004539/pcbi.1004539.g002
   label: Fig 2
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Control
+  local_filename: source/thumbnails/PMC4619822/PMC4619822/pcbi.1004539.g002.jpg
+- archive_filename: article-figures/PMC4619822/pcbi.1004539.g003.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Control
     of absence seizures by the direct GABAergic pallido-cortical pathway.</title><p
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">A:
     Bifurcation diagrams of <italic>&#981;</italic>
@@ -327,10 +391,12 @@ thumbnails:
     excitatory pyramidal neurons (&#8220;*&#8221;), SRN (&#8220;&#8728;&#8221;) and
     TRN (&#8220;&#9723;&#8221;). Note that the gray regions in (A)&#8211;(C) denote
     the SWD oscillations falling into the typical 2&#8211;4 Hz.</p>'
-  filename: PMC4619822/PMC4619822/pcbi.1004539.g003.jpg
+  format: jpeg
   id: pcbi.1004539/pcbi.1004539.g003
   label: Fig 3
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Effects
+  local_filename: source/thumbnails/PMC4619822/PMC4619822/pcbi.1004539.g003.jpg
+- archive_filename: article-figures/PMC4619822/pcbi.1004539.g004.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Effects
     of direct GPe-related pathways on regulating absence seizures.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">A, B: Two dimensional state analysis
     (A) and frequency analysis (B) in different parameter spaces. Here we consider
@@ -377,10 +443,12 @@ thumbnails:
 
     <sub><italic>cp</italic><sub>2</sub></sub>. Obviously, blockade of the inhibitory
     striatal D2-GPe pathway does not impact the model dynamics significantly.</p>'
-  filename: PMC4619822/PMC4619822/pcbi.1004539.g004.jpg
+  format: jpeg
   id: pcbi.1004539/pcbi.1004539.g004
   label: Fig 4
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Effects
+  local_filename: source/thumbnails/PMC4619822/PMC4619822/pcbi.1004539.g004.jpg
+- archive_filename: article-figures/PMC4619822/pcbi.1004539.g005.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Effects
     of indirect GPe-related pathways on regulating absence seizures.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">A, B: Two-dimensional state analysis
     (A) and frequency analysis (B) in the combined (&#8722;<italic>v</italic>
@@ -413,10 +481,12 @@ thumbnails:
     to the results in <xref ref-type="fig" rid="pcbi.1004539.g004">Fig 4</xref>, these
     two indirect GPe-related pathways have relatively weak effects on controlling
     absence seizures.</p>'
-  filename: PMC4619822/PMC4619822/pcbi.1004539.g005.jpg
+  format: jpeg
   id: pcbi.1004539/pcbi.1004539.g005
   label: Fig 5
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Bidirectional
+  local_filename: source/thumbnails/PMC4619822/PMC4619822/pcbi.1004539.g005.jpg
+- archive_filename: article-figures/PMC4619822/pcbi.1004539.g006.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Bidirectional
     control of absence seizures due to the competition between the SNr-TRN and SNr-SRN
     pathways.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">A,
     B: The state analysis (A) and frequency analysis (B) in the (<italic>K</italic>,
@@ -443,10 +513,12 @@ thumbnails:
     set <italic>&#964;</italic> = 45 ms and <italic>v</italic>
 
     <sub><italic>cp</italic><sub>2</sub></sub> = &#8722;0.06 mV s.</p>'
-  filename: PMC4619822/PMC4619822/pcbi.1004539.g006.jpg
+  format: jpeg
   id: pcbi.1004539/pcbi.1004539.g006
   label: Fig 6
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Shaping
+  local_filename: source/thumbnails/PMC4619822/PMC4619822/pcbi.1004539.g006.jpg
+- archive_filename: article-figures/PMC4619822/pcbi.1004539.g007.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Shaping
     effects of the direct GABAergic pallido-cortical pathway on the bidirectional
     control of absence seizures by the BG.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">A, B: Tow-dimensional state analysis
@@ -482,6 +554,10 @@ thumbnails:
     <sub><italic>cp</italic><sub>2</sub></sub> = &#8722;0.07 mV s (A<sub>4</sub>,
     B<sub>4</sub>), respectively. In all simulations, we set <italic>&#964;</italic>
     = 45 ms.</p>'
-  filename: PMC4619822/PMC4619822/pcbi.1004539.g007.jpg
+  format: jpeg
   id: pcbi.1004539/pcbi.1004539.g007
   label: Fig 7
+  local_filename: source/thumbnails/PMC4619822/PMC4619822/pcbi.1004539.g007.jpg
+- archive_filename: screenshot.png
+  format: png
+  local_filename: source/models/152113/screenshot.png

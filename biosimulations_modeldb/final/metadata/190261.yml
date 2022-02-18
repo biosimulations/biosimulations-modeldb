@@ -1,3 +1,23 @@
+description: 'This is the readme for the models associated with the paper:
+
+
+  Rho YA, Prescott SA (2012) Identification of molecular pathologies
+
+  sufficient to cause neuropathic excitability in primary somatosensory
+
+  afferents using dynamical systems theory. PLoS Comput Biol 8:e1002524
+
+
+  These models require xpp which is available from
+
+  http://www.math.pitt.edu/~bard/xpp/xpp.html
+
+
+  More documentation on running XPP is available here:
+
+  http://www.math.pitt.edu/~bard/xpp/help/xppauto.html
+
+  '
 references:
 - label: 'Young-Ah Rho & Steven A. Prescott. Identification of molecular pathologies
     sufficient to cause neuropathic excitability in primary somatosensory afferents
@@ -5,7 +25,8 @@ references:
   uri: http://identifiers.org/doi:10.1371/journal.pcbi.1002524
 taxa: []
 thumbnails:
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Neuropathic
+- archive_filename: article-figures/PMC3359967/pcbi.1002524.g001.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Neuropathic
     changes in primary afferent excitability.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) Sample responses
     from large diameter acutely isolated dorsal root ganglion (DRG) neurons under
@@ -18,10 +39,12 @@ thumbnails:
     changes and their relationship to primary afferent hyperexcitability and neuropathic
     pain. In this study, we sought to define the red circle. Parts A&#8211;C were
     modified from reference 4.</p>
-  filename: PMC3359967/PMC3359967/pcbi.1002524.g001.jpg
+  format: jpeg
   id: pcbi.1002524/pcbi-1002524-g001
   label: Figure 1
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulation
+  local_filename: source/thumbnails/PMC3359967/PMC3359967/pcbi.1002524.g001.jpg
+- archive_filename: article-figures/PMC3359967/pcbi.1002524.g002.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulation
     and dynamical explanation of change in spiking pattern.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) Spiking pattern
     during sustained depolarization was converted from onset-only (normal, &#946;<sub>w</sub>&#8202;=&#8202;&#8722;21
@@ -60,10 +83,12 @@ thumbnails:
     require the trajectory to cross back over the QS, which is not possible. If the
     original fixed point remained above the shifted QS, the trajectory would follow
     a direct route and no spike would be produced (not illustrated).</p>'
-  filename: PMC3359967/PMC3359967/pcbi.1002524.g002.jpg
+  format: jpeg
   id: pcbi.1002524/pcbi-1002524-g002
   label: Figure 2
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulation
+  local_filename: source/thumbnails/PMC3359967/PMC3359967/pcbi.1002524.g002.jpg
+- archive_filename: article-figures/PMC3359967/pcbi.1002524.g003.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulation
     and dynamical explanation of membrane potential oscillations.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) Traces (<italic>top</italic>)
     show sample responses for different <italic>I</italic>
@@ -88,10 +113,12 @@ thumbnails:
     and -independent MPOs with and without noise. Colors correspond to boxes in B.
     Broadly peaked power spectra (like those associated with MPOs under noisy conditions)
     more closely resemble experimental data (see <xref ref-type="sec" rid="s2">Results</xref>).</p>'
-  filename: PMC3359967/PMC3359967/pcbi.1002524.g003.jpg
+  format: jpeg
   id: pcbi.1002524/pcbi-1002524-g003
   label: Figure 3
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Frequency
+  local_filename: source/thumbnails/PMC3359967/PMC3359967/pcbi.1002524.g003.jpg
+- archive_filename: article-figures/PMC3359967/pcbi.1002524.g004.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Frequency
     and voltage range of noise-dependent MPOs in neuropathic model.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) Power spectra
     for MPOs at different average membrane potentials. Spike threshold was &#8722;33.4
@@ -114,10 +141,12 @@ thumbnails:
     which eventually leads to the termination of repetitive spiking. Inset shows <italic>dV</italic>/<italic>dt</italic>
     vs. <italic>V</italic> for spike near the beginning and end of the spike train
     to highlight the change in spike shape and the shift in threshold.</p>
-  filename: PMC3359967/PMC3359967/pcbi.1002524.g004.jpg
+  format: jpeg
   id: pcbi.1002524/pcbi-1002524-g004
   label: Figure 4
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulation
+  local_filename: source/thumbnails/PMC3359967/PMC3359967/pcbi.1002524.g004.jpg
+- archive_filename: article-figures/PMC3359967/pcbi.1002524.g005.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulation
     and dynamical explanation of bursting.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) Sample responses
     at different average membrane potentials in the neuropathic model (&#946;<sub>w</sub>&#8202;=&#8202;&#8722;13
@@ -144,10 +173,12 @@ thumbnails:
     <sub>AHP</sub>, which is an inhibitory current, whereas <italic>I</italic>
 
     <sub>stim</sub> (the bifurcation parameter used elsewhere) is excitatory.</p>'
-  filename: PMC3359967/PMC3359967/pcbi.1002524.g005.jpg
+  format: jpeg
   id: pcbi.1002524/pcbi-1002524-g005
   label: Figure 5
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulating
+  local_filename: source/thumbnails/PMC3359967/PMC3359967/pcbi.1002524.g005.jpg
+- archive_filename: article-figures/PMC3359967/pcbi.1002524.g006.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulating
     the continuum of pathological change.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) Summary of <italic>I</italic>
 
@@ -172,10 +203,12 @@ thumbnails:
     but the same trend in MPO power and frequency was observed (data not shown). Dotted
     curve in C shows minimum sustainable firing rate. * indicates data points that
     include a noise-independent MPO component.</p>'
-  filename: PMC3359967/PMC3359967/pcbi.1002524.g006.jpg
+  format: jpeg
   id: pcbi.1002524/pcbi-1002524-g006
   label: Figure 6
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Relating
+  local_filename: source/thumbnails/PMC3359967/PMC3359967/pcbi.1002524.g006.jpg
+- archive_filename: article-figures/PMC3359967/pcbi.1002524.g007.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Relating
     parameter changes in the 2-D model with more biologically meaningful changes in
     a 3-D model.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>)
     Changing &#946;<sub>w</sub> from &#8722;21 mv to &#8722;13 mV shifts the <italic>I</italic>
@@ -234,10 +267,12 @@ thumbnails:
     <sub>supra</sub>)&#8722;<italic>V</italic> curve in the perithreshold voltage
     range, and thus the spike initiation dynamics were unchanged (see <bold><xref
     ref-type="supplementary-material" rid="pcbi.1002524.s004">Fig. S4</xref></bold>).</p>'
-  filename: PMC3359967/PMC3359967/pcbi.1002524.g007.jpg
+  format: jpeg
   id: pcbi.1002524/pcbi-1002524-g007
   label: Figure 7
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Dynamically
+  local_filename: source/thumbnails/PMC3359967/PMC3359967/pcbi.1002524.g007.jpg
+- archive_filename: article-figures/PMC3359967/pcbi.1002524.g008.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Dynamically
     equivalent effects of varying other model parameters in the 2-D model.</title><p
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Effects
     of changing &#946;<sub>w</sub> (<bold>A</bold>), <italic>g</italic>
@@ -261,10 +296,12 @@ thumbnails:
     </xref>
 
     <bold> top</bold>.</p>'
-  filename: PMC3359967/PMC3359967/pcbi.1002524.g008.jpg
+  format: jpeg
   id: pcbi.1002524/pcbi-1002524-g008
   label: Figure 8
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Effects
+  local_filename: source/thumbnails/PMC3359967/PMC3359967/pcbi.1002524.g008.jpg
+- archive_filename: article-figures/PMC3359967/pcbi.1002524.g009.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Effects
     of multiple co-occurring molecular changes.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) A parameter change
     affecting a subthreshold current (in this case in the original 2-D model) may
@@ -287,10 +324,12 @@ thumbnails:
     excitability (arrow <italic>b</italic>). Systematic testing of all parameter combinations
     is beyond the scope of the current study, but this example highlights the importance
     of parameter co-variation.</p>'
-  filename: PMC3359967/PMC3359967/pcbi.1002524.g009.jpg
+  format: jpeg
   id: pcbi.1002524/pcbi-1002524-g009
   label: Figure 9
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Summary
+  local_filename: source/thumbnails/PMC3359967/PMC3359967/pcbi.1002524.g009.jpg
+- archive_filename: article-figures/PMC3359967/pcbi.1002524.g010.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Summary
     of relationships between molecular and cellular changes.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>Scenario 1</bold>) A molecular
     change of interest outside the red-shaded region is neither necessary nor sufficient
@@ -308,6 +347,7 @@ thumbnails:
     the degenerate manner by which spike initiation can be altered, as shown in this
     study. Degeneracy implies that the red circle is large and thus likely to significantly
     overlap the gray circle.</p>
-  filename: PMC3359967/PMC3359967/pcbi.1002524.g010.jpg
+  format: jpeg
   id: pcbi.1002524/pcbi-1002524-g010
   label: Figure 10
+  local_filename: source/thumbnails/PMC3359967/PMC3359967/pcbi.1002524.g010.jpg

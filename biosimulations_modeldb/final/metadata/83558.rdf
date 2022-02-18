@@ -6,6 +6,28 @@
   <rdf:Description rdf:about="http://omex-library.org/83558.omex">
     <dc:abstract>"The responsiveness of rhythmically-firing neurons to synaptic inputs is characterized by their phase response curve (PRC), which relates how weak somatic perturbations affect the timing of the next action potential. The shape of the somatic PRC is an important determinant of collective network dynamics. Here we study theoretically and experimentally the impact of distally-located synapses and dendritic nonlinearities on the synchronization properties of rhythmically firing neurons. Combining the theories of quasi-active cables and phase-coupled oscillators we derive an approximation for the dendritic responsiveness, captured by the neuron's dendritic PRC (dPRC). This closed-form expression indicates that the dPRCs are linearly-filtered versions of the somatic PRC, and that the filter characteristics are determined by the passive and active properties of the dendrite. ... collective dynamics can be qualitatively different depending on the location of the synapse, the neuronal firing rates and the dendritic nonlinearities." See paper for more and details.</dc:abstract>
   </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83558.omex">
+    <dc:description>This is the readme for the model code associated with the publication:
+
+Goldberg JA, Deister CA, Wilson CJ (2006) Response properties and
+synchronization of rhythmically-firing dendritic neurons.
+J Neurophysiol Sep 6; [Epub ahead of print]
+
+Note from Dr Goldberg:
+
+I apologize for not having code that executes each figure, but truly
+all the information is in the paper. I hope the names are self
+explanatory. The simulations of pairs of neurons that appear in the
+paper require VERY VERY long times to reach steady state, as the
+coupling is very weak in the case of dendritic coupling.  One final
+comment, although in figure 2 the dendrite/cable is passive the code
+includes an NaP current in the cable, but if the conductance gnad is
+set to zero the cable becomes passive.
+
+josh@biocontrol.co.il
+
+</dc:description>
+  </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>
   </rdf:Description>
@@ -47,6 +69,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="local:00005">
     <rdfs:label>Joshua Goldberg</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <foaf:mbox rdf:resource="mailto:JoshG@ekmd.huji.ac.il">mailto:JoshG@ekmd.huji.ac.il</foaf:mbox>
   </rdf:Description>
   <rdf:Description rdf:about="local:00005">
     <foaf:accountName rdf:resource="mailto:JoshG@ekmd.huji.ac.il">mailto:JoshG@ekmd.huji.ac.il</foaf:accountName>

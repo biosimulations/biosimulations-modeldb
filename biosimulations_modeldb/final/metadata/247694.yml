@@ -1,3 +1,4 @@
+description: null
 references:
 - label: "Audrey Denizot, Misa Arizono, U. Valentin N\xE4gerl, H\xE9di Soula & Hugues\
     \ Berry. Simulation of calcium signaling in fine astrocytic processes: Effect\
@@ -6,7 +7,8 @@ references:
   uri: http://identifiers.org/doi:10.1371/journal.pcbi.1006795
 taxa: []
 thumbnails:
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Reaction
+- archive_filename: article-figures/PMC6726244/pcbi.1006795.g001.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Reaction
     scheme and <italic>IP</italic><sub>3</sub><italic>R</italic> model.</title><p
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
     biochemical processes included in the model are illustrated in (<italic>A</italic>).
@@ -51,10 +53,12 @@ thumbnails:
     emulate co-localization between <italic>IP</italic><sub>3</sub><italic>R</italic>-dependent
     and <italic>IP</italic><sub>3</sub><italic>R</italic>-independent Ca<sup>2+</sup>
     influx sources.</p>'
-  filename: PMC6726244/PMC6726244/pcbi.1006795.g001.jpg
+  format: jpeg
   id: pcbi.1006795/pcbi.1006795.g001
   label: Fig 1
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Model
+  local_filename: source/thumbnails/PMC6726244/PMC6726244/pcbi.1006795.g001.jpg
+- archive_filename: article-figures/PMC6726244/pcbi.1006795.g002.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Model
     exploration.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(<italic>A</italic>)
     Spontaneous transients are observed in simulations of the particle-based and the
     Gillespie&#8217;s SSA model but not in the Mean Field model. (<italic>B</italic>)
@@ -78,10 +82,12 @@ thumbnails:
     <italic>IP</italic><sub>3</sub><italic>R</italic>-independent Ca<sup>2+</sup>
     sources. For SSA and particle-based models, the figure shows the average &#177;
     standard deviation over 20 simulations.</p>'
-  filename: PMC6726244/PMC6726244/pcbi.1006795.g002.jpg
+  format: jpeg
   id: pcbi.1006795/pcbi.1006795.g002
   label: Fig 2
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
+  local_filename: source/thumbnails/PMC6726244/PMC6726244/pcbi.1006795.g002.jpg
+- archive_filename: article-figures/PMC6726244/pcbi.1006795.g003.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
     particle-based model produces different calcium activity regimes depending on
     parameter values.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Color-coded
     map of variation of the peak frequency, expressed as the number of calcium peaks
@@ -97,10 +103,12 @@ thumbnails:
     = 7). Red crosses show the locations of peaks from automatic detection. <italic>D</italic><sub>Ca</sub>
     = <italic>D</italic><sub>IP3</sub> = &#8734;, <italic>&#951;</italic> = 1, <italic>R</italic><sub><italic>&#947;</italic></sub>
     = 200.</p>'
-  filename: PMC6726244/PMC6726244/pcbi.1006795.g003.jpg
+  format: jpeg
   id: pcbi.1006795/pcbi.1006795.g003
   label: Fig 3
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Ca<sup>2+</sup>
+  local_filename: source/thumbnails/PMC6726244/PMC6726244/pcbi.1006795.g003.jpg
+- archive_filename: article-figures/PMC6726244/pcbi.1006795.g004.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Ca<sup>2+</sup>
     diffusion modulates the temporal characteristics of the signals upon co-localization.</title><p
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Representative
     simulations of the particle-based model showing both calcium trace and number
@@ -129,10 +137,12 @@ thumbnails:
     (<italic>D</italic>), (<italic>E</italic>) and (<italic>F</italic>) is not regularly
     spaced. Other parameters: <italic>&#951;</italic> = 1 (no clustering), <italic>a</italic><sub>1</sub>
     = 1 a.u, <italic>&#956;</italic> = 50 a.u.</p>'
-  filename: PMC6726244/PMC6726244/pcbi.1006795.g004.jpg
+  format: jpeg
   id: pcbi.1006795/pcbi.1006795.g004
   label: Fig 4
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML"><italic>IP</italic><sub>3</sub><italic>R</italic>
+  local_filename: source/thumbnails/PMC6726244/PMC6726244/pcbi.1006795.g004.jpg
+- archive_filename: article-figures/PMC6726244/pcbi.1006795.g005.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML"><italic>IP</italic><sub>3</sub><italic>R</italic>
     clustering modulates calcium signals when co-localized.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">Representative simulations of the
     particle-based model with the corresponding <italic>IP</italic><sub>3</sub><italic>R</italic>
@@ -149,10 +159,12 @@ thumbnails:
     presented as mean &#177; standard deviation over 20 simulations. Lines are guide
     for the eyes. Other parameters: <italic>D</italic><sub>Ca</sub> = 0.1 a.u, <italic>a</italic><sub>1</sub>
     = 1 a.u, <italic>&#956;</italic> = 50 a.u.</p>'
-  filename: PMC6726244/PMC6726244/pcbi.1006795.g005.jpg
+  format: jpeg
   id: pcbi.1006795/pcbi.1006795.g005
   label: Fig 5
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">3d
+  local_filename: source/thumbnails/PMC6726244/PMC6726244/pcbi.1006795.g005.jpg
+- archive_filename: article-figures/PMC6726244/pcbi.1006795.g006.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">3d
     model simulations in fine astrocyte processes successfully reproduce calcium microdomains
     signals.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(<italic>A</italic>)
     Experimental monitoring of the spontaneous local Ca<sup>2+</sup> signals in astrocytic
@@ -181,10 +193,12 @@ thumbnails:
     width at half maximum, FWHM) D3. Significance is assigned by * for <italic>p</italic>
     &#8804; 0.05, ** for <italic>p</italic> &#8804; 0.01, *** for <italic>p</italic>
     &#8804; 0.001.</p>
-  filename: PMC6726244/PMC6726244/pcbi.1006795.g006.jpg
+  format: jpeg
   id: pcbi.1006795/pcbi.1006795.g006
   label: Fig 6
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
+  local_filename: source/thumbnails/PMC6726244/PMC6726244/pcbi.1006795.g006.jpg
+- archive_filename: article-figures/PMC6726244/pcbi.1006795.g007.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
     kinetics and concentration of GECIs strongly influence calcium dynamics.</title><p
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(<italic>A</italic>)
     Quantitative comparisons of the spontaneous calcium signals measured with &#8220;GCaMP6s&#8221;
@@ -198,6 +212,7 @@ thumbnails:
     * for <italic>p</italic> &#8804; 0.05, ** for <italic>p</italic> &#8804; 0.01,
     *** for <italic>p</italic> &#8804; 0.001. Data are presented as mean &#177; standard
     deviation over 20 simulations. Lines are guide for the eyes.</p>
-  filename: PMC6726244/PMC6726244/pcbi.1006795.g007.jpg
+  format: jpeg
   id: pcbi.1006795/pcbi.1006795.g007
   label: Fig 7
+  local_filename: source/thumbnails/PMC6726244/PMC6726244/pcbi.1006795.g007.jpg

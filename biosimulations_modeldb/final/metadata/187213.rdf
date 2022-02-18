@@ -6,6 +6,68 @@
   <rdf:Description rdf:about="http://omex-library.org/187213.omex">
     <dc:abstract>The extent of anoxic depolarization (AD), the initial electrophysiological event during ischemia, determines the degree of brain region-specific neuronal damage. Neurons in higher brain regions have stronger ADs and are more easily injured than neurons in lower brain region. The mechanism leading to such differences is not clear. We use a computational model based on a Hodgkin-Huxley framework which includes neural spiking dynamics, processes of ion accumulation, and homeostatic mechanisms like vascular coupling and Na/K-exchange pumps. We show that a large extracellular space (ECS) explains the recovery failure in high brain regions. A phase-space analysis shows that with a large ECS recovery from AD through potassium regulation is impossible. The code 'time_series.ode' can be used to simulate AD for a large and a small ECS and show the different behaviors. The code ‘continuations.ode’ can be used to show the fixed point structure. Depending on our choice of large or small ECS the fixed point curve implies the presence/absence of a recovery threshold that defines the potassium clearance demand.</dc:abstract>
   </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187213.omex">
+    <dc:description>**************************************************************************************************
+**************************************************************************************************
+**************************************************************************************************
+
+The code can be used to reproduce time series and bifurcation diagrams shown in Figs. 4 and 5.
+
+Time series (obtained from time_series.ode):
+a.) time series for ‘par vle=720’:
+    - parameter specification from line 33
+b.) time series for ‘par vle=3700’:
+    - parameter specification from line 34
+
+Bifurcation diagrams (obtained from continuatons.ode)
+c.) bifurcation diagram for ‘par vle=720’:
+    - initial conditions from line 64-68 (instead of line 72-76)
+    - parameter specification from line 87 (instead of line 88) 
+    - change ‘PARMIN=-250’ to ‘PARMIN=-50’ in line 201
+    - change ‘XAUTOMIN=-250’ to ‘XAUTOMIN=-50’ in line 202 
+    - forward and backward continuation as described in the general instructions 1-8.) given below
+
+d.) upper branch of bifurcation diagram for ‘par vle=3700’:
+    - initial conditions from line 72-76
+    - parameter specification from line 88
+    - default values for  ‘PARMIN’ and ‘XAUTOMIN’ in lines 201-202 
+    - forward and backward continuation as described in the general instructions 1-8.) given below
+
+d.) lower branch of bifurcation diagram for ‘par vle=3700’:
+    - initial conditions from line 64-68
+    - parameter specification from line 88
+    - default values for  ‘PARMIN’ and ‘XAUTOMIN’ in lines 201-202 
+    - forward and backward continuation as described in the general instructions 1-8.) given below
+
+
+
+
+The fixed point curves from Figs. 4 and 5 can be obtained as follows:
+
+1.) open file with XPPAUT
+2.) run simulation twice to make sure the system is in its fixed point:
+     click "Initialconds" + "(G)o"; "Initialconds" + "(L)ast"
+     (keyboard shortcuts: "I" + "G", "I" + “L")
+3.) open AUTO interface:
+     click "File" + "Auto"
+     (keyboard shortcut: "F" + “A")
+4.) run 'forward' fixed point continuation:
+     click "Run" + "Steady state"
+     (keyboard shortcut: "R" + “S")
+5.) grab point to start 'backward' continuation if desired: 
+     click “Grab”, then navigate along the curve with "tab” key, press
+     "enter" to choose point
+6.) set continuation step size to negative: 
+     click "Numerics” and change 'Ds:0.002' to 'Ds:-0.002’, click "Ok"
+7.) run backward coninuation by clicking "Run"
+8.) save the fixed point curves and bifurcation information: 
+     click "File" + "All info”, choose a filename and click "Ok"
+
+**************************************************************************************************
+**************************************************************************************************
+**************************************************************************************************
+</dc:description>
+  </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>
   </rdf:Description>
@@ -182,6 +244,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="local:00020">
     <rdfs:label>Niklas Hübel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00020">
+    <foaf:mbox rdf:resource="mailto:niklas.huebel@gmail.com">mailto:niklas.huebel@gmail.com</foaf:mbox>
   </rdf:Description>
   <rdf:Description rdf:about="local:00020">
     <foaf:accountName rdf:resource="mailto:niklas.huebel@gmail.com">mailto:niklas.huebel@gmail.com</foaf:accountName>

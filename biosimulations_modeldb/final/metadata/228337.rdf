@@ -175,6 +175,9 @@
     <rdfs:label>Reinoud Maex</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="local:00017">
+    <foaf:mbox rdf:resource="mailto:reinoud@bbf.uia.ac.be">mailto:reinoud@bbf.uia.ac.be</foaf:mbox>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
     <foaf:accountName rdf:resource="mailto:reinoud@bbf.uia.ac.be">mailto:reinoud@bbf.uia.ac.be</foaf:accountName>
   </rdf:Description>
   <rdf:Description rdf:about="local:00017">
@@ -188,6 +191,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="local:00018">
     <rdfs:label>Reinoud Maex</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <foaf:mbox rdf:resource="mailto:reinoud.maex@uantwerpen.be">mailto:reinoud.maex@uantwerpen.be</foaf:mbox>
   </rdf:Description>
   <rdf:Description rdf:about="local:00018">
     <foaf:accountName rdf:resource="mailto:reinoud.maex@uantwerpen.be">mailto:reinoud.maex@uantwerpen.be</foaf:accountName>

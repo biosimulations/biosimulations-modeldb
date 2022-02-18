@@ -6,6 +6,40 @@
   <rdf:Description rdf:about="http://omex-library.org/206364.omex">
     <dc:abstract>This code shows the simulations of the adaptive exponential integrate-and-fire model (http://www.scholarpedia.org/article/Adaptive_exponential_integrate-and-fire_model) at different stimulus conditions. The parameters of the model were tuned to the Purkinje cell of cerebellum to reproduce the inhibiion of these cells by noisy current injections. Similar experimental protocols were also applied to the detailed biophysical model of Purkinje cells,  de Shutter &amp; Bower (1994) model. The repository also includes the XPPaut version of the model with the corresponding bifurcation analysis.</dc:abstract>
   </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <dc:description># ISR-of-Purkinje-cells
+
+This is the README for the model associated with the paper:
+
+Buchin A, Rieubland S, Häusser M, Gutkin BS, Roth A (2016)
+Inverse Stochastic Resonance in Cerebellar Purkinje Cells.
+PLoS Comput Biol 12:e1005000
+
+This code was contributed by A Buchin.
+
+The code shows the simulations of the adaptive exponential
+integrate-and-fire model
+(http://www.scholarpedia.org/article/Adaptive_exponential_integrate-and-fire_model)
+at different stimulus conditions. The parameters of the model were
+tuned to the Purkinje cell of cerebellum to reproduce the inhibiion of
+these cells by noisy current injections. Similar experimental
+protocols were also applied to the detailed biophysical model of
+Purkinje cells, Bower-de-Shutter model
+(http://jn.physiology.org/content/71/1/375.short). The repository also
+includes the XPPaut version of the model with the corresponding
+bifurcation analysis.
+
+If you would like to use this code for the scientific publication,
+please do not forget to cite the original paper
+http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005000
+
+If you have any troubles with running these simulations, do not
+hesitate to let me know.
+
+Best
+Anatoly
+</dc:description>
+  </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3539">http://modeldb.science/ModelList?id=3539</dc:identifier>
   </rdf:Description>
@@ -153,6 +187,30 @@
   <rdf:Description rdf:about="http://omex-library.org/206364.omex">
     <collex:thumbnail rdf:resource="http://omex-library.org/206364.omex/article-figures/PMC4991839/pcbi.1005000.g007.jpg">http://omex-library.org/206364.omex/article-figures/PMC4991839/pcbi.1005000.g007.jpg</collex:thumbnail>
   </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206364.omex/trajectory_increase_noise.jpg">http://omex-library.org/206364.omex/trajectory_increase_noise.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206364.omex/trajectory_rand_noise.jpg">http://omex-library.org/206364.omex/trajectory_rand_noise.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206364.omex/trajectory_rand_noise.png">http://omex-library.org/206364.omex/trajectory_rand_noise.png</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206364.omex/deShutter-Bower/DSB94_play/Imean=-160pA.jpg">http://omex-library.org/206364.omex/deShutter-Bower/DSB94_play/Imean=-160pA.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206364.omex/XPP/Basin of attraction/aEIF_bif_bassin.jpg">http://omex-library.org/206364.omex/XPP/Basin of attraction/aEIF_bif_bassin.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206364.omex/XPP/Basin of attraction/-100/V_w_100.jpg">http://omex-library.org/206364.omex/XPP/Basin of attraction/-100/V_w_100.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206364.omex/XPP/Basin of attraction/-150/V_w_150.jpg">http://omex-library.org/206364.omex/XPP/Basin of attraction/-150/V_w_150.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206364.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206364.omex/XPP/Basin of attraction/-200/V_w_200.jpg">http://omex-library.org/206364.omex/XPP/Basin of attraction/-200/V_w_200.jpg</collex:thumbnail>
+  </rdf:Description>
   <rdf:Description rdf:about="local:00015">
     <rdfs:label>Arnd  Roth</rdfs:label>
   </rdf:Description>
@@ -169,6 +227,9 @@
     <rdfs:label>Anatoly Buchin</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="local:00016">
+    <foaf:mbox rdf:resource="mailto:anat.buchin@gmail.com">mailto:anat.buchin@gmail.com</foaf:mbox>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
     <foaf:accountName rdf:resource="mailto:anat.buchin@gmail.com">mailto:anat.buchin@gmail.com</foaf:accountName>
   </rdf:Description>
   <rdf:Description rdf:about="local:00016">
@@ -182,6 +243,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="local:00017">
     <rdfs:label>Anatoly Buchin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <foaf:mbox rdf:resource="mailto:anat.buchin@gmail.com">mailto:anat.buchin@gmail.com</foaf:mbox>
   </rdf:Description>
   <rdf:Description rdf:about="local:00017">
     <foaf:accountName rdf:resource="mailto:anat.buchin@gmail.com">mailto:anat.buchin@gmail.com</foaf:accountName>

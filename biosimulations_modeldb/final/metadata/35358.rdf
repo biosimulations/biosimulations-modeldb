@@ -67,6 +67,9 @@
     <rdfs:label>William Lytton</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="local:00007">
+    <foaf:mbox rdf:resource="mailto:bill.lytton@downstate.edu">mailto:bill.lytton@downstate.edu</foaf:mbox>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
     <foaf:accountName rdf:resource="mailto:bill.lytton@downstate.edu">mailto:bill.lytton@downstate.edu</foaf:accountName>
   </rdf:Description>
   <rdf:Description rdf:about="local:00007">
@@ -127,7 +130,7 @@
     <dc:identifier rdf:resource="http://identifiers.org/doi:10.1007/BF00961439">http://identifiers.org/doi:10.1007/BF00961439</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="local:00012">
-    <rdfs:label>Paul F. Pinsky &amp; John Rinzel's. Underserved Does Not Mean Undeserved: Unfurling the HCV Care in the Safety Net. Journal of Computational Neuroscience 63, 12: 275-275 (2018).</rdfs:label>
+    <rdfs:label>Paul F. Pinsky &amp; John Rinzel's. Intrinsic and network rhythmogenesis in a reduced traub model for CA3 neurons. Journal of Computational Neuroscience 2, 3: 275-275 (1995).</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/35358.omex">
     <bqmodel:isDescribedBy rdf:resource="local:00012">local:00012</bqmodel:isDescribedBy>

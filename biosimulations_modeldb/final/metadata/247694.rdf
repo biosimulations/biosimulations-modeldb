@@ -79,6 +79,9 @@
     <rdfs:label>Audrey Denizot</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="local:00006">
+    <foaf:mbox rdf:resource="mailto:audrey.denizot@inria.fr">mailto:audrey.denizot@inria.fr</foaf:mbox>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
     <foaf:accountName rdf:resource="mailto:audrey.denizot@inria.fr">mailto:audrey.denizot@inria.fr</foaf:accountName>
   </rdf:Description>
   <rdf:Description rdf:about="local:00006">
@@ -92,6 +95,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="local:00007">
     <rdfs:label>Audrey Denizot</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <foaf:mbox rdf:resource="mailto:audrey.denizot@inria.fr">mailto:audrey.denizot@inria.fr</foaf:mbox>
   </rdf:Description>
   <rdf:Description rdf:about="local:00007">
     <foaf:accountName rdf:resource="mailto:audrey.denizot@inria.fr">mailto:audrey.denizot@inria.fr</foaf:accountName>

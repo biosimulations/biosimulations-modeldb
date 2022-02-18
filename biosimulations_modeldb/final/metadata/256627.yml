@@ -1,3 +1,8 @@
+description: "This is the XPP model associated with the paper:\n\nRatt\xE9 S, Zhu\
+  \ Y, Lee KY, Prescott SA (2014) Criticality and degeneracy in injury-induced changes\
+  \ in primary afferent excitability and the implications for neuropathic pain. Elife\
+  \ 3:e02370\n\nThis ModelDB entry contains the authors original code as downloaded\
+  \ from the authors web site:\nhttp://prescottlab.ca/code-for-models\non 20190510.\n"
 references:
 - label: "St\xE9phanie Ratt\xE9, Yi Zhu, Kwan Yeop Lee & Steven A Prescott. Criticality\
     \ and degeneracy in injury-induced changes in primary afferent excitability and\
@@ -5,7 +10,8 @@ references:
   uri: http://identifiers.org/doi:10.7554/eLife.02370
 taxa: []
 thumbnails:
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Modeling
+- archive_filename: article-figures/PMC3970756/elife02370f001.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Modeling
     and theory.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>)
     Voltage-dependency and kinetics of subthreshold conductance. In bottom panel,
     &#964; = (&#945;+&#946;)<sup>&#8722;1</sup> where &#945; and &#946; are defined
@@ -27,10 +33,12 @@ thumbnails:
     xmlns:mml="http://www.w3.org/1998/Math/MathML"><bold>DOI:</bold>
 
     <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.02370.003">http://dx.doi.org/10.7554/eLife.02370.003</ext-link></p>'
-  filename: PMC3970756/PMC3970756/elife02370f001.jpg
+  format: jpeg
   id: elife02370/fig1
   label: Figure 1
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Spike
+  local_filename: source/thumbnails/PMC3970756/PMC3970756/elife02370f001.jpg
+- archive_filename: article-figures/PMC3970756/elife02370fs001.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Spike
     initiation dynamics differ between normal and neuropathic conditions.</title><p
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">In
     bifurcation analysis, a parameter such as stimulus intensity <italic>I</italic><sub>stim</sub>
@@ -68,10 +76,12 @@ thumbnails:
     both required for bursting.</p><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML"><bold>DOI:</bold>
 
     <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.02370.004">http://dx.doi.org/10.7554/eLife.02370.004</ext-link></p>'
-  filename: PMC3970756/PMC3970756/elife02370fs001.jpg
+  format: jpeg
   id: elife02370/fig1s1
   label: "Figure 1\u2014figure supplement 1"
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Reproduction
+  local_filename: source/thumbnails/PMC3970756/PMC3970756/elife02370fs001.jpg
+- archive_filename: article-figures/PMC3970756/elife02370f002.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Reproduction
     of neuropathic excitability in naive cutaneous neurons.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) Medium- to large-diameter
     (putative myelinated) cutaneous afferents from naive rats respond to depolarization
@@ -94,10 +104,12 @@ thumbnails:
     current via dynamic clamp.</p><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML"><bold>DOI:</bold>
 
     <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.02370.005">http://dx.doi.org/10.7554/eLife.02370.005</ext-link></p>'
-  filename: PMC3970756/PMC3970756/elife02370f002.jpg
+  format: jpeg
   id: elife02370/fig2
   label: Figure 2
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Additivity
+  local_filename: source/thumbnails/PMC3970756/PMC3970756/elife02370f002.jpg
+- archive_filename: article-figures/PMC3970756/elife02370f003.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Additivity
     and subtractivity of conductance changes.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) Example in which
     neither virtual sodium conductance nor potassium channel blockade reproduced neuropathic
@@ -116,10 +128,12 @@ thumbnails:
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML"><bold>DOI:</bold>
 
     <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.02370.006">http://dx.doi.org/10.7554/eLife.02370.006</ext-link></p>'
-  filename: PMC3970756/PMC3970756/elife02370f003.jpg
+  format: jpeg
   id: elife02370/fig3
   label: Figure 3
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Reversal
+  local_filename: source/thumbnails/PMC3970756/PMC3970756/elife02370f003.jpg
+- archive_filename: article-figures/PMC3970756/elife02370f004.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Reversal
     of neuropathic excitability in neurons from nerve-inured rats.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) Typical response
     of an injured unlabeled primary afferent (top). Repetitive spiking and MPOs were
@@ -136,10 +150,12 @@ thumbnails:
     xmlns:mml="http://www.w3.org/1998/Math/MathML"><bold>DOI:</bold>
 
     <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.02370.007">http://dx.doi.org/10.7554/eLife.02370.007</ext-link></p>'
-  filename: PMC3970756/PMC3970756/elife02370f004.jpg
+  format: jpeg
   id: elife02370/fig4
   label: Figure 4
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Reproduction
+  local_filename: source/thumbnails/PMC3970756/PMC3970756/elife02370f004.jpg
+- archive_filename: article-figures/PMC3970756/elife02370f005.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Reproduction
     of neuropathic excitability in naive muscle afferents.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">(<bold>A</bold>) As predicted,
     repetitive spiking developed as virtual sodium conductance was increased. (<bold>B</bold>)
@@ -163,6 +179,7 @@ thumbnails:
     xmlns:mml="http://www.w3.org/1998/Math/MathML"><bold>DOI:</bold>
 
     <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.02370.008">http://dx.doi.org/10.7554/eLife.02370.008</ext-link></p>'
-  filename: PMC3970756/PMC3970756/elife02370f005.jpg
+  format: jpeg
   id: elife02370/fig5
   label: Figure 5
+  local_filename: source/thumbnails/PMC3970756/PMC3970756/elife02370f005.jpg

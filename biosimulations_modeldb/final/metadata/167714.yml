@@ -1,3 +1,64 @@
+description: 'This is the README for the code for the article
+
+
+  N. Hubel and M. A. Dahlem: "Dynamics from seconds to hours in
+
+  Hodgkin-Huxley model with time-dependent ion concentrations and buffer
+
+  reservoirs" PLoS Comp Biol (2014)
+
+
+  email: niklas.huebel@gmail.com
+
+  Oct. 7, 2014
+
+
+  This model requires XPP which is freely available from:
+
+  http://www.math.pitt.edu/~bard/xpp/xpp.html
+
+
+  Notes on the supplied two XPP simulation files:
+
+
+  spreading-depression.ode:
+
+
+  This code computes time series like in Fig. 5. SD is triggered either
+
+  by current stimulation (dynamics of variable "stim") or by pump
+
+  interruption (dynamics of pump coefficient "z"). Two regulation
+
+  schemes for potassium are implemented: glial buffering and diffusive
+
+  coupling to the vascular system (with a switch parameter "s", see
+
+  below). For diffusive coupling with elevated "k_bath" values the time
+
+  series of Fig. 7 can be simulated.
+
+
+  spreading-depression-bistable-cont.ode:
+
+
+  To compute the fixed point continuation of Fig. 2 run xppaut with this
+
+  file. To reach the exact fixed point use (I)nitial and (G)o
+
+  first. Then use (F)ile + (A)UTO to open the AUTO interface. (R)un +
+
+  (S)teady state will start the forward continuation. Then change the
+
+  (N)umerics parameter DS from 0.2 to -0.2, (G)rab (+ ''Enter'') the
+
+  starting point of the forward continuation curve, and (R)un again.
+
+  (Remark: The Hopf line of Fig. 4 can only be obtained by changing this
+
+  code so that also "cli" is a parameter.)
+
+  '
 references:
 - label: "Niklas H\xFCbel & Markus A. Dahlem. Dynamics from seconds to hours in Hodgkin-Huxley\
     \ model with time-dependent ion concentrations and buffer reservoirs. PLoS Computational\
@@ -5,7 +66,8 @@ references:
   uri: http://identifiers.org/doi:10.1371/journal.pcbi.1003941
 taxa: []
 thumbnails:
-- caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+- archive_filename: article-figures/PMC4256015/pcbi.1003941.g001.jpg
+  caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">Neural tissue as a composite system
     with walls and surroundings.</title><p xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
@@ -13,10 +75,12 @@ thumbnails:
     compartments separated by a membrane, and the surroundings of the system. The
     latter provides an energy source and, if the system is not closed, also an ion
     reservoir.</p>
-  filename: PMC4256015/PMC4256015/pcbi.1003941.g001.jpg
+  format: jpeg
   id: pcbi.1003941/pcbi-1003941-g001
   label: Figure 1
-- caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+  local_filename: source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g001.jpg
+- archive_filename: article-figures/PMC4256015/pcbi.1003941.g002.jpg
+  caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">Bifurcation diagram.</title><p
     xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">Bifurcation diagram of the reduced
@@ -47,10 +111,12 @@ thumbnails:
     i.e., because of ion exchange with a reservoir (&#8216;r&#8217;). Note that along
     the horizontal directions only the ICS potassium concentration changes by a precise
     mixture of fluxes across the membrane and ion exchange with a reservoir.</p>
-  filename: PMC4256015/PMC4256015/pcbi.1003941.g002.jpg
+  format: jpeg
   id: pcbi.1003941/pcbi-1003941-g002
   label: Figure 2
-- caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+  local_filename: source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g002.jpg
+- archive_filename: article-figures/PMC4256015/pcbi.1003941.g003.jpg
+  caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">Bifurcation diagram.</title><p
     xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">Bifurcation diagram of the model
@@ -62,10 +128,12 @@ thumbnails:
     in <xref ref-type="fig" rid="pcbi-1003941-g002">Fig. 2</xref>. Note the similar
     shape to <xref ref-type="fig" rid="pcbi-1003941-g002">Fig. 2</xref>, but also
     the different scale of the two figures.</p>
-  filename: PMC4256015/PMC4256015/pcbi.1003941.g003.jpg
+  format: jpeg
   id: pcbi.1003941/pcbi-1003941-g003
   label: Figure 3
-- caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+  local_filename: source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g003.jpg
+- archive_filename: article-figures/PMC4256015/pcbi.1003941.g004.jpg
+  caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">Fixed point continuation.</title><p
     xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">Fixed point continuations for a
@@ -82,10 +150,12 @@ thumbnails:
     curves from <xref ref-type="fig" rid="pcbi-1003941-g002">Figs. 2</xref> and <xref
     ref-type="fig" rid="pcbi-1003941-g003">3</xref> are also included in the diagram
     and drawn in grey.</p>
-  filename: PMC4256015/PMC4256015/pcbi.1003941.g004.jpg
+  format: jpeg
   id: pcbi.1003941/pcbi-1003941-g004
   label: Figure 4
-- caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+  local_filename: source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g004.jpg
+- archive_filename: article-figures/PMC4256015/pcbi.1003941.g005.jpg
+  caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">Time series.</title><p xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Time
     series for single SD excursions in (<bold>a</bold>), (<bold>c</bold>) the reduced
@@ -98,10 +168,12 @@ thumbnails:
     for all ion species are included to the diagrams as a reference. Ion dynamics
     are shown in (<bold>c</bold>) and (<bold>d</bold>) where extracellular ion concentrations
     are in lighter color.</p>
-  filename: PMC4256015/PMC4256015/pcbi.1003941.g005.jpg
+  format: jpeg
   id: pcbi.1003941/pcbi-1003941-g005
   label: Figure 5
-- caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+  local_filename: source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g005.jpg
+- archive_filename: article-figures/PMC4256015/pcbi.1003941.g006.jpg
+  caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">Phase space plots.</title><p xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Phase
     space plots of the simulations in <xref ref-type="fig" rid="pcbi-1003941-g005">Fig.
@@ -117,10 +189,12 @@ thumbnails:
     for the unbuffered models with dynamical chloride are slightly darker. The pair
     of arrows in the extracellular potassium plots indicates the direction of pure
     transmembrane (vertical) and pure buffering dynamics (diagonal).</p>
-  filename: PMC4256015/PMC4256015/pcbi.1003941.g006.jpg
+  format: jpeg
   id: pcbi.1003941/pcbi-1003941-g006
   label: Figure 6
-- caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+  local_filename: source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g006.jpg
+- archive_filename: article-figures/PMC4256015/pcbi.1003941.g007.jpg
+  caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">Time series.</title><p xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Time
     series for three types of oscillatory dynamics in the bath coupled reduced model.
@@ -137,10 +211,12 @@ thumbnails:
     (<bold>c</bold>) and (<bold>d</bold>) tonic firing, (<bold>e</bold>) and (<bold>f</bold>)
     periodic SD. Note the different time scales of SLA, tonic firing and period SD
     and also the different oscillation amplitudes in the ionic variables.</p>
-  filename: PMC4256015/PMC4256015/pcbi.1003941.g007.jpg
+  format: jpeg
   id: pcbi.1003941/pcbi-1003941-g007
   label: Figure 7
-- caption: '<title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+  local_filename: source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g007.jpg
+- archive_filename: article-figures/PMC4256015/pcbi.1003941.g008.jpg
+  caption: '<title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">Bifurcation diagram.</title><p
     xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">Bifurcation diagram of the bath
@@ -157,20 +233,24 @@ thumbnails:
     (<bold>b</bold>) shows the extracellular potassium concentration. (<bold>b</bold>)
     does not contain the limit cycle, because it can hardly be distinguished from
     the fixed point line.</p>'
-  filename: PMC4256015/PMC4256015/pcbi.1003941.g008.jpg
+  format: jpeg
   id: pcbi.1003941/pcbi-1003941-g008
   label: Figure 8
-- caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+  local_filename: source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g008.jpg
+- archive_filename: article-figures/PMC4256015/pcbi.1003941.g009.jpg
+  caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">Bifurcation diagram.</title><p
     xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">Different representations of the
     bifurcation diagram of <xref ref-type="fig" rid="pcbi-1003941-g008">Fig. 8</xref>.
     Panel (<bold>a</bold>) shows the extracellular sodium concentration and includes
     an inset around TR4 and PD. Panel (<bold>b</bold>) presents the potassium gain/loss.</p>
-  filename: PMC4256015/PMC4256015/pcbi.1003941.g009.jpg
+  format: jpeg
   id: pcbi.1003941/pcbi-1003941-g009
   label: Figure 9
-- caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+  local_filename: source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g009.jpg
+- archive_filename: article-figures/PMC4256015/pcbi.1003941.g010.jpg
+  caption: <title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">Phase space plots.</title><p xmlns:ali="http://www.niso.org/schemas/ali/1.0/"
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Phase
     space plots of the simulations (<bold>a</bold>) for SLA and (<bold>b</bold>) periodic
@@ -182,10 +262,12 @@ thumbnails:
     chloride) are darker. The limit cycle and fixed point are not graphically distinguished,
     but comparison with <xref ref-type="fig" rid="pcbi-1003941-g002">Fig. 2</xref>
     should avoid confusion.</p>
-  filename: PMC4256015/PMC4256015/pcbi.1003941.g010.jpg
+  format: jpeg
   id: pcbi.1003941/pcbi-1003941-g010
   label: Figure 10
-- caption: '<title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
+  local_filename: source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g010.jpg
+- archive_filename: article-figures/PMC4256015/pcbi.1003941.g011.jpg
+  caption: '<title xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">Bifurcation diagram.</title><p
     xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">Fundamental bifurcation diagram
@@ -201,6 +283,7 @@ thumbnails:
     caused by a particular mixture of these fluxes that induces potassium ion concentration
     changes exclusively to the intracellular compartment. Ionic excitability can be
     understood as a cyclic process in this diagram (see text).</p>'
-  filename: PMC4256015/PMC4256015/pcbi.1003941.g011.jpg
+  format: jpeg
   id: pcbi.1003941/pcbi-1003941-g011
   label: Figure 11
+  local_filename: source/thumbnails/PMC4256015/PMC4256015/pcbi.1003941.g011.jpg

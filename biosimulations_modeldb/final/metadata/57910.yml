@@ -1,7 +1,37 @@
+description: "This is the readme.txt for the model associated with the paper\n\nChiesa\
+  \ N, Rosati B, Arcangeli A, Olivotto M, Wanke E. A novel role \nfor HERG K+ channels:\
+  \ spike-frequency adaptation. J Physiol 1997;501:313-318\n\nAbstract:\n1. The regular\
+  \ firing of a Hodgkin-Huxley neurone endowed with fast Na+ \nand delayed K+ channels\
+  \ can be converted into adapting firing by appending \nHERG (human eag-related gene)\
+  \ channels. 2. The computer model predictions \nwere verified by studying the firing\
+  \ properties of F-11 DRG neurone x \nneuroblastoma hybrid cells induced to differentiate\
+  \ by long- term exposure \nto retinoic acid. These cells, which express HERG currents\
+  \ (IHERG), show \nclear spike-frequency adaptation of their firing when current\
+  \ clamped with \nlong depolarizations. 3. In agreement with the prediction, the\
+  \ selective \nblocking of IHERG by class III antiarrhythmic drugs always led to\
+  \ the \ndisappearance of the spike- frequency adaptation, and the conversion of\
+  \ \nadapting firing to regular firing. 4. It is proposed that, in addition to their\
+  \ \nrole in the repolarization of the heart action potential, HERG channels may\
+  \ \nsustain a process of spike-frequency adaptation, and hence contribute to the\
+  \ \ncontrol of burst duration in a way that is similar to that of the K+ currents,\
+  \ \nIAHP, IC and IM. In addition to the known cardiac arrhythmia syndrome \n(LQT2),\
+  \ genetic mutations or an altered HERG expression could lead to \ncontinuous hyperexcitable\
+  \ states sustained by the inability of nerve or endocrine \ncells to accommodate\
+  \ to repetitive stimuli. This might help in clarifying the \npathogenesis of still\
+  \ undefined idiopathic familial epilepsies. \n---\n\nTo run the models:\nXPP: start\
+  \ with the command\n\nxpp ode\\kir_sim.ode\n\nMouse click on Initialconds, and then\
+  \ (G)o.\nThis makes a trace similar to fig 1E of the paper.\n\nRegarding xpp program,\
+  \ please contact with \nBard Ermentrout's website http://www.pitt.edu/~phase/\n\
+  describes how to get and use xpp (Bard wrote xpp).\n\nThese model files were submitted\
+  \ by:\n\nDr. Sheng-Nan Wu\nDept Physiol\nNatl Cheng Kung U Med Coll\nTainan 70101,\
+  \ Taiwan\n\nsnwu@mail.ncku.edu.tw\n\n"
 references:
 - label: 'Nicoletta Chiesa, Barbara Rosati, Annarosa Arcangeli, Massimo Olivotto &
     Enzo Wanke. A novel role for HERG K+ channels: spike-frequency adaptation. The
     Journal of Physiology 501 ( Pt 2): 313-318 (1997).'
   uri: http://identifiers.org/doi:10.1111/j.1469-7793.1997.313bn.x
 taxa: []
-thumbnails: []
+thumbnails:
+- archive_filename: samplerun.jpg
+  format: jpeg
+  local_filename: source/models/57910/samplerun.jpg

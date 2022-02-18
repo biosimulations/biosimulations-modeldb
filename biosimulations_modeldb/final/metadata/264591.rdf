@@ -6,6 +6,23 @@
   <rdf:Description rdf:about="http://omex-library.org/264591.omex">
     <dc:abstract>This is a Hodgkin-Huxley type model for a small DRG neuron consisting of four voltage-gated ion channels: sodium channels 1.7 and 1.8, delayed rectifier potassium, and A-type transient potassium channels. This model was used to explore the dynamics of this neuron using bifurcation theory, with the motive to investigate pain since small DRG neuron is a pain-sensing neuron.</dc:abstract>
   </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/264591.omex">
+    <dc:description>Verma P, Kienle A, Flockerzi D, Ramkrishna D. Using Bifurcation Theory for Exploring Pain. Industrial &amp; Engineering Chemistry Research. 2019.
+
+Verma P, Kienle A, Flockerzi D, Ramkrishna D. Computational analysis of a 9D model for a small DRG neuron. arXiv preprint arXiv:2001.04915. 2020 Jan 14.
+
+Verma P, Eaton M, Kienle A, Flockerzi D, Yang Y, Ramkrishna D. A mathematical investigation of chemotherapy-induced peripheral neuropathy. bioRxiv. 2020 Jan 1.
+
+Both XPP (DRG.ode) and MATCONT (*.m) files are provided in the respective folders.
+
+In MATCONT, analytical Jacobian was used. You can run DRG_Jacobian.m to generate the Jacobian matrix functions (J_D.m, JhKA_D.m, JN_D.m, JP_D.m). DRG.m contains the equations. DRG_Steady_Periodic_I.m can be used to perform continuation of equilibrium and periodic solutions for the set of equations. Note that an extra parameter V12 is introduced in the MATCONT equations. This is kept as zero, but can be varied as was done for the first aforementioned paper.
+
+The MATCONT equations are scaled, while XPP equations are not.
+
+20200521 An update from Parul Verma supplied another XPP file and the
+bioRxiv citation was added to this Readme
+</dc:description>
+  </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>
   </rdf:Description>
@@ -91,6 +108,9 @@
     <rdfs:label>Parul Verma</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="local:00010">
+    <foaf:mbox rdf:resource="mailto:parulv.iitb@gmail.com">mailto:parulv.iitb@gmail.com</foaf:mbox>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
     <foaf:accountName rdf:resource="mailto:parulv.iitb@gmail.com">mailto:parulv.iitb@gmail.com</foaf:accountName>
   </rdf:Description>
   <rdf:Description rdf:about="local:00010">
@@ -104,6 +124,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="local:00011">
     <rdfs:label>Parul Verma</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <foaf:mbox rdf:resource="mailto:parulv.iitb@gmail.com">mailto:parulv.iitb@gmail.com</foaf:mbox>
   </rdf:Description>
   <rdf:Description rdf:about="local:00011">
     <foaf:accountName rdf:resource="mailto:parulv.iitb@gmail.com">mailto:parulv.iitb@gmail.com</foaf:accountName>

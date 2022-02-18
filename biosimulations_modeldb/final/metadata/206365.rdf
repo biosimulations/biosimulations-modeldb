@@ -330,11 +330,425 @@
   <rdf:Description rdf:about="http://omex-library.org/206365.omex">
     <bqbiol:encodes rdf:resource="local:00036">local:00036</bqbiol:encodes>
   </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 1/Fig.1.jpg">http://omex-library.org/206365.omex/Fig. 1/Fig.1.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/Fig.2_1_test.jpg">http://omex-library.org/206365.omex/Fig. 2/Fig.2_1_test.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 3/all.jpg">http://omex-library.org/206365.omex/Fig. 3/all.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 3/Fig3_new.png">http://omex-library.org/206365.omex/Fig. 3/Fig3_new.png</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 3/glia_potassium.jpg">http://omex-library.org/206365.omex/Fig. 3/glia_potassium.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 3/IKCC2_(+)_(-).jpg">http://omex-library.org/206365.omex/Fig. 3/IKCC2_(+)_(-).jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 3/IKCC2_comparison.jpg">http://omex-library.org/206365.omex/Fig. 3/IKCC2_comparison.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 3/IKCC2_VD_compare.png">http://omex-library.org/206365.omex/Fig. 3/IKCC2_VD_compare.png</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 3/noglia.jpg">http://omex-library.org/206365.omex/Fig. 3/noglia.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 3/nopump.jpg">http://omex-library.org/206365.omex/Fig. 3/nopump.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 3/VD_comparison.jpg">http://omex-library.org/206365.omex/Fig. 3/VD_comparison.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 4/Fig.3.jpg">http://omex-library.org/206365.omex/Fig. 4/Fig.3.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 5/Fig.6_1.jpg">http://omex-library.org/206365.omex/Fig. 5/Fig.6_1.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 6/Fig.5_1.jpg">http://omex-library.org/206365.omex/Fig. 6/Fig.5_1.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 7/Fig.7.jpg">http://omex-library.org/206365.omex/Fig. 7/Fig.7.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 8/Fig.8.jpg">http://omex-library.org/206365.omex/Fig. 8/Fig.8.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/B/Cli_Ko.jpg">http://omex-library.org/206365.omex/Fig. 2/B/Cli_Ko.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/B/Cli_Ko_analysis.png">http://omex-library.org/206365.omex/Fig. 2/B/Cli_Ko_analysis.png</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/bif diagram/Ko.jpg">http://omex-library.org/206365.omex/Fig. 2/bif diagram/Ko.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 4/A/raster.jpg">http://omex-library.org/206365.omex/Fig. 4/A/raster.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 4/B/Ko_Cli.jpg">http://omex-library.org/206365.omex/Fig. 4/B/Ko_Cli.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 4/C/PY_IN.jpg">http://omex-library.org/206365.omex/Fig. 4/C/PY_IN.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 4/D/LFP.jpg">http://omex-library.org/206365.omex/Fig. 4/D/LFP.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 4/D/spectrum.jpg">http://omex-library.org/206365.omex/Fig. 4/D/spectrum.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 5/A/raster_6.jpg">http://omex-library.org/206365.omex/Fig. 5/A/raster_6.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 5/B/Ko_Cli.jpg">http://omex-library.org/206365.omex/Fig. 5/B/Ko_Cli.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 5/C/LFP_model.jpg">http://omex-library.org/206365.omex/Fig. 5/C/LFP_model.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 5/C/LFP_repr.jpg">http://omex-library.org/206365.omex/Fig. 5/C/LFP_repr.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 5/C/LFP_spect.jpg">http://omex-library.org/206365.omex/Fig. 5/C/LFP_spect.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 5/D/I=0.4.jpg">http://omex-library.org/206365.omex/Fig. 5/D/I=0.4.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 6/A/Seizure_frequency.jpg">http://omex-library.org/206365.omex/Fig. 6/A/Seizure_frequency.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 6/B/LFP_time_to.jpg">http://omex-library.org/206365.omex/Fig. 6/B/LFP_time_to.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 6/B/Time_to_seizure.jpg">http://omex-library.org/206365.omex/Fig. 6/B/Time_to_seizure.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 6/C/gEE_gEI_Frequency.jpg">http://omex-library.org/206365.omex/Fig. 6/C/gEE_gEI_Frequency.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 6/C/gEE_gEI_Frequency_1.png">http://omex-library.org/206365.omex/Fig. 6/C/gEE_gEI_Frequency_1.png</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 6/C/gEE_gIE_Frequency.jpg">http://omex-library.org/206365.omex/Fig. 6/C/gEE_gIE_Frequency.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 6/C/gEE_gII_Frequency.jpg">http://omex-library.org/206365.omex/Fig. 6/C/gEE_gII_Frequency.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 7/A/raster_scaled_100.png">http://omex-library.org/206365.omex/Fig. 7/A/raster_scaled_100.png</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 7/B/5_LFP_exp_repr_minimal.jpg">http://omex-library.org/206365.omex/Fig. 7/B/5_LFP_exp_repr_minimal.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 7/B/5_LFP_model_repr.jpg">http://omex-library.org/206365.omex/Fig. 7/B/5_LFP_model_repr.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 7/B/LFP_experiment.jpg">http://omex-library.org/206365.omex/Fig. 7/B/LFP_experiment.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 7/B/LFP_model.jpg">http://omex-library.org/206365.omex/Fig. 7/B/LFP_model.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 7/C/Ko_Cli.jpg">http://omex-library.org/206365.omex/Fig. 7/C/Ko_Cli.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 7/D/LFP_spect_exp_E3_762_767.jpg">http://omex-library.org/206365.omex/Fig. 7/D/LFP_spect_exp_E3_762_767.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 7/D/LFP_spect_model.jpg">http://omex-library.org/206365.omex/Fig. 7/D/LFP_spect_model.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 8/A/raster.jpg">http://omex-library.org/206365.omex/Fig. 8/A/raster.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 8/B/norm_neurons.jpg">http://omex-library.org/206365.omex/Fig. 8/B/norm_neurons.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 8/B/norm_spect.jpg">http://omex-library.org/206365.omex/Fig. 8/B/norm_spect.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 8/B/path_neurons.jpg">http://omex-library.org/206365.omex/Fig. 8/B/path_neurons.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 8/B/seizure_spect.jpg">http://omex-library.org/206365.omex/Fig. 8/B/seizure_spect.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 8/C/ions_KCC2_back.jpg">http://omex-library.org/206365.omex/Fig. 8/C/ions_KCC2_back.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 8/Simulations/raster_0-10.jpg">http://omex-library.org/206365.omex/Fig. 8/Simulations/raster_0-10.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 8/Simulations/raster_40-50.jpg">http://omex-library.org/206365.omex/Fig. 8/Simulations/raster_40-50.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 1/D/Data_fit/Data_fit.jpg">http://omex-library.org/206365.omex/Fig. 1/D/Data_fit/Data_fit.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 1/D/Data_fit/NKCC1_effect.jpg">http://omex-library.org/206365.omex/Fig. 1/D/Data_fit/NKCC1_effect.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 1/D/Data_fit/NKCC1_effect.png">http://omex-library.org/206365.omex/Fig. 1/D/Data_fit/NKCC1_effect.png</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 1/D/Data_fit/NORM_lin.jpg">http://omex-library.org/206365.omex/Fig. 1/D/Data_fit/NORM_lin.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 1/D/Data_fit/PATH_lin.jpg">http://omex-library.org/206365.omex/Fig. 1/D/Data_fit/PATH_lin.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/5Hz/NORM_KCC2(+)_5Hz.jpg">http://omex-library.org/206365.omex/Fig. 2/C/5Hz/NORM_KCC2(+)_5Hz.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/5Hz/PATH_KCC2(-)_5Hz.jpg">http://omex-library.org/206365.omex/Fig. 2/C/5Hz/PATH_KCC2(-)_5Hz.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 6/D/Experiment/LFP&amp;Cell_E3.jpg">http://omex-library.org/206365.omex/Fig. 6/D/Experiment/LFP&amp;Cell_E3.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 6/D/Experiment/LFP&amp;Cell_E4.jpg">http://omex-library.org/206365.omex/Fig. 6/D/Experiment/LFP&amp;Cell_E4.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 6/D/Model/LFP_model_dipole.jpg">http://omex-library.org/206365.omex/Fig. 6/D/Model/LFP_model_dipole.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 6/D/Model/LFP_model_full.jpg">http://omex-library.org/206365.omex/Fig. 6/D/Model/LFP_model_full.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 6/D/Model/LFP_model_syn.jpg">http://omex-library.org/206365.omex/Fig. 6/D/Model/LFP_model_syn.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 6/Simulations/gEE_gEI/border_gEE_gEI.jpg">http://omex-library.org/206365.omex/Fig. 6/Simulations/gEE_gEI/border_gEE_gEI.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 6/Simulations/gEE_gEI/gEE_gEI_Frequency.jpg">http://omex-library.org/206365.omex/Fig. 6/Simulations/gEE_gEI/gEE_gEI_Frequency.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 6/Simulations/gEE_gIE/gEE_gIE_Frequency.jpg">http://omex-library.org/206365.omex/Fig. 6/Simulations/gEE_gIE/gEE_gIE_Frequency.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)0_LFP.jpg">http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)0_LFP.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)100_LFP.jpg">http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)100_LFP.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)10_LFP.jpg">http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)10_LFP.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)15_LFP.jpg">http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)15_LFP.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)20_LFP.jpg">http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)20_LFP.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)25_LFP.jpg">http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)25_LFP.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)30_LFP.jpg">http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)30_LFP.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)35_LFP.jpg">http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)35_LFP.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)40_LFP.jpg">http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)40_LFP.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)45_LFP.jpg">http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)45_LFP.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)50_LFP.jpg">http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)50_LFP.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)55_LFP.jpg">http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)55_LFP.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)5_LFP.jpg">http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)5_LFP.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)60_LFP.jpg">http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)60_LFP.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)65_LFP.jpg">http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)65_LFP.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)70_LFP.jpg">http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)70_LFP.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)75_LFP.jpg">http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)75_LFP.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)80_LFP.jpg">http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)80_LFP.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)85_LFP.jpg">http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)85_LFP.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)90_LFP.jpg">http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)90_LFP.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)95_LFP.jpg">http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/KCC2(-)95_LFP.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/Seizure_frequency.jpg">http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/Seizure_frequency.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/Time_to_seizure.jpg">http://omex-library.org/206365.omex/Fig. 7/simulations/KCC2%/Time_to_seizure.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 8/Simulations/40% run/ions_Ko_Cli.jpg">http://omex-library.org/206365.omex/Fig. 8/Simulations/40% run/ions_Ko_Cli.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 8/Simulations/40% run/raster_E_I.jpg">http://omex-library.org/206365.omex/Fig. 8/Simulations/40% run/raster_E_I.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 1/C/KCC2 norm/PSP/PSP.jpg">http://omex-library.org/206365.omex/Fig. 1/C/KCC2 norm/PSP/PSP.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 1/C/KCC2 norm/V=-64mV/VS_norm_-64.jpg">http://omex-library.org/206365.omex/Fig. 1/C/KCC2 norm/V=-64mV/VS_norm_-64.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 1/C/KCC2 norm/V=-90mV/VS_norm_-90.jpg">http://omex-library.org/206365.omex/Fig. 1/C/KCC2 norm/V=-90mV/VS_norm_-90.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 1/C/KCC2 path/PSP/psp_path.jpg">http://omex-library.org/206365.omex/Fig. 1/C/KCC2 path/PSP/psp_path.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 1/C/KCC2 path/V=-68mV/-68.jpg">http://omex-library.org/206365.omex/Fig. 1/C/KCC2 path/V=-68mV/-68.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 1/C/KCC2 path/V=-68mV/VS_path_-68.jpg">http://omex-library.org/206365.omex/Fig. 1/C/KCC2 path/V=-68mV/VS_path_-68.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 1/C/KCC2 path/V=-90mV/-90.jpg">http://omex-library.org/206365.omex/Fig. 1/C/KCC2 path/V=-90mV/-90.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 1/C/KCC2 path/V=-90mV/VS_path_-90.jpg">http://omex-library.org/206365.omex/Fig. 1/C/KCC2 path/V=-90mV/VS_path_-90.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/SN_fit/SN_fit.jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/SN_fit/SN_fit.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron/Different frequencies/Bazh_Ko_Cli_altKCC2_NORM_EX.jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron/Different frequencies/Bazh_Ko_Cli_altKCC2_NORM_EX.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron/Different frequencies/Bazh_Ko_Cli_altKCC2_PATH_EX.jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron/Different frequencies/Bazh_Ko_Cli_altKCC2_PATH_EX.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron/Different frequencies/PATH_NORM_Afterdischarge.jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron/Different frequencies/PATH_NORM_Afterdischarge.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron/Single series/Bazh_Ko_Cli_altKCC2_norm.jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron/Single series/Bazh_Ko_Cli_altKCC2_norm.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron/Single series/Bazh_Ko_Cli_altKCC2_path.jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron/Single series/Bazh_Ko_Cli_altKCC2_path.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron/SN_fit/SN_fit.jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron/SN_fit/SN_fit.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 6/Simulations/Control - no KCC2(-) cells/gEE_gEI/Frequency.jpg">http://omex-library.org/206365.omex/Fig. 6/Simulations/Control - no KCC2(-) cells/gEE_gEI/Frequency.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 6/Simulations/Control - no KCC2(-) cells/gEE_gIE/Frequency.jpg">http://omex-library.org/206365.omex/Fig. 6/Simulations/Control - no KCC2(-) cells/gEE_gIE/Frequency.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_0.jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_0.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_1.jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_1.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_10.jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_10.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_2.jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_2.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_3.jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_3.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_4.jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_4.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_5.jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_5.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_6.jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_6.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_7.jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_7.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_8.jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_8.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_9.jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(+)/Bazh_Ko_Cli_diff_net_NORM_9.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_0.jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_0.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_1.jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_1.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_10.jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_10.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_2.jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_2.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_3.jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_3.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_4.jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_4.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_5.jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_5.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_6.jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_6.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_7.jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_7.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_8.jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_8.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_9.jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron and Net/Stimulation frequencies/KCC2(-)/Bazh_Ko_Cli_diff_net_PATH_9.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron/Single series/10Hz/KCC2(+).jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron/Single series/10Hz/KCC2(+).jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron/Single series/10Hz/KCC2(-).jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron/Single series/10Hz/KCC2(-).jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron/Single series/10Hz/Norm_10Hz.jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron/Single series/10Hz/Norm_10Hz.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron/Single series/10Hz/Path_10Hz.jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron/Single series/10Hz/Path_10Hz.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/206365.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/206365.omex/Fig. 2/C/One neuron/Single series/10Hz/Path_10Hz_1.jpg">http://omex-library.org/206365.omex/Fig. 2/C/One neuron/Single series/10Hz/Path_10Hz_1.jpg</collex:thumbnail>
+  </rdf:Description>
   <rdf:Description rdf:about="local:00037">
     <dc:identifier rdf:resource="mailto:anat.buchin@gmail.com">mailto:anat.buchin@gmail.com</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="local:00037">
     <rdfs:label>Anatoly Buchin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00037">
+    <foaf:mbox rdf:resource="mailto:anat.buchin@gmail.com">mailto:anat.buchin@gmail.com</foaf:mbox>
   </rdf:Description>
   <rdf:Description rdf:about="local:00037">
     <foaf:accountName rdf:resource="mailto:anat.buchin@gmail.com">mailto:anat.buchin@gmail.com</foaf:accountName>
@@ -350,6 +764,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="local:00038">
     <rdfs:label>Anatoly Buchin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00038">
+    <foaf:mbox rdf:resource="mailto:anat.buchin@gmail.com">mailto:anat.buchin@gmail.com</foaf:mbox>
   </rdf:Description>
   <rdf:Description rdf:about="local:00038">
     <foaf:accountName rdf:resource="mailto:anat.buchin@gmail.com">mailto:anat.buchin@gmail.com</foaf:accountName>

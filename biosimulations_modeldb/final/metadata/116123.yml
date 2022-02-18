@@ -1,3 +1,50 @@
+description: "```\n\nThis is the readme for the model associated with the paper:\n\
+  \nPrescott SA, De Koninck Y, Sejnowski TJ (2008) Biophysical Basis for\nThree Distinct\
+  \ Dynamical Mechanisms of Action Potential\nInitiation. PLoS Comput. Biol. 4(10):\
+  \ e1000198\n \nAbstract: Transduction of graded synaptic input into trains of\n\
+  all-or-none action potentials (spikes) is a crucial step in neural\ncoding.  Hodgkin\
+  \ identified three classes of neurons with\nqualitatively different analogue-to-digital\
+  \ transduction properties.\nDespite widespread use of this classification scheme,\
+  \ a generalizable\nexplanation of its biophysical basis has not been described.\
+  \  We\nrecorded from spinal sensory neurons representing each class and\nreproduced\
+  \ their transduction properties in a minimal model.  Using\nphase plane and bifurcation\
+  \ analysis, each class of excitability was\nshown to derive from distinct spike\
+  \ initiating dynamics.  Excitability\ncould be converted between all three classes\
+  \ by varying single\nparameters; moreover, several parameters, when varied one at\
+  \ a time,\nhad functionally equivalent effects on excitability.  From this, we\n\
+  conclude that the spike initiating dynamics associated with each of\nHodgkin's classes\
+  \ represent different outcomes in a nonlinear\ncompetition between oppositely directed,\
+  \ kinetically mismatched\ncurrents.  Class 1 excitability occurs through a saddle-node\
+  \ on\ninvariant circle bifurcation when net current at perithreshold\npotentials\
+  \ is inward (depolarizing) at steady state.  Class 2\nexcitability occurs through\
+  \ a Hopf bifurcation when, despite net\ncurrent being outward (hyperpolarizing)\
+  \ at steady state, spike\ninitiation occurs because inward current activates faster\
+  \ than outward\ncurrent.  Class 3 excitability occurs through a\nquasi-separatrix-crossing\
+  \ when fast-activating inward current\noverpowers slow-activating outward current\
+  \ during a stimulus\ntransient, although slow-activating outward current dominates\
+  \ during\nconstant stimulation.  Experiments confirmed that different classes of\n\
+  spinal lamina I neurons express the subthreshold currents predicted by\nour simulations\
+  \ and, further, that those currents are necessary for\nthe excitability in each\
+  \ cell class.  Thus, our results demonstrate\nthat all three classes of excitability\
+  \ arise from a continuum in the\ndirection and magnitude of subthreshold currents.\
+  \  Through detailed\nanalysis of the spike initiating process, we have explained\
+  \ a\nfundamental link between biophysical properties and qualitative\ndifferences\
+  \ in how neurons encode sensory input.\n\n\nModel Notes:\n\nModels demonstrate how\
+  \ action potentials can be generated through\ndifferent dynamical mechanisms depending\
+  \ on the direction and\nmagnitude of subthreshold current. We start with a two-dimensional\n\
+  Morris-Lecar-type model. Varying parameter Beta\\_w causes this model to\nexhibit\
+  \ class 1, 2, or 3 excitability according to Hodgkin's 1948\nclassification (see\
+  \ Figure 1 in paper). In this, the simplest model,\ndynamical systems analysis shows\
+  \ that each class is associated with a\ndifferent spike initiating mechanism (see\
+  \ Figure 2 in paper). Try\nvarying Beta\\_w to see how it affects dynamics visualized\
+  \ on the V-w\nplane.\n\nTo increase the biological realism of the model, we split\
+  \ the recovery\nvariable (w) into two parts (y and z) which each control slightly\n\
+  different currents (see Figure 4 in paper).  Try varying gsub and\nVsub.\n\nNoise\
+  \ is not included in these models but can be added by following\nthe notes included\
+  \ in the code.  The code contains numerous other\ncomments that will help explain\
+  \ the model.\n\nFor more information about XPP, visit\n<http://www.scholarpedia.org/article/XPPAUT>\
+  \ or\n<http://www.math.pitt.edu/~bard/xpp/xpp.html>\n\nNovemeber 14th, 2008: smaller\
+  \ sigma instead of sigma\\_inoise in comments update\n\n```"
 references:
 - label: 'Steven A. Prescott, Yves De Koninck & Terrence J. Sejnowski. Biophysical
     basis for three distinct dynamical mechanisms of action potential initiation.
@@ -5,7 +52,8 @@ references:
   uri: http://identifiers.org/doi:10.1371/journal.pcbi.1000198
 taxa: []
 thumbnails:
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Hodgkin''s
+- archive_filename: article-figures/PMC2551735/pcbi.1000198.g001.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Hodgkin''s
     three classes of neuronal excitability. (A) Sample
 
     responses from spinal lamina I neurons representing each of
@@ -118,10 +166,12 @@ thumbnails:
     <sub>stim</sub>) and is indicated above the
 
     graph.</title>'
-  filename: PMC2551735/PMC2551735/pcbi.1000198.g001.jpg
+  format: jpeg
   id: pcbi.1000198/pcbi-1000198-g001
   label: Figure 1
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Each
+  local_filename: source/thumbnails/PMC2551735/PMC2551735/pcbi.1000198.g001.jpg
+- archive_filename: article-figures/PMC2551735/pcbi.1000198.g002.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Each
     class of excitability is derived from a distinct dynamical
 
     mechanism of spike initiation.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -213,10 +263,12 @@ thumbnails:
     indicated in gray and was determined by separate simulations since a QSC
 
     is not revealed by bifurcation analysis.</p>'
-  filename: PMC2551735/PMC2551735/pcbi.1000198.g002.jpg
+  format: jpeg
   id: pcbi.1000198/pcbi-1000198-g002
   label: Figure 2
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Comparison
+  local_filename: source/thumbnails/PMC2551735/PMC2551735/pcbi.1000198.g002.jpg
+- archive_filename: article-figures/PMC2551735/pcbi.1000198.g003.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Comparison
     of spikes initiated through different dynamical
 
     mechanisms.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(A)
@@ -285,10 +337,12 @@ thumbnails:
     peak or average; Kolmogorov-Smirnov test).
 
     &#963;<sub>noise</sub>&#8202;=&#8202;10 pA.</p>'
-  filename: PMC2551735/PMC2551735/pcbi.1000198.g003.jpg
+  format: jpeg
   id: pcbi.1000198/pcbi-1000198-g003
   label: Figure 3
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Biophysical
+  local_filename: source/thumbnails/PMC2551735/PMC2551735/pcbi.1000198.g003.jpg
+- archive_filename: article-figures/PMC2551735/pcbi.1000198.g004.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Biophysical
     correlate of differences in
 
     <italic>&#946;</italic>
@@ -387,10 +441,12 @@ thumbnails:
     current and/or that single-spiking neurons express a subthreshold
 
     outward current.</p>'
-  filename: PMC2551735/PMC2551735/pcbi.1000198.g004.jpg
+  format: jpeg
   id: pcbi.1000198/pcbi-1000198-g004
   label: Figure 4
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Different
+  local_filename: source/thumbnails/PMC2551735/PMC2551735/pcbi.1000198.g004.jpg
+- archive_filename: article-figures/PMC2551735/pcbi.1000198.g005.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Different
     classes of spinal lamina I neurons express different
 
     subthreshold currents.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(A)
@@ -472,10 +528,12 @@ thumbnails:
     &#8722;60 mV for all current clamp protocols. Gray line shows
 
     baseline current.</p>'
-  filename: PMC2551735/PMC2551735/pcbi.1000198.g005.jpg
+  format: jpeg
   id: pcbi.1000198/pcbi-1000198-g005
   label: Figure 5
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Necessity
+  local_filename: source/thumbnails/PMC2551735/PMC2551735/pcbi.1000198.g005.jpg
+- archive_filename: article-figures/PMC2551735/pcbi.1000198.g006.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Necessity
     of oppositely directed subthreshold currents to explain
 
     excitability in spinal lamina I neurons.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -505,10 +563,12 @@ thumbnails:
     excitability, and class 2 excitability occurs when neither current is
 
     present.</p>'
-  filename: PMC2551735/PMC2551735/pcbi.1000198.g006.jpg
+  format: jpeg
   id: pcbi.1000198/pcbi-1000198-g006
   label: Figure 6
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Sufficiency
+  local_filename: source/thumbnails/PMC2551735/PMC2551735/pcbi.1000198.g006.jpg
+- archive_filename: article-figures/PMC2551735/pcbi.1000198.g007.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Sufficiency
     of oppositely directed subthrehsold currents to explain
 
     excitability.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(A)
@@ -596,10 +656,12 @@ thumbnails:
     test). &#963;<sub>noise</sub>&#8202;=&#8202;10
 
     &#181;A/cm<sup>2</sup>.</p>'
-  filename: PMC2551735/PMC2551735/pcbi.1000198.g007.jpg
+  format: jpeg
   id: pcbi.1000198/pcbi-1000198-g007
   label: Figure 7
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Common
+  local_filename: source/thumbnails/PMC2551735/PMC2551735/pcbi.1000198.g007.jpg
+- archive_filename: article-figures/PMC2551735/pcbi.1000198.g008.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Common
     phase plane geometries associated with different parameter
 
     changes.</title><p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">(A)
@@ -736,10 +798,12 @@ thumbnails:
     <sub>w</sub>&#8202;=&#8202;0
 
     mV.</p>'
-  filename: PMC2551735/PMC2551735/pcbi.1000198.g008.jpg
+  format: jpeg
   id: pcbi.1000198/pcbi-1000198-g008
   label: Figure 8
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Competition
+  local_filename: source/thumbnails/PMC2551735/PMC2551735/pcbi.1000198.g008.jpg
+- archive_filename: article-figures/PMC2551735/pcbi.1000198.g009.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Competition
     between kinetically mismatched currents.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">(A) Top panels show individual
     currents in 2D model; bottom panels show
@@ -949,10 +1013,12 @@ thumbnails:
     <sub>w</sub> had
 
     the opposite effects.</p>'
-  filename: PMC2551735/PMC2551735/pcbi.1000198.g009.jpg
+  format: jpeg
   id: pcbi.1000198/pcbi-1000198-g009
   label: Figure 9
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Depolarization-induced
+  local_filename: source/thumbnails/PMC2551735/PMC2551735/pcbi.1000198.g009.jpg
+- archive_filename: article-figures/PMC2551735/pcbi.1000198.g010.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Depolarization-induced
     inactivation of a subthreshold outward current
 
     can also produce class 1 excitability.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -1014,10 +1080,12 @@ thumbnails:
     overlapped the apex of the instantaneous
 
     <italic>I</italic>&#8211;<italic>V</italic> curve.</p>'
-  filename: PMC2551735/PMC2551735/pcbi.1000198.g010.jpg
+  format: jpeg
   id: pcbi.1000198/pcbi-1000198-g010
   label: Figure 10
-- caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Summary
+  local_filename: source/thumbnails/PMC2551735/PMC2551735/pcbi.1000198.g010.jpg
+- archive_filename: article-figures/PMC2551735/pcbi.1000198.g011.jpg
+  caption: '<title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Summary
     of phase plane geometry and local stability analysis.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">Class 1 excitability results when
     slow-activating outward current is absent
@@ -1047,6 +1115,7 @@ thumbnails:
     inward current initiates a spike before slow-activating outward current has
 
     an opportunity to counteract the positive feedback process.</p>'
-  filename: PMC2551735/PMC2551735/pcbi.1000198.g011.jpg
+  format: jpeg
   id: pcbi.1000198/pcbi-1000198-g011
   label: Figure 11
+  local_filename: source/thumbnails/PMC2551735/PMC2551735/pcbi.1000198.g011.jpg

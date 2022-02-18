@@ -6,6 +6,16 @@
   <rdf:Description rdf:about="http://omex-library.org/256627.omex">
     <dc:abstract>"Neuropathic pain remains notoriously difficult to treat despite numerous drug targets. Here, we offer a novel explanation for this intractability. Computer simulations predicted that qualitative changes in primary afferent excitability linked to neuropathic pain arise through a switch in spike initiation dynamics when molecular pathologies reach a tipping point (criticality), and that this tipping point can be reached via several different molecular pathologies (degeneracy). ..."</dc:abstract>
   </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/256627.omex">
+    <dc:description>This is the XPP model associated with the paper:
+
+Ratté S, Zhu Y, Lee KY, Prescott SA (2014) Criticality and degeneracy in injury-induced changes in primary afferent excitability and the implications for neuropathic pain. Elife 3:e02370
+
+This ModelDB entry contains the authors original code as downloaded from the authors web site:
+http://prescottlab.ca/code-for-models
+on 20190510.
+</dc:description>
+  </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>
   </rdf:Description>
@@ -98,6 +108,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="local:00009">
     <rdfs:label>Tom MOrse</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <foaf:mbox rdf:resource="mailto:tom.morse@yale.edu">mailto:tom.morse@yale.edu</foaf:mbox>
   </rdf:Description>
   <rdf:Description rdf:about="local:00009">
     <foaf:accountName rdf:resource="mailto:tom.morse@yale.edu">mailto:tom.morse@yale.edu</foaf:accountName>

@@ -6,11 +6,26 @@
   <rdf:Description rdf:about="http://omex-library.org/258234.omex">
     <dc:abstract>A two-compartment model for a motor neuron following chronic spinal cord injury with excessive dendritic persistent Ca2+ current.</dc:abstract>
   </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/258234.omex">
+    <dc:description>These are the matlab and xpp files for the paper:
+
+Venugopal S, Hamm TM, Crook SM, Jung R (2011)
+Modulation of inhibitory strength and kinetics facilitates regulation
+of persistent inward currents and motoneuron excitability following
+spinal cord injury.
+J Neurophysiol 106:2167-79
+
+These files were contributed by S Venugopal.
+</dc:description>
+  </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="mailto:vsharmila@g.ucla.edu">mailto:vsharmila@g.ucla.edu</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <rdfs:label>Sharmila Venugopal</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <foaf:mbox rdf:resource="mailto:vsharmila@g.ucla.edu">mailto:vsharmila@g.ucla.edu</foaf:mbox>
   </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <foaf:accountName rdf:resource="mailto:vsharmila@g.ucla.edu">mailto:vsharmila@g.ucla.edu</foaf:accountName>
@@ -26,6 +41,9 @@
   </rdf:Description>
   <rdf:Description rdf:about="local:00002">
     <rdfs:label>Sharmila Venugopal</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <foaf:mbox rdf:resource="mailto:vsharmila@g.ucla.edu">mailto:vsharmila@g.ucla.edu</foaf:mbox>
   </rdf:Description>
   <rdf:Description rdf:about="local:00002">
     <foaf:accountName rdf:resource="mailto:vsharmila@g.ucla.edu">mailto:vsharmila@g.ucla.edu</foaf:accountName>

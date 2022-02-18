@@ -1,3 +1,4 @@
+description: null
 references:
 - label: "Reinoud Maex, Vladimir P. Grinevich, Valentina Grinevich, Evgeny Budygin,\
     \ Merouane Bencherif & Boris Gutkin. Understanding the role \u03B17 nicotinic\
@@ -6,7 +7,8 @@ references:
   uri: http://identifiers.org/doi:10.1021/cn500126t
 taxa: []
 thumbnails:
-- caption: '<p xmlns:mml="http://www.w3.org/1998/Math/MathML">Representative voltammetric
+- archive_filename: article-figures/PMC4198061/cn-2014-00126t_0002.jpg
+  caption: '<p xmlns:mml="http://www.w3.org/1998/Math/MathML">Representative voltammetric
     recordings
 
     of real-time dopamine signaling
@@ -28,10 +30,12 @@ thumbnails:
     reduction peak potentials (approximately +0.6 V and approximately
 
     &#8722;0.2 V, respectively) that identify dopamine.</p>'
-  filename: PMC4198061/PMC4198061/cn-2014-00126t_0002.jpg
+  format: jpeg
   id: cn500126t/fig1
   label: Figure 1
-- caption: '<p xmlns:mml="http://www.w3.org/1998/Math/MathML">Synaptic
+  local_filename: source/thumbnails/PMC4198061/PMC4198061/cn-2014-00126t_0002.jpg
+- archive_filename: article-figures/PMC4198061/cn-2014-00126t_0003.jpg
+  caption: '<p xmlns:mml="http://www.w3.org/1998/Math/MathML">Synaptic
 
     organization and responses of the &#8220;desensitization
 
@@ -53,10 +57,12 @@ thumbnails:
     glutamatergic afferent. For clarity, the &#945;4&#946;2* NNRs on
 
     the DA and GABA neurons or their afferents are not shown.</p>'
-  filename: PMC4198061/PMC4198061/cn-2014-00126t_0003.jpg
+  format: jpeg
   id: cn500126t/fig2
   label: Figure 2
-- caption: '<p xmlns:mml="http://www.w3.org/1998/Math/MathML">Synaptic organization
+  local_filename: source/thumbnails/PMC4198061/PMC4198061/cn-2014-00126t_0003.jpg
+- archive_filename: article-figures/PMC4198061/cn-2014-00126t_0004.jpg
+  caption: '<p xmlns:mml="http://www.w3.org/1998/Math/MathML">Synaptic organization
 
     and responses of the &#8220;activation model&#8221;.
 
@@ -73,10 +79,12 @@ thumbnails:
     Information</xref>, and TC-7020 reached a peak concentration of 3
 
     nM.</p>'
-  filename: PMC4198061/PMC4198061/cn-2014-00126t_0004.jpg
+  format: jpeg
   id: cn500126t/fig3
   label: Figure 3
-- caption: '<p xmlns:mml="http://www.w3.org/1998/Math/MathML">Responses to coadministration
+  local_filename: source/thumbnails/PMC4198061/PMC4198061/cn-2014-00126t_0004.jpg
+- archive_filename: article-figures/PMC4198061/cn-2014-00126t_0005.jpg
+  caption: '<p xmlns:mml="http://www.w3.org/1998/Math/MathML">Responses to coadministration
     of TC-7020 and PNU-120596
 
     in the
@@ -92,10 +100,12 @@ thumbnails:
     &#956;M. The presence of PNU-120596 was modeled by multiplying the
 
     IC<sub>50</sub> of TC-7020 by a factor of 10.</p>'
-  filename: PMC4198061/PMC4198061/cn-2014-00126t_0005.jpg
+  format: jpeg
   id: cn500126t/fig4
   label: Figure 4
-- caption: '<p xmlns:mml="http://www.w3.org/1998/Math/MathML">Effect of TC-7020 on
+  local_filename: source/thumbnails/PMC4198061/PMC4198061/cn-2014-00126t_0005.jpg
+- archive_filename: article-figures/PMC4198061/cn-2014-00126t_0006.jpg
+  caption: '<p xmlns:mml="http://www.w3.org/1998/Math/MathML">Effect of TC-7020 on
 
     acetylcholine-evoked dopamine release summarized.
 
@@ -118,10 +128,12 @@ thumbnails:
     plotted on the horizontal axis; ACh tone is color-coded. (C) Same
 
     data as in panel B, but for a full agonist.</p>'
-  filename: PMC4198061/PMC4198061/cn-2014-00126t_0006.jpg
+  format: jpeg
   id: cn500126t/fig5
   label: Figure 5
-- caption: '<p xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulated accumbal dopamine
+  local_filename: source/thumbnails/PMC4198061/PMC4198061/cn-2014-00126t_0006.jpg
+- archive_filename: article-figures/PMC4198061/cn-2014-00126t_0007.jpg
+  caption: '<p xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulated accumbal dopamine
 
     response to TC-7020 and nicotine starting
 
@@ -138,6 +150,7 @@ thumbnails:
     &#945;4&#946;2 NNRs (33 vs 3 &#956;M). The red trace plots the
 
     response after pretreatment with PNU-120596.</p>'
-  filename: PMC4198061/PMC4198061/cn-2014-00126t_0007.jpg
+  format: jpeg
   id: cn500126t/fig6
   label: Figure 6
+  local_filename: source/thumbnails/PMC4198061/PMC4198061/cn-2014-00126t_0007.jpg

@@ -1,6 +1,30 @@
+description: "# Model of the Mammalian ET cell\n\nComputational model and files to\
+  \ recreate the results from the paper \"A Computational Model of the Mammalian External\
+  \ Tufted Cell\" https://doi.org/10.1016/j.jtbi.2018.10.003 \n\nAuthor: Ryan Viertel\n\
+  \n## Usage:\n\ndata = ET(input,sampling_rate);\n\ninput: input vector, if no input\
+  \ then just a vector of zeros\n\nsampling_rate: rate at which the input vector should\
+  \ be sampled. 1000 for milisecond\n\nreturns the following struct:\n\ndata.T - time\
+  \ vector\ndata.X - ODE variables at each time step\n* data.X(:,1) - Membrane Potential\n\
+  * data.X(:,2) - nK\n* data.X(:,3) - hNaP\n* data.X(:,4) - hH\n* data.X(:,5) - mLVA\n\
+  * data.X(:,6) - hLVA\n* data.X(:,7) - mBK\n* data.X(:,8) - Calcium\n* data.X(:,9)\
+  \ - nHVK\n\ndata.events - list of spike events\n\ndata.which - event type\n* 1 -\
+  \ spike\n* 2 - burst start\n* 3 - burst end\n\ndata.current - system currents\n\
+  * data.current(:,1) = transient sodium\n* data.current(:,2) = fast potassium\n*\
+  \ data.current(:,3) = leak\n* data.current(:,4) = persistent sodium\n* data.current(:,5)\
+  \ = hyperpolarization activated\n* data.current(:,6) = LVA calcium\n* data.current(:,7)\
+  \ = HVA calcium\n* data.current(:,8) = large conductance potassium\n* data.current(:,9)\
+  \ = HVK current\n\n## example\n\n### create the input vector\ninput = zeros(1,5000);\n\
+  ### run the model\ndata = ET(input,1000);\n### plot the voltage trace\nplot(data.T,data.X(:,1))\n\
+  \n## ME-PCM\nThe code used to sample the model throughout parameter space to determine\
+  \ stability and investigate the effect of model parameters on model output is found\
+  \ in the ME-PCM directory\n\n## xpp\nThe ODE file to recreate the bifurcation diagram\
+  \ is found in the xpp directory \n"
 references:
 - label: 'Ryan Viertel & Alla Borisyuk. A Computational model of the mammalian external
     tufted cell. Journal of Theoretical Biology 462: 109-121 (2019).'
   uri: http://identifiers.org/doi:10.1016/j.jtbi.2018.10.003
 taxa: []
-thumbnails: []
+thumbnails:
+- archive_filename: screenshot.png
+  format: png
+  local_filename: source/models/240364/screenshot.png

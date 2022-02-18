@@ -1,3 +1,4 @@
+description: null
 references:
 - label: "Niklas H\xFCbel & Ghanim Ullah. Anions Govern Cell Volume: A Case Study\
     \ of Relative Astrocytic and Neuronal Swelling in Spreading Depolarization. PLOS\
@@ -5,7 +6,8 @@ references:
   uri: http://identifiers.org/doi:10.1371/journal.pone.0147060
 taxa: []
 thumbnails:
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Model
+- archive_filename: article-figures/PMC4790933/pone.0147060.g001.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Model
     scheme for neuronal ion fluxes between the ICS and the ECS.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">The channel currents <italic>I</italic><sub><italic>K</italic></sub>
     and <italic>I</italic><sub><italic>Na</italic></sub> take K<sup>+</sup> and Na<sup>+</sup>
@@ -14,20 +16,24 @@ thumbnails:
     counteracts these fluxes and ion gradients are maintained. Under resting conditions
     Cl<sup>&#8722;</sup> is in electrochemical equilibrium and <italic>I</italic><sub><italic>Cl</italic></sub>
     = 0 <italic>&#956;</italic>A/cm<sup>2</sup> (not included in scheme).</p>
-  filename: PMC4790933/PMC4790933/pone.0147060.g001.jpg
+  format: jpeg
   id: pone.0147060/pone.0147060.g001
   label: Fig 1
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Illustration
+  local_filename: source/thumbnails/PMC4790933/PMC4790933/pone.0147060.g001.jpg
+- archive_filename: article-figures/PMC4790933/pone.0147060.g002.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Illustration
     of osmotic cell swelling.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">Under normal conditions, the particle
     density in the ICS and ECS is equal. During SD and AD a net influx of ions into
     the cell leads to an osmotic gradient. The overall particle concentration in the
     ICS is higher. The cell swells in response to this imbalance until intra&#8211;
     and extracellular concentrations are equal again.</p>
-  filename: PMC4790933/PMC4790933/pone.0147060.g002.jpg
+  format: jpeg
   id: pone.0147060/pone.0147060.g002
   label: Fig 2
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Transition
+  local_filename: source/thumbnails/PMC4790933/PMC4790933/pone.0147060.g002.jpg
+- archive_filename: article-figures/PMC4790933/pone.0147060.g003.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Transition
     from the physiological resting state to the Donnan equilibrium when the ion pumps
     are switched off after 50 sec (marked by the black star).</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">The main plots show the evolution
@@ -36,19 +42,23 @@ thumbnails:
     model based on <xref ref-type="disp-formula" rid="pone.0147060.e049">Eq (28)</xref>.
     The insets show the results for the exponential model from <xref ref-type="disp-formula"
     rid="pone.0147060.e045">Eq (25)</xref>.</p>
-  filename: PMC4790933/PMC4790933/pone.0147060.g003.jpg
+  format: jpeg
   id: pone.0147060/pone.0147060.g003
   label: Fig 3
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
+  local_filename: source/thumbnails/PMC4790933/PMC4790933/pone.0147060.g003.jpg
+- archive_filename: article-figures/PMC4790933/pone.0147060.g004.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
     same transition as in <xref ref-type="fig" rid="pone.0147060.g003">Fig 3</xref>
     with blocked Cl<sup>&#8722;</sup> channels.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">The pumps are switched off after
     50 sec (marked by the star). The main plots show <bold>(a)</bold> potentials and
     <bold>(b)</bold> ion concentrations. Volumes are shown in the inset in <bold>(b)</bold>.</p>
-  filename: PMC4790933/PMC4790933/pone.0147060.g004.jpg
+  format: jpeg
   id: pone.0147060/pone.0147060.g004
   label: Fig 4
-- caption: <p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML"><bold>(a)</bold>
+  local_filename: source/thumbnails/PMC4790933/PMC4790933/pone.0147060.g004.jpg
+- archive_filename: article-figures/PMC4790933/pone.0147060.g005.jpg
+  caption: <p xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML"><bold>(a)</bold>
     Transition from physiological conditions to FES because of interrupted pump activity
     (shaded region). The cell depolarizes and Nernst potentials get close to each
     other. <bold>(b)</bold> The fixed point (FP) diagram shows that a polarized physiological
@@ -58,10 +68,12 @@ thumbnails:
     shows the ICS volume, which is larger for FES (swollen cell). The initial and
     asymptotic states for long times from <bold>(a)</bold> are marked by a black and
     white triangle, respectively.</p>
-  filename: PMC4790933/PMC4790933/pone.0147060.g005.jpg
+  format: jpeg
   id: pone.0147060/pone.0147060.g005
   label: Fig 5
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Illustration
+  local_filename: source/thumbnails/PMC4790933/PMC4790933/pone.0147060.g005.jpg
+- archive_filename: article-figures/PMC4790933/pone.0147060.g006.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Illustration
     of the refined volume model for a system consisting of a neuron (orange cell in
     drawings), a glia cell (green cell), and the ECS between them (shaded region).</title><p
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">The
@@ -70,10 +82,12 @@ thumbnails:
     deviates from the unbounded model. Instead of further shrinkage of the ECS there
     is tissue swelling for very high particle contents inside the cells (low values
     of <italic>N</italic><sub><italic>e</italic></sub>).</p>
-  filename: PMC4790933/PMC4790933/pone.0147060.g006.jpg
+  format: jpeg
   id: pone.0147060/pone.0147060.g006
   label: Fig 6
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">SD
+  local_filename: source/thumbnails/PMC4790933/PMC4790933/pone.0147060.g006.jpg
+- archive_filename: article-figures/PMC4790933/pone.0147060.g007.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">SD
     dynamics in model system consisting of a neuron, glial compartment, and the ECS.</title><p
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">SD
     is initiated by interrupting pump activity and glial ion regulation for 20 sec
@@ -86,10 +100,12 @@ thumbnails:
     ECS, and the glia cell are shown in <bold>(b)</bold>. Relative changes of the
     three compartments and the full system are shown in <bold>(c)</bold> with an inset
     for finer resolution between 40 sec and 110 sec.</p>
-  filename: PMC4790933/PMC4790933/pone.0147060.g007.jpg
+  format: jpeg
   id: pone.0147060/pone.0147060.g007
   label: Fig 7
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Cl<sup>&#8722;</sup>
+  local_filename: source/thumbnails/PMC4790933/PMC4790933/pone.0147060.g007.jpg
+- archive_filename: article-figures/PMC4790933/pone.0147060.g008.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Cl<sup>&#8722;</sup>
     fluxes and uptake factor <italic>&#967;</italic>.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">In <bold>(a)</bold>, changes in
     the Cl<sup>&#8722;</sup> content in the three compartments during SD with <italic>&#967;</italic>
@@ -98,10 +114,12 @@ thumbnails:
     we used <italic>&#967;</italic> = 0.2 which means less Cl<sup>&#8722;</sup> uptake
     and more Na<sup>+</sup> release. The cell does not recover from depolarization,
     but remains in FES.</p>
-  filename: PMC4790933/PMC4790933/pone.0147060.g008.jpg
+  format: jpeg
   id: pone.0147060/pone.0147060.g008
   label: Fig 8
-- caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulation
+  local_filename: source/thumbnails/PMC4790933/PMC4790933/pone.0147060.g008.jpg
+- archive_filename: article-figures/PMC4790933/pone.0147060.g009.jpg
+  caption: <title xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">Simulation
     of the neuronal response to KCl perfusion.</title><p xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:mml="http://www.w3.org/1998/Math/MathML">For the slow perfusion case in
     <bold>(a)</bold> 20 fmol of KCl are added within 200 sec (pink curve). The beginning
@@ -114,6 +132,7 @@ thumbnails:
     perfusion the neuron remains on the physiological branch, with fast perfusion
     it goes into FES. <italic>K</italic><sub><italic>e</italic></sub> and <italic>&#969;</italic><sub><italic>i</italic></sub>
     (inset) are significantly increased.</p>
-  filename: PMC4790933/PMC4790933/pone.0147060.g009.jpg
+  format: jpeg
   id: pone.0147060/pone.0147060.g009
   label: Fig 9
+  local_filename: source/thumbnails/PMC4790933/PMC4790933/pone.0147060.g009.jpg

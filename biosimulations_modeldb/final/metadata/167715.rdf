@@ -7,6 +7,32 @@
     <dc:abstract>Familial hemiplegic migraine (FHM) is a rare subtype of migraine with aura. A mutation causing FHM type 3 (FHM3) has been identified in SCN1A encoding the Nav1.1 Na+ channel. This genetic defect affects the inactivation gate. The code describes an extended Hodgkin-Huxley framework with dynamic ion concentrations in a wilde-type and mutant form.&#13;
 </dc:abstract>
   </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/167715.omex">
+    <dc:description>
+Two programs 
+
+* sd-wild-type.ode
+* sd-mutation.ode
+ 
+See:
+
+M. A. Dahlem, J. Schumacher, and N. Huebel (2014) Linking a genetic
+defect in migraine to spreading depression in a computational model,
+PeerJ, 2:e379, http://dx.doi.org/10.7717/peerj.379
+
+Purpose: Model spreading depression with an extended Hodgkin-Huxley
+framework that includes time-dependend ion concentrations and to
+establish a connection between a migraine genotype, namely the
+familial hemiplegic migraine type 3 (FHM3), and cellular phenotype of
+this disease.
+
+Code for xppaut.
+
+Email: markus.dahlem@gmail.com
+Web: https://sites.google.com/site/markusadahlem/
+
+</dc:description>
+  </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>
   </rdf:Description>

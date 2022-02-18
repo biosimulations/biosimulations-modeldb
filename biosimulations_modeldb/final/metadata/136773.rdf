@@ -6,6 +6,20 @@
   <rdf:Description rdf:about="http://omex-library.org/136773.omex">
     <dc:abstract>These are the full and reduced models of a generic single neuron with dynamic ion concentrations as described in Cressman et al., Journal of Computational Neuroscience (2009) 26:159–170.</dc:abstract>
   </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/136773.omex">
+    <dc:description>These are the source codes used in
+
+Cressman JR, Ullah G, Ziburkus J, Schiff SJ, Barreto E (2009) The
+influence of sodium and potassium dynamics on excitability, seizures,
+and the stability of persistent states: I. Single neuron dynamics. J
+Comput Neurosci 26:159-70
+
+The code for the full model is written in C and uses routines from
+Numerical Recipes in C.
+
+The code for the reduced model runs on XPP.
+</dc:description>
+  </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>
   </rdf:Description>
@@ -94,7 +108,7 @@
     <dc:identifier rdf:resource="http://identifiers.org/doi:10.1007/s10827-011-0333-0">http://identifiers.org/doi:10.1007/s10827-011-0333-0</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="local:00009">
-    <rdfs:label>John R. Cressman, Ghanim Ullah, Jokubas Ziburkus, Steven J. Schiff &amp; Ernest Barreto. Underserved Does Not Mean Undeserved: Unfurling the HCV Care in the Safety Net. Journal of Computational Neuroscience 63, 12: 781-781 (2018).</rdfs:label>
+    <rdfs:label>John R. Cressman, Ghanim Ullah, Jokubas Ziburkus, Steven J. Schiff &amp; Ernest Barreto. Erratum to: The influence of sodium and potassium dynamics on excitability, seizures, and the stability of persistent states: I. Single neuron dynamics. Journal of Computational Neuroscience 30, 3: 781-781 (2011).</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/136773.omex">
     <bqmodel:isDescribedBy rdf:resource="local:00009">local:00009</bqmodel:isDescribedBy>
