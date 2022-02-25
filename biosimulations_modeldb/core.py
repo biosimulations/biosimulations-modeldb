@@ -65,6 +65,18 @@ with open(pkg_resources.resource_filename('biosimulations_modeldb', os.path.join
     SET_FILE_MAP = yaml.load(file, Loader=yaml.Loader)
 
 
+def get_biosimulations_project_id(modeldb_id):
+    """ Get the BioSimulations id for a project
+
+    Args:
+        modeldb_id (:obj:`str`): ModelDB id for the project
+
+    Returns:
+        :obj:`str`: BioSimulations id for the project
+    """
+    return BIOSIMULATIONS_PROJECT_ID_PATTERN.format(modeldb_id)
+
+
 def get_project_ids(config, modeling_application):
     """ Get a list of the ids of models in the source database for a particular modeling application (e.g., XPP)
 
@@ -736,7 +748,7 @@ def import_projects(config):
             or config['update_simulations']
             or prev_duration is None
         )
-        runbiosimulations_id, duration = import_project(project, simulate_project, auth, config)
+        runbiosimulations_id, duration, biosimulations_id = import_project(project, simulate_project, auth, config)
 
         # output status
         print('    Saving status ...', end='')
@@ -756,6 +768,7 @@ def import_projects(config):
             'updated': updated,
             'duration': duration,
             'runbiosimulationsId': runbiosimulations_id,
+            'biosimulationsId': biosimulations_id,
         }
         with open(config['status_filename'], 'w') as file:
             file.write(yaml.dump(status))
@@ -798,6 +811,7 @@ def import_project(project, simulate, auth, config):
 
             * :obj:`str`: runBioSimulations id for the run of the project
             * :obj:`float`: duration of the simulation of the project
+            * :obj:`str`: BioSimulations id for the run of the project
     """
     project_dirname = os.path.join(config['source_projects_dirname'], str(project['id']))
 
@@ -868,7 +882,7 @@ def import_project(project, simulate, auth, config):
 
     run_name = project['name']
     if config['publish_projects']:
-        project_id = BIOSIMULATIONS_PROJECT_ID_PATTERN.format(project['id'])
+        project_id = get_biosimulations_project_id(project['id'])
     else:
         project_id = None
 
@@ -892,4 +906,4 @@ def import_project(project, simulate, auth, config):
 
     print(' done')
 
-    return runbiosimulations_id, duration
+    return runbiosimulations_id, duration, project_id

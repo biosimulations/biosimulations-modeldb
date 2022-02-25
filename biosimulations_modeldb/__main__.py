@@ -181,19 +181,25 @@ class PublishRunsController(cement.Controller):
             print('  {}: {} ... '.format(i_project + 1, id), end='')
             sys.stdout.flush()
 
-            endpoint = biosimulators_config.BIOSIMULATIONS_API_ENDPOINT + 'projects/' + id
+            if project.get('biosimulationsId', None) is not None:
+                endpoint = biosimulators_config.BIOSIMULATIONS_API_ENDPOINT + 'projects/' + project['biosimulationsId']
 
-            response = requests.get(endpoint)
+                response = requests.get(endpoint)
 
-            if response.status_code == 200:
-                if response.json()['simulationRun'] == project['runbiosimulationsId']:
-                    api_method = None
-                    print('already up to date. ', end='')
-                    sys.stdout.flush()
+                if response.status_code == 200:
+                    if response.json()['simulationRun'] == project['runbiosimulationsId']:
+                        api_method = None
+                        print('already up to date. ', end='')
+                        sys.stdout.flush()
+
+                    else:
+                        api_method = requests.put
+                        print('updating ... ', end='')
+                        sys.stdout.flush()
 
                 else:
-                    api_method = requests.put
-                    print('updating ... ', end='')
+                    api_method = requests.post
+                    print('publishing ... ', end='')
                     sys.stdout.flush()
 
             else:
@@ -205,7 +211,7 @@ class PublishRunsController(cement.Controller):
                 response = api_method(endpoint,
                                       headers=auth_headers,
                                       json={
-                                          'id': id,
+                                          'id': project['biosimulationsId'],
                                           'simulationRun': project['runbiosimulationsId']
                                       })
                 response.raise_for_status()
@@ -250,7 +256,7 @@ class VerifyPublicationController(cement.Controller):
         # check all ModelDB projects were published
         errors = []
         for source_project_id, source_project in source_projects.items():
-            if source_project_id not in biosimulations_projects:
+            if source_project['biosimulationsId'] not in biosimulations_projects:
                 if source_project['runbiosimulationsId']:
                     biosimulations_api_endpoint = biosimulators_config.BIOSIMULATIONS_API_ENDPOINT
                     response = requests.get(biosimulations_api_endpoint + 'runs/{}'.format(source_project['runbiosimulationsId']))
@@ -260,9 +266,9 @@ class VerifyPublicationController(cement.Controller):
                     run_status = 'not submitted'
                 errors.append('{}: has not been published. The status of run `{}` is `{}`.'.format(
                     source_project_id, source_project['runbiosimulationsId'], run_status))
-            elif biosimulations_projects[source_project_id]['simulationRun'] != source_project['runbiosimulationsId']:
+            elif biosimulations_projects[source_project['biosimulationsId']]['simulationRun'] != source_project['runbiosimulationsId']:
                 biosimulations_api_endpoint = biosimulators_config.BIOSIMULATIONS_API_ENDPOINT
-                url = biosimulations_api_endpoint + 'projects/{}'.format(source_project_id)
+                url = biosimulations_api_endpoint + 'projects/{}'.format(source_project['biosimulationsId'])
                 response = requests.get(url)
                 try:
                     response.raise_for_status()
