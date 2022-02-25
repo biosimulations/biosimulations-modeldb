@@ -38,8 +38,7 @@ The authors recommend that modelers use the more efficient C code,
 which outputs time in seconds, and which includes in the comments the
 parameter values used for all five burst types.
 
-Parameter values for all figures are also listed in the paper itself.
-</dc:description>
+Parameter values for all figures are also listed in the paper itself.</dc:description>
   </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>

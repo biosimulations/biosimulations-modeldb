@@ -1,11 +1,11 @@
-description: "\nTwo programs \n\n* sd-wild-type.ode\n* sd-mutation.ode\n \nSee:\n\n\
+description: "Two programs \n\n* sd-wild-type.ode\n* sd-mutation.ode\n \nSee:\n\n\
   M. A. Dahlem, J. Schumacher, and N. Huebel (2014) Linking a genetic\ndefect in migraine\
   \ to spreading depression in a computational model,\nPeerJ, 2:e379, http://dx.doi.org/10.7717/peerj.379\n\
   \nPurpose: Model spreading depression with an extended Hodgkin-Huxley\nframework\
   \ that includes time-dependend ion concentrations and to\nestablish a connection\
   \ between a migraine genotype, namely the\nfamilial hemiplegic migraine type 3 (FHM3),\
   \ and cellular phenotype of\nthis disease.\n\nCode for xppaut.\n\nEmail: markus.dahlem@gmail.com\n\
-  Web: https://sites.google.com/site/markusadahlem/\n\n"
+  Web: https://sites.google.com/site/markusadahlem/"
 references:
 - label: "Markus A. Dahlem, Julia Schumacher & Niklas H\xFCbel. Linking a genetic\
     \ defect in migraine to spreading depression in a computational model. PeerJ 2:\

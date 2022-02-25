@@ -11,7 +11,7 @@ description: "This is the readme for the models associated with the paper:\n\nHa
   \ contains the data base of calcium response types\ndistributions for a range of\
   \ parameter values (original figures can be\nfound in J. Computation Neuroscience\
   \ (submitted))\n\nHopefully you have found this code helpful!\n\n--Marsa Taheri\
-  \ and Gregory Handy\n"
+  \ and Gregory Handy"
 references:
 - label: 'Gregory Handy, Marsa Taheri, John A. White & Alla Borisyuk. Mathematical
     investigation of IP<sub>3</sub>-dependent calcium dynamics in astrocytes. Journal

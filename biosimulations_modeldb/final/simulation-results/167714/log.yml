@@ -1,0 +1,270 @@
+duration: 5.002257
+exception: null
+output: "Archive contains 2 SED-ML documents with 2 models, 2 simulations, 2 tasks,\
+  \ 2 reports, and 2 plots:\r\n  spreading-depression-bistable-cont.sedml:\r\n   \
+  \ Tasks (1):\r\n      task\r\n    Reports (1):\r\n      report: 20 data sets\r\n\
+  \    Plots (1):\r\n      plot: 3 curves\r\n  spreading-depression.sedml:\r\n   \
+  \ Tasks (1):\r\n      task\r\n    Reports (1):\r\n      report: 23 data sets\r\n\
+  \    Plots (1):\r\n      plot: 4 curves\r\n\r\nExecuting SED-ML file 1: spreading-depression-bistable-cont.sedml\
+  \ ...\r\n  Found 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n\
+  \    Outputs:\r\r\n      `plot`\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\
+  \r\n    Executing simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 2 outputs\
+  \ ...\r\r\n      Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n  \
+  \    Generating output 2: `plot` .../home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+  \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7fb756747c40> has\
+  \ a label of '_EK vs T' which cannot be automatically added to the legend.\r\r\r\
+  \n  axes.legend(curve_names)\r\r\r\n/home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+  \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7fb756747bb0> has\
+  \ a label of '_ENA vs T' which cannot be automatically added to the legend.\r\r\r\
+  \n  axes.legend(curve_names)\r\r\r\n \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed\
+  \ 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped:\
+  \ 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 2\r\r\n      Skipped:\
+  \ 0\r\r\n      Failed: 0\r\r\nExecuting SED-ML file 2: spreading-depression.sedml\
+  \ ...\r\n  Found 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n\
+  \    Outputs:\r\r\n      `plot`\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\
+  \r\n    Executing simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 2 outputs\
+  \ ...\r\r\n      Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n  \
+  \    Generating output 2: `plot` .../home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+  \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7fb7565c5a30> has\
+  \ a label of '_EK vs T' which cannot be automatically added to the legend.\r\r\r\
+  \n  axes.legend(curve_names)\r\r\r\n/home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+  \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7fb7567fd310> has\
+  \ a label of '_ENA vs T' which cannot be automatically added to the legend.\r\r\r\
+  \n  axes.legend(curve_names)\r\r\r\n/home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+  \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7fb7565c5be0> has\
+  \ a label of '_ECL vs T' which cannot be automatically added to the legend.\r\r\r\
+  \n  axes.legend(curve_names)\r\r\r\n \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed\
+  \ 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped:\
+  \ 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 2\r\r\n      Skipped:\
+  \ 0\r\r\n      Failed: 0\r\r\n\r\nBundling outputs ...\r\nCleaning up ...\r\n\r\n\
+  ============= SUMMARY =============\r\nExecuted 2 SED documents:\r\n  SED documents\
+  \ (2):\r\n    Succeeded: 2\r\n    Skipped: 0\r\n    Failed: 0\r\n  Tasks (2):\r\n\
+  \    Succeeded: 2\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (4):\r\n    Succeeded:\
+  \ 4\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
+sedDocuments:
+- duration: 1.891918
+  exception: null
+  location: spreading-depression-bistable-cont.sedml
+  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `plot`\r\n      `report`\r\n  Executing task 1: `task`\r\n    Executing\
+    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
+    \  Generating output 1: `report` ... \e[34msucceeded\e[0m\r\n      Generating\
+    \ output 2: `plot` .../home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+    \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7fb756747c40> has\
+    \ a label of '_EK vs T' which cannot be automatically added to the legend.\r\r\
+    \n  axes.legend(curve_names)\r\r\n/home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+    \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7fb756747bb0> has\
+    \ a label of '_ENA vs T' which cannot be automatically added to the legend.\r\r\
+    \n  axes.legend(curve_names)\r\r\n \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks\
+    \ and 2 outputs:\r\n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n \
+    \     Failed: 0\r\n    Outputs:\r\n      Succeeded: 2\r\n      Skipped: 0\r\n\
+    \      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_CLI
+      status: SUCCEEDED
+    - id: data_set_KI
+      status: SUCCEEDED
+    - id: data_set_N
+      status: SUCCEEDED
+    - id: data_set_V
+      status: SUCCEEDED
+    - id: data_set__CLE
+      status: SUCCEEDED
+    - id: data_set__ECL
+      status: SUCCEEDED
+    - id: data_set__EK
+      status: SUCCEEDED
+    - id: data_set__ENA
+      status: SUCCEEDED
+    - id: data_set__IPUMP
+      status: SUCCEEDED
+    - id: data_set__I_CL_L
+      status: SUCCEEDED
+    - id: data_set__I_K
+      status: SUCCEEDED
+    - id: data_set__I_K_G
+      status: SUCCEEDED
+    - id: data_set__I_K_L
+      status: SUCCEEDED
+    - id: data_set__I_NA
+      status: SUCCEEDED
+    - id: data_set__I_NA_G
+      status: SUCCEEDED
+    - id: data_set__I_NA_L
+      status: SUCCEEDED
+    - id: data_set__KE
+      status: SUCCEEDED
+    - id: data_set__NAE
+      status: SUCCEEDED
+    - id: data_set__NAI
+      status: SUCCEEDED
+    duration: 0.916507
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1
+      status: SUCCEEDED
+    - id: curve_2
+      status: SUCCEEDED
+    - id: curve_3
+      status: SUCCEEDED
+    duration: 0.492593
+    exception: null
+    id: plot
+    output: "/home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+      \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7fb756747c40>\
+      \ has a label of '_EK vs T' which cannot be automatically added to the legend.\r\
+      \n  axes.legend(curve_names)\r\n/home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+      \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7fb756747bb0>\
+      \ has a label of '_ENA vs T' which cannot be automatically added to the legend.\r\
+      \n  axes.legend(curve_names)\r\n"
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000668
+    duration: 0.323091
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: meth
+      value: stiff
+    - key: total
+      value: '500.0'
+    - key: t0
+      value: '0.0'
+    - key: dt
+      value: '0.05'
+    - key: njmp
+      value: '1'
+    skipReason: null
+    status: SUCCEEDED
+- duration: 2.821243
+  exception: null
+  location: spreading-depression.sedml
+  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `plot`\r\n      `report`\r\n  Executing task 1: `task`\r\n    Executing\
+    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
+    \  Generating output 1: `report` ... \e[34msucceeded\e[0m\r\n      Generating\
+    \ output 2: `plot` .../home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+    \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7fb7565c5a30> has\
+    \ a label of '_EK vs T' which cannot be automatically added to the legend.\r\r\
+    \n  axes.legend(curve_names)\r\r\n/home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+    \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7fb7567fd310> has\
+    \ a label of '_ENA vs T' which cannot be automatically added to the legend.\r\r\
+    \n  axes.legend(curve_names)\r\r\n/home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+    \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7fb7565c5be0> has\
+    \ a label of '_ECL vs T' which cannot be automatically added to the legend.\r\r\
+    \n  axes.legend(curve_names)\r\r\n \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks\
+    \ and 2 outputs:\r\n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n \
+    \     Failed: 0\r\n    Outputs:\r\n      Succeeded: 2\r\n      Skipped: 0\r\n\
+    \      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_CLI
+      status: SUCCEEDED
+    - id: data_set_DK
+      status: SUCCEEDED
+    - id: data_set_KI
+      status: SUCCEEDED
+    - id: data_set_N
+      status: SUCCEEDED
+    - id: data_set_STIM
+      status: SUCCEEDED
+    - id: data_set_V
+      status: SUCCEEDED
+    - id: data_set_Z
+      status: SUCCEEDED
+    - id: data_set__CLE
+      status: SUCCEEDED
+    - id: data_set__ECL
+      status: SUCCEEDED
+    - id: data_set__EK
+      status: SUCCEEDED
+    - id: data_set__ENA
+      status: SUCCEEDED
+    - id: data_set__IPUMP
+      status: SUCCEEDED
+    - id: data_set__I_CL_L
+      status: SUCCEEDED
+    - id: data_set__I_K
+      status: SUCCEEDED
+    - id: data_set__I_K_G
+      status: SUCCEEDED
+    - id: data_set__I_K_L
+      status: SUCCEEDED
+    - id: data_set__I_NA
+      status: SUCCEEDED
+    - id: data_set__I_NA_G
+      status: SUCCEEDED
+    - id: data_set__I_NA_L
+      status: SUCCEEDED
+    - id: data_set__KE
+      status: SUCCEEDED
+    - id: data_set__NAE
+      status: SUCCEEDED
+    - id: data_set__NAI
+      status: SUCCEEDED
+    duration: 0.986056
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1
+      status: SUCCEEDED
+    - id: curve_2
+      status: SUCCEEDED
+    - id: curve_3
+      status: SUCCEEDED
+    - id: curve_4
+      status: SUCCEEDED
+    duration: 0.546345
+    exception: null
+    id: plot
+    output: "/home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+      \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7fb7565c5a30>\
+      \ has a label of '_EK vs T' which cannot be automatically added to the legend.\r\
+      \n  axes.legend(curve_names)\r\n/home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+      \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7fb7567fd310>\
+      \ has a label of '_ENA vs T' which cannot be automatically added to the legend.\r\
+      \n  axes.legend(curve_names)\r\n/home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+      \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7fb7565c5be0>\
+      \ has a label of '_ECL vs T' which cannot be automatically added to the legend.\r\
+      \n  axes.legend(curve_names)\r\n"
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000668
+    duration: 1.152406
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: meth
+      value: stiff
+    - key: total
+      value: '500.0'
+    - key: t0
+      value: '0.0'
+    - key: dt
+      value: '0.05'
+    - key: njmp
+      value: '1'
+    skipReason: null
+    status: SUCCEEDED
+skipReason: null
+status: SUCCEEDED

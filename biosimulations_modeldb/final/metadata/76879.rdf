@@ -30,8 +30,7 @@ Parameters can be set in the PointProcessManager.  Then use 'As set' button to r
 without resetting the parameters.
 
 This implementation was copied from Bard Ermentrout's xppaut file: wc.ode
-(included)
-</dc:description>
+(included)</dc:description>
   </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3536">http://modeldb.science/ModelList?id=3536</dc:identifier>

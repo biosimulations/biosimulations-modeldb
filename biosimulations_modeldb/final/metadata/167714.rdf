@@ -40,8 +40,7 @@ first. Then use (F)ile + (A)UTO to open the AUTO interface. (R)un +
 (N)umerics parameter DS from 0.2 to -0.2, (G)rab (+ 'Enter') the
 starting point of the forward continuation curve, and (R)un again.
 (Remark: The Hopf line of Fig. 4 can only be obtained by changing this
-code so that also "cli" is a parameter.)
-</dc:description>
+code so that also "cli" is a parameter.)</dc:description>
   </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>

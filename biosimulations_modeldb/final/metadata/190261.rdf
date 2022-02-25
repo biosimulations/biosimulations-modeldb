@@ -17,8 +17,7 @@ These models require xpp which is available from
 http://www.math.pitt.edu/~bard/xpp/xpp.html
 
 More documentation on running XPP is available here:
-http://www.math.pitt.edu/~bard/xpp/help/xppauto.html
-</dc:description>
+http://www.math.pitt.edu/~bard/xpp/help/xppauto.html</dc:description>
   </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=150222">http://modeldb.science/ModelList?id=150222</dc:identifier>

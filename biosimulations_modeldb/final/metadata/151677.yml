@@ -8,9 +8,7 @@ description: 'This is the model associated with the paper:
 
   This is the code that the authors used.  Please contact David Golomb
 
-  for more information.
-
-  '
+  for more information.'
 references:
 - label: Samuel Andrew Hires, Lorenz Pammer, Karel Svoboda & David Golomb. Tapered
     whiskers are required for active tactile sensation. eLife 2 (2013).

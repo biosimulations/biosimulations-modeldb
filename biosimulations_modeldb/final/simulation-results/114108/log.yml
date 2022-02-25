@@ -1,0 +1,77 @@
+duration: 1.025456
+exception: null
+output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
+  \ 1 reports, and 0 plots:\r\n  JTBfig07.sedml:\r\n    Tasks (1):\r\n      task\r\
+  \n    Reports (1):\r\n      report: 10 data sets\r\n\r\nExecuting SED-ML file 1:\
+  \ JTBfig07.sedml ...\r\n  Found 1 tasks and 1 outputs:\r\r\n    Tasks:\r\r\n   \
+  \   `task`\r\r\n    Outputs:\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\
+  \r\n    Executing simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 1 outputs\
+  \ ...\r\r\n      Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n\r\r\
+  \n  Executed 1 tasks and 1 outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n\
+  \      Skipped: 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 1\r\
+  \r\n      Skipped: 0\r\r\n      Failed: 0\r\r\n\r\nBundling outputs ...\r\nCleaning\
+  \ up ...\r\n\r\n============= SUMMARY =============\r\nExecuted 1 SED documents:\r\
+  \n  SED documents (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n\
+  \  Tasks (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs\
+  \ (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
+sedDocuments:
+- duration: 0.933232
+  exception: null
+  location: JTBfig07.sedml
+  output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `report`\r\n  Executing task 1: `task`\r\n    Executing simulation ...\
+    \ \e[34msucceeded\e[0m\r\n    Generating 1 outputs ...\r\n      Generating output\
+    \ 1: `report` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 1 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_HK
+      status: SUCCEEDED
+    - id: data_set_HNA
+      status: SUCCEEDED
+    - id: data_set_IK
+      status: SUCCEEDED
+    - id: data_set_MNA
+      status: SUCCEEDED
+    - id: data_set_NI
+      status: SUCCEEDED
+    - id: data_set_NIR
+      status: SUCCEEDED
+    - id: data_set_NK
+      status: SUCCEEDED
+    - id: data_set_RIR
+      status: SUCCEEDED
+    - id: data_set_V
+      status: SUCCEEDED
+    duration: 0.651119
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000030
+    duration: 0.182469
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '700.0'
+    - key: meth
+      value: euler
+    - key: dt
+      value: '0.05'
+    - key: t0
+      value: '0.0'
+    - key: njmp
+      value: '1'
+    skipReason: null
+    status: SUCCEEDED
+skipReason: null
+status: SUCCEEDED

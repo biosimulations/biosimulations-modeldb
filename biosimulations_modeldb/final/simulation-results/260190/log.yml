@@ -1,0 +1,219 @@
+duration: 11.778626
+exception: null
+output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
+  \ 1 reports, and 0 plots:\r\n  boxwell.sedml:\r\n    Tasks (1):\r\n      task\r\n\
+  \    Reports (1):\r\n      report: 81 data sets\r\n\r\nExecuting SED-ML file 1:\
+  \ boxwell.sedml ...\r\n  Found 1 tasks and 1 outputs:\r\r\n    Tasks:\r\r\n    \
+  \  `task`\r\r\n    Outputs:\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\
+  \r\n    Executing simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 1 outputs\
+  \ ...\r\r\n      Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n\r\r\
+  \n  Executed 1 tasks and 1 outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n\
+  \      Skipped: 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 1\r\
+  \r\n      Skipped: 0\r\r\n      Failed: 0\r\r\n\r\nBundling outputs ...\r\nCleaning\
+  \ up ...\r\n\r\n============= SUMMARY =============\r\nExecuted 1 SED documents:\r\
+  \n  SED documents (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n\
+  \  Tasks (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs\
+  \ (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
+sedDocuments:
+- duration: 11.637764
+  exception: null
+  location: boxwell.sedml
+  output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `report`\r\n  Executing task 1: `task`\r\n    Executing simulation ...\
+    \ \e[34msucceeded\e[0m\r\n    Generating 1 outputs ...\r\n      Generating output\
+    \ 1: `report` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 1 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_H
+      status: SUCCEEDED
+    - id: data_set_HI
+      status: SUCCEEDED
+    - id: data_set_M
+      status: SUCCEEDED
+    - id: data_set_MI
+      status: SUCCEEDED
+    - id: data_set_N
+      status: SUCCEEDED
+    - id: data_set_NI
+      status: SUCCEEDED
+    - id: data_set_NS
+      status: SUCCEEDED
+    - id: data_set_NSI
+      status: SUCCEEDED
+    - id: data_set_SB1
+      status: SUCCEEDED
+    - id: data_set_SB2
+      status: SUCCEEDED
+    - id: data_set_SB3
+      status: SUCCEEDED
+    - id: data_set_SB4
+      status: SUCCEEDED
+    - id: data_set_SB5
+      status: SUCCEEDED
+    - id: data_set_SB6
+      status: SUCCEEDED
+    - id: data_set_SB7
+      status: SUCCEEDED
+    - id: data_set_SB8
+      status: SUCCEEDED
+    - id: data_set_SB9
+      status: SUCCEEDED
+    - id: data_set_SB10
+      status: SUCCEEDED
+    - id: data_set_SS1
+      status: SUCCEEDED
+    - id: data_set_SS2
+      status: SUCCEEDED
+    - id: data_set_SS3
+      status: SUCCEEDED
+    - id: data_set_SS4
+      status: SUCCEEDED
+    - id: data_set_SS5
+      status: SUCCEEDED
+    - id: data_set_SS6
+      status: SUCCEEDED
+    - id: data_set_SS7
+      status: SUCCEEDED
+    - id: data_set_SS8
+      status: SUCCEEDED
+    - id: data_set_SS9
+      status: SUCCEEDED
+    - id: data_set_SS10
+      status: SUCCEEDED
+    - id: data_set_TNEWB1
+      status: SUCCEEDED
+    - id: data_set_TNEWB2
+      status: SUCCEEDED
+    - id: data_set_TNEWB3
+      status: SUCCEEDED
+    - id: data_set_TNEWB4
+      status: SUCCEEDED
+    - id: data_set_TNEWB5
+      status: SUCCEEDED
+    - id: data_set_TNEWB6
+      status: SUCCEEDED
+    - id: data_set_TNEWB7
+      status: SUCCEEDED
+    - id: data_set_TNEWB8
+      status: SUCCEEDED
+    - id: data_set_TNEWB9
+      status: SUCCEEDED
+    - id: data_set_TNEWB10
+      status: SUCCEEDED
+    - id: data_set_TNEWS1
+      status: SUCCEEDED
+    - id: data_set_TNEWS2
+      status: SUCCEEDED
+    - id: data_set_TNEWS3
+      status: SUCCEEDED
+    - id: data_set_TNEWS4
+      status: SUCCEEDED
+    - id: data_set_TNEWS5
+      status: SUCCEEDED
+    - id: data_set_TNEWS6
+      status: SUCCEEDED
+    - id: data_set_TNEWS7
+      status: SUCCEEDED
+    - id: data_set_TNEWS8
+      status: SUCCEEDED
+    - id: data_set_TNEWS9
+      status: SUCCEEDED
+    - id: data_set_TNEWS10
+      status: SUCCEEDED
+    - id: data_set_V
+      status: SUCCEEDED
+    - id: data_set_VI
+      status: SUCCEEDED
+    - id: data_set_X1
+      status: SUCCEEDED
+    - id: data_set_X2
+      status: SUCCEEDED
+    - id: data_set_X3
+      status: SUCCEEDED
+    - id: data_set_X4
+      status: SUCCEEDED
+    - id: data_set_X5
+      status: SUCCEEDED
+    - id: data_set_X6
+      status: SUCCEEDED
+    - id: data_set_X7
+      status: SUCCEEDED
+    - id: data_set_X8
+      status: SUCCEEDED
+    - id: data_set_X9
+      status: SUCCEEDED
+    - id: data_set_X10
+      status: SUCCEEDED
+    - id: data_set_Y1
+      status: SUCCEEDED
+    - id: data_set_Y2
+      status: SUCCEEDED
+    - id: data_set_Y3
+      status: SUCCEEDED
+    - id: data_set_Y4
+      status: SUCCEEDED
+    - id: data_set_Y5
+      status: SUCCEEDED
+    - id: data_set_Y6
+      status: SUCCEEDED
+    - id: data_set_Y7
+      status: SUCCEEDED
+    - id: data_set_Y8
+      status: SUCCEEDED
+    - id: data_set_Y9
+      status: SUCCEEDED
+    - id: data_set_Y10
+      status: SUCCEEDED
+    - id: data_set_Z1
+      status: SUCCEEDED
+    - id: data_set_Z2
+      status: SUCCEEDED
+    - id: data_set_Z3
+      status: SUCCEEDED
+    - id: data_set_Z4
+      status: SUCCEEDED
+    - id: data_set_Z5
+      status: SUCCEEDED
+    - id: data_set_Z6
+      status: SUCCEEDED
+    - id: data_set_Z7
+      status: SUCCEEDED
+    - id: data_set_Z8
+      status: SUCCEEDED
+    - id: data_set_Z9
+      status: SUCCEEDED
+    - id: data_set_Z10
+      status: SUCCEEDED
+    duration: 3.21682
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000032
+    duration: 8.270204
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '12000.0'
+    - key: meth
+      value: rungekutta
+    - key: dt
+      value: '0.05'
+    - key: t0
+      value: '0.0'
+    - key: njmp
+      value: '24'
+    skipReason: null
+    status: SUCCEEDED
+skipReason: null
+status: SUCCEEDED

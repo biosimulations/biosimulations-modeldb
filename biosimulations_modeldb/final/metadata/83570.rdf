@@ -64,8 +64,7 @@ aux phiang=atan(rfunds/rfundc)
 gives the phase of the order parameter (between -pi and pi) and it 
 corresponds to the position of the center of the hill of activity along 
 the ring. It is well defined when there is a nice hill, as in the case 
-of the above default values of lambda and mu.
-</dc:description>
+of the above default values of lambda and mu.</dc:description>
   </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=83551">http://modeldb.science/ModelList?id=83551</dc:identifier>

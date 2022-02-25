@@ -1,0 +1,210 @@
+duration: 21.355838
+exception: null
+output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
+  \ 1 reports, and 1 plots:\r\n  SD.sedml:\r\n    Tasks (1):\r\n      task\r\n   \
+  \ Reports (1):\r\n      report: 32 data sets\r\n    Plots (1):\r\n      plot: 8\
+  \ curves\r\n\r\nExecuting SED-ML file 1: SD.sedml ...\r\n  Found 1 tasks and 2 outputs:\r\
+  \r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\r\n      `plot`\r\r\n     \
+  \ `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing simulation ... \e\
+  [34msucceeded\e[0m\r\r\n    Generating 2 outputs ...\r\r\n      Generating output\
+  \ 1: `report` ... \e[34msucceeded\e[0m\r\r\n      Generating output 2: `plot` .../home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+  \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7f7bdcaddd60> has\
+  \ a label of '_EK vs T' which cannot be automatically added to the legend.\r\r\r\
+  \n  axes.legend(curve_names)\r\r\r\n/home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+  \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7f7bdcadd760> has\
+  \ a label of '_ENA vs T' which cannot be automatically added to the legend.\r\r\r\
+  \n  axes.legend(curve_names)\r\r\r\n/home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+  \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7f7bdc8e9eb0> has\
+  \ a label of '_ECL vs T' which cannot be automatically added to the legend.\r\r\r\
+  \n  axes.legend(curve_names)\r\r\r\n/home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+  \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7f7bdcb90d30> has\
+  \ a label of '_VL_I vs T' which cannot be automatically added to the legend.\r\r\
+  \r\n  axes.legend(curve_names)\r\r\r\n/home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+  \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7f7bc3b403a0> has\
+  \ a label of '_VL_E vs T' which cannot be automatically added to the legend.\r\r\
+  \r\n  axes.legend(curve_names)\r\r\r\n/home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+  \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7f7bc2e0d3d0> has\
+  \ a label of '_VL_G vs T' which cannot be automatically added to the legend.\r\r\
+  \r\n  axes.legend(curve_names)\r\r\r\n/home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+  \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7f7bc2e0d460> has\
+  \ a label of '_GL_C vs T' which cannot be automatically added to the legend.\r\r\
+  \r\n  axes.legend(curve_names)\r\r\r\n \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed\
+  \ 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped:\
+  \ 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 2\r\r\n      Skipped:\
+  \ 0\r\r\n      Failed: 0\r\r\n\r\nBundling outputs ...\r\nCleaning up ...\r\n\r\n\
+  ============= SUMMARY =============\r\nExecuted 1 SED documents:\r\n  SED documents\
+  \ (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Tasks (1):\r\n\
+  \    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (2):\r\n    Succeeded:\
+  \ 2\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
+sedDocuments:
+- duration: 21.221984
+  exception: null
+  location: SD.sedml
+  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `plot`\r\n      `report`\r\n  Executing task 1: `task`\r\n    Executing\
+    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
+    \  Generating output 1: `report` ... \e[34msucceeded\e[0m\r\n      Generating\
+    \ output 2: `plot` .../home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+    \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7f7bdcaddd60> has\
+    \ a label of '_EK vs T' which cannot be automatically added to the legend.\r\r\
+    \n  axes.legend(curve_names)\r\r\n/home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+    \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7f7bdcadd760> has\
+    \ a label of '_ENA vs T' which cannot be automatically added to the legend.\r\r\
+    \n  axes.legend(curve_names)\r\r\n/home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+    \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7f7bdc8e9eb0> has\
+    \ a label of '_ECL vs T' which cannot be automatically added to the legend.\r\r\
+    \n  axes.legend(curve_names)\r\r\n/home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+    \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7f7bdcb90d30> has\
+    \ a label of '_VL_I vs T' which cannot be automatically added to the legend.\r\
+    \r\n  axes.legend(curve_names)\r\r\n/home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+    \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7f7bc3b403a0> has\
+    \ a label of '_VL_E vs T' which cannot be automatically added to the legend.\r\
+    \r\n  axes.legend(curve_names)\r\r\n/home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+    \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7f7bc2e0d3d0> has\
+    \ a label of '_VL_G vs T' which cannot be automatically added to the legend.\r\
+    \r\n  axes.legend(curve_names)\r\r\n/home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+    \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7f7bc2e0d460> has\
+    \ a label of '_GL_C vs T' which cannot be automatically added to the legend.\r\
+    \r\n  axes.legend(curve_names)\r\r\n \e[34msucceeded\e[0m\r\n\r\n  Executed 1\
+    \ tasks and 2 outputs:\r\n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\
+    \n      Failed: 0\r\n    Outputs:\r\n      Succeeded: 2\r\n      Skipped: 0\r\n\
+    \      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_DNK_B
+      status: SUCCEEDED
+    - id: data_set_DNK_G
+      status: SUCCEEDED
+    - id: data_set_H_HH
+      status: SUCCEEDED
+    - id: data_set_NCLI
+      status: SUCCEEDED
+    - id: data_set_NGL_C
+      status: SUCCEEDED
+    - id: data_set_NGL_C_E
+      status: SUCCEEDED
+    - id: data_set_NGL_C_G
+      status: SUCCEEDED
+    - id: data_set_NGL_C_I
+      status: SUCCEEDED
+    - id: data_set_NGL_E
+      status: SUCCEEDED
+    - id: data_set_NGL_E_G
+      status: SUCCEEDED
+    - id: data_set_NGL_E_I
+      status: SUCCEEDED
+    - id: data_set_NGL_REL
+      status: SUCCEEDED
+    - id: data_set_NKI
+      status: SUCCEEDED
+    - id: data_set_N_HH
+      status: SUCCEEDED
+    - id: data_set_R_AMPA
+      status: SUCCEEDED
+    - id: data_set_R_NMDA
+      status: SUCCEEDED
+    - id: data_set_V
+      status: SUCCEEDED
+    - id: data_set__CLE
+      status: SUCCEEDED
+    - id: data_set__CLI
+      status: SUCCEEDED
+    - id: data_set__ECL
+      status: SUCCEEDED
+    - id: data_set__EK
+      status: SUCCEEDED
+    - id: data_set__ENA
+      status: SUCCEEDED
+    - id: data_set__GL_C
+      status: SUCCEEDED
+    - id: data_set__GL_E
+      status: SUCCEEDED
+    - id: data_set__KE
+      status: SUCCEEDED
+    - id: data_set__KI
+      status: SUCCEEDED
+    - id: data_set__NAE
+      status: SUCCEEDED
+    - id: data_set__NAI
+      status: SUCCEEDED
+    - id: data_set__VL_E
+      status: SUCCEEDED
+    - id: data_set__VL_G
+      status: SUCCEEDED
+    - id: data_set__VL_I
+      status: SUCCEEDED
+    duration: 1.416113
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1
+      status: SUCCEEDED
+    - id: curve_2
+      status: SUCCEEDED
+    - id: curve_3
+      status: SUCCEEDED
+    - id: curve_4
+      status: SUCCEEDED
+    - id: curve_5
+      status: SUCCEEDED
+    - id: curve_6
+      status: SUCCEEDED
+    - id: curve_7
+      status: SUCCEEDED
+    - id: curve_8
+      status: SUCCEEDED
+    duration: 0.905903
+    exception: null
+    id: plot
+    output: "/home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+      \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7f7bdcaddd60>\
+      \ has a label of '_EK vs T' which cannot be automatically added to the legend.\r\
+      \n  axes.legend(curve_names)\r\n/home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+      \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7f7bdcadd760>\
+      \ has a label of '_ENA vs T' which cannot be automatically added to the legend.\r\
+      \n  axes.legend(curve_names)\r\n/home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+      \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7f7bdc8e9eb0>\
+      \ has a label of '_ECL vs T' which cannot be automatically added to the legend.\r\
+      \n  axes.legend(curve_names)\r\n/home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+      \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7f7bdcb90d30>\
+      \ has a label of '_VL_I vs T' which cannot be automatically added to the legend.\r\
+      \n  axes.legend(curve_names)\r\n/home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+      \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7f7bc3b403a0>\
+      \ has a label of '_VL_E vs T' which cannot be automatically added to the legend.\r\
+      \n  axes.legend(curve_names)\r\n/home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+      \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7f7bc2e0d3d0>\
+      \ has a label of '_VL_G vs T' which cannot be automatically added to the legend.\r\
+      \n  axes.legend(curve_names)\r\n/home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:96:\
+      \ UserWarning: The handle <matplotlib.lines.Line2D object at 0x7f7bc2e0d460>\
+      \ has a label of '_GL_C vs T' which cannot be automatically added to the legend.\r\
+      \n  axes.legend(curve_names)\r\n"
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000668
+    duration: 18.78061
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: meth
+      value: stiff
+    - key: total
+      value: '400.0'
+    - key: t0
+      value: '0.0'
+    - key: dt
+      value: '0.04'
+    - key: njmp
+      value: '1'
+    skipReason: null
+    status: SUCCEEDED
+skipReason: null
+status: SUCCEEDED

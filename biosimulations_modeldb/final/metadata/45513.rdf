@@ -58,8 +58,7 @@ unscaled version of Period = 800 (lower left).  You can change the period
 by changing the parameter per.
 
 Bard Ermentrout's website http://www.pitt.edu/~phase/
-describes how to get and use xpp (Bard wrote xpp).
-</dc:description>
+describes how to get and use xpp (Bard wrote xpp).</dc:description>
   </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3536">http://modeldb.science/ModelList?id=3536</dc:identifier>

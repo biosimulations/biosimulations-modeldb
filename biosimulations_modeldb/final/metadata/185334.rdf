@@ -16,9 +16,7 @@ in Rhythmic Anti-Phase Activity of Networks with Reciprocal
 Inhibition. International Journal of Bifurcation and Chaos, 25(07),
 1540004
 
-More information on this XPP model will be made available soon.
-
-</dc:description>
+More information on this XPP model will be made available soon.</dc:description>
   </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>
@@ -120,7 +118,7 @@ More information on this XPP model will be made available soon.
     <dc:identifier rdf:resource="http://www.worldscientific.com/doi/abs/10.1142/S0218127415400040">http://www.worldscientific.com/doi/abs/10.1142/S0218127415400040</dc:identifier>
   </rdf:Description>
   <rdf:Description rdf:about="local:00010">
-    <rdfs:label>Bose A &amp; Rubin JE. Strategies to Maximize Burst Lengths in Rhythmic Anti-Phase Activity of Networks with Reciprocal Inhibition. International Journal of Bifurcation and Chaos 25(07) (2015).</rdfs:label>
+    <rdfs:label>Bose A &amp; Rubin JE. Strategies to Maximize Burst Lengths in Rhythmic Anti-Phase Activity of Networks with Reciprocal Inhibition. International Journal of Bifurcation and Chaos 25(07): 1540004 (2015).</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/185334.omex">
     <bqmodel:isDescribedBy rdf:resource="local:00010">local:00010</bqmodel:isDescribedBy>

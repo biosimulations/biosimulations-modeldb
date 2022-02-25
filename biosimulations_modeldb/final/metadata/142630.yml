@@ -38,9 +38,7 @@ description: 'These are the source codes used in
   parameter values used for all five burst types.
 
 
-  Parameter values for all figures are also listed in the paper itself.
-
-  '
+  Parameter values for all figures are also listed in the paper itself.'
 references:
 - label: 'Ernest Barreto & John R. Cressman. Ion concentration dynamics as a mechanism
     for neuronal bursting. Journal of Biological Physics 37, 3: 361-373 (2011).'
@@ -49,13 +47,13 @@ taxa: []
 thumbnails:
 - archive_filename: fig4A.jpg
   format: jpeg
-  local_filename: source/models/142630/fig4A.jpg
+  local_filename: source/projects/142630/fig4A.jpg
 - archive_filename: fig4B.jpg
   format: jpeg
-  local_filename: source/models/142630/fig4B.jpg
+  local_filename: source/projects/142630/fig4B.jpg
 - archive_filename: fig4C.jpg
   format: jpeg
-  local_filename: source/models/142630/fig4C.jpg
+  local_filename: source/projects/142630/fig4C.jpg
 - archive_filename: fig4D.jpg
   format: jpeg
-  local_filename: source/models/142630/fig4D.jpg
+  local_filename: source/projects/142630/fig4D.jpg

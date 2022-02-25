@@ -15,9 +15,7 @@ description: 'This is the readme for the models associated with the paper:
 
   More documentation on running XPP is available here:
 
-  http://www.math.pitt.edu/~bard/xpp/help/xppauto.html
-
-  '
+  http://www.math.pitt.edu/~bard/xpp/help/xppauto.html'
 references:
 - label: 'Young-Ah Rho & Steven A. Prescott. Identification of molecular pathologies
     sufficient to cause neuropathic excitability in primary somatosensory afferents

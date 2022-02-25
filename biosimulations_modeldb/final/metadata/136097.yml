@@ -14,9 +14,7 @@ description: 'This is the readme for the model associated with the AChems abstra
 
   This XPP code was supplied by Daniel Dougherty.  The first few lines
 
-  of the ode files contains information on the simulations.
-
-  '
+  of the ode files contains information on the simulations.'
 references:
 - label: 'Abstracts from the Thirty-first Annual Meeting of the Association for Chemoreception
     Sciences. Chemical Senses 34, 7: A1-A121 (2009).'

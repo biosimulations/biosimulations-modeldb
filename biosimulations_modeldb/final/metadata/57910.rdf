@@ -61,9 +61,7 @@ Dept Physiol
 Natl Cheng Kung U Med Coll
 Tainan 70101, Taiwan
 
-snwu@mail.ncku.edu.tw
-
-</dc:description>
+snwu@mail.ncku.edu.tw</dc:description>
   </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>

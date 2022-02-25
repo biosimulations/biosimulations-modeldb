@@ -56,9 +56,7 @@ description: 'This is the README for the code for the article
 
   (Remark: The Hopf line of Fig. 4 can only be obtained by changing this
 
-  code so that also "cli" is a parameter.)
-
-  '
+  code so that also "cli" is a parameter.)'
 references:
 - label: "Niklas H\xFCbel & Markus A. Dahlem. Dynamics from seconds to hours in Hodgkin-Huxley\
     \ model with time-dependent ion concentrations and buffer reservoirs. PLoS Computational\

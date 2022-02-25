@@ -34,40 +34,40 @@ taxa: []
 thumbnails:
 - archive_filename: cluster.png
   format: png
-  local_filename: source/models/182758/cluster.png
+  local_filename: source/projects/182758/cluster.png
 - archive_filename: episodic.png
   format: png
-  local_filename: source/models/182758/episodic.png
+  local_filename: source/projects/182758/episodic.png
 - archive_filename: wave.png
   format: png
-  local_filename: source/models/182758/wave.png
+  local_filename: source/projects/182758/wave.png
 - archive_filename: nrnfiles/Figures/Figure 1A.png
   format: png
-  local_filename: source/models/182758/nrnfiles/Figures/Figure 1A.png
+  local_filename: source/projects/182758/nrnfiles/Figures/Figure 1A.png
 - archive_filename: nrnfiles/Figures/Figure 1B.png
   format: png
-  local_filename: source/models/182758/nrnfiles/Figures/Figure 1B.png
+  local_filename: source/projects/182758/nrnfiles/Figures/Figure 1B.png
 - archive_filename: nrnfiles/Figures/Figure 1C.png
   format: png
-  local_filename: source/models/182758/nrnfiles/Figures/Figure 1C.png
+  local_filename: source/projects/182758/nrnfiles/Figures/Figure 1C.png
 - archive_filename: nrnfiles/Figures/Figure 1D.png
   format: png
-  local_filename: source/models/182758/nrnfiles/Figures/Figure 1D.png
+  local_filename: source/projects/182758/nrnfiles/Figures/Figure 1D.png
 - archive_filename: nrnfiles/Figures/Figure 1E.png
   format: png
-  local_filename: source/models/182758/nrnfiles/Figures/Figure 1E.png
+  local_filename: source/projects/182758/nrnfiles/Figures/Figure 1E.png
 - archive_filename: nrnfiles/Figures/Figure 1F.png
   format: png
-  local_filename: source/models/182758/nrnfiles/Figures/Figure 1F.png
+  local_filename: source/projects/182758/nrnfiles/Figures/Figure 1F.png
 - archive_filename: nrnfiles/Figures/Figure 2A.png
   format: png
-  local_filename: source/models/182758/nrnfiles/Figures/Figure 2A.png
+  local_filename: source/projects/182758/nrnfiles/Figures/Figure 2A.png
 - archive_filename: nrnfiles/Figures/Figure 2B.png
   format: png
-  local_filename: source/models/182758/nrnfiles/Figures/Figure 2B.png
+  local_filename: source/projects/182758/nrnfiles/Figures/Figure 2B.png
 - archive_filename: nrnfiles/Figures/Figure 2C.png
   format: png
-  local_filename: source/models/182758/nrnfiles/Figures/Figure 2C.png
+  local_filename: source/projects/182758/nrnfiles/Figures/Figure 2C.png
 - archive_filename: nrnfiles/Figures/Figure 3c.png
   format: png
-  local_filename: source/models/182758/nrnfiles/Figures/Figure 3c.png
+  local_filename: source/projects/182758/nrnfiles/Figures/Figure 3c.png

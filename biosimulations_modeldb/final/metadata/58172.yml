@@ -1,13 +1,13 @@
-description: "```\n\nThis is the readme.txt for the models associated with the paper.\n\
-  \nClancy CE, Rudy Y. Cellular consequences of HERG mutations in the long QT \nsyndrome:precursors\
+description: "This is the readme.txt for the models associated with the paper.\n\n\
+  Clancy CE, Rudy Y. Cellular consequences of HERG mutations in the long QT \nsyndrome:precursors\
   \ to sudden cardiac death. Cardiovasc Res 2001;50:301-313.\n\nAbstract:\nBACKGROUND:\
   \ A variety of mutations in HERG, the major subunit of the rapidly \nactivating\
   \ component of the cardiac delayed rectifier I(Kr), have been found\nto underlie\
   \ the congenital Long-QT syndrome, LQT2. LQT2 may give rise to \nsevere arrhythmogenic\
   \ phenotypes leading to sudden cardiac death.\nOBJECTIVE: We attempt to elucidate\
   \ the mechanisms by which heterogeneous LQT2\ngenotypes can lead to prolongation\
-  \  of the action potential duration (APD) \nand consequently the QT interval on\
-  \ the ECG. \nMETHODS: We develop Markovian models of wild-type (WT) and mutant I(Kr)\n\
+  \ of the action potential duration (APD) \nand consequently the QT interval on the\
+  \ ECG. \nMETHODS: We develop Markovian models of wild-type (WT) and mutant I(Kr)\n\
   channels and incorporate these models into a comprehensive model of the \ncardiac\
   \ ventricular cell. RESULTS: Using this virtual transgenic cell model, \nwe describe\
   \ the effects of HERG mutations on the cardiac ventricular action\npotential (AP)\
@@ -20,33 +20,32 @@ description: "```\n\nThis is the readme.txt for the models associated with the p
   \ can lead\nto impaired cellular electrophysiology can improve our understanding\
   \ of the \nlink between channel structure and cellular function.\n-------------------------------------\n\
   \n[Rudy lab site reference to model](http://rudylab.wustl.edu/research/cell/methodology/markov/clancy_herg.htm)\
-  \ \n\nModel:\nC1<==>C2<==>C3<==>O<==>I\n\nIKr   = G Kr * P(O) * (V m -E K ) \nP(O)\
+  \ \n\nModel:\nC1<==>C2<==>C3<==>O<==>I\n\nIKr = G Kr * P(O) * (V m -E K ) \nP(O)\
   \ = open probability of I Kr \nG Kr = 0.0135 * ([K + ] o ) 0.59 \nE K = (R*T/F)\
-  \ * ln([K + ] o /[K + ] i ) \nWild-type rate constants \nC1 ==> O or C1 ==> I  \n\
-  aa =  65.5*e-3  * exp (0.05547153*(v-36)) \nC2 ==> C1  \na in =  2.172 \nC3 ==>\
-  \ C2  \na =  55.5 *e-3 * exp (0.05547153*(v-12)) \nC2 ==> C3 \nb =   2.357*e-3 *\
-  \ exp (-0.036588*(v))  \nC1 ==> C2 \nb in =  1.077 \nO ==> C1 \nbb =  2.9357*e-3\
-  \ * exp (-0.02158*(v))  \nI ==> O \nai =  0.439 * exp (-0.02352*(v+25)) * 4.5/[K\
-  \ + ] o \nO ==> I  \nbi =  0.656 * exp (0.000942*(v)) * (4.5/ [K + ] o ) 0.3 \n\
-  I ==> C1  \nmu =  (ai * bb * aa)/(aa *bi) \n\n#T474I rates \n#C1 ==> O  \n#aa =\
-  \  65.5*e-3 * exp (0.05547153*(v+25))  \n#C3 ==> C2  \n#a =  55.5*e-3 * exp (0.05547153*(v+6))\
-  \ \n\n#R56Q rates \n#C2 ==> C3  \n#b =  2.357*e-3 * exp (-0.036588*(v)) * 10.5 \
-  \ \n#O ==> C1 \n#bb =  2.9357*e-3 * exp (-0.02158*(v))* 6.3 \n\n#N629D rates \n\
-  #O ==> I  \n#bi = 0.0 \n#N629D loss of selectivity \n\nNa:K permeability (P Na /P\
-  \ K ) = 0.65 \nE K = \n(R*T/F) * ln([K + ] o + P Na /P K * [Na + ] o / [K + ] i\
-  \   + P Na /P K * [Na + ] i )\n\nSyntax note:     e-n is 10 -n      exp (n) is e\
-  \ n \n---------------------------------------------------------------------\nTo\
-  \ run the models:\nXPP: start with the command\n\nxppaut IERG\\_Mar.ode\n\nMouse\
+  \ * ln([K + ] o /[K + ] i ) \nWild-type rate constants \nC1 ==> O or C1 ==> I \n\
+  aa = 65.5*e-3 * exp (0.05547153*(v-36)) \nC2 ==> C1 \na in = 2.172 \nC3 ==> C2 \n\
+  a = 55.5 *e-3 * exp (0.05547153*(v-12)) \nC2 ==> C3 \nb = 2.357*e-3 * exp (-0.036588*(v))\
+  \ \nC1 ==> C2 \nb in = 1.077 \nO ==> C1 \nbb = 2.9357*e-3 * exp (-0.02158*(v)) \n\
+  I ==> O \nai = 0.439 * exp (-0.02352*(v+25)) * 4.5/[K + ] o \nO ==> I \nbi = 0.656\
+  \ * exp (0.000942*(v)) * (4.5/ [K + ] o ) 0.3 \nI ==> C1 \nmu = (ai * bb * aa)/(aa\
+  \ *bi) \n\n#T474I rates \n#C1 ==> O \n#aa = 65.5*e-3 * exp (0.05547153*(v+25)) \n\
+  #C3 ==> C2 \n#a = 55.5*e-3 * exp (0.05547153*(v+6)) \n\n#R56Q rates \n#C2 ==> C3\
+  \ \n#b = 2.357*e-3 * exp (-0.036588*(v)) * 10.5 \n#O ==> C1 \n#bb = 2.9357*e-3 *\
+  \ exp (-0.02158*(v))* 6.3 \n\n#N629D rates \n#O ==> I \n#bi = 0.0 \n#N629D loss\
+  \ of selectivity \n\nNa:K permeability (P Na /P K ) = 0.65 \nE K = \n(R*T/F) * ln([K\
+  \ + ] o + P Na /P K * [Na + ] o / [K + ] i + P Na /P K * [Na + ] i )\n\nSyntax note:\
+  \ e-n is 10 -n exp (n) is e n \n---------------------------------------------------------------------\n\
+  To run the models:\nXPP: start with the command\n\nxppaut IERG\\_Mar.ode\n\nMouse\
   \ click on Initialconds, and then (G)o.\nThis makes a trace similar to fig 4B (0mV)\
   \ of the paper.\nTo obtain the other traces in figure 4B you can press\nthe Param\
-  \ button on the top of the XPP screen.  Enter\na new vtest (e.g. one of -30, -20,\
+  \ button on the top of the XPP screen. Enter\na new vtest (e.g. one of -30, -20,\
   \ ... 30, 40) and click\nGo.\n\nTo run as a series of voltage-clamp studies, click\
   \ Range over, \nchange to 'vtest', \nand then select voltage protocol from \nSteps\
   \ (8) , Start (-30) and End (40).\n\nRegarding xpp program, please contact with\
   \ \nBard Ermentrout's website http://www.pitt.edu/~phase/\ndescribes how to get\
   \ and use xpp (Bard wrote xpp).\n\nThese model files were submitted by:\n\nDr. Sheng-Nan\
   \ Wu, Han-Dong Chang, and Jiun-Shian Wu\nDept Physiol\nNatl Cheng Kung U Med Coll\n\
-  Tainan 70101, Taiwan\n\nsnwu@mail.ncku.edu.tw\n\n```"
+  Tainan 70101, Taiwan\n\nsnwu@mail.ncku.edu.tw"
 references:
 - label: 'Clancy CE & Rudy Y. Cellular consequences of HERG mutations in the long
     QT syndrome: precursors to sudden cardiac death. Cardiovascular Research 50, 2:
@@ -56,4 +55,4 @@ taxa: []
 thumbnails:
 - archive_filename: ierg_mar.jpg
   format: jpeg
-  local_filename: source/models/58172/ierg_mar.jpg
+  local_filename: source/projects/58172/ierg_mar.jpg

@@ -1,13 +1,13 @@
-description: "```\n\r\r\nThis is the modeling package to accompany paper by:\r\r\n\
-  \r\r\nCengiz Gunay, Fred Sieling, Logesh Dharmar, Wei-Hsiang Lin, Verena\r\r\nWolfram,\
-  \ Richard Marley, Richard A. Baines, and Astrid A. Prinz.\r\r\nTitle: TBD; in preparation.\r\
+description: "This is the modeling package to accompany paper by:\r\r\n\r\r\nCengiz\
+  \ Gunay, Fred Sieling, Logesh Dharmar, Wei-Hsiang Lin, Verena\r\r\nWolfram, Richard\
+  \ Marley, Richard A. Baines, and Astrid A. Prinz.\r\r\nTitle: TBD; in preparation.\r\
   \r\n\r\r\nDownload from:\r\r\n<http://www.biology.emory.edu/research/Prinz/Cengiz/Gunay_etal_2014.zip>\r\
   \r\n\r\r\nRequirements:\r\r\nXPPAUT 5.99 - <http://www.math.pitt.edu/~bard/xpp/xpp.html>\r\
   \r\nNeuron 7.1 - <http://www.neuron.yale.edu>\r\r\nPANDORA 1.3b - <http://software.incf.org/software/pandora>\r\
-  \r\n\r\r\nDirectories:\r\r\nchannels/\tResults of channel fits and related figures\
-  \ (see all\\_channels.m).\r\r\nxpp-models/\tIsopotential and ball-and-stick models\
-  \ and their figures (see figure\\_models.m).\r\r\nmorphological/\tMulticompartmental\
-  \ model in Neuron (see figures.m).\r\r\nparam-fitter/   Matlab code used for channel\
+  \r\n\r\r\nDirectories:\r\r\nchannels/ Results of channel fits and related figures\
+  \ (see all\\_channels.m).\r\r\nxpp-models/ Isopotential and ball-and-stick models\
+  \ and their figures (see figure\\_models.m).\r\r\nmorphological/ Multicompartmental\
+  \ model in Neuron (see figures.m).\r\r\nparam-fitter/ Matlab code used for channel\
   \ parameter fitting (add to Matlab path).\r\r\n\r\r\nWorkflow/history of project:\r\
   \r\n- Channel data were fit with the Neurofit tool and then re-adjusted with param-fitter\
   \ in Matlab.\r\r\n- XPP models were built with these channels and hand-tuned to\
@@ -18,7 +18,7 @@ description: "```\n\r\r\nThis is the modeling package to accompany paper by:\r\r
   \r\n- Matlab files are scripts with sections that correspond to\r\r\nfigures. They\
   \ are NOT meant to be run as a whole. Sections must be run\r\r\nseparately.\r\r\n\
   \r\r\nPlease report problems/suggestions/comments to:\r\r\nCengiz Gunay (cengique\
-  \ AT users.sf.net)\r\r\n2014/01/08\r\r\n\n```"
+  \ AT users.sf.net)\r\r\n2014/01/08"
 references:
 - label: "Cengiz G\xFCnay, Fred H. Sieling, Logesh Dharmar, Wei-Hsiang Lin, Verena\
     \ Wolfram, Richard Marley, Richard A. Baines & Astrid A. Prinz. Distal spike initiation\

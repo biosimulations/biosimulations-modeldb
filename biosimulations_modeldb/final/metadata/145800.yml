@@ -4,7 +4,7 @@ description: "This is a simple mathematical model of intracellularcircadian cloc
   \ Biology\n\n\nSNF: Single negative feedback loop.\nNNF: Negative feedback loop\
   \ with additional negative feedback loop. \nPNF: Negative feedback loop with additional\
   \ positive feedback loop. \n\nThe model is available in the format of \n\n1) XPPAUT:\
-  \ *.ode\n2) Matlab: *.m\n3) Mathematica: *.nb\n4) SBML: *.xml\n\n\n\n"
+  \ *.ode\n2) Matlab: *.m\n3) Mathematica: *.nb\n4) SBML: *.xml"
 references:
 - label: 'Jae Kyoung Kim & Daniel B Forger. A mechanism for robust circadian timekeeping
     via stoichiometric balance. Molecular Systems Biology 8: 630 (2012).'

@@ -24,7 +24,7 @@ description: "This is the readme.txt for the model associated with the paper\n\n
   \ please contact with \nBard Ermentrout's website http://www.pitt.edu/~phase/\n\
   describes how to get and use xpp (Bard wrote xpp).\n\nThese model files were submitted\
   \ by:\n\nDr. Sheng-Nan Wu\nDept Physiol\nNatl Cheng Kung U Med Coll\nTainan 70101,\
-  \ Taiwan\n\nsnwu@mail.ncku.edu.tw\n\n"
+  \ Taiwan\n\nsnwu@mail.ncku.edu.tw"
 references:
 - label: 'Nicoletta Chiesa, Barbara Rosati, Annarosa Arcangeli, Massimo Olivotto &
     Enzo Wanke. A novel role for HERG K+ channels: spike-frequency adaptation. The
@@ -34,4 +34,4 @@ taxa: []
 thumbnails:
 - archive_filename: samplerun.jpg
   format: jpeg
-  local_filename: source/models/57910/samplerun.jpg
+  local_filename: source/projects/57910/samplerun.jpg

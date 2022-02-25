@@ -35,8 +35,7 @@ found in J. Computation Neuroscience (submitted))
 
 Hopefully you have found this code helpful!
 
---Marsa Taheri and Gregory Handy
-</dc:description>
+--Marsa Taheri and Gregory Handy</dc:description>
   </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=120799">http://modeldb.science/ModelList?id=120799</dc:identifier>

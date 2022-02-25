@@ -1,9 +1,20 @@
 from biosimulators_utils.biosimulations.utils import get_file_extension_combine_uri_map as base_get_file_extension_combine_uri_map
 from biosimulators_utils.combine.data_model import CombineArchiveContentFormat
+import base64
+import bs4
 import glob
+import imghdr
+import mammoth
+import markdownify
+import os
 import warnings
 
-__all__ = ['get_file_extension_combine_uri_map', 'case_insensitive_glob']
+__all__ = [
+    'get_file_extension_combine_uri_map',
+    'case_insensitive_glob',
+    'get_readme',
+    'get_images_for_project',
+]
 
 
 def get_file_extension_combine_uri_map():
@@ -37,6 +48,7 @@ def get_file_extension_combine_uri_map():
     map['nrn'] = {CombineArchiveContentFormat.HOC.value}
     map['ode'] = {CombineArchiveContentFormat.XPP.value}
     map['p'] = {CombineArchiveContentFormat.GENESIS.value}
+    map['pdf'] = {CombineArchiveContentFormat.PDF.value}
     map['ps'] = {CombineArchiveContentFormat.POSTSCRIPT.value}
     map['sce'] = {CombineArchiveContentFormat.Scilab.value}
     map['ses'] = {CombineArchiveContentFormat.NEURON_SESSION.value}
@@ -70,7 +82,10 @@ def get_file_extension_combine_uri_map():
                 ext, '\n  '.join(sorted(uris)))
             warnings.warn(msg, UserWarning)
 
-        map[ext] = list(uris)[0]
+        if uris:
+            map[ext] = list(uris)[0]
+        else:
+            map[ext] = CombineArchiveContentFormat.OTHER.value
 
     return map
 
@@ -91,3 +106,102 @@ def case_insensitive_glob(pattern, **kwargs):
         else:
             return c
     return glob.glob(''.join(map(either, pattern)), **kwargs)
+
+
+def get_images_for_project(dirname):
+    """ Get the images for a project
+
+    Args:
+        dirname (:obj:`str`): directory for project
+
+    Returns:
+        :obj:`list` of :obj:`str`: paths to the images
+    """
+    return (
+        case_insensitive_glob(os.path.join(dirname, '**', '*.gif'), recursive=True)
+        + case_insensitive_glob(os.path.join(dirname, '**', '*.jpeg'), recursive=True)
+        + case_insensitive_glob(os.path.join(dirname, '**', '*.jpg'), recursive=True)
+        + case_insensitive_glob(os.path.join(dirname, '**', '*.png'), recursive=True)
+        + case_insensitive_glob(os.path.join(dirname, '**', '*.webp'), recursive=True)
+    )
+
+
+def get_readme(filename, project_id, project_dirname):
+    """ Read the content of a README file
+
+    Args:
+        filename (:obj:`str`): path to README file
+        project_id (:obj:`str`): project id
+        project_dirname (:obj:`str`): project directory
+
+    Returns:
+        :obj:`str`: Markdown-formatted content of the file
+    """
+    _, ext = os.path.splitext(filename.lower())
+    if ext in ['', '.txt', '.md']:
+        with open(filename, 'r') as file:
+            return file.read().strip()
+
+    elif ext in ['.html']:
+        with open(filename, 'rb') as file:
+            doc = bs4.BeautifulSoup(file.read(), features='lxml')
+        content = doc.find('body') or doc
+
+        content_all_pre = True
+        for child in content.children:
+            if isinstance(child, bs4.element.Tag) and child.name != 'pre':
+                content_all_pre = False
+                break
+
+        if content_all_pre:
+            new_container = bs4.BeautifulSoup('<div></div>', features='lxml').div
+            pre = content.find('pre')
+            pre.insert_after(new_container)
+            for child in list(pre.children):
+                new_container.append(child.extract())
+            pre.decompose()
+
+        image_work_dirname = os.path.dirname(filename)
+
+        project_image_filename_map = {}
+        for project_image_filename in get_images_for_project(project_dirname):
+            basename, ext = os.path.splitext(os.path.relpath(project_image_filename, project_dirname))
+            project_image_filename_map[basename.lower() + ext.lower()] = project_image_filename
+
+        for image_el in content.find_all('img'):
+            image_src_html = os.path.join(image_work_dirname, os.path.relpath(image_el.get('src'), '.'))
+            image_basename, image_ext = os.path.splitext(os.path.relpath(image_src_html, project_dirname))
+            image_src = project_image_filename_map.get(image_basename.lower() + image_ext.lower(), None)
+            if image_src != image_src_html:
+                warnings.warn((
+                    f'Image source `{image_el.get("src")}` '
+                    f'in readme `{os.path.relpath(filename, project_dirname)}` '
+                    f'for project `{project_id}` is incorrect'
+                ), UserWarning)
+
+            image_format = imghdr.what(image_src)
+            with open(image_src, 'rb') as image_file:
+                image_value = base64.b64encode(image_file.read()).decode()
+                image_el['src'] = f'data:image/{image_format};base64,{image_value}'
+
+            parent_el = image_el.parent
+            if parent_el.name == 'pre':
+                sibling_els = list(parent_el.children)
+                i_image = sibling_els.index(image_el)
+
+                below_container = bs4.BeautifulSoup('<pre></pre>', features='lxml').pre
+                parent_el.insert_after(below_container)
+                for sibling_el in sibling_els[i_image + 1:]:
+                    below_container.append(sibling_el)
+
+                parent_el.insert_after(image_el)
+
+        return markdownify.MarkdownConverter().convert_soup(content).strip()
+
+    elif ext in ['.docx']:
+        with open(filename, 'rb') as file:
+            result = mammoth.convert_to_markdown(file)
+        return result.value.strip()
+
+    else:
+        raise NotImplementedError('README type `{}` is not supported.'.format(ext))

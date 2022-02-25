@@ -1,0 +1,1686 @@
+duration: 38.028441
+exception: null
+output: "Archive contains 5 SED-ML documents with 5 models, 5 simulations, 5 tasks,\
+  \ 5 reports, and 2 plots:\r\n  TypeIISomaCablePairFig2.sedml:\r\n    Tasks (1):\r\
+  \n      task\r\n    Reports (1):\r\n      report: 214 data sets\r\n  TypeIISomaPassiveCableFig1.sedml:\r\
+  \n    Tasks (1):\r\n      task\r\n    Reports (1):\r\n      report: 59 data sets\r\
+  \n  TypeISomaCable2NaPFig3.sedml:\r\n    Tasks (1):\r\n      task\r\n    Reports\
+  \ (1):\r\n      report: 112 data sets\r\n    Plots (1):\r\n      plot: 1 curves\r\
+  \n  TypeISomaCablePairFig4.sedml:\r\n    Tasks (1):\r\n      task\r\n    Reports\
+  \ (1):\r\n      report: 213 data sets\r\n  TypeISomaCablewHCNFig3.sedml:\r\n   \
+  \ Tasks (1):\r\n      task\r\n    Reports (1):\r\n      report: 112 data sets\r\n\
+  \    Plots (1):\r\n      plot: 1 curves\r\n\r\nExecuting SED-ML file 1: TypeIISomaCablePairFig2.sedml\
+  \ ...\r\n  Found 1 tasks and 1 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n\
+  \    Outputs:\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing\
+  \ simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 1 outputs ...\r\r\n  \
+  \    Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed\
+  \ 1 tasks and 1 outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped:\
+  \ 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 1\r\r\n      Skipped:\
+  \ 0\r\r\n      Failed: 0\r\r\nExecuting SED-ML file 2: TypeIISomaPassiveCableFig1.sedml\
+  \ ...\r\n  Found 1 tasks and 1 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n\
+  \    Outputs:\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing\
+  \ simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 1 outputs ...\r\r\n  \
+  \    Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed\
+  \ 1 tasks and 1 outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped:\
+  \ 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 1\r\r\n      Skipped:\
+  \ 0\r\r\n      Failed: 0\r\r\nExecuting SED-ML file 3: TypeISomaCable2NaPFig3.sedml\
+  \ ...\r\n  Found 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n\
+  \    Outputs:\r\r\n      `plot`\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\
+  \r\n    Executing simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 2 outputs\
+  \ ...\r\r\n      Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n  \
+  \    Generating output 2: `plot` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed\
+  \ 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped:\
+  \ 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 2\r\r\n      Skipped:\
+  \ 0\r\r\n      Failed: 0\r\r\nExecuting SED-ML file 4: TypeISomaCablePairFig4.sedml\
+  \ ...\r\n  Found 1 tasks and 1 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n\
+  \    Outputs:\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing\
+  \ simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 1 outputs ...\r\r\n  \
+  \    Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed\
+  \ 1 tasks and 1 outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped:\
+  \ 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 1\r\r\n      Skipped:\
+  \ 0\r\r\n      Failed: 0\r\r\nExecuting SED-ML file 5: TypeISomaCablewHCNFig3.sedml\
+  \ ...\r\n  Found 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n\
+  \    Outputs:\r\r\n      `plot`\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\
+  \r\n    Executing simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 2 outputs\
+  \ ...\r\r\n      Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n  \
+  \    Generating output 2: `plot` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed\
+  \ 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped:\
+  \ 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 2\r\r\n      Skipped:\
+  \ 0\r\r\n      Failed: 0\r\r\n\r\nBundling outputs ...\r\nCleaning up ...\r\n\r\n\
+  ============= SUMMARY =============\r\nExecuted 5 SED documents:\r\n  SED documents\
+  \ (5):\r\n    Succeeded: 5\r\n    Skipped: 0\r\n    Failed: 0\r\n  Tasks (5):\r\n\
+  \    Succeeded: 5\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (7):\r\n    Succeeded:\
+  \ 7\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
+sedDocuments:
+- duration: 6.904915
+  exception: null
+  location: TypeIISomaCablePairFig2.sedml
+  output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `report`\r\n  Executing task 1: `task`\r\n    Executing simulation ...\
+    \ \e[34msucceeded\e[0m\r\n    Generating 1 outputs ...\r\n      Generating output\
+    \ 1: `report` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 1 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_HA
+      status: SUCCEEDED
+    - id: data_set_HA1
+      status: SUCCEEDED
+    - id: data_set_HA2
+      status: SUCCEEDED
+    - id: data_set_HA3
+      status: SUCCEEDED
+    - id: data_set_HA4
+      status: SUCCEEDED
+    - id: data_set_HA5
+      status: SUCCEEDED
+    - id: data_set_HA6
+      status: SUCCEEDED
+    - id: data_set_HA7
+      status: SUCCEEDED
+    - id: data_set_HA8
+      status: SUCCEEDED
+    - id: data_set_HA9
+      status: SUCCEEDED
+    - id: data_set_HA10
+      status: SUCCEEDED
+    - id: data_set_HA11
+      status: SUCCEEDED
+    - id: data_set_HA12
+      status: SUCCEEDED
+    - id: data_set_HA13
+      status: SUCCEEDED
+    - id: data_set_HA14
+      status: SUCCEEDED
+    - id: data_set_HA15
+      status: SUCCEEDED
+    - id: data_set_HA16
+      status: SUCCEEDED
+    - id: data_set_HA17
+      status: SUCCEEDED
+    - id: data_set_HA18
+      status: SUCCEEDED
+    - id: data_set_HA19
+      status: SUCCEEDED
+    - id: data_set_HA20
+      status: SUCCEEDED
+    - id: data_set_HA21
+      status: SUCCEEDED
+    - id: data_set_HA22
+      status: SUCCEEDED
+    - id: data_set_HA23
+      status: SUCCEEDED
+    - id: data_set_HA24
+      status: SUCCEEDED
+    - id: data_set_HA25
+      status: SUCCEEDED
+    - id: data_set_HA26
+      status: SUCCEEDED
+    - id: data_set_HA27
+      status: SUCCEEDED
+    - id: data_set_HA28
+      status: SUCCEEDED
+    - id: data_set_HA29
+      status: SUCCEEDED
+    - id: data_set_HA30
+      status: SUCCEEDED
+    - id: data_set_HA31
+      status: SUCCEEDED
+    - id: data_set_HA32
+      status: SUCCEEDED
+    - id: data_set_HA33
+      status: SUCCEEDED
+    - id: data_set_HA34
+      status: SUCCEEDED
+    - id: data_set_HA35
+      status: SUCCEEDED
+    - id: data_set_HA36
+      status: SUCCEEDED
+    - id: data_set_HA37
+      status: SUCCEEDED
+    - id: data_set_HA38
+      status: SUCCEEDED
+    - id: data_set_HA39
+      status: SUCCEEDED
+    - id: data_set_HA40
+      status: SUCCEEDED
+    - id: data_set_HA41
+      status: SUCCEEDED
+    - id: data_set_HA42
+      status: SUCCEEDED
+    - id: data_set_HA43
+      status: SUCCEEDED
+    - id: data_set_HA44
+      status: SUCCEEDED
+    - id: data_set_HA45
+      status: SUCCEEDED
+    - id: data_set_HA46
+      status: SUCCEEDED
+    - id: data_set_HA47
+      status: SUCCEEDED
+    - id: data_set_HA48
+      status: SUCCEEDED
+    - id: data_set_HA49
+      status: SUCCEEDED
+    - id: data_set_HA50
+      status: SUCCEEDED
+    - id: data_set_HB
+      status: SUCCEEDED
+    - id: data_set_HB1
+      status: SUCCEEDED
+    - id: data_set_HB2
+      status: SUCCEEDED
+    - id: data_set_HB3
+      status: SUCCEEDED
+    - id: data_set_HB4
+      status: SUCCEEDED
+    - id: data_set_HB5
+      status: SUCCEEDED
+    - id: data_set_HB6
+      status: SUCCEEDED
+    - id: data_set_HB7
+      status: SUCCEEDED
+    - id: data_set_HB8
+      status: SUCCEEDED
+    - id: data_set_HB9
+      status: SUCCEEDED
+    - id: data_set_HB10
+      status: SUCCEEDED
+    - id: data_set_HB11
+      status: SUCCEEDED
+    - id: data_set_HB12
+      status: SUCCEEDED
+    - id: data_set_HB13
+      status: SUCCEEDED
+    - id: data_set_HB14
+      status: SUCCEEDED
+    - id: data_set_HB15
+      status: SUCCEEDED
+    - id: data_set_HB16
+      status: SUCCEEDED
+    - id: data_set_HB17
+      status: SUCCEEDED
+    - id: data_set_HB18
+      status: SUCCEEDED
+    - id: data_set_HB19
+      status: SUCCEEDED
+    - id: data_set_HB20
+      status: SUCCEEDED
+    - id: data_set_HB21
+      status: SUCCEEDED
+    - id: data_set_HB22
+      status: SUCCEEDED
+    - id: data_set_HB23
+      status: SUCCEEDED
+    - id: data_set_HB24
+      status: SUCCEEDED
+    - id: data_set_HB25
+      status: SUCCEEDED
+    - id: data_set_HB26
+      status: SUCCEEDED
+    - id: data_set_HB27
+      status: SUCCEEDED
+    - id: data_set_HB28
+      status: SUCCEEDED
+    - id: data_set_HB29
+      status: SUCCEEDED
+    - id: data_set_HB30
+      status: SUCCEEDED
+    - id: data_set_HB31
+      status: SUCCEEDED
+    - id: data_set_HB32
+      status: SUCCEEDED
+    - id: data_set_HB33
+      status: SUCCEEDED
+    - id: data_set_HB34
+      status: SUCCEEDED
+    - id: data_set_HB35
+      status: SUCCEEDED
+    - id: data_set_HB36
+      status: SUCCEEDED
+    - id: data_set_HB37
+      status: SUCCEEDED
+    - id: data_set_HB38
+      status: SUCCEEDED
+    - id: data_set_HB39
+      status: SUCCEEDED
+    - id: data_set_HB40
+      status: SUCCEEDED
+    - id: data_set_HB41
+      status: SUCCEEDED
+    - id: data_set_HB42
+      status: SUCCEEDED
+    - id: data_set_HB43
+      status: SUCCEEDED
+    - id: data_set_HB44
+      status: SUCCEEDED
+    - id: data_set_HB45
+      status: SUCCEEDED
+    - id: data_set_HB46
+      status: SUCCEEDED
+    - id: data_set_HB47
+      status: SUCCEEDED
+    - id: data_set_HB48
+      status: SUCCEEDED
+    - id: data_set_HB49
+      status: SUCCEEDED
+    - id: data_set_HB50
+      status: SUCCEEDED
+    - id: data_set_M1
+      status: SUCCEEDED
+    - id: data_set_M2
+      status: SUCCEEDED
+    - id: data_set_N1
+      status: SUCCEEDED
+    - id: data_set_N2
+      status: SUCCEEDED
+    - id: data_set_PRC
+      status: SUCCEEDED
+    - id: data_set_UA1
+      status: SUCCEEDED
+    - id: data_set_UA2
+      status: SUCCEEDED
+    - id: data_set_UA3
+      status: SUCCEEDED
+    - id: data_set_UA4
+      status: SUCCEEDED
+    - id: data_set_UA5
+      status: SUCCEEDED
+    - id: data_set_UA6
+      status: SUCCEEDED
+    - id: data_set_UA7
+      status: SUCCEEDED
+    - id: data_set_UA8
+      status: SUCCEEDED
+    - id: data_set_UA9
+      status: SUCCEEDED
+    - id: data_set_UA10
+      status: SUCCEEDED
+    - id: data_set_UA11
+      status: SUCCEEDED
+    - id: data_set_UA12
+      status: SUCCEEDED
+    - id: data_set_UA13
+      status: SUCCEEDED
+    - id: data_set_UA14
+      status: SUCCEEDED
+    - id: data_set_UA15
+      status: SUCCEEDED
+    - id: data_set_UA16
+      status: SUCCEEDED
+    - id: data_set_UA17
+      status: SUCCEEDED
+    - id: data_set_UA18
+      status: SUCCEEDED
+    - id: data_set_UA19
+      status: SUCCEEDED
+    - id: data_set_UA20
+      status: SUCCEEDED
+    - id: data_set_UA21
+      status: SUCCEEDED
+    - id: data_set_UA22
+      status: SUCCEEDED
+    - id: data_set_UA23
+      status: SUCCEEDED
+    - id: data_set_UA24
+      status: SUCCEEDED
+    - id: data_set_UA25
+      status: SUCCEEDED
+    - id: data_set_UA26
+      status: SUCCEEDED
+    - id: data_set_UA27
+      status: SUCCEEDED
+    - id: data_set_UA28
+      status: SUCCEEDED
+    - id: data_set_UA29
+      status: SUCCEEDED
+    - id: data_set_UA30
+      status: SUCCEEDED
+    - id: data_set_UA31
+      status: SUCCEEDED
+    - id: data_set_UA32
+      status: SUCCEEDED
+    - id: data_set_UA33
+      status: SUCCEEDED
+    - id: data_set_UA34
+      status: SUCCEEDED
+    - id: data_set_UA35
+      status: SUCCEEDED
+    - id: data_set_UA36
+      status: SUCCEEDED
+    - id: data_set_UA37
+      status: SUCCEEDED
+    - id: data_set_UA38
+      status: SUCCEEDED
+    - id: data_set_UA39
+      status: SUCCEEDED
+    - id: data_set_UA40
+      status: SUCCEEDED
+    - id: data_set_UA41
+      status: SUCCEEDED
+    - id: data_set_UA42
+      status: SUCCEEDED
+    - id: data_set_UA43
+      status: SUCCEEDED
+    - id: data_set_UA44
+      status: SUCCEEDED
+    - id: data_set_UA45
+      status: SUCCEEDED
+    - id: data_set_UA46
+      status: SUCCEEDED
+    - id: data_set_UA47
+      status: SUCCEEDED
+    - id: data_set_UA48
+      status: SUCCEEDED
+    - id: data_set_UA49
+      status: SUCCEEDED
+    - id: data_set_UA50
+      status: SUCCEEDED
+    - id: data_set_UB1
+      status: SUCCEEDED
+    - id: data_set_UB2
+      status: SUCCEEDED
+    - id: data_set_UB3
+      status: SUCCEEDED
+    - id: data_set_UB4
+      status: SUCCEEDED
+    - id: data_set_UB5
+      status: SUCCEEDED
+    - id: data_set_UB6
+      status: SUCCEEDED
+    - id: data_set_UB7
+      status: SUCCEEDED
+    - id: data_set_UB8
+      status: SUCCEEDED
+    - id: data_set_UB9
+      status: SUCCEEDED
+    - id: data_set_UB10
+      status: SUCCEEDED
+    - id: data_set_UB11
+      status: SUCCEEDED
+    - id: data_set_UB12
+      status: SUCCEEDED
+    - id: data_set_UB13
+      status: SUCCEEDED
+    - id: data_set_UB14
+      status: SUCCEEDED
+    - id: data_set_UB15
+      status: SUCCEEDED
+    - id: data_set_UB16
+      status: SUCCEEDED
+    - id: data_set_UB17
+      status: SUCCEEDED
+    - id: data_set_UB18
+      status: SUCCEEDED
+    - id: data_set_UB19
+      status: SUCCEEDED
+    - id: data_set_UB20
+      status: SUCCEEDED
+    - id: data_set_UB21
+      status: SUCCEEDED
+    - id: data_set_UB22
+      status: SUCCEEDED
+    - id: data_set_UB23
+      status: SUCCEEDED
+    - id: data_set_UB24
+      status: SUCCEEDED
+    - id: data_set_UB25
+      status: SUCCEEDED
+    - id: data_set_UB26
+      status: SUCCEEDED
+    - id: data_set_UB27
+      status: SUCCEEDED
+    - id: data_set_UB28
+      status: SUCCEEDED
+    - id: data_set_UB29
+      status: SUCCEEDED
+    - id: data_set_UB30
+      status: SUCCEEDED
+    - id: data_set_UB31
+      status: SUCCEEDED
+    - id: data_set_UB32
+      status: SUCCEEDED
+    - id: data_set_UB33
+      status: SUCCEEDED
+    - id: data_set_UB34
+      status: SUCCEEDED
+    - id: data_set_UB35
+      status: SUCCEEDED
+    - id: data_set_UB36
+      status: SUCCEEDED
+    - id: data_set_UB37
+      status: SUCCEEDED
+    - id: data_set_UB38
+      status: SUCCEEDED
+    - id: data_set_UB39
+      status: SUCCEEDED
+    - id: data_set_UB40
+      status: SUCCEEDED
+    - id: data_set_UB41
+      status: SUCCEEDED
+    - id: data_set_UB42
+      status: SUCCEEDED
+    - id: data_set_UB43
+      status: SUCCEEDED
+    - id: data_set_UB44
+      status: SUCCEEDED
+    - id: data_set_UB45
+      status: SUCCEEDED
+    - id: data_set_UB46
+      status: SUCCEEDED
+    - id: data_set_UB47
+      status: SUCCEEDED
+    - id: data_set_UB48
+      status: SUCCEEDED
+    - id: data_set_UB49
+      status: SUCCEEDED
+    - id: data_set_UB50
+      status: SUCCEEDED
+    - id: data_set_V1
+      status: SUCCEEDED
+    - id: data_set_V2
+      status: SUCCEEDED
+    - id: data_set_X1
+      status: SUCCEEDED
+    - id: data_set_X2
+      status: SUCCEEDED
+    - id: data_set_Y1
+      status: SUCCEEDED
+    - id: data_set_Y2
+      status: SUCCEEDED
+    duration: 5.33594
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000032
+    duration: 1.260187
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '300.0'
+    - key: meth
+      value: rungekutta
+    - key: dt
+      value: '0.05'
+    - key: t0
+      value: '0.0'
+    - key: njmp
+      value: '1'
+    skipReason: null
+    status: SUCCEEDED
+- duration: 2.219537
+  exception: null
+  location: TypeIISomaPassiveCableFig1.sedml
+  output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `report`\r\n  Executing task 1: `task`\r\n    Executing simulation ...\
+    \ \e[34msucceeded\e[0m\r\n    Generating 1 outputs ...\r\n      Generating output\
+    \ 1: `report` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 1 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_H
+      status: SUCCEEDED
+    - id: data_set_M
+      status: SUCCEEDED
+    - id: data_set_N
+      status: SUCCEEDED
+    - id: data_set_PRC
+      status: SUCCEEDED
+    - id: data_set_TAUP
+      status: SUCCEEDED
+    - id: data_set_U1
+      status: SUCCEEDED
+    - id: data_set_U2
+      status: SUCCEEDED
+    - id: data_set_U3
+      status: SUCCEEDED
+    - id: data_set_U4
+      status: SUCCEEDED
+    - id: data_set_U5
+      status: SUCCEEDED
+    - id: data_set_U6
+      status: SUCCEEDED
+    - id: data_set_U7
+      status: SUCCEEDED
+    - id: data_set_U8
+      status: SUCCEEDED
+    - id: data_set_U9
+      status: SUCCEEDED
+    - id: data_set_U10
+      status: SUCCEEDED
+    - id: data_set_U11
+      status: SUCCEEDED
+    - id: data_set_U12
+      status: SUCCEEDED
+    - id: data_set_U13
+      status: SUCCEEDED
+    - id: data_set_U14
+      status: SUCCEEDED
+    - id: data_set_U15
+      status: SUCCEEDED
+    - id: data_set_U16
+      status: SUCCEEDED
+    - id: data_set_U17
+      status: SUCCEEDED
+    - id: data_set_U18
+      status: SUCCEEDED
+    - id: data_set_U19
+      status: SUCCEEDED
+    - id: data_set_U20
+      status: SUCCEEDED
+    - id: data_set_U21
+      status: SUCCEEDED
+    - id: data_set_U22
+      status: SUCCEEDED
+    - id: data_set_U23
+      status: SUCCEEDED
+    - id: data_set_U24
+      status: SUCCEEDED
+    - id: data_set_U25
+      status: SUCCEEDED
+    - id: data_set_U26
+      status: SUCCEEDED
+    - id: data_set_U27
+      status: SUCCEEDED
+    - id: data_set_U28
+      status: SUCCEEDED
+    - id: data_set_U29
+      status: SUCCEEDED
+    - id: data_set_U30
+      status: SUCCEEDED
+    - id: data_set_U31
+      status: SUCCEEDED
+    - id: data_set_U32
+      status: SUCCEEDED
+    - id: data_set_U33
+      status: SUCCEEDED
+    - id: data_set_U34
+      status: SUCCEEDED
+    - id: data_set_U35
+      status: SUCCEEDED
+    - id: data_set_U36
+      status: SUCCEEDED
+    - id: data_set_U37
+      status: SUCCEEDED
+    - id: data_set_U38
+      status: SUCCEEDED
+    - id: data_set_U39
+      status: SUCCEEDED
+    - id: data_set_U40
+      status: SUCCEEDED
+    - id: data_set_U41
+      status: SUCCEEDED
+    - id: data_set_U42
+      status: SUCCEEDED
+    - id: data_set_U43
+      status: SUCCEEDED
+    - id: data_set_U44
+      status: SUCCEEDED
+    - id: data_set_U45
+      status: SUCCEEDED
+    - id: data_set_U46
+      status: SUCCEEDED
+    - id: data_set_U47
+      status: SUCCEEDED
+    - id: data_set_U48
+      status: SUCCEEDED
+    - id: data_set_U49
+      status: SUCCEEDED
+    - id: data_set_U50
+      status: SUCCEEDED
+    - id: data_set_V
+      status: SUCCEEDED
+    - id: data_set_X
+      status: SUCCEEDED
+    - id: data_set_Y
+      status: SUCCEEDED
+    duration: 1.4887
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000032
+    duration: 0.450512
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '300.0'
+    - key: meth
+      value: rungekutta
+    - key: dt
+      value: '0.05'
+    - key: t0
+      value: '0.0'
+    - key: njmp
+      value: '1'
+    skipReason: null
+    status: SUCCEEDED
+- duration: 7.383273
+  exception: null
+  location: TypeISomaCable2NaPFig3.sedml
+  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `plot`\r\n      `report`\r\n  Executing task 1: `task`\r\n    Executing\
+    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
+    \  Generating output 1: `report` ... \e[34msucceeded\e[0m\r\n      Generating\
+    \ output 2: `plot` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 2 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 2\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_H
+      status: SUCCEEDED
+    - id: data_set_LONGCUR
+      status: SUCCEEDED
+    - id: data_set_M
+      status: SUCCEEDED
+    - id: data_set_N
+      status: SUCCEEDED
+    - id: data_set_PN1
+      status: SUCCEEDED
+    - id: data_set_PN2
+      status: SUCCEEDED
+    - id: data_set_PN3
+      status: SUCCEEDED
+    - id: data_set_PN4
+      status: SUCCEEDED
+    - id: data_set_PN5
+      status: SUCCEEDED
+    - id: data_set_PN6
+      status: SUCCEEDED
+    - id: data_set_PN7
+      status: SUCCEEDED
+    - id: data_set_PN8
+      status: SUCCEEDED
+    - id: data_set_PN9
+      status: SUCCEEDED
+    - id: data_set_PN10
+      status: SUCCEEDED
+    - id: data_set_PN11
+      status: SUCCEEDED
+    - id: data_set_PN12
+      status: SUCCEEDED
+    - id: data_set_PN13
+      status: SUCCEEDED
+    - id: data_set_PN14
+      status: SUCCEEDED
+    - id: data_set_PN15
+      status: SUCCEEDED
+    - id: data_set_PN16
+      status: SUCCEEDED
+    - id: data_set_PN17
+      status: SUCCEEDED
+    - id: data_set_PN18
+      status: SUCCEEDED
+    - id: data_set_PN19
+      status: SUCCEEDED
+    - id: data_set_PN20
+      status: SUCCEEDED
+    - id: data_set_PN21
+      status: SUCCEEDED
+    - id: data_set_PN22
+      status: SUCCEEDED
+    - id: data_set_PN23
+      status: SUCCEEDED
+    - id: data_set_PN24
+      status: SUCCEEDED
+    - id: data_set_PN25
+      status: SUCCEEDED
+    - id: data_set_PN26
+      status: SUCCEEDED
+    - id: data_set_PN27
+      status: SUCCEEDED
+    - id: data_set_PN28
+      status: SUCCEEDED
+    - id: data_set_PN29
+      status: SUCCEEDED
+    - id: data_set_PN30
+      status: SUCCEEDED
+    - id: data_set_PN31
+      status: SUCCEEDED
+    - id: data_set_PN32
+      status: SUCCEEDED
+    - id: data_set_PN33
+      status: SUCCEEDED
+    - id: data_set_PN34
+      status: SUCCEEDED
+    - id: data_set_PN35
+      status: SUCCEEDED
+    - id: data_set_PN36
+      status: SUCCEEDED
+    - id: data_set_PN37
+      status: SUCCEEDED
+    - id: data_set_PN38
+      status: SUCCEEDED
+    - id: data_set_PN39
+      status: SUCCEEDED
+    - id: data_set_PN40
+      status: SUCCEEDED
+    - id: data_set_PN41
+      status: SUCCEEDED
+    - id: data_set_PN42
+      status: SUCCEEDED
+    - id: data_set_PN43
+      status: SUCCEEDED
+    - id: data_set_PN44
+      status: SUCCEEDED
+    - id: data_set_PN45
+      status: SUCCEEDED
+    - id: data_set_PN46
+      status: SUCCEEDED
+    - id: data_set_PN47
+      status: SUCCEEDED
+    - id: data_set_PN48
+      status: SUCCEEDED
+    - id: data_set_PN49
+      status: SUCCEEDED
+    - id: data_set_PN50
+      status: SUCCEEDED
+    - id: data_set_POT
+      status: SUCCEEDED
+    - id: data_set_PRC
+      status: SUCCEEDED
+    - id: data_set_SOD
+      status: SUCCEEDED
+    - id: data_set_TAUP
+      status: SUCCEEDED
+    - id: data_set_U1
+      status: SUCCEEDED
+    - id: data_set_U2
+      status: SUCCEEDED
+    - id: data_set_U3
+      status: SUCCEEDED
+    - id: data_set_U4
+      status: SUCCEEDED
+    - id: data_set_U5
+      status: SUCCEEDED
+    - id: data_set_U6
+      status: SUCCEEDED
+    - id: data_set_U7
+      status: SUCCEEDED
+    - id: data_set_U8
+      status: SUCCEEDED
+    - id: data_set_U9
+      status: SUCCEEDED
+    - id: data_set_U10
+      status: SUCCEEDED
+    - id: data_set_U11
+      status: SUCCEEDED
+    - id: data_set_U12
+      status: SUCCEEDED
+    - id: data_set_U13
+      status: SUCCEEDED
+    - id: data_set_U14
+      status: SUCCEEDED
+    - id: data_set_U15
+      status: SUCCEEDED
+    - id: data_set_U16
+      status: SUCCEEDED
+    - id: data_set_U17
+      status: SUCCEEDED
+    - id: data_set_U18
+      status: SUCCEEDED
+    - id: data_set_U19
+      status: SUCCEEDED
+    - id: data_set_U20
+      status: SUCCEEDED
+    - id: data_set_U21
+      status: SUCCEEDED
+    - id: data_set_U22
+      status: SUCCEEDED
+    - id: data_set_U23
+      status: SUCCEEDED
+    - id: data_set_U24
+      status: SUCCEEDED
+    - id: data_set_U25
+      status: SUCCEEDED
+    - id: data_set_U26
+      status: SUCCEEDED
+    - id: data_set_U27
+      status: SUCCEEDED
+    - id: data_set_U28
+      status: SUCCEEDED
+    - id: data_set_U29
+      status: SUCCEEDED
+    - id: data_set_U30
+      status: SUCCEEDED
+    - id: data_set_U31
+      status: SUCCEEDED
+    - id: data_set_U32
+      status: SUCCEEDED
+    - id: data_set_U33
+      status: SUCCEEDED
+    - id: data_set_U34
+      status: SUCCEEDED
+    - id: data_set_U35
+      status: SUCCEEDED
+    - id: data_set_U36
+      status: SUCCEEDED
+    - id: data_set_U37
+      status: SUCCEEDED
+    - id: data_set_U38
+      status: SUCCEEDED
+    - id: data_set_U39
+      status: SUCCEEDED
+    - id: data_set_U40
+      status: SUCCEEDED
+    - id: data_set_U41
+      status: SUCCEEDED
+    - id: data_set_U42
+      status: SUCCEEDED
+    - id: data_set_U43
+      status: SUCCEEDED
+    - id: data_set_U44
+      status: SUCCEEDED
+    - id: data_set_U45
+      status: SUCCEEDED
+    - id: data_set_U46
+      status: SUCCEEDED
+    - id: data_set_U47
+      status: SUCCEEDED
+    - id: data_set_U48
+      status: SUCCEEDED
+    - id: data_set_U49
+      status: SUCCEEDED
+    - id: data_set_U50
+      status: SUCCEEDED
+    - id: data_set_V
+      status: SUCCEEDED
+    - id: data_set_X1
+      status: SUCCEEDED
+    - id: data_set_Y1
+      status: SUCCEEDED
+    duration: 5.034304
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1
+      status: SUCCEEDED
+    duration: 0.281129
+    exception: null
+    id: plot
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000032
+    duration: 1.569687
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '1000.0'
+    - key: meth
+      value: rungekutta
+    - key: dt
+      value: '0.05'
+    - key: t0
+      value: '0.0'
+    - key: njmp
+      value: '2'
+    skipReason: null
+    status: SUCCEEDED
+- duration: 12.712482
+  exception: null
+  location: TypeISomaCablePairFig4.sedml
+  output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `report`\r\n  Executing task 1: `task`\r\n    Executing simulation ...\
+    \ \e[34msucceeded\e[0m\r\n    Generating 1 outputs ...\r\n      Generating output\
+    \ 1: `report` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 1 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_HA
+      status: SUCCEEDED
+    - id: data_set_HA1
+      status: SUCCEEDED
+    - id: data_set_HA2
+      status: SUCCEEDED
+    - id: data_set_HA3
+      status: SUCCEEDED
+    - id: data_set_HA4
+      status: SUCCEEDED
+    - id: data_set_HA5
+      status: SUCCEEDED
+    - id: data_set_HA6
+      status: SUCCEEDED
+    - id: data_set_HA7
+      status: SUCCEEDED
+    - id: data_set_HA8
+      status: SUCCEEDED
+    - id: data_set_HA9
+      status: SUCCEEDED
+    - id: data_set_HA10
+      status: SUCCEEDED
+    - id: data_set_HA11
+      status: SUCCEEDED
+    - id: data_set_HA12
+      status: SUCCEEDED
+    - id: data_set_HA13
+      status: SUCCEEDED
+    - id: data_set_HA14
+      status: SUCCEEDED
+    - id: data_set_HA15
+      status: SUCCEEDED
+    - id: data_set_HA16
+      status: SUCCEEDED
+    - id: data_set_HA17
+      status: SUCCEEDED
+    - id: data_set_HA18
+      status: SUCCEEDED
+    - id: data_set_HA19
+      status: SUCCEEDED
+    - id: data_set_HA20
+      status: SUCCEEDED
+    - id: data_set_HA21
+      status: SUCCEEDED
+    - id: data_set_HA22
+      status: SUCCEEDED
+    - id: data_set_HA23
+      status: SUCCEEDED
+    - id: data_set_HA24
+      status: SUCCEEDED
+    - id: data_set_HA25
+      status: SUCCEEDED
+    - id: data_set_HA26
+      status: SUCCEEDED
+    - id: data_set_HA27
+      status: SUCCEEDED
+    - id: data_set_HA28
+      status: SUCCEEDED
+    - id: data_set_HA29
+      status: SUCCEEDED
+    - id: data_set_HA30
+      status: SUCCEEDED
+    - id: data_set_HA31
+      status: SUCCEEDED
+    - id: data_set_HA32
+      status: SUCCEEDED
+    - id: data_set_HA33
+      status: SUCCEEDED
+    - id: data_set_HA34
+      status: SUCCEEDED
+    - id: data_set_HA35
+      status: SUCCEEDED
+    - id: data_set_HA36
+      status: SUCCEEDED
+    - id: data_set_HA37
+      status: SUCCEEDED
+    - id: data_set_HA38
+      status: SUCCEEDED
+    - id: data_set_HA39
+      status: SUCCEEDED
+    - id: data_set_HA40
+      status: SUCCEEDED
+    - id: data_set_HA41
+      status: SUCCEEDED
+    - id: data_set_HA42
+      status: SUCCEEDED
+    - id: data_set_HA43
+      status: SUCCEEDED
+    - id: data_set_HA44
+      status: SUCCEEDED
+    - id: data_set_HA45
+      status: SUCCEEDED
+    - id: data_set_HA46
+      status: SUCCEEDED
+    - id: data_set_HA47
+      status: SUCCEEDED
+    - id: data_set_HA48
+      status: SUCCEEDED
+    - id: data_set_HA49
+      status: SUCCEEDED
+    - id: data_set_HA50
+      status: SUCCEEDED
+    - id: data_set_HB
+      status: SUCCEEDED
+    - id: data_set_HB1
+      status: SUCCEEDED
+    - id: data_set_HB2
+      status: SUCCEEDED
+    - id: data_set_HB3
+      status: SUCCEEDED
+    - id: data_set_HB4
+      status: SUCCEEDED
+    - id: data_set_HB5
+      status: SUCCEEDED
+    - id: data_set_HB6
+      status: SUCCEEDED
+    - id: data_set_HB7
+      status: SUCCEEDED
+    - id: data_set_HB8
+      status: SUCCEEDED
+    - id: data_set_HB9
+      status: SUCCEEDED
+    - id: data_set_HB10
+      status: SUCCEEDED
+    - id: data_set_HB11
+      status: SUCCEEDED
+    - id: data_set_HB12
+      status: SUCCEEDED
+    - id: data_set_HB13
+      status: SUCCEEDED
+    - id: data_set_HB14
+      status: SUCCEEDED
+    - id: data_set_HB15
+      status: SUCCEEDED
+    - id: data_set_HB16
+      status: SUCCEEDED
+    - id: data_set_HB17
+      status: SUCCEEDED
+    - id: data_set_HB18
+      status: SUCCEEDED
+    - id: data_set_HB19
+      status: SUCCEEDED
+    - id: data_set_HB20
+      status: SUCCEEDED
+    - id: data_set_HB21
+      status: SUCCEEDED
+    - id: data_set_HB22
+      status: SUCCEEDED
+    - id: data_set_HB23
+      status: SUCCEEDED
+    - id: data_set_HB24
+      status: SUCCEEDED
+    - id: data_set_HB25
+      status: SUCCEEDED
+    - id: data_set_HB26
+      status: SUCCEEDED
+    - id: data_set_HB27
+      status: SUCCEEDED
+    - id: data_set_HB28
+      status: SUCCEEDED
+    - id: data_set_HB29
+      status: SUCCEEDED
+    - id: data_set_HB30
+      status: SUCCEEDED
+    - id: data_set_HB31
+      status: SUCCEEDED
+    - id: data_set_HB32
+      status: SUCCEEDED
+    - id: data_set_HB33
+      status: SUCCEEDED
+    - id: data_set_HB34
+      status: SUCCEEDED
+    - id: data_set_HB35
+      status: SUCCEEDED
+    - id: data_set_HB36
+      status: SUCCEEDED
+    - id: data_set_HB37
+      status: SUCCEEDED
+    - id: data_set_HB38
+      status: SUCCEEDED
+    - id: data_set_HB39
+      status: SUCCEEDED
+    - id: data_set_HB40
+      status: SUCCEEDED
+    - id: data_set_HB41
+      status: SUCCEEDED
+    - id: data_set_HB42
+      status: SUCCEEDED
+    - id: data_set_HB43
+      status: SUCCEEDED
+    - id: data_set_HB44
+      status: SUCCEEDED
+    - id: data_set_HB45
+      status: SUCCEEDED
+    - id: data_set_HB46
+      status: SUCCEEDED
+    - id: data_set_HB47
+      status: SUCCEEDED
+    - id: data_set_HB48
+      status: SUCCEEDED
+    - id: data_set_HB49
+      status: SUCCEEDED
+    - id: data_set_HB50
+      status: SUCCEEDED
+    - id: data_set_M1
+      status: SUCCEEDED
+    - id: data_set_M2
+      status: SUCCEEDED
+    - id: data_set_N1
+      status: SUCCEEDED
+    - id: data_set_N2
+      status: SUCCEEDED
+    - id: data_set_UA1
+      status: SUCCEEDED
+    - id: data_set_UA2
+      status: SUCCEEDED
+    - id: data_set_UA3
+      status: SUCCEEDED
+    - id: data_set_UA4
+      status: SUCCEEDED
+    - id: data_set_UA5
+      status: SUCCEEDED
+    - id: data_set_UA6
+      status: SUCCEEDED
+    - id: data_set_UA7
+      status: SUCCEEDED
+    - id: data_set_UA8
+      status: SUCCEEDED
+    - id: data_set_UA9
+      status: SUCCEEDED
+    - id: data_set_UA10
+      status: SUCCEEDED
+    - id: data_set_UA11
+      status: SUCCEEDED
+    - id: data_set_UA12
+      status: SUCCEEDED
+    - id: data_set_UA13
+      status: SUCCEEDED
+    - id: data_set_UA14
+      status: SUCCEEDED
+    - id: data_set_UA15
+      status: SUCCEEDED
+    - id: data_set_UA16
+      status: SUCCEEDED
+    - id: data_set_UA17
+      status: SUCCEEDED
+    - id: data_set_UA18
+      status: SUCCEEDED
+    - id: data_set_UA19
+      status: SUCCEEDED
+    - id: data_set_UA20
+      status: SUCCEEDED
+    - id: data_set_UA21
+      status: SUCCEEDED
+    - id: data_set_UA22
+      status: SUCCEEDED
+    - id: data_set_UA23
+      status: SUCCEEDED
+    - id: data_set_UA24
+      status: SUCCEEDED
+    - id: data_set_UA25
+      status: SUCCEEDED
+    - id: data_set_UA26
+      status: SUCCEEDED
+    - id: data_set_UA27
+      status: SUCCEEDED
+    - id: data_set_UA28
+      status: SUCCEEDED
+    - id: data_set_UA29
+      status: SUCCEEDED
+    - id: data_set_UA30
+      status: SUCCEEDED
+    - id: data_set_UA31
+      status: SUCCEEDED
+    - id: data_set_UA32
+      status: SUCCEEDED
+    - id: data_set_UA33
+      status: SUCCEEDED
+    - id: data_set_UA34
+      status: SUCCEEDED
+    - id: data_set_UA35
+      status: SUCCEEDED
+    - id: data_set_UA36
+      status: SUCCEEDED
+    - id: data_set_UA37
+      status: SUCCEEDED
+    - id: data_set_UA38
+      status: SUCCEEDED
+    - id: data_set_UA39
+      status: SUCCEEDED
+    - id: data_set_UA40
+      status: SUCCEEDED
+    - id: data_set_UA41
+      status: SUCCEEDED
+    - id: data_set_UA42
+      status: SUCCEEDED
+    - id: data_set_UA43
+      status: SUCCEEDED
+    - id: data_set_UA44
+      status: SUCCEEDED
+    - id: data_set_UA45
+      status: SUCCEEDED
+    - id: data_set_UA46
+      status: SUCCEEDED
+    - id: data_set_UA47
+      status: SUCCEEDED
+    - id: data_set_UA48
+      status: SUCCEEDED
+    - id: data_set_UA49
+      status: SUCCEEDED
+    - id: data_set_UA50
+      status: SUCCEEDED
+    - id: data_set_UB1
+      status: SUCCEEDED
+    - id: data_set_UB2
+      status: SUCCEEDED
+    - id: data_set_UB3
+      status: SUCCEEDED
+    - id: data_set_UB4
+      status: SUCCEEDED
+    - id: data_set_UB5
+      status: SUCCEEDED
+    - id: data_set_UB6
+      status: SUCCEEDED
+    - id: data_set_UB7
+      status: SUCCEEDED
+    - id: data_set_UB8
+      status: SUCCEEDED
+    - id: data_set_UB9
+      status: SUCCEEDED
+    - id: data_set_UB10
+      status: SUCCEEDED
+    - id: data_set_UB11
+      status: SUCCEEDED
+    - id: data_set_UB12
+      status: SUCCEEDED
+    - id: data_set_UB13
+      status: SUCCEEDED
+    - id: data_set_UB14
+      status: SUCCEEDED
+    - id: data_set_UB15
+      status: SUCCEEDED
+    - id: data_set_UB16
+      status: SUCCEEDED
+    - id: data_set_UB17
+      status: SUCCEEDED
+    - id: data_set_UB18
+      status: SUCCEEDED
+    - id: data_set_UB19
+      status: SUCCEEDED
+    - id: data_set_UB20
+      status: SUCCEEDED
+    - id: data_set_UB21
+      status: SUCCEEDED
+    - id: data_set_UB22
+      status: SUCCEEDED
+    - id: data_set_UB23
+      status: SUCCEEDED
+    - id: data_set_UB24
+      status: SUCCEEDED
+    - id: data_set_UB25
+      status: SUCCEEDED
+    - id: data_set_UB26
+      status: SUCCEEDED
+    - id: data_set_UB27
+      status: SUCCEEDED
+    - id: data_set_UB28
+      status: SUCCEEDED
+    - id: data_set_UB29
+      status: SUCCEEDED
+    - id: data_set_UB30
+      status: SUCCEEDED
+    - id: data_set_UB31
+      status: SUCCEEDED
+    - id: data_set_UB32
+      status: SUCCEEDED
+    - id: data_set_UB33
+      status: SUCCEEDED
+    - id: data_set_UB34
+      status: SUCCEEDED
+    - id: data_set_UB35
+      status: SUCCEEDED
+    - id: data_set_UB36
+      status: SUCCEEDED
+    - id: data_set_UB37
+      status: SUCCEEDED
+    - id: data_set_UB38
+      status: SUCCEEDED
+    - id: data_set_UB39
+      status: SUCCEEDED
+    - id: data_set_UB40
+      status: SUCCEEDED
+    - id: data_set_UB41
+      status: SUCCEEDED
+    - id: data_set_UB42
+      status: SUCCEEDED
+    - id: data_set_UB43
+      status: SUCCEEDED
+    - id: data_set_UB44
+      status: SUCCEEDED
+    - id: data_set_UB45
+      status: SUCCEEDED
+    - id: data_set_UB46
+      status: SUCCEEDED
+    - id: data_set_UB47
+      status: SUCCEEDED
+    - id: data_set_UB48
+      status: SUCCEEDED
+    - id: data_set_UB49
+      status: SUCCEEDED
+    - id: data_set_UB50
+      status: SUCCEEDED
+    - id: data_set_V1
+      status: SUCCEEDED
+    - id: data_set_V2
+      status: SUCCEEDED
+    - id: data_set_X1
+      status: SUCCEEDED
+    - id: data_set_X2
+      status: SUCCEEDED
+    - id: data_set_Y1
+      status: SUCCEEDED
+    - id: data_set_Y2
+      status: SUCCEEDED
+    duration: 9.344603
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000032
+    duration: 3.032364
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '1000.0'
+    - key: meth
+      value: rungekutta
+    - key: dt
+      value: '.05'
+    - key: t0
+      value: '0.0'
+    - key: njmp
+      value: '2'
+    skipReason: null
+    status: SUCCEEDED
+- duration: 7.143866
+  exception: null
+  location: TypeISomaCablewHCNFig3.sedml
+  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `plot`\r\n      `report`\r\n  Executing task 1: `task`\r\n    Executing\
+    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
+    \  Generating output 1: `report` ... \e[34msucceeded\e[0m\r\n      Generating\
+    \ output 2: `plot` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 2 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 2\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_H
+      status: SUCCEEDED
+    - id: data_set_H1
+      status: SUCCEEDED
+    - id: data_set_H2
+      status: SUCCEEDED
+    - id: data_set_H3
+      status: SUCCEEDED
+    - id: data_set_H4
+      status: SUCCEEDED
+    - id: data_set_H5
+      status: SUCCEEDED
+    - id: data_set_H6
+      status: SUCCEEDED
+    - id: data_set_H7
+      status: SUCCEEDED
+    - id: data_set_H8
+      status: SUCCEEDED
+    - id: data_set_H9
+      status: SUCCEEDED
+    - id: data_set_H10
+      status: SUCCEEDED
+    - id: data_set_H11
+      status: SUCCEEDED
+    - id: data_set_H12
+      status: SUCCEEDED
+    - id: data_set_H13
+      status: SUCCEEDED
+    - id: data_set_H14
+      status: SUCCEEDED
+    - id: data_set_H15
+      status: SUCCEEDED
+    - id: data_set_H16
+      status: SUCCEEDED
+    - id: data_set_H17
+      status: SUCCEEDED
+    - id: data_set_H18
+      status: SUCCEEDED
+    - id: data_set_H19
+      status: SUCCEEDED
+    - id: data_set_H20
+      status: SUCCEEDED
+    - id: data_set_H21
+      status: SUCCEEDED
+    - id: data_set_H22
+      status: SUCCEEDED
+    - id: data_set_H23
+      status: SUCCEEDED
+    - id: data_set_H24
+      status: SUCCEEDED
+    - id: data_set_H25
+      status: SUCCEEDED
+    - id: data_set_H26
+      status: SUCCEEDED
+    - id: data_set_H27
+      status: SUCCEEDED
+    - id: data_set_H28
+      status: SUCCEEDED
+    - id: data_set_H29
+      status: SUCCEEDED
+    - id: data_set_H30
+      status: SUCCEEDED
+    - id: data_set_H31
+      status: SUCCEEDED
+    - id: data_set_H32
+      status: SUCCEEDED
+    - id: data_set_H33
+      status: SUCCEEDED
+    - id: data_set_H34
+      status: SUCCEEDED
+    - id: data_set_H35
+      status: SUCCEEDED
+    - id: data_set_H36
+      status: SUCCEEDED
+    - id: data_set_H37
+      status: SUCCEEDED
+    - id: data_set_H38
+      status: SUCCEEDED
+    - id: data_set_H39
+      status: SUCCEEDED
+    - id: data_set_H40
+      status: SUCCEEDED
+    - id: data_set_H41
+      status: SUCCEEDED
+    - id: data_set_H42
+      status: SUCCEEDED
+    - id: data_set_H43
+      status: SUCCEEDED
+    - id: data_set_H44
+      status: SUCCEEDED
+    - id: data_set_H45
+      status: SUCCEEDED
+    - id: data_set_H46
+      status: SUCCEEDED
+    - id: data_set_H47
+      status: SUCCEEDED
+    - id: data_set_H48
+      status: SUCCEEDED
+    - id: data_set_H49
+      status: SUCCEEDED
+    - id: data_set_H50
+      status: SUCCEEDED
+    - id: data_set_LONGCUR
+      status: SUCCEEDED
+    - id: data_set_M
+      status: SUCCEEDED
+    - id: data_set_N
+      status: SUCCEEDED
+    - id: data_set_POT
+      status: SUCCEEDED
+    - id: data_set_PRC
+      status: SUCCEEDED
+    - id: data_set_SOD
+      status: SUCCEEDED
+    - id: data_set_TAUP
+      status: SUCCEEDED
+    - id: data_set_U1
+      status: SUCCEEDED
+    - id: data_set_U2
+      status: SUCCEEDED
+    - id: data_set_U3
+      status: SUCCEEDED
+    - id: data_set_U4
+      status: SUCCEEDED
+    - id: data_set_U5
+      status: SUCCEEDED
+    - id: data_set_U6
+      status: SUCCEEDED
+    - id: data_set_U7
+      status: SUCCEEDED
+    - id: data_set_U8
+      status: SUCCEEDED
+    - id: data_set_U9
+      status: SUCCEEDED
+    - id: data_set_U10
+      status: SUCCEEDED
+    - id: data_set_U11
+      status: SUCCEEDED
+    - id: data_set_U12
+      status: SUCCEEDED
+    - id: data_set_U13
+      status: SUCCEEDED
+    - id: data_set_U14
+      status: SUCCEEDED
+    - id: data_set_U15
+      status: SUCCEEDED
+    - id: data_set_U16
+      status: SUCCEEDED
+    - id: data_set_U17
+      status: SUCCEEDED
+    - id: data_set_U18
+      status: SUCCEEDED
+    - id: data_set_U19
+      status: SUCCEEDED
+    - id: data_set_U20
+      status: SUCCEEDED
+    - id: data_set_U21
+      status: SUCCEEDED
+    - id: data_set_U22
+      status: SUCCEEDED
+    - id: data_set_U23
+      status: SUCCEEDED
+    - id: data_set_U24
+      status: SUCCEEDED
+    - id: data_set_U25
+      status: SUCCEEDED
+    - id: data_set_U26
+      status: SUCCEEDED
+    - id: data_set_U27
+      status: SUCCEEDED
+    - id: data_set_U28
+      status: SUCCEEDED
+    - id: data_set_U29
+      status: SUCCEEDED
+    - id: data_set_U30
+      status: SUCCEEDED
+    - id: data_set_U31
+      status: SUCCEEDED
+    - id: data_set_U32
+      status: SUCCEEDED
+    - id: data_set_U33
+      status: SUCCEEDED
+    - id: data_set_U34
+      status: SUCCEEDED
+    - id: data_set_U35
+      status: SUCCEEDED
+    - id: data_set_U36
+      status: SUCCEEDED
+    - id: data_set_U37
+      status: SUCCEEDED
+    - id: data_set_U38
+      status: SUCCEEDED
+    - id: data_set_U39
+      status: SUCCEEDED
+    - id: data_set_U40
+      status: SUCCEEDED
+    - id: data_set_U41
+      status: SUCCEEDED
+    - id: data_set_U42
+      status: SUCCEEDED
+    - id: data_set_U43
+      status: SUCCEEDED
+    - id: data_set_U44
+      status: SUCCEEDED
+    - id: data_set_U45
+      status: SUCCEEDED
+    - id: data_set_U46
+      status: SUCCEEDED
+    - id: data_set_U47
+      status: SUCCEEDED
+    - id: data_set_U48
+      status: SUCCEEDED
+    - id: data_set_U49
+      status: SUCCEEDED
+    - id: data_set_U50
+      status: SUCCEEDED
+    - id: data_set_V
+      status: SUCCEEDED
+    - id: data_set_X1
+      status: SUCCEEDED
+    - id: data_set_Y1
+      status: SUCCEEDED
+    duration: 4.75065
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1
+      status: SUCCEEDED
+    duration: 0.28974
+    exception: null
+    id: plot
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000032
+    duration: 1.590544
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '1000.0'
+    - key: meth
+      value: rungekutta
+    - key: dt
+      value: '0.05'
+    - key: t0
+      value: '0.0'
+    - key: njmp
+      value: '2'
+    skipReason: null
+    status: SUCCEEDED
+skipReason: null
+status: SUCCEEDED

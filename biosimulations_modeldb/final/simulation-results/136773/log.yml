@@ -1,0 +1,64 @@
+duration: 0.63081
+exception: null
+output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
+  \ 1 reports, and 0 plots:\r\n  Cressman_et_al_JCNS_1_reducedmodel.sedml:\r\n   \
+  \ Tasks (1):\r\n      task\r\n    Reports (1):\r\n      report: 3 data sets\r\n\r\
+  \nExecuting SED-ML file 1: Cressman_et_al_JCNS_1_reducedmodel.sedml ...\r\n  Found\
+  \ 1 tasks and 1 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\r\
+  \n      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing simulation ...\
+  \ \e[34msucceeded\e[0m\r\r\n    Generating 1 outputs ...\r\r\n      Generating output\
+  \ 1: `report` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and 1 outputs:\r\
+  \r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n      Failed:\
+  \ 0\r\r\n    Outputs:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n      Failed:\
+  \ 0\r\r\n\r\nBundling outputs ...\r\nCleaning up ...\r\n\r\n============= SUMMARY\
+  \ =============\r\nExecuted 1 SED documents:\r\n  SED documents (1):\r\n    Succeeded:\
+  \ 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Tasks (1):\r\n    Succeeded: 1\r\n \
+  \   Skipped: 0\r\n    Failed: 0\r\n  Outputs (1):\r\n    Succeeded: 1\r\n    Skipped:\
+  \ 0\r\n    Failed: 0\r\n\r\n"
+sedDocuments:
+- duration: 0.536439
+  exception: null
+  location: Cressman_et_al_JCNS_1_reducedmodel.sedml
+  output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `report`\r\n  Executing task 1: `task`\r\n    Executing simulation ...\
+    \ \e[34msucceeded\e[0m\r\n    Generating 1 outputs ...\r\n      Generating output\
+    \ 1: `report` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 1 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_KO
+      status: SUCCEEDED
+    - id: data_set_NAI
+      status: SUCCEEDED
+    duration: 0.180329
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000032
+    duration: 0.237917
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '1000.0'
+    - key: meth
+      value: rungekutta
+    - key: t0
+      value: '0.0'
+    - key: dt
+      value: '0.05'
+    - key: njmp
+      value: '2'
+    skipReason: null
+    status: SUCCEEDED
+skipReason: null
+status: SUCCEEDED

@@ -1,0 +1,419 @@
+duration: 3.679346
+exception: null
+output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
+  \ 1 reports, and 0 plots:\r\n  DetailedModel.sedml:\r\n    Tasks (1):\r\n      task\r\
+  \n    Reports (1):\r\n      report: 181 data sets\r\n\r\nExecuting SED-ML file 1:\
+  \ DetailedModel.sedml ...\r\n  Found 1 tasks and 1 outputs:\r\r\n    Tasks:\r\r\n\
+  \      `task`\r\r\n    Outputs:\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\
+  \r\n    Executing simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 1 outputs\
+  \ ...\r\r\n      Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n\r\r\
+  \n  Executed 1 tasks and 1 outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n\
+  \      Skipped: 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 1\r\
+  \r\n      Skipped: 0\r\r\n      Failed: 0\r\r\n\r\nBundling outputs ...\r\nCleaning\
+  \ up ...\r\n\r\n============= SUMMARY =============\r\nExecuted 1 SED documents:\r\
+  \n  SED documents (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n\
+  \  Tasks (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs\
+  \ (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
+sedDocuments:
+- duration: 3.378464
+  exception: null
+  location: DetailedModel.sedml
+  output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `report`\r\n  Executing task 1: `task`\r\n    Executing simulation ...\
+    \ \e[34msucceeded\e[0m\r\n    Generating 1 outputs ...\r\n      Generating output\
+    \ 1: `report` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 1 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_B
+      status: SUCCEEDED
+    - id: data_set_BC
+      status: SUCCEEDED
+    - id: data_set_CL
+      status: SUCCEEDED
+    - id: data_set_CYREV
+      status: SUCCEEDED
+    - id: data_set_CYREVG
+      status: SUCCEEDED
+    - id: data_set_CYREVGP
+      status: SUCCEEDED
+    - id: data_set_CYREVP
+      status: SUCCEEDED
+    - id: data_set_G
+      status: SUCCEEDED
+    - id: data_set_GB
+      status: SUCCEEDED
+    - id: data_set_GBB
+      status: SUCCEEDED
+    - id: data_set_GBR
+      status: SUCCEEDED
+    - id: data_set_GBRB
+      status: SUCCEEDED
+    - id: data_set_GC
+      status: SUCCEEDED
+    - id: data_set_GCR
+      status: SUCCEEDED
+    - id: data_set_GR
+      status: SUCCEEDED
+    - id: data_set_GRN
+      status: SUCCEEDED
+    - id: data_set_GRR
+      status: SUCCEEDED
+    - id: data_set_GTO
+      status: SUCCEEDED
+    - id: data_set_MCB
+      status: SUCCEEDED
+    - id: data_set_MCNP
+      status: SUCCEEDED
+    - id: data_set_MCPO
+      status: SUCCEEDED
+    - id: data_set_MCPT
+      status: SUCCEEDED
+    - id: data_set_MCREV
+      status: SUCCEEDED
+    - id: data_set_MCRO
+      status: SUCCEEDED
+    - id: data_set_MCRT
+      status: SUCCEEDED
+    - id: data_set_MNB
+      status: SUCCEEDED
+    - id: data_set_MNNP
+      status: SUCCEEDED
+    - id: data_set_MNPO
+      status: SUCCEEDED
+    - id: data_set_MNPT
+      status: SUCCEEDED
+    - id: data_set_MNREV
+      status: SUCCEEDED
+    - id: data_set_MNRO
+      status: SUCCEEDED
+    - id: data_set_MNRT
+      status: SUCCEEDED
+    - id: data_set_REVN
+      status: SUCCEEDED
+    - id: data_set_REVNG
+      status: SUCCEEDED
+    - id: data_set_REVNGP
+      status: SUCCEEDED
+    - id: data_set_REVNP
+      status: SUCCEEDED
+    - id: data_set_X00001
+      status: SUCCEEDED
+    - id: data_set_X00011
+      status: SUCCEEDED
+    - id: data_set_X00100
+      status: SUCCEEDED
+    - id: data_set_X00110
+      status: SUCCEEDED
+    - id: data_set_X00200
+      status: SUCCEEDED
+    - id: data_set_X00210
+      status: SUCCEEDED
+    - id: data_set_X01000
+      status: SUCCEEDED
+    - id: data_set_X01010
+      status: SUCCEEDED
+    - id: data_set_X01011
+      status: SUCCEEDED
+    - id: data_set_X02000
+      status: SUCCEEDED
+    - id: data_set_X02010
+      status: SUCCEEDED
+    - id: data_set_X02011
+      status: SUCCEEDED
+    - id: data_set_X10000
+      status: SUCCEEDED
+    - id: data_set_X10100
+      status: SUCCEEDED
+    - id: data_set_X20000
+      status: SUCCEEDED
+    - id: data_set_X20010
+      status: SUCCEEDED
+    - id: data_set_X20011
+      status: SUCCEEDED
+    - id: data_set_X20100
+      status: SUCCEEDED
+    - id: data_set_X20110
+      status: SUCCEEDED
+    - id: data_set_X20111
+      status: SUCCEEDED
+    - id: data_set_X21000
+      status: SUCCEEDED
+    - id: data_set_X21010
+      status: SUCCEEDED
+    - id: data_set_X21011
+      status: SUCCEEDED
+    - id: data_set_X21100
+      status: SUCCEEDED
+    - id: data_set_X21110
+      status: SUCCEEDED
+    - id: data_set_X21111
+      status: SUCCEEDED
+    - id: data_set_X22000
+      status: SUCCEEDED
+    - id: data_set_X22010
+      status: SUCCEEDED
+    - id: data_set_X22011
+      status: SUCCEEDED
+    - id: data_set_X22100
+      status: SUCCEEDED
+    - id: data_set_X22110
+      status: SUCCEEDED
+    - id: data_set_X22111
+      status: SUCCEEDED
+    - id: data_set_X30000
+      status: SUCCEEDED
+    - id: data_set_X30100
+      status: SUCCEEDED
+    - id: data_set_X30200
+      status: SUCCEEDED
+    - id: data_set_X30300
+      status: SUCCEEDED
+    - id: data_set_X40000
+      status: SUCCEEDED
+    - id: data_set_X40010
+      status: SUCCEEDED
+    - id: data_set_X40011
+      status: SUCCEEDED
+    - id: data_set_X40100
+      status: SUCCEEDED
+    - id: data_set_X40110
+      status: SUCCEEDED
+    - id: data_set_X40111
+      status: SUCCEEDED
+    - id: data_set_X40200
+      status: SUCCEEDED
+    - id: data_set_X40210
+      status: SUCCEEDED
+    - id: data_set_X40211
+      status: SUCCEEDED
+    - id: data_set_X40300
+      status: SUCCEEDED
+    - id: data_set_X40310
+      status: SUCCEEDED
+    - id: data_set_X40311
+      status: SUCCEEDED
+    - id: data_set_X41000
+      status: SUCCEEDED
+    - id: data_set_X41010
+      status: SUCCEEDED
+    - id: data_set_X41011
+      status: SUCCEEDED
+    - id: data_set_X41100
+      status: SUCCEEDED
+    - id: data_set_X41110
+      status: SUCCEEDED
+    - id: data_set_X41111
+      status: SUCCEEDED
+    - id: data_set_X41200
+      status: SUCCEEDED
+    - id: data_set_X41210
+      status: SUCCEEDED
+    - id: data_set_X41211
+      status: SUCCEEDED
+    - id: data_set_X41300
+      status: SUCCEEDED
+    - id: data_set_X41310
+      status: SUCCEEDED
+    - id: data_set_X41311
+      status: SUCCEEDED
+    - id: data_set_X42000
+      status: SUCCEEDED
+    - id: data_set_X42010
+      status: SUCCEEDED
+    - id: data_set_X42011
+      status: SUCCEEDED
+    - id: data_set_X42100
+      status: SUCCEEDED
+    - id: data_set_X42110
+      status: SUCCEEDED
+    - id: data_set_X42111
+      status: SUCCEEDED
+    - id: data_set_X42200
+      status: SUCCEEDED
+    - id: data_set_X42210
+      status: SUCCEEDED
+    - id: data_set_X42211
+      status: SUCCEEDED
+    - id: data_set_X42300
+      status: SUCCEEDED
+    - id: data_set_X42310
+      status: SUCCEEDED
+    - id: data_set_X42311
+      status: SUCCEEDED
+    - id: data_set_X50000
+      status: SUCCEEDED
+    - id: data_set_X50010
+      status: SUCCEEDED
+    - id: data_set_X50011
+      status: SUCCEEDED
+    - id: data_set_X50100
+      status: SUCCEEDED
+    - id: data_set_X50110
+      status: SUCCEEDED
+    - id: data_set_X50111
+      status: SUCCEEDED
+    - id: data_set_X50200
+      status: SUCCEEDED
+    - id: data_set_X50210
+      status: SUCCEEDED
+    - id: data_set_X50211
+      status: SUCCEEDED
+    - id: data_set_X50300
+      status: SUCCEEDED
+    - id: data_set_X50310
+      status: SUCCEEDED
+    - id: data_set_X50311
+      status: SUCCEEDED
+    - id: data_set_X51000
+      status: SUCCEEDED
+    - id: data_set_X51010
+      status: SUCCEEDED
+    - id: data_set_X51011
+      status: SUCCEEDED
+    - id: data_set_X51100
+      status: SUCCEEDED
+    - id: data_set_X51110
+      status: SUCCEEDED
+    - id: data_set_X51111
+      status: SUCCEEDED
+    - id: data_set_X51200
+      status: SUCCEEDED
+    - id: data_set_X51210
+      status: SUCCEEDED
+    - id: data_set_X51211
+      status: SUCCEEDED
+    - id: data_set_X51300
+      status: SUCCEEDED
+    - id: data_set_X51310
+      status: SUCCEEDED
+    - id: data_set_X51311
+      status: SUCCEEDED
+    - id: data_set_X52000
+      status: SUCCEEDED
+    - id: data_set_X52010
+      status: SUCCEEDED
+    - id: data_set_X52011
+      status: SUCCEEDED
+    - id: data_set_X52100
+      status: SUCCEEDED
+    - id: data_set_X52110
+      status: SUCCEEDED
+    - id: data_set_X52111
+      status: SUCCEEDED
+    - id: data_set_X52200
+      status: SUCCEEDED
+    - id: data_set_X52210
+      status: SUCCEEDED
+    - id: data_set_X52211
+      status: SUCCEEDED
+    - id: data_set_X52300
+      status: SUCCEEDED
+    - id: data_set_X52310
+      status: SUCCEEDED
+    - id: data_set_X52311
+      status: SUCCEEDED
+    - id: data_set_X60000
+      status: SUCCEEDED
+    - id: data_set_X60010
+      status: SUCCEEDED
+    - id: data_set_X60011
+      status: SUCCEEDED
+    - id: data_set_X60100
+      status: SUCCEEDED
+    - id: data_set_X60110
+      status: SUCCEEDED
+    - id: data_set_X60111
+      status: SUCCEEDED
+    - id: data_set_X60200
+      status: SUCCEEDED
+    - id: data_set_X60210
+      status: SUCCEEDED
+    - id: data_set_X60211
+      status: SUCCEEDED
+    - id: data_set_X60300
+      status: SUCCEEDED
+    - id: data_set_X60310
+      status: SUCCEEDED
+    - id: data_set_X60311
+      status: SUCCEEDED
+    - id: data_set_X61000
+      status: SUCCEEDED
+    - id: data_set_X61010
+      status: SUCCEEDED
+    - id: data_set_X61011
+      status: SUCCEEDED
+    - id: data_set_X61100
+      status: SUCCEEDED
+    - id: data_set_X61110
+      status: SUCCEEDED
+    - id: data_set_X61111
+      status: SUCCEEDED
+    - id: data_set_X61200
+      status: SUCCEEDED
+    - id: data_set_X61210
+      status: SUCCEEDED
+    - id: data_set_X61211
+      status: SUCCEEDED
+    - id: data_set_X61300
+      status: SUCCEEDED
+    - id: data_set_X61310
+      status: SUCCEEDED
+    - id: data_set_X61311
+      status: SUCCEEDED
+    - id: data_set_X62000
+      status: SUCCEEDED
+    - id: data_set_X62010
+      status: SUCCEEDED
+    - id: data_set_X62011
+      status: SUCCEEDED
+    - id: data_set_X62100
+      status: SUCCEEDED
+    - id: data_set_X62110
+      status: SUCCEEDED
+    - id: data_set_X62111
+      status: SUCCEEDED
+    - id: data_set_X62200
+      status: SUCCEEDED
+    - id: data_set_X62210
+      status: SUCCEEDED
+    - id: data_set_X62211
+      status: SUCCEEDED
+    - id: data_set_X62300
+      status: SUCCEEDED
+    - id: data_set_X62310
+      status: SUCCEEDED
+    - id: data_set_X62311
+      status: SUCCEEDED
+    duration: 0.377847
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000668
+    duration: 2.811873
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: meth
+      value: stiff
+    - key: t0
+      value: '0.0'
+    - key: total
+      value: '20.0'
+    - key: dt
+      value: '0.05'
+    - key: njmp
+      value: '1'
+    skipReason: null
+    status: SUCCEEDED
+skipReason: null
+status: SUCCEEDED

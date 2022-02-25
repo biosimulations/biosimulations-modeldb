@@ -1,0 +1,162 @@
+duration: 2.168974
+exception: null
+output: "Archive contains 2 SED-ML documents with 2 models, 2 simulations, 2 tasks,\
+  \ 2 reports, and 2 plots:\r\n  nca.sedml:\r\n    Tasks (1):\r\n      task\r\n  \
+  \  Reports (1):\r\n      report: 10 data sets\r\n    Plots (1):\r\n      plot: 1\
+  \ curves\r\n  zca.sedml:\r\n    Tasks (1):\r\n      task\r\n    Reports (1):\r\n\
+  \      report: 6 data sets\r\n    Plots (1):\r\n      plot: 1 curves\r\n\r\nExecuting\
+  \ SED-ML file 1: nca.sedml ...\r\n  Found 1 tasks and 2 outputs:\r\r\n    Tasks:\r\
+  \r\n      `task`\r\r\n    Outputs:\r\r\n      `plot`\r\r\n      `report`\r\r\n \
+  \ Executing task 1: `task`\r\r\n    Executing simulation ... \e[34msucceeded\e[0m\r\
+  \r\n    Generating 2 outputs ...\r\r\n      Generating output 1: `report` ... \e\
+  [34msucceeded\e[0m\r\r\n      Generating output 2: `plot` ... \e[34msucceeded\e\
+  [0m\r\r\n\r\r\n  Executed 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      Succeeded:\
+  \ 1\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded:\
+  \ 2\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\nExecuting SED-ML file 2: zca.sedml\
+  \ ...\r\n  Found 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n\
+  \    Outputs:\r\r\n      `plot`\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\
+  \r\n    Executing simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 2 outputs\
+  \ ...\r\r\n      Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n  \
+  \    Generating output 2: `plot` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed\
+  \ 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped:\
+  \ 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 2\r\r\n      Skipped:\
+  \ 0\r\r\n      Failed: 0\r\r\n\r\nBundling outputs ...\r\nCleaning up ...\r\n\r\n\
+  ============= SUMMARY =============\r\nExecuted 2 SED documents:\r\n  SED documents\
+  \ (2):\r\n    Succeeded: 2\r\n    Skipped: 0\r\n    Failed: 0\r\n  Tasks (2):\r\n\
+  \    Succeeded: 2\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (4):\r\n    Succeeded:\
+  \ 4\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
+sedDocuments:
+- duration: 1.075765
+  exception: null
+  location: nca.sedml
+  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `plot`\r\n      `report`\r\n  Executing task 1: `task`\r\n    Executing\
+    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
+    \  Generating output 1: `report` ... \e[34msucceeded\e[0m\r\n      Generating\
+    \ output 2: `plot` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 2 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 2\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_BBS
+      status: SUCCEEDED
+    - id: data_set_CA
+      status: SUCCEEDED
+    - id: data_set_CCS
+      status: SUCCEEDED
+    - id: data_set_HHS
+      status: SUCCEEDED
+    - id: data_set_NNS
+      status: SUCCEEDED
+    - id: data_set_QQS
+      status: SUCCEEDED
+    - id: data_set_RRS
+      status: SUCCEEDED
+    - id: data_set_VVS
+      status: SUCCEEDED
+    - id: data_set_ZZS
+      status: SUCCEEDED
+    duration: 0.477052
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1
+      status: SUCCEEDED
+    duration: 0.279477
+    exception: null
+    id: plot
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000032
+    duration: 0.188699
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '500.0'
+    - key: njmp
+      value: '1'
+    - key: t0
+      value: '0.0'
+    - key: trans
+      value: '0.0'
+    - key: meth
+      value: rungekutta
+    - key: dt
+      value: '0.05'
+    skipReason: null
+    status: SUCCEEDED
+- duration: 0.886869
+  exception: null
+  location: zca.sedml
+  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `plot`\r\n      `report`\r\n  Executing task 1: `task`\r\n    Executing\
+    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
+    \  Generating output 1: `report` ... \e[34msucceeded\e[0m\r\n      Generating\
+    \ output 2: `plot` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 2 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 2\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_BBS
+      status: SUCCEEDED
+    - id: data_set_HHS
+      status: SUCCEEDED
+    - id: data_set_NNS
+      status: SUCCEEDED
+    - id: data_set_VVS
+      status: SUCCEEDED
+    - id: data_set_ZZS
+      status: SUCCEEDED
+    duration: 0.321151
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1
+      status: SUCCEEDED
+    duration: 0.295772
+    exception: null
+    id: plot
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000032
+    duration: 0.156721
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '500.0'
+    - key: njmp
+      value: '1'
+    - key: t0
+      value: '0.0'
+    - key: trans
+      value: '0.0'
+    - key: meth
+      value: rungekutta
+    - key: dt
+      value: '0.05'
+    skipReason: null
+    status: SUCCEEDED
+skipReason: null
+status: SUCCEEDED

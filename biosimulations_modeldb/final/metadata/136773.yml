@@ -15,9 +15,7 @@ description: 'These are the source codes used in
   Numerical Recipes in C.
 
 
-  The code for the reduced model runs on XPP.
-
-  '
+  The code for the reduced model runs on XPP.'
 references:
 - label: 'John R. Cressman, Ghanim Ullah, Jokubas Ziburkus, Steven J. Schiff & Ernest
     Barreto. The influence of sodium and potassium dynamics on excitability, seizures,

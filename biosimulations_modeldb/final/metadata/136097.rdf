@@ -16,8 +16,7 @@ the Thirty-first Annual Meeting of the Association for Chemoreception
 Sciences AChemS:A13-A13
 
 This XPP code was supplied by Daniel Dougherty.  The first few lines
-of the ode files contains information on the simulations.
-</dc:description>
+of the ode files contains information on the simulations.</dc:description>
   </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>

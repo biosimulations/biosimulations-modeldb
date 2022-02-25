@@ -1,0 +1,89 @@
+duration: 1.01398
+exception: null
+output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
+  \ 1 reports, and 0 plots:\r\n  Neuron_OXC.sedml:\r\n    Tasks (1):\r\n      task\r\
+  \n    Reports (1):\r\n      report: 14 data sets\r\n\r\nExecuting SED-ML file 1:\
+  \ Neuron_OXC.sedml ...\r\n  Found 1 tasks and 1 outputs:\r\r\n    Tasks:\r\r\n \
+  \     `task`\r\r\n    Outputs:\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\
+  \r\n    Executing simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 1 outputs\
+  \ ...\r\r\n      Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n\r\r\
+  \n  Executed 1 tasks and 1 outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n\
+  \      Skipped: 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 1\r\
+  \r\n      Skipped: 0\r\r\n      Failed: 0\r\r\n\r\nBundling outputs ...\r\nCleaning\
+  \ up ...\r\n\r\n============= SUMMARY =============\r\nExecuted 1 SED documents:\r\
+  \n  SED documents (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n\
+  \  Tasks (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs\
+  \ (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
+sedDocuments:
+- duration: 0.931004
+  exception: null
+  location: Neuron_OXC.sedml
+  output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `report`\r\n  Executing task 1: `task`\r\n    Executing simulation ...\
+    \ \e[34msucceeded\e[0m\r\n    Generating 1 outputs ...\r\n      Generating output\
+    \ 1: `report` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 1 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_CAD
+      status: SUCCEEDED
+    - id: data_set_CD
+      status: SUCCEEDED
+    - id: data_set_HS
+      status: SUCCEEDED
+    - id: data_set_ICA
+      status: SUCCEEDED
+    - id: data_set_IKATP
+      status: SUCCEEDED
+    - id: data_set_IKCA
+      status: SUCCEEDED
+    - id: data_set_IKDR
+      status: SUCCEEDED
+    - id: data_set_INA
+      status: SUCCEEDED
+    - id: data_set_NS
+      status: SUCCEEDED
+    - id: data_set_QD
+      status: SUCCEEDED
+    - id: data_set_SD
+      status: SUCCEEDED
+    - id: data_set_VD
+      status: SUCCEEDED
+    - id: data_set_VS
+      status: SUCCEEDED
+    duration: 0.669184
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000019
+    duration: 0.178726
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '20000.0'
+    - key: meth
+      value: cvode
+    - key: atoler
+      value: '0.0001'
+    - key: toler
+      value: '0.0001'
+    - key: t0
+      value: '0.0'
+    - key: dt
+      value: '2.0'
+    - key: njmp
+      value: '1'
+    skipReason: null
+    status: SUCCEEDED
+skipReason: null
+status: SUCCEEDED

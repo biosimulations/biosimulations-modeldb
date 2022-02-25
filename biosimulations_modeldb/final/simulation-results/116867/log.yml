@@ -1,0 +1,2241 @@
+duration: 125.324993
+exception: null
+output: "Archive contains 2 SED-ML documents with 5 models, 2 simulations, 3 tasks,\
+  \ 3 reports, and 3 plots:\r\n  rubin_terman_dbs.sedml:\r\n    Tasks (1):\r\n   \
+  \   task_normal_with_periodic_dbs_stimulation\r\n    Reports (1):\r\n      report_normal_with_periodic_dbs_stimulation:\
+  \ 340 data sets\r\n    Plots (1):\r\n      plot_normal_with_periodic_dbs_stimulation:\
+  \ 1 curves\r\n  rubin_terman_pd.sedml:\r\n    Tasks (2):\r\n      task_normal_figure_5c\r\
+  \n      task_parkinsons_disease_figure_5d\r\n    Reports (2):\r\n      report_normal_figure_5c:\
+  \ 337 data sets\r\n      report_parkinsons_disease_figure_5d: 337 data sets\r\n\
+  \    Plots (2):\r\n      plot_normal_figure_5c: 1 curves\r\n      plot_parkinsons_disease_figure_5d:\
+  \ 1 curves\r\n\r\nExecuting SED-ML file 1: rubin_terman_dbs.sedml ...\r\n  Found\
+  \ 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      `task_normal_with_periodic_dbs_stimulation`\r\
+  \r\n    Outputs:\r\r\n      `plot_normal_with_periodic_dbs_stimulation`\r\r\n  \
+  \    `report_normal_with_periodic_dbs_stimulation`\r\r\n  Executing task 1: `task_normal_with_periodic_dbs_stimulation`\r\
+  \r\n    Executing simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 2 outputs\
+  \ ...\r\r\n      Generating output 1: `report_normal_with_periodic_dbs_stimulation`\
+  \ ... \e[34msucceeded\e[0m\r\r\n      Generating output 2: `plot_normal_with_periodic_dbs_stimulation`\
+  \ ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and 2 outputs:\r\r\n  \
+  \  Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\
+  \n    Outputs:\r\r\n      Succeeded: 2\r\r\n      Skipped: 0\r\r\n      Failed:\
+  \ 0\r\r\nExecuting SED-ML file 2: rubin_terman_pd.sedml ...\r\n  Found 2 tasks and\
+  \ 4 outputs:\r\r\n    Tasks:\r\r\n      `task_normal_figure_5c`\r\r\n      `task_parkinsons_disease_figure_5d`\r\
+  \r\n    Outputs:\r\r\n      `plot_normal_figure_5c`\r\r\n      `plot_parkinsons_disease_figure_5d`\r\
+  \r\n      `report_normal_figure_5c`\r\r\n      `report_parkinsons_disease_figure_5d`\r\
+  \r\n  Executing task 1: `task_normal_figure_5c`\r\r\n    Executing simulation ...\
+  \ \e[34msucceeded\e[0m\r\r\n    Generating 4 outputs ...\r\r\n      Generating output\
+  \ 1: `report_normal_figure_5c` ... \e[34msucceeded\e[0m\r\r\n      Generating output\
+  \ 2: `plot_normal_figure_5c` ... \e[34msucceeded\e[0m\r\r\n      Generating output\
+  \ 3: `report_parkinsons_disease_figure_5d` ... \e[36mqueued\e[0m\r\r\n      Generating\
+  \ output 4: `plot_parkinsons_disease_figure_5d` ... \e[36mqueued\e[0m\r\r\n  Executing\
+  \ task 2: `task_parkinsons_disease_figure_5d`\r\r\n    Executing simulation ...\
+  \ \e[34msucceeded\e[0m\r\r\n    Generating 4 outputs ...\r\r\n      Generating output\
+  \ 1: `report_normal_figure_5c` ... \e[34msucceeded\e[0m\r\r\r\n      Generating\
+  \ output 2: `plot_normal_figure_5c` ... \e[34msucceeded\e[0m\r\r\r\n      Generating\
+  \ output 3: `report_parkinsons_disease_figure_5d` ... \e[34msucceeded\e[0m\r\r\n\
+  \      Generating output 4: `plot_parkinsons_disease_figure_5d` ... \e[34msucceeded\e\
+  [0m\r\r\n\r\r\n  Executed 2 tasks and 4 outputs:\r\r\n    Tasks:\r\r\n      Succeeded:\
+  \ 2\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded:\
+  \ 4\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\n\r\nBundling outputs ...\r\n\
+  Cleaning up ...\r\n\r\n============= SUMMARY =============\r\nExecuted 2 SED documents:\r\
+  \n  SED documents (2):\r\n    Succeeded: 2\r\n    Skipped: 0\r\n    Failed: 0\r\n\
+  \  Tasks (3):\r\n    Succeeded: 3\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs\
+  \ (6):\r\n    Succeeded: 6\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
+sedDocuments:
+- duration: 40.047613
+  exception: null
+  location: rubin_terman_dbs.sedml
+  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task_normal_with_periodic_dbs_stimulation`\r\
+    \n    Outputs:\r\n      `plot_normal_with_periodic_dbs_stimulation`\r\n      `report_normal_with_periodic_dbs_stimulation`\r\
+    \n  Executing task 1: `task_normal_with_periodic_dbs_stimulation`\r\n    Executing\
+    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
+    \  Generating output 1: `report_normal_with_periodic_dbs_stimulation` ... \e[34msucceeded\e\
+    [0m\r\n      Generating output 2: `plot_normal_with_periodic_dbs_stimulation`\
+    \ ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 2 outputs:\r\n    Tasks:\r\
+    \n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n    Outputs:\r\n\
+    \      Succeeded: 2\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CA1_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CA2_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CA3_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CA4_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CA5_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CA6_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CA7_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CA8_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CA9_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CA10_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CA11_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CA12_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CA13_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CA14_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CA15_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CA16_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CAG1_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CAG2_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CAG3_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CAG4_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CAG5_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CAG6_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CAG7_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CAG8_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CAG9_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CAG10_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CAG11_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CAG12_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CAG13_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CAG14_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CAG15_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CAG16_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CAGI1_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CAGI2_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CAGI3_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CAGI4_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CAGI5_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CAGI6_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CAGI7_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CAGI8_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CAGI9_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CAGI10_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CAGI11_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CAGI12_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CAGI13_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CAGI14_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CAGI15_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_CAGI16_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_COUN1_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_COUN2_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_DDBS_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_GOOD1_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_GOOD2_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_H1_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_H2_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_H3_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_H4_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_H5_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_H6_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_H7_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_H8_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_H9_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_H10_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_H11_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_H12_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_H13_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_H14_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_H15_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_H16_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HG1_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HG2_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HG3_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HG4_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HG5_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HG6_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HG7_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HG8_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HG9_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HG10_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HG11_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HG12_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HG13_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HG14_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HG15_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HG16_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HGI1_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HGI2_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HGI3_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HGI4_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HGI5_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HGI6_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HGI7_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HGI8_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HGI9_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HGI10_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HGI11_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HGI12_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HGI13_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HGI14_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HGI15_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HGI16_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HT1_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HT2_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HTT1_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_HTT2_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_I1_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_N1_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_N2_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_N3_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_N4_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_N5_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_N6_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_N7_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_N8_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_N9_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_N10_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_N11_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_N12_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_N13_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_N14_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_N15_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_N16_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_NG1_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_NG2_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_NG3_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_NG4_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_NG5_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_NG6_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_NG7_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_NG8_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_NG9_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_NG10_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_NG11_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_NG12_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_NG13_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_NG14_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_NG15_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_NG16_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_NGI1_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_NGI2_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_NGI3_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_NGI4_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_NGI5_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_NGI6_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_NGI7_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_NGI8_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_NGI9_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_NGI10_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_NGI11_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_NGI12_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_NGI13_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_NGI14_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_NGI15_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_NGI16_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_PDBS_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_R1_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_R2_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_R3_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_R4_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_R5_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_R6_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_R7_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_R8_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_R9_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_R10_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_R11_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_R12_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_R13_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_R14_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_R15_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_R16_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_RG1_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_RG2_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_RG3_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_RG4_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_RG5_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_RG6_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_RG7_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_RG8_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_RG9_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_RG10_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_RG11_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_RG12_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_RG13_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_RG14_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_RG15_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_RG16_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_RGI1_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_RGI2_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_RGI3_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_RGI4_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_RGI5_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_RGI6_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_RGI7_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_RGI8_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_RGI9_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_RGI10_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_RGI11_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_RGI12_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_RGI13_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_RGI14_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_RGI15_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_RGI16_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_S1_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_S2_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_S3_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_S4_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_S5_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_S6_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_S7_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_S8_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_S9_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_S10_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_S11_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_S12_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_S13_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_S14_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_S15_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_S16_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SA_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SB_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SG_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SG1_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SG2_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SG3_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SG4_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SG5_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SG6_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SG7_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SG8_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SG9_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SG10_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SG11_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SG12_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SG13_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SG14_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SG15_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SG16_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGGI1_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGGI2_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGGI3_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGGI4_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGGI5_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGGI6_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGGI7_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGGI8_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGGI9_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGGI10_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGGI11_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGGI12_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGGI13_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGGI14_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGGI15_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGGI16_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGI1_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGI2_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGI3_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGI4_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGI5_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGI6_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGI7_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGI8_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGI9_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGI10_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGI11_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGI12_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGI13_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGI14_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGI15_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGI16_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SGT_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SI1_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SI2_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SI3_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SI4_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SI5_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SI6_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SI7_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SI8_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SI9_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SI10_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SI11_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SI12_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SI13_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SI14_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SI15_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_SI16_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_V1_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_V2_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_V3_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_V4_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_V5_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_V6_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_V7_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_V8_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_V9_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_V10_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_V11_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_V12_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_V13_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_V14_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_V15_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_V16_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VG1_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VG2_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VG3_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VG4_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VG5_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VG6_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VG7_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VG8_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VG9_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VG10_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VG11_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VG12_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VG13_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VG14_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VG15_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VG16_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VGI1_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VGI2_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VGI3_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VGI4_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VGI5_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VGI6_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VGI7_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VGI8_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VGI9_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VGI10_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VGI11_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VGI12_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VGI13_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VGI14_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VGI15_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VGI16_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VT1_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_VT2_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_Z1_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    - id: data_set_Z2_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    duration: 17.783699
+    exception: null
+    id: report_normal_with_periodic_dbs_stimulation
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1_normal_with_periodic_dbs_stimulation
+      status: SUCCEEDED
+    duration: 0.330749
+    exception: null
+    id: plot_normal_with_periodic_dbs_stimulation
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000672
+    duration: 21.156211
+    exception: null
+    id: task_normal_with_periodic_dbs_stimulation
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '1250.0'
+    - key: meth
+      value: qualrk
+    - key: dtmin
+      value: 1e-12
+    - key: dtmax
+      value: '1'
+    - key: toler
+      value: '0.001'
+    - key: newt_tol
+      value: '0.001'
+    - key: t0
+      value: '0.0'
+    - key: dt
+      value: '0.1'
+    - key: njmp
+      value: '1'
+    skipReason: null
+    status: SUCCEEDED
+- duration: 83.617528
+  exception: null
+  location: rubin_terman_pd.sedml
+  output: "  Found 2 tasks and 4 outputs:\r\n    Tasks:\r\n      `task_normal_figure_5c`\r\
+    \n      `task_parkinsons_disease_figure_5d`\r\n    Outputs:\r\n      `plot_normal_figure_5c`\r\
+    \n      `plot_parkinsons_disease_figure_5d`\r\n      `report_normal_figure_5c`\r\
+    \n      `report_parkinsons_disease_figure_5d`\r\n  Executing task 1: `task_normal_figure_5c`\r\
+    \n    Executing simulation ... \e[34msucceeded\e[0m\r\n    Generating 4 outputs\
+    \ ...\r\n      Generating output 1: `report_normal_figure_5c` ... \e[34msucceeded\e\
+    [0m\r\n      Generating output 2: `plot_normal_figure_5c` ... \e[34msucceeded\e\
+    [0m\r\n      Generating output 3: `report_parkinsons_disease_figure_5d` ... \e\
+    [36mqueued\e[0m\r\n      Generating output 4: `plot_parkinsons_disease_figure_5d`\
+    \ ... \e[36mqueued\e[0m\r\n  Executing task 2: `task_parkinsons_disease_figure_5d`\r\
+    \n    Executing simulation ... \e[34msucceeded\e[0m\r\n    Generating 4 outputs\
+    \ ...\r\n      Generating output 1: `report_normal_figure_5c` ... \e[34msucceeded\e\
+    [0m\r\r\n      Generating output 2: `plot_normal_figure_5c` ... \e[34msucceeded\e\
+    [0m\r\r\n      Generating output 3: `report_parkinsons_disease_figure_5d` ...\
+    \ \e[34msucceeded\e[0m\r\n      Generating output 4: `plot_parkinsons_disease_figure_5d`\
+    \ ... \e[34msucceeded\e[0m\r\n\r\n  Executed 2 tasks and 4 outputs:\r\n    Tasks:\r\
+    \n      Succeeded: 2\r\n      Skipped: 0\r\n      Failed: 0\r\n    Outputs:\r\n\
+    \      Succeeded: 4\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CA1_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CA2_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CA3_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CA4_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CA5_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CA6_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CA7_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CA8_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CA9_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CA10_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CA11_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CA12_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CA13_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CA14_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CA15_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CA16_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CAG1_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CAG2_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CAG3_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CAG4_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CAG5_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CAG6_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CAG7_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CAG8_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CAG9_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CAG10_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CAG11_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CAG12_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CAG13_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CAG14_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CAG15_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CAG16_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CAGI1_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CAGI2_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CAGI3_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CAGI4_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CAGI5_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CAGI6_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CAGI7_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CAGI8_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CAGI9_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CAGI10_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CAGI11_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CAGI12_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CAGI13_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CAGI14_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CAGI15_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_CAGI16_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_COUN1_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_COUN2_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_GOOD1_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_GOOD2_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_H1_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_H2_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_H3_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_H4_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_H5_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_H6_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_H7_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_H8_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_H9_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_H10_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_H11_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_H12_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_H13_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_H14_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_H15_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_H16_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HG1_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HG2_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HG3_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HG4_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HG5_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HG6_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HG7_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HG8_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HG9_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HG10_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HG11_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HG12_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HG13_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HG14_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HG15_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HG16_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HGI1_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HGI2_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HGI3_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HGI4_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HGI5_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HGI6_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HGI7_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HGI8_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HGI9_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HGI10_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HGI11_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HGI12_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HGI13_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HGI14_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HGI15_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HGI16_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HT1_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HT2_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HTT1_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_HTT2_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_N1_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_N2_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_N3_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_N4_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_N5_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_N6_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_N7_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_N8_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_N9_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_N10_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_N11_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_N12_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_N13_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_N14_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_N15_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_N16_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_NG1_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_NG2_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_NG3_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_NG4_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_NG5_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_NG6_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_NG7_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_NG8_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_NG9_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_NG10_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_NG11_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_NG12_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_NG13_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_NG14_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_NG15_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_NG16_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_NGI1_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_NGI2_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_NGI3_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_NGI4_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_NGI5_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_NGI6_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_NGI7_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_NGI8_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_NGI9_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_NGI10_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_NGI11_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_NGI12_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_NGI13_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_NGI14_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_NGI15_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_NGI16_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_R1_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_R2_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_R3_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_R4_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_R5_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_R6_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_R7_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_R8_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_R9_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_R10_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_R11_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_R12_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_R13_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_R14_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_R15_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_R16_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_RG1_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_RG2_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_RG3_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_RG4_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_RG5_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_RG6_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_RG7_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_RG8_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_RG9_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_RG10_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_RG11_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_RG12_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_RG13_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_RG14_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_RG15_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_RG16_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_RGI1_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_RGI2_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_RGI3_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_RGI4_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_RGI5_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_RGI6_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_RGI7_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_RGI8_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_RGI9_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_RGI10_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_RGI11_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_RGI12_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_RGI13_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_RGI14_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_RGI15_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_RGI16_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_S1_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_S2_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_S3_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_S4_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_S5_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_S6_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_S7_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_S8_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_S9_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_S10_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_S11_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_S12_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_S13_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_S14_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_S15_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_S16_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SA_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SB_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SG_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SG1_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SG2_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SG3_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SG4_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SG5_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SG6_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SG7_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SG8_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SG9_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SG10_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SG11_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SG12_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SG13_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SG14_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SG15_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SG16_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGGI1_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGGI2_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGGI3_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGGI4_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGGI5_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGGI6_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGGI7_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGGI8_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGGI9_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGGI10_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGGI11_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGGI12_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGGI13_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGGI14_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGGI15_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGGI16_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGI1_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGI2_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGI3_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGI4_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGI5_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGI6_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGI7_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGI8_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGI9_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGI10_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGI11_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGI12_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGI13_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGI14_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGI15_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGI16_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SGT_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SI1_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SI2_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SI3_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SI4_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SI5_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SI6_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SI7_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SI8_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SI9_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SI10_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SI11_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SI12_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SI13_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SI14_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SI15_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_SI16_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_V1_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_V2_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_V3_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_V4_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_V5_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_V6_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_V7_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_V8_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_V9_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_V10_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_V11_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_V12_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_V13_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_V14_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_V15_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_V16_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VG1_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VG2_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VG3_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VG4_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VG5_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VG6_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VG7_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VG8_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VG9_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VG10_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VG11_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VG12_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VG13_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VG14_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VG15_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VG16_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VGI1_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VGI2_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VGI3_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VGI4_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VGI5_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VGI6_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VGI7_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VGI8_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VGI9_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VGI10_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VGI11_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VGI12_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VGI13_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VGI14_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VGI15_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VGI16_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VT1_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_VT2_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_Z1_normal_figure_5c
+      status: SUCCEEDED
+    - id: data_set_Z2_normal_figure_5c
+      status: SUCCEEDED
+    duration: 17.57552
+    exception: null
+    id: report_normal_figure_5c
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1_normal_figure_5c
+      status: SUCCEEDED
+    duration: 0.413407
+    exception: null
+    id: plot_normal_figure_5c
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - dataSets:
+    - id: data_set_T_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CA1_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CA2_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CA3_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CA4_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CA5_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CA6_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CA7_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CA8_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CA9_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CA10_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CA11_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CA12_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CA13_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CA14_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CA15_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CA16_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CAG1_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CAG2_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CAG3_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CAG4_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CAG5_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CAG6_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CAG7_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CAG8_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CAG9_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CAG10_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CAG11_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CAG12_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CAG13_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CAG14_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CAG15_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CAG16_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CAGI1_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CAGI2_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CAGI3_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CAGI4_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CAGI5_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CAGI6_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CAGI7_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CAGI8_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CAGI9_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CAGI10_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CAGI11_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CAGI12_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CAGI13_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CAGI14_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CAGI15_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_CAGI16_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_COUN1_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_COUN2_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_GOOD1_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_GOOD2_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_H1_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_H2_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_H3_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_H4_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_H5_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_H6_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_H7_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_H8_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_H9_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_H10_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_H11_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_H12_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_H13_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_H14_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_H15_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_H16_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HG1_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HG2_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HG3_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HG4_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HG5_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HG6_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HG7_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HG8_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HG9_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HG10_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HG11_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HG12_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HG13_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HG14_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HG15_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HG16_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HGI1_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HGI2_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HGI3_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HGI4_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HGI5_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HGI6_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HGI7_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HGI8_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HGI9_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HGI10_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HGI11_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HGI12_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HGI13_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HGI14_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HGI15_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HGI16_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HT1_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HT2_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HTT1_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_HTT2_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_N1_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_N2_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_N3_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_N4_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_N5_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_N6_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_N7_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_N8_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_N9_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_N10_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_N11_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_N12_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_N13_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_N14_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_N15_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_N16_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_NG1_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_NG2_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_NG3_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_NG4_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_NG5_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_NG6_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_NG7_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_NG8_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_NG9_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_NG10_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_NG11_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_NG12_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_NG13_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_NG14_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_NG15_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_NG16_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_NGI1_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_NGI2_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_NGI3_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_NGI4_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_NGI5_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_NGI6_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_NGI7_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_NGI8_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_NGI9_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_NGI10_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_NGI11_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_NGI12_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_NGI13_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_NGI14_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_NGI15_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_NGI16_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_R1_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_R2_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_R3_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_R4_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_R5_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_R6_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_R7_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_R8_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_R9_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_R10_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_R11_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_R12_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_R13_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_R14_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_R15_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_R16_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_RG1_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_RG2_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_RG3_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_RG4_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_RG5_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_RG6_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_RG7_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_RG8_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_RG9_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_RG10_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_RG11_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_RG12_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_RG13_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_RG14_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_RG15_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_RG16_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_RGI1_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_RGI2_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_RGI3_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_RGI4_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_RGI5_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_RGI6_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_RGI7_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_RGI8_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_RGI9_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_RGI10_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_RGI11_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_RGI12_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_RGI13_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_RGI14_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_RGI15_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_RGI16_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_S1_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_S2_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_S3_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_S4_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_S5_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_S6_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_S7_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_S8_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_S9_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_S10_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_S11_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_S12_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_S13_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_S14_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_S15_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_S16_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SA_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SB_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SG_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SG1_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SG2_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SG3_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SG4_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SG5_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SG6_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SG7_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SG8_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SG9_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SG10_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SG11_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SG12_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SG13_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SG14_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SG15_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SG16_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGGI1_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGGI2_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGGI3_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGGI4_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGGI5_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGGI6_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGGI7_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGGI8_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGGI9_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGGI10_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGGI11_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGGI12_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGGI13_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGGI14_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGGI15_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGGI16_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGI1_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGI2_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGI3_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGI4_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGI5_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGI6_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGI7_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGI8_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGI9_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGI10_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGI11_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGI12_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGI13_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGI14_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGI15_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGI16_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SGT_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SI1_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SI2_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SI3_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SI4_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SI5_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SI6_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SI7_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SI8_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SI9_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SI10_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SI11_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SI12_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SI13_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SI14_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SI15_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_SI16_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_V1_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_V2_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_V3_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_V4_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_V5_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_V6_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_V7_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_V8_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_V9_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_V10_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_V11_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_V12_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_V13_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_V14_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_V15_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_V16_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VG1_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VG2_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VG3_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VG4_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VG5_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VG6_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VG7_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VG8_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VG9_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VG10_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VG11_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VG12_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VG13_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VG14_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VG15_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VG16_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VGI1_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VGI2_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VGI3_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VGI4_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VGI5_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VGI6_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VGI7_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VGI8_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VGI9_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VGI10_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VGI11_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VGI12_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VGI13_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VGI14_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VGI15_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VGI16_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VT1_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_VT2_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_Z1_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    - id: data_set_Z2_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    duration: 18.114662
+    exception: null
+    id: report_parkinsons_disease_figure_5d
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1_parkinsons_disease_figure_5d
+      status: SUCCEEDED
+    duration: 0.396866
+    exception: null
+    id: plot_parkinsons_disease_figure_5d
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000672
+    duration: 22.541119
+    exception: null
+    id: task_normal_figure_5c
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '1250.0'
+    - key: meth
+      value: qualrk
+    - key: dtmin
+      value: 1e-12
+    - key: dtmax
+      value: '1'
+    - key: toler
+      value: '0.001'
+    - key: newt_tol
+      value: '0.001'
+    - key: t0
+      value: '0.0'
+    - key: dt
+      value: '0.1'
+    - key: njmp
+      value: '1'
+    skipReason: null
+    status: SUCCEEDED
+  - algorithm: KISAO_0000672
+    duration: 22.781937
+    exception: null
+    id: task_parkinsons_disease_figure_5d
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '1250.0'
+    - key: meth
+      value: qualrk
+    - key: dtmin
+      value: 1e-12
+    - key: dtmax
+      value: '1'
+    - key: toler
+      value: '0.001'
+    - key: newt_tol
+      value: '0.001'
+    - key: t0
+      value: '0.0'
+    - key: dt
+      value: '0.1'
+    - key: njmp
+      value: '1'
+    skipReason: null
+    status: SUCCEEDED
+skipReason: null
+status: SUCCEEDED

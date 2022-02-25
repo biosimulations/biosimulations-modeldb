@@ -18,7 +18,7 @@ description: "# Model of the Mammalian ET cell\n\nComputational model and files 
   \n## ME-PCM\nThe code used to sample the model throughout parameter space to determine\
   \ stability and investigate the effect of model parameters on model output is found\
   \ in the ME-PCM directory\n\n## xpp\nThe ODE file to recreate the bifurcation diagram\
-  \ is found in the xpp directory \n"
+  \ is found in the xpp directory"
 references:
 - label: 'Ryan Viertel & Alla Borisyuk. A Computational model of the mammalian external
     tufted cell. Journal of Theoretical Biology 462: 109-121 (2019).'
@@ -27,4 +27,4 @@ taxa: []
 thumbnails:
 - archive_filename: screenshot.png
   format: png
-  local_filename: source/models/240364/screenshot.png
+  local_filename: source/projects/240364/screenshot.png

@@ -1,0 +1,258 @@
+duration: 4.29991
+exception: null
+output: "Archive contains 1 SED-ML documents with 4 models, 1 simulations, 3 tasks,\
+  \ 3 reports, and 3 plots:\r\n  OneCellTwoOsc.sedml:\r\n    Tasks (3):\r\n      task_figure_2a\r\
+  \n      task_figure_2b\r\n      task_figure_2c\r\n    Reports (3):\r\n      report_figure_2a:\
+  \ 9 data sets\r\n      report_figure_2b: 9 data sets\r\n      report_figure_2c:\
+  \ 9 data sets\r\n    Plots (3):\r\n      plot_figure_2a: 1 curves\r\n      plot_figure_2b:\
+  \ 1 curves\r\n      plot_figure_2c: 1 curves\r\n\r\nExecuting SED-ML file 1: OneCellTwoOsc.sedml\
+  \ ...\r\n  Found 3 tasks and 6 outputs:\r\r\n    Tasks:\r\r\n      `task_figure_2a`\r\
+  \r\n      `task_figure_2b`\r\r\n      `task_figure_2c`\r\r\n    Outputs:\r\r\n \
+  \     `plot_figure_2a`\r\r\n      `plot_figure_2b`\r\r\n      `plot_figure_2c`\r\
+  \r\n      `report_figure_2a`\r\r\n      `report_figure_2b`\r\r\n      `report_figure_2c`\r\
+  \r\n  Executing task 1: `task_figure_2a`\r\r\n    Executing simulation ... \e[34msucceeded\e\
+  [0m\r\r\n    Generating 6 outputs ...\r\r\n      Generating output 1: `report_figure_2a`\
+  \ ... \e[34msucceeded\e[0m\r\r\n      Generating output 2: `plot_figure_2a` ...\
+  \ \e[34msucceeded\e[0m\r\r\n      Generating output 3: `report_figure_2b` ... \e\
+  [36mqueued\e[0m\r\r\n      Generating output 4: `plot_figure_2b` ... \e[36mqueued\e\
+  [0m\r\r\n      Generating output 5: `report_figure_2c` ... \e[36mqueued\e[0m\r\r\
+  \n      Generating output 6: `plot_figure_2c` ... \e[36mqueued\e[0m\r\r\n  Executing\
+  \ task 2: `task_figure_2b`\r\r\n    Executing simulation ... \e[34msucceeded\e[0m\r\
+  \r\n    Generating 6 outputs ...\r\r\n      Generating output 1: `report_figure_2a`\
+  \ ... \e[34msucceeded\e[0m\r\r\r\n      Generating output 2: `plot_figure_2a` ...\
+  \ \e[34msucceeded\e[0m\r\r\r\n      Generating output 3: `report_figure_2b` ...\
+  \ \e[34msucceeded\e[0m\r\r\n      Generating output 4: `plot_figure_2b` ... \e[34msucceeded\e\
+  [0m\r\r\n      Generating output 5: `report_figure_2c` ... \e[36mqueued\e[0m\r\r\
+  \n      Generating output 6: `plot_figure_2c` ... \e[36mqueued\e[0m\r\r\n  Executing\
+  \ task 3: `task_figure_2c`\r\r\n    Executing simulation ... \e[34msucceeded\e[0m\r\
+  \r\n    Generating 6 outputs ...\r\r\n      Generating output 1: `report_figure_2a`\
+  \ ... \e[34msucceeded\e[0m\r\r\r\n      Generating output 2: `plot_figure_2a` ...\
+  \ \e[34msucceeded\e[0m\r\r\r\n      Generating output 3: `report_figure_2b` ...\
+  \ \e[34msucceeded\e[0m\r\r\r\n      Generating output 4: `plot_figure_2b` ... \e\
+  [34msucceeded\e[0m\r\r\r\n      Generating output 5: `report_figure_2c` ... \e[34msucceeded\e\
+  [0m\r\r\n      Generating output 6: `plot_figure_2c` ... \e[34msucceeded\e[0m\r\r\
+  \n\r\r\n  Executed 3 tasks and 6 outputs:\r\r\n    Tasks:\r\r\n      Succeeded:\
+  \ 3\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded:\
+  \ 6\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\n\r\nBundling outputs ...\r\n\
+  Cleaning up ...\r\n\r\n============= SUMMARY =============\r\nExecuted 1 SED documents:\r\
+  \n  SED documents (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n\
+  \  Tasks (3):\r\n    Succeeded: 3\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs\
+  \ (6):\r\n    Succeeded: 6\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
+sedDocuments:
+- duration: 4.112773
+  exception: null
+  location: OneCellTwoOsc.sedml
+  output: "  Found 3 tasks and 6 outputs:\r\n    Tasks:\r\n      `task_figure_2a`\r\
+    \n      `task_figure_2b`\r\n      `task_figure_2c`\r\n    Outputs:\r\n      `plot_figure_2a`\r\
+    \n      `plot_figure_2b`\r\n      `plot_figure_2c`\r\n      `report_figure_2a`\r\
+    \n      `report_figure_2b`\r\n      `report_figure_2c`\r\n  Executing task 1:\
+    \ `task_figure_2a`\r\n    Executing simulation ... \e[34msucceeded\e[0m\r\n  \
+    \  Generating 6 outputs ...\r\n      Generating output 1: `report_figure_2a` ...\
+    \ \e[34msucceeded\e[0m\r\n      Generating output 2: `plot_figure_2a` ... \e[34msucceeded\e\
+    [0m\r\n      Generating output 3: `report_figure_2b` ... \e[36mqueued\e[0m\r\n\
+    \      Generating output 4: `plot_figure_2b` ... \e[36mqueued\e[0m\r\n      Generating\
+    \ output 5: `report_figure_2c` ... \e[36mqueued\e[0m\r\n      Generating output\
+    \ 6: `plot_figure_2c` ... \e[36mqueued\e[0m\r\n  Executing task 2: `task_figure_2b`\r\
+    \n    Executing simulation ... \e[34msucceeded\e[0m\r\n    Generating 6 outputs\
+    \ ...\r\n      Generating output 1: `report_figure_2a` ... \e[34msucceeded\e[0m\r\
+    \r\n      Generating output 2: `plot_figure_2a` ... \e[34msucceeded\e[0m\r\r\n\
+    \      Generating output 3: `report_figure_2b` ... \e[34msucceeded\e[0m\r\n  \
+    \    Generating output 4: `plot_figure_2b` ... \e[34msucceeded\e[0m\r\n      Generating\
+    \ output 5: `report_figure_2c` ... \e[36mqueued\e[0m\r\n      Generating output\
+    \ 6: `plot_figure_2c` ... \e[36mqueued\e[0m\r\n  Executing task 3: `task_figure_2c`\r\
+    \n    Executing simulation ... \e[34msucceeded\e[0m\r\n    Generating 6 outputs\
+    \ ...\r\n      Generating output 1: `report_figure_2a` ... \e[34msucceeded\e[0m\r\
+    \r\n      Generating output 2: `plot_figure_2a` ... \e[34msucceeded\e[0m\r\r\n\
+    \      Generating output 3: `report_figure_2b` ... \e[34msucceeded\e[0m\r\r\n\
+    \      Generating output 4: `plot_figure_2b` ... \e[34msucceeded\e[0m\r\r\n  \
+    \    Generating output 5: `report_figure_2c` ... \e[34msucceeded\e[0m\r\n    \
+    \  Generating output 6: `plot_figure_2c` ... \e[34msucceeded\e[0m\r\n\r\n  Executed\
+    \ 3 tasks and 6 outputs:\r\n    Tasks:\r\n      Succeeded: 3\r\n      Skipped:\
+    \ 0\r\n      Failed: 0\r\n    Outputs:\r\n      Succeeded: 6\r\n      Skipped:\
+    \ 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T_figure_2a
+      status: SUCCEEDED
+    - id: data_set_C_figure_2a
+      status: SUCCEEDED
+    - id: data_set_CE_figure_2a
+      status: SUCCEEDED
+    - id: data_set_H_figure_2a
+      status: SUCCEEDED
+    - id: data_set_ICAN_figure_2a
+      status: SUCCEEDED
+    - id: data_set_INAPS_figure_2a
+      status: SUCCEEDED
+    - id: data_set_L_figure_2a
+      status: SUCCEEDED
+    - id: data_set_N_figure_2a
+      status: SUCCEEDED
+    - id: data_set_V_figure_2a
+      status: SUCCEEDED
+    duration: 0.481386
+    exception: null
+    id: report_figure_2a
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1_figure_2a
+      status: SUCCEEDED
+    duration: 0.325142
+    exception: null
+    id: plot_figure_2a
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - dataSets:
+    - id: data_set_T_figure_2b
+      status: SUCCEEDED
+    - id: data_set_C_figure_2b
+      status: SUCCEEDED
+    - id: data_set_CE_figure_2b
+      status: SUCCEEDED
+    - id: data_set_H_figure_2b
+      status: SUCCEEDED
+    - id: data_set_ICAN_figure_2b
+      status: SUCCEEDED
+    - id: data_set_INAPS_figure_2b
+      status: SUCCEEDED
+    - id: data_set_L_figure_2b
+      status: SUCCEEDED
+    - id: data_set_N_figure_2b
+      status: SUCCEEDED
+    - id: data_set_V_figure_2b
+      status: SUCCEEDED
+    duration: 0.451528
+    exception: null
+    id: report_figure_2b
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1_figure_2b
+      status: SUCCEEDED
+    duration: 0.327204
+    exception: null
+    id: plot_figure_2b
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - dataSets:
+    - id: data_set_T_figure_2c
+      status: SUCCEEDED
+    - id: data_set_C_figure_2c
+      status: SUCCEEDED
+    - id: data_set_CE_figure_2c
+      status: SUCCEEDED
+    - id: data_set_H_figure_2c
+      status: SUCCEEDED
+    - id: data_set_ICAN_figure_2c
+      status: SUCCEEDED
+    - id: data_set_INAPS_figure_2c
+      status: SUCCEEDED
+    - id: data_set_L_figure_2c
+      status: SUCCEEDED
+    - id: data_set_N_figure_2c
+      status: SUCCEEDED
+    - id: data_set_V_figure_2c
+      status: SUCCEEDED
+    duration: 0.480596
+    exception: null
+    id: report_figure_2c
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1_figure_2c
+      status: SUCCEEDED
+    duration: 0.320353
+    exception: null
+    id: plot_figure_2c
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000672
+    duration: 0.228764
+    exception: null
+    id: task_figure_2a
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '10000.0'
+    - key: meth
+      value: qualrk
+    - key: dtmin
+      value: 1e-12
+    - key: dtmax
+      value: '1'
+    - key: toler
+      value: '0.001'
+    - key: newt_tol
+      value: '0.001'
+    - key: t0
+      value: '0.0'
+    - key: dt
+      value: '1.0'
+    - key: njmp
+      value: '1'
+    skipReason: null
+    status: SUCCEEDED
+  - algorithm: KISAO_0000672
+    duration: 0.229999
+    exception: null
+    id: task_figure_2b
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '10000.0'
+    - key: meth
+      value: qualrk
+    - key: dtmin
+      value: 1e-12
+    - key: dtmax
+      value: '1'
+    - key: toler
+      value: '0.001'
+    - key: newt_tol
+      value: '0.001'
+    - key: t0
+      value: '0.0'
+    - key: dt
+      value: '1.0'
+    - key: njmp
+      value: '1'
+    skipReason: null
+    status: SUCCEEDED
+  - algorithm: KISAO_0000672
+    duration: 0.228866
+    exception: null
+    id: task_figure_2c
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '10000.0'
+    - key: meth
+      value: qualrk
+    - key: dtmin
+      value: 1e-12
+    - key: dtmax
+      value: '1'
+    - key: toler
+      value: '0.001'
+    - key: newt_tol
+      value: '0.001'
+    - key: t0
+      value: '0.0'
+    - key: dt
+      value: '1.0'
+    - key: njmp
+      value: '1'
+    skipReason: null
+    status: SUCCEEDED
+skipReason: null
+status: SUCCEEDED

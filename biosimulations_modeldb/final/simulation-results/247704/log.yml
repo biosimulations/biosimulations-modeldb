@@ -1,0 +1,137 @@
+duration: 25.735985
+exception: null
+output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
+  \ 1 reports, and 1 plots:\r\n  TC_RT_CT_twodelaymodel.sedml:\r\n    Tasks (1):\r\
+  \n      task\r\n    Reports (1):\r\n      report: 32 data sets\r\n    Plots (1):\r\
+  \n      plot: 3 curves\r\n\r\nExecuting SED-ML file 1: TC_RT_CT_twodelaymodel.sedml\
+  \ ...\r\n  Found 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n\
+  \    Outputs:\r\r\n      `plot`\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\
+  \r\n    Executing simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 2 outputs\
+  \ ...\r\r\n      Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n  \
+  \    Generating output 2: `plot` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed\
+  \ 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped:\
+  \ 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 2\r\r\n      Skipped:\
+  \ 0\r\r\n      Failed: 0\r\r\n\r\nBundling outputs ...\r\nCleaning up ...\r\n\r\n\
+  ============= SUMMARY =============\r\nExecuted 1 SED documents:\r\n  SED documents\
+  \ (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Tasks (1):\r\n\
+  \    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (2):\r\n    Succeeded:\
+  \ 2\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
+sedDocuments:
+- duration: 25.580451
+  exception: null
+  location: TC_RT_CT_twodelaymodel.sedml
+  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `plot`\r\n      `report`\r\n  Executing task 1: `task`\r\n    Executing\
+    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
+    \  Generating output 1: `report` ... \e[34msucceeded\e[0m\r\n      Generating\
+    \ output 2: `plot` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 2 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 2\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_DTC_T
+      status: SUCCEEDED
+    - id: data_set_FTC_H
+      status: SUCCEEDED
+    - id: data_set_GGB_GABAB
+      status: SUCCEEDED
+    - id: data_set_HCT_NA
+      status: SUCCEEDED
+    - id: data_set_HRE_NA
+      status: SUCCEEDED
+    - id: data_set_HRE_TS
+      status: SUCCEEDED
+    - id: data_set_HTC_K21
+      status: SUCCEEDED
+    - id: data_set_HTC_K22
+      status: SUCCEEDED
+    - id: data_set_HTC_NA
+      status: SUCCEEDED
+    - id: data_set_HTC_T
+      status: SUCCEEDED
+    - id: data_set_MA_AMPA
+      status: SUCCEEDED
+    - id: data_set_MB_GABAA
+      status: SUCCEEDED
+    - id: data_set_MCT_K
+      status: SUCCEEDED
+    - id: data_set_MCT_M
+      status: SUCCEEDED
+    - id: data_set_MCT_NA
+      status: SUCCEEDED
+    - id: data_set_MC_GABAA
+      status: SUCCEEDED
+    - id: data_set_MD_AMPA
+      status: SUCCEEDED
+    - id: data_set_ME_AMPA
+      status: SUCCEEDED
+    - id: data_set_MF_AMPA
+      status: SUCCEEDED
+    - id: data_set_MRE_K
+      status: SUCCEEDED
+    - id: data_set_MRE_NA
+      status: SUCCEEDED
+    - id: data_set_MRE_TS
+      status: SUCCEEDED
+    - id: data_set_MTC_K
+      status: SUCCEEDED
+    - id: data_set_MTC_K2
+      status: SUCCEEDED
+    - id: data_set_MTC_NA
+      status: SUCCEEDED
+    - id: data_set_MTC_T
+      status: SUCCEEDED
+    - id: data_set_RB_GABAB
+      status: SUCCEEDED
+    - id: data_set_STC_H
+      status: SUCCEEDED
+    - id: data_set_VCT
+      status: SUCCEEDED
+    - id: data_set_VRE
+      status: SUCCEEDED
+    - id: data_set_VTC
+      status: SUCCEEDED
+    duration: 1.385772
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1
+      status: SUCCEEDED
+    - id: curve_2
+      status: SUCCEEDED
+    - id: curve_3
+      status: SUCCEEDED
+    duration: 0.502669
+    exception: null
+    id: plot
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000032
+    duration: 23.579893
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '5000.0'
+    - key: meth
+      value: rungekutta
+    - key: dt
+      value: '0.005'
+    - key: t0
+      value: '0.0'
+    - key: njmp
+      value: '100'
+    skipReason: null
+    status: SUCCEEDED
+skipReason: null
+status: SUCCEEDED

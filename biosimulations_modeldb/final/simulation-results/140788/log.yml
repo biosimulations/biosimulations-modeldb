@@ -1,0 +1,223 @@
+duration: 4.59932
+exception: null
+output: "Archive contains 2 SED-ML documents with 2 models, 2 simulations, 2 tasks,\
+  \ 2 reports, and 2 plots:\r\n  tmpg896efzn.sedml:\r\n    Tasks (1):\r\n      task\r\
+  \n    Reports (1):\r\n      report: 24 data sets\r\n    Plots (1):\r\n      plot:\
+  \ 1 curves\r\n  twocompart_mnmodel.sedml:\r\n    Tasks (1):\r\n      task\r\n  \
+  \  Reports (1):\r\n      report: 24 data sets\r\n    Plots (1):\r\n      plot: 1\
+  \ curves\r\n\r\nExecuting SED-ML file 1: tmpg896efzn.sedml ...\r\n  Found 1 tasks\
+  \ and 2 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\r\n     \
+  \ `plot`\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing\
+  \ simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 2 outputs ...\r\r\n  \
+  \    Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n      Generating\
+  \ output 2: `plot` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and 2\
+  \ outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n \
+  \     Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 2\r\r\n      Skipped: 0\r\
+  \r\n      Failed: 0\r\r\nExecuting SED-ML file 2: twocompart_mnmodel.sedml ...\r\
+  \n  Found 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\
+  \r\n      `plot`\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing\
+  \ simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 2 outputs ...\r\r\n  \
+  \    Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n      Generating\
+  \ output 2: `plot` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and 2\
+  \ outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n \
+  \     Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 2\r\r\n      Skipped: 0\r\
+  \r\n      Failed: 0\r\r\n\r\nBundling outputs ...\r\nCleaning up ...\r\n\r\n=============\
+  \ SUMMARY =============\r\nExecuted 2 SED documents:\r\n  SED documents (2):\r\n\
+  \    Succeeded: 2\r\n    Skipped: 0\r\n    Failed: 0\r\n  Tasks (2):\r\n    Succeeded:\
+  \ 2\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (4):\r\n    Succeeded: 4\r\n\
+  \    Skipped: 0\r\n    Failed: 0\r\n\r\n"
+sedDocuments:
+- duration: 2.090872
+  exception: null
+  location: tmpg896efzn.sedml
+  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `plot`\r\n      `report`\r\n  Executing task 1: `task`\r\n    Executing\
+    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
+    \  Generating output 1: `report` ... \e[34msucceeded\e[0m\r\n      Generating\
+    \ output 2: `plot` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 2 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 2\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_CA1
+      status: SUCCEEDED
+    - id: data_set_CACD
+      status: SUCCEEDED
+    - id: data_set_CACS
+      status: SUCCEEDED
+    - id: data_set_CAD
+      status: SUCCEEDED
+    - id: data_set_CAP
+      status: SUCCEEDED
+    - id: data_set_CAS
+      status: SUCCEEDED
+    - id: data_set_DKCA
+      status: SUCCEEDED
+    - id: data_set_DLEAK
+      status: SUCCEEDED
+    - id: data_set_HNA
+      status: SUCCEEDED
+    - id: data_set_HSCAN
+      status: SUCCEEDED
+    - id: data_set_I1
+      status: SUCCEEDED
+    - id: data_set_I2
+      status: SUCCEEDED
+    - id: data_set_KDR
+      status: SUCCEEDED
+    - id: data_set_MCAP
+      status: SUCCEEDED
+    - id: data_set_MNAP
+      status: SUCCEEDED
+    - id: data_set_MSCAN
+      status: SUCCEEDED
+    - id: data_set_N
+      status: SUCCEEDED
+    - id: data_set_NA
+      status: SUCCEEDED
+    - id: data_set_NAP
+      status: SUCCEEDED
+    - id: data_set_SKCA
+      status: SUCCEEDED
+    - id: data_set_SLEAK
+      status: SUCCEEDED
+    - id: data_set_VD
+      status: SUCCEEDED
+    - id: data_set_VS
+      status: SUCCEEDED
+    duration: 1.078456
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_2
+      status: SUCCEEDED
+    duration: 0.34624
+    exception: null
+    id: plot
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000672
+    duration: 0.522692
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '10000.0'
+    - key: meth
+      value: qualrk
+    - key: t0
+      value: '0.0'
+    - key: dt
+      value: '1.0'
+    - key: njmp
+      value: '1'
+    skipReason: null
+    status: SUCCEEDED
+- duration: 2.100179
+  exception: null
+  location: twocompart_mnmodel.sedml
+  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `plot`\r\n      `report`\r\n  Executing task 1: `task`\r\n    Executing\
+    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
+    \  Generating output 1: `report` ... \e[34msucceeded\e[0m\r\n      Generating\
+    \ output 2: `plot` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 2 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 2\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_CA1
+      status: SUCCEEDED
+    - id: data_set_CACD
+      status: SUCCEEDED
+    - id: data_set_CACS
+      status: SUCCEEDED
+    - id: data_set_CAD
+      status: SUCCEEDED
+    - id: data_set_CAP
+      status: SUCCEEDED
+    - id: data_set_CAS
+      status: SUCCEEDED
+    - id: data_set_DKCA
+      status: SUCCEEDED
+    - id: data_set_DLEAK
+      status: SUCCEEDED
+    - id: data_set_HNA
+      status: SUCCEEDED
+    - id: data_set_HSCAN
+      status: SUCCEEDED
+    - id: data_set_I1
+      status: SUCCEEDED
+    - id: data_set_I2
+      status: SUCCEEDED
+    - id: data_set_KDR
+      status: SUCCEEDED
+    - id: data_set_MCAP
+      status: SUCCEEDED
+    - id: data_set_MNAP
+      status: SUCCEEDED
+    - id: data_set_MSCAN
+      status: SUCCEEDED
+    - id: data_set_N
+      status: SUCCEEDED
+    - id: data_set_NA
+      status: SUCCEEDED
+    - id: data_set_NAP
+      status: SUCCEEDED
+    - id: data_set_SKCA
+      status: SUCCEEDED
+    - id: data_set_SLEAK
+      status: SUCCEEDED
+    - id: data_set_VD
+      status: SUCCEEDED
+    - id: data_set_VS
+      status: SUCCEEDED
+    duration: 1.069826
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_2
+      status: SUCCEEDED
+    duration: 0.326238
+    exception: null
+    id: plot
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000672
+    duration: 0.552339
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '10000.0'
+    - key: meth
+      value: qualrk
+    - key: t0
+      value: '0.0'
+    - key: dt
+      value: '1.0'
+    - key: njmp
+      value: '1'
+    skipReason: null
+    status: SUCCEEDED
+skipReason: null
+status: SUCCEEDED

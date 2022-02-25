@@ -1,0 +1,124 @@
+duration: 2.215155
+exception: null
+output: "Archive contains 2 SED-ML documents with 2 models, 2 simulations, 2 tasks,\
+  \ 2 reports, and 0 plots:\r\n  One_full_cell_fixed_Ko_and_Nai.sedml:\r\n    Tasks\
+  \ (1):\r\n      task\r\n    Reports (1):\r\n      report: 4 data sets\r\n  One_full_cell_with_dyn_ion_conc.sedml:\r\
+  \n    Tasks (1):\r\n      task\r\n    Reports (1):\r\n      report: 6 data sets\r\
+  \n\r\nExecuting SED-ML file 1: One_full_cell_fixed_Ko_and_Nai.sedml ...\r\n  Found\
+  \ 1 tasks and 1 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\r\
+  \n      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing simulation ...\
+  \ \e[34msucceeded\e[0m\r\r\n    Generating 1 outputs ...\r\r\n      Generating output\
+  \ 1: `report` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and 1 outputs:\r\
+  \r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n      Failed:\
+  \ 0\r\r\n    Outputs:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n      Failed:\
+  \ 0\r\r\nExecuting SED-ML file 2: One_full_cell_with_dyn_ion_conc.sedml ...\r\n\
+  \  Found 1 tasks and 1 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\
+  \r\n      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing simulation\
+  \ ... \e[34msucceeded\e[0m\r\r\n    Generating 1 outputs ...\r\r\n      Generating\
+  \ output 1: `report` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and\
+  \ 1 outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n\
+  \      Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\
+  \r\n      Failed: 0\r\r\n\r\nBundling outputs ...\r\nCleaning up ...\r\n\r\n=============\
+  \ SUMMARY =============\r\nExecuted 2 SED documents:\r\n  SED documents (2):\r\n\
+  \    Succeeded: 2\r\n    Skipped: 0\r\n    Failed: 0\r\n  Tasks (2):\r\n    Succeeded:\
+  \ 2\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (2):\r\n    Succeeded: 2\r\n\
+  \    Skipped: 0\r\n    Failed: 0\r\n\r\n"
+sedDocuments:
+- duration: 0.556885
+  exception: null
+  location: One_full_cell_fixed_Ko_and_Nai.sedml
+  output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `report`\r\n  Executing task 1: `task`\r\n    Executing simulation ...\
+    \ \e[34msucceeded\e[0m\r\n    Generating 1 outputs ...\r\n      Generating output\
+    \ 1: `report` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 1 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_H
+      status: SUCCEEDED
+    - id: data_set_N
+      status: SUCCEEDED
+    - id: data_set_V
+      status: SUCCEEDED
+    duration: 0.243776
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000032
+    duration: 0.208839
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '1000.0'
+    - key: meth
+      value: rungekutta
+    - key: t0
+      value: '0.0'
+    - key: dt
+      value: '0.05'
+    - key: njmp
+      value: '2'
+    skipReason: null
+    status: SUCCEEDED
+- duration: 1.443999
+  exception: null
+  location: One_full_cell_with_dyn_ion_conc.sedml
+  output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `report`\r\n  Executing task 1: `task`\r\n    Executing simulation ...\
+    \ \e[34msucceeded\e[0m\r\n    Generating 1 outputs ...\r\n      Generating output\
+    \ 1: `report` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 1 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_H
+      status: SUCCEEDED
+    - id: data_set_KO
+      status: SUCCEEDED
+    - id: data_set_N
+      status: SUCCEEDED
+    - id: data_set_NAI
+      status: SUCCEEDED
+    - id: data_set_V
+      status: SUCCEEDED
+    duration: 0.388438
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000032
+    duration: 0.932707
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '10000.0'
+    - key: meth
+      value: rungekutta
+    - key: t0
+      value: '0.0'
+    - key: dt
+      value: '0.05'
+    - key: njmp
+      value: '20'
+    skipReason: null
+    status: SUCCEEDED
+skipReason: null
+status: SUCCEEDED

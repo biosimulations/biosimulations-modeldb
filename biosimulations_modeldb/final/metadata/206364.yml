@@ -11,7 +11,7 @@ description: "# ISR-of-Purkinje-cells\n\nThis is the README for the model associ
   bifurcation analysis.\n\nIf you would like to use this code for the scientific publication,\n\
   please do not forget to cite the original paper\nhttp://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005000\n\
   \nIf you have any troubles with running these simulations, do not\nhesitate to let\
-  \ me know.\n\nBest\nAnatoly\n"
+  \ me know.\n\nBest\nAnatoly"
 references:
 - label: "Anatoly Buchin, Sarah Rieubland, Michael H\xE4usser, Boris S. Gutkin & Arnd\
     \ Roth. Inverse Stochastic Resonance in Cerebellar Purkinje Cells. PLOS Computational\
@@ -176,25 +176,25 @@ thumbnails:
   local_filename: source/thumbnails/PMC4991839/PMC4991839/pcbi.1005000.g007.jpg
 - archive_filename: trajectory_increase_noise.jpg
   format: jpeg
-  local_filename: source/models/206364/trajectory_increase_noise.jpg
+  local_filename: source/projects/206364/trajectory_increase_noise.jpg
 - archive_filename: trajectory_rand_noise.jpg
   format: jpeg
-  local_filename: source/models/206364/trajectory_rand_noise.jpg
+  local_filename: source/projects/206364/trajectory_rand_noise.jpg
 - archive_filename: trajectory_rand_noise.png
   format: png
-  local_filename: source/models/206364/trajectory_rand_noise.png
+  local_filename: source/projects/206364/trajectory_rand_noise.png
 - archive_filename: deShutter-Bower/DSB94_play/Imean=-160pA.jpg
   format: jpeg
-  local_filename: source/models/206364/deShutter-Bower/DSB94_play/Imean=-160pA.jpg
+  local_filename: source/projects/206364/deShutter-Bower/DSB94_play/Imean=-160pA.jpg
 - archive_filename: XPP/Basin of attraction/aEIF_bif_bassin.jpg
   format: jpeg
-  local_filename: source/models/206364/XPP/Basin of attraction/aEIF_bif_bassin.jpg
+  local_filename: source/projects/206364/XPP/Basin of attraction/aEIF_bif_bassin.jpg
 - archive_filename: XPP/Basin of attraction/-100/V_w_100.jpg
   format: jpeg
-  local_filename: source/models/206364/XPP/Basin of attraction/-100/V_w_100.jpg
+  local_filename: source/projects/206364/XPP/Basin of attraction/-100/V_w_100.jpg
 - archive_filename: XPP/Basin of attraction/-150/V_w_150.jpg
   format: jpeg
-  local_filename: source/models/206364/XPP/Basin of attraction/-150/V_w_150.jpg
+  local_filename: source/projects/206364/XPP/Basin of attraction/-150/V_w_150.jpg
 - archive_filename: XPP/Basin of attraction/-200/V_w_200.jpg
   format: jpeg
-  local_filename: source/models/206364/XPP/Basin of attraction/-200/V_w_200.jpg
+  local_filename: source/projects/206364/XPP/Basin of attraction/-200/V_w_200.jpg

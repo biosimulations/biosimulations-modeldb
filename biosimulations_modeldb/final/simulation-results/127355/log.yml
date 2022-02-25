@@ -1,0 +1,87 @@
+duration: 0.776428
+exception: null
+output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
+  \ 1 reports, and 1 plots:\r\n  AP-sim-Ca.sedml:\r\n    Tasks (1):\r\n      task\r\
+  \n    Reports (1):\r\n      report: 9 data sets\r\n    Plots (1):\r\n      plot:\
+  \ 1 curves\r\n\r\nExecuting SED-ML file 1: AP-sim-Ca.sedml ...\r\n  Found 1 tasks\
+  \ and 2 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\r\n     \
+  \ `plot`\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing\
+  \ simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 2 outputs ...\r\r\n  \
+  \    Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n      Generating\
+  \ output 2: `plot` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and 2\
+  \ outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n \
+  \     Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 2\r\r\n      Skipped: 0\r\
+  \r\n      Failed: 0\r\r\n\r\nBundling outputs ...\r\nCleaning up ...\r\n\r\n=============\
+  \ SUMMARY =============\r\nExecuted 1 SED documents:\r\n  SED documents (1):\r\n\
+  \    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Tasks (1):\r\n    Succeeded:\
+  \ 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (2):\r\n    Succeeded: 2\r\n\
+  \    Skipped: 0\r\n    Failed: 0\r\n\r\n"
+sedDocuments:
+- duration: 0.601563
+  exception: null
+  location: AP-sim-Ca.sedml
+  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `plot`\r\n      `report`\r\n  Executing task 1: `task`\r\n    Executing\
+    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
+    \  Generating output 1: `report` ... \e[34msucceeded\e[0m\r\n      Generating\
+    \ output 2: `plot` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 2 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 2\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_H
+      status: SUCCEEDED
+    - id: data_set_ICA
+      status: SUCCEEDED
+    - id: data_set_IK
+      status: SUCCEEDED
+    - id: data_set_INA
+      status: SUCCEEDED
+    - id: data_set_M
+      status: SUCCEEDED
+    - id: data_set_MCA
+      status: SUCCEEDED
+    - id: data_set_N
+      status: SUCCEEDED
+    - id: data_set_V
+      status: SUCCEEDED
+    duration: 0.163043
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1
+      status: SUCCEEDED
+    duration: 0.186105
+    exception: null
+    id: plot
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000030
+    duration: 0.149119
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: meth
+      value: euler
+    - key: total
+      value: '20.0'
+    - key: dt
+      value: '0.01'
+    - key: t0
+      value: '0.0'
+    - key: njmp
+      value: '1'
+    skipReason: null
+    status: SUCCEEDED
+skipReason: null
+status: SUCCEEDED

@@ -1,6 +1,6 @@
 45513:
   DBdep+A.ode:
-    - filename: 45513/DBdep+A.ode.set
+    - filename: DBdep+A.ode.set
       id: figure_9d
       name: Figure 9d
 116867:
@@ -20,7 +20,7 @@
     - filename: OneCellTwoOsc.ode.setsb
       id: figure_2a
       name: Figure 2a
-    - filenane: OneCellTwoOsc.ode.setdb
+    - filename: OneCellTwoOsc.ode.setdb
       id: figure_2b
       name: Figure 2b
     - filename: OneCellTwoOsc.ode.setsdb

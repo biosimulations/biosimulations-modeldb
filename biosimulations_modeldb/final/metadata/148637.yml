@@ -13,7 +13,7 @@ description: "Reproduces figures 5 - 8 from\n\nDovzhenok, A., C. Park, R.M. Wort
   \ and 6B.\n4b. Run Sign_subset.m with the outcome of the step 3b to generate\nfigure\
   \ 5 and the rest of figure 6.\n\n5a. Run Max_plane_1el.m with the outcomes of the\
   \ step 3a to generate\nfigures 8A and 8B.\n5b. Run Max_plane.m with the outcomes\
-  \ of the step 3b to generate\nfigure 7 and the rest of figure 8.\n"
+  \ of the step 3b to generate\nfigure 7 and the rest of figure 8."
 references:
 - label: 'Andrey Dovzhenok, Choongseok Park, Robert M. Worth & Leonid L. Rubchinsky.
     Failure of delayed feedback deep brain stimulation for intermittent pathological

@@ -534,25 +534,25 @@ thumbnails:
   local_filename: source/thumbnails/PMC5483227/PMC5483227/13408_2017_47_Fig12_HTML.jpg
 - archive_filename: BD_2D.png
   format: png
-  local_filename: source/models/260730/BD_2D.png
+  local_filename: source/projects/260730/BD_2D.png
 - archive_filename: HR Hopf Adaptation.png
   format: png
-  local_filename: source/models/260730/HR Hopf Adaptation.png
+  local_filename: source/projects/260730/HR Hopf Adaptation.png
 - archive_filename: HR SNIC Adaptation.png
   format: png
-  local_filename: source/models/260730/HR SNIC Adaptation.png
+  local_filename: source/projects/260730/HR SNIC Adaptation.png
 - archive_filename: HR_SNIC_2D.png
   format: png
-  local_filename: source/models/260730/HR_SNIC_2D.png
+  local_filename: source/projects/260730/HR_SNIC_2D.png
 - archive_filename: ML_Hopf.png
   format: png
-  local_filename: source/models/260730/ML_Hopf.png
+  local_filename: source/projects/260730/ML_Hopf.png
 - archive_filename: ML_SNIC.png
   format: png
-  local_filename: source/models/260730/ML_SNIC.png
+  local_filename: source/projects/260730/ML_SNIC.png
 - archive_filename: screenshot.png
   format: png
-  local_filename: source/models/260730/screenshot.png
+  local_filename: source/projects/260730/screenshot.png
 - archive_filename: Unadapted f-I.png
   format: png
-  local_filename: source/models/260730/Unadapted f-I.png
+  local_filename: source/projects/260730/Unadapted f-I.png

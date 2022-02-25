@@ -66,8 +66,7 @@ plot(data.T,data.X(:,1))
 The code used to sample the model throughout parameter space to determine stability and investigate the effect of model parameters on model output is found in the ME-PCM directory
 
 ## xpp
-The ODE file to recreate the bifurcation diagram is found in the xpp directory 
-</dc:description>
+The ODE file to recreate the bifurcation diagram is found in the xpp directory</dc:description>
   </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>

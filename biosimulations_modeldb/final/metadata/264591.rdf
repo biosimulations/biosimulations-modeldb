@@ -20,8 +20,7 @@ In MATCONT, analytical Jacobian was used. You can run DRG_Jacobian.m to generate
 The MATCONT equations are scaled, while XPP equations are not.
 
 20200521 An update from Parul Verma supplied another XPP file and the
-bioRxiv citation was added to this Readme
-</dc:description>
+bioRxiv citation was added to this Readme</dc:description>
   </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>

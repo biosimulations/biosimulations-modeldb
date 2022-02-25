@@ -1,0 +1,170 @@
+duration: 3.769595
+exception: null
+output: "Archive contains 2 SED-ML documents with 2 models, 2 simulations, 2 tasks,\
+  \ 2 reports, and 0 plots:\r\n  xpp-models/ball-and-stick.sedml:\r\n    Tasks (1):\r\
+  \n      task\r\n    Reports (1):\r\n      report: 20 data sets\r\n  xpp-models/isopotential.sedml:\r\
+  \n    Tasks (1):\r\n      task\r\n    Reports (1):\r\n      report: 13 data sets\r\
+  \n\r\nExecuting SED-ML file 1: xpp-models/ball-and-stick.sedml ...\r\n  Found 1\
+  \ tasks and 1 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\r\n\
+  \      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing simulation ...\
+  \ \e[34msucceeded\e[0m\r\r\n    Generating 1 outputs ...\r\r\n      Generating output\
+  \ 1: `report` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and 1 outputs:\r\
+  \r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n      Failed:\
+  \ 0\r\r\n    Outputs:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n      Failed:\
+  \ 0\r\r\nExecuting SED-ML file 2: xpp-models/isopotential.sedml ...\r\n  Found 1\
+  \ tasks and 1 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\r\n\
+  \      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing simulation ...\
+  \ \e[34msucceeded\e[0m\r\r\n    Generating 1 outputs ...\r\r\n      Generating output\
+  \ 1: `report` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and 1 outputs:\r\
+  \r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n      Failed:\
+  \ 0\r\r\n    Outputs:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n      Failed:\
+  \ 0\r\r\n\r\nBundling outputs ...\r\nCleaning up ...\r\n\r\n============= SUMMARY\
+  \ =============\r\nExecuted 2 SED documents:\r\n  SED documents (2):\r\n    Succeeded:\
+  \ 2\r\n    Skipped: 0\r\n    Failed: 0\r\n  Tasks (2):\r\n    Succeeded: 2\r\n \
+  \   Skipped: 0\r\n    Failed: 0\r\n  Outputs (2):\r\n    Succeeded: 2\r\n    Skipped:\
+  \ 0\r\n    Failed: 0\r\n\r\n"
+sedDocuments:
+- duration: 2.082696
+  exception: null
+  location: xpp-models/ball-and-stick.sedml
+  output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `report`\r\n  Executing task 1: `task`\r\n    Executing simulation ...\
+    \ \e[34msucceeded\e[0m\r\n    Generating 1 outputs ...\r\n      Generating output\
+    \ 1: `report` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 1 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_HKF2VA
+      status: SUCCEEDED
+    - id: data_set_HKF2VM
+      status: SUCCEEDED
+    - id: data_set_HKFVA
+      status: SUCCEEDED
+    - id: data_set_HKFVM
+      status: SUCCEEDED
+    - id: data_set_HNA
+      status: SUCCEEDED
+    - id: data_set_IKFVA
+      status: SUCCEEDED
+    - id: data_set_IKFVM
+      status: SUCCEEDED
+    - id: data_set_IKSVA
+      status: SUCCEEDED
+    - id: data_set_IKSVM
+      status: SUCCEEDED
+    - id: data_set_INA
+      status: SUCCEEDED
+    - id: data_set_INAP
+      status: SUCCEEDED
+    - id: data_set_MKFVA
+      status: SUCCEEDED
+    - id: data_set_MKFVM
+      status: SUCCEEDED
+    - id: data_set_MKSVA
+      status: SUCCEEDED
+    - id: data_set_MKSVM
+      status: SUCCEEDED
+    - id: data_set_MNA
+      status: SUCCEEDED
+    - id: data_set_MNAP
+      status: SUCCEEDED
+    - id: data_set_VA
+      status: SUCCEEDED
+    - id: data_set_VM
+      status: SUCCEEDED
+    duration: 0.566742
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000030
+    duration: 1.367426
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '600.0'
+    - key: meth
+      value: euler
+    - key: njmp
+      value: '100'
+    - key: dt
+      value: '.001'
+    - key: t0
+      value: '0.0'
+    skipReason: null
+    status: SUCCEEDED
+- duration: 1.264601
+  exception: null
+  location: xpp-models/isopotential.sedml
+  output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `report`\r\n  Executing task 1: `task`\r\n    Executing simulation ...\
+    \ \e[34msucceeded\e[0m\r\n    Generating 1 outputs ...\r\n      Generating output\
+    \ 1: `report` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 1 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_HKF
+      status: SUCCEEDED
+    - id: data_set_HKF2
+      status: SUCCEEDED
+    - id: data_set_HNA
+      status: SUCCEEDED
+    - id: data_set_IKF
+      status: SUCCEEDED
+    - id: data_set_IKS
+      status: SUCCEEDED
+    - id: data_set_INA
+      status: SUCCEEDED
+    - id: data_set_INAP
+      status: SUCCEEDED
+    - id: data_set_MKF
+      status: SUCCEEDED
+    - id: data_set_MKS
+      status: SUCCEEDED
+    - id: data_set_MNA
+      status: SUCCEEDED
+    - id: data_set_MNAP
+      status: SUCCEEDED
+    - id: data_set_V
+      status: SUCCEEDED
+    duration: 0.356914
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000030
+    duration: 0.801283
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '530.0'
+    - key: meth
+      value: euler
+    - key: njmp
+      value: '100'
+    - key: dt
+      value: '.001'
+    - key: t0
+      value: '0.0'
+    skipReason: null
+    status: SUCCEEDED
+skipReason: null
+status: SUCCEEDED

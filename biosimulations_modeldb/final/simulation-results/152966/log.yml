@@ -1,0 +1,125 @@
+duration: 4.876652
+exception: null
+output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
+  \ 1 reports, and 1 plots:\r\n  LRd01.sedml:\r\n    Tasks (1):\r\n      task\r\n\
+  \    Reports (1):\r\n      report: 28 data sets\r\n    Plots (1):\r\n      plot:\
+  \ 1 curves\r\n\r\nExecuting SED-ML file 1: LRd01.sedml ...\r\n  Found 1 tasks and\
+  \ 2 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\r\n      `plot`\r\
+  \r\n      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing simulation\
+  \ ... \e[34msucceeded\e[0m\r\r\n    Generating 2 outputs ...\r\r\n      Generating\
+  \ output 1: `report` ... \e[34msucceeded\e[0m\r\r\n      Generating output 2: `plot`\
+  \ ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and 2 outputs:\r\r\n  \
+  \  Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\
+  \n    Outputs:\r\r\n      Succeeded: 2\r\r\n      Skipped: 0\r\r\n      Failed:\
+  \ 0\r\r\n\r\nBundling outputs ...\r\nCleaning up ...\r\n\r\n============= SUMMARY\
+  \ =============\r\nExecuted 1 SED documents:\r\n  SED documents (1):\r\n    Succeeded:\
+  \ 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Tasks (1):\r\n    Succeeded: 1\r\n \
+  \   Skipped: 0\r\n    Failed: 0\r\n  Outputs (2):\r\n    Succeeded: 2\r\n    Skipped:\
+  \ 0\r\n    Failed: 0\r\n\r\n"
+sedDocuments:
+- duration: 4.700421
+  exception: null
+  location: LRd01.sedml
+  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `plot`\r\n      `report`\r\n  Executing task 1: `task`\r\n    Executing\
+    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
+    \  Generating output 1: `report` ... \e[34msucceeded\e[0m\r\n      Generating\
+    \ output 2: `plot` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 2 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 2\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_APTRACK
+      status: SUCCEEDED
+    - id: data_set_APTRACK2
+      status: SUCCEEDED
+    - id: data_set_APTRACK3
+      status: SUCCEEDED
+    - id: data_set_B
+      status: SUCCEEDED
+    - id: data_set_CAFLUXTR
+      status: SUCCEEDED
+    - id: data_set_CAI
+      status: SUCCEEDED
+    - id: data_set_CA_JSR
+      status: SUCCEEDED
+    - id: data_set_CA_NSR
+      status: SUCCEEDED
+    - id: data_set_D
+      status: SUCCEEDED
+    - id: data_set_F
+      status: SUCCEEDED
+    - id: data_set_G
+      status: SUCCEEDED
+    - id: data_set_H
+      status: SUCCEEDED
+    - id: data_set_IKR
+      status: SUCCEEDED
+    - id: data_set_IKS
+      status: SUCCEEDED
+    - id: data_set_J
+      status: SUCCEEDED
+    - id: data_set_KI
+      status: SUCCEEDED
+    - id: data_set_M
+      status: SUCCEEDED
+    - id: data_set_NA_I
+      status: SUCCEEDED
+    - id: data_set_O_TRACK
+      status: SUCCEEDED
+    - id: data_set_O_TRACK2
+      status: SUCCEEDED
+    - id: data_set_O_TRACK3
+      status: SUCCEEDED
+    - id: data_set_V
+      status: SUCCEEDED
+    - id: data_set_XR
+      status: SUCCEEDED
+    - id: data_set_XS1
+      status: SUCCEEDED
+    - id: data_set_XS2
+      status: SUCCEEDED
+    - id: data_set_YDV
+      status: SUCCEEDED
+    - id: data_set_ZDV
+      status: SUCCEEDED
+    duration: 1.194568
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1
+      status: SUCCEEDED
+    duration: 0.293439
+    exception: null
+    id: plot
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000030
+    duration: 3.096404
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: meth
+      value: euler
+    - key: total
+      value: '3000.0'
+    - key: njmp
+      value: '30'
+    - key: dt
+      value: '0.01'
+    - key: t0
+      value: '0.0'
+    skipReason: null
+    status: SUCCEEDED
+skipReason: null
+status: SUCCEEDED

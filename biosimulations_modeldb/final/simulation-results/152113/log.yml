@@ -1,0 +1,107 @@
+duration: 3.51173
+exception: null
+output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
+  \ 1 reports, and 1 plots:\r\n  BGCT_Basic.sedml:\r\n    Tasks (1):\r\n      task\r\
+  \n    Reports (1):\r\n      report: 19 data sets\r\n    Plots (1):\r\n      plot:\
+  \ 1 curves\r\n\r\nExecuting SED-ML file 1: BGCT_Basic.sedml ...\r\n  Found 1 tasks\
+  \ and 2 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\r\n     \
+  \ `plot`\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing\
+  \ simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 2 outputs ...\r\r\n  \
+  \    Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n      Generating\
+  \ output 2: `plot` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and 2\
+  \ outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n \
+  \     Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 2\r\r\n      Skipped: 0\r\
+  \r\n      Failed: 0\r\r\n\r\nBundling outputs ...\r\nCleaning up ...\r\n\r\n=============\
+  \ SUMMARY =============\r\nExecuted 1 SED documents:\r\n  SED documents (1):\r\n\
+  \    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Tasks (1):\r\n    Succeeded:\
+  \ 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (2):\r\n    Succeeded: 2\r\n\
+  \    Skipped: 0\r\n    Failed: 0\r\n\r\n"
+sedDocuments:
+- duration: 3.261322
+  exception: null
+  location: BGCT_Basic.sedml
+  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `plot`\r\n      `report`\r\n  Executing task 1: `task`\r\n    Executing\
+    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
+    \  Generating output 1: `report` ... \e[34msucceeded\e[0m\r\n      Generating\
+    \ output 2: `plot` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 2 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 2\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_X1
+      status: SUCCEEDED
+    - id: data_set_X2
+      status: SUCCEEDED
+    - id: data_set_X3
+      status: SUCCEEDED
+    - id: data_set_X4
+      status: SUCCEEDED
+    - id: data_set_X5
+      status: SUCCEEDED
+    - id: data_set_X6
+      status: SUCCEEDED
+    - id: data_set_X7
+      status: SUCCEEDED
+    - id: data_set_X8
+      status: SUCCEEDED
+    - id: data_set_X9
+      status: SUCCEEDED
+    - id: data_set_X10
+      status: SUCCEEDED
+    - id: data_set_X11
+      status: SUCCEEDED
+    - id: data_set_X12
+      status: SUCCEEDED
+    - id: data_set_X13
+      status: SUCCEEDED
+    - id: data_set_X14
+      status: SUCCEEDED
+    - id: data_set_X15
+      status: SUCCEEDED
+    - id: data_set_X16
+      status: SUCCEEDED
+    - id: data_set_X17
+      status: SUCCEEDED
+    - id: data_set_X18
+      status: SUCCEEDED
+    duration: 0.86902
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1
+      status: SUCCEEDED
+    duration: 0.391093
+    exception: null
+    id: plot
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000032
+    duration: 1.87731
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '13.0'
+    - key: meth
+      value: rungekutta
+    - key: dt
+      value: '0.00005'
+    - key: t0
+      value: '0.0'
+    - key: njmp
+      value: '26'
+    skipReason: null
+    status: SUCCEEDED
+skipReason: null
+status: SUCCEEDED

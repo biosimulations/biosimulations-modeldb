@@ -1,0 +1,181 @@
+duration: 1.231807
+exception: null
+output: "Archive contains 3 SED-ML documents with 3 models, 3 simulations, 3 tasks,\
+  \ 3 reports, and 0 plots:\r\n  NNF.sedml:\r\n    Tasks (1):\r\n      task\r\n  \
+  \  Reports (1):\r\n      report: 6 data sets\r\n  PNF.sedml:\r\n    Tasks (1):\r\
+  \n      task\r\n    Reports (1):\r\n      report: 6 data sets\r\n  SNF.sedml:\r\n\
+  \    Tasks (1):\r\n      task\r\n    Reports (1):\r\n      report: 4 data sets\r\
+  \n\r\nExecuting SED-ML file 1: NNF.sedml ...\r\n  Found 1 tasks and 1 outputs:\r\
+  \r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\r\n      `report`\r\r\n  Executing\
+  \ task 1: `task`\r\r\n    Executing simulation ... \e[34msucceeded\e[0m\r\r\n  \
+  \  Generating 1 outputs ...\r\r\n      Generating output 1: `report` ... \e[34msucceeded\e\
+  [0m\r\r\n\r\r\n  Executed 1 tasks and 1 outputs:\r\r\n    Tasks:\r\r\n      Succeeded:\
+  \ 1\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded:\
+  \ 1\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\nExecuting SED-ML file 2: PNF.sedml\
+  \ ...\r\n  Found 1 tasks and 1 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n\
+  \    Outputs:\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing\
+  \ simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 1 outputs ...\r\r\n  \
+  \    Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed\
+  \ 1 tasks and 1 outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped:\
+  \ 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 1\r\r\n      Skipped:\
+  \ 0\r\r\n      Failed: 0\r\r\nExecuting SED-ML file 3: SNF.sedml ...\r\n  Found\
+  \ 1 tasks and 1 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\r\
+  \n      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing simulation ...\
+  \ \e[34msucceeded\e[0m\r\r\n    Generating 1 outputs ...\r\r\n      Generating output\
+  \ 1: `report` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and 1 outputs:\r\
+  \r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n      Failed:\
+  \ 0\r\r\n    Outputs:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n      Failed:\
+  \ 0\r\r\n\r\nBundling outputs ...\r\nCleaning up ...\r\n\r\n============= SUMMARY\
+  \ =============\r\nExecuted 3 SED documents:\r\n  SED documents (3):\r\n    Succeeded:\
+  \ 3\r\n    Skipped: 0\r\n    Failed: 0\r\n  Tasks (3):\r\n    Succeeded: 3\r\n \
+  \   Skipped: 0\r\n    Failed: 0\r\n  Outputs (3):\r\n    Succeeded: 3\r\n    Skipped:\
+  \ 0\r\n    Failed: 0\r\n\r\n"
+sedDocuments:
+- duration: 0.310496
+  exception: null
+  location: NNF.sedml
+  output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `report`\r\n  Executing task 1: `task`\r\n    Executing simulation ...\
+    \ \e[34msucceeded\e[0m\r\n    Generating 1 outputs ...\r\n      Generating output\
+    \ 1: `report` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 1 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_A
+      status: SUCCEEDED
+    - id: data_set_M
+      status: SUCCEEDED
+    - id: data_set_P
+      status: SUCCEEDED
+    - id: data_set_PC
+      status: SUCCEEDED
+    - id: data_set_R
+      status: SUCCEEDED
+    duration: 0.060416
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000668
+    duration: 0.137612
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: meth
+      value: stiff
+    - key: t0
+      value: '0.0'
+    - key: total
+      value: '20.0'
+    - key: dt
+      value: '0.05'
+    - key: njmp
+      value: '1'
+    skipReason: null
+    status: SUCCEEDED
+- duration: 0.299749
+  exception: null
+  location: PNF.sedml
+  output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `report`\r\n  Executing task 1: `task`\r\n    Executing simulation ...\
+    \ \e[34msucceeded\e[0m\r\n    Generating 1 outputs ...\r\n      Generating output\
+    \ 1: `report` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 1 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_A
+      status: SUCCEEDED
+    - id: data_set_M
+      status: SUCCEEDED
+    - id: data_set_P
+      status: SUCCEEDED
+    - id: data_set_PC
+      status: SUCCEEDED
+    - id: data_set_R
+      status: SUCCEEDED
+    duration: 0.062142
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000668
+    duration: 0.132671
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: meth
+      value: stiff
+    - key: t0
+      value: '0.0'
+    - key: total
+      value: '20.0'
+    - key: dt
+      value: '0.05'
+    - key: njmp
+      value: '1'
+    skipReason: null
+    status: SUCCEEDED
+- duration: 0.309795
+  exception: null
+  location: SNF.sedml
+  output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `report`\r\n  Executing task 1: `task`\r\n    Executing simulation ...\
+    \ \e[34msucceeded\e[0m\r\n    Generating 1 outputs ...\r\n      Generating output\
+    \ 1: `report` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 1 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_M
+      status: SUCCEEDED
+    - id: data_set_P
+      status: SUCCEEDED
+    - id: data_set_PC
+      status: SUCCEEDED
+    duration: 0.060647
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000668
+    duration: 0.126
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: meth
+      value: stiff
+    - key: t0
+      value: '0.0'
+    - key: total
+      value: '20.0'
+    - key: dt
+      value: '0.05'
+    - key: njmp
+      value: '1'
+    skipReason: null
+    status: SUCCEEDED
+skipReason: null
+status: SUCCEEDED

@@ -1,0 +1,101 @@
+duration: 1.456308
+exception: null
+output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
+  \ 1 reports, and 0 plots:\r\n  Yu_et_al_04_R15_model.sedml:\r\n    Tasks (1):\r\n\
+  \      task\r\n    Reports (1):\r\n      report: 20 data sets\r\n\r\nExecuting SED-ML\
+  \ file 1: Yu_et_al_04_R15_model.sedml ...\r\n  Found 1 tasks and 1 outputs:\r\r\n\
+  \    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\r\n      `report`\r\r\n  Executing\
+  \ task 1: `task`\r\r\n    Executing simulation ... \e[34msucceeded\e[0m\r\r\n  \
+  \  Generating 1 outputs ...\r\r\n      Generating output 1: `report` ... \e[34msucceeded\e\
+  [0m\r\r\n\r\r\n  Executed 1 tasks and 1 outputs:\r\r\n    Tasks:\r\r\n      Succeeded:\
+  \ 1\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded:\
+  \ 1\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\n\r\nBundling outputs ...\r\n\
+  Cleaning up ...\r\n\r\n============= SUMMARY =============\r\nExecuted 1 SED documents:\r\
+  \n  SED documents (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n\
+  \  Tasks (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs\
+  \ (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
+sedDocuments:
+- duration: 1.341908
+  exception: null
+  location: Yu_et_al_04_R15_model.sedml
+  output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `report`\r\n  Executing task 1: `task`\r\n    Executing simulation ...\
+    \ \e[34msucceeded\e[0m\r\n    Generating 1 outputs ...\r\n      Generating output\
+    \ 1: `report` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 1 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_B
+      status: SUCCEEDED
+    - id: data_set_CA
+      status: SUCCEEDED
+    - id: data_set_CA2CAM
+      status: SUCCEEDED
+    - id: data_set_CA3CAM
+      status: SUCCEEDED
+    - id: data_set_CA4CAM
+      status: SUCCEEDED
+    - id: data_set_CACAM
+      status: SUCCEEDED
+    - id: data_set_CAM
+      status: SUCCEEDED
+    - id: data_set_CAMP
+      status: SUCCEEDED
+    - id: data_set_D
+      status: SUCCEEDED
+    - id: data_set_F
+      status: SUCCEEDED
+    - id: data_set_H
+      status: SUCCEEDED
+    - id: data_set_L
+      status: SUCCEEDED
+    - id: data_set_M
+      status: SUCCEEDED
+    - id: data_set_MSYN
+      status: SUCCEEDED
+    - id: data_set_MSYN2
+      status: SUCCEEDED
+    - id: data_set_N
+      status: SUCCEEDED
+    - id: data_set_OC
+      status: SUCCEEDED
+    - id: data_set_S
+      status: SUCCEEDED
+    - id: data_set_V
+      status: SUCCEEDED
+    duration: 0.923382
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000019
+    duration: 0.317413
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '80000.0'
+    - key: meth
+      value: cvode
+    - key: toler
+      value: '0.00001'
+    - key: atoler
+      value: '0.0000001'
+    - key: t0
+      value: '0.0'
+    - key: dt
+      value: '8.0'
+    - key: njmp
+      value: '1'
+    skipReason: null
+    status: SUCCEEDED
+skipReason: null
+status: SUCCEEDED

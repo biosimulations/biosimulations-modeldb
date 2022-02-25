@@ -8,8 +8,7 @@
 </dc:abstract>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/167715.omex">
-    <dc:description>
-Two programs 
+    <dc:description>Two programs 
 
 * sd-wild-type.ode
 * sd-mutation.ode
@@ -29,9 +28,7 @@ this disease.
 Code for xppaut.
 
 Email: markus.dahlem@gmail.com
-Web: https://sites.google.com/site/markusadahlem/
-
-</dc:description>
+Web: https://sites.google.com/site/markusadahlem/</dc:description>
   </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>

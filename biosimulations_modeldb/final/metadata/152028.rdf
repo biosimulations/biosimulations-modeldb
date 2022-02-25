@@ -7,9 +7,7 @@
     <dc:abstract>Single compartmental, ball-and-stick models implemented in XPP and full morphological model in Neuron. Paper has been submitted and correlates anatomical properties with electrophysiological recordings from these hard-to-access neurons. For instance we make predictions about location of the spike initiation zone, channel distributions, and synaptic input parameters.</dc:abstract>
   </rdf:Description>
   <rdf:Description rdf:about="http://omex-library.org/152028.omex">
-    <dc:description>```
-&#13;&#13;
-This is the modeling package to accompany paper by:&#13;&#13;
+    <dc:description>This is the modeling package to accompany paper by:&#13;&#13;
 &#13;&#13;
 Cengiz Gunay, Fred Sieling, Logesh Dharmar, Wei-Hsiang Lin, Verena&#13;&#13;
 Wolfram, Richard Marley, Richard A. Baines, and Astrid A. Prinz.&#13;&#13;
@@ -24,10 +22,10 @@ Neuron 7.1 - &lt;http://www.neuron.yale.edu&gt;&#13;&#13;
 PANDORA 1.3b - &lt;http://software.incf.org/software/pandora&gt;&#13;&#13;
 &#13;&#13;
 Directories:&#13;&#13;
-channels/	Results of channel fits and related figures (see all\_channels.m).&#13;&#13;
-xpp-models/	Isopotential and ball-and-stick models and their figures (see figure\_models.m).&#13;&#13;
-morphological/	Multicompartmental model in Neuron (see figures.m).&#13;&#13;
-param-fitter/   Matlab code used for channel parameter fitting (add to Matlab path).&#13;&#13;
+channels/ Results of channel fits and related figures (see all\_channels.m).&#13;&#13;
+xpp-models/ Isopotential and ball-and-stick models and their figures (see figure\_models.m).&#13;&#13;
+morphological/ Multicompartmental model in Neuron (see figures.m).&#13;&#13;
+param-fitter/ Matlab code used for channel parameter fitting (add to Matlab path).&#13;&#13;
 &#13;&#13;
 Workflow/history of project:&#13;&#13;
 - Channel data were fit with the Neurofit tool and then re-adjusted with param-fitter in Matlab.&#13;&#13;
@@ -43,9 +41,7 @@ separately.&#13;&#13;
 &#13;&#13;
 Please report problems/suggestions/comments to:&#13;&#13;
 Cengiz Gunay (cengique AT users.sf.net)&#13;&#13;
-2014/01/08&#13;&#13;
-
-```</dc:description>
+2014/01/08</dc:description>
   </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://identifiers.org/taxonomy:7215">http://identifiers.org/taxonomy:7215</dc:identifier>

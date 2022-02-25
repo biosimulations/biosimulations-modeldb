@@ -45,8 +45,7 @@ figure 5 and the rest of figure 6.
 5a. Run Max_plane_1el.m with the outcomes of the step 3a to generate
 figures 8A and 8B.
 5b. Run Max_plane.m with the outcomes of the step 3b to generate
-figure 7 and the rest of figure 8.
-</dc:description>
+figure 7 and the rest of figure 8.</dc:description>
   </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3536">http://modeldb.science/ModelList?id=3536</dc:identifier>

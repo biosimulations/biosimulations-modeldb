@@ -21,7 +21,7 @@ description: "This is the readme.txt for a model associated with the publication
   \ the phase of the order parameter (between -pi and pi) and it \ncorresponds to\
   \ the position of the center of the hill of activity along \nthe ring. It is well\
   \ defined when there is a nice hill, as in the case \nof the above default values\
-  \ of lambda and mu.\n"
+  \ of lambda and mu."
 references:
 - label: 'Joshua A. Goldberg, Uri Rokni & Haim Sompolinsky. Patterns of ongoing activity
     and the functional architecture of the primary visual cortex. Neuron 42, 3: 489-500

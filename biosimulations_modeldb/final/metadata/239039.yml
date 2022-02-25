@@ -318,13 +318,13 @@ thumbnails:
   local_filename: source/thumbnails/PMC4118843/PMC4118843/pone.0095454.g006.jpg
 - archive_filename: screenshot1.png
   format: png
-  local_filename: source/models/239039/screenshot1.png
+  local_filename: source/projects/239039/screenshot1.png
 - archive_filename: screenshot2.png
   format: png
-  local_filename: source/models/239039/screenshot2.png
+  local_filename: source/projects/239039/screenshot2.png
 - archive_filename: screenshot3.png
   format: png
-  local_filename: source/models/239039/screenshot3.png
+  local_filename: source/projects/239039/screenshot3.png
 - archive_filename: screenshot4.png
   format: png
-  local_filename: source/models/239039/screenshot4.png
+  local_filename: source/projects/239039/screenshot4.png

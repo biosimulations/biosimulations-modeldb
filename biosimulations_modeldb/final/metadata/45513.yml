@@ -24,7 +24,7 @@ description: "This is the readme.txt for the models associated with the paper\n\
   \ Go. \nYou should see the voltage trace shown in Figure 10 corresponding to the\
   \ \nunscaled version of Period = 800 (lower left).  You can change the period\n\
   by changing the parameter per.\n\nBard Ermentrout's website http://www.pitt.edu/~phase/\n\
-  describes how to get and use xpp (Bard wrote xpp).\n"
+  describes how to get and use xpp (Bard wrote xpp)."
 references:
 - label: 'Amitabha Bose, Yair Manor & Farzan Nadim. The activity phase of postsynaptic
     neurons in a simplified rhythmic network. Journal of Computational Neuroscience

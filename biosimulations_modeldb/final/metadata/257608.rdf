@@ -49,8 +49,7 @@ saved in a corresponding column in the file.
 range of values of a parameter; the default parameter is b31.  This
 range information also shows up in the set file.  To change it for a
 particular run, I change the information in the set file, where it is
-stored under “#Range information”.
-</dc:description>
+stored under “#Range information”.</dc:description>
   </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>

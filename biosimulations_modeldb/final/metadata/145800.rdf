@@ -26,11 +26,7 @@ The model is available in the format of
 1) XPPAUT: *.ode
 2) Matlab: *.m
 3) Mathematica: *.nb
-4) SBML: *.xml
-
-
-
-</dc:description>
+4) SBML: *.xml</dc:description>
   </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=145174">http://modeldb.science/ModelList?id=145174</dc:identifier>

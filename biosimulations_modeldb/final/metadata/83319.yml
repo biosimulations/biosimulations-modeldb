@@ -1,36 +1,36 @@
-description: "```\n\n\nREADME for the Benchmarks simulations associated with the following\n\
+description: "README for the Benchmarks simulations associated with the following\n\
   review paper:\n\nBrette R, Rudolph M, Carnevale T, Hines M, Beeman D, Bower JM,\n\
   Diesmann M, Morrison A, Goodman PH, Harris Jr. FC, Zirpe M,\nNatschlager T, Pecevski\
   \ D, Ermentrout B, Djurfeldt M, Lansner A,\nRochel O, Vieville T, Muller E, Davison\
-  \ AP, ElBoustani S and\nDestexhe A.  Simulation of networks of spiking neurons:\
-  \ A review \nof tools and strategies.  Journal of Computational Neuroscience,\n\
-  vol 23, p 349-398, 2007\n\nAbstract:\n\nWe review different aspects of the simulation\
-  \ of spiking neural\nnetworks.  We start by reviewing the different types of simulation\n\
-  strategies and algorithms that are currently implemented.  We next\nreview the precision\
+  \ AP, ElBoustani S and\nDestexhe A. Simulation of networks of spiking neurons: A\
+  \ review \nof tools and strategies. Journal of Computational Neuroscience,\nvol\
+  \ 23, p 349-398, 2007\n\nAbstract:\n\nWe review different aspects of the simulation\
+  \ of spiking neural\nnetworks. We start by reviewing the different types of simulation\n\
+  strategies and algorithms that are currently implemented. We next\nreview the precision\
   \ of those simulation strategies, in particular\nin cases where plasticity depends\
-  \ on the exact timing of the\nspikes.  We overview different simulators and simulation\n\
+  \ on the exact timing of the\nspikes. We overview different simulators and simulation\n\
   environments presently available (restricted to those freely\navailable, open source\
-  \ and documented).  For each simulation tool,\nits advantages and pitfalls are reviewed,\
+  \ and documented). For each simulation tool,\nits advantages and pitfalls are reviewed,\
   \ with an aim to allow the\nreader to identify which simulator is appropriate for\
   \ a given task.\nFinally, we provide a series of benchmark simulations of different\n\
   types of networks of spiking neurons, including Hodgkin-Huxley\ntype, integrate-and-fire\
   \ models, interacting with current-based or\nconductance-based synapses, using clock-driven\
-  \ or event-driven\nintegration strategies.  The same set of models are implemented\
-  \ on\nthe different simulators, and the codes are made available.  The\nultimate\
+  \ or event-driven\nintegration strategies. The same set of models are implemented\
+  \ on\nthe different simulators, and the codes are made available. The\nultimate\
   \ goal of this review is to provide a resource to facilitate\nidentifying the appropriate\
   \ integration strategy and simulation\ntool to use for a given modeling problem\
   \ related to spiking neural\nnetworks.\n\n\nThe codes included in this package refer\
-  \ to the benchmark\nsimulations described above.  The main goal is to provide a\
-  \ series\nof benchmark simulations of networks of spiking neurons, and how\nthese\
-  \ are implemented in the different simulators overviewed in the\npaper.  See details\
-  \ in the enclosed file Appendix2.pdf, which\ndescribes these different benchmarks.\
-  \  Some of these benchmarks\nwere based on the Vogels-Abbott model ([Vogels TP and\
-  \ Abbott LF. \nSignal propagation and logic gating in networks of\nintegrate-and-fire\
-  \ neurons. J. Neurosci. 25: 10786-10795, 2005](http://www.jneurosci.org/cgi/content/full/25/46/10786)).\
-  \  \n\n\nThe submitted version of the paper is available at this URL:\n<http://arxiv.org/abs/q-bio.NC/0611089>\n\
+  \ to the benchmark\nsimulations described above. The main goal is to provide a series\n\
+  of benchmark simulations of networks of spiking neurons, and how\nthese are implemented\
+  \ in the different simulators overviewed in the\npaper. See details in the enclosed\
+  \ file Appendix2.pdf, which\ndescribes these different benchmarks. Some of these\
+  \ benchmarks\nwere based on the Vogels-Abbott model ([Vogels TP and Abbott LF. \n\
+  Signal propagation and logic gating in networks of\nintegrate-and-fire neurons.\
+  \ J. Neurosci. 25: 10786-10795, 2005](http://www.jneurosci.org/cgi/content/full/25/46/10786)).\
+  \ \n\n\nThe submitted version of the paper is available at this URL:\n<http://arxiv.org/abs/q-bio.NC/0611089>\n\
   \nThese files updated October 15th, 2008 to include Brian and PyNN.\n\n20110805\
   \ Ted Carnevale corrected the synaptic time constants for the \nNEURON implemetation\
-  \ of the coba model (see NEURON/coba/cobacell.hoc).\n\n```"
+  \ of the coba model (see NEURON/coba/cobacell.hoc)."
 references:
 - label: 'Vogels TP & Abbott LF. Signal propagation and logic gating in networks of
     integrate-and-fire neurons. Journal of Neuroscience 25, 46: 10786-10795 (2005).'
@@ -47,13 +47,13 @@ taxa: []
 thumbnails:
 - archive_filename: GENESIS/FigG1-dualexpVA-HH.gif
   format: gif
-  local_filename: source/models/83319/GENESIS/FigG1-dualexpVA-HH.gif
+  local_filename: source/projects/83319/GENESIS/FigG1-dualexpVA-HH.gif
 - archive_filename: GENESIS/FigG2-instVA-HH.gif
   format: gif
-  local_filename: source/models/83319/GENESIS/FigG2-instVA-HH.gif
+  local_filename: source/projects/83319/GENESIS/FigG2-instVA-HH.gif
 - archive_filename: PyNN/VAbenchmark_COBA.png
   format: png
-  local_filename: source/models/83319/PyNN/VAbenchmark_COBA.png
+  local_filename: source/projects/83319/PyNN/VAbenchmark_COBA.png
 - archive_filename: PyNN/VAbenchmark_CUBA.png
   format: png
-  local_filename: source/models/83319/PyNN/VAbenchmark_CUBA.png
+  local_filename: source/projects/83319/PyNN/VAbenchmark_CUBA.png

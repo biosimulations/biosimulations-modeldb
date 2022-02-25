@@ -44,10 +44,10 @@ taxa: []
 thumbnails:
 - archive_filename: screenshot1.png
   format: png
-  local_filename: source/models/259786/screenshot1.png
+  local_filename: source/projects/259786/screenshot1.png
 - archive_filename: screenshot2.png
   format: png
-  local_filename: source/models/259786/screenshot2.png
+  local_filename: source/projects/259786/screenshot2.png
 - archive_filename: screenshot3.png
   format: png
-  local_filename: source/models/259786/screenshot3.png
+  local_filename: source/projects/259786/screenshot3.png

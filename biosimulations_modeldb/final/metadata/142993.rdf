@@ -32,8 +32,7 @@ chloride concentration. Moreover, the GABA-A receptor is modeled as
 passing both chloride and bicarbonate ions, which is important for
 proper calculation of the GABA reversal potential. Ornstein-Unlenbeck
 processes to simulate synaptic inhibition and excitation are also
-included.
-</dc:description>
+included.</dc:description>
   </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>

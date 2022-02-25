@@ -24,9 +24,7 @@ comment, although in figure 2 the dendrite/cable is passive the code
 includes an NaP current in the cable, but if the conductance gnad is
 set to zero the cable becomes passive.
 
-josh@biocontrol.co.il
-
-</dc:description>
+josh@biocontrol.co.il</dc:description>
   </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>

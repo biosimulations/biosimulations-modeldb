@@ -1,0 +1,339 @@
+duration: 5.581262
+exception: null
+output: "Archive contains 3 SED-ML documents with 6 models, 3 simulations, 3 tasks,\
+  \ 3 reports, and 2 plots:\r\n  basenet.sedml:\r\n    Tasks (1):\r\n      task_baseline\r\
+  \n    Reports (1):\r\n      report_baseline: 21 data sets\r\n    Plots (1):\r\n\
+  \      plot_baseline: 1 curves\r\n  basenetTA.sedml:\r\n    Tasks (1):\r\n     \
+  \ task_with_pico\r\n    Reports (1):\r\n      report_with_pico: 21 data sets\r\n\
+  \  basenetpico3.sedml:\r\n    Tasks (1):\r\n      task_without_pico_block_of_inhibition\r\
+  \n    Reports (1):\r\n      report_without_pico_block_of_inhibition: 24 data sets\r\
+  \n    Plots (1):\r\n      plot_without_pico_block_of_inhibition: 1 curves\r\n\r\n\
+  Executing SED-ML file 1: basenet.sedml ...\r\n  Found 1 tasks and 2 outputs:\r\r\
+  \n    Tasks:\r\r\n      `task_baseline`\r\r\n    Outputs:\r\r\n      `plot_baseline`\r\
+  \r\n      `report_baseline`\r\r\n  Executing task 1: `task_baseline`\r\r\n    Executing\
+  \ simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 2 outputs ...\r\r\n  \
+  \    Generating output 1: `report_baseline` ... \e[34msucceeded\e[0m\r\r\n     \
+  \ Generating output 2: `plot_baseline` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed\
+  \ 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped:\
+  \ 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 2\r\r\n      Skipped:\
+  \ 0\r\r\n      Failed: 0\r\r\nExecuting SED-ML file 2: basenetTA.sedml ...\r\n \
+  \ Found 1 tasks and 1 outputs:\r\r\n    Tasks:\r\r\n      `task_with_pico`\r\r\n\
+  \    Outputs:\r\r\n      `report_with_pico`\r\r\n  Executing task 1: `task_with_pico`\r\
+  \r\n    Executing simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 1 outputs\
+  \ ...\r\r\n      Generating output 1: `report_with_pico` ... \e[34msucceeded\e[0m\r\
+  \r\n\r\r\n  Executed 1 tasks and 1 outputs:\r\r\n    Tasks:\r\r\n      Succeeded:\
+  \ 1\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded:\
+  \ 1\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\nExecuting SED-ML file 3: basenetpico3.sedml\
+  \ ...\r\n  Found 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      `task_without_pico_block_of_inhibition`\r\
+  \r\n    Outputs:\r\r\n      `plot_without_pico_block_of_inhibition`\r\r\n      `report_without_pico_block_of_inhibition`\r\
+  \r\n  Executing task 1: `task_without_pico_block_of_inhibition`\r\r\n    Executing\
+  \ simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 2 outputs ...\r\r\n  \
+  \    Generating output 1: `report_without_pico_block_of_inhibition` ... \e[34msucceeded\e\
+  [0m\r\r\n      Generating output 2: `plot_without_pico_block_of_inhibition` ...\
+  \ \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and 2 outputs:\r\r\n    Tasks:\r\
+  \r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\
+  \r\n      Succeeded: 2\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\n\r\nBundling\
+  \ outputs ...\r\nCleaning up ...\r\n\r\n============= SUMMARY =============\r\n\
+  Executed 3 SED documents:\r\n  SED documents (3):\r\n    Succeeded: 3\r\n    Skipped:\
+  \ 0\r\n    Failed: 0\r\n  Tasks (3):\r\n    Succeeded: 3\r\n    Skipped: 0\r\n \
+  \   Failed: 0\r\n  Outputs (5):\r\n    Succeeded: 5\r\n    Skipped: 0\r\n    Failed:\
+  \ 0\r\n\r\n"
+sedDocuments:
+- duration: 1.755576
+  exception: null
+  location: basenet.sedml
+  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task_baseline`\r\
+    \n    Outputs:\r\n      `plot_baseline`\r\n      `report_baseline`\r\n  Executing\
+    \ task 1: `task_baseline`\r\n    Executing simulation ... \e[34msucceeded\e[0m\r\
+    \n    Generating 2 outputs ...\r\n      Generating output 1: `report_baseline`\
+    \ ... \e[34msucceeded\e[0m\r\n      Generating output 2: `plot_baseline` ... \e\
+    [34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 2 outputs:\r\n    Tasks:\r\n\
+    \      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n    Outputs:\r\n\
+    \      Succeeded: 2\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T_baseline
+      status: SUCCEEDED
+    - id: data_set_EXC2_baseline
+      status: SUCCEEDED
+    - id: data_set_FV1_baseline
+      status: SUCCEEDED
+    - id: data_set_FV2_baseline
+      status: SUCCEEDED
+    - id: data_set_FV3_baseline
+      status: SUCCEEDED
+    - id: data_set_FV4_baseline
+      status: SUCCEEDED
+    - id: data_set_H1_baseline
+      status: SUCCEEDED
+    - id: data_set_H2_baseline
+      status: SUCCEEDED
+    - id: data_set_H3_baseline
+      status: SUCCEEDED
+    - id: data_set_H4_baseline
+      status: SUCCEEDED
+    - id: data_set_INH1_baseline
+      status: SUCCEEDED
+    - id: data_set_INH2_baseline
+      status: SUCCEEDED
+    - id: data_set_INH3_baseline
+      status: SUCCEEDED
+    - id: data_set_INH4_baseline
+      status: SUCCEEDED
+    - id: data_set_M2_baseline
+      status: SUCCEEDED
+    - id: data_set_M3_baseline
+      status: SUCCEEDED
+    - id: data_set_M4_baseline
+      status: SUCCEEDED
+    - id: data_set_V1_baseline
+      status: SUCCEEDED
+    - id: data_set_V2_baseline
+      status: SUCCEEDED
+    - id: data_set_V3_baseline
+      status: SUCCEEDED
+    - id: data_set_V4_baseline
+      status: SUCCEEDED
+    duration: 0.950062
+    exception: null
+    id: report_baseline
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1_baseline
+      status: SUCCEEDED
+    duration: 0.308212
+    exception: null
+    id: plot_baseline
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000672
+    duration: 0.355382
+    exception: null
+    id: task_baseline
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '10000.0'
+    - key: meth
+      value: qualrk
+    - key: dtmin
+      value: 1e-12
+    - key: dtmax
+      value: '1'
+    - key: toler
+      value: '0.001'
+    - key: newt_tol
+      value: '0.001'
+    - key: t0
+      value: '0.0'
+    - key: dt
+      value: '1.0'
+    - key: njmp
+      value: '1'
+    skipReason: null
+    status: SUCCEEDED
+- duration: 1.540126
+  exception: null
+  location: basenetTA.sedml
+  output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task_with_pico`\r\
+    \n    Outputs:\r\n      `report_with_pico`\r\n  Executing task 1: `task_with_pico`\r\
+    \n    Executing simulation ... \e[34msucceeded\e[0m\r\n    Generating 1 outputs\
+    \ ...\r\n      Generating output 1: `report_with_pico` ... \e[34msucceeded\e[0m\r\
+    \n\r\n  Executed 1 tasks and 1 outputs:\r\n    Tasks:\r\n      Succeeded: 1\r\n\
+    \      Skipped: 0\r\n      Failed: 0\r\n    Outputs:\r\n      Succeeded: 1\r\n\
+    \      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T_with_pico
+      status: SUCCEEDED
+    - id: data_set_EXC2_with_pico
+      status: SUCCEEDED
+    - id: data_set_FV1_with_pico
+      status: SUCCEEDED
+    - id: data_set_FV2_with_pico
+      status: SUCCEEDED
+    - id: data_set_FV3_with_pico
+      status: SUCCEEDED
+    - id: data_set_FV4_with_pico
+      status: SUCCEEDED
+    - id: data_set_H1_with_pico
+      status: SUCCEEDED
+    - id: data_set_H2_with_pico
+      status: SUCCEEDED
+    - id: data_set_H3_with_pico
+      status: SUCCEEDED
+    - id: data_set_H4_with_pico
+      status: SUCCEEDED
+    - id: data_set_INH1_with_pico
+      status: SUCCEEDED
+    - id: data_set_INH2_with_pico
+      status: SUCCEEDED
+    - id: data_set_INH3_with_pico
+      status: SUCCEEDED
+    - id: data_set_INH4_with_pico
+      status: SUCCEEDED
+    - id: data_set_M2_with_pico
+      status: SUCCEEDED
+    - id: data_set_M3_with_pico
+      status: SUCCEEDED
+    - id: data_set_M4_with_pico
+      status: SUCCEEDED
+    - id: data_set_V1_with_pico
+      status: SUCCEEDED
+    - id: data_set_V2_with_pico
+      status: SUCCEEDED
+    - id: data_set_V3_with_pico
+      status: SUCCEEDED
+    - id: data_set_V4_with_pico
+      status: SUCCEEDED
+    duration: 0.94164
+    exception: null
+    id: report_with_pico
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000672
+    duration: 0.475901
+    exception: null
+    id: task_with_pico
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '25000.0'
+    - key: trans
+      value: '10000.0'
+    - key: meth
+      value: qualrk
+    - key: dtmin
+      value: 1e-12
+    - key: dtmax
+      value: '1'
+    - key: toler
+      value: '0.00001'
+    - key: newt_tol
+      value: '0.001'
+    - key: t0
+      value: '0.0'
+    - key: dt
+      value: '1.5'
+    - key: njmp
+      value: '1'
+    skipReason: null
+    status: SUCCEEDED
+- duration: 1.922701
+  exception: null
+  location: basenetpico3.sedml
+  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task_without_pico_block_of_inhibition`\r\
+    \n    Outputs:\r\n      `plot_without_pico_block_of_inhibition`\r\n      `report_without_pico_block_of_inhibition`\r\
+    \n  Executing task 1: `task_without_pico_block_of_inhibition`\r\n    Executing\
+    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
+    \  Generating output 1: `report_without_pico_block_of_inhibition` ... \e[34msucceeded\e\
+    [0m\r\n      Generating output 2: `plot_without_pico_block_of_inhibition` ...\
+    \ \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 2 outputs:\r\n    Tasks:\r\
+    \n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n    Outputs:\r\n\
+    \      Succeeded: 2\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T_without_pico_block_of_inhibition
+      status: SUCCEEDED
+    - id: data_set_EXC2_without_pico_block_of_inhibition
+      status: SUCCEEDED
+    - id: data_set_FV1_without_pico_block_of_inhibition
+      status: SUCCEEDED
+    - id: data_set_FV2_without_pico_block_of_inhibition
+      status: SUCCEEDED
+    - id: data_set_FV3_without_pico_block_of_inhibition
+      status: SUCCEEDED
+    - id: data_set_FV4_without_pico_block_of_inhibition
+      status: SUCCEEDED
+    - id: data_set_FV5_without_pico_block_of_inhibition
+      status: SUCCEEDED
+    - id: data_set_H1_without_pico_block_of_inhibition
+      status: SUCCEEDED
+    - id: data_set_H2_without_pico_block_of_inhibition
+      status: SUCCEEDED
+    - id: data_set_H3_without_pico_block_of_inhibition
+      status: SUCCEEDED
+    - id: data_set_H4_without_pico_block_of_inhibition
+      status: SUCCEEDED
+    - id: data_set_H5_without_pico_block_of_inhibition
+      status: SUCCEEDED
+    - id: data_set_INH1_without_pico_block_of_inhibition
+      status: SUCCEEDED
+    - id: data_set_INH2_without_pico_block_of_inhibition
+      status: SUCCEEDED
+    - id: data_set_INH3_without_pico_block_of_inhibition
+      status: SUCCEEDED
+    - id: data_set_INH4_without_pico_block_of_inhibition
+      status: SUCCEEDED
+    - id: data_set_M2_without_pico_block_of_inhibition
+      status: SUCCEEDED
+    - id: data_set_M3_without_pico_block_of_inhibition
+      status: SUCCEEDED
+    - id: data_set_M4_without_pico_block_of_inhibition
+      status: SUCCEEDED
+    - id: data_set_V1_without_pico_block_of_inhibition
+      status: SUCCEEDED
+    - id: data_set_V2_without_pico_block_of_inhibition
+      status: SUCCEEDED
+    - id: data_set_V3_without_pico_block_of_inhibition
+      status: SUCCEEDED
+    - id: data_set_V4_without_pico_block_of_inhibition
+      status: SUCCEEDED
+    - id: data_set_V5_without_pico_block_of_inhibition
+      status: SUCCEEDED
+    duration: 1.069718
+    exception: null
+    id: report_without_pico_block_of_inhibition
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1_without_pico_block_of_inhibition
+      status: SUCCEEDED
+    duration: 0.324953
+    exception: null
+    id: plot_without_pico_block_of_inhibition
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000672
+    duration: 0.395312
+    exception: null
+    id: task_without_pico_block_of_inhibition
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '10000.0'
+    - key: meth
+      value: qualrk
+    - key: dtmin
+      value: 1e-12
+    - key: dtmax
+      value: '1'
+    - key: toler
+      value: '0.001'
+    - key: newt_tol
+      value: '0.001'
+    - key: t0
+      value: '0.0'
+    - key: dt
+      value: '1.0'
+    - key: njmp
+      value: '1'
+    skipReason: null
+    status: SUCCEEDED
+skipReason: null
+status: SUCCEEDED

@@ -1,0 +1,140 @@
+duration: 2.512494
+exception: null
+output: "Archive contains 2 SED-ML documents with 2 models, 2 simulations, 2 tasks,\
+  \ 2 reports, and 2 plots:\r\n  2d-ML.sedml:\r\n    Tasks (1):\r\n      task\r\n\
+  \    Reports (1):\r\n      report: 3 data sets\r\n    Plots (1):\r\n      plot:\
+  \ 1 curves\r\n  3d-ML.sedml:\r\n    Tasks (1):\r\n      task\r\n    Reports (1):\r\
+  \n      report: 4 data sets\r\n    Plots (1):\r\n      plot: 1 curves\r\n\r\nExecuting\
+  \ SED-ML file 1: 2d-ML.sedml ...\r\n  Found 1 tasks and 2 outputs:\r\r\n    Tasks:\r\
+  \r\n      `task`\r\r\n    Outputs:\r\r\n      `plot`\r\r\n      `report`\r\r\n \
+  \ Executing task 1: `task`\r\r\n    Executing simulation ... \e[34msucceeded\e[0m\r\
+  \r\n    Generating 2 outputs ...\r\r\n      Generating output 1: `report` ... \e\
+  [34msucceeded\e[0m\r\r\n      Generating output 2: `plot` ... \e[34msucceeded\e\
+  [0m\r\r\n\r\r\n  Executed 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      Succeeded:\
+  \ 1\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded:\
+  \ 2\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\nExecuting SED-ML file 2: 3d-ML.sedml\
+  \ ...\r\n  Found 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n\
+  \    Outputs:\r\r\n      `plot`\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\
+  \r\n    Executing simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 2 outputs\
+  \ ...\r\r\n      Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n  \
+  \    Generating output 2: `plot` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed\
+  \ 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped:\
+  \ 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 2\r\r\n      Skipped:\
+  \ 0\r\r\n      Failed: 0\r\r\n\r\nBundling outputs ...\r\nCleaning up ...\r\n\r\n\
+  ============= SUMMARY =============\r\nExecuted 2 SED documents:\r\n  SED documents\
+  \ (2):\r\n    Succeeded: 2\r\n    Skipped: 0\r\n    Failed: 0\r\n  Tasks (2):\r\n\
+  \    Succeeded: 2\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (4):\r\n    Succeeded:\
+  \ 4\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
+sedDocuments:
+- duration: 1.075776
+  exception: null
+  location: 2d-ML.sedml
+  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `plot`\r\n      `report`\r\n  Executing task 1: `task`\r\n    Executing\
+    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
+    \  Generating output 1: `report` ... \e[34msucceeded\e[0m\r\n      Generating\
+    \ output 2: `plot` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 2 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 2\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_V
+      status: SUCCEEDED
+    - id: data_set_W
+      status: SUCCEEDED
+    duration: 0.243074
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1
+      status: SUCCEEDED
+    duration: 0.29136
+    exception: null
+    id: plot
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000030
+    duration: 0.441367
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '100000.0'
+    - key: meth
+      value: euler
+    - key: dt
+      value: '.1'
+    - key: t0
+      value: '0.0'
+    - key: njmp
+      value: '100'
+    skipReason: null
+    status: SUCCEEDED
+- duration: 1.21787
+  exception: null
+  location: 3d-ML.sedml
+  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `plot`\r\n      `report`\r\n  Executing task 1: `task`\r\n    Executing\
+    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
+    \  Generating output 1: `report` ... \e[34msucceeded\e[0m\r\n      Generating\
+    \ output 2: `plot` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 2 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 2\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_V
+      status: SUCCEEDED
+    - id: data_set_Y
+      status: SUCCEEDED
+    - id: data_set_Z
+      status: SUCCEEDED
+    duration: 0.242198
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1
+      status: SUCCEEDED
+    duration: 0.279218
+    exception: null
+    id: plot
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000030
+    duration: 0.594318
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '100000.0'
+    - key: meth
+      value: euler
+    - key: dt
+      value: '.1'
+    - key: t0
+      value: '0.0'
+    - key: njmp
+      value: '100'
+    skipReason: null
+    status: SUCCEEDED
+skipReason: null
+status: SUCCEEDED

@@ -65,8 +65,7 @@ The fixed point curves from Figs. 4 and 5 can be obtained as follows:
 
 **************************************************************************************************
 **************************************************************************************************
-**************************************************************************************************
-</dc:description>
+**************************************************************************************************</dc:description>
   </rdf:Description>
   <rdf:Description rdf:about="local:00001">
     <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>

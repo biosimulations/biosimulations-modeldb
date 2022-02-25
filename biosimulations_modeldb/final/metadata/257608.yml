@@ -18,7 +18,7 @@ description: "This is the XPP code associated with the paper:\n\nJ.E. Rubin and 
   \ numerical instructions set up integration over a\nrange of values of a parameter;\
   \ the default parameter is b31.  This\nrange information also shows up in the set\
   \ file.  To change it for a\nparticular run, I change the information in the set\
-  \ file, where it is\nstored under \u201C#Range information\u201D.\n"
+  \ file, where it is\nstored under \u201C#Range information\u201D."
 references:
 - label: 'Jonathan E. Rubin & Jeffrey C. Smith. Robustness of respiratory rhythm generation
     across dynamic regimes. PLOS Computational Biology 15, 7: e1006860 (2019).'

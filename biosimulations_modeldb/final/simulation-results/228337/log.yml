@@ -1,0 +1,1388 @@
+duration: 28.71104
+exception: null
+output: "Archive contains 13 SED-ML documents with 13 models, 13 simulations, 13 tasks,\
+  \ 13 reports, and 13 plots:\r\n  Fig2/Fig2B.sedml:\r\n    Tasks (1):\r\n      task\r\
+  \n    Reports (1):\r\n      report: 23 data sets\r\n    Plots (1):\r\n      plot:\
+  \ 1 curves\r\n  Fig3/Fig3B.sedml:\r\n    Tasks (1):\r\n      task\r\n    Reports\
+  \ (1):\r\n      report: 23 data sets\r\n    Plots (1):\r\n      plot: 1 curves\r\
+  \n  Fig6/Fig6.sedml:\r\n    Tasks (1):\r\n      task\r\n    Reports (1):\r\n   \
+  \   report: 23 data sets\r\n    Plots (1):\r\n      plot: 1 curves\r\n  FigS4/FigS4-Aleft.sedml:\r\
+  \n    Tasks (1):\r\n      task\r\n    Reports (1):\r\n      report: 23 data sets\r\
+  \n    Plots (1):\r\n      plot: 1 curves\r\n  FigS4/FigS4-Aright.sedml:\r\n    Tasks\
+  \ (1):\r\n      task\r\n    Reports (1):\r\n      report: 23 data sets\r\n    Plots\
+  \ (1):\r\n      plot: 1 curves\r\n  FigS4/FigS4-Bleft.sedml:\r\n    Tasks (1):\r\
+  \n      task\r\n    Reports (1):\r\n      report: 23 data sets\r\n    Plots (1):\r\
+  \n      plot: 1 curves\r\n  FigS4/FigS4-Bright.sedml:\r\n    Tasks (1):\r\n    \
+  \  task\r\n    Reports (1):\r\n      report: 23 data sets\r\n    Plots (1):\r\n\
+  \      plot: 1 curves\r\n  FigS4/FigS4-Cleft.sedml:\r\n    Tasks (1):\r\n      task\r\
+  \n    Reports (1):\r\n      report: 23 data sets\r\n    Plots (1):\r\n      plot:\
+  \ 1 curves\r\n  FigS4/FigS4-Cright.sedml:\r\n    Tasks (1):\r\n      task\r\n  \
+  \  Reports (1):\r\n      report: 23 data sets\r\n    Plots (1):\r\n      plot: 1\
+  \ curves\r\n  FigS4/FigS4-Dleft.sedml:\r\n    Tasks (1):\r\n      task\r\n    Reports\
+  \ (1):\r\n      report: 23 data sets\r\n    Plots (1):\r\n      plot: 1 curves\r\
+  \n  FigS4/FigS4-Dright.sedml:\r\n    Tasks (1):\r\n      task\r\n    Reports (1):\r\
+  \n      report: 23 data sets\r\n    Plots (1):\r\n      plot: 1 curves\r\n  FigS5/FigS5A.sedml:\r\
+  \n    Tasks (1):\r\n      task\r\n    Reports (1):\r\n      report: 27 data sets\r\
+  \n    Plots (1):\r\n      plot: 1 curves\r\n  FigS5/FigS5B.sedml:\r\n    Tasks (1):\r\
+  \n      task\r\n    Reports (1):\r\n      report: 26 data sets\r\n    Plots (1):\r\
+  \n      plot: 1 curves\r\n\r\nExecuting SED-ML file 1: Fig2/Fig2B.sedml ...\r\n\
+  \  Found 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\
+  \r\n      `plot`\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing\
+  \ simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 2 outputs ...\r\r\n  \
+  \    Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n      Generating\
+  \ output 2: `plot` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and 2\
+  \ outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n \
+  \     Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 2\r\r\n      Skipped: 0\r\
+  \r\n      Failed: 0\r\r\nExecuting SED-ML file 2: Fig3/Fig3B.sedml ...\r\n  Found\
+  \ 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\r\
+  \n      `plot`\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing\
+  \ simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 2 outputs ...\r\r\n  \
+  \    Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n      Generating\
+  \ output 2: `plot` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and 2\
+  \ outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n \
+  \     Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 2\r\r\n      Skipped: 0\r\
+  \r\n      Failed: 0\r\r\nExecuting SED-ML file 3: Fig6/Fig6.sedml ...\r\n  Found\
+  \ 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\r\
+  \n      `plot`\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing\
+  \ simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 2 outputs ...\r\r\n  \
+  \    Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n      Generating\
+  \ output 2: `plot` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and 2\
+  \ outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n \
+  \     Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 2\r\r\n      Skipped: 0\r\
+  \r\n      Failed: 0\r\r\nExecuting SED-ML file 4: FigS4/FigS4-Aleft.sedml ...\r\n\
+  \  Found 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\
+  \r\n      `plot`\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing\
+  \ simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 2 outputs ...\r\r\n  \
+  \    Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n      Generating\
+  \ output 2: `plot` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and 2\
+  \ outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n \
+  \     Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 2\r\r\n      Skipped: 0\r\
+  \r\n      Failed: 0\r\r\nExecuting SED-ML file 5: FigS4/FigS4-Aright.sedml ...\r\
+  \n  Found 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\
+  \r\n      `plot`\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing\
+  \ simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 2 outputs ...\r\r\n  \
+  \    Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n      Generating\
+  \ output 2: `plot` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and 2\
+  \ outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n \
+  \     Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 2\r\r\n      Skipped: 0\r\
+  \r\n      Failed: 0\r\r\nExecuting SED-ML file 6: FigS4/FigS4-Bleft.sedml ...\r\n\
+  \  Found 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\
+  \r\n      `plot`\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing\
+  \ simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 2 outputs ...\r\r\n  \
+  \    Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n      Generating\
+  \ output 2: `plot` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and 2\
+  \ outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n \
+  \     Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 2\r\r\n      Skipped: 0\r\
+  \r\n      Failed: 0\r\r\nExecuting SED-ML file 7: FigS4/FigS4-Bright.sedml ...\r\
+  \n  Found 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\
+  \r\n      `plot`\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing\
+  \ simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 2 outputs ...\r\r\n  \
+  \    Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n      Generating\
+  \ output 2: `plot` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and 2\
+  \ outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n \
+  \     Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 2\r\r\n      Skipped: 0\r\
+  \r\n      Failed: 0\r\r\nExecuting SED-ML file 8: FigS4/FigS4-Cleft.sedml ...\r\n\
+  \  Found 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\
+  \r\n      `plot`\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing\
+  \ simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 2 outputs ...\r\r\n  \
+  \    Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n      Generating\
+  \ output 2: `plot` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and 2\
+  \ outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n \
+  \     Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 2\r\r\n      Skipped: 0\r\
+  \r\n      Failed: 0\r\r\nExecuting SED-ML file 9: FigS4/FigS4-Cright.sedml ...\r\
+  \n  Found 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\
+  \r\n      `plot`\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing\
+  \ simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 2 outputs ...\r\r\n  \
+  \    Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n      Generating\
+  \ output 2: `plot` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and 2\
+  \ outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n \
+  \     Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 2\r\r\n      Skipped: 0\r\
+  \r\n      Failed: 0\r\r\nExecuting SED-ML file 10: FigS4/FigS4-Dleft.sedml ...\r\
+  \n  Found 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\
+  \r\n      `plot`\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing\
+  \ simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 2 outputs ...\r\r\n  \
+  \    Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n      Generating\
+  \ output 2: `plot` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and 2\
+  \ outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n \
+  \     Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 2\r\r\n      Skipped: 0\r\
+  \r\n      Failed: 0\r\r\nExecuting SED-ML file 11: FigS4/FigS4-Dright.sedml ...\r\
+  \n  Found 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\
+  \r\n      `plot`\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing\
+  \ simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 2 outputs ...\r\r\n  \
+  \    Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n      Generating\
+  \ output 2: `plot` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and 2\
+  \ outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n \
+  \     Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 2\r\r\n      Skipped: 0\r\
+  \r\n      Failed: 0\r\r\nExecuting SED-ML file 12: FigS5/FigS5A.sedml ...\r\n  Found\
+  \ 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\r\
+  \n      `plot`\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing\
+  \ simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 2 outputs ...\r\r\n  \
+  \    Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n      Generating\
+  \ output 2: `plot` .../home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:35:\
+  \ RuntimeWarning: More than 20 figures have been opened. Figures created through\
+  \ the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly\
+  \ closed and may consume too much memory. (To control this warning, see the rcParam\
+  \ `figure.max_open_warning`).\r\r\r\n  figure = pyplot.figure()\r\r\r\n \e[34msucceeded\e\
+  [0m\r\r\n\r\r\n  Executed 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      Succeeded:\
+  \ 1\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded:\
+  \ 2\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\nExecuting SED-ML file 13: FigS5/FigS5B.sedml\
+  \ ...\r\n  Found 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n\
+  \    Outputs:\r\r\n      `plot`\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\
+  \r\n    Executing simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 2 outputs\
+  \ ...\r\r\n      Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n  \
+  \    Generating output 2: `plot` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed\
+  \ 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped:\
+  \ 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 2\r\r\n      Skipped:\
+  \ 0\r\r\n      Failed: 0\r\r\n\r\nBundling outputs ...\r\nCleaning up ...\r\n\r\n\
+  ============= SUMMARY =============\r\nExecuted 13 SED documents:\r\n  SED documents\
+  \ (13):\r\n    Succeeded: 13\r\n    Skipped: 0\r\n    Failed: 0\r\n  Tasks (13):\r\
+  \n    Succeeded: 13\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (26):\r\n  \
+  \  Succeeded: 26\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
+sedDocuments:
+- duration: 1.410321
+  exception: null
+  location: Fig2/Fig2B.sedml
+  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `plot`\r\n      `report`\r\n  Executing task 1: `task`\r\n    Executing\
+    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
+    \  Generating output 1: `report` ... \e[34msucceeded\e[0m\r\n      Generating\
+    \ output 2: `plot` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 2 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 2\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_ACT_A7
+      status: SUCCEEDED
+    - id: data_set_ACT_B2
+      status: SUCCEEDED
+    - id: data_set_AUXACT_A7
+      status: SUCCEEDED
+    - id: data_set_AUXACT_B2
+      status: SUCCEEDED
+    - id: data_set_AUXI_B2
+      status: SUCCEEDED
+    - id: data_set_AUXI_GAB
+      status: SUCCEEDED
+    - id: data_set_AUXP_A7
+      status: SUCCEEDED
+    - id: data_set_AUXSEN_A7
+      status: SUCCEEDED
+    - id: data_set_AUXSEN_B2
+      status: SUCCEEDED
+    - id: data_set_AUX_HWR
+      status: SUCCEEDED
+    - id: data_set_AUX_TDA7
+      status: SUCCEEDED
+    - id: data_set_AUX_TDB2
+      status: SUCCEEDED
+    - id: data_set_C_AGA7
+      status: SUCCEEDED
+    - id: data_set_C_AGA7A7
+      status: SUCCEEDED
+    - id: data_set_C_AGB2
+      status: SUCCEEDED
+    - id: data_set_C_NIC
+      status: SUCCEEDED
+    - id: data_set_C_NIC_NIC
+      status: SUCCEEDED
+    - id: data_set_DES_A7
+      status: SUCCEEDED
+    - id: data_set_DES_B2
+      status: SUCCEEDED
+    - id: data_set_R_DOP
+      status: SUCCEEDED
+    - id: data_set_V_DOP
+      status: SUCCEEDED
+    - id: data_set_V_GAB
+      status: SUCCEEDED
+    duration: 0.20549
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1
+      status: SUCCEEDED
+    duration: 0.131576
+    exception: null
+    id: plot
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000032
+    duration: 0.728795
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '150.0'
+    - key: meth
+      value: rungekutta
+    - key: njmp
+      value: '20'
+    - key: dt
+      value: '0.005'
+    - key: t0
+      value: '0.0'
+    skipReason: null
+    status: SUCCEEDED
+- duration: 1.375359
+  exception: null
+  location: Fig3/Fig3B.sedml
+  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `plot`\r\n      `report`\r\n  Executing task 1: `task`\r\n    Executing\
+    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
+    \  Generating output 1: `report` ... \e[34msucceeded\e[0m\r\n      Generating\
+    \ output 2: `plot` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 2 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 2\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_ACT_A7
+      status: SUCCEEDED
+    - id: data_set_ACT_B2
+      status: SUCCEEDED
+    - id: data_set_AUXACT_A7
+      status: SUCCEEDED
+    - id: data_set_AUXACT_B2
+      status: SUCCEEDED
+    - id: data_set_AUXI_B2
+      status: SUCCEEDED
+    - id: data_set_AUXI_GAB
+      status: SUCCEEDED
+    - id: data_set_AUXP_A7
+      status: SUCCEEDED
+    - id: data_set_AUXSEN_A7
+      status: SUCCEEDED
+    - id: data_set_AUXSEN_B2
+      status: SUCCEEDED
+    - id: data_set_AUX_HWR
+      status: SUCCEEDED
+    - id: data_set_AUX_TDA7
+      status: SUCCEEDED
+    - id: data_set_AUX_TDB2
+      status: SUCCEEDED
+    - id: data_set_C_AGA7
+      status: SUCCEEDED
+    - id: data_set_C_AGA7A7
+      status: SUCCEEDED
+    - id: data_set_C_AGB2
+      status: SUCCEEDED
+    - id: data_set_C_NIC
+      status: SUCCEEDED
+    - id: data_set_C_NIC_NIC
+      status: SUCCEEDED
+    - id: data_set_DES_A7
+      status: SUCCEEDED
+    - id: data_set_DES_B2
+      status: SUCCEEDED
+    - id: data_set_R_DOP
+      status: SUCCEEDED
+    - id: data_set_V_DOP
+      status: SUCCEEDED
+    - id: data_set_V_GAB
+      status: SUCCEEDED
+    duration: 0.24153
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1
+      status: SUCCEEDED
+    duration: 0.160553
+    exception: null
+    id: plot
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000032
+    duration: 0.699341
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '150.0'
+    - key: meth
+      value: rungekutta
+    - key: njmp
+      value: '20'
+    - key: dt
+      value: '0.005'
+    - key: t0
+      value: '0.0'
+    skipReason: null
+    status: SUCCEEDED
+- duration: 4.31613
+  exception: null
+  location: Fig6/Fig6.sedml
+  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `plot`\r\n      `report`\r\n  Executing task 1: `task`\r\n    Executing\
+    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
+    \  Generating output 1: `report` ... \e[34msucceeded\e[0m\r\n      Generating\
+    \ output 2: `plot` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 2 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 2\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_ACT_A7
+      status: SUCCEEDED
+    - id: data_set_ACT_B2
+      status: SUCCEEDED
+    - id: data_set_AUXACT_A7
+      status: SUCCEEDED
+    - id: data_set_AUXACT_B2
+      status: SUCCEEDED
+    - id: data_set_AUXI_B2
+      status: SUCCEEDED
+    - id: data_set_AUXI_GAB
+      status: SUCCEEDED
+    - id: data_set_AUXP_A7
+      status: SUCCEEDED
+    - id: data_set_AUXSEN_A7
+      status: SUCCEEDED
+    - id: data_set_AUXSEN_B2
+      status: SUCCEEDED
+    - id: data_set_AUX_HWR
+      status: SUCCEEDED
+    - id: data_set_AUX_TDA7
+      status: SUCCEEDED
+    - id: data_set_AUX_TDB2
+      status: SUCCEEDED
+    - id: data_set_C_AGA7
+      status: SUCCEEDED
+    - id: data_set_C_AGA7A7
+      status: SUCCEEDED
+    - id: data_set_C_AGB2
+      status: SUCCEEDED
+    - id: data_set_C_NIC
+      status: SUCCEEDED
+    - id: data_set_C_NIC_NIC
+      status: SUCCEEDED
+    - id: data_set_DES_A7
+      status: SUCCEEDED
+    - id: data_set_DES_B2
+      status: SUCCEEDED
+    - id: data_set_R_DOP
+      status: SUCCEEDED
+    - id: data_set_V_DOP
+      status: SUCCEEDED
+    - id: data_set_V_GAB
+      status: SUCCEEDED
+    duration: 0.763665
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1
+      status: SUCCEEDED
+    duration: 0.229998
+    exception: null
+    id: plot
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000032
+    duration: 3.054769
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '150.0'
+    - key: meth
+      value: rungekutta
+    - key: njmp
+      value: '20'
+    - key: dt
+      value: '0.001'
+    - key: t0
+      value: '0.0'
+    skipReason: null
+    status: SUCCEEDED
+- duration: 1.358748
+  exception: null
+  location: FigS4/FigS4-Aleft.sedml
+  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `plot`\r\n      `report`\r\n  Executing task 1: `task`\r\n    Executing\
+    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
+    \  Generating output 1: `report` ... \e[34msucceeded\e[0m\r\n      Generating\
+    \ output 2: `plot` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 2 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 2\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_ACT_A7
+      status: SUCCEEDED
+    - id: data_set_ACT_B2
+      status: SUCCEEDED
+    - id: data_set_AUXACT_A7
+      status: SUCCEEDED
+    - id: data_set_AUXACT_B2
+      status: SUCCEEDED
+    - id: data_set_AUXI_B2
+      status: SUCCEEDED
+    - id: data_set_AUXI_GAB
+      status: SUCCEEDED
+    - id: data_set_AUXP_A7
+      status: SUCCEEDED
+    - id: data_set_AUXSEN_A7
+      status: SUCCEEDED
+    - id: data_set_AUXSEN_B2
+      status: SUCCEEDED
+    - id: data_set_AUX_HWR
+      status: SUCCEEDED
+    - id: data_set_AUX_TDA7
+      status: SUCCEEDED
+    - id: data_set_AUX_TDB2
+      status: SUCCEEDED
+    - id: data_set_C_AGA7
+      status: SUCCEEDED
+    - id: data_set_C_AGA7A7
+      status: SUCCEEDED
+    - id: data_set_C_AGB2
+      status: SUCCEEDED
+    - id: data_set_C_NIC
+      status: SUCCEEDED
+    - id: data_set_C_NIC_NIC
+      status: SUCCEEDED
+    - id: data_set_DES_A7
+      status: SUCCEEDED
+    - id: data_set_DES_B2
+      status: SUCCEEDED
+    - id: data_set_R_DOP
+      status: SUCCEEDED
+    - id: data_set_V_DOP
+      status: SUCCEEDED
+    - id: data_set_V_GAB
+      status: SUCCEEDED
+    duration: 0.185448
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1
+      status: SUCCEEDED
+    duration: 0.16066
+    exception: null
+    id: plot
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000032
+    duration: 0.712866
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '150.0'
+    - key: meth
+      value: rungekutta
+    - key: njmp
+      value: '20'
+    - key: dt
+      value: '0.005'
+    - key: t0
+      value: '0.0'
+    skipReason: null
+    status: SUCCEEDED
+- duration: 1.232351
+  exception: null
+  location: FigS4/FigS4-Aright.sedml
+  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `plot`\r\n      `report`\r\n  Executing task 1: `task`\r\n    Executing\
+    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
+    \  Generating output 1: `report` ... \e[34msucceeded\e[0m\r\n      Generating\
+    \ output 2: `plot` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 2 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 2\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_ACT_A7
+      status: SUCCEEDED
+    - id: data_set_ACT_B2
+      status: SUCCEEDED
+    - id: data_set_AUXACT_A7
+      status: SUCCEEDED
+    - id: data_set_AUXACT_B2
+      status: SUCCEEDED
+    - id: data_set_AUXI_B2
+      status: SUCCEEDED
+    - id: data_set_AUXI_GAB
+      status: SUCCEEDED
+    - id: data_set_AUXP_A7
+      status: SUCCEEDED
+    - id: data_set_AUXSEN_A7
+      status: SUCCEEDED
+    - id: data_set_AUXSEN_B2
+      status: SUCCEEDED
+    - id: data_set_AUX_HWR
+      status: SUCCEEDED
+    - id: data_set_AUX_TDA7
+      status: SUCCEEDED
+    - id: data_set_AUX_TDB2
+      status: SUCCEEDED
+    - id: data_set_C_AGA7
+      status: SUCCEEDED
+    - id: data_set_C_AGA7A7
+      status: SUCCEEDED
+    - id: data_set_C_AGB2
+      status: SUCCEEDED
+    - id: data_set_C_NIC
+      status: SUCCEEDED
+    - id: data_set_C_NIC_NIC
+      status: SUCCEEDED
+    - id: data_set_DES_A7
+      status: SUCCEEDED
+    - id: data_set_DES_B2
+      status: SUCCEEDED
+    - id: data_set_R_DOP
+      status: SUCCEEDED
+    - id: data_set_V_DOP
+      status: SUCCEEDED
+    - id: data_set_V_GAB
+      status: SUCCEEDED
+    duration: 0.189121
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1
+      status: SUCCEEDED
+    duration: 0.131181
+    exception: null
+    id: plot
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000032
+    duration: 0.616578
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '150.0'
+    - key: meth
+      value: rungekutta
+    - key: njmp
+      value: '20'
+    - key: dt
+      value: '0.005'
+    - key: t0
+      value: '0.0'
+    skipReason: null
+    status: SUCCEEDED
+- duration: 1.442317
+  exception: null
+  location: FigS4/FigS4-Bleft.sedml
+  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `plot`\r\n      `report`\r\n  Executing task 1: `task`\r\n    Executing\
+    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
+    \  Generating output 1: `report` ... \e[34msucceeded\e[0m\r\n      Generating\
+    \ output 2: `plot` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 2 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 2\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_ACT_A7
+      status: SUCCEEDED
+    - id: data_set_ACT_B2
+      status: SUCCEEDED
+    - id: data_set_AUXACT_A7
+      status: SUCCEEDED
+    - id: data_set_AUXACT_B2
+      status: SUCCEEDED
+    - id: data_set_AUXI_B2
+      status: SUCCEEDED
+    - id: data_set_AUXI_GAB
+      status: SUCCEEDED
+    - id: data_set_AUXP_A7
+      status: SUCCEEDED
+    - id: data_set_AUXSEN_A7
+      status: SUCCEEDED
+    - id: data_set_AUXSEN_B2
+      status: SUCCEEDED
+    - id: data_set_AUX_HWR
+      status: SUCCEEDED
+    - id: data_set_AUX_TDA7
+      status: SUCCEEDED
+    - id: data_set_AUX_TDB2
+      status: SUCCEEDED
+    - id: data_set_C_AGA7
+      status: SUCCEEDED
+    - id: data_set_C_AGA7A7
+      status: SUCCEEDED
+    - id: data_set_C_AGB2
+      status: SUCCEEDED
+    - id: data_set_C_NIC
+      status: SUCCEEDED
+    - id: data_set_C_NIC_NIC
+      status: SUCCEEDED
+    - id: data_set_DES_A7
+      status: SUCCEEDED
+    - id: data_set_DES_B2
+      status: SUCCEEDED
+    - id: data_set_R_DOP
+      status: SUCCEEDED
+    - id: data_set_V_DOP
+      status: SUCCEEDED
+    - id: data_set_V_GAB
+      status: SUCCEEDED
+    duration: 0.196007
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1
+      status: SUCCEEDED
+    duration: 0.126313
+    exception: null
+    id: plot
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000032
+    duration: 0.736412
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '150.0'
+    - key: meth
+      value: rungekutta
+    - key: njmp
+      value: '20'
+    - key: dt
+      value: '0.005'
+    - key: t0
+      value: '0.0'
+    skipReason: null
+    status: SUCCEEDED
+- duration: 1.301147
+  exception: null
+  location: FigS4/FigS4-Bright.sedml
+  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `plot`\r\n      `report`\r\n  Executing task 1: `task`\r\n    Executing\
+    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
+    \  Generating output 1: `report` ... \e[34msucceeded\e[0m\r\n      Generating\
+    \ output 2: `plot` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 2 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 2\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_ACT_A7
+      status: SUCCEEDED
+    - id: data_set_ACT_B2
+      status: SUCCEEDED
+    - id: data_set_AUXACT_A7
+      status: SUCCEEDED
+    - id: data_set_AUXACT_B2
+      status: SUCCEEDED
+    - id: data_set_AUXI_B2
+      status: SUCCEEDED
+    - id: data_set_AUXI_GAB
+      status: SUCCEEDED
+    - id: data_set_AUXP_A7
+      status: SUCCEEDED
+    - id: data_set_AUXSEN_A7
+      status: SUCCEEDED
+    - id: data_set_AUXSEN_B2
+      status: SUCCEEDED
+    - id: data_set_AUX_HWR
+      status: SUCCEEDED
+    - id: data_set_AUX_TDA7
+      status: SUCCEEDED
+    - id: data_set_AUX_TDB2
+      status: SUCCEEDED
+    - id: data_set_C_AGA7
+      status: SUCCEEDED
+    - id: data_set_C_AGA7A7
+      status: SUCCEEDED
+    - id: data_set_C_AGB2
+      status: SUCCEEDED
+    - id: data_set_C_NIC
+      status: SUCCEEDED
+    - id: data_set_C_NIC_NIC
+      status: SUCCEEDED
+    - id: data_set_DES_A7
+      status: SUCCEEDED
+    - id: data_set_DES_B2
+      status: SUCCEEDED
+    - id: data_set_R_DOP
+      status: SUCCEEDED
+    - id: data_set_V_DOP
+      status: SUCCEEDED
+    - id: data_set_V_GAB
+      status: SUCCEEDED
+    duration: 0.217055
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1
+      status: SUCCEEDED
+    duration: 0.168677
+    exception: null
+    id: plot
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000032
+    duration: 0.63367
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '150.0'
+    - key: meth
+      value: rungekutta
+    - key: njmp
+      value: '20'
+    - key: dt
+      value: '0.005'
+    - key: t0
+      value: '0.0'
+    skipReason: null
+    status: SUCCEEDED
+- duration: 1.384725
+  exception: null
+  location: FigS4/FigS4-Cleft.sedml
+  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `plot`\r\n      `report`\r\n  Executing task 1: `task`\r\n    Executing\
+    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
+    \  Generating output 1: `report` ... \e[34msucceeded\e[0m\r\n      Generating\
+    \ output 2: `plot` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 2 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 2\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_ACT_A7
+      status: SUCCEEDED
+    - id: data_set_ACT_B2
+      status: SUCCEEDED
+    - id: data_set_AUXACT_A7
+      status: SUCCEEDED
+    - id: data_set_AUXACT_B2
+      status: SUCCEEDED
+    - id: data_set_AUXI_B2
+      status: SUCCEEDED
+    - id: data_set_AUXI_GAB
+      status: SUCCEEDED
+    - id: data_set_AUXP_A7
+      status: SUCCEEDED
+    - id: data_set_AUXSEN_A7
+      status: SUCCEEDED
+    - id: data_set_AUXSEN_B2
+      status: SUCCEEDED
+    - id: data_set_AUX_HWR
+      status: SUCCEEDED
+    - id: data_set_AUX_TDA7
+      status: SUCCEEDED
+    - id: data_set_AUX_TDB2
+      status: SUCCEEDED
+    - id: data_set_C_AGA7
+      status: SUCCEEDED
+    - id: data_set_C_AGA7A7
+      status: SUCCEEDED
+    - id: data_set_C_AGB2
+      status: SUCCEEDED
+    - id: data_set_C_NIC
+      status: SUCCEEDED
+    - id: data_set_C_NIC_NIC
+      status: SUCCEEDED
+    - id: data_set_DES_A7
+      status: SUCCEEDED
+    - id: data_set_DES_B2
+      status: SUCCEEDED
+    - id: data_set_R_DOP
+      status: SUCCEEDED
+    - id: data_set_V_DOP
+      status: SUCCEEDED
+    - id: data_set_V_GAB
+      status: SUCCEEDED
+    duration: 0.200679
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1
+      status: SUCCEEDED
+    duration: 0.149589
+    exception: null
+    id: plot
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000032
+    duration: 0.694171
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '150.0'
+    - key: meth
+      value: rungekutta
+    - key: njmp
+      value: '20'
+    - key: dt
+      value: '0.005'
+    - key: t0
+      value: '0.0'
+    skipReason: null
+    status: SUCCEEDED
+- duration: 1.292175
+  exception: null
+  location: FigS4/FigS4-Cright.sedml
+  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `plot`\r\n      `report`\r\n  Executing task 1: `task`\r\n    Executing\
+    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
+    \  Generating output 1: `report` ... \e[34msucceeded\e[0m\r\n      Generating\
+    \ output 2: `plot` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 2 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 2\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_ACT_A7
+      status: SUCCEEDED
+    - id: data_set_ACT_B2
+      status: SUCCEEDED
+    - id: data_set_AUXACT_A7
+      status: SUCCEEDED
+    - id: data_set_AUXACT_B2
+      status: SUCCEEDED
+    - id: data_set_AUXI_B2
+      status: SUCCEEDED
+    - id: data_set_AUXI_GAB
+      status: SUCCEEDED
+    - id: data_set_AUXP_A7
+      status: SUCCEEDED
+    - id: data_set_AUXSEN_A7
+      status: SUCCEEDED
+    - id: data_set_AUXSEN_B2
+      status: SUCCEEDED
+    - id: data_set_AUX_HWR
+      status: SUCCEEDED
+    - id: data_set_AUX_TDA7
+      status: SUCCEEDED
+    - id: data_set_AUX_TDB2
+      status: SUCCEEDED
+    - id: data_set_C_AGA7
+      status: SUCCEEDED
+    - id: data_set_C_AGA7A7
+      status: SUCCEEDED
+    - id: data_set_C_AGB2
+      status: SUCCEEDED
+    - id: data_set_C_NIC
+      status: SUCCEEDED
+    - id: data_set_C_NIC_NIC
+      status: SUCCEEDED
+    - id: data_set_DES_A7
+      status: SUCCEEDED
+    - id: data_set_DES_B2
+      status: SUCCEEDED
+    - id: data_set_R_DOP
+      status: SUCCEEDED
+    - id: data_set_V_DOP
+      status: SUCCEEDED
+    - id: data_set_V_GAB
+      status: SUCCEEDED
+    duration: 0.206884
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1
+      status: SUCCEEDED
+    duration: 0.155992
+    exception: null
+    id: plot
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000032
+    duration: 0.63424
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '150.0'
+    - key: meth
+      value: rungekutta
+    - key: njmp
+      value: '20'
+    - key: dt
+      value: '0.005'
+    - key: t0
+      value: '0.0'
+    skipReason: null
+    status: SUCCEEDED
+- duration: 1.328061
+  exception: null
+  location: FigS4/FigS4-Dleft.sedml
+  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `plot`\r\n      `report`\r\n  Executing task 1: `task`\r\n    Executing\
+    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
+    \  Generating output 1: `report` ... \e[34msucceeded\e[0m\r\n      Generating\
+    \ output 2: `plot` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 2 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 2\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_ACT_A7
+      status: SUCCEEDED
+    - id: data_set_ACT_B2
+      status: SUCCEEDED
+    - id: data_set_AUXACT_A7
+      status: SUCCEEDED
+    - id: data_set_AUXACT_B2
+      status: SUCCEEDED
+    - id: data_set_AUXI_B2
+      status: SUCCEEDED
+    - id: data_set_AUXI_GAB
+      status: SUCCEEDED
+    - id: data_set_AUXP_A7
+      status: SUCCEEDED
+    - id: data_set_AUXSEN_A7
+      status: SUCCEEDED
+    - id: data_set_AUXSEN_B2
+      status: SUCCEEDED
+    - id: data_set_AUX_HWR
+      status: SUCCEEDED
+    - id: data_set_AUX_TDA7
+      status: SUCCEEDED
+    - id: data_set_AUX_TDB2
+      status: SUCCEEDED
+    - id: data_set_C_AGA7
+      status: SUCCEEDED
+    - id: data_set_C_AGA7A7
+      status: SUCCEEDED
+    - id: data_set_C_AGB2
+      status: SUCCEEDED
+    - id: data_set_C_NIC
+      status: SUCCEEDED
+    - id: data_set_C_NIC_NIC
+      status: SUCCEEDED
+    - id: data_set_DES_A7
+      status: SUCCEEDED
+    - id: data_set_DES_B2
+      status: SUCCEEDED
+    - id: data_set_R_DOP
+      status: SUCCEEDED
+    - id: data_set_V_DOP
+      status: SUCCEEDED
+    - id: data_set_V_GAB
+      status: SUCCEEDED
+    duration: 0.19776
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1
+      status: SUCCEEDED
+    duration: 0.134734
+    exception: null
+    id: plot
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000032
+    duration: 0.685502
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '150.0'
+    - key: meth
+      value: rungekutta
+    - key: njmp
+      value: '20'
+    - key: dt
+      value: '0.005'
+    - key: t0
+      value: '0.0'
+    skipReason: null
+    status: SUCCEEDED
+- duration: 1.37833
+  exception: null
+  location: FigS4/FigS4-Dright.sedml
+  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `plot`\r\n      `report`\r\n  Executing task 1: `task`\r\n    Executing\
+    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
+    \  Generating output 1: `report` ... \e[34msucceeded\e[0m\r\n      Generating\
+    \ output 2: `plot` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 2 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 2\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_ACT_A7
+      status: SUCCEEDED
+    - id: data_set_ACT_B2
+      status: SUCCEEDED
+    - id: data_set_AUXACT_A7
+      status: SUCCEEDED
+    - id: data_set_AUXACT_B2
+      status: SUCCEEDED
+    - id: data_set_AUXI_B2
+      status: SUCCEEDED
+    - id: data_set_AUXI_GAB
+      status: SUCCEEDED
+    - id: data_set_AUXP_A7
+      status: SUCCEEDED
+    - id: data_set_AUXSEN_A7
+      status: SUCCEEDED
+    - id: data_set_AUXSEN_B2
+      status: SUCCEEDED
+    - id: data_set_AUX_HWR
+      status: SUCCEEDED
+    - id: data_set_AUX_TDA7
+      status: SUCCEEDED
+    - id: data_set_AUX_TDB2
+      status: SUCCEEDED
+    - id: data_set_C_AGA7
+      status: SUCCEEDED
+    - id: data_set_C_AGA7A7
+      status: SUCCEEDED
+    - id: data_set_C_AGB2
+      status: SUCCEEDED
+    - id: data_set_C_NIC
+      status: SUCCEEDED
+    - id: data_set_C_NIC_NIC
+      status: SUCCEEDED
+    - id: data_set_DES_A7
+      status: SUCCEEDED
+    - id: data_set_DES_B2
+      status: SUCCEEDED
+    - id: data_set_R_DOP
+      status: SUCCEEDED
+    - id: data_set_V_DOP
+      status: SUCCEEDED
+    - id: data_set_V_GAB
+      status: SUCCEEDED
+    duration: 0.196105
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1
+      status: SUCCEEDED
+    duration: 0.16163
+    exception: null
+    id: plot
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000032
+    duration: 0.62513
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '150.0'
+    - key: meth
+      value: rungekutta
+    - key: njmp
+      value: '20'
+    - key: dt
+      value: '0.005'
+    - key: t0
+      value: '0.0'
+    skipReason: null
+    status: SUCCEEDED
+- duration: 4.786041
+  exception: null
+  location: FigS5/FigS5A.sedml
+  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `plot`\r\n      `report`\r\n  Executing task 1: `task`\r\n    Executing\
+    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
+    \  Generating output 1: `report` ... \e[34msucceeded\e[0m\r\n      Generating\
+    \ output 2: `plot` .../home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:35:\
+    \ RuntimeWarning: More than 20 figures have been opened. Figures created through\
+    \ the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly\
+    \ closed and may consume too much memory. (To control this warning, see the rcParam\
+    \ `figure.max_open_warning`).\r\r\n  figure = pyplot.figure()\r\r\n \e[34msucceeded\e\
+    [0m\r\n\r\n  Executed 1 tasks and 2 outputs:\r\n    Tasks:\r\n      Succeeded:\
+    \ 1\r\n      Skipped: 0\r\n      Failed: 0\r\n    Outputs:\r\n      Succeeded:\
+    \ 2\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_ACT_A7
+      status: SUCCEEDED
+    - id: data_set_ACT_B2
+      status: SUCCEEDED
+    - id: data_set_AINF_ACTA7
+      status: SUCCEEDED
+    - id: data_set_AINF_DESA7
+      status: SUCCEEDED
+    - id: data_set_AUXACT_A7
+      status: SUCCEEDED
+    - id: data_set_AUXACT_B2
+      status: SUCCEEDED
+    - id: data_set_AUXI_B2
+      status: SUCCEEDED
+    - id: data_set_AUXI_GAB
+      status: SUCCEEDED
+    - id: data_set_AUXP_A7
+      status: SUCCEEDED
+    - id: data_set_AUXSEN_A7
+      status: SUCCEEDED
+    - id: data_set_AUXSEN_B2
+      status: SUCCEEDED
+    - id: data_set_AUX_HWR
+      status: SUCCEEDED
+    - id: data_set_AUX_TDA7
+      status: SUCCEEDED
+    - id: data_set_AUX_TDB2
+      status: SUCCEEDED
+    - id: data_set_C_ACH
+      status: SUCCEEDED
+    - id: data_set_C_AGA7
+      status: SUCCEEDED
+    - id: data_set_C_AGA7A7
+      status: SUCCEEDED
+    - id: data_set_C_AGB2
+      status: SUCCEEDED
+    - id: data_set_C_CHOL
+      status: SUCCEEDED
+    - id: data_set_C_NIC
+      status: SUCCEEDED
+    - id: data_set_C_NIC_NIC
+      status: SUCCEEDED
+    - id: data_set_DES_A7
+      status: SUCCEEDED
+    - id: data_set_DES_B2
+      status: SUCCEEDED
+    - id: data_set_R_DOP
+      status: SUCCEEDED
+    - id: data_set_V_DOP
+      status: SUCCEEDED
+    - id: data_set_V_GAB
+      status: SUCCEEDED
+    duration: 1.149048
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1
+      status: SUCCEEDED
+    duration: 0.292244
+    exception: null
+    id: plot
+    output: "/home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:35:\
+      \ RuntimeWarning: More than 20 figures have been opened. Figures created through\
+      \ the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly\
+      \ closed and may consume too much memory. (To control this warning, see the\
+      \ rcParam `figure.max_open_warning`).\r\n  figure = pyplot.figure()\r\n"
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000032
+    duration: 3.037791
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '700.0'
+    - key: meth
+      value: rungekutta
+    - key: dt
+      value: '0.005'
+    - key: t0
+      value: '0.0'
+    - key: njmp
+      value: '14'
+    skipReason: null
+    status: SUCCEEDED
+- duration: 3.527225
+  exception: null
+  location: FigS5/FigS5B.sedml
+  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `plot`\r\n      `report`\r\n  Executing task 1: `task`\r\n    Executing\
+    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
+    \  Generating output 1: `report` ... \e[34msucceeded\e[0m\r\n      Generating\
+    \ output 2: `plot` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 2 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 2\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_ACT_A7
+      status: SUCCEEDED
+    - id: data_set_ACT_B2
+      status: SUCCEEDED
+    - id: data_set_AINF_ACTA7
+      status: SUCCEEDED
+    - id: data_set_AINF_DESA7
+      status: SUCCEEDED
+    - id: data_set_AUXACT_A7
+      status: SUCCEEDED
+    - id: data_set_AUXACT_B2
+      status: SUCCEEDED
+    - id: data_set_AUXI_B2
+      status: SUCCEEDED
+    - id: data_set_AUXI_GAB
+      status: SUCCEEDED
+    - id: data_set_AUXP_A7
+      status: SUCCEEDED
+    - id: data_set_AUXSEN_A7
+      status: SUCCEEDED
+    - id: data_set_AUXSEN_B2
+      status: SUCCEEDED
+    - id: data_set_AUX_HWR
+      status: SUCCEEDED
+    - id: data_set_AUX_TDA7
+      status: SUCCEEDED
+    - id: data_set_AUX_TDB2
+      status: SUCCEEDED
+    - id: data_set_C_AGA7
+      status: SUCCEEDED
+    - id: data_set_C_AGA7A7
+      status: SUCCEEDED
+    - id: data_set_C_AGB2
+      status: SUCCEEDED
+    - id: data_set_C_CHOL
+      status: SUCCEEDED
+    - id: data_set_C_NIC
+      status: SUCCEEDED
+    - id: data_set_C_NIC_NIC
+      status: SUCCEEDED
+    - id: data_set_DES_A7
+      status: SUCCEEDED
+    - id: data_set_DES_B2
+      status: SUCCEEDED
+    - id: data_set_R_DOP
+      status: SUCCEEDED
+    - id: data_set_V_DOP
+      status: SUCCEEDED
+    - id: data_set_V_GAB
+      status: SUCCEEDED
+    duration: 0.13655
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  - curves:
+    - id: curve_1
+      status: SUCCEEDED
+    duration: 0.127093
+    exception: null
+    id: plot
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000032
+    duration: 2.915511
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '700.0'
+    - key: meth
+      value: rungekutta
+    - key: njmp
+      value: '200'
+    - key: dt
+      value: '0.005'
+    - key: t0
+      value: '0.0'
+    skipReason: null
+    status: SUCCEEDED
+skipReason: null
+status: SUCCEEDED

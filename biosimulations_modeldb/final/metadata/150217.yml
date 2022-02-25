@@ -1,7 +1,4 @@
-description: '```
-
-
-  The XPP code was run and set with MATLAB (using file runchange.m),
+description: 'The XPP code was run and set with MATLAB (using file runchange.m),
 
   using the MATLAB-XPP interface that can be downloaded here:
 
@@ -21,10 +18,7 @@ description: '```
   5 Model with added T-current with variable gT: prescott+Tvar
 
 
-  All used the same input stimulus, taken from the experiments, stim.tab
-
-
-  ```'
+  All used the same input stimulus, taken from the experiments, stim.tab'
 references:
 - label: 'Fleur Zeldenrust, Pascal J. P. Chameau & Wytse J. Wadman. Reliability of
     spike and burst firing in thalamocortical relay cells. Journal of Computational

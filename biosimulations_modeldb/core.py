@@ -1,4 +1,4 @@
-from .utils import case_insensitive_glob
+from .utils import case_insensitive_glob, get_readme, get_images_for_project
 from Bio import Entrez
 from biosimulators_utils.combine.data_model import CombineArchive, CombineArchiveContent, CombineArchiveContentFormat
 from biosimulators_utils.combine.io import CombineArchiveWriter
@@ -15,11 +15,9 @@ from biosimulators_utils.sedml.io import SedmlSimulationWriter
 from biosimulators_utils.sedml.model_utils import get_parameters_variables_outputs_for_simulation
 from biosimulators_utils.utils.core import flatten_nested_list_of_strings
 from biosimulators_utils.warnings import BioSimulatorsWarning
-import base64
 import biosimulators_xpp
 import biosimulators_utils.biosimulations.utils
 import boto3
-import bs4
 import copy
 import datetime
 import dateutil.parser
@@ -28,12 +26,11 @@ import git
 import glob
 import imghdr
 import lxml.etree
-import mammoth
-import markdownify
 import natsort
 import os
 import pkg_resources
 import shutil
+import sys
 import tempfile
 import time
 import warnings
@@ -46,13 +43,13 @@ env = {
 
 Entrez.email = env.get('ENTREZ_EMAIL', None)
 
-__all__ = ['import_models']
+__all__ = ['import_projects']
 
 MODELING_APPLICATION = 'XPP'
 CONCEPT_URI_PATTERN = 'http://modeldb.science/ModelList?id={}'
 BIOSIMULATIONS_PROJECT_ID_PATTERN = 'modeldb-{}'
 BIOSIMULATORS_SIMULATOR_ID = 'xpp'
-ARTICLE_FIGURES_COMBINE_ARCHIVE_SUBDIRECTORY_PATTERN = os.path.join('article-figures', '{}')
+ARTICLE_FIGURES_COMBINE_ARCHIVE_SUBDIRECTORY = 'article-figures'
 
 with open(pkg_resources.resource_filename('biosimulations_modeldb', os.path.join('final', 'modeldb-bqbiol-map.yml')), 'r') as file:
     MODELDB_BQBIOL_MAP = yaml.load(file, Loader=yaml.Loader)
@@ -68,7 +65,7 @@ with open(pkg_resources.resource_filename('biosimulations_modeldb', os.path.join
     SET_FILE_MAP = yaml.load(file, Loader=yaml.Loader)
 
 
-def get_model_ids(config, modeling_application):
+def get_project_ids(config, modeling_application):
     """ Get a list of the ids of models in the source database for a particular modeling application (e.g., XPP)
 
     Args:
@@ -76,81 +73,99 @@ def get_model_ids(config, modeling_application):
         modeling_application (:obj:`str`): modeling application (e.g., ``XPP``)
 
     Returns:
-        :obj:`list` of :obj:`int`: ids of models
+        :obj:`list` of :obj:`int`: ids of projects
     """
     response = config['source_session'].get(config['source_api_endpoint'] + '/models?modeling_application={}'.format(modeling_application))
     response.raise_for_status()
-    models = response.json()
-    models.sort()
-    return models
+    projects = response.json()
+    projects.sort()
+    return projects
 
 
-def get_model(id, config):
-    """ Get the details of a model from the source database and download the associated files
+def get_project(id, config):
+    """ Get the details of a project from the source database and download the associated files
 
     Args:
-        id (:obj:`int`): id of the model
+        id (:obj:`int`): id of the project
         config (:obj:`dict`): configuration
 
     Returns:
-        :obj:`dict`: detailed information about the model
+        :obj:`dict`: detailed information about the project
     """
-    # get information about the model
+    # get information about the project
     response = config['source_session'].get(config['source_api_endpoint'] + '/models/' + str(id))
     response.raise_for_status()
-    model = response.json()
+    project = response.json()
 
     # get information about the papers
-    for paper in model['model_paper']['value']:
-        response = config['source_session'].get(config['source_api_endpoint'] + '/papers/' + str(paper['object_id']))
-        response.raise_for_status()
-        paper_details = response.json()
+    for paper in project['model_paper']['value']:
+        get_paper_metadata(paper, config)
 
-        if 'fist_page' in paper_details:
-            pages = paper_details['fist_page']['value']
-            if 'last_page' in paper_details:
-                pages += '-' + paper_details['last_page']['value']
-        else:
-            pages = None
-
-        article = JournalArticle(
-            authors=[author['object_name'] for author in paper_details['authors']['value']],
-            title=paper_details['title']['value'],
-            journal=paper_details['journal']['value'],
-            volume=paper_details.get('volume', {}).get('value', None),
-            issue=None,
-            pages=pages,
-            year=int(paper_details['year']['value']),
-        )
-
-        paper['uris'] = {
-            'doi': paper_details.get('doi', {}).get('value', None),
-            'pubmed': paper_details.get('pubmed_id', {}).get('value', None),
-            'url': paper_details.get('url', {}).get('value', None),
-        }
-        paper['citation'] = article
-
-    # download the files for the model by adding it as a submodule
-    model_dirname = os.path.join(config['source_models_dirname'], str(id))
-    if not os.path.isdir(model_dirname):
-        model_repo_url = '{}/{}.git'.format(config['source_models_git_repository_organization'], id)
+    # download the files for the project by adding it as a submodule
+    project_dirname = os.path.join(config['source_projects_dirname'], str(id))
+    if not os.path.isdir(project_dirname):
+        project_repo_url = '{}/{}.git'.format(config['source_projects_git_repository_organization'], id)
         repo = git.Repo(config['source_repository'])
-        git.Submodule.add(repo, str(id), model_dirname, model_repo_url)
+        git.Submodule.add(repo, str(id), project_dirname, project_repo_url)
+    elif config['update_project_sources']:
+        project_repo = git.Repo(project_dirname)
+        project_repo.head.reset(index=True, working_tree=True)
+        project_repo.remotes.origin.pull()
 
-    # return the details of the model
-    return model
+    # return the details of the project
+    return project
 
 
-def get_metadata_for_model(model, model_dirname, config):
-    """ Get additional metadata about a model
+def get_paper_metadata(paper, config):
+    """ Get metadata about a ModelDB paper
+
+    Args:
+        paper (:obj:`dict`): ModelDB paper
+        config (:obj:`dict`): configuration
+    """
+    response = config['source_session'].get(config['source_api_endpoint'] + '/papers/' + str(paper['object_id']))
+    response.raise_for_status()
+    paper_details = response.json()
+
+    if 'first_page' in paper_details:
+        pages = paper_details['first_page']['value']
+        if 'last_page' in paper_details:
+            pages += '-' + paper_details['last_page']['value']
+    else:
+        pages = None
+
+    title = paper_details['title']['value']
+    if title.endswith('.'):
+        title = title[0:-1]
+
+    article = JournalArticle(
+        authors=[author['object_name'] for author in paper_details['authors']['value']],
+        title=title,
+        journal=paper_details['journal']['value'],
+        volume=paper_details.get('volume', {}).get('value', None),
+        issue=None,
+        pages=pages,
+        year=int(paper_details['year']['value']),
+    )
+
+    paper['uris'] = {
+        'doi': paper_details.get('doi', {}).get('value', None),
+        'pubmed': paper_details.get('pubmed_id', {}).get('value', None),
+        'url': paper_details.get('url', {}).get('value', None),
+    }
+    paper['citation'] = article
+
+
+def get_metadata_for_project(project, project_dirname, config):
+    """ Get additional metadata about a project
 
     * NCBI Taxonomy id of the organism
     * PubMed id, PubMed Central id and DOI for the reference
     * Open access figures for the reference
 
     Args:
-        model (:obj:`dict`): information about a model
-        model_dirname (:obj:`str`): path to the directory of files for the model
+        project (:obj:`dict`): information about a project
+        project_dirname (:obj:`str`): path to the directory of files for the project
         config (:obj:`dict`): configuration
 
     Returns:
@@ -161,7 +176,7 @@ def get_metadata_for_model(model, model_dirname, config):
             * :obj:`list` of :obj:`dict`: structured information about the references
             * :obj:`list` of :obj:`dict`: thumbnails
     """
-    metadata_filename = os.path.join(config['final_metadata_dirname'], str(model['id']) + '.yml')
+    metadata_filename = os.path.join(config['final_metadata_dirname'], str(project['id']) + '.yml')
 
     # read from cache
     if os.path.isfile(metadata_filename):
@@ -173,98 +188,32 @@ def get_metadata_for_model(model, model_dirname, config):
         thumbnails = metadata.get('thumbnails', [])
 
         for thumbnail in thumbnails:
-            thumbnail['local_filename'] = os.path.join(config['base_dir'], thumbnail['local_filename'])
+            thumbnail['local_filename'] = os.path.normpath(os.path.join(config['base_dirname'], thumbnail['local_filename']))
 
         return description, taxa, references, thumbnails
 
     # get images (gif, png, jpeg, jpg, webp)
-    project_image_filenames = (
-        case_insensitive_glob(os.path.join(model_dirname, '**', '*.gif'), recursive=True)
-        + case_insensitive_glob(os.path.join(model_dirname, '**', '*.jpeg'), recursive=True)
-        + case_insensitive_glob(os.path.join(model_dirname, '**', '*.jpg'), recursive=True)
-        + case_insensitive_glob(os.path.join(model_dirname, '**', '*.png'), recursive=True)
-        + case_insensitive_glob(os.path.join(model_dirname, '**', '*.webp'), recursive=True)
-    )
-    project_image_filenames.sort(key=lambda filename: (filename.count('/'), filename.lower()))
-    project_thumbnails = []
-    for project_image_filename in project_image_filenames:
-        project_thumbnails.append({
-            'local_filename': project_image_filename,
-            'archive_filename': os.path.relpath(project_image_filename, model_dirname),
-            'format': imghdr.what(project_image_filename),
-        })
-
-    project_image_filename_map = {}
-    for project_image_filename in project_image_filenames:
-        basename, ext = os.path.splitext(os.path.relpath(project_image_filename, model_dirname))
-        project_image_filename_map[basename.lower() + ext.lower()] = project_image_filename
+    project_image_filenames = get_images_for_project(project_dirname)
 
     # get description from readme
-    description = None
-    readme_filenames = case_insensitive_glob(os.path.join(model_dirname, '**', 'readme.*'), recursive=True)
+    readme_filenames = case_insensitive_glob(os.path.join(project_dirname, '**', 'readme.*'), recursive=True)
     readme_filenames.sort(key=lambda filename: filename.count('/'))
     if readme_filenames:
-        readme_filename = readme_filenames[0]
-        _, ext = os.path.splitext(readme_filename.lower())
-        if ext in ['', '.txt', '.md']:
-            with open(readme_filename, 'r') as file:
-                description = file.read()
-
-        elif ext in ['.html']:
-            with open(readme_filename, 'rb') as file:
-                doc = bs4.BeautifulSoup(file.read(), features='lxml')
-            content = doc.find('body') or doc
-
-            image_work_dirname = os.path.dirname(readme_filename)
-            for image_el in content.find_all('img'):
-                image_src_html = os.path.join(image_work_dirname, os.path.relpath(image_el.get('src'), '.'))
-                image_basename, image_ext = os.path.splitext(os.path.relpath(image_src_html, model_dirname))
-                image_src = project_image_filename_map.get(image_basename.lower() + image_ext.lower(), None)
-                if image_src != image_src_html:
-                    warnings.warn((
-                        f'Image source `{image_el.get("src")}` '
-                        f'in readme `{os.path.relpath(readme_filename, model_dirname)}` '
-                        f'for model `{model["id"]}` is incorrect'
-                    ), UserWarning)
-
-                image_format = imghdr.what(image_src)
-                with open(image_src, 'rb') as image_file:
-                    image_value = base64.b64encode(image_file.read()).decode()
-                    image_el['src'] = f'data:image/{image_format};base64,{image_value}'
-
-                parent_el = image_el.parent
-                if parent_el.name == 'pre':
-                    sibling_els = list(parent_el.children)
-                    i_image = sibling_els.index(image_el)
-
-                    below_container = bs4.BeautifulSoup('<pre></pre>', features='lxml').pre
-                    parent_el.insert_after(below_container)
-                    for sibling_el in sibling_els[i_image + 1:]:
-                        below_container.append(sibling_el)
-
-                    parent_el.insert_after(image_el)
-
-            description = markdownify.MarkdownConverter().convert_soup(content).strip()
-
-        elif ext in ['.docx']:
-            with open(readme_filename, 'rb') as file:
-                result = mammoth.convert_to_markdown(file)
-                description = result.value.strip()
-
-        else:
-            raise NotImplementedError('README type `{}` is not supported.'.format(ext))
+        description = get_readme(readme_filenames[0], project['id'], project_dirname)
+    else:
+        description = None
 
     # get taxa
     taxa_ids = set()
     taxa = []
-    for species in model.get('species', {}).get('value', []):
+    for species in project.get('species', {}).get('value', []):
         taxon = TAXA.get(species['object_name'], None)
         if not taxon:
             raise ValueError("Taxonomy must be annotated for species '{}'".format(species['object_name']))
         taxa_ids.add(taxon['uri'])
         taxa.append(taxon)
 
-    for region in model.get('region', {}).get('value', []):
+    for region in project.get('region', {}).get('value', []):
         taxon = TAXA.get(region['object_name'], None)
         if taxon and taxon['uri'] not in taxa_ids:
             taxa_ids.add(taxon['uri'])
@@ -272,8 +221,8 @@ def get_metadata_for_model(model, model_dirname, config):
 
     # get citations and figures
     references = []
-    reference_thumbnails = []
-    for paper in model.get('model_paper', {}).get('value', []):
+    thumbnails = []
+    for paper in project.get('model_paper', {}).get('value', []):
         if paper['uris']['doi'] or paper['uris']['pubmed']:
             time.sleep(config['entrez_delay'])
 
@@ -284,6 +233,7 @@ def get_metadata_for_model(model, model_dirname, config):
             )
 
             # manually correct an invalid DOI
+            # TODO: remove once corrected in ModelDB
             if paper['object_id'] == 39981:
                 article.doi = '10.1523/JNEUROSCI.22-07-02963.2002'
 
@@ -300,12 +250,12 @@ def get_metadata_for_model(model, model_dirname, config):
                     session=config['pubmed_central_open_access_session'],
                 )
                 for graphic in graphics:
-                    reference_thumbnails.append({
+                    thumbnails.append({
                         'id': graphic.id,
                         'local_filename': graphic.filename,
                         'archive_filename': os.path.join(
-                            ARTICLE_FIGURES_COMBINE_ARCHIVE_SUBDIRECTORY_PATTERN.format(
-                                os.path.basename(os.path.dirname(graphic.filename))),
+                            ARTICLE_FIGURES_COMBINE_ARCHIVE_SUBDIRECTORY,
+                            os.path.basename(os.path.dirname(graphic.filename)),
                             os.path.basename(graphic.filename),
                         ),
                         'format': imghdr.what(graphic.filename),
@@ -322,8 +272,16 @@ def get_metadata_for_model(model, model_dirname, config):
             'label': article.get_citation(),
         })
 
+    # add images to thumbnails
+    project_image_filenames.sort(key=lambda filename: (filename.count('/'), filename.lower()))
+    for project_image_filename in project_image_filenames:
+        thumbnails.append({
+            'local_filename': project_image_filename,
+            'archive_filename': os.path.relpath(project_image_filename, project_dirname),
+            'format': imghdr.what(project_image_filename),
+        })
+
     # save metadata
-    thumbnails = reference_thumbnails + project_thumbnails
     metadata = {
         'description': description,
         'taxa': taxa,
@@ -331,19 +289,19 @@ def get_metadata_for_model(model, model_dirname, config):
         'thumbnails': copy.deepcopy(thumbnails),
     }
     for thumbnail in metadata['thumbnails']:
-        thumbnail['local_filename'] = os.path.relpath(thumbnail['local_filename'], config['base_dir'])
+        thumbnail['local_filename'] = os.path.relpath(thumbnail['local_filename'], config['base_dirname'])
     with open(metadata_filename, 'w') as file:
         file.write(yaml.dump(metadata))
 
     return (description, taxa, references, thumbnails)
 
 
-def export_project_metadata_for_model_to_omex_metadata(model, description, taxa, references, thumbnails, metadata_filename, config):
-    """ Export metadata about a model to an OMEX metadata RDF-XML file
+def export_project_metadata_for_project_to_omex_metadata(project, description, taxa, references, thumbnails, metadata_filename, config):
+    """ Export metadata about a project to an OMEX metadata RDF-XML file
 
     Args:
-        model (:obj:`str`): information about the model
-        description (:obj:`str`): description of the model
+        project (:obj:`str`): information about the project
+        description (:obj:`str`): description of the project
         taxa (:obj:`list` of :obj:`dict`): NCBI taxonomy identifier and name
         references (:obj:`list` of :obj:`dict`): structured information about the reference
         thumbnails (:obj:`list` of :obj:`dict`): thumbnails
@@ -353,11 +311,11 @@ def export_project_metadata_for_model_to_omex_metadata(model, description, taxa,
     encodes = []
     for attr in MODELDB_BQBIOL_MAP:
         if attr['hasUri']:
-            for object in model.get(attr['attribute'], {}).get('value', []):
+            for object in project.get(attr['attribute'], {}).get('value', []):
                 object_name = object['object_name']
                 if attr['attribute'] == 'region':
-                    if object_name in ['Generic', 'Uknown'] or object_name in TAXA:
-                        continue
+                    if object_name in ['Generic', 'Unknown'] or object_name in TAXA:
+                        continue  # pragma: no cover
 
                     object_name = object_name.partition(' (')[0]
 
@@ -366,14 +324,14 @@ def export_project_metadata_for_model_to_omex_metadata(model, description, taxa,
                     'label': object_name,
                 })
         else:
-            object_name = model.get(attr['attribute'], {}).get('value', None)
+            object_name = project.get(attr['attribute'], {}).get('value', None)
             if object_name:
                 encodes.append({
                     'label': object_name,
                 })
 
     creators = []
-    for implemented_by in model.get('implemented_by', {}).get('value', []):
+    for implemented_by in project.get('implemented_by', {}).get('value', []):
         name, _, email = implemented_by['object_name'].partition(' [')
         last_name, _, first_name = name.partition(', ')
         if email:
@@ -387,23 +345,23 @@ def export_project_metadata_for_model_to_omex_metadata(model, description, taxa,
         })
 
     contributors = copy.deepcopy(config['curators'])
-    if model.get('public_submitter_name', None):
+    if project.get('public_submitter_name', None):
         submitter = {
-            'label': model['public_submitter_name']['value'],
+            'label': project['public_submitter_name']['value'],
             'uri': None,
         }
-        if model.get('public_submitter_email', None):
-            submitter['uri'] = 'mailto:' + model['public_submitter_email']['value']
+        if project.get('public_submitter_email', None):
+            submitter['uri'] = 'mailto:' + project['public_submitter_email']['value']
         contributors.insert(0, submitter)
 
-    created = dateutil.parser.parse(model['created'])
-    last_updated = dateutil.parser.parse(model['ver_date'])
+    created = dateutil.parser.parse(project['created'])
+    last_updated = dateutil.parser.parse(project['ver_date'])
 
     metadata = {
         "uri": '.',
-        "combine_archive_uri": BIOSIMULATIONS_ROOT_URI_FORMAT.format(model['id']),
-        'title': model['name'],
-        'abstract': model.get('notes', {}).get('value', None),
+        "combine_archive_uri": BIOSIMULATIONS_ROOT_URI_FORMAT.format(project['id']),
+        'title': project['name'],
+        'abstract': project.get('notes', {}).get('value', None),
         'keywords': [
         ],
         'description': description,
@@ -421,11 +379,12 @@ def export_project_metadata_for_model_to_omex_metadata(model, description, taxa,
         'contributors': contributors,
         'identifiers': [
             {
-                'uri': 'https://identifiers.org/modeldb:{}'.format(model['id']),
-                'label': 'modeldb:{}'.format(model['id']),
+                'uri': 'https://identifiers.org/modeldb:{}'.format(project['id']),
+                'label': 'modeldb:{}'.format(project['id']),
             },
         ],
         'citations': references,
+        'references': [],
         'license': None,
         'funders': [],
         'created': '{}-{:02d}-{:02d}'.format(created.year, created.month, created.day),
@@ -441,12 +400,12 @@ def export_project_metadata_for_model_to_omex_metadata(model, description, taxa,
         raise ValueError('The metadata is not valid:\n  {}'.format(flatten_nested_list_of_strings(errors).replace('\n', '\n  ')))
 
 
-def build_combine_archive_for_model(id, model_dirname, archive_filename, extra_contents):
-    """ Build a COMBINE/OMEX archive for a model including a SED-ML file
+def build_combine_archive_for_project(id, project_dirname, archive_filename, extra_contents):
+    """ Build a COMBINE/OMEX archive for a project including a SED-ML file
 
     Args:
-        id (:obj:`str`): model id
-        model_dirname (:obj:`str`): path to the directory of files for the model
+        id (:obj:`str`): project id
+        project_dirname (:obj:`str`): path to the directory of files for the project
         archive_filename (:obj:`str`): path to save the COMBINE/OMEX archive
         extra_contents (:obj:`dict`): dictionary that maps the local path of each additional file that
             should be included in the arrchive to its intended location within the archive and format
@@ -454,196 +413,21 @@ def build_combine_archive_for_model(id, model_dirname, archive_filename, extra_c
     # make temporary directory for archive
     archive_dirname = tempfile.mkdtemp()
     shutil.rmtree(archive_dirname)
-    archive = CombineArchive()
+    shutil.copytree(project_dirname, archive_dirname)
 
-    # add files from ModelDB
-    shutil.copytree(model_dirname, archive_dirname)
-    for filename in glob.glob(os.path.join(model_dirname, '**', '*'), recursive=True):
-        location = os.path.relpath(filename, model_dirname)
-        if os.path.isdir(filename):
-            continue
-        if location in ['.git', 'desktop.ini']:
-            continue
-
-        _, ext = os.path.splitext(location)
-        if ext:
-            ext = ext[1:]
-        if ext.lower() in ['gif', 'jpeg', 'jpg', 'png', 'webp']:  # ignore image files because they will be included as 'extra_contents'
-            continue
-
-        if ext == 'xml':
-            doc = lxml.etree.parse(filename)
-            ns = doc.getroot().nsmap[None]
-            if ns.startswith('http://www.sbml.org/sbml/'):
-                uri = CombineArchiveContentFormat.SBML
-            elif ns.startswith('http://morphml.org/neuroml/schema'):
-                uri = CombineArchiveContentFormat.NeuroML
-            else:
-                uri = CombineArchiveContentFormat.XML
-
-        else:
-            uri = FILE_EXTENSION_FORMAT_URI_MAP.get(ext.lower(), None)
-            if uri is None:
-                uri = CombineArchiveContentFormat.OTHER
-                msg = 'URI for `{}` for model `{}` is not known'.format(location, id)
-                warnings.warn(msg, UserWarning)
-
-        archive.contents.append(CombineArchiveContent(
-            location=location,
-            format=uri,
-        ))
+    # initialize COMBINE/OMEX archive for project
+    archive = init_combine_archive_from_dir(project_dirname)
 
     # create simulations
     model_filenames = natsort.natsorted(
-        case_insensitive_glob(os.path.join(model_dirname, '*.ode'), recursive=True)
-        + case_insensitive_glob(os.path.join(model_dirname, '*.xpp'), recursive=True)
+        case_insensitive_glob(os.path.join(project_dirname, '**', '*.ode'), recursive=True)
+        + case_insensitive_glob(os.path.join(project_dirname, '**', '*.xpp'), recursive=True)
     )
 
     for model_filename in model_filenames:
-        model_location = os.path.relpath(model_filename, model_dirname)
+        model_location = os.path.relpath(model_filename, project_dirname)
 
-        sed_doc = SedDocument()
-
-        # base model
-        sed_base_model = Model(
-            id='model',
-            name='Model',
-            source=os.path.basename(model_filename),
-            language=ModelLanguage.XPP.value,
-        )
-        sed_doc.models.append(sed_base_model)
-
-        # model variants
-        set_files = SET_FILE_MAP.get(str(id), {}).get(model_location, [])
-        if set_files:
-            for set_file in set_files:
-                set_file['filename'] = os.path.join(model_dirname, set_file['filename'])
-        else:
-            set_files = [{
-                'filename': None,
-                'id': None,
-                'name': None,
-            }]
-
-        for set_file in set_files:
-            sed_params, sed_sims, sed_vars, sed_plots = get_parameters_variables_outputs_for_simulation(
-                model_filename, ModelLanguage.XPP, UniformTimeCourseSimulation, native_ids=True,
-                model_language_options={
-                    'set_filename': set_file['filename'],
-                })
-
-            # model
-            if set_file['id']:
-                sed_model = Model(
-                    id='model_' + set_file['id'],
-                    name=set_file['name'],
-                    source='#' + sed_base_model.id,
-                    language=ModelLanguage.XPP.value,
-                    changes=sed_params,
-                )
-                sed_doc.models.append(sed_model)
-            else:
-                sed_model = sed_base_model
-
-            # simulation
-            sed_sim = sed_sims[0]
-            sed_sim.id = 'simulation'
-            if set_file['id']:
-                sed_sim.id += '_' + set_file['id']
-            sed_sim.name = set_file['name'] or 'Simulation'
-            sed_doc.simulations.append(sed_sim)
-
-            # task
-            sed_task = Task(
-                id='task',
-                name=set_file['name'] or 'Task',
-                model=sed_model,
-                simulation=sed_sim,
-            )
-            if set_file['id']:
-                sed_task.id += '_' + set_file['id']
-            sed_doc.tasks.append(sed_task)
-
-            # data generators and report
-            sed_report = Report(
-                id='report',
-                name=set_file['name'] or 'Report',
-            )
-            if set_file['id']:
-                sed_report.id += '_' + set_file['id']
-
-            sed_doc.outputs.append(sed_report)
-
-            data_gen_map = {}
-
-            for sed_var in sed_vars:
-                var_id = sed_var.id or 'T'
-
-                sed_var.id = 'variable_' + var_id
-                if set_file['id']:
-                    sed_var.id += '_' + set_file['id']
-                sed_var.name = var_id
-                sed_var.task = sed_task
-
-                sed_data_gen = DataGenerator(
-                    id='data_generator_{}'.format(var_id),
-                    name=var_id,
-                    variables=[sed_var],
-                    math=sed_var.id,
-                )
-                if set_file['id']:
-                    sed_data_gen.id += '_' + set_file['id']
-                sed_doc.data_generators.append(sed_data_gen)
-                data_gen_map[sed_data_gen.math] = sed_data_gen
-
-                sed_data_set = DataSet(
-                    id='data_set_{}'.format(var_id),
-                    name=var_id,
-                    label=var_id,
-                    data_generator=sed_data_gen,
-                )
-                if set_file['id']:
-                    sed_data_set.id += '_' + set_file['id']
-                sed_report.data_sets.append(sed_data_set)
-
-            # TODO: plots
-            plot_data_generators = set()
-            for sed_plot in sed_plots:
-                if set_file['id']:
-                    sed_plot.id += '_' + set_file['id']
-
-                for sed_curve in sed_plot.curves:
-                    if set_file['id']:
-                        sed_curve.id += '_' + set_file['id']
-
-                    plot_data_generators.add(sed_curve.x_data_generator)
-                    plot_data_generators.add(sed_curve.y_data_generator)
-
-            for plot_data_generator in plot_data_generators:
-                if set_file['id']:
-                    plot_data_generator.id += '_' + set_file['id']
-                for variable in plot_data_generator.variables:
-                    if set_file['id']:
-                        variable.id += '_' + set_file['id']
-                    variable.task = sed_task
-                plot_data_generator.math = plot_data_generator.variables[0].id
-
-            for sed_plot in sed_plots:
-                sed_doc.outputs.append(sed_plot)
-                for sed_curve in sed_plot.curves:
-                    sed_x_data_generator = data_gen_map.get(sed_curve.x_data_generator.math, None)
-                    if sed_x_data_generator is None:
-                        sed_doc.data_generators.append(sed_curve.x_data_generator)
-                        data_gen_map[sed_curve.x_data_generator.math] = sed_curve.x_data_generator
-                    else:
-                        sed_curve.x_data_generator = sed_x_data_generator
-
-                    sed_y_data_generator = data_gen_map.get(sed_curve.y_data_generator.math, None)
-                    if sed_y_data_generator is None:
-                        sed_doc.data_generators.append(sed_curve.y_data_generator)
-                        data_gen_map[sed_curve.y_data_generator.math] = sed_curve.y_data_generator
-                    else:
-                        sed_curve.y_data_generator = sed_y_data_generator
+        sed_doc = create_sedml_for_xpp_file(id, project_dirname, model_location)
 
         sim_location = os.path.splitext(model_location)[0] + '.sedml'
         SedmlSimulationWriter().run(sed_doc, os.path.join(archive_dirname, sim_location))
@@ -668,7 +452,215 @@ def build_combine_archive_for_model(id, model_dirname, archive_filename, extra_c
     shutil.rmtree(archive_dirname)
 
 
-def import_models(config):
+def create_sedml_for_xpp_file(project_id, project_dirname, rel_filename):
+    """ Generate a SED-ML document for an XPP ODE file
+
+    Args:
+        project_id (:obj`int`): id of the parent project for the XPP ODE file
+        project_dirname (:obj:`str`): path to the directory for the parent project of the XPP ODE file
+        rel_filename (:obj:`str`): path to the XPP ODE file relative to :obj:`project_dirname`
+
+    Returns:
+        :obj:`SedDocument`: SED-ML document for the XPP ODE file
+    """
+    abs_filename = os.path.join(project_dirname, rel_filename)
+
+    sed_doc = SedDocument()
+
+    # base model
+    sed_base_model = Model(
+        id='model',
+        name='Model',
+        source=os.path.basename(rel_filename),
+        language=ModelLanguage.XPP.value,
+    )
+    sed_doc.models.append(sed_base_model)
+
+    # model variants
+    set_files = SET_FILE_MAP.get(project_id, {}).get(rel_filename, None)
+
+    if set_files:
+        for set_file in set_files:
+            set_file['filename'] = os.path.join(project_dirname, set_file['filename'])
+    else:
+        set_files = [{
+            'filename': None,
+            'id': None,
+            'name': None,
+        }]
+
+    for set_file in set_files:
+        sed_params, sed_sims, sed_vars, sed_plots = get_parameters_variables_outputs_for_simulation(
+            abs_filename, ModelLanguage.XPP, UniformTimeCourseSimulation, native_ids=True,
+            model_language_options={
+                ModelLanguage.XPP: {
+                    'set_filename': set_file['filename'],
+                    'max_number_of_steps': 10000,
+                },
+            })
+
+        sed_params = natsort.natsorted(sed_params, key=lambda param: param.target)
+        sed_vars = natsort.natsorted(sed_vars, key=lambda var: (-1 if var.id is None else 1, var.id or ''))
+        sed_plots = natsort.natsorted(sed_plots, key=lambda plot: plot.id)
+
+        # model
+        if set_file['id']:
+            sed_model = Model(
+                id='model_' + set_file['id'],
+                name=set_file['name'],
+                source='#' + sed_base_model.id,
+                language=ModelLanguage.XPP.value,
+                changes=copy.deepcopy(sed_params),
+            )
+            sed_doc.models.append(sed_model)
+
+            for change in sed_model.changes:
+                change.id += '_' + set_file['id']
+        else:
+            sed_model = sed_base_model
+            sed_model.changes = sed_params
+
+        for change in sed_model.changes:
+            if change.target[0] == change.target[0].lower():
+                change.name = 'Parameter ' + change.target
+            else:
+                change.name = 'Initial value of ' + change.target
+
+        # simulation
+        if set_file == set_files[0]:
+            sed_sim = sed_sims[0]
+            sed_sim.id = 'simulation'
+            sed_sim.name = 'Simulation'
+            sed_doc.simulations.append(sed_sim)
+
+        # task
+        sed_task = Task(
+            id='task',
+            name=set_file['name'] or 'Task',
+            model=sed_model,
+            simulation=sed_sim,
+        )
+        if set_file['id']:
+            sed_task.id += '_' + set_file['id']
+        sed_doc.tasks.append(sed_task)
+
+        # data generators and report
+        sed_report = Report(
+            id='report',
+            name=set_file['name'] or 'Report',
+        )
+        if set_file['id']:
+            sed_report.id += '_' + set_file['id']
+
+        sed_doc.outputs.append(sed_report)
+
+        data_gen_map = {}
+
+        for sed_var in sed_vars:
+            var_id = sed_var.id or 'T'
+
+            sed_var.id = 'variable_' + var_id
+            if set_file['id']:
+                sed_var.id += '_' + set_file['id']
+            sed_var.name = var_id
+            sed_var.task = sed_task
+
+            sed_data_gen = DataGenerator(
+                id='data_generator_{}'.format(var_id),
+                name=var_id,
+                variables=[sed_var],
+                math=sed_var.id,
+            )
+            if set_file['id']:
+                sed_data_gen.id += '_' + set_file['id']
+            sed_doc.data_generators.append(sed_data_gen)
+            data_gen_map[var_id] = sed_data_gen
+
+            sed_data_set = DataSet(
+                id='data_set_{}'.format(var_id),
+                name=var_id,
+                label=var_id,
+                data_generator=sed_data_gen,
+            )
+            if set_file['id']:
+                sed_data_set.id += '_' + set_file['id']
+            sed_report.data_sets.append(sed_data_set)
+
+        if sed_plots:
+            sed_plot = sed_plots[0]
+            sed_doc.outputs.append(sed_plot)
+
+            if set_file['id']:
+                sed_plot.id += '_' + set_file['id']
+
+            sed_plot.name = set_file['name']
+
+            for sed_curve in sed_plot.curves:
+                if set_file['id']:
+                    sed_curve.id += '_' + set_file['id']
+
+                sed_curve.x_data_generator = data_gen_map[sed_curve.x_data_generator.math or 'T']
+                sed_curve.y_data_generator = data_gen_map[sed_curve.y_data_generator.math or 'T']
+
+    return sed_doc
+
+
+def init_combine_archive_from_dir(dirname):
+    """ Initialize the specifications of COMBINE/OMEX archive for a ModelDB project from a directory for the project
+
+    Args:
+        dirname (:obj:`str`): directory
+
+    Returns:
+        :obj:`CombineArchive`: specifications for a COMBINE/OMEX archive for the project
+    """
+    archive = CombineArchive()
+    filenames = glob.glob(os.path.join(dirname, '**', '*'), recursive=True)
+    for filename in filenames:
+        location = os.path.relpath(filename, dirname)
+        if (
+            os.path.isdir(filename)
+            or os.path.basename(filename) in ['.DS_Store', 'desktop.ini']
+            or filename.startswith('.git' + os.path.sep)
+            or (os.path.sep + '.git' + os.path.sep) in filename
+        ):
+            continue  # pragma: no cover
+
+        _, ext = os.path.splitext(location)
+        if ext:
+            ext = ext[1:]
+
+        if ext.lower() in ['gif', 'jpeg', 'jpg', 'png', 'webp']:  # ignore image files because they will be included as 'extra_contents'
+            continue  # pragma: no cover
+
+        elif ext.lower() == 'xml':
+            try:
+                doc = lxml.etree.parse(filename)
+                ns = doc.getroot().nsmap.get(None, None)
+                if ns and ns.startswith('http://www.sbml.org/sbml/'):
+                    uri = CombineArchiveContentFormat.SBML.value
+                elif ns and ns.startswith('http://morphml.org/neuroml/schema'):
+                    uri = CombineArchiveContentFormat.NeuroML.value
+                else:
+                    uri = CombineArchiveContentFormat.XML.value
+            except lxml.etree.XMLSyntaxError:
+                uri = CombineArchiveContentFormat.OTHER.value
+
+        else:
+            uri = FILE_EXTENSION_FORMAT_URI_MAP.get(ext.lower(), None)
+            if uri is None:
+                uri = CombineArchiveContentFormat.OTHER.value
+                msg = 'Format URI for `{}` is not known'.format(filename)
+                warnings.warn(msg, UserWarning)
+
+        archive.contents.append(CombineArchiveContent(
+            location=location,
+            format=uri,
+        ))
+    return archive
+
+
+def import_projects(config):
     """ Download the source database, convert into COMBINE/OMEX archives, simulate the archives, and submit them to BioSimulations
 
     Args:
@@ -676,19 +668,7 @@ def import_models(config):
     """
 
     # create directories for source files, thumbnails, projects, and simulation results
-    if not os.path.isdir(config['source_models_dirname']):
-        os.makedirs(config['source_models_dirname'])
-    if not os.path.isdir(config['source_thumbnails_dirname']):
-        os.makedirs(config['source_thumbnails_dirname'])
-
-    if not os.path.isdir(config['final_visualizations_dirname']):
-        os.makedirs(config['final_visualizations_dirname'])
-    if not os.path.isdir(config['final_metadata_dirname']):
-        os.makedirs(config['final_metadata_dirname'])
-    if not os.path.isdir(config['final_projects_dirname']):
-        os.makedirs(config['final_projects_dirname'])
-    if not os.path.isdir(config['final_simulation_results_dirname']):
-        os.makedirs(config['final_simulation_results_dirname'])
+    make_directories(config)
 
     # read import status file
     if os.path.isfile(config['status_filename']):
@@ -697,57 +677,200 @@ def import_models(config):
     else:
         status = {}
 
-    # read import issues file
-    with open(config['issues_filename'], 'r') as file:
-        issues = yaml.load(file, Loader=yaml.Loader)
+    # get a list of the ids of all projects available in the source database
+    project_ids = get_project_ids(config, MODELING_APPLICATION)
 
-    # get a list of the ids of all models available in the source database
-    model_ids = get_model_ids(config, MODELING_APPLICATION)
+    # limit the number of projects to import
+    project_ids = project_ids[config['first_project']:]
+    project_ids = project_ids[0:config['max_projects']]
 
-    # limit the number of models to import
-    model_ids = model_ids[0:config['max_models']]
-
-    # get the details of each model
-    models = []
+    # get the details of each project
+    projects = []
     update_times = {}
-    for i_model, model_id in enumerate(model_ids):
-        print('Retrieving {} of {}: {} ...'.format(i_model + 1, len(models), model_id))
+    print('Retrieving {} projects ...'.format(len(project_ids)))
+    for i_project, project_id in enumerate(project_ids):
+        print('  {}: {} ...'.format(i_project + 1, project_id), end='')
+        sys.stdout.flush()
 
         # update status
-        update_times[str(model_id)] = datetime.datetime.utcnow()
+        update_times[str(project_id)] = datetime.datetime.utcnow()
 
-        # get the details of the model and download it from the source database
-        model = get_model(model_id, config)
-        models.append(model)
+        # get the details of the project and download it from the source database
+        project = get_project(project_id, config)
+        projects.append(project)
 
-    # filter out models that don't have XPP files
-    for model in list(models):
-        model_dirname = os.path.join(config['source_models_dirname'], str(model['id']))
-        if (
-            not case_insensitive_glob(os.path.join(model_dirname, '**', '*.ode'), recursive=True)
-            and not case_insensitive_glob(os.path.join(model_dirname, '**', '*.xpp'), recursive=True)
-        ):
-            models.remove(model)
+        print(' done')
 
-    # filter out models that don't need to be imported because they've already been imported and haven't been updated
+    # filter out projects that don't need to be imported because they've already been imported and haven't been updated
     if not config['update_simulation_runs']:
-        models = list(filter(
-            lambda model:
+        projects = list(filter(
+            lambda project:
             (
-                str(model['id']) not in status
-                or not status[str(model['id'])]['runbiosimulationsId']
+                str(project['id']) not in status
+                or not status[str(project['id'])]['runbiosimulationsId']
                 or (
-                    (dateutil.parser.parse(model['last_updated']) + datetime.timedelta(1))
-                    > dateutil.parser.parse(status[str(model['id'])]['updated'])
+                    (dateutil.parser.parse(project['ver_date']) + datetime.timedelta(1))
+                    > dateutil.parser.parse(status[str(project['id'])]['updated'])
                 )
             ),
-            models
+            projects
         ))
 
-    # filter out models with issues
-    models = list(filter(lambda model: int(model['id']) not in issues, models))
+    # filter out projects with issues
+    with open(config['issues_filename'], 'r') as file:
+        issues = yaml.load(file, Loader=yaml.Loader)
+    projects = list(filter(lambda project: int(project['id']) not in issues, projects))
 
-    models = list(filter(lambda model: int(model['id']) not in [227577, 235377], models))  # TODO: remove models that use arrays
+    # get authorization for BioSimulations API
+    auth = biosimulators_utils.biosimulations.utils.get_authorization_for_client(
+        config['biosimulations_api_client_id'], config['biosimulations_api_client_secret'])
+
+    # download projects, convert them to COMBINE/OMEX archives, simulate them, and deposit them to the BioSimulations database
+    print('Importing {} projects ...'.format(len(project_ids)))
+    for i_project, project in enumerate(projects):
+        print('  {}: {} ...'.format(i_project + 1, project['id']))
+
+        prev_duration = status.get(str(project['id']), {}).get('duration', None)
+        simulate_project = config['simulate_projects'] and (
+            config['update_combine_archives']
+            or config['update_simulations']
+            or prev_duration is None
+        )
+        runbiosimulations_id, duration = import_project(project, simulate_project, auth, config)
+
+        # output status
+        print('    Saving status ...', end='')
+        sys.stdout.flush()
+
+        if duration is None:
+            duration = prev_duration
+
+        if config['dry_run']:
+            runbiosimulations_id = status.get(str(project['id']), {}).get('runbiosimulationsId', None)
+            updated = status.get(str(project['id']), {}).get('updated', None)
+        else:
+            updated = str(update_times[str(project['id'])])
+
+        status[str(project['id'])] = {
+            'created': status.get(str(project['id']), {}).get('created', str(update_times[str(project['id'])])),
+            'updated': updated,
+            'duration': duration,
+            'runbiosimulationsId': runbiosimulations_id,
+        }
+        with open(config['status_filename'], 'w') as file:
+            file.write(yaml.dump(status))
+
+        print(' done')
+
+        print('    done')
+
+
+def make_directories(config):
+    """ Create directories for source files, thumbnails, projects, and simulation results
+
+    Args:
+        config (:obj:`dict`): configuration
+    """
+    if not os.path.isdir(config['source_projects_dirname']):
+        os.makedirs(config['source_projects_dirname'])
+    if not os.path.isdir(config['source_thumbnails_dirname']):
+        os.makedirs(config['source_thumbnails_dirname'])
+
+    if not os.path.isdir(config['final_metadata_dirname']):
+        os.makedirs(config['final_metadata_dirname'])
+    if not os.path.isdir(config['final_projects_dirname']):
+        os.makedirs(config['final_projects_dirname'])
+    if not os.path.isdir(config['final_simulation_results_dirname']):
+        os.makedirs(config['final_simulation_results_dirname'])
+
+
+def import_project(project, simulate, auth, config):
+    """ Import a project into BioSimulations
+
+    Args:
+        project (:obj:`dict`): project
+        simulate (:obj:`bool`): whether to simulate the project
+        auth (:obj:`str`): authorization header for the BioSimulations API
+        config (:obj:`dict`): configuration
+
+    Returns:
+        :obj:`tuple`:
+
+            * :obj:`str`: runBioSimulations id for the run of the project
+            * :obj:`float`: duration of the simulation of the project
+    """
+    project_dirname = os.path.join(config['source_projects_dirname'], str(project['id']))
+
+    # get additional metadata about the project
+    print('    Getting metadata ...', end='')
+    sys.stdout.flush()
+
+    description, taxa, references, thumbnails = get_metadata_for_project(project, project_dirname, config)
+
+    print(' done')
+
+    # export metadata to RDF
+    print('    Exporting metadata ...', end='')
+    sys.stdout.flush()
+
+    project_metadata_filename = os.path.join(config['final_metadata_dirname'], str(project['id']) + '.rdf')
+    if not os.path.isfile(project_metadata_filename) or config['update_combine_archives']:
+        export_project_metadata_for_project_to_omex_metadata(project, description, taxa, references, thumbnails,
+                                                             project_metadata_filename, config)
+
+    print(' done')
+
+    # package project into COMBINE/OMEX archive
+    print('    Generating COMBINE/OMEX archive ...', end='')
+    sys.stdout.flush()
+
+    project_filename = os.path.join(config['final_projects_dirname'], str(project['id']) + '.omex')
+    if not os.path.isfile(project_filename) or config['update_combine_archives']:
+        extra_contents = {}
+
+        extra_contents[project_metadata_filename] = CombineArchiveContent(
+            location='metadata.rdf',
+            format=CombineArchiveContentFormat.OMEX_METADATA.value,
+        )
+
+        for thumbnail in thumbnails:
+            extra_contents[thumbnail['local_filename']] = CombineArchiveContent(
+                location=thumbnail['archive_filename'],
+                format='http://purl.org/NET/mediatypes/image/' + thumbnail['format'],
+            )
+
+        build_combine_archive_for_project(project['id'], project_dirname, project_filename, extra_contents=extra_contents)
+
+    print(' done')
+
+    # simulate COMBINE/OMEX archives
+    print('    Simulating project ...', end='')
+    sys.stdout.flush()
+
+    if simulate:
+        out_dirname = os.path.join(config['final_simulation_results_dirname'], str(project['id']))
+        biosimulators_utils_config = Config(COLLECT_COMBINE_ARCHIVE_RESULTS=True, VERBOSE=True, DEBUG=True)  # TODO: remove
+        with warnings.catch_warnings():
+            warnings.simplefilter("ignore", BioSimulatorsWarning)
+            results, log = biosimulators_xpp.exec_sedml_docs_in_combine_archive(
+                project_filename, out_dirname, config=biosimulators_utils_config)
+        if log.exception:
+            raise log.exception
+        duration = log.duration
+    else:
+        duration = None
+
+    print(' done')
+
+    # submit COMBINE/OMEX archive to BioSimulations
+    print('    Submitting project to BioSimulations ...', end='')
+    sys.stdout.flush()
+
+    run_name = project['name']
+    if config['publish_projects']:
+        project_id = BIOSIMULATIONS_PROJECT_ID_PATTERN.format(project['id'])
+    else:
+        project_id = None
 
     # get S3 bucket to save archives
     s3 = boto3.resource('s3',
@@ -757,86 +880,16 @@ def import_models(config):
                         verify=False)
     bucket = s3.Bucket(config['bucket_name'])
 
-    # get authorization for BioSimulations API
-    auth = biosimulators_utils.biosimulations.utils.get_authorization_for_client(
-        config['biosimulations_api_client_id'], config['biosimulations_api_client_secret'])
+    project_bucket_key = '{}.omex'.format(str(project['id']))
+    project_url = '{}/{}/{}'.format(config['bucket_endpoint'], config['bucket_name'], project_bucket_key)
 
-    # download models, convert them to COMBINE/OMEX archives, simulate them, and deposit them to the BioSimulations database
-    for i_model, model in enumerate(models):
-        model_dirname = os.path.join(config['source_models_dirname'], str(model['id']))
+    if config['dry_run']:
+        runbiosimulations_id = None
+    else:
+        bucket.upload_file(project_filename, project_bucket_key)
+        runbiosimulations_id = biosimulators_utils.biosimulations.utils.run_simulation_project(
+            run_name, project_url, BIOSIMULATORS_SIMULATOR_ID, project_id=project_id, purpose='academic', auth=auth)
 
-        # get additional metadata about the model
-        print('Getting metadata for {} of {}: {}'.format(i_model + 1, len(models), str(model['id'])))
-        description, taxa, references, thumbnails = get_metadata_for_model(model, model_dirname, config)
+    print(' done')
 
-        # export metadata to RDF
-        print('Exporting project metadata for {} of {}: {}'.format(i_model + 1, len(models), str(model['id'])))
-        project_metadata_filename = os.path.join(config['final_metadata_dirname'], str(model['id']) + '.rdf')
-        if not os.path.isfile(project_metadata_filename) or config['update_combine_archives']:
-            export_project_metadata_for_model_to_omex_metadata(model, description, taxa, references, thumbnails,
-                                                               project_metadata_filename, config)
-
-        # package model into COMBINE/OMEX archive
-        print('Converting model {} of {}: {} ...'.format(i_model + 1, len(models), str(model['id'])))
-        project_filename = os.path.join(config['final_projects_dirname'], str(model['id']) + '.omex')
-        if not os.path.isfile(project_filename) or config['update_combine_archives']:
-            extra_contents = {}
-
-            extra_contents[project_metadata_filename] = CombineArchiveContent(
-                location='metadata.rdf',
-                format=CombineArchiveContentFormat.OMEX_METADATA,
-            )
-
-            for thumbnail in thumbnails:
-                extra_contents[thumbnail['local_filename']] = CombineArchiveContent(
-                    location=thumbnail['archive_filename'],
-                    format='http://purl.org/NET/mediatypes/image/' + thumbnail['format'],
-                )
-
-            build_combine_archive_for_model(model['id'], model_dirname, project_filename, extra_contents=extra_contents)
-
-        # simulate COMBINE/OMEX archives
-        print('Simulating model {} of {}: {} ...'.format(i_model + 1, len(models), str(model['id'])))
-
-        if config['simulate_models']:
-            out_dirname = os.path.join(config['final_simulation_results_dirname'], str(model['id']))
-            biosimulators_utils_config = Config(COLLECT_COMBINE_ARCHIVE_RESULTS=True)
-            with warnings.catch_warnings():
-                warnings.simplefilter("ignore", BioSimulatorsWarning)
-                results, log = biosimulators_xpp.exec_sedml_docs_in_combine_archive(
-                    project_filename, out_dirname, config=biosimulators_utils_config)
-            if log.exception:
-                print('Simulation of `{}` failed'.format(str(model['id'])))
-                raise log.exception
-            duration = log.duration
-        else:
-            duration = status.get(str(model['id']), {}).get('duration', None)
-
-        # submit COMBINE/OMEX archive to BioSimulations
-        if config['dry_run']:
-            runbiosimulations_id = status.get(str(model['id']), {}).get('runbiosimulationsId', None)
-            updated = status.get(str(model['id']), {}).get('updated', None)
-        else:
-            run_name = model['name']
-            if config['publish_models']:
-                project_id = BIOSIMULATIONS_PROJECT_ID_PATTERN.format(model['id'])
-            else:
-                project_id = None
-
-            project_bucket_key = '{}.omex'.format(str(model['id']))
-            bucket.upload_file(project_filename, project_bucket_key)
-            project_url = '{}/{}/{}'.format(config['bucket_endpoint'], config['bucket_name'], project_bucket_key)
-
-            runbiosimulations_id = biosimulators_utils.biosimulations.utils.run_simulation_project(
-                run_name, project_url, BIOSIMULATORS_SIMULATOR_ID, project_id=project_id, purpose='academic', auth=auth)
-            updated = str(update_times[str(model['id'])])
-
-        # output status
-        status[str(model['id'])] = {
-            'created': status.get(str(model['id']), {}).get('created', str(update_times[str(model['id'])])),
-            'updated': updated,
-            'duration': duration,
-            'runbiosimulationsId': runbiosimulations_id,
-        }
-        with open(config['status_filename'], 'w') as file:
-            file.write(yaml.dump(status))
+    return runbiosimulations_id, duration

@@ -1,0 +1,159 @@
+duration: 1.690069
+exception: null
+output: "Archive contains 2 SED-ML documents with 2 models, 2 simulations, 2 tasks,\
+  \ 2 reports, and 0 plots:\r\n  XPP/CIPN_HillPax.sedml:\r\n    Tasks (1):\r\n   \
+  \   task\r\n    Reports (1):\r\n      report: 10 data sets\r\n  XPP/DRG.sedml:\r\
+  \n    Tasks (1):\r\n      task\r\n    Reports (1):\r\n      report: 18 data sets\r\
+  \n\r\nExecuting SED-ML file 1: XPP/CIPN_HillPax.sedml ...\r\n  Found 1 tasks and\
+  \ 1 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\r\n      `report`\r\
+  \r\n  Executing task 1: `task`\r\r\n    Executing simulation ... \e[34msucceeded\e\
+  [0m\r\r\n    Generating 1 outputs ...\r\r\n      Generating output 1: `report` ...\
+  \ \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and 1 outputs:\r\r\n    Tasks:\r\
+  \r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\
+  \r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\nExecuting\
+  \ SED-ML file 2: XPP/DRG.sedml ...\r\n  Found 1 tasks and 1 outputs:\r\r\n    Tasks:\r\
+  \r\n      `task`\r\r\n    Outputs:\r\r\n      `report`\r\r\n  Executing task 1:\
+  \ `task`\r\r\n    Executing simulation ... \e[34msucceeded\e[0m\r\r\n    Generating\
+  \ 1 outputs ...\r\r\n      Generating output 1: `report` ... \e[34msucceeded\e[0m\r\
+  \r\n\r\r\n  Executed 1 tasks and 1 outputs:\r\r\n    Tasks:\r\r\n      Succeeded:\
+  \ 1\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded:\
+  \ 1\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\n\r\nBundling outputs ...\r\n\
+  Cleaning up ...\r\n\r\n============= SUMMARY =============\r\nExecuted 2 SED documents:\r\
+  \n  SED documents (2):\r\n    Succeeded: 2\r\n    Skipped: 0\r\n    Failed: 0\r\n\
+  \  Tasks (2):\r\n    Succeeded: 2\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs\
+  \ (2):\r\n    Succeeded: 2\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
+sedDocuments:
+- duration: 0.938484
+  exception: null
+  location: XPP/CIPN_HillPax.sedml
+  output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `report`\r\n  Executing task 1: `task`\r\n    Executing simulation ...\
+    \ \e[34msucceeded\e[0m\r\n    Generating 1 outputs ...\r\n      Generating output\
+    \ 1: `report` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 1 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_H17
+      status: SUCCEEDED
+    - id: data_set_H18
+      status: SUCCEEDED
+    - id: data_set_HKA
+      status: SUCCEEDED
+    - id: data_set_M17
+      status: SUCCEEDED
+    - id: data_set_M18
+      status: SUCCEEDED
+    - id: data_set_N
+      status: SUCCEEDED
+    - id: data_set_NKA
+      status: SUCCEEDED
+    - id: data_set_S17
+      status: SUCCEEDED
+    - id: data_set_V
+      status: SUCCEEDED
+    duration: 0.431317
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000032
+    duration: 0.375271
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '1000.0'
+    - key: meth
+      value: rungekutta
+    - key: t0
+      value: '0.0'
+    - key: dt
+      value: '0.05'
+    - key: njmp
+      value: '2'
+    skipReason: null
+    status: SUCCEEDED
+- duration: 0.56437
+  exception: null
+  location: XPP/DRG.sedml
+  output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `report`\r\n  Executing task 1: `task`\r\n    Executing simulation ...\
+    \ \e[34msucceeded\e[0m\r\n    Generating 1 outputs ...\r\n      Generating output\
+    \ 1: `report` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 1 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_H17
+      status: SUCCEEDED
+    - id: data_set_H17INF
+      status: SUCCEEDED
+    - id: data_set_H18
+      status: SUCCEEDED
+    - id: data_set_H18INF
+      status: SUCCEEDED
+    - id: data_set_HKA
+      status: SUCCEEDED
+    - id: data_set_HKAINF
+      status: SUCCEEDED
+    - id: data_set_M17
+      status: SUCCEEDED
+    - id: data_set_M17INF
+      status: SUCCEEDED
+    - id: data_set_M18
+      status: SUCCEEDED
+    - id: data_set_M18INF
+      status: SUCCEEDED
+    - id: data_set_N
+      status: SUCCEEDED
+    - id: data_set_NKA
+      status: SUCCEEDED
+    - id: data_set_NKAINF
+      status: SUCCEEDED
+    - id: data_set_NKINF
+      status: SUCCEEDED
+    - id: data_set_S17
+      status: SUCCEEDED
+    - id: data_set_S17INF
+      status: SUCCEEDED
+    - id: data_set_V
+      status: SUCCEEDED
+    duration: 0.208243
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000032
+    duration: 0.217329
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '100.0'
+    - key: meth
+      value: rungekutta
+    - key: t0
+      value: '0.0'
+    - key: dt
+      value: '0.05'
+    - key: njmp
+      value: '1'
+    skipReason: null
+    status: SUCCEEDED
+skipReason: null
+status: SUCCEEDED

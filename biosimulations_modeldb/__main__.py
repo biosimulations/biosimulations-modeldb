@@ -1,5 +1,5 @@
 from .config import get_config
-from .core import import_models
+from .core import import_projects
 from ._version import __version__
 from biosimulators_utils.config import get_config as get_biosimulators_config
 import biosimulators_utils.biosimulations.utils
@@ -28,12 +28,12 @@ class BaseController(cement.Controller):
         self._parser.print_help()
 
 
-class PublishController(cement.Controller):
-    """ Publish models from ModelDB to BioSimulations
+class RunAndPublishProjectsController(cement.Controller):
+    """ Publish projects from ModelDB to BioSimulations
 
-    * Download models
+    * Download projects
     * Download metadata
-    * Generate SED-ML files for models
+    * Generate SED-ML files for projects
     * Expand taxonomy metadata using NCBI Taxonomy
     * Expand citation metadata using PubMed and CrossRef
     * Obtain thumbnail images using PubMed Central
@@ -44,53 +44,75 @@ class PublishController(cement.Controller):
     """
 
     class Meta:
-        label = 'publish'
+        label = 'run-projects-and-publish'
         stacked_on = 'base'
         stacked_type = 'nested'
-        help = "Publish models from ModelDB to BioSimulations"
-        description = "Publish models from ModelDB to BioSimulations"
+        help = "Publish projects from ModelDB to BioSimulations"
+        description = "Publish projects from ModelDB to BioSimulations"
         arguments = [
             (
-                ['--max-models'],
+                ['--first-project'],
+                dict(
+                    type=int,
+                    default=1,
+                    help='Iteration (1-based) through projects at which to begin importing. Used for testing.',
+                ),
+            ),
+            (
+                ['--max-projects'],
                 dict(
                     type=int,
                     default=None,
-                    help='Maximum number of models to import. Used for testing.',
+                    help='Maximum number of projects to import. Used for testing.',
+                ),
+            ),
+            (
+                ['--update-project-sources'],
+                dict(
+                    action='store_true',
+                    help='If set, update the source files for the projects. Used for testing.'
                 ),
             ),
             (
                 ['--update-combine-archives'],
                 dict(
                     action='store_true',
-                    help='If set, update models even if they have already been imported. Used for testing.'
+                    help='If set, update COMBINE/OMEX archives even if they have already been assembled. Used for testing.'
+                ),
+            ),
+            (
+                ['--update-simulations'],
+                dict(
+                    action='store_true',
+                    help='If set, re-run COMBINE/OMEX archives even if they have already been run. Used for testing.'
                 ),
             ),
             (
                 ['--update-simulation-runs'],
                 dict(
                     action='store_true',
-                    help='If set, update models even if they have already been imported. Used for testing.'
+                    help='If set, update simulation runs even if they have already been submitted. Used for testing.'
                 ),
             ),
             (
                 ['--skip-simulation'],
                 dict(
                     action='store_true',
-                    help='If set, do not simulate models. Used for testing.',
+                    help='If set, do not simulate projects. Used for testing.',
                 ),
             ),
             (
                 ['--skip-publication'],
                 dict(
                     action='store_true',
-                    help='If set, do not publish models. Used for testing.',
+                    help='If set, do not publish projects. Used for testing.',
                 ),
             ),
             (
                 ['--dry-run'],
                 dict(
                     action='store_true',
-                    help='If set, do not submit models to BioSimulations. Used for testing.'
+                    help='If set, do not submit projects to BioSimulations. Used for testing.'
                 ),
             ),
         ]
@@ -99,25 +121,28 @@ class PublishController(cement.Controller):
     def _default(self):
         args = self.app.pargs
 
-        config = get_config(max_models=args.max_models,
+        config = get_config(first_project=args.first_project - 1,
+                            max_projects=args.max_projects,
+                            update_project_sources=args.update_project_sources,
                             update_combine_archives=args.update_combine_archives,
+                            update_simulations=args.update_simulations,
                             update_simulation_runs=args.update_simulation_runs,
-                            simulate_models=not args.skip_simulation,
-                            publish_models=not args.skip_publication,
+                            simulate_projects=not args.skip_simulation,
+                            publish_projects=not args.skip_publication,
                             dry_run=args.dry_run)
 
-        import_models(config)
+        import_projects(config)
 
 
 class PublishRunsController(cement.Controller):
-    """ Publish runs of simulations of ModelDB models to BioSimulations """
+    """ Publish runs of simulations of ModelDB projects to BioSimulations """
 
     class Meta:
         label = 'publish-runs'
         stacked_on = 'base'
         stacked_type = 'nested'
         help = "Publish runs of simulations to BioSimulations"
-        description = "Publish runs of simulations of ModelDB models to BioSimulations"
+        description = "Publish runs of simulations of ModelDB projects to BioSimulations"
         arguments = []
 
     @ cement.ex(hide=True)
@@ -193,14 +218,14 @@ class PublishRunsController(cement.Controller):
 
 
 class VerifyPublicationController(cement.Controller):
-    """ Verify that models from ModelDB have been successfully published to BioSimulations """
+    """ Verify that projects from ModelDB have been successfully published to BioSimulations """
 
     class Meta:
         label = 'verify-publication'
         stacked_on = 'base'
         stacked_type = 'nested'
-        help = "Verify that models have been published to BioSimulations"
-        description = "Verify that models from ModelDB have been successfully published to BioSimulations"
+        help = "Verify that projects have been published to BioSimulations"
+        description = "Verify that projects from ModelDB have been successfully published to BioSimulations"
         arguments = []
 
     @ cement.ex(hide=True)
@@ -269,7 +294,7 @@ class App(cement.App):
         base_controller = 'base'
         handlers = [
             BaseController,
-            PublishController,
+            RunAndPublishProjectsController,
             PublishRunsController,
             VerifyPublicationController,
         ]

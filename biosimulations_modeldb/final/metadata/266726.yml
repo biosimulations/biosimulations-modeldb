@@ -287,13 +287,13 @@ thumbnails:
   local_filename: source/thumbnails/PMC7411736/PMC7411736/molecules-25-03062-sch001.jpg
 - archive_filename: Diagram.jpg
   format: jpeg
-  local_filename: source/models/266726/Diagram.jpg
+  local_filename: source/projects/266726/Diagram.jpg
 - archive_filename: Readme_html_5448d781b1de6a46.png
   format: png
-  local_filename: source/models/266726/Readme_html_5448d781b1de6a46.png
+  local_filename: source/projects/266726/Readme_html_5448d781b1de6a46.png
 - archive_filename: Readme_html_9ada485dbba73b72.png
   format: png
-  local_filename: source/models/266726/Readme_html_9ada485dbba73b72.png
+  local_filename: source/projects/266726/Readme_html_9ada485dbba73b72.png
 - archive_filename: Result-9B.jpg
   format: jpeg
-  local_filename: source/models/266726/Result-9B.jpg
+  local_filename: source/projects/266726/Result-9B.jpg

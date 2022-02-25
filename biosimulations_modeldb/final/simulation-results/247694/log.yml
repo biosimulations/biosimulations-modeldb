@@ -1,0 +1,79 @@
+duration: 0.937745
+exception: null
+output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
+  \ 1 reports, and 0 plots:\r\n  ODE/IP3R_model.sedml:\r\n    Tasks (1):\r\n     \
+  \ task\r\n    Reports (1):\r\n      report: 11 data sets\r\n\r\nExecuting SED-ML\
+  \ file 1: ODE/IP3R_model.sedml ...\r\n  Found 1 tasks and 1 outputs:\r\r\n    Tasks:\r\
+  \r\n      `task`\r\r\n    Outputs:\r\r\n      `report`\r\r\n  Executing task 1:\
+  \ `task`\r\r\n    Executing simulation ... \e[34msucceeded\e[0m\r\r\n    Generating\
+  \ 1 outputs ...\r\r\n      Generating output 1: `report` ... \e[34msucceeded\e[0m\r\
+  \r\n\r\r\n  Executed 1 tasks and 1 outputs:\r\r\n    Tasks:\r\r\n      Succeeded:\
+  \ 1\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded:\
+  \ 1\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\n\r\nBundling outputs ...\r\n\
+  Cleaning up ...\r\n\r\n============= SUMMARY =============\r\nExecuted 1 SED documents:\r\
+  \n  SED documents (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n\
+  \  Tasks (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs\
+  \ (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
+sedDocuments:
+- duration: 0.84081
+  exception: null
+  location: ODE/IP3R_model.sedml
+  output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
+    \n      `report`\r\n  Executing task 1: `task`\r\n    Executing simulation ...\
+    \ \e[34msucceeded\e[0m\r\n    Generating 1 outputs ...\r\n      Generating output\
+    \ 1: `report` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 1 outputs:\r\
+    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
+    \    Outputs:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n"
+  outputs:
+  - dataSets:
+    - id: data_set_T
+      status: SUCCEEDED
+    - id: data_set_CA
+      status: SUCCEEDED
+    - id: data_set_IP3
+      status: SUCCEEDED
+    - id: data_set_IP3INJ
+      status: SUCCEEDED
+    - id: data_set_X000
+      status: SUCCEEDED
+    - id: data_set_X001
+      status: SUCCEEDED
+    - id: data_set_X010
+      status: SUCCEEDED
+    - id: data_set_X011
+      status: SUCCEEDED
+    - id: data_set_X100
+      status: SUCCEEDED
+    - id: data_set_X101
+      status: SUCCEEDED
+    - id: data_set_X110
+      status: SUCCEEDED
+    duration: 0.501928
+    exception: null
+    id: report
+    output: ''
+    skipReason: null
+    status: SUCCEEDED
+  skipReason: null
+  status: SUCCEEDED
+  tasks:
+  - algorithm: KISAO_0000032
+    duration: 0.266098
+    exception: null
+    id: task
+    output: ''
+    simulatorDetails:
+    - key: total
+      value: '2000.0'
+    - key: meth
+      value: rungekutta
+    - key: dt
+      value: '0.1'
+    - key: t0
+      value: '0.0'
+    - key: njmp
+      value: '2'
+    skipReason: null
+    status: SUCCEEDED
+skipReason: null
+status: SUCCEEDED

@@ -41,9 +41,7 @@ description: 'This is the readme for the model files for the paper:
 
   processes to simulate synaptic inhibition and excitation are also
 
-  included.
-
-  '
+  included.'
 references:
 - label: 'S. Ratte & S. A. Prescott. ClC-2 channels regulate neuronal excitability,
     not intracellular chloride levels. Journal of Neuroscience 31, 44: 15838-15843

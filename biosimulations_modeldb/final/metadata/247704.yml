@@ -29,16 +29,16 @@ taxa: []
 thumbnails:
 - archive_filename: screenshot.png
   format: png
-  local_filename: source/models/247704/screenshot.png
+  local_filename: source/projects/247704/screenshot.png
 - archive_filename: screenshot1.png
   format: png
-  local_filename: source/models/247704/screenshot1.png
+  local_filename: source/projects/247704/screenshot1.png
 - archive_filename: screenshot2.png
   format: png
-  local_filename: source/models/247704/screenshot2.png
+  local_filename: source/projects/247704/screenshot2.png
 - archive_filename: screenshot3.png
   format: png
-  local_filename: source/models/247704/screenshot3.png
+  local_filename: source/projects/247704/screenshot3.png
 - archive_filename: screenshot4.png
   format: png
-  local_filename: source/models/247704/screenshot4.png
+  local_filename: source/projects/247704/screenshot4.png
