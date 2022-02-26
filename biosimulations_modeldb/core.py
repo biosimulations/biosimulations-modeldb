@@ -27,6 +27,8 @@ import glob
 import imghdr
 import lxml.etree
 import natsort
+import numpy
+import numpy.testing
 import os
 import pkg_resources
 import shutil
@@ -421,6 +423,9 @@ def build_combine_archive_for_project(id, project_dirname, archive_filename, ext
         archive_filename (:obj:`str`): path to save the COMBINE/OMEX archive
         extra_contents (:obj:`dict`): dictionary that maps the local path of each additional file that
             should be included in the arrchive to its intended location within the archive and format
+
+    Returns:
+        :obj:`dict`: dictionary that maps the location of each SED document to the document
     """
     # make temporary directory for archive
     archive_dirname = tempfile.mkdtemp()
@@ -436,6 +441,7 @@ def build_combine_archive_for_project(id, project_dirname, archive_filename, ext
         + case_insensitive_glob(os.path.join(project_dirname, '**', '*.xpp'), recursive=True)
     )
 
+    sed_docs = {}
     for model_filename in model_filenames:
         model_location = os.path.relpath(model_filename, project_dirname)
 
@@ -448,6 +454,8 @@ def build_combine_archive_for_project(id, project_dirname, archive_filename, ext
             format=CombineArchiveContentFormat.SED_ML.value,
             master=True,
         ))
+
+        sed_docs[sim_location] = sed_doc
 
     # add metadata and thumbnails
     for local_path, extra_content in extra_contents.items():
@@ -462,6 +470,8 @@ def build_combine_archive_for_project(id, project_dirname, archive_filename, ext
 
     # clean up temporary directory for archive
     shutil.rmtree(archive_dirname)
+
+    return sed_docs
 
 
 def create_sedml_for_xpp_file(project_id, project_dirname, rel_filename):
@@ -853,7 +863,9 @@ def import_project(project, simulate, auth, config):
                 format='http://purl.org/NET/mediatypes/image/' + thumbnail['format'],
             )
 
-        build_combine_archive_for_project(project['id'], project_dirname, project_filename, extra_contents=extra_contents)
+        sed_docs = build_combine_archive_for_project(project['id'], project_dirname, project_filename, extra_contents=extra_contents)
+    else:
+        sed_docs = None
 
     print(' done')
 
@@ -871,6 +883,64 @@ def import_project(project, simulate, auth, config):
         if log.exception:
             raise log.exception
         duration = log.duration
+
+        # verify simulation results
+        if sed_docs:
+            for location, sed_doc in sed_docs.items():
+                sed_doc_results = results[location]
+                sed_sim = sed_doc.simulations[0]
+                for output in sed_doc.outputs:
+                    if isinstance(output, Report):
+                        report_results = sed_doc_results[output.id]
+                        expected_data_set_ids = set(data_set.id for data_set in output.data_sets)
+                        data_set_ids = set(report_results.keys())
+
+                        print(expected_data_set_ids)
+                        print(data_set_ids)
+
+                        missing_data_set_ids = expected_data_set_ids.difference(data_set_ids)
+                        extra_data_set_ids = data_set_ids.difference(expected_data_set_ids)
+
+                        if missing_data_set_ids:
+                            msg = (
+                                '{} data sets were not produced for report {} of {}:\n  - {}'
+                            ).format(
+                                len(missing_data_set_ids),
+                                output.id,
+                                location,
+                                '\n  - '.join(sorted(missing_data_set_ids)),
+                            )
+                            raise ValueError(msg)
+
+                        if extra_data_set_ids:
+                            msg = (
+                                '{} extra data sets were produced for report {} of {}:\n  - {}'
+                            ).format(
+                                len(extra_data_set_ids),
+                                output.id,
+                                location,
+                                '\n  - '.join(sorted(extra_data_set_ids)),
+                            )
+                            raise ValueError(msg)
+
+                        for data_set_id, data_set_results in report_results.items():
+                            if data_set_results.shape != (sed_sim.number_of_points + 1,):
+                                msg = 'Data set {} of report {} of {} has shape ({}), not ({})'.format(
+                                    data_set_id, output.id, location,
+                                    ', '.join(str(dim_len) for dim_len in data_set_results.shape),
+                                    sed_sim.number_of_points,
+                                )
+                                raise ValueError(msg)
+
+                            if any(numpy.isnan(data_set_results)):
+                                raise ValueError('The result of data set {} of report {} of {} includes NaN.')
+
+                        time_results = report_results[output.data_sets[0].id]
+                        numpy.testing.assert_allclose(
+                            time_results,
+                            numpy.linspace(sed_sim.output_start_time, sed_sim.output_end_time, sed_sim.number_of_points + 1),
+                        )
+
     else:
         duration = None
 

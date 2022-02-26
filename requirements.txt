@@ -9,6 +9,7 @@ lxml
 mammoth
 markdownify
 natsort
+numpy
 pyyaml
 python_dateutil
 python_dotenv
