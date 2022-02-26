@@ -64,6 +64,7 @@ jobs:
         with:
           fetch-depth: 1
           ref: dev
+          submodules: recursive
           lfs: true
 
       # Install requirements
