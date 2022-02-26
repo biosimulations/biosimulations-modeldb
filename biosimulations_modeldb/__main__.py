@@ -51,6 +51,15 @@ class RunAndPublishProjectsController(cement.Controller):
         description = "Publish projects from ModelDB to BioSimulations"
         arguments = [
             (
+                ['--project'],
+                dict(
+                    type=int,
+                    nargs='+',
+                    action='extend',
+                    help='Id of a project to run and publish. Used for testing.',
+                ),
+            ),
+            (
                 ['--first-project'],
                 dict(
                     type=int,
@@ -121,7 +130,8 @@ class RunAndPublishProjectsController(cement.Controller):
     def _default(self):
         args = self.app.pargs
 
-        config = get_config(first_project=args.first_project - 1,
+        config = get_config(project_ids=args.project,
+                            first_project=args.first_project - 1,
                             max_projects=args.max_projects,
                             update_project_sources=args.update_project_sources,
                             update_combine_archives=args.update_combine_archives,

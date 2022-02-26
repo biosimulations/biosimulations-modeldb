@@ -34,6 +34,10 @@ on:
         description: 'Whether to publish the COMBINE/OMEX archives to BioSimulations: "0" or "1" (default)'
         required: false
         default: '1'
+      projectIds:
+        description: 'Space-separate list of ids of projects to import (e.g., "xxx" or "xxx yyy")'
+        required: false
+        default: ''
       firstProject:
         description: 'Iteration through projects at which to begin importing: "1" (default) or a positive integer'
         required: false
@@ -138,6 +142,10 @@ jobs:
 
           if [ "${{ github.event.inputs.publishCombineArchive }}" = "0" ]; then
             args="$args --skip-publication"
+          fi
+
+          if [ ! -z "${{ github.event.inputs.projectIds }}" ]; then
+            args="$args --project ${{ github.event.inputs.projectIds }}"
           fi
 
           if [ ! -z "${{ github.event.inputs.firstProject }}" ]; then

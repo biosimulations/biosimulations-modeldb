@@ -702,6 +702,10 @@ def import_projects(config):
     # get a list of the ids of all projects available in the source database
     project_ids = get_project_ids(config, MODELING_APPLICATION)
 
+    # filter to selected projects
+    if config['project_ids'] is not None:
+        project_ids = list(filter(lambda project_id: project_id in config['project_ids'], project_ids))
+
     # limit the number of projects to import
     project_ids = project_ids[config['first_project']:]
     project_ids = project_ids[0:config['max_projects']]

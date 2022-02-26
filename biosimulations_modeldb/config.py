@@ -19,6 +19,7 @@ def get_config(
         curators_filename=None,
         issues_filename=None,
         status_filename=None,
+        project_ids=None,
         first_project=0,
         max_projects=None,
         update_project_sources=False,
@@ -48,6 +49,7 @@ def get_config(
         curators_filename (obj:`str`, optional): path which describes the people who helped curator the repository
         issues_filename (obj:`str`, optional): path to issues which prevent some projects from being imported
         status_filename (obj:`str`, optional): path to save the import status of each project
+        project_ids (:obj:`list` of :obj:`str`, optional): ids of projects to import
         first_project (:obj:`int`, optional): iteration through projects at which to begin importing
         max_projects (:obj:`int`, optional): maximum number of projects to download, convert, execute, and submit; used for testing
         update_project_sources (:obj:`bool`, optional): whether to update the source files for the projects; used for testing
@@ -135,6 +137,7 @@ def get_config(
             os.path.join(sessions_dirname, 'pubmed-central-open-access'),
             expire_after=datetime.timedelta(4 * 7)),
 
+        'project_ids': project_ids,
         'first_project': first_project,
         'max_projects': max_projects,
         'update_project_sources': update_project_sources,
