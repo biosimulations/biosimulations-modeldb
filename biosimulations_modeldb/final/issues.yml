@@ -58,6 +58,10 @@
   - type: "Variable out of bounds"
     severity: "error"
     detail: "`CA1dendwave.ode`: `VDOT` out of bounds at t = 2.440000"
+185334:
+  - type: "Too many boundary conditions"
+    severity: "error"
+    detail: "`doublebvp.ode` fails to open in XPP due to too many boundary conditions"
 120243:
   - type: "Variable out of bounds"
     severity: "error"
