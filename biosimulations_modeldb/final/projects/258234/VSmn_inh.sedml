@@ -3,9 +3,6 @@
   <listOfModels>
     <model id="model" name="Model" language="urn:sedml:language:xpp" source="VSmn_inh.ode">
       <listOfChanges>
-        <changeAttribute target="6th" newValue="0.0"/>
-        <changeAttribute target="2009" newValue="0.0"/>
-        <changeAttribute target="Changed" newValue="0.0"/>
         <changeAttribute target="DCA" newValue="0.01724"/>
         <changeAttribute target="DCAS" newValue="0.08493"/>
         <changeAttribute target="DN" newValue="0.1291"/>
@@ -19,7 +16,6 @@
         <changeAttribute target="Kmnap" newValue="3.0"/>
         <changeAttribute target="MNAP" newValue="0.0"/>
         <changeAttribute target="NR" newValue="0.0"/>
-        <changeAttribute target="Oct" newValue="0.0"/>
         <changeAttribute target="S" newValue="0.0"/>
         <changeAttribute target="SCA" newValue="0.000141"/>
         <changeAttribute target="SCAH" newValue="0.9219"/>
@@ -80,7 +76,6 @@
         <changeAttribute target="nth" newValue="-28.0"/>
         <changeAttribute target="nv" newValue="-40.0"/>
         <changeAttribute target="offsetr" newValue="0.0"/>
-        <changeAttribute target="on" newValue="0.0"/>
         <changeAttribute target="p" newValue="1.0"/>
         <changeAttribute target="parea" newValue="0.1"/>
         <changeAttribute target="percap" newValue="1.0"/>
