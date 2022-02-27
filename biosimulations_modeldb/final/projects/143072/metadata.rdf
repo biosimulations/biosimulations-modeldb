@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/143072.omex">
+    <dc:title>Explaining pathological changes in axonal excitability by dynamical analysis (Coggan et al. 2011)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/143072.omex">
+    <dc:abstract>"... To help decipher the biophysical basis for ‘paroxysmal’&#13;
+spiking, we replicated afterdischarge (i.e. continued spiking after a brief stimulus) in a&#13;
+minimal conductance-based axon model.&#13;
+&#13;
+...&#13;
+A perturbation&#13;
+could abruptly switch the system between two (quasi-)stable attractor states: rest and&#13;
+repetitive spiking.&#13;
+...&#13;
+ Initiation of afterdischarge was explained by activation of the&#13;
+persistent inward current forcing the system to cross a saddle point that separates the basins of&#13;
+attraction associated with each attractor.&#13;
+&#13;
+Termination of afterdischarge was explained by the&#13;
+attractor associated with repetitive spiking being destroyed.&#13;
+...&#13;
+The model also explains other features of&#13;
+paroxysmal symptoms, including temporal summation and refractoriness."</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/143072.omex">
+    <dc:description>The NEURON and XPP code is available for the paper:
+
+
+Coggan JS, Ocker GK, Sejnowski TJ, Prescott SA (2011) Explaining pathological changes in axonal excitability through dynamical analysis of conductance-based models. J Neural Eng 8:065002 
+from the authors and at the authors web site:
+&lt;http://prescottlab.ca/code-for-models&gt;
+as well as in this modeldb archive. The XPP code is the ode file in the top-level folder and the NEURON code is in the NEURONcode folder.
+The XPP file was contributed by Steve Prescott and the NEURON code was contributed by Jay Coggan.</dc:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3538">http://modeldb.science/ModelList?id=3538</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Axon</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/143072.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=96767">http://modeldb.science/ModelList?id=96767</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Nociception</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/143072.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="mailto:steve.prescott@sickkids.ca]">mailto:steve.prescott@sickkids.ca]</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>Steven Prescott</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <foaf:mbox rdf:resource="mailto:steve.prescott@sickkids.ca]">mailto:steve.prescott@sickkids.ca]</foaf:mbox>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <foaf:accountName rdf:resource="mailto:steve.prescott@sickkids.ca]">mailto:steve.prescott@sickkids.ca]</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <foaf:name>Steven Prescott</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/143072.omex">
+    <dc:creator rdf:resource="local:00003">local:00003</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/143072.omex">
+    <dc:contributor rdf:resource="local:00004">local:00004</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/143072.omex">
+    <dc:contributor rdf:resource="local:00005">local:00005</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:143072">https://identifiers.org/modeldb:143072</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>modeldb:143072</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/143072.omex">
+    <bqmodel:is rdf:resource="local:00006">local:00006</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1088/1741-2560/8/6/065002">http://identifiers.org/doi:10.1088/1741-2560/8/6/065002</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>Jay S Coggan, Gabriel K Ocker, Terrence J Sejnowski &amp; Steven A Prescott. Explaining pathological changes in axonal excitability through dynamical analysis of conductance-based models. Journal of Neural Engineering 8, 6: 065002 (2011).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/143072.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00007">local:00007</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/143072.omex">
+    <dc:created>2011-11-22</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/143072.omex">
+    <dc:modified>2019-05-07</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

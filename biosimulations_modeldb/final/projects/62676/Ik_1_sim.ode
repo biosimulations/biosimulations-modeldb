@@ -1,0 +1,51 @@
+# Markovian model for single-channel recrodings of Ik_1 in ventricular cells 
+# from Matsuoka et al., Role of individual ionic current systems in ventricular cells
+# hypothesized by a model study. Jpn J Physiol 2003 53:105-123
+#This model is contributed by  Hsieng-Jung Lai, Jiun-Shian Wu, Sheng-Nan Wu, Ruey J. Sung, Han-Dong Chang.
+
+# Initial values
+init b41=1, b31=0, b21=0, b11=0, o1=0
+init b40=0, b30=0, b20=0, b10=0, o0=0
+
+# Voltage clamp protocols
+par vhold=-50, vtest_1=-120, vtest_2=-50
+par ton=30, toff=430, toff_r=500
+v = vhold+heav(t-ton)*heav(toff-t)*(vtest_1-vhold)+heav(t-toff)*heav(toff_r-t)*(vtest_2-vhold)
+
+# Default parameters
+number R=8.3143, Temp=310, Fara=96.4867
+
+# Values of the model parameters
+par Ek=-80 ,ko=5.4
+
+# Expressions
+alphay=1/(8000*exp((v-ek-97)/8.5)+7*exp((v-ek-97)/300))
+betay=1/(0.00014*exp(-(v-ek-97)/9.1)+0.2*exp(-(v-ek-97)/500))
+myu=0.75*exp(0.035*(v-ek-10))/(1+exp(0.015*(v-ek-140)))
+lambda=3*exp(-0.048*(v-ek-10))*(1+exp(0.064*(v-ek-38)))/(1+exp(0.03*(v-ek-70)))
+
+#gk1=0.1*(ko/5.4)^0.4
+#for SA node cell
+
+gk1=151.5*(ko/5.4)^0.4
+#for ventricular cell
+
+# Markov expressions:
+o0'=-o0*(4*myu+betay)+lambda*b10+o1*alphay
+b10'=-b10*(lambda+3*myu+betay)+4*myu*o0+2*lambda*b20+alphay*b11
+b20'=-b20*(2*lambda+2*myu+betay)+3*myu*b10+3*lambda*b30+alphay*b21
+b30'=-b30*(3*lambda+myu+betay)+2*myu*b20+4*lambda*b40+alphay*b31
+b40'=-b40*(4*lambda+betay)+myu*b30+alphay*b41
+o1'=-o1*(alphay+4*myu)+betay*o0+lambda*b11
+b11'=-b11*(alphay+lambda+3*myu)+betay*b10+4*myu*o1+2*lambda*b21
+b21'=-b21*(alphay+2*lambda+2*myu)+betay*b20+3*myu*b11+3*lambda*b31
+b31'=-b31*(alphay+3*lambda+myu)+betay*b30+2*myu*b21+4*lambda*b41
+b41'=-b41*(alphay+4*lambda)+betay*b40+myu*b31
+
+aux Ik1=gk1*(v-ek)*(o0)
+
+
+@ meth=Euler, dt=.01, total=500
+@ yp=ik1, yhi=1, ylo=-3, xlo=0, xhi=500, bound=5000000
+
+done

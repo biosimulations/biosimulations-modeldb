@@ -1,0 +1,100 @@
+#Model code for the 4p-r model from Wittman, S. , Abdala, A. P. and Rubin, J. E. (2019), J Physiol.
+#See README.TXT for more info on XPPAUT and using this file
+#SRW 9 August 2019
+
+#Intrinsic parameters
+par c=21
+par gnap=10,gl=2.8,gsyni=60,gsyne=10
+par gnap_weak=5,gk=3
+par Ena=50,El=-65,Esyn=-80,EsynE=0,Ek=-85
+par thetam=-40,sigmam=-6
+par thetah=-47,sigmah=6
+par thetah_p=-40.25
+par thetamk=-30,sigmamk=-4
+par epsilon_i=600,epsilon_e=700,epsilon_p=1500,epsilon_p2=300
+par thetatau=-35
+par thetasyn=-35,sigmasyn=-3
+par sigsyn_p2=-0.5,thetsyn_p2=-30
+par sigsyn_p=-3,thetsyn_p=-35
+
+#Drive parameters
+#Each drive term has three componenets: pontine drive (pd), rtn/pFRG drive (rtnd), and other drive.
+#You can scale pontine drive with pdscale and rtn drive with rtndscale
+c_i=pdscale*pd_i+rtndscale*rtnd_i+od_i
+c_e=pdscale*pd_e+rtndscale*rtnd_e+od_e
+c_p=pdscale*pd_p+rtndscale*rtnd_p+od_p
+c_p2=pdscale*pd_p2+rtndscale*rtnd_p2+od_p2
+a_ie=(rtnd_ie*rtndscale)
+par pdscale=1,rtndscale=1
+par pd_i=0,pd_e=0.15,pd_p=0,pd_p2=0.8
+par rtnd_i=0.3,rtnd_e=0.5,rtnd_p=0,rtnd_p2=0,rtnd_ie=0.03
+par od_i=0,od_e=0,od_p=0,od_p2=0,od_ie=0
+par vago=1
+
+#Drug Parameters
+par gks_i=1,gks_e=1,gks_p=0.3,gks_p2=0.5
+par thr=10,conc=0
+par kalth_i=1,kalth_e=1,kalth_p=0,kalth_p2=0
+par ks=0
+
+#Synaptic Parameters
+#To vagotomize, turn off a_ie and b_ip
+par b_ei=0.035,b_ep=0.001
+par b_ie=0.03,b_ip=0.1
+par b_pp2=0.05,b_p2p=0.05
+p a_pe=0.25
+p a_ip2=0.15
+
+#Noise Parameters
+wiener w_i,w_e,w_p,w_l,w_p2
+p dscale=0,delta_i=1,delta_e=1,delta_p=1,delta_p2=1
+
+#gating functions
+hinf(v,thet,sig)=1/(1+exp((v-thet)/sig))
+sinf(v,theta,sigma)=1/(1+exp((v-theta)/sigma))
+tauh(v,ep,theta)=ep/(cosh((v-theta)/sigmah/2))
+minf(v)=1/(1+exp((v-thetam)/sigmam))
+mks=1/(1+exp(-(conc-thr)/2))
+mk(v)=1/(1+exp((v-thetamk)/sigmamk))
+
+#Change beta for decay rates
+p alpha=1,beta=0.08
+p beta_slow=0.005
+
+#Current functions
+Isyn(v,s,b,kalth)=gsyni*b*s*(1+ks*kalth)*(v-Esyn)
+IsynE(v,s,a)=gsyne*a*s*(v-EsynE)
+Inap(v,h,g)=g*minf(v)*h*(v-Ena)
+Il(v,g)=g*(v-El)
+Iapp(v,c)=c*v
+Iks(v,g)=g*mks*(v-Ek)
+Ik(v)=gk*mk(v)^4*(v-Ek)
+
+#Differential equations
+#Inspiration (i)
+v1'=(-Inap(v1,h1,gnap)-Ik(v1)-Il(v1,gl)-Iapp(v1,c_i)-Isyn(v1,s2,b_ei,kalth_i)-Iks(v1,gks_i)-w_i*delta_i*dscale)/C
+h1'=(hinf(v1,thetah,sigmah)-h1)/tauh(v1,epsilon_i,thetatau)
+s1'=alpha*(1-s1)*sinf(v1,thetasyn,sigmasyn)-beta*s1
+s1_slow'=alpha*(1-s1_slow)*sinf(v1,thetasyn,sigmasyn)-beta_slow*s1_slow
+#Expiration (e)
+v2'=(-Inap(v2,h2,gnap_weak)-Ik(v2)-Il(v2,gl)-Iapp(v2,c_e)-Isyn(v2,s1,b_ie,kalth_e)-IsynE(v2,s1_slow,a_ie*vago)-IsynE(v2,s3,a_pe)-Iks(v2,gks_e)-w_e*delta_e*dscale)/C
+h2'=(hinf(v2,thetah,sigmah)-h2)/tauh(v2,epsilon_e,thetatau)
+s2'=alpha*(1-s2)*sinf(v2,thetasyn,sigmasyn)-beta*s2
+#KF1 (p)
+v3'=(-Inap(v3,h3,gnap_weak)-Ik(v3)-Il(v3,gl)-Iapp(v3,c_p)-Isyn(v3,s2,b_ep,kalth_p)-Isyn(v3,s1_slow,b_ip*vago,kalth_p)-Isyn(v3,s4,b_p2p,kalth_p)-Iks(v3,gks_p)-w_p*delta_p*dscale)/C
+h3'=(hinf(v3,thetah_p,sigmah)-h3)/tauh(v3,epsilon_p,thetatau)
+s3'=alpha*(1-s3)*sinf(v3,thetsyn_p,sigsyn_p)-beta*s3
+#KF2 (p2)
+v4'=(-Inap(v4,h4,gnap_weak)-Ik(v4)-Il(v4,gl)-Iapp(v4,c_p2)-Isyn(v4,s3,b_pp2,kalth_p2)-IsynE(v1,s1,a_ip2)-Iks(v4,gks_p2)-w_p2*delta_p2*dscale)/C
+h4'=(hinf(v4,thetah,sigmah)-h4)/tauh(v4,epsilon_p2,thetatau)
+s4'=alpha*(1-s4)*sinf(v4,thetsyn_p2,sigsyn_p2)-beta*s4
+
+#Initial Conditions
+init v1=-14.5,h1=0.195,s1=0.925925,s1_slow=0.925925
+init v2=-61.6,h2=0.199,s2=0
+init v3=-75,h3=0.195,s3=0
+init v4=-15,h4=0.195,s4=0.925925
+
+@ total=10000,xp=t,yp=v1,xlow=0,xhi=10000,ylo=-80,yhi=20.,bound=5000000000000,maxstor=10000001,meth=q,dt=0.1
+
+done

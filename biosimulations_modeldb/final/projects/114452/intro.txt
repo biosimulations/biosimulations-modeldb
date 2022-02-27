@@ -1,0 +1,3 @@
+A detailed biochemical model of the CaMKII autophosphorylation and the protein signaling cascade governing the CaMKII dephosphorylation is presented. Two stable states of the CaMKII phosphorylation level exist at resting intracellular calcium concentration. High calcium transients can switch the system from the weakly phosphorylated (DOWN) to the highly
+phosphorylated (UP) and intermediate Ca(2+) concentrations can lead to switching from the UP
+to the DOWN state. This shows that the CaMKII protein network can account for both induction, through LTP/LTD-like transitions, and storage, due to its bistability, of synaptic changes.

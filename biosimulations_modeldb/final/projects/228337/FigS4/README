@@ -1,0 +1,32 @@
+This package contains the XPP scripts simulated for supplementary Figure 4.
+Left-column figures represent the desensitization model (see Fig. 2 in main text),
+right-column figures the activation model (see Fig. 3).
+
+The following parameters were varied.
+
+A the applied dose of TC-7020, expressed as peak concentration
+
+B the efficacy of TC-7020 (reference ACh = 100 %)
+
+C the position of the Hill-function for desensitization on the concentration axis,
+  expressed as the factor by which the concentration for half-maximal desensitization 
+  is shifted to the right
+
+D compares the default model (blue) with the response after preadministration of 
+  a PAM (positive allosteric modulator, prevents desensitization, green), 
+  and the response for a PAM with 100 % intrinsic efficacy (such as 4BP-TQS).
+
+
+The parameters can be varied by uncommenting the corresponding lines in the scripts,
+or by using the parameter window to vary the following values (first value is default):
+
+Aleft   dose_Aga7 = 0.3, 0.1, 0.2, 0.5, 1.0
+Aright  dose_Aga7 = 0.5, 0.1, 0.3, 1.0, 2.0 (Note that the activation model uses a slower wash-out)
+
+Bleft   w_actAga7 = 0.3, 0.1, 1.0, 2.0
+Bright  w_actAga7 = 0.3, 0.1, 1.0
+
+Cleft   IC50_Aga7 = 0.002, 0.004, 0.01, 0.1, 0.1 with C_ach 30
+Cright  IC50_Aga7 = 0.002, 0.004, 0.01, 0.02, 0.1
+
+D       P_a7 = act_a7 with w_actAga7 = 0.3 (green) or w_actAga7 = 1.0 (red)

@@ -1,0 +1,115 @@
+
+# basic XPP code for Ratte et al. 2018 J Neurosci 14: 1788-1801 
+# written by Steve Prescott, last modified July 9, 2016
+
+##################
+   
+dv/dt = (Idc+Idc2(t)+Idc3(t)+I1a(t)+I1b(t)+I2a(t)+I2b(t)+I3a(t)+I3b(t)+I4a(t)+I4b(t)+I5a(t)+I5b(t)+I6a(t)+I6b(t)-gna*minf(V)*(V-Vna)-gk*w*(V-VK)-gl*(V-Vl)-gcan*p2*(v-Vcan)-gahp*q*(v-Vk)-gahp2*q2*(v-Vk)-gahp3*q3*(v-Vk)-gca*p*switch*(v-vca))/c
+dw/dt = phi*(winf(V)-w)/tauw(V)
+
+
+
+q' = (q_inf-q)/tau_q
+q2' = (q2_inf-q2)/tau_q2
+q3' = (q3_inf-q3)/tau_q3
+
+
+# for new AD current
+param gcan=2
+param Vcan=0
+p2inf =1/(1+exp((cai-caihalf)/caislope))
+param caihalf=.0004
+# Cai in microM range
+param caislope=-0.0002
+p2' = (p2inf-p2)/tau_p2
+param tau_p2=1
+# essentially instantaneous with change in Cai
+
+
+# for ca influx and decay
+dcai/dt = (-SAvol*(gca*p*(V-Vca)))/F-(cai-0)/tau_ca
+#dcai/dt = ((-SAvol*(gca*p*(V-Vca)))/F-(cai-0))/tau_ca - original in correct
+p' = (p_inf-p)/tau_p
+p_inf = 1/(1+exp((v-vhalfp)/vslopep))
+param gca=0.005
+# gca also gets 10^-3 shift
+param switch=1
+param vhalfp=0
+param vslopep=-5
+param tau_p=1
+p(0)=0
+cai(0)=0
+vca=100
+param F=96485
+param tau_ca=2000
+# lengthened so that CAN persists during prolonged hyperpol steps
+
+# FOR SPHERICAL SOMA
+param shape=3
+# shape=3 for sphere, shape=2 for cylinder
+!SAvol=shape/(10*r)
+param r=0.01
+# 10 micron radius soma
+# p2
+
+# for AHP current
+q_inf = 1/(1+exp((v-vhalfq)/vslopeq))
+param gahp=0
+param vhalfq=0
+param vslopeq=-5
+param tau_q=25
+q(0)=0
+
+q2_inf = 1/(1+exp((v-vhalfq2)/vslopeq2))
+param gahp2=50
+param vhalfq2=0
+param vslopeq2=-5
+param tau_q2=200
+q2(0)=0
+
+q3_inf = 1/(1+exp((v-vhalfq3)/vslopeq3))
+param gahp3=25
+param vhalfq3=0
+param vslopeq3=-5
+param tau_q3=2000
+q3(0)=0
+#all three gahps are the same except for tau, and adjustments to their density
+
+V(0)=-70
+w(0)=0.000025
+minf(v)=.5*(1+tanh((v-v1)/v2))
+winf(v)=.5*(1+tanh((v-v3)/v4))
+tauw(v)=1/cosh((v-v3)/(2*v4))
+param vk=-90,vl=-70,vna=50
+param gk=20,gl=2,gna=20
+param v1=-1.2,v2=18
+param v3=0,v4=10
+param phi=.15,c=2
+
+# STIMULATION
+param idc=0
+# use these to trigger spikes... t_run is short to that 1 spike is triggered per pulse
+I1a(t)=sign(t>t_start1)*I_stim_a
+I1b(t)=sign(t>(t_start1+t_run))*(-1*I_stim_a)
+I2a(t)=sign(t>t_start2)*I_stim_a
+I2b(t)=sign(t>(t_start2+t_run))*(-1*I_stim_a)
+I3a(t)=sign(t>t_start3)*I_stim_a
+I3b(t)=sign(t>(t_start3+t_run))*(-1*I_stim_a)
+I4a(t)=sign(t>t_start4)*I_stim_a
+I4b(t)=sign(t>(t_start4+t_run))*(-1*I_stim_a)
+I5a(t)=sign(t>t_start5)*I_stim_a
+I5b(t)=sign(t>(t_start5+t_run))*(-1*I_stim_a)
+I6a(t)=sign(t>t_start6)*I_stim_a
+I6b(t)=sign(t>(t_start6+t_run))*(-1*I_stim_a)
+# use this to introduce sustained depol or hyperpol
+Idc2(t)=sign(t>t_startDC2)*Idc2_
+Idc3(t)=sign(t>t_startDC3)*Idc3_
+
+param I_stim_a=90,t_start1=1100,t_start2=1200,t_start3=1300,t_start4=1400,t_start5=1500,t_start6=1600,t_run=5
+param Idc2_=0,t_startDC2=4000,Idc3_=0,t_startDC3=6000
+
+@ total=4000,dt=.1,xlo=1000,xhi=4000,ylo=-0.002,yhi=0.005,xp=t,yp=CAI
+@ meth=runge-kutta
+@ MAXSTOR=10000000
+
+done

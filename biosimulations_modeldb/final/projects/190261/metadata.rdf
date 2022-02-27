@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/190261.omex">
+    <dc:title>Dorsal root ganglion (primary somatosensory) neurons (Rho &amp; Prescott 2012)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/190261.omex">
+    <dc:abstract>In this paper, we demonstrate how dorsal root ganglion (DRG) neuron excitability can become pathologically altered, as occurs in neuropathic pain. Specifically, we reproduce pathological changes in spiking pattern (from transient to repetitive spiking) and the development of membrane potential oscillations and bursting.</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/190261.omex">
+    <dc:description>This is the readme for the models associated with the paper:
+
+Rho YA, Prescott SA (2012) Identification of molecular pathologies
+sufficient to cause neuropathic excitability in primary somatosensory
+afferents using dynamical systems theory. PLoS Comput Biol 8:e1002524
+
+These models require xpp which is available from
+http://www.math.pitt.edu/~bard/xpp/xpp.html
+
+More documentation on running XPP is available here:
+http://www.math.pitt.edu/~bard/xpp/help/xppauto.html</dc:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=150222">http://modeldb.science/ModelList?id=150222</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Abstract Morris-Lecar neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/190261.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3541">http://modeldb.science/ModelList?id=3541</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Action Potential Initiation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/190261.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=143724">http://modeldb.science/ModelList?id=143724</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>Bifurcation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/190261.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=96767">http://modeldb.science/ModelList?id=96767</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>Nociception</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/190261.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/190261.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/190261.omex/article-figures/PMC3359967/pcbi.1002524.g001.jpg">http://omex-library.org/190261.omex/article-figures/PMC3359967/pcbi.1002524.g001.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/190261.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/190261.omex/article-figures/PMC3359967/pcbi.1002524.g002.jpg">http://omex-library.org/190261.omex/article-figures/PMC3359967/pcbi.1002524.g002.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/190261.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/190261.omex/article-figures/PMC3359967/pcbi.1002524.g003.jpg">http://omex-library.org/190261.omex/article-figures/PMC3359967/pcbi.1002524.g003.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/190261.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/190261.omex/article-figures/PMC3359967/pcbi.1002524.g004.jpg">http://omex-library.org/190261.omex/article-figures/PMC3359967/pcbi.1002524.g004.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/190261.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/190261.omex/article-figures/PMC3359967/pcbi.1002524.g005.jpg">http://omex-library.org/190261.omex/article-figures/PMC3359967/pcbi.1002524.g005.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/190261.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/190261.omex/article-figures/PMC3359967/pcbi.1002524.g006.jpg">http://omex-library.org/190261.omex/article-figures/PMC3359967/pcbi.1002524.g006.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/190261.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/190261.omex/article-figures/PMC3359967/pcbi.1002524.g007.jpg">http://omex-library.org/190261.omex/article-figures/PMC3359967/pcbi.1002524.g007.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/190261.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/190261.omex/article-figures/PMC3359967/pcbi.1002524.g008.jpg">http://omex-library.org/190261.omex/article-figures/PMC3359967/pcbi.1002524.g008.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/190261.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/190261.omex/article-figures/PMC3359967/pcbi.1002524.g009.jpg">http://omex-library.org/190261.omex/article-figures/PMC3359967/pcbi.1002524.g009.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/190261.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/190261.omex/article-figures/PMC3359967/pcbi.1002524.g010.jpg">http://omex-library.org/190261.omex/article-figures/PMC3359967/pcbi.1002524.g010.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="mailto:steve.prescott@sickkids.ca]">mailto:steve.prescott@sickkids.ca]</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>Steven Prescott</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <foaf:mbox rdf:resource="mailto:steve.prescott@sickkids.ca]">mailto:steve.prescott@sickkids.ca]</foaf:mbox>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <foaf:accountName rdf:resource="mailto:steve.prescott@sickkids.ca]">mailto:steve.prescott@sickkids.ca]</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <foaf:name>Steven Prescott</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/190261.omex">
+    <dc:creator rdf:resource="local:00005">local:00005</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/190261.omex">
+    <dc:contributor rdf:resource="local:00006">local:00006</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/190261.omex">
+    <dc:contributor rdf:resource="local:00007">local:00007</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:190261">https://identifiers.org/modeldb:190261</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>modeldb:190261</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/190261.omex">
+    <bqmodel:is rdf:resource="local:00008">local:00008</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1371/journal.pcbi.1002524">http://identifiers.org/doi:10.1371/journal.pcbi.1002524</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>Young-Ah Rho &amp; Steven A. Prescott. Identification of molecular pathologies sufficient to cause neuropathic excitability in primary somatosensory afferents using dynamical systems theory. PLoS Computational Biology 8, 5: e1002524 (2012).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/190261.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00009">local:00009</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/190261.omex">
+    <dc:created>2016-06-15</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/190261.omex">
+    <dc:modified>2016-06-16</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

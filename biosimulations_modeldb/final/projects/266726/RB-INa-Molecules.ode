@@ -1,0 +1,55 @@
+% RB-INa-model.ode
+% Raman IM, Bean BP. Inactivation and recovery of sodium currents in cerebellar Purkinje neurons: evidence for two mechanisms. Biophys J 2001;80:729-737.
+% Khaliq ZM, Gouwens NW, Raman IM. The contribution of resurgent sodium current to high-frequency firing in Purkinje neurons: an experimental and modeling study. J Neurosci 2003;23:4899-4912.
+% Pan Y, Cummins TR. Distinct functional alterations in SCN8A epilepsy mutant channels. J Physiol 2020;598.2:381-401.
+% Kuo PC, Kao ZH, Lee SW, Wu SN. Effects of sesamin, the major furofuran lignan ofsesame oil, on the amplitude and gating of voltage-gated Na+ and K+ currents. Molecules 2020;25(13):3062. 
+
+# 
+% Apply voltage
+par vhold=-80, vtest_1=-10, vtest_2=-50, vtest_3=-80
+par ton=5, toff_1=35, toff_2=65, toff_3=80
+v = vhold+heav(t-ton)*heav(toff_1-t)*(vtest_1-vhold)+ \
+heav(t-toff_1)*heav(toff_2-t)*(vtest_2- vhold)+heav(t-toff_2)*heav(toff_3-t)*(vtest_3-vhold)
+
+init o=0., c1=0.9, c2=0, c3=0, c4=0, c5=0, OB=0
+init i1=0, i2=0, i3=0, i4=0, i5=0, i6=0
+
+par Con=0.005
+par Coff=0.5
+% Oon=0.75
+par Oon=2.3
+par Ooff=0.005
+par GNa=3.6, ENa=60
+
+alpha=150*exp(v/20)
+beta=3*exp(-v/20)
+num gamma=150
+num delta=40
+% epsilon=1.75
+par epsilon=0.3
+zeta=0.03*exp(-v/25)
+a=(Oon/Con)^(1/4)
+b=(Ooff/Coff)^(1/4)
+
+dc1/dt=c2*beta-c1*4*alpha+i1*Coff-c1*Con
+dc2/dt=c1*4*alpha-c2*beta+c3*2*beta-c2*3*alpha+I2*Coff*b-c2*Con*a
+dc3/dt=c2*3*alpha-c3*2*beta+c4*3*beta-c3*2*alpha+I3*Coff*b^2-C3*Con*a^2
+dc4/dt=c3*2*alpha-c4*3*beta+c5*4*beta-c4*alpha+I4*Coff*b^3-C4*Con*a^3
+dc5/dt=c4*alpha-c5*4*beta+O*delta-c5*gamma+I5*Coff*b^4-C5*Con*a^4
+do/dt=c5*gamma-o*delta+OB*zeta-o*epsilon+i6*Ooff-o*Oon
+dOB/dt=o*epsilon-ob*zeta
+di1/dt=c1*Con-i1*Coff+i2*beta*b-i1*4*alpha*a
+di2/dt=i1*4*alpha*a-i2*beta*b+i3*2*beta*b-i2*3*alpha*a+c2*Con*a-i2*Coff*b
+di3/dt=i2*3*alpha*a-i3*2*beta*b+i4*3*beta*b-i3*2*alpha*a+c3*Con*a^2-i3*Coff*b^2
+di4/dt=i3*2*alpha*a-i4*3*beta*b+i5*4*beta*b-i4*alpha*a+c4*Con*a^3-i4*Coff*b^3
+di5/dt=i4*alpha*a-i5*4*beta*b+i6*delta-i5*gamma+c5*Con*a^4-i5*Coff*b^4
+di6/dt=i5*gamma-i6*delta+O*Oon-i6*Ooff
+
+INa=GNa*((o+ob)/(c1+c2+c3+c4+c5+o+ob+i1+i2+i3+i4+i5+i6))*(V-ENa)
+aux v=v
+aux Ina=ina
+@ meth=euler
+@ dt=1e-5, total=80, nout=100
+@ yp=INa, yhi=5, ylo=-50, xlo=0, xhi=80, maxstor=1000000, bounds=1000000000
+done
+

@@ -1,0 +1,9 @@
+This script contains the standard implementation of the
+activation model, in which the drop in dopamine efflux
+after administration of TC-7020 is caused by activation
+of the a7 receptors under the influence of TC-7020.
+
+Characteristics of the model are the predominant (or total)
+expression of a7 receptors on the GABA neurons (or their
+glutamatergic afferents), and the absence of a too strong 
+cholinergic tone.

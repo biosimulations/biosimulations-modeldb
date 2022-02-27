@@ -1,0 +1,28 @@
+These scripts were used for supplementary Figure S5.
+Because there were some inaccuracies in the figure caption,
+the rationale is explained in greater detail here.
+
+Panel A tries to repeat the findings of Smulders and Zwart
+that co-agonism at the ACTIVATION gate can cause an amplification
+of the response to weak ACh pulses (upper panel).
+The bath compound (a so-called competitive antagonist) has itself 
+zero efficacy, but when it co-binds with ACh it opens the receptor.
+Further it is assumed here that the applied ACh does not desensitize the receptor
+(this assumption is probably wrong, it would be valid for physiologically
+released ACh, but not for ACh applied in 5 sec pulses).
+When the ACh pulses are taken stronger (60 microM), the facilitating
+effect of the antagonist completely disappears, and becomes even depressing,
+as can be expected for a competitive antagonist (bottom panel).
+
+Panel B gives an explanation for the findings by Prickaerts et al.
+that very low doses of a partial a7 agonist amplify the responses
+to ACh pulses. Here the compound (EVP-6124) is a partial agonist
+with an efficacy of 0.3. At a low dose (upper panel) the compound
+amplifies the ACh response through co-agonism at the DESENSITIZATION
+gate, hence co-binding of EVP-6124 and ACh prevents desensitization 
+of the a7 receptor. (Obviously in this simulation the ACh pulses
+do desensitize the receptor, as can be seen from the initial transient.)
+When a high dose of EVP-6124 is applied in the bath (lower panel), 
+however, binding of two EVP molecules occurs much more frequently 
+than co-binding of EVP and ACh, so that the a7 receptor becomes 
+strongly desensitized and the ACh response drops as fewer receptors are available.

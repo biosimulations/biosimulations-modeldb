@@ -1,0 +1,100 @@
+### A computational analysis of signal fidelity in the rostral nucleus of the solitary tract
+### J. Neurophysiology, 2018
+### A. Boxwell, D. Terman, M. Frank, Y. Yanagawa, J. Travers
+
+#### Inhibitory cell
+Vi'=(1/0.0165)*(-gNai*mi^3*hi*(Vi-VNa)-gKi*(ni^4)*(Vi-VK)-gKsi*(nsi^4)*(Vi-VK)-gLi*(Vi-VLi)-Isyntot(Gsyni,Vi)-Icli)
+mi'=(minf(Vi)-mi)/taum(Vi)
+hi'=(hinf(Vi)-hi)/tauh (Vi)
+ni'=(ninf(Vi)-ni)/taun(Vi)
+nsi'=(ninf(Vi)-nsi)/tauns(Vi)
+
+i Vi=-55.038,mi=0.0,hi=0.8522,ni=0.000208
+
+#### Excitatory cell
+V'=(1/0.0187)*(-gNa*m^3*h*(V-VNa)-gK*(n^4)*(V-VK)-gKs*(ns^4)*(V-VK)-gL*(V-VL)-Isyntot(Gsyn,V)-Icl)
+m'=(minf(V)-m)/taum(V)
+h'=(hinf(V)-h)/tauh (V)
+n'=(ninf(V)-n)/taun(V)
+ns'=(ninf(V)-ns)/tauns(V)
+
+i V=-55.038,m=0.00001,h=0.8522,n=0.000208
+
+p gNa=0.24,gK=0.011,gKs=.003,gL=0.0018,
+gNai=0.88*gNa
+gKi=0.88*gK
+gLi=0.88*gL
+p gKsi=0.0015
+
+p VNa=50.0,VK=-90.0,VL=-59.5,VLi=-54.0
+
+p thetam=-38,sigmam=5,thetah=-50,sigmah=-3,thetan=-40,sigman=5
+p thetath=-45,sigmath=-3
+p thetatna=-50,sigmatna=-10,thetatnb=-70,sigmatnb=10
+p thetatma=-20,sigmatma=-10,thetatmb=-60,sigmatmb=3
+p thetaa=-45,sigmaa=3,thetab=-55,sigmab=-5
+
+GAMMAF(VV,theta,sigma)=1.0/(1.0+exp(-(VV-theta)/sigma))
+
+minf(V)=GAMMAF(V,thetam,sigmam)
+hinf(V)=GAMMAF(V,thetah,sigmah)
+ninf(V)=GAMMAF(V,thetan,sigman)
+
+taum(V)=0.05+0.5*(GAMMAF(V,thetatma,sigmatma)*GAMMAF(V,thetatmb,sigmatmb))
+tauh(V)=1+8*GAMMAF(V,thetath,sigmath)
+taun(V)=1.2+8*(GAMMAF(V,thetatna,sigmatna)*GAMMAF(V,thetatnb,sigmatnb))
+tauns(V)=1.2+200*(GAMMAF(V,thetatna,sigmatna)*GAMMAF(V,thetatnb,sigmatnb))
+
+p gcl=0
+Icl=gcl*(V+70)
+Icli=0.88*gcl*(Vi+70)
+
+#####  Synapses
+
+Y[1..10]'=(-Y[j]/Ti)+(X[j]*spike[j])
+X[1..10]'=(Z[j]/Tr)-(X[j]*spike[j])
+Z[1..10]'=(Y[j]/Ti)-(Z[j]/Tr)
+
+i X[1..10]=1
+i Y[1..10]=0
+i Z[1..10]=0
+
+p Ti=8
+p Tr=500
+p pr=0.118
+
+p Esyn=0
+Isyn(g,V,y)=g*y*(V-Esyn)
+
+p pct=1
+Gsyn=0.01658*pct
+Gsyni=.00829*pct
+
+Isyntot(g,V)=Isyn(g,V,Y1)+Isyn(g,V,Y2)+Isyn(g,V,Y3)+Isyn(g,V,Y4)+Isyn(g,V,Y5)+Isyn(g,V,Y6)+Isyn(g,V,Y7)+Isyn(g,V,Y8)+Isyn(g,V,Y9)+Isyn(g,V,Y10)
+
+#### baseline input:  1 sec < t < 3 sec  and  t > 8 sec 
+
+p rbase0=.1
+r[1..10]=r0
+Rbase[1..10]=rbase0
+
+sb[1..10]'=-sb[j]
+init sb[1..10]=0
+tnewb[1..10]'=0
+init tnewb[1..10]=100
+global 1 t-tnewb[1..10] {tnewb[j]=tnewb[j]-ln(ran(1))/(Rbase[j]/1000);sb[j]=sb[j]+pr}
+
+#### stimulus input:  3 sec < t < 8 sec
+
+p r0=1
+ss[1..10]'=-ss[j]
+init ss[1..10]=0
+tnews[1..10]'=0
+init tnews[1..10]=3000
+global 1 t-tnews[1..10] {tnews[j]=tnews[j]-ln(ran(1))/(r[j]/1000);ss[j]=ss[j]+pr}
+
+spike[1..10]=sb[j]*(heav(t-1000)-heav(t-3000))+ss[j]*(heav(t-3000)-heav(t-8000))+sb[j]*(heav(t-8000))
+
+@ dt=0.05,total=12000,xlo=0,xhi=12000,ylo=-80,yhi=50,maxstor=500000, bound=100000000000000000
+
+done

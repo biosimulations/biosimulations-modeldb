@@ -1,0 +1,35 @@
+This is the README file for the model associated with the paper:
+
+Denizot, A., Arizono, M., Nägerl, V., Soula, H., Berry, H. (2019). Simulation of calcium signaling in fine astrocytic processes: effect of spatial properties on spontaneous activity. 
+
+
+We present here 4 different implementations of the model, described below.
+
+
+#####################
+##### Gillespie #####
+#####################
+This model corresponds to the Gillespie implementation of the model. It has been developed in python. This model has been used in Figure 2.
+
+
+#####################
+######## ODE ########
+#####################
+This model corresponds to ODE model presented in Fig2 of the paper. It requires XPPAUT software, which is freely available at http://www.math.pitt.edu/~bard/xpp/xpp.html
+
+
+######################
+### Particle-based ###
+######################
+This model corresponds to the particle-based implementation of the model. It has been developed in C. This is the model used in Figures 2 to 5 of the paper.
+
+
+#################
+##### STEPS #####
+#################
+This model corresponds to the GCaMP6s model presented in Fig6 of the paper. It has been developed in python and requires STEPS software, which is freely available at http://steps.sourceforge.net/STEPS/default.php
+
+
+
+Contact:
+audrey.denizot@inria.fr

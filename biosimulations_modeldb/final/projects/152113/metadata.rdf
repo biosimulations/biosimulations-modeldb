@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/152113.omex">
+    <dc:title>Basal ganglia-corticothalamic (BGCT) network (Chen et al., 2014)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152113.omex">
+    <dc:abstract>We developed a biophysical model of the basal ganglia-corticothalamic&#13;
+network in this work.&#13;
+&#13;
+"... We demonstrate that the typical absence seizure activities can be&#13;
+controlled and modulated by the direct GABAergic projections from the&#13;
+substantia nigra pars reticulata (SNr) to either the thalamic&#13;
+reticular nucleus (TRN) or the specific relay nuclei (SRN) of&#13;
+thalamus, through different biophysical mechanisms.&#13;
+...  results highlight the bidirectional functional roles of&#13;
+basal ganglia in controlling and modulating absence seizures, and&#13;
+might provide novel insights into the therapeutic treatments of this&#13;
+brain disorder."</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152113.omex">
+    <dc:description>This archive contains MATLAB codes of both the original BGCT and
+improved BGCT models described in the following two papers:
+
+ Paper 1
+ Title: Bidirectional Control of Absence Seizures by the Basal
+ Ganglia: A Computational Evidence (2014)
+ Authors: Mingming Chen, Daqing Guo*, Tiebin Wang, Wei Jing, Yang
+ Xia, Peng Xu, Cheng Luo, Pedro A. Valdes-Sosa, and Dezhong Yao*
+ Journal: PLoS Computational Biology
+ Emails: twqylsf@gmail.com and dqguo@uestc.edu.cn
+
+ Paper 2 
+
+Title: Critical Roles of the Direct GABAergic Pallido-cortical Pathway
+ in Controlling Absence Seizures (2015, in press, DOI:
+ 10.1371/journal.pcbi.1004539) Authors: Mingming Chen, Daqing
+ Guo*, Min Li, Tao Ma, Shengdun Wu, Jingling Ma, Yan Cui, Yang
+ Xia, Peng Xu, and Dezhong Yao*
+ Journal: PLoS Computational Biology
+ Emails: twqylsf at gmail.com and dqguo at uestc.edu.cn
+
+In addition, this archive also provides a comparable XPPAUT
+implementation of the original BGCT model.
+
+Please see the scripts in BGCT\_matlab\_paper1 file for the MATLAB codes
+of the original BGCT model, and the BGCT\_Basic.ode for the comparable
+XPPAUT code. The detailed information of these codes is described as
+follows:
+
+1. The main mainFig2C.m script generates figures similar (not
+identical due to starting in a random initial condition) to Fig 2C in
+the paper 1. Zooming in on the origins of the subplots in the figure
+mainFig2C.m generated should therefore look something like:
+
+![screenshot](data:image/png;base64,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) 
+
+2. The scripts (main\_bifurcation\_Fig2A, main\_bifurcation\_Fig2B,
+main\_bifurcation\_Fig3C, and main\_bifurcation\_Fig3D) generate all
+bifurcation diagrams presented in paper 1. For each set of
+experimental parameters, we run 30 trails using different random
+initial conditions for checking the possible bistable dynamics.
+
+3. The scripts (main\_2D\_analysis\_Fig2DE, main\_2D\_analysis\_Fig3AB,
+main\_2D\_analysis\_Fig4AB, main\_2D\_analysis\_Fig5AB) generate
+two-dimensional state and frequency diagrams similar to Figs 2D, 2E,
+3A, 3B, 4A, 4B, 5A, and 5B in paper 1.
+
+Please see the scripts in BGCT\_matlab\_paper2 file for the MATLAB codes
+of the improved BGCT model by incorporating a new efferent pathway
+representing direct connection from the GPe to the cerebral
+cortex. The detailed information of these codes is described as
+follows:
+
+1. The BGCT\_subfun\_GPe\_Basic script is the basic implementation of the
+improved BGCT model.
+2. The scripts (BGCT\_subfun\_GPe\_Fig2\_So,
+BGCT\_subfun\_GPe\_Fig4\_Fig5\_Sol, BGCT\_subfun\_GPe\_Fig6\_Fig7\_Sol) generate
+the data used to plot two-dimensional state and frequency diagrams
+similar to Figs. 2, 4, 5, 6 and 7 in paper 2. For each set of
+experimental parameters, we run 30 trails using different random
+initial conditions for checking the possible bistable dynamics.
+3. The BGCT\_subfun\_GPe\_Fig3\_Sol script generates all data used to plot
+the bifurcation diagrams, frequency diagrams as well as the mean
+firing rates for several critical neural populations in Fig 3 (paper
+2).
+
+Note that the other figures in these two papers could be easily
+reproduced using the codes provided in this archive by suitably tuning
+parameters.
+
+MATLAB is commercial software available from &lt;http://www.mathworks.com&gt;
+and XPPAut is free from &lt;http://www.math.pitt.edu/~bard/xpp/xpp.html&gt;
+This archive was provided by Daqing Guo and Mingming Chen.</dc:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=111952">http://modeldb.science/ModelList?id=111952</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Neural mass</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152113.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=115945">http://modeldb.science/ModelList?id=115945</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Neocortex</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152113.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=115951">http://modeldb.science/ModelList?id=115951</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>Thalamus</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152113.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=115952">http://modeldb.science/ModelList?id=115952</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>Basal ganglia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152113.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=52405">http://modeldb.science/ModelList?id=52405</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>Epilepsy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152113.omex">
+    <bqbiol:encodes rdf:resource="local:00005">local:00005</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152113.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/152113.omex/article-figures/PMC3952815/pcbi.1003495.g001.jpg">http://omex-library.org/152113.omex/article-figures/PMC3952815/pcbi.1003495.g001.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152113.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/152113.omex/article-figures/PMC3952815/pcbi.1003495.g002.jpg">http://omex-library.org/152113.omex/article-figures/PMC3952815/pcbi.1003495.g002.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152113.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/152113.omex/article-figures/PMC3952815/pcbi.1003495.g003.jpg">http://omex-library.org/152113.omex/article-figures/PMC3952815/pcbi.1003495.g003.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152113.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/152113.omex/article-figures/PMC3952815/pcbi.1003495.g004.jpg">http://omex-library.org/152113.omex/article-figures/PMC3952815/pcbi.1003495.g004.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152113.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/152113.omex/article-figures/PMC3952815/pcbi.1003495.g005.jpg">http://omex-library.org/152113.omex/article-figures/PMC3952815/pcbi.1003495.g005.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152113.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/152113.omex/article-figures/PMC3952815/pcbi.1003495.g006.jpg">http://omex-library.org/152113.omex/article-figures/PMC3952815/pcbi.1003495.g006.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152113.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/152113.omex/article-figures/PMC3952815/pcbi.1003495.g007.jpg">http://omex-library.org/152113.omex/article-figures/PMC3952815/pcbi.1003495.g007.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152113.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/152113.omex/article-figures/PMC4619822/pcbi.1004539.g001.jpg">http://omex-library.org/152113.omex/article-figures/PMC4619822/pcbi.1004539.g001.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152113.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/152113.omex/article-figures/PMC4619822/pcbi.1004539.g002.jpg">http://omex-library.org/152113.omex/article-figures/PMC4619822/pcbi.1004539.g002.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152113.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/152113.omex/article-figures/PMC4619822/pcbi.1004539.g003.jpg">http://omex-library.org/152113.omex/article-figures/PMC4619822/pcbi.1004539.g003.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152113.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/152113.omex/article-figures/PMC4619822/pcbi.1004539.g004.jpg">http://omex-library.org/152113.omex/article-figures/PMC4619822/pcbi.1004539.g004.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152113.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/152113.omex/article-figures/PMC4619822/pcbi.1004539.g005.jpg">http://omex-library.org/152113.omex/article-figures/PMC4619822/pcbi.1004539.g005.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152113.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/152113.omex/article-figures/PMC4619822/pcbi.1004539.g006.jpg">http://omex-library.org/152113.omex/article-figures/PMC4619822/pcbi.1004539.g006.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152113.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/152113.omex/article-figures/PMC4619822/pcbi.1004539.g007.jpg">http://omex-library.org/152113.omex/article-figures/PMC4619822/pcbi.1004539.g007.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152113.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/152113.omex/screenshot.png">http://omex-library.org/152113.omex/screenshot.png</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="mailto:dqguo@uestc.edu.cn">mailto:dqguo@uestc.edu.cn</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>Daqing Guo</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <foaf:mbox rdf:resource="mailto:dqguo@uestc.edu.cn">mailto:dqguo@uestc.edu.cn</foaf:mbox>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <foaf:accountName rdf:resource="mailto:dqguo@uestc.edu.cn">mailto:dqguo@uestc.edu.cn</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <foaf:name>Daqing Guo</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152113.omex">
+    <dc:creator rdf:resource="local:00006">local:00006</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152113.omex">
+    <dc:contributor rdf:resource="local:00007">local:00007</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152113.omex">
+    <dc:contributor rdf:resource="local:00008">local:00008</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:152113">https://identifiers.org/modeldb:152113</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>modeldb:152113</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152113.omex">
+    <bqmodel:is rdf:resource="local:00009">local:00009</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1371/journal.pcbi.1003495">http://identifiers.org/doi:10.1371/journal.pcbi.1003495</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <rdfs:label>Mingming Chen, Daqing Guo, Tiebin Wang, Wei Jing, Yang Xia, Peng Xu, Cheng Luo, Pedro A. Valdes-Sosa &amp; Dezhong Yao. Bidirectional control of absence seizures by the basal ganglia: a computational evidence. PLoS Computational Biology 10, 3: e1003495 (2014).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152113.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00010">local:00010</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1371/journal.pcbi.1004539">http://identifiers.org/doi:10.1371/journal.pcbi.1004539</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <rdfs:label>Mingming Chen, Daqing Guo, Min Li, Tao Ma, Shengdun Wu, Jingling Ma, Yan Cui, Yang Xia, Peng Xu &amp; Dezhong Yao. Critical Roles of the Direct GABAergic Pallido-cortical Pathway in Controlling Absence Seizures. PLOS Computational Biology 11, 10: e1004539 (2015).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152113.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00011">local:00011</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152113.omex">
+    <dc:created>2014-01-15</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/152113.omex">
+    <dc:modified>2015-09-15</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

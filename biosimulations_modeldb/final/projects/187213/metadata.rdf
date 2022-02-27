@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/187213.omex">
+    <dc:title>Anoxic depolarization, recovery: effect of brain regions and extracellular space (Hubel et al. 2016)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187213.omex">
+    <dc:abstract>The extent of anoxic depolarization (AD), the initial electrophysiological event during ischemia, determines the degree of brain region-specific neuronal damage. Neurons in higher brain regions have stronger ADs and are more easily injured than neurons in lower brain region. The mechanism leading to such differences is not clear. We use a computational model based on a Hodgkin-Huxley framework which includes neural spiking dynamics, processes of ion accumulation, and homeostatic mechanisms like vascular coupling and Na/K-exchange pumps. We show that a large extracellular space (ECS) explains the recovery failure in high brain regions. A phase-space analysis shows that with a large ECS recovery from AD through potassium regulation is impossible. The code 'time_series.ode' can be used to simulate AD for a large and a small ECS and show the different behaviors. The code ‘continuations.ode’ can be used to show the fixed point structure. Depending on our choice of large or small ECS the fixed point curve implies the presence/absence of a recovery threshold that defines the potassium clearance demand.</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187213.omex">
+    <dc:description>**************************************************************************************************
+**************************************************************************************************
+**************************************************************************************************
+
+The code can be used to reproduce time series and bifurcation diagrams shown in Figs. 4 and 5.
+
+Time series (obtained from time_series.ode):
+a.) time series for ‘par vle=720’:
+    - parameter specification from line 33
+b.) time series for ‘par vle=3700’:
+    - parameter specification from line 34
+
+Bifurcation diagrams (obtained from continuatons.ode)
+c.) bifurcation diagram for ‘par vle=720’:
+    - initial conditions from line 64-68 (instead of line 72-76)
+    - parameter specification from line 87 (instead of line 88) 
+    - change ‘PARMIN=-250’ to ‘PARMIN=-50’ in line 201
+    - change ‘XAUTOMIN=-250’ to ‘XAUTOMIN=-50’ in line 202 
+    - forward and backward continuation as described in the general instructions 1-8.) given below
+
+d.) upper branch of bifurcation diagram for ‘par vle=3700’:
+    - initial conditions from line 72-76
+    - parameter specification from line 88
+    - default values for  ‘PARMIN’ and ‘XAUTOMIN’ in lines 201-202 
+    - forward and backward continuation as described in the general instructions 1-8.) given below
+
+d.) lower branch of bifurcation diagram for ‘par vle=3700’:
+    - initial conditions from line 64-68
+    - parameter specification from line 88
+    - default values for  ‘PARMIN’ and ‘XAUTOMIN’ in lines 201-202 
+    - forward and backward continuation as described in the general instructions 1-8.) given below
+
+
+
+
+The fixed point curves from Figs. 4 and 5 can be obtained as follows:
+
+1.) open file with XPPAUT
+2.) run simulation twice to make sure the system is in its fixed point:
+     click "Initialconds" + "(G)o"; "Initialconds" + "(L)ast"
+     (keyboard shortcuts: "I" + "G", "I" + “L")
+3.) open AUTO interface:
+     click "File" + "Auto"
+     (keyboard shortcut: "F" + “A")
+4.) run 'forward' fixed point continuation:
+     click "Run" + "Steady state"
+     (keyboard shortcut: "R" + “S")
+5.) grab point to start 'backward' continuation if desired: 
+     click “Grab”, then navigate along the curve with "tab” key, press
+     "enter" to choose point
+6.) set continuation step size to negative: 
+     click "Numerics” and change 'Ds:0.002' to 'Ds:-0.002’, click "Ok"
+7.) run backward coninuation by clicking "Run"
+8.) save the fixed point curves and bifurcation information: 
+     click "File" + "All info”, choose a filename and click "Ok"
+
+**************************************************************************************************
+**************************************************************************************************
+**************************************************************************************************</dc:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Neuron or other electrically excitable cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187213.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=156124">http://modeldb.science/ModelList?id=156124</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Abstract single compartment conductance based cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187213.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=240">http://modeldb.science/ModelList?id=240</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>I Chloride</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187213.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=242">http://modeldb.science/ModelList?id=242</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>I Na,t</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187213.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=248">http://modeldb.science/ModelList?id=248</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>I K</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187213.omex">
+    <bqbiol:encodes rdf:resource="local:00005">local:00005</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=249">http://modeldb.science/ModelList?id=249</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>I K,leak</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187213.omex">
+    <bqbiol:encodes rdf:resource="local:00006">local:00006</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=251">http://modeldb.science/ModelList?id=251</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>I h</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187213.omex">
+    <bqbiol:encodes rdf:resource="local:00007">local:00007</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=2395">http://modeldb.science/ModelList?id=2395</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>I Sodium</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187213.omex">
+    <bqbiol:encodes rdf:resource="local:00008">local:00008</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=2405">http://modeldb.science/ModelList?id=2405</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>I Potassium</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187213.omex">
+    <bqbiol:encodes rdf:resource="local:00009">local:00009</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=116966">http://modeldb.science/ModelList?id=116966</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <rdfs:label>I_K,Na</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187213.omex">
+    <bqbiol:encodes rdf:resource="local:00010">local:00010</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=120693">http://modeldb.science/ModelList?id=120693</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <rdfs:label>Na/K pump</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187213.omex">
+    <bqbiol:encodes rdf:resource="local:00011">local:00011</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=139267">http://modeldb.science/ModelList?id=139267</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <rdfs:label>I Cl, leak</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187213.omex">
+    <bqbiol:encodes rdf:resource="local:00012">local:00012</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=139268">http://modeldb.science/ModelList?id=139268</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <rdfs:label>I Na, leak</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187213.omex">
+    <bqbiol:encodes rdf:resource="local:00013">local:00013</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3649">http://modeldb.science/ModelList?id=3649</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <rdfs:label>Action Potentials</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187213.omex">
+    <bqbiol:encodes rdf:resource="local:00014">local:00014</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=52404">http://modeldb.science/ModelList?id=52404</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <rdfs:label>Pathophysiology</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187213.omex">
+    <bqbiol:encodes rdf:resource="local:00015">local:00015</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=120695">http://modeldb.science/ModelList?id=120695</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <rdfs:label>Sodium pump</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187213.omex">
+    <bqbiol:encodes rdf:resource="local:00016">local:00016</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=121254">http://modeldb.science/ModelList?id=121254</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <rdfs:label>Depolarization block</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187213.omex">
+    <bqbiol:encodes rdf:resource="local:00017">local:00017</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=144409">http://modeldb.science/ModelList?id=144409</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <rdfs:label>Homeostasis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187213.omex">
+    <bqbiol:encodes rdf:resource="local:00018">local:00018</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00019">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=151948">http://modeldb.science/ModelList?id=151948</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00019">
+    <rdfs:label>Potassium buffering</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187213.omex">
+    <bqbiol:encodes rdf:resource="local:00019">local:00019</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00020">
+    <dc:identifier rdf:resource="mailto:niklas.huebel@gmail.com">mailto:niklas.huebel@gmail.com</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00020">
+    <rdfs:label>Niklas Hübel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00020">
+    <foaf:mbox rdf:resource="mailto:niklas.huebel@gmail.com">mailto:niklas.huebel@gmail.com</foaf:mbox>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00020">
+    <foaf:accountName rdf:resource="mailto:niklas.huebel@gmail.com">mailto:niklas.huebel@gmail.com</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00020">
+    <foaf:name>Niklas Hübel</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187213.omex">
+    <dc:contributor rdf:resource="local:00020">local:00020</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00021">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00021">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00021">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00021">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187213.omex">
+    <dc:contributor rdf:resource="local:00021">local:00021</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00022">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00022">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00022">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00022">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187213.omex">
+    <dc:contributor rdf:resource="local:00022">local:00022</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00023">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:187213">https://identifiers.org/modeldb:187213</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00023">
+    <rdfs:label>modeldb:187213</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187213.omex">
+    <bqmodel:is rdf:resource="local:00023">local:00023</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00024">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1007/s10827-016-0591-y">http://identifiers.org/doi:10.1007/s10827-016-0591-y</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00024">
+    <rdfs:label>Niklas Hübel, R. David Andrew &amp; Ghanim Ullah. Large extracellular space leads to neuronal susceptibility to ischemic injury in a Na+/K+ pumps-dependent manner. Journal of Computational Neuroscience 40, 2: 177-192 (2016).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187213.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00024">local:00024</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187213.omex">
+    <dc:created>2016-01-13</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/187213.omex">
+    <dc:modified>2016-01-19</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

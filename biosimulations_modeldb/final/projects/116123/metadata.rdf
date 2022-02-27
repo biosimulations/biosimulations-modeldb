@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/116123.omex">
+    <dc:title>Dynamics of Spike Initiation (Prescott et al. 2008)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116123.omex">
+    <dc:abstract>"Transduction of graded synaptic input into trains of all-or-none action potentials (spikes) is a crucial step in neural coding.&#13;
+&#13;
+Hodgkin identified three classes of neurons with qualitatively different analog-to-digital transduction properties. &#13;
+&#13;
+Despite widespread use of this classification scheme, a generalizable explanation of its biophysical basis has not been described. &#13;
+&#13;
+We recorded from spinal sensory neurons representing each class and reproduced their transduction properties in a minimal&#13;
+model. With phase plane and bifurcation analysis, each class of excitability was shown to derive from distinct spike initiating dynamics. &#13;
+&#13;
+Excitability could be converted between all three classes by varying single parameters; moreover, several&#13;
+parameters, when varied one at a time, had functionally equivalent effects on excitability. From this, we conclude that the&#13;
+spike-initiating dynamics associated with each of Hodgkin’s classes represent different outcomes in a nonlinear competition&#13;
+between oppositely directed, kinetically mismatched currents. ..."</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116123.omex">
+    <dc:description>This is the readme for the model associated with the paper:
+
+Prescott SA, De Koninck Y, Sejnowski TJ (2008) Biophysical Basis for
+Three Distinct Dynamical Mechanisms of Action Potential
+Initiation. PLoS Comput. Biol. 4(10): e1000198
+ 
+Abstract: Transduction of graded synaptic input into trains of
+all-or-none action potentials (spikes) is a crucial step in neural
+coding. Hodgkin identified three classes of neurons with
+qualitatively different analogue-to-digital transduction properties.
+Despite widespread use of this classification scheme, a generalizable
+explanation of its biophysical basis has not been described. We
+recorded from spinal sensory neurons representing each class and
+reproduced their transduction properties in a minimal model. Using
+phase plane and bifurcation analysis, each class of excitability was
+shown to derive from distinct spike initiating dynamics. Excitability
+could be converted between all three classes by varying single
+parameters; moreover, several parameters, when varied one at a time,
+had functionally equivalent effects on excitability. From this, we
+conclude that the spike initiating dynamics associated with each of
+Hodgkin's classes represent different outcomes in a nonlinear
+competition between oppositely directed, kinetically mismatched
+currents. Class 1 excitability occurs through a saddle-node on
+invariant circle bifurcation when net current at perithreshold
+potentials is inward (depolarizing) at steady state. Class 2
+excitability occurs through a Hopf bifurcation when, despite net
+current being outward (hyperpolarizing) at steady state, spike
+initiation occurs because inward current activates faster than outward
+current. Class 3 excitability occurs through a
+quasi-separatrix-crossing when fast-activating inward current
+overpowers slow-activating outward current during a stimulus
+transient, although slow-activating outward current dominates during
+constant stimulation. Experiments confirmed that different classes of
+spinal lamina I neurons express the subthreshold currents predicted by
+our simulations and, further, that those currents are necessary for
+the excitability in each cell class. Thus, our results demonstrate
+that all three classes of excitability arise from a continuum in the
+direction and magnitude of subthreshold currents. Through detailed
+analysis of the spike initiating process, we have explained a
+fundamental link between biophysical properties and qualitative
+differences in how neurons encode sensory input.
+
+
+Model Notes:
+
+Models demonstrate how action potentials can be generated through
+different dynamical mechanisms depending on the direction and
+magnitude of subthreshold current. We start with a two-dimensional
+Morris-Lecar-type model. Varying parameter Beta\_w causes this model to
+exhibit class 1, 2, or 3 excitability according to Hodgkin's 1948
+classification (see Figure 1 in paper). In this, the simplest model,
+dynamical systems analysis shows that each class is associated with a
+different spike initiating mechanism (see Figure 2 in paper). Try
+varying Beta\_w to see how it affects dynamics visualized on the V-w
+plane.
+
+To increase the biological realism of the model, we split the recovery
+variable (w) into two parts (y and z) which each control slightly
+different currents (see Figure 4 in paper). Try varying gsub and
+Vsub.
+
+Noise is not included in these models but can be added by following
+the notes included in the code. The code contains numerous other
+comments that will help explain the model.
+
+For more information about XPP, visit
+&lt;http://www.scholarpedia.org/article/XPPAUT&gt; or
+&lt;http://www.math.pitt.edu/~bard/xpp/xpp.html&gt;
+
+Novemeber 14th, 2008: smaller sigma instead of sigma\_inoise in comments update</dc:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Neuron or other electrically excitable cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116123.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=150222">http://modeldb.science/ModelList?id=150222</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Abstract Morris-Lecar neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116123.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3541">http://modeldb.science/ModelList?id=3541</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>Action Potential Initiation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116123.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3638">http://modeldb.science/ModelList?id=3638</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>Simplified Models</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116123.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=143724">http://modeldb.science/ModelList?id=143724</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>Bifurcation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116123.omex">
+    <bqbiol:encodes rdf:resource="local:00005">local:00005</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=182362">http://modeldb.science/ModelList?id=182362</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>Sensory coding</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116123.omex">
+    <bqbiol:encodes rdf:resource="local:00006">local:00006</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116123.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/116123.omex/article-figures/PMC2551735/pcbi.1000198.g001.jpg">http://omex-library.org/116123.omex/article-figures/PMC2551735/pcbi.1000198.g001.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116123.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/116123.omex/article-figures/PMC2551735/pcbi.1000198.g002.jpg">http://omex-library.org/116123.omex/article-figures/PMC2551735/pcbi.1000198.g002.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116123.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/116123.omex/article-figures/PMC2551735/pcbi.1000198.g003.jpg">http://omex-library.org/116123.omex/article-figures/PMC2551735/pcbi.1000198.g003.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116123.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/116123.omex/article-figures/PMC2551735/pcbi.1000198.g004.jpg">http://omex-library.org/116123.omex/article-figures/PMC2551735/pcbi.1000198.g004.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116123.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/116123.omex/article-figures/PMC2551735/pcbi.1000198.g005.jpg">http://omex-library.org/116123.omex/article-figures/PMC2551735/pcbi.1000198.g005.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116123.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/116123.omex/article-figures/PMC2551735/pcbi.1000198.g006.jpg">http://omex-library.org/116123.omex/article-figures/PMC2551735/pcbi.1000198.g006.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116123.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/116123.omex/article-figures/PMC2551735/pcbi.1000198.g007.jpg">http://omex-library.org/116123.omex/article-figures/PMC2551735/pcbi.1000198.g007.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116123.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/116123.omex/article-figures/PMC2551735/pcbi.1000198.g008.jpg">http://omex-library.org/116123.omex/article-figures/PMC2551735/pcbi.1000198.g008.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116123.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/116123.omex/article-figures/PMC2551735/pcbi.1000198.g009.jpg">http://omex-library.org/116123.omex/article-figures/PMC2551735/pcbi.1000198.g009.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116123.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/116123.omex/article-figures/PMC2551735/pcbi.1000198.g010.jpg">http://omex-library.org/116123.omex/article-figures/PMC2551735/pcbi.1000198.g010.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116123.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/116123.omex/article-figures/PMC2551735/pcbi.1000198.g011.jpg">http://omex-library.org/116123.omex/article-figures/PMC2551735/pcbi.1000198.g011.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="mailto:steve.prescott@sickkids.ca]">mailto:steve.prescott@sickkids.ca]</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>Steven Prescott</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <foaf:mbox rdf:resource="mailto:steve.prescott@sickkids.ca]">mailto:steve.prescott@sickkids.ca]</foaf:mbox>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <foaf:accountName rdf:resource="mailto:steve.prescott@sickkids.ca]">mailto:steve.prescott@sickkids.ca]</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <foaf:name>Steven Prescott</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116123.omex">
+    <dc:creator rdf:resource="local:00007">local:00007</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116123.omex">
+    <dc:contributor rdf:resource="local:00008">local:00008</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116123.omex">
+    <dc:contributor rdf:resource="local:00009">local:00009</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:116123">https://identifiers.org/modeldb:116123</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <rdfs:label>modeldb:116123</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116123.omex">
+    <bqmodel:is rdf:resource="local:00010">local:00010</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1371/journal.pcbi.1000198">http://identifiers.org/doi:10.1371/journal.pcbi.1000198</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <rdfs:label>Steven A. Prescott, Yves De Koninck &amp; Terrence J. Sejnowski. Biophysical basis for three distinct dynamical mechanisms of action potential initiation. PLoS Computational Biology 4, 10: e1000198 (2008).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116123.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00011">local:00011</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116123.omex">
+    <dc:created>2008-11-03</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/116123.omex">
+    <dc:modified>2015-05-11</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

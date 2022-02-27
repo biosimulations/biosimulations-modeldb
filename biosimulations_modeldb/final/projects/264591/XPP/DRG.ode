@@ -1,0 +1,94 @@
+# Equations for voltage and other variables
+
+dv/dt=((I/A)-gNa17*m17^3*h17*s17*(v-vna)-gNa18*m18*h18*(v-vna)-gK*n*(v-vk)-gKA*nKA*hKA*(v-vk)-gl*(v-vl))/c
+
+dm17/dt=(minf17(v)-m17)/taum17(v)
+dh17/dt=(hinf17(v)-h17)/tauh17(v)
+ds17/dt=(sinf17(v)-s17)/taus17(v)
+
+dm18/dt=(minf18(v)-m18)/taum18(v)
+dh18/dt=(hinf18(v)-h18)/tauh18(v)
+
+dn/dt=(ninf(v)-n)/taun(v)
+
+dnKA/dt=(ninfKA(v)-nKA)/taunKA(v)
+dhKA/dt=(hinfKA(v)-hKA)/tauhKA(v)
+
+
+#Functions for Nav1.7
+
+am17(v)=15.5/(1+exp(-(v-5)/12.08))
+bm17(v)=35.2/(1+exp((v+72.7)/16.7))
+taum17(v)=1/(am17(v)+bm17(v))
+minf17(v)=taum17(v)*am17(v)
+
+ah17(v)=0.38685/(1+exp((v+122.35)/15.29))
+bh17(v)=-0.00283+2.00283/(1+exp(-(v+5.5266)/12.70195))
+tauh17(v)=1/(ah17(v)+bh17(v))
+hinf17(v)=tauh17(v)*ah17(v)
+
+as17(v)=0.00003+0.00092/(1+exp((v+93.9)/16.6))
+bs17(v)=132.05-132.05/(1+exp((v-384.9)/28.5))
+taus17(v)=1/(as17(v)+bs17(v))
+sinf17(v)=taus17(v)*as17(v)
+
+#Functions for Nav1.8
+
+am18(v)=2.85-(2.839/(1+exp((v-1.159)/13.95)))
+bm18(v)=7.6205/(1+exp((v+46.463)/8.8289))
+taum18(v)=1/(am18(v)+bm18(v))
+minf18(v)=taum18(v)*am18(v)
+
+tauh18(v)=1.218+42.043*exp(-((v+38.1)^2)/(2*15.19^2))
+hinf18(v)=1/(1+exp((v+32.2)/4))
+
+#Functions for K
+
+an(v)=if(-v!=14.273)then(0.001265*(v+14.273)/(1-exp(-(v+14.273)/10)))else(0.001265*10)
+bn(v)=0.125*exp(-(v+55)/2.5)
+taun(v)=1/(an(v)+bn(v))+1
+ninf(v)=1/(1+exp(-(v+14.62)/18.38))
+
+#Functions for KA
+ninfKA(v)=(1/(1+exp(-(v+5.4)/16.4)))^4
+taunKA(v)=0.25+10.04*exp(-(v+24.67)^2/(2*34.8^2))
+hinfKA(v)=1/(1+exp((v+49.9)/4.6))
+tauhKA1(v)=20+50*exp(-(v+40)^2/(2*40^2))
+tauhKA(v)=if(tauhKA1(v)<5)then(5)else(tauhKA1(v))
+
+
+# Make fixed quantities
+
+m17f = minf17(v)
+h17f = hinf17(v)
+s17f = sinf17(v)
+m18f = minf18(v)
+h18f = hinf18(v)
+nf = ninf(v)
+nKAf = ninfKA(v)
+hKAf = hinfKA(v)
+
+# Create aux variables
+
+aux m17inf = m17f
+aux h17inf = h17f
+aux s17inf = s17f
+aux m18inf = m18f
+aux h18inf = h18f
+aux nKinf = nf
+aux nKAinf = nKAf
+aux hKAinf = hKAf
+
+#Parameters
+param I=0,gNa18=7,vna=67.1,vk=-84.7
+param c=0.93,A=21.68
+param vl=-58.91,gNa17=18,gK=4.78,gKA=8.33,gl=0.0575
+
+#Initial values for I=0
+init v=-66.47794383085288,m17=0.0028910068679934894,h17=0.4188697707074979,s17=0.9105854454115576,m18=0.004768537866039612,h18=0.9998102258258676,n=0.05617689078937599,nKA=3.082247500291692e-07,hKA=0.9735038111180977
+
+
+#Options
+@ TOTAL=100,@ NPLOT=1,@ NTST=100,@ PARMAX=300,@ METH=stiff,@ TOLER=1e-7,@ BOUNDS=10000
+
+done

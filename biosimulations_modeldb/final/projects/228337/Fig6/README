@@ -1,0 +1,18 @@
+This script was used for Fig. 6, in which we tried to show
+that many parameters, such as the baseline dopamine concentration,
+were not restrictive. Hence the experimental responses could be
+reproduced with other values for these parameters.
+
+In this particular example, baseline dopamine was at 337 nM (instead of 50).
+The doses of TC-7020 and nicotine had to be increased accordingly.
+Because this is still an implementation of the desensitization model,
+a baseline cholinergic tone was needed to allow for  the drop in dopamine 
+efflux after TC-7020 injection. But too strong a tone would weaken, 
+through competitive inhibition or saturation, the nicotine response,
+which was caused mainly by the a4b2 receptors.
+
+To solve this trade-off we assumed there to be a higher tone at a7 than at a4b2 
+receptors. There are indeed experimental indications that a7 receptors are located
+closest to the ACh release sites (for instance Bennett et al. J. Neurosci. 2012).
+Technically this was done in the script be having a separate choline tone 
+(of 30 microM) to which only the a7 receptors are sensitive. 

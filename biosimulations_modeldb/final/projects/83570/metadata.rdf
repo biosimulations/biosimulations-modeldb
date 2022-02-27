@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/83570.omex">
+    <dc:title>A theory of ongoing activity in V1 (Goldberg et al 2004)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83570.omex">
+    <dc:abstract>Ongoing spontaneous activity in the cerebral cortex exhibits&#13;
+complex spatiotemporal patterns in the absence of sensory stimuli. To elucidate the nature of&#13;
+this ongoing activity, we present a theoretical treatment of two contrasting scenarios of cortical dynamics: (1) fluctuations about a single background state&#13;
+and (2) wandering among multiple “attractor” states, which&#13;
+encode a single or several stimulus features.&#13;
+Studying simplified network rate models of the primary&#13;
+visual cortex (V1), we show that the single state scenario&#13;
+is characterized by fast and high-dimensional&#13;
+Gaussian-like fluctuations, whereas in the multiple&#13;
+state scenario the fluctuations are slow, low dimensional,&#13;
+and highly non-Gaussian. Studying a more realistic model that incorporates correlations in the feedforward input, spatially restricted cortical interactions,&#13;
+and an experimentally derived layout of pinwheels,&#13;
+we show that recent optical-imaging data of ongoing&#13;
+activity in V1 are consistent with the presence of either&#13;
+a single background state or multiple attractor states&#13;
+encoding many features.</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83570.omex">
+    <dc:description>This is the readme.txt for a model associated with the publication:
+
+Goldberg JA, Rokni U, Sompolinsky H (2004) Patterns of ongoing
+activity and the functional architecture of the primary visual
+cortex. Neuron 42:489-500
+
+Notes from Josh Goldberg:
+
+This model is at the heart of our 2004 Neuron paper. It is analyzed in
+and about figure 3 in that paper. The initial code was run in Matlab
+and the paper includes a variety of models that elaborate on this
+model.... I do believe that this is the most elegant/central part of
+the paper.
+
+Usage notes:
+
+To run the .tab file must be in the same directory as the .ode file.
+... run the program as usual in the main XPP window, that is: I,G.
+Then once you fill in the the entries in the Edit Arrayplot Window
+(see the begining of NoisyRing.ode), you must press "redraw". then
+each time you continue the integration in the main XPP window (e.g.,
+E,I,L) do "redraw" again and see the continuation of the
+simulation.
+
+The model has three states, homogeneous for low gains (lambda&lt;1) and
+then Marginal for lambda that is between 1 and 2 (for mu&gt;0). (the
+integration diverges for lambda larger than 2). this is all explained
+in the paper. Marginal means that you get a noisy hill of activity.  I
+think it is important to point out that this model corresponds only to
+figure 3 in that paper.
+
+Default values lambda=1.8 and mu=1 give a nice hill of activity with
+some of the neurons with rates that are very close to zero. (The
+spatial pattern on the ring is a noisy clipped sinusoid).
+
+Finally the line
+
+aux phiang=atan(rfunds/rfundc)
+
+gives the phase of the order parameter (between -pi and pi) and it 
+corresponds to the position of the center of the hill of activity along 
+the ring. It is well defined when there is a nice hill, as in the case 
+of the above default values of lambda and mu.</dc:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=83551">http://modeldb.science/ModelList?id=83551</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Connectionist Network</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83570.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3636">http://modeldb.science/ModelList?id=3636</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Spatio-temporal Activity Patterns</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83570.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=58584">http://modeldb.science/ModelList?id=58584</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>Rate-coding model neurons</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83570.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=245690">http://modeldb.science/ModelList?id=245690</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>Olfaction</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83570.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="mailto:JoshG@ekmd.huji.ac.il">mailto:JoshG@ekmd.huji.ac.il</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>Joshua Goldberg</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <foaf:mbox rdf:resource="mailto:JoshG@ekmd.huji.ac.il">mailto:JoshG@ekmd.huji.ac.il</foaf:mbox>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <foaf:accountName rdf:resource="mailto:JoshG@ekmd.huji.ac.il">mailto:JoshG@ekmd.huji.ac.il</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <foaf:name>Joshua Goldberg</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83570.omex">
+    <dc:creator rdf:resource="local:00005">local:00005</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83570.omex">
+    <dc:contributor rdf:resource="local:00006">local:00006</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83570.omex">
+    <dc:contributor rdf:resource="local:00007">local:00007</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:83570">https://identifiers.org/modeldb:83570</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>modeldb:83570</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83570.omex">
+    <bqmodel:is rdf:resource="local:00008">local:00008</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1016/s0896-6273(04)00197-7">http://identifiers.org/doi:10.1016/s0896-6273(04)00197-7</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>Joshua A. Goldberg, Uri Rokni &amp; Haim Sompolinsky. Patterns of ongoing activity and the functional architecture of the primary visual cortex. Neuron 42, 3: 489-500 (2004).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83570.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00009">local:00009</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83570.omex">
+    <dc:created>2007-01-03</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83570.omex">
+    <dc:modified>2018-10-17</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

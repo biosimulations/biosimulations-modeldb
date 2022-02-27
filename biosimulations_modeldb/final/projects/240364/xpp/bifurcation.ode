@@ -1,0 +1,113 @@
+# initial conditions
+
+#full system steady state
+#init v=-50.39614 nK=0.06187592 hNaP=0.1852592 hH=0.1362835 mLVA=0.06024908 hLVA=0.2716246 mBK=0.0902021 ca=0.0006561159 nHVK=0.06383691
+
+# reduced for bifurcation
+init v=-50.39614 nK=0.06187592 hNaP=0.1852592 hH=0.1362835 mLVA=0.06024908 ca=0.0006561159 nHVK=0.06383691
+
+#other parameters
+#external current (microA/cm^2)
+par mBK=0.2
+# mBK = -1.6*hLVA + 0.42
+hLVA = -(mBK - 0.42)/1.6
+par Iapp=0
+#capacitance (microF/cm^2)
+par C=21
+#concentration of calcium (mM)
+par Ca0=0.00002
+#calcium concentration time constant (ms)
+par tau_Ca=8
+#accounts for quick calcium buffering
+par Ca_buffer=0.5
+#Faraday's constant (C/mol)
+par F=96485
+#valence (unitless number)
+par Ca_z=2
+#depth where calcuim concentration is relevent (microns)
+par d=1
+
+#nernst potentials
+par vL=-62.5, vNa=45, vK=-105, vH=-35, vCa=120
+
+#conductances
+par gL=2.5, gNa=29.17, gK=12.96, gH=20, gLVA=15.0213, gNaP=8.3244
+par gHVA=2.0, gBK=5.0, gHVK=10.0
+
+#Na
+par theta_mNa=-25, sigma_mNa=-6.5
+
+#K
+par theta_nK=-26, sigma_nK=-9, tau_nK=10
+
+#LVA
+par theta_mLVA=-37.1, sigma_mLVA=-4.8916, tau_mLVA=20
+par theta_hLVA=-59.2, sigma_hLVA=13.2326, tau_hLVA=350
+
+#NaP
+par theta_mNaP=-40, sigma_mNaP=-4
+par theta_hNaP=-54, sigma_hNaP=5, tau_hNaP=500
+
+#H
+par theta_hH=-61.3, sigma_hH=5.855
+par tau_hH_T=100, delta_hH_T=0.205, theta_hH_T=-65.95, sigma_hH_T=4.44
+
+#BK
+par mBK_base=170
+
+# auxilliary functions
+theta_mBK = -20.0 + 59.2*exp(-90.0*Ca) + 96.7*exp(-470.0*Ca)
+p = 2.9 + 6.3*exp(-360*Ca)
+s = -25.3 + 107.5*exp(-120.0*Ca)
+eff = 1.0/(10.0*(exp(-(V+100.0-s)/63.6)+exp((-150.0+(V+100.0-s))/63.6))) - 5.2
+mHVK = 1.0/(1.0+exp(-(V+40)/2))
+
+# infinity curves
+mNa_inf = 1.0/(1.0+exp((V-theta_mNa)/sigma_mNa))
+nK_inf = 1.0/(1.0+exp((V-theta_nK)/sigma_nK))
+hNaP_inf = 1.0/(1.0+exp((V-theta_hNaP)/sigma_hNaP))
+hH_inf = 1.0/(1.0+exp((V-theta_hH)/sigma_hH))
+mLVA_inf = 1.0/(1.0+exp((V-theta_mLVA)/sigma_mLVA))
+hLVA_inf = 1.0/(1.0+exp((V-theta_hLVA)/sigma_hLVA))
+mNaP_inf = 1.0/(1.0+exp((V-theta_mNaP)/sigma_mNaP))
+mHVA_inf = 1.0/(1.0+exp(-(V + 10.0)/6.5))
+mBK_inf = 1.0/(1.0+exp((theta_mBK - V)/15.6))
+nHVK_inf = 1.0/(1.0+exp(-(V+30)/2))
+
+#time constants
+nK_tau = tau_nK/cosh((V-theta_nK)/(2.0*sigma_nK))
+hNaP_tau = tau_hNaP/cosh((V-theta_hNaP)/(2.0*sigma_hNaP))
+hH_tau = tau_hH_T*exp(delta_hH_T*(V-theta_hH_T)/sigma_hH_T) / (1+exp((V-theta_hH_T)/sigma_hH_T))
+mLVA_tau = tau_mLVA/cosh((V-theta_mLVA)/(2.0*sigma_mLVA))
+hLVA_tau = tau_hLVA/cosh((V-theta_hLVA)/(2.0*sigma_hLVA))
+mBK_tau = -(p - 1.0)*(eff - 0.2)/0.8 + mBK_base
+nHVK_tau = 1000/(1.0+exp(-(V+35))) + 1000
+
+#currents
+INa = gNa*(1.0-nK)*mNa_inf*mNa_inf*mNa_inf*(V-vNa)
+IHVK = gHVK*mHVK*nHVK*(V - vK)
+IK = gK*nK*nK*nK*nK*(V-vK)
+IL = gL*(V-vL)
+IH = gH*hH*(V-vH)
+INaP = gNaP*mNaP_inf*hNaP*(V-vNa)
+ILVA = gLVA*mLVA*mLVA*hLVA*(V-vCa)
+IHVA = gHVA*mHVA_inf*(V-vCa)
+IBK = gBK*mBK*(V-vK)
+
+
+# ODEs
+V' = -(INa + IK + ILVA + IH + INaP + IL + IHVA + IBK + IHVK - Iapp)/C
+nK' = (nK_inf-nK)/nK_tau
+hNaP' = (hNaP_inf-hNaP)/hNaP_tau
+hH' = (hH_inf-hH)/hH_tau
+mLVA' = (mLVA_inf-mLVA)/mLVA_tau
+#hLVA' = (hLVA_inf-hLVA)/hLVA_tau
+#mBK' = (mBK_inf - mBK)/mBK_tau
+Ca' = -Ca_buffer*10.0*(ILVA + IHVA)/(Ca_z*F*d) + (Ca0 - Ca)/tau_Ca
+nHVK' = (nHVK_inf - nHVK)/nHVK_tau
+
+@ xp=nk,yp=V,xlo=-1,xhi=1,ylo=-80,yhi=80,total=600,dt=.2,dtmin=1e-12
+@ meth=gear tol=0.01
+@ dtmax=5,dtmin=1e-10,bound=1000
+@ autoxmin=-1,autoxmax=0.6,autoymin=-70,autoymax=20,parmin=-1,parmax=0.6,dsmax=0.1,ds=-0.0001
+done

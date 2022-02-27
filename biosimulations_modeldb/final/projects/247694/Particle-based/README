@@ -1,0 +1,42 @@
+This is the README file for the Particle-based model associated with the paper:
+
+Denizot, A., Arizono, M., Nägerl, V., Soula, H., Berry, H. (2019). Simulation of calcium signaling in fine astrocytic processes: effect of spatial properties on spontaneous activity. 
+
+This model is implemented in C language and requires make build automation tool.
+This model corresponds to the Particle-based model presented in Fig2, 3, 4 and 5 of the paper (see also Material & Methods section for more information on the different models developed).
+
+
+HOW TO RUN THE CODE 
+-----------
+List of all files that are necessary to run the code:
+
+cell.c & cell.h: initializes cell and then describes all reactions that can happen per time step.
+
+cl1000.map: example of receptor map, in which the 1000 IP3R are uniformly distributed within simulation space.
+
+clist.c & clist.h: functions to deal with calcium and ip3 lists.
+
+d4s_spont.c: main file, that sets parameter values, initial conditions and runs the simulation for a given number of time steps. Data is printed at each time step as follows:  time, nb of free Ca, nb of IP3, nb of open IP3R. Data is printed at every dt (time step).
+To run the simulation you have to provide 5 arguments: map of IP3R (ie the coordinated of the 1000 IP3R molecules, one molecule per line), Dca, Dip3, gamma, seed value
+
+Makefile
+
+param.h: list of parameters in the model
+
+part.c & part.h: defines how a particle (Ca or IP3) is defined in the model + related functions
+
+receptor.c & receptor.h: defines how a receptor is defined in the model + related functions
+
+utils.c & utils.h: useful functions for pseudo-random number generation. 
+
+
+****
+First, you need to build. Command:  
+make
+Then, you can run a simulation. Example command:
+./d4s_spont.out cl1000.map 0.1 10.0 100 1 > partic_based.1000.1   
+
+
+
+Contact:
+audrey.denizot@inria.fr

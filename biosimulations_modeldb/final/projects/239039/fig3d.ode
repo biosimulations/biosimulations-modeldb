@@ -1,0 +1,101 @@
+# FIG 3D: V-Gsyn properties
+# Written by Hojeong Kim
+
+## [soma equations]
+dvs/dt=(I_s+ins(vs,snam,snah,scam,scah,snapm,vca)+outs(vs,skdr)-gms*(vs-(vl+vrest))+gc*(vd-vs)/parea)/cms
+# inward voltage-gated currents
+ins(vs,snam,snah,scam,scah,snapm,vca)=-sina(vs,snam,snah)-sica(vs,scam,scah,vca)-sinap(vs,snapm)
+sina(vs,snam,snah)=sgna*snam**3*snah*(vs-(vna+vrest))
+dsnam/dt=alpha_m(vs)*(1-snam)-beta_m(vs)*snam
+alpha_m(vs)=anamc*(vs-anamv)/(exp(-(vs-anamv)/anama)+anamb)
+beta_m(vs)=bnamc*(vs-bnamv)/(exp((vs-bnamv)/bnama)+bnamb)
+dsnah/dt=(snahinf(vs)-snah)/snahtau(vs)
+snahinf(vs)=1.0/(1.0+exp((vs-snahth)/snahslp))
+snahtau(vs)=snahc/(exp((vs-snahv)/snaha)+exp(-(vs-snahv)/snahb))
+sica(vs,scam,scah,vca)=sgca*scam**2*scah*(vs-(vca+vrest))
+dscam/dt=(scaminf(vs)-scam)/camtau
+dscah/dt=(scahinf(vs)-scah)/cahtau
+scaminf(vs)=1.0/(1.0+exp(-(vs-camth)/camslp))
+scahinf(vs)=1.0/(1.0+exp((vs-cahth)/cahslp))
+vca=(1000*R*Temp/Zca/Fe)*log(CAo/sca)
+dsca/dt=-f*alpha*sica(vs,scam,scah,vca)-f*kca*sca
+sinap(vs,snapm)=sgnap*snapm**3*(vs-(vna+vrest))
+dsnapm/dt=alphasnapm(vs)*(1-snapm)-betasnapm(vs)*snapm
+alphasnapm(vs)=anapmc*(vs-anapmv)/(exp(-(vs-anapmv)/anapma)+anapmb)
+betasnapm(vs)=bnapmc*(vs-bnapmv)/(exp((vs-bnapmv)/bnapma)+bnapmb)
+# outward voltage-gated currents
+outs(vs,skdr)=-sikdr(vs,skdr)-sikca(vs)
+sikdr(vs,skdr)=sgkdr*skdr**4*(vs-(vk+vrest))
+dskdr/dt=(skdrinf(vs)-skdr)/skdrtau(vs)
+skdrinf(vs)=1.0/(1.0+exp(-(vs-skdrth)/skdrslp))
+skdrtau(vs)=skdrc/(exp((vs-skdrv)/skdra)+exp(-(vs-skdrv)/skdrb))
+sikca(vs)=sgkca*(sca/(sca+kd))*(vs-(vk+vrest))
+
+## [dendrite equations]
+dvd/dt=(isyn(vd)+ind(vd,dcal)-gmd*(vd-(vl+vrest))+gc*(vs-vd)/(1.0-parea))/cmd
+# inward voltage-gated current
+ind(vd,dcal)=-dgcal*dcal*(vd-(vdcal+vrest))
+ddcal/dt=(dcalinf(vd)-dcal)/dcaltau
+dcalinf(vd)=1.0/(1.0+exp(-(vd-dcalth)/dcalslp))
+# synaptic current
+isyn(vd)=-dgsyn*(vd-(vsyn+vrest))
+
+## [cable parameters] gms(mS/cm^2),gmd(mS/cm^2),gc(mS/cm^2),cms(uF/cm^2),cmd(uF/cm^2)
+p gms=0.143, gmd=0.131, gc=0.211, cms=1.058, cmd=0.915, parea=0.492
+
+## [active parameters]
+# reversal and resting potentials
+p vna=120.0,vk=-10.0,vl=0.0,vdcal=130.0,vsyn=70,vrest=-70
+# constants
+p kd=0.0005,f=0.01,kca=8.0,alpha=1
+p R=8.31441,Temp=309.15,Zca=2,Fe=96485.309,CAo=2
+# [soma]: v(mV),t(ms),g(mS/cm^2)
+p sgna=26.75,anamc=-0.4,anamv=-49,anama=5,anamb=-1.0
+p bnamc=0.4,bnamv=-25,bnama=5,bnamb=-1.0
+p snahth=-58.0,snahslp=7.0,snahv=-60.0,snaha=15.0,snahb=16.0,snahc=30.0
+p sgkdr=6.2,skdrth=-31.0,skdrslp=15.0,skdrv=-50.0,skdra=40.0,skdrb=50.0,skdrc=5.0
+p sgca=0.008,camth=-25.0,camslp=5.0,camtau=15.0
+p cahth=-43.0,cahslp=5.0,cahtau=50.0
+p sgkca=0.54
+p sgnap=0.00086,anapmc=-0.0353,anapmv=-21.4,anapma=5,anapmb=-1.0
+p bnapmc=0.000883,bnapmv=-25.7,bnapma=5,bnapmb=-1.0
+# [dendrite]: v(mV),t(ms),g(mS/cm^2)
+p dgcal=0.124,dcalth=-43.0,dcalslp=6.0,dcaltau=60.0
+# [excitatory synapse]: v(mV),t(ms),g(mS/cm^2)
+p dgsyn_max=0.12
+
+## [initial conditions]
+# soma
+vs(0)=-70.0
+snam(0)=0.001
+snah(0)=0.5829
+scam(0)=0.004199
+scah(0)=0.9219
+sca(0)=0.0001
+skdr(0)=0.1239
+snapm(0)=0.001
+# dendrites
+vd(0)=-70.0
+dcal(0)=0.001
+
+## [stimulation]: I(mA/cm^2), g(mS/cm^2)
+# somatic current injection
+p I_s=0
+# dendritic synaptic input
+p i0=0,m=1,t_m=10000
+dgsyn=i0+dgsyn_max*(m-(m/t_m)*abs(t-t_m))
+
+## [simulation outputs]: V(mV), G(mS/cm^2)
+aux Vsoma=vs
+aux Gsyn=dgsyn
+
+## [simulation environment]
+@ maxstor=2000000
+@ total=20000
+@ method=gear, toler=0.009, dtmax=0.5
+@ NPLOT=2, XP=t, YP=Vsoma, XP2=t, YP2=Gsyn
+@ xlo=0, xhi=20000, ylo=-80, yhi=40
+@ bound=10000
+@ create=1
+
+done

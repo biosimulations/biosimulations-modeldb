@@ -1,0 +1,449 @@
+########################################################################################
+# This code is archived with “The Role of Glutamate in Neuronal Ion Homeostasis: A Case Study of Spreading# Depolarization” by Hubel et al. PLoS Computational Biology (2017). 
+# The software used is AUTO.
+# Feel free to use/modify this code for your own research. Please, cite our paper if you use this code.
+########################################################################################
+#  RATE EQUATIONS FOR SD WITH GLUTAMATE:                                               #
+#  'v'                membrane potential in [mV]                                       #
+#  'n/h_HH'           Hodgkin-Huxley gating variables in [1]                           #
+#  'r_NMDA/AMPA'      NMDA/AMPA gating variables in [1]                                #
+#  'nki/ncli'         amount of K/Cl in ICS in [fmol]                                  #
+#  'dnk_b/g'          amount of K that is exchanged with external bath/glia in [fmol]  #
+#  'ngl_c/e'          amount of glutamate in all clefts/ECS in [fmol]                  #
+########################################################################################
+v'        = 1000. * v_DOT
+n_HH'     = 1000. * n_HH_DOT
+h_HH'     = 1000. * h_HH_DOT
+r_AMPA'   = 1000. * r_AMPA_DOT * f_receptor
+r_NMDA'   = 1000. * r_NMDA_DOT * f_receptor
+
+nki'      = 1000. * nki_DOT 
+ncli'     = 1000. * ncli_DOT
+
+dnk_b'    = 1000. * dnk_b_DOT
+dnk_g'    = 1000. * dnk_g_DOT
+
+ngl_c'    = 1000. * ngl_c_DOT
+ngl_e'    = 1000. * ngl_e_DOT
+
+init v=-71.1
+init n_HH=0.07143807
+init h_HH=0.9774849
+init r_AMPA=0.
+init r_NMDA=0.
+
+init nki=1050.
+init ncli=67.5
+
+init dnk_b=0.
+init dnk_g=0.
+
+init ngl_c=0.
+init ngl_e=0.
+
+k_rep    = 0.001
+ngl_rel' = 1000. * (J_rel - k_rep / ngl_tot * (ngl_c_i + ngl_e_i + ngl_c_g + ngl_e_g))
+ngl_c_i' = 1000. * (V_c_i - k_rep / ngl_tot *  ngl_c_i)
+ngl_c_g' = 1000. * (V_c_g - k_rep / ngl_tot *  ngl_c_g)
+ngl_c_e' = 1000. *  Jglu_diff
+ngl_e_i' = 1000. * (V_e_i - k_rep / ngl_tot *  ngl_e_i)
+ngl_e_g' = 1000. * (V_e_g - k_rep / ngl_tot *  ngl_e_g)
+
+init ngl_rel=0
+init ngl_c_i=0
+init ngl_c_g=0
+init ngl_c_e=0
+init ngl_e_i=0
+init ngl_e_g=0
+
+#############################################################################
+# GLUTAMATE UPTAKE/RELEASE PARAMETERS:                                      #
+# 'exp_rel'    exponent for 'v'-dependence of glutamate release in [1]      #
+# 'Vmax'       maximal velocity of glutamate uptake by neuron in [mM/msec]  #
+#############################################################################
+par f_upt=1
+par f_co=1
+
+par Vmax=0.03
+exp_rel = 2
+
+################################
+# switch for receptor dynamics #
+################################
+f_receptor = 1
+
+#######################################
+# SD from extrac. potassium elevation #
+#######################################
+f_OGD = 1
+par KB=15.
+
+###############
+# SD from OGD #
+###############
+# par KB=4.
+# par delta_t=15
+# par t_OGD=40
+# 
+# t1      = 20
+# t2      = t1 + delta_t
+# t3      = t2 + t_OGD
+# t4      = t3 + delta_t
+# f01_OGD = 1
+# f12_OGD = heav(t - t1) * (-(t - t1) / (t2 - t1))
+# f23_OGD = heav(t - t2) *   (t - t2) / (t2 - t1) 
+# f34_OGD = heav(t - t3) *   (t - t3) / (t4 - t3) 
+# f4x_OGD = heav(t - t4) * (-(t - t4) / (t4 - t3))
+# f_OGD   = f01_OGD + f12_OGD + f23_OGD + f34_OGD + f4x_OGD
+
+###############################################
+# GATING FUNCTIONS:                           # 
+# Hodgkin-Huxley (HH) and NMDA/AMPA receptors #
+# (gating time constants in [msec])           #
+###############################################
+an_HH   = 0.01  * (v + 34.0)     / (1.0 - exp(-0.1 * (v + 34.0))) 
+bn_HH   = 0.125 * exp(-(v + 44.0)/80.0)
+am_HH   = 0.1   * (v + 30.0)     / (1.0 - exp(-0.1 * (v + 30.0))) 
+bm_HH   = 4.0   * exp(-(v + 55.0)/18.0) 
+ah_HH   = 0.07  * exp(-(v + 44.0)/20.0)
+bh_HH   = 1.0                    / (1.0 + exp(-0.1 * (v + 14.0)))
+m_HH    = am_HH / (am_HH + bm_HH)
+ar_AMPA = 1.1
+br_AMPA = 0.19
+ar_NMDA = 0.072
+br_NMDA = 0.0066
+
+
+#############################################################################################
+# MORPHOLOGY:                                                                               #
+# 'vl_i0/e0/g0'  initial/resting volume of ICS, ECS and glia in [um^3]                      #
+# 'A_m'          membrane surface area in [um^2] (same for neuron and glia)                 #
+# 'h','r'        height and radius of synaptic cleft in [um]                                #
+# 'vl_en'        volume inside the glial envelope in [um^3]                                 #
+# 'A_sig'        cross section area for glutamate diffusion from cleft into ECS in [um^2]   #
+#############################################################################################
+vl_i0  = 7500.
+vl_e0  = 2500.
+vl_g0  = 7500.
+vl_tot = vl_i0 + vl_e0 + vl_g0
+A_m    = 18000.
+r      = 100e-3
+h      = 20e-3
+vl_en  = 6 * pi * r**2 * h
+A_sig  = 4 * pi * r**2 * 0.05
+
+
+##################################################################################
+# ION CONENTRATIONS:                                                             #
+# 'ioni/e0'    initial/resting conc. in ICS/ECS in [mM=mmol/l]                   #
+# 'xi'         conc. of impermeant uncharged matter in ICS in [mM]               #
+# 'nioni/e0'   initial/resting ion amount in ICS/ECS in [fmol]                   #
+# 'nani/e'     amount of impermeant anions in ICS/ECS in [fmol]                  #
+# 'nxi/e'      amount of impermeant uncharged particles in ICS/ECS in [fmol]     #
+# 'ni0/e0/g0'  initial amount of all particles in ICS/ECS/glia in [fmol]         #
+# 'dnna_b/g'   amount of Na that is exchanged with external bath/glia in [fmol]  #
+# 'dncl_b/g'   amount of Cl that is exchanged with external bath/glia in [fmol]  #
+# 'NNAI/E'     current amount of Na in ICS/ECS in [fmol]                         #
+# 'NKE/CLE'    current amount of K and Cl in ECS in [fmol]                       #
+# 'ni/e/g'     current amount of all particles in ICS/ECS/glia in [fmol]         #
+# 'n_tot'      total amount of particles in the whole system in [fmol]           #
+# 'vl_i/e/g'   current volume of ICS/ECS/glia in [um^3]                          #
+# 'IONI/E'     current ion conc. in ICS/ECS in [mM=mmol/l]                       #
+# (conversion factor 1e3 from [fmol/um^3] to [mM] for 'KE')                      #
+##################################################################################
+nai0 = 15.
+nae0 = 144.
+ki0  = 140.
+ke0  = 4.
+cli0 = 9.
+cle0 = 130.
+xi   = 5.
+
+nki0   = ki0  * vl_i0 * 1e-3
+nke0   = ke0  * vl_e0 * 1e-3
+nnai0  = nai0 * vl_i0 * 1e-3
+nnae0  = nae0 * vl_e0 * 1e-3
+ncli0  = cli0 * vl_i0 * 1e-3
+ncle0  = cle0 * vl_e0 * 1e-3
+nani   = nki0 + nnai0 - ncli0
+nane   = nke0 + nnae0 - ncle0
+nxi    = xi * vl_i0 * 1e-3
+nxe    = vl_e0/vl_i0 * (nxi + nani + nki0 + nnai0 + ncli0) - (nane + nke0 + nnae0 + ncle0)
+
+ni0    = nnai0 + nki0 + ncli0 + nani + nxi
+ne0    = nnae0 + nke0 + ncle0 + nane + nxe
+ng0    = ni0 / vl_i0 * vl_g0
+
+dncl_g = 0.8 * dnk_g
+dnna_g =-0.2 * dnk_g
+
+NNAI = nnai0 + nki0  - nki  - ncli0  + ncli
+NNAE = nnae0 + nnai0 - NNAI - dnna_g
+NKE  = nke0  + nki0  - nki  - dnk_g  - dnk_b  
+NCLE = ncle0 + ncli0 - ncli - dncl_g
+
+ni  = NNAI + nki + ncli + nani + nxi
+ne  = NNAE + NKE + NCLE + nane + nxe
+ng  = ng0  + dnna_g + dnk_g + dncl_g
+
+n_tot = ni + ne + ng
+vl_i  = ni / n_tot * vl_tot 
+vl_e  = ne / n_tot * vl_tot 
+vl_g  = ng / n_tot * vl_tot 
+
+NAI  = NNAI / vl_i * 1e3
+KI   = NKI  / vl_i * 1e3
+CLI  = NCLI / vl_i * 1e3
+NAE  = NNAE / vl_e * 1e3
+KE   = NKE  / vl_e * 1e3
+CLE  = NCLE / vl_e * 1e3
+
+
+#######################################################
+# NERNST POTENTIALS:                                  #
+# 'EK/NA/CL'   Nernst potetnials for K/Na/Cl in [mV]  #
+#######################################################
+EK  = 26.64 * log(KE  / KI)
+ENA = 26.64 * log(NAE / NAI)
+ECL =-26.64 * log(CLE / CLI)
+
+
+#######################################################################################
+# CURRENTS ON NEURAL MEMBRANE:                                                        #
+# 'gk/na_g'         maximal conductances of gated HH-like K/Na channels in [mS/cm^2]  #
+# 'gk/na/cl_l'      conductances of K/Na/Cl leak channels in [mS/cm^2]                #
+# 'nsyn_AP/SD'      number of synapses activated in action potential (AP)/SD in [1]   #
+# 'g_NMDA/AMPA_AP'  effective NMDA/AMPA receptor conductance in single AP in [mS]     #
+# 'g_NMDA/AMPA'     effective NMDA/AMPA conductance density for SD in [mS/cm^2]       #
+# 'max_p'           maximal pump rate for K/Na-exchange in [uA/cm^2]                  #
+# 'mg'              Mg concentration in ECS in [mM]                                   #
+# 'f_NMDA'          factor for voltage-dependent Mg block in NMDA channels in [1]     #
+# 'IK/NA_g'         gated K/Na current in [uA/cm^2]                                   #
+# 'IK/NA/CL_l'      leak K/Na/Cl current in [uA/cm^2]                                 #
+# 'IK/NA_NMDA'      K/Na current through NMDA receptor gates in [uA/cm^2]             #
+# 'IK/NA_AMPA'      K/Na current through AMPA receptor gates in [uA/cm^2]             #
+# 'IP'              K/Na-exchange pump current in [uA/cm^2]                           #
+# 'INA/K'           sum of all Na/K currents in [uA/cm^2]                             #
+#######################################################################################
+gk_g      = 40.
+gna_g     = 100.
+gna_l     = 0.0135
+gk_l      = 0.05
+gcl_l     = 0.05
+nsyn_AP   = 20
+nsyn_SD   = 5000
+par g_NMDA_AP=1e-7
+par g_AMPA_AP=3.5e-7 
+g_AMPA    = g_AMPA_AP / (A_m * 1e-8) * nsyn_SD / nsyn_AP
+g_NMDA    = g_NMDA_AP / (A_m * 1e-8) * nsyn_SD / nsyn_AP
+mg        = 1.2
+f_NMDA    = 1.0 / (1.0 + 0.33 * mg * exp(-(0.07*v + 0.7)))
+max_p     = 6.46
+
+INA_g     = gna_g   * m_HH**3 * h_HH * (v-ENA)
+IK_g      = gk_g    * n_HH**4        * (v-EK)
+INA_l     = gna_l                    * (v-ENA)
+IK_l      = gk_l                     * (v-EK)
+ICL_l     = gcl_l                    * (v-ECL)
+IK_NMDA   = g_NMDA  * r_NMDA         * (v-EK)  * f_NMDA 
+INA_NMDA  = g_NMDA  * r_NMDA         * (v-ENA) * f_NMDA
+IK_AMPA   = g_AMPA  * r_AMPA         * (v-EK)
+INA_AMPA  = g_AMPA  * r_AMPA         * (v-ENA)
+IP        = max_p / (1.0 + exp((15 - nai)/3.)) / (1. + exp(5.5 - ke)) * f_OGD
+INA       = INA_l + INA_g + INA_AMPA + INA_NMDA + 3. * IP
+IK        = IK_l  + IK_g  + IK_AMPA  + IK_NMDA  - 2. * IP
+
+
+#############################################################################################
+# GLUTAMATE RELEASE IN ONE SYNAPSE                                                          #
+# 'ngl_tot/i'   total/intracellular amount of glutamate in [fmol]                           #
+# 'v_cr'        critical mebrane potential for glutamate release in [mV]                    #
+# 'v_hi'        highest value of membrane potential seen in the model in [mV]               #
+# 'rel_max'     maximal (i.e. for 'v=v_hi') release rate in [fmol/msec]                     #
+# 'f_rel'       factor for 'V'-dependence of glutamate release in [1]                       #
+# 'J_rel'       glutamate release flux into all synaptic clefts involved in SD [fmol/msec]  #
+#############################################################################################
+rel_max  = 1.5e-5
+par ngl_tot=10
+
+ngl_avl  = ngl_tot - ngl_rel
+v_cr     =-50
+v_hi     = 50
+f_rel    = heav(v-v_cr) * ((v-v_cr)/(v_hi-v_cr))**exp_rel
+
+J_rel    = nsyn_SD * rel_max * f_rel * ngl_avl / ngl_tot
+
+
+####################################################################################
+# GLUTAMATE UPTAKE:                                                                #
+# 'gl_c/e'       glutamate concentration in clefts/ECS in [mM]                     #
+# 'k_m'          affinity pf uptake system in [mM]                                 #
+# 'Vmax_c/e_i'   maximal uptake velocity from cleft/ECS into ICS in [mM/msec]      #
+# 'Vmax_c/e_g'   maximal uptake velocity from cleft/ECS into glia in [mM/msec]     #
+# 'F'            Faraday's constant in [A*sec/mol]                                 #
+# 'conv'         current-to-flux conversion s.th. 'conv/vl_i*INA' is in [mM/msec]  #
+# 'nsyn_AP/SD'   number of synapses activated in action potential (AP)/SD in [1]   #
+# 'V_c/e_i'      uptake velocity from cleft/ECS into ICS in [fmol/msec]	           #
+# 'V_c/e_g'      uptake velocity from cleft/ECS into glia in [fmol/msec]           #
+# 'JNa/Cl/K_co'  glutamate cotransport flux of Na/Cl/K into ICS in [mM/msec]       #
+# 'INa/Cl/K_co'  cotransport Na/Cl/K currents on neural membrane in [uA/cm^2]      #
+####################################################################################
+gl_c     = ngl_c / (vl_en * nsyn_SD) * 1e3
+gl_e     = ngl_e /  vl_e             * 1e3
+k_m      = 3e-2
+Vmax_c_i = f_upt * Vmax
+Vmax_e_i = f_upt * Vmax * 0.12 * vl_e0 / vl_e
+Vmax_c_g = f_upt * Vmax * 4
+Vmax_e_g = f_upt * Vmax * 4 * 0.24 * vl_e0 / vl_e
+F        = 96485
+conv     = A_m / F * 10
+
+V_c_i    = Vmax_c_i * gl_c / (gl_c + k_m) * vl_en * nsyn_SD * 1e-3 * f_OGD
+V_e_i    = Vmax_e_i * gl_e / (gl_e + k_m) * vl_e            * 1e-3 * f_OGD
+V_c_g    = Vmax_c_g * gl_c / (gl_c + k_m) * vl_en * nsyn_SD * 1e-3 * f_OGD
+V_e_g    = Vmax_e_g * gl_e / (gl_e + k_m) * vl_e            * 1e-3 * f_OGD
+JNa_co   = (V_c_i + V_e_i) * 3 * f_co
+JCl_co   = (V_c_i + V_e_i)     * f_co
+JK_co    =-(V_c_i + V_e_i)     * f_co
+INa_co   = JNa_co / conv * 1e3
+ICl_co   =-JCl_co / conv * 1e3
+IK_co    = JK_co  / conv * 1e3
+
+
+################################################################################
+# DIFFUSION PROCESSES:                                                         #
+# 'lambda'     strength of bath coupling in [1/msec]                           #
+# 'kbath'      level of K concentration of bath in [mM]                        #
+# 'JK_diff'    diffusive K flux between ECS and bath in [mM/msec]              #
+# 'D_glu'      glutamate diffusion constatn in [um^2/msec]                     #
+# 'dx'         distance between cleft and staionary bath concentraion in [um]  #
+# 'Jglu_diff'  diffusive glutamate flux from cleft to ECS in [fmol/msec]       #
+################################################################################
+par lambda=0.0001
+
+JK_diff   =-lambda * (KB  - KE) * f_OGD
+D_glu     = 0.3
+dx        = 20
+Jglu_diff =-D_glu * nsyn_SD / dx * A_sig * (ngl_e/vl_e - ngl_c/(vl_en*nsyn_SD))
+
+
+###################################################################
+# GLIAL BUFFERING:                                                #
+# 'k1'       buffering constant in [mM/msec]                      #
+# 'k2'       backward buffering rate in [mM/msec]                 #
+# 'dnk_max'  maximal amount of K that can go into glia in [fmol]  #
+# 'JK_glia'  K uptake flux in [fmol/msec]                         #
+###################################################################
+k1      = 1.44e-2
+k2      = 5.1e-3
+dnk_max = 350
+JK_glia =-(k2 - k1 / (1.0 + exp((5.5-KE)/2.5)) * (dnk_max - dnk_g)/dnk_max)  * vl_e0 * 1e-3 * f_OGD
+
+
+##########################################################
+# RATE FUNCTIONS USED BY SOLVER:                         #
+# 'C_m'   capacitance of neural membrane in [uF/cm^2]    #
+# 'phi'   conventional time scale parameter in [1/msec]	 #
+##########################################################
+C_m          = 1
+phi          = 3
+
+v_DOT        =-1 / C_m * (INA + IK + ICL_l + INA_co + IK_co + ICL_co)
+
+n_HH_DOT     = phi * (an_HH * (1-n_HH) - bn_HH * n_HH)
+h_HH_DOT     = phi * (ah_HH * (1-h_HH) - bh_HH * h_HH)
+r_AMPA_dot   = gl_c * ar_AMPA * (1.0 - r_AMPA) - br_AMPA * r_AMPA
+r_NMDA_dot   = gl_c * ar_NMDA * (1.0 - r_NMDA) - br_NMDA * r_NMDA
+
+nki_DOT      =-conv * 1e-3 * (IK + IK_co)
+ncli_DOT     = conv * 1e-3 * (ICL_l + ICl_co)
+
+dnk_b_DOT    = JK_diff  * vl_e * 1e-3
+dnk_g_DOT    = JK_glia
+
+ngl_c_DOT    = J_rel - Jglu_diff - V_c_i - V_c_g
+ngl_e_DOT    =         Jglu_diff - V_e_i - V_e_g
+
+
+####################################
+# AUXILIARY VARIABLES FOR PLOTTING #
+####################################
+aux _vl_i    = vl_i
+aux _vl_e    = vl_e
+aux _vl_g    = vl_g
+aux _gl_c    = gl_c
+aux _gl_e    = gl_e
+aux _EK      = EK
+aux _ENA     = ENA
+aux _ECL     = ECL
+aux _KI      = ki
+aux _KE      = KE
+aux _NAI     = NAI
+aux _NAE     = NAE
+aux _CLI     = cli
+aux _CLE     = CLE
+
+
+##############################
+# NUMERICS AND PLOT SETTINGS #
+##############################
+@ maxstor=10000000, bounds=10000000
+@ bell=0
+
+# @ meth=Runge-Kutta
+# @ dt=5e-5
+
+#@ meth=stiff
+#@ dt=1e-4
+
+@ meth=stiff
+@ dt=1e-3
+
+
+
+#@ total=800
+#@ xhi=800
+
+@ total=400
+@ xhi=400
+
+#@ ylo=-300, yhi=300
+#@ nplot=6
+#@ yp1=v
+#@ yp2=_ECL 
+#@ yp3=_CLI 
+#@ yp4=_CLE 
+#@ yp5=dnk_b
+#@ yp6=dnk_g
+
+@ ylo=-150, yhi=160
+@ nplot=9
+@ yp1=v
+@ yp2=_EK
+@ yp3=_ENA
+@ yp4=_ECL
+@ yp5=_vl_i
+@ yp6=_vl_e
+@ yp7=_vl_g
+@ yp8=_gl_c
+@ yp9=_gl_e
+
+#@ ylo=-0.5, yhi=200
+#@ nplot=8
+#@ yp1=_gl_e
+#@ yp2=_gl_c
+#@ yp3=_KI
+#@ yp4=_KE
+#@ yp5=_NAI
+#@ yp6=_NAE
+#@ yp7=_CLI
+#@ yp8=_CLE
+
+#@ ylo=0, yhi=10000
+#@ nplot=3
+#@ yp1=_vl_i
+#@ yp2=_vl_e
+#@ yp3=_vl_g
+
+done
+

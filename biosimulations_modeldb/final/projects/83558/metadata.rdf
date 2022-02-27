@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/83558.omex">
+    <dc:title>Role of active dendrites in rhythmically-firing neurons (Goldberg et al 2006)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83558.omex">
+    <dc:abstract>"The responsiveness of rhythmically-firing neurons to synaptic inputs is characterized by their phase response curve (PRC), which relates how weak somatic perturbations affect the timing of the next action potential. The shape of the somatic PRC is an important determinant of collective network dynamics. Here we study theoretically and experimentally the impact of distally-located synapses and dendritic nonlinearities on the synchronization properties of rhythmically firing neurons. Combining the theories of quasi-active cables and phase-coupled oscillators we derive an approximation for the dendritic responsiveness, captured by the neuron's dendritic PRC (dPRC). This closed-form expression indicates that the dPRCs are linearly-filtered versions of the somatic PRC, and that the filter characteristics are determined by the passive and active properties of the dendrite. ... collective dynamics can be qualitatively different depending on the location of the synapse, the neuronal firing rates and the dendritic nonlinearities." See paper for more and details.</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83558.omex">
+    <dc:description>This is the readme for the model code associated with the publication:
+
+Goldberg JA, Deister CA, Wilson CJ (2006) Response properties and
+synchronization of rhythmically-firing dendritic neurons.
+J Neurophysiol Sep 6; [Epub ahead of print]
+
+Note from Dr Goldberg:
+
+I apologize for not having code that executes each figure, but truly
+all the information is in the paper. I hope the names are self
+explanatory. The simulations of pairs of neurons that appear in the
+paper require VERY VERY long times to reach steady state, as the
+coupling is very weak in the case of dendritic coupling.  One final
+comment, although in figure 2 the dendrite/cable is passive the code
+includes an NaP current in the cable, but if the conductance gnad is
+set to zero the cable becomes passive.
+
+josh@biocontrol.co.il</dc:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3537">http://modeldb.science/ModelList?id=3537</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Neuron or other electrically excitable cell</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83558.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3635">http://modeldb.science/ModelList?id=3635</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Synchronization</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83558.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=64174">http://modeldb.science/ModelList?id=64174</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>Synaptic Integration</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83558.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=137847">http://modeldb.science/ModelList?id=137847</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>Phase Response Curves</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83558.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="mailto:JoshG@ekmd.huji.ac.il">mailto:JoshG@ekmd.huji.ac.il</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>Joshua Goldberg</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <foaf:mbox rdf:resource="mailto:JoshG@ekmd.huji.ac.il">mailto:JoshG@ekmd.huji.ac.il</foaf:mbox>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <foaf:accountName rdf:resource="mailto:JoshG@ekmd.huji.ac.il">mailto:JoshG@ekmd.huji.ac.il</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <foaf:name>Joshua Goldberg</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83558.omex">
+    <dc:creator rdf:resource="local:00005">local:00005</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83558.omex">
+    <dc:contributor rdf:resource="local:00006">local:00006</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83558.omex">
+    <dc:contributor rdf:resource="local:00007">local:00007</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:83558">https://identifiers.org/modeldb:83558</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>modeldb:83558</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83558.omex">
+    <bqmodel:is rdf:resource="local:00008">local:00008</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1152/jn.00810.2006">http://identifiers.org/doi:10.1152/jn.00810.2006</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>Joshua A. Goldberg, Chris A. Deister &amp; Charles J. Wilson. Response properties and synchronization of rhythmically firing dendritic neurons. Journal of Neurophysiology 97, 1: 208-219 (2007).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83558.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00009">local:00009</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83558.omex">
+    <dc:created>2006-12-31</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/83558.omex">
+    <dc:modified>2011-03-10</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

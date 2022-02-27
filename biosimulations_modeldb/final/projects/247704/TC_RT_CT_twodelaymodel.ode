@@ -1,0 +1,264 @@
+# model with 1 RE, 1 TC and 1 CT cell
+#
+# capacitance of RE cell membrane, unit microF/cm^2
+number C_re=1
+# maximum conductance of various currents for RE cell, unit mS/cm^2
+number gre_L=0.05,gre_TS=3,gre_Na=200,gre_K=20
+# reversal potential for each current for RE cell, unit mV
+number Ere_L=-90,Ere_TS=120,Ere_Na=45,Ere_K=-80
+
+# capacitance of TC cell membrane, unit microF/cm^2
+number C_tc=1
+# maximum conductance of various currents for TC cell, unit mS/cm^2
+# Note: gtc_h can range from 0.02 to 0.4,
+# Note: gtc_K2 is speculative
+number gtc_L=0.01,gtc_Na=90,gtc_K=10,gtc_T=2,gtc_h=0.02,gtc_K2=0.00005
+# reversal potential for each current for TC cell, unit mV
+number Etc_L=-70,Etc_Na=45,Etc_K=-90,Etc_T=120,Etc_h=-43,Etc_K2=-90
+# reversal potential for synaptic coupling between RE and TC
+number Ea_AMPA=0,Eb_GABAA=-85,Eb_GABAB=-95,Ec_GABAA=-85
+number Ed_AMPA=0,Ee_AMPA=0,Ef_AMPA=0
+# parameters for GABA_B
+number kd_GABAB=100,k1_GABAB=0.5,k2_GABAB=0.0012,k3_GABAB=0.18,k4_GABAB=0.034
+
+# capacitance for CT cell membrane
+number C_ct=1
+# from Destexhe 1998 mechanisms
+number gct_L=0.1,gct_Na=50,gct_K=5,gct_M=0.07
+number Ect_L=-70,Ect_Na=45,Ect_K=-90,Ect_M=-100
+
+# max conductance for synaptic coupling between RE and TC
+# synapse from TC to RE is labelled a, RE to TC is labeled b
+par ga_AMPA=1.428,gb_GABAB=0.13793,gc_GABAA=6
+par gb_GABAA=0.50
+# max conductance for synaptic coupling between CT and TC
+# d: CT to TC,  e: TC to CT
+par gd_AMPA=0.1,ge_AMPA=4.138,gf_AMPA=0
+# max conductance for synaptic coupling between CT and RE is labelled f
+
+# leak current for RE cell
+Ire_L=gre_L*(Vre-Ere_L) 
+# TS current for RE cell, which is related to Ca
+Ire_TS=gre_TS*(Vre-Ere_TS)*(mre_TS^2)*hre_TS 
+# Na current for RE cell
+Ire_Na=gre_Na*(Vre-Ere_Na)*(mre_Na^3)*hre_Na 
+# K current for RE cell
+Ire_K=gre_K*(Vre-Ere_K)*(mre_K^4)
+
+# leak current for TC cell
+Itc_L=gtc_L*(Vtc-Etc_L) 
+# Na current for TC cell
+Itc_Na=gtc_Na*(Vtc-Etc_Na)*(mtc_Na^3)*htc_Na 
+# K current for TC cell
+Itc_K=gtc_K*(Vtc-Etc_K)*(mtc_K^4)
+# T current for TC cell, low-threshold Ca
+Itc_T=-gtc_T*(mtc_T^3)*htc_T*(Vtc-Etc_T)
+# h current for TC cell, hyperpolarization activated current, mix of Na and K
+Itc_h=gtc_h*Stc_h*Ftc_h*(Vtc-Etc_h)
+# K2 current for TC cell, slow K current
+Itc_K2=gtc_K2*mtc_K2*(0.6*htc_K21+0.4*htc_K22)*(Vtc-Etc_K2)
+
+# currents for CT cell
+Ict_L=gct_L*(Vct-Ect_L)
+Ict_Na=gct_Na*(Vct-Ect_Na)*(mct_Na^3)*hct_Na
+Ict_K=gct_K*(Vct-Ect_K)*(mct_K^4)
+Ict_M=gct_M*mct_M*(Vct-Ect_M)
+
+# current in RE cell caused by AMPA released by TC cell (TC to RE)
+Ia_AMPA=ga_AMPA*ma_AMPA*(Vre-Ea_AMPA)
+# current in TC cell caused by GABA_A released by RE cell (RE to TC)
+Ib_GABAA=gb_GABAA*mb_GABAA*(Vtc-Eb_GABAA)
+Ib_GABAB=gb_GABAB*(ggb_GABAB^4)/(ggb_GABAB^4+kd_GABAB)*(Vtc-Eb_GABAB)
+# current in RE cell caused by itself (modelling many RE cells) (RE to RE)
+Ic_GABAA=gc_GABAA*mc_GABAA*(Vre-Ec_GABAA)
+# d: CT to TC
+Id_AMPA=gd_AMPA*md_AMPA*(Vtc-Ed_AMPA)
+# e: TC to CT
+Ie_AMPA=ge_AMPA*me_AMPA*(Vct-Ee_AMPA)
+# f: CT to RE
+If_AMPA=gf_AMPA*mf_AMPA*(Vre-Ef_AMPA)
+
+# external currents
+# Ire_ext is total external current to RE
+# Itc_ext is total external current to TC
+# Ict_ext is total external current to CT
+# Ire_ext_c is constant external current to RE
+# Itc_ext_c is constant external current to TC
+# Ict_ext_c is constant external current to CT
+# Ip1,Ip2 are pertubation currents to TC
+# Itc_pert is amplitude perturbation current to TC
+# ontime, offtime are times when current is turned off and on 
+par Ire_ext_c=0,Itc_ext_c=5,Ict_ext_c=0
+par Itc_pert=0,ontime=1500,offtime=1600
+par Itc_pert2=0,ontime2=3000,offtime2=3100
+Ire_ext=Ire_ext_c
+Ip1=Itc_pert*heav(T-ontime)*heav(offtime-T)
+Ip2=Itc_pert2*heav(T-ontime2)*heav(offtime2-T)
+Itc_ext=Itc_ext_c+Ip1+Ip2
+Ict_ext=Ict_ext_c
+
+# voltage of RE cell
+Vre'=(-1/C_re)*(Ire_L+Ire_TS+Ire_Na+Ire_K+Ia_AMPA+Ic_GABAA+If_AMPA-Ire_ext)
+# voltage of TC cell
+Vtc'=(-1/C_tc)*(Itc_L+Itc_Na+Itc_K+Itc_T+Itc_h+Itc_K2+Ib_GABAA+Ib_GABAB+Id_AMPA-Itc_ext)
+# voltage of CT cell
+Vct'=(-1/C_ct)*(Ict_L+Ict_Na+Ict_K+Ict_M+Ie_AMPA-Ict_ext)
+
+# Auxiliary functions for plotting currents
+# uncomment the ones you want to see
+#
+#aux Ire_L=Ire_L
+#aux Ire_TS=Ire_TS
+#aux Ire_Na=Ire_Na
+#aux Ire_K=Ire_K
+#aux Ia_AMPA=Ia_AMPA
+#aux Itc_L=Itc_L
+#aux Itc_Na=Itc_Na
+#aux Itc_K=Itc_K
+#aux Itc_T=Itc_T
+#aux Itc_h=Itc_h
+#aux Itc_K2=Itc_K2
+#aux Ib_GABAA=Ib_GABAA
+#aux Ib_GABAB=Ib_GABAB
+#aux Ic_GABAA=Ic_GABAA
+#aux Ict_L=Ict_L
+#aux Ict_Na=Ict_Na
+#aux Ict_K=Ict_K
+#aux Ict_M=Ict_M
+#aux Id_AMPA=Id_AMPA
+#aux Ie_AMPA=Ie_AMPA
+#aux If_AMPA=If_AMPA
+
+#############################################
+
+# alpha and beta functions, unit ms^-1
+# some are in the form of steady state and time constant functions
+# Note: for Na and K current, the model is same for all cells
+
+alpha_m_Na(v)=0.32*(13-v)/(exp((13-max(v,-60))/4)-1)
+beta_m_Na(v)=0.28*(v-40)/(exp((min(v,70)-40)/5)-1)
+alpha_h_Na(v)=0.128*exp((17-max(v,-80))/18)
+beta_h_Na(v)=4/(exp((40-max(v,-80))/5)+1)
+
+alpha_m_K(v)=0.032*(15-v)/(exp((15-max(v,-80))/5)-1)
+beta_m_K(v)=0.5*exp((10-max(v,-80))/40)
+
+infty_m_TS(v)=1/(1+exp(-(v+52)/7.4))
+tau_m_TS(v)=1+0.33/(exp((v+27)/10)+exp(-(v+102)/15))
+infty_h_TS(v)=1/(1+exp((v+80)/5))
+tau_h_TS(v)=28.3+0.33/(exp((v+48)/4)+exp(-(v+407)/50))
+
+# K is an auxiliary function
+K(v)=sqrt(0.25+exp((min(v,50)+85.5)/6.3))-0.5
+infty_m_T(v)=1/(1+exp((-max(v,-80)-65)/7.8))
+tau_m_T(v)=0.15*infty_m_T(v)*(1.7+exp((-max(v,-80)-30.8)/13.5))
+alpha_h_T(v)=exp((-max(v,-80)-162.3)/17.8)/0.26
+alpha_d_T(v)=1/(tau_d_T(v)*(K(v)+1))
+tau_d_T(v)=62.4/(1+exp((min(v,80)+39.4)/30))
+
+infty_h_h(v)=1/(1+exp((min(v,60)+68.9)/6.5))
+tau_S_h(v)=max(exp((min(v,60)+183.26)/15.24),0.01)
+tau_F_h(v)=max(exp((min(v,60)+158.6)/11.2)/(1+exp((min(v,50)+75)/5.5)),0.01)
+alpha_S_h(v)=infty_h_h(v)/tau_S_h(v)
+beta_S_h(v)=(1-infty_h_h(v))/tau_S_h(v)
+alpha_F_h(v)=infty_h_h(v)/tau_F_h(v)
+beta_F_h(v)=(1-infty_h_h(v))/tau_F_h(v)
+
+infty_m_K2(v)=1/(1+exp(-(v+43)/17))
+tau_m_K2(v)=2.86+0.29/(exp((v-81)/25.6)+exp(-(v+132)/18))
+infty_h_K2(v)=1/(1+exp((v+58)/10.6))
+tau_h_K21(v)=34.65+0.29/(exp((v-1329)/200)+exp(-(v+130)/71))
+tau_h_K22(v)=if(v>=(-70))then(tau_h_K21(v))else(2570)
+
+infty_m_M(v)=1/(1+exp(-(v+35)/10))
+tau_m_M(v)=1000/(3.3*(exp((v+35)/20)+exp(-(v+35)/20)))
+
+
+# concentration of neurotransmitters, same formula for everything
+ccen(v)=2.84/(1+exp(-(v-2)/5))
+
+
+# Traub's equation uses a different convention 
+# (possibly relative to resting instead of absolute)
+# This is the offset. This affects the K and Na currents
+number vtraub=-64
+
+# gating variables for RE cell
+mre_TS'=-(mre_TS-infty_m_TS(Vre))/tau_m_TS(Vre)
+hre_TS'=-(hre_TS-infty_h_TS(Vre))/tau_h_TS(Vre)
+mre_Na'=alpha_m_Na(Vre-vtraub)*(1-mre_Na)-beta_m_Na(Vre-vtraub)*mre_Na
+hre_Na'=alpha_h_Na(Vre-vtraub)*(1-hre_Na)-beta_h_Na(Vre-vtraub)*hre_Na
+mre_K'=alpha_m_K(Vre-vtraub)*(1-mre_K)-beta_m_K(Vre-vtraub)*mre_K
+
+# gating variables for TC cell
+mtc_Na'=alpha_m_Na(Vtc-vtraub)*(1-mtc_Na)-beta_m_Na(Vtc-vtraub)*mtc_Na
+htc_Na'=alpha_h_Na(Vtc-vtraub)*(1-htc_Na)-beta_h_Na(Vtc-vtraub)*htc_Na
+mtc_K'=alpha_m_K(Vtc-vtraub)*(1-mtc_K)-beta_m_K(Vtc-vtraub)*mtc_K
+mtc_T'=-(mtc_T-infty_m_T(Vtc))/tau_m_T(Vtc)
+htc_T'=alpha_h_T(Vtc)*(1-htc_T-dtc_T-K(Vtc)*htc_T)
+dtc_T'=alpha_d_T(Vtc)*(K(Vtc)*(1-htc_T-dtc_T)-dtc_T)
+Stc_h'=(infty_h_h(Vtc)-Stc_h)/tau_S_h(Vtc)
+Ftc_h'=(infty_h_h(Vtc)-Ftc_h)/tau_F_h(Vtc)
+mtc_K2'=(infty_m_K2(Vtc)-mtc_K2)/tau_m_K2(Vtc)
+htc_K21'=(infty_h_K2(Vtc)-htc_K21)/tau_h_K21(Vtc)
+htc_K22'=(infty_h_K2(Vtc)-htc_K22)/tau_h_K22(Vtc)
+
+# gating variables for CT cell
+mct_Na'=alpha_m_Na(Vct-vtraub)*(1-mct_Na)-beta_m_Na(Vct-vtraub)*mct_Na
+hct_Na'=alpha_h_Na(Vct-vtraub)*(1-hct_Na)-beta_h_Na(Vct-vtraub)*hct_Na
+mct_K'=alpha_m_K(Vct-vtraub)*(1-mct_K)-beta_m_K(Vct-vtraub)*mct_K
+mct_M'=(infty_m_M(Vct)-mct_M)/tau_m_M(Vct)
+
+# gating variable for synaptic coupling between RE and TC
+# AM for AMPA, GAA for GABA_A
+number alpha_AM=0.94,beta_AM=0.18
+number alpha_GAA=5,beta_GAA=0.18
+# tau is time delay between RE and TC
+# approximate as 0, since the delay between thalamic neurons are very small compared to tau2
+par tau=0
+ma_AMPA'=alpha_AM*ccen(delay(Vtc,tau))*(1-ma_AMPA)-beta_AM*ma_AMPA
+mb_GABAA'=alpha_GAA*ccen(delay(Vre,tau))*(1-mb_GABAA)-beta_GAA*mb_GABAA
+rb_GABAB'=k1_GABAB*ccen(delay(Vre,tau))*(1-rb_GABAB)-k2_GABAB*rb_GABAB
+ggb_GABAB'=k3_GABAB*rb_GABAB-k4_GABAB*ggb_GABAB
+mc_GABAA'=alpha_GAA*ccen(Vre)*(1-mc_GABAA)-beta_GAA*mc_GABAA
+
+# tau1 is time delay from CT to TC 
+# tau2 is time delay from TC to CT
+par tau1=8.0,tau2=2.8
+md_AMPA'=alpha_AM*ccen(delay(Vct,tau1))*(1-md_AMPA)-beta_AM*md_AMPA
+me_AMPA'=alpha_AM*ccen(delay(Vtc,tau2))*(1-me_AMPA)-beta_AM*me_AMPA
+mf_AMPA'=alpha_AM*ccen(delay(Vct,tau1))*(1-mf_AMPA)-beta_AM*mf_AMPA
+
+# ICs for voltages
+# delay IC
+Vre(0)=-89.44752
+Vtc(0)=-76.74557
+Vct(0)=-70.56288
+# IC at 0
+# Initial conditions for Type 1pattern
+# These are close to resting potential with no input
+init Vre=-89.44752
+init Vtc=-76.74557
+init Vct=-70.56288
+#
+# Initial conditions for Type 3 pattern (for parameter values where it exists)
+# init Vre=-73.23470802510606
+# init Vtc=-61.25751567275299
+# init Vct=-29.25566842965478
+#
+# ICs for gating variables
+init mre_TS=0.072675829523226,hre_TS=0.211499455791335,mre_NA=0.00199794105940145,hre_NA=0.9974810810247241,mre_k=0.007906511997650679
+init mtc_Na=0.02506952675919856,htc_Na=0.9960655321987402,mtc_K=0.03830466511187199,mtc_T=0.5461364393543114 
+init htc_T=0.0396491970310314,dtc_T=0.7970471920287642,stc_H=0.6438020478688514,ftc_H=0.009892169957771677
+init mtc_K2=0.2140794095272484,htc_K21=0.6539169949005481,htc_K22=0.5749739049617441
+init mct_Na=0.7539831314457451,hct_Na=0.04337150034504714,mct_K=0.7070942755017747,mct_M=0.3511021165336077
+# ICs for synaptic gating variables
+init ma_AMPA=0.06723990521935221,mb_GABAA=0.09919124213527378,rb_GABAB=0.9434529734928138,ggb_GABAB=4.956730578917504 
+init mc_GABAA=0.09919124213527378,md_AMPA=0.5516336793229499,me_AMPA=0.1113369475187098,mf_AMPA=0.5516336793229499 
+#
+# plotting options
+@ total=5000,XP=T,YP=Vre,XLO=0,XHI=2500,YLO=-120,YHI=120
+@ nplot=3,xp2=T,yp2=Vtc,xp3=T,yp3=Vct
+@ dt=0.005,bound=10000,MAXSTOR=2000000
+@ delay=15
+done

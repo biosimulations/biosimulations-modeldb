@@ -1,0 +1,42 @@
+# FIG 3A: Is-V properties
+# Written by Hojeong Kim
+
+## [dendrite equations] v(mV),t(ms),g(mS/cm^2)
+dvd/dt=(ind(vd,dcal)-gmd*(vd-(vl+vrest))+gc*(vs-vd)/(1.0-parea))/cmd
+# [inward voltage-gated current]
+ind(vd,dcal)=-dgcal*dcal*(vd-(vdcal+vrest))
+ddcal/dt=(dcalinf(vd)-dcal)/dcaltau
+dcalinf(vd)=1.0/(1.0+exp(-(vd-dcalth)/dcalslp))
+
+## [cable parameters] gms(mS/cm^2),gmd(mS/cm^2),gc(mS/cm^2),cms(uF/cm^2),cmd(uF/cm^2)
+p gms=0.143, gmd=0.131, gc=0.211, cms=1.058, cmd=0.915, parea=0.492
+
+## [active parameters]
+# resting & reversal potentials
+p vna=120.0,vk=-10.0,vl=0.0,vdcal=130.0,vrest=-70
+# dendrite
+p dgcal=0.124,dcalth=-43.0,dcalslp=6.0,dcaltau=60.0
+
+## [initial conditions]
+# dendrites
+vd(0)=-70.0
+dcal(0)=0.001
+
+## [voltage clamp at the soma]
+p vs0=-70,m=40,t_m=10000
+vs=vs0+m-(m/t_m)*abs(t-t_m)
+
+## [simulation outputs]: I(nA), V(mV) 
+aux Iinj=(gms*(vs-(vl+vrest))+gc*((vs-vd)/parea))*3.16
+aux Vclamp=vs
+
+## [simulation environment]
+@ maxstor=20000000
+@ total=20000
+@ method=gear, toler=0.009, dtmax=0.5
+@ NPLOT=2, XP=t, YP=Iinj, XP2=t, YP2=Vclamp
+@ xlo=0, xhi=20000, ylo=-10, yhi=10
+@ bound=10000
+@ create=1
+
+done

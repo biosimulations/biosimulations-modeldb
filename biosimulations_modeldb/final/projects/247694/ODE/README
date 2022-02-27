@@ -1,0 +1,12 @@
+This is the README file for the ODE model associated with the paper:
+
+Denizot, A., Arizono, M., Nägerl, V., Soula, H., Berry, H. (2019). Simulation of calcium signaling in fine astrocytic processes: effect of spatial properties on spontaneous activity. 
+
+This model requires XPPAUT software, which is freely available at http://www.math.pitt.edu/~bard/xpp/xpp.html
+This model corresponds to ODE model presented in Fig2 of the paper (see also Material & Methods section for more information on the different models developed).
+
+
+Contact:
+audrey.denizot@inria.fr
+
+

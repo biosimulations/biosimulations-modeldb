@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<rdf:RDF xmlns:dc="http://dublincore.org/specifications/dublin-core/dcmi-terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:collex="http://www.collex.org/schema#" xmlns:bqmodel="http://biomodels.net/model-qualifiers/" xmlns:scoro="http://purl.org/spar/scoro/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:biomodel="http://biomodels.net/model-qualifiers/">
+  <rdf:Description rdf:about="http://omex-library.org/228337.omex">
+    <dc:title>Nicotinic control of dopamine release in nucleus accumbens (Maex et al. 2014)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/228337.omex">
+    <dc:abstract>Minimal model of the VTA (ventral segmental area) representing two (GABA versus dopamine) neuron populations and two subtypes of nicotinic receptors (alpha4beta2 versus alpha7). The model is used to tell apart circuit from receptor mechanisms in the nicotinic control of dopamine release and its pharmacological manipulation.</dc:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=111952">http://modeldb.science/ModelList?id=111952</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00001">
+    <rdfs:label>Neural mass</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/228337.omex">
+    <bqbiol:encodes rdf:resource="local:00001">local:00001</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3540">http://modeldb.science/ModelList?id=3540</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00002">
+    <rdfs:label>Channel/Receptor</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/228337.omex">
+    <bqbiol:encodes rdf:resource="local:00002">local:00002</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=115952">http://modeldb.science/ModelList?id=115952</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00003">
+    <rdfs:label>Basal ganglia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/228337.omex">
+    <bqbiol:encodes rdf:resource="local:00003">local:00003</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=189152">http://modeldb.science/ModelList?id=189152</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00004">
+    <rdfs:label>Ventral tegmental area dopamine neuron</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/228337.omex">
+    <bqbiol:encodes rdf:resource="local:00004">local:00004</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=209">http://modeldb.science/ModelList?id=209</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00005">
+    <rdfs:label>Acetylcholine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/228337.omex">
+    <bqbiol:encodes rdf:resource="local:00005">local:00005</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=224">http://modeldb.science/ModelList?id=224</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00006">
+    <rdfs:label>Dopamine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/228337.omex">
+    <bqbiol:encodes rdf:resource="local:00006">local:00006</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=232">http://modeldb.science/ModelList?id=232</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00007">
+    <rdfs:label>Gaba</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/228337.omex">
+    <bqbiol:encodes rdf:resource="local:00007">local:00007</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=233">http://modeldb.science/ModelList?id=233</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00008">
+    <rdfs:label>Glutamate</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/228337.omex">
+    <bqbiol:encodes rdf:resource="local:00008">local:00008</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=178">http://modeldb.science/ModelList?id=178</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00009">
+    <rdfs:label>Nicotinic</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/228337.omex">
+    <bqbiol:encodes rdf:resource="local:00009">local:00009</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=112853">http://modeldb.science/ModelList?id=112853</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00010">
+    <rdfs:label>Schizophrenia</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/228337.omex">
+    <bqbiol:encodes rdf:resource="local:00010">local:00010</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=112854">http://modeldb.science/ModelList?id=112854</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00011">
+    <rdfs:label>Addiction</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/228337.omex">
+    <bqbiol:encodes rdf:resource="local:00011">local:00011</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=183421">http://modeldb.science/ModelList?id=183421</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00012">
+    <rdfs:label>Volume transmission</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/228337.omex">
+    <bqbiol:encodes rdf:resource="local:00012">local:00012</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=222956">http://modeldb.science/ModelList?id=222956</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00013">
+    <rdfs:label>Neuromodulation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/228337.omex">
+    <bqbiol:encodes rdf:resource="local:00013">local:00013</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=52404">http://modeldb.science/ModelList?id=52404</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00014">
+    <rdfs:label>Pathophysiology</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/228337.omex">
+    <bqbiol:encodes rdf:resource="local:00014">local:00014</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=58584">http://modeldb.science/ModelList?id=58584</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00015">
+    <rdfs:label>Rate-coding model neurons</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/228337.omex">
+    <bqbiol:encodes rdf:resource="local:00015">local:00015</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <dc:identifier rdf:resource="http://modeldb.science/ModelList?id=3638">http://modeldb.science/ModelList?id=3638</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00016">
+    <rdfs:label>Simplified Models</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/228337.omex">
+    <bqbiol:encodes rdf:resource="local:00016">local:00016</bqbiol:encodes>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/228337.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/228337.omex/article-figures/PMC4198061/cn-2014-00126t_0002.jpg">http://omex-library.org/228337.omex/article-figures/PMC4198061/cn-2014-00126t_0002.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/228337.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/228337.omex/article-figures/PMC4198061/cn-2014-00126t_0003.jpg">http://omex-library.org/228337.omex/article-figures/PMC4198061/cn-2014-00126t_0003.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/228337.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/228337.omex/article-figures/PMC4198061/cn-2014-00126t_0004.jpg">http://omex-library.org/228337.omex/article-figures/PMC4198061/cn-2014-00126t_0004.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/228337.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/228337.omex/article-figures/PMC4198061/cn-2014-00126t_0005.jpg">http://omex-library.org/228337.omex/article-figures/PMC4198061/cn-2014-00126t_0005.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/228337.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/228337.omex/article-figures/PMC4198061/cn-2014-00126t_0006.jpg">http://omex-library.org/228337.omex/article-figures/PMC4198061/cn-2014-00126t_0006.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/228337.omex">
+    <collex:thumbnail rdf:resource="http://omex-library.org/228337.omex/article-figures/PMC4198061/cn-2014-00126t_0007.jpg">http://omex-library.org/228337.omex/article-figures/PMC4198061/cn-2014-00126t_0007.jpg</collex:thumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <dc:identifier rdf:resource="mailto:reinoud@bbf.uia.ac.be">mailto:reinoud@bbf.uia.ac.be</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <rdfs:label>Reinoud Maex</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <foaf:mbox rdf:resource="mailto:reinoud@bbf.uia.ac.be">mailto:reinoud@bbf.uia.ac.be</foaf:mbox>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <foaf:accountName rdf:resource="mailto:reinoud@bbf.uia.ac.be">mailto:reinoud@bbf.uia.ac.be</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00017">
+    <foaf:name>Reinoud Maex</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/228337.omex">
+    <dc:creator rdf:resource="local:00017">local:00017</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <dc:identifier rdf:resource="mailto:reinoud.maex@uantwerpen.be">mailto:reinoud.maex@uantwerpen.be</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <rdfs:label>Reinoud Maex</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <foaf:mbox rdf:resource="mailto:reinoud.maex@uantwerpen.be">mailto:reinoud.maex@uantwerpen.be</foaf:mbox>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <foaf:accountName rdf:resource="mailto:reinoud.maex@uantwerpen.be">mailto:reinoud.maex@uantwerpen.be</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00018">
+    <foaf:name>Reinoud Maex</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/228337.omex">
+    <dc:contributor rdf:resource="local:00018">local:00018</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00019">
+    <dc:identifier rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00019">
+    <rdfs:label>Sense Lab at Yale University</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00019">
+    <foaf:accountName rdf:resource="https://senselab.med.yale.edu/">https://senselab.med.yale.edu/</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00019">
+    <foaf:name>Sense Lab at Yale University</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/228337.omex">
+    <dc:contributor rdf:resource="local:00019">local:00019</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00020">
+    <dc:identifier rdf:resource="http://identifiers.org/orcid:0000-0002-2605-5080">http://identifiers.org/orcid:0000-0002-2605-5080</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00020">
+    <rdfs:label>Jonathan R. Karr</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00020">
+    <foaf:accountName rdf:resource="https://orcid.org/0000-0002-2605-5080">https://orcid.org/0000-0002-2605-5080</foaf:accountName>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00020">
+    <foaf:name>Jonathan R. Karr</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/228337.omex">
+    <dc:contributor rdf:resource="local:00020">local:00020</dc:contributor>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00021">
+    <dc:identifier rdf:resource="https://identifiers.org/modeldb:228337">https://identifiers.org/modeldb:228337</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00021">
+    <rdfs:label>modeldb:228337</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/228337.omex">
+    <bqmodel:is rdf:resource="local:00021">local:00021</bqmodel:is>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00022">
+    <dc:identifier rdf:resource="http://identifiers.org/doi:10.1021/cn500126t">http://identifiers.org/doi:10.1021/cn500126t</dc:identifier>
+  </rdf:Description>
+  <rdf:Description rdf:about="local:00022">
+    <rdfs:label>Reinoud Maex, Vladimir P. Grinevich, Valentina Grinevich, Evgeny Budygin, Merouane Bencherif &amp; Boris Gutkin. Understanding the role α7 nicotinic receptors play in dopamine efflux in nucleus accumbens. ACS Chemical Neuroscience 5, 10: 1032-1040 (2014).</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/228337.omex">
+    <bqmodel:isDescribedBy rdf:resource="local:00022">local:00022</bqmodel:isDescribedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/228337.omex">
+    <dc:created>2017-05-20</dc:created>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://omex-library.org/228337.omex">
+    <dc:modified>2017-05-22</dc:modified>
+  </rdf:Description>
+</rdf:RDF>

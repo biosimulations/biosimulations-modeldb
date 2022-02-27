@@ -1,0 +1,50 @@
+# parameter values
+par nip3r=1000
+par alpha=1.0
+par beta=0.01
+par gamma=50
+par nplc=1e3
+par delta=0.10
+par a1=1
+par b1=0.1
+# in this code, a2 and b2 correspond to a3 and b3 from the paper: binding and unbinding constants for Ca second site.
+par a2=0.10
+par b2=0.10
+# in this code, a3 and b3 correspond to a2 and b2 from the paper: binding and unbinding constants for IP3 site.
+par a3=1.0
+par b3=0.1
+par mu=50
+par V=4e4
+
+#IP3 pulse amplitude, from 0 to 100 IP3 molecules
+par pulsamp=50
+#IP3 pulse first infusion
+par pulst0=20
+#IP3 pulse duration
+par pulsdur=1
+
+
+# ODEs
+x111=nip3r-(x000+x010+x100+x110+x001+x011+x101)
+dCa/dt=-alpha*Ca+gamma- a1/V*Ca*(x000+x010+x001+x011)-a2/V*Ca*(x000+x100+x001+x101)+b1*(x100+x110+x101+x111)+b2*(x010+x110+x011+x111)+mu*x101
+dIP3/dt=pulsamp*f(t)+delta/V*nplc*Ca-beta*IP3-a3/V*IP3*(x000+x010+x100+x110)+b3*(x001+x101+x011+x111)
+dx000/dt=-(a1/V*Ca+a2/V*Ca+a3/V*IP3)*x000+b1*x100+b2*x010+b3*x001
+dx010/dt=-(a1/V*Ca+b2+a3/V*IP3)*x010+b1*x110+a2/V*Ca*x000+b3*x011
+dx100/dt=-(b1+a2/V*Ca+a3/V*IP3)*x100+a1/V*Ca*x000+b2*x110+b3*x101
+dx110/dt=-(b1+b2+a3/V*IP3)*x110+a1/V*Ca*x010+a2/V*Ca*x100+b3*x111
+dx001/dt=-(a1/V*Ca+a2/V*Ca+b3)*x001+b1*x101+b2*x011+a3/V*IP3*x000
+dx011/dt=-(a1/V*Ca+b2+b3)*x011+b1*x111+a2/V*Ca*x001+a3/V*IP3*x010
+dx101/dt=-(b1+a2/V*Ca+b3)*x101+a1/V*Ca*x001+b2*x111+a3/V*IP3*x100
+
+
+f(t)=heav(pulst0+pulsdur-t)*heav(t-pulst0)
+aux IP3inj=pulsamp*f(t)
+
+# Set initial conditions
+init Ca=50, x000=1e3, x010=0, x100=0,x110=0 
+init x001=0,x011=0,x101=0, IP3=15
+
+@ total=2000,dt=0.1,meth=rk4,bounds=1e4
+@ maxstore=10000000
+
+done

@@ -1,0 +1,37 @@
+This is the README file for the Gillespie model associated with the paper:
+
+Denizot, A., Arizono, M., Nägerl, V., Soula, H., Berry, H. (2019). Simulation of calcium signaling in fine astrocytic processes: effect of spatial properties on spontaneous activity. 
+
+This model corresponds to the Gillespie model presented in Fig2 of the paper (see also Material & Methods section for more information on the different models developed).
+
+
+HOW TO RUN THE CODE 
+-----------
+The model requires that the following packages are installed:
+- numpy
+- sys
+
+The model is divided in 2 python files:
+
+****
+gillespie_functions.py
+This file contains 2 functions:
+- propensities(vec, p) that computes the propensities for all species at time t.
+inputs: vector (vec) storing state at time t of all species (including all binding sites), parameter values (p)
+output: propensities array
+
+- compute_gillespie(vec, sm, p) that computes next reaction time, next reaction and new state of the system.
+inputs: a vector (vec) storing the state at time t of all species (including all binding sites), an array with signs of reactions (sm) and parameter values (p)
+outputs: time for next reaction (next_t) and a vector (new_vec) storing the state of all species at time t+next_t
+
+****
+calcium_gillespie.py that sets parameter values, initial conditions and runs the simulation for a given number of time steps. It calls functions from gillespie_functions file.
+To run this script, simply call the function with python with an integer i as an argument that will be the seed for the given simulation. The output file in this example is called "gillespie.i", with i the seed, and each line displays the time t, the nb of Ca, nb of IP3, nb of open IP3R, nb of free Ca first site, nb of free Ca second site and nb of free IP3 site.
+
+Example command:
+python calcium_gillespie.py 1 > gillespie.1
+
+
+
+Contact:
+audrey.denizot@inria.fr
