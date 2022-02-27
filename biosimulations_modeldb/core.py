@@ -805,6 +805,7 @@ def import_projects(config):
         print(' done')
 
         print('    done')
+    print('{} projects completely successfully!'.format(len(projects)))
 
 
 def make_directories(config):
