@@ -5,3 +5,4 @@ exclude =
     docs-src/*
     build/*
     biosimulations_modeldb/source/projects/*
+    biosimulations_modeldb/final/projects/*
