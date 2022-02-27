@@ -25,3 +25,9 @@ docs/_sources/
 
 # passwords
 secret.env
+
+# temporary ODE files
+tmp*.ode
+tmp*.sedml
+tmp*.ode/
+tmp*.sedml/
