@@ -752,7 +752,7 @@ def import_projects(config):
         config['biosimulations_api_client_id'], config['biosimulations_api_client_secret'])
 
     # download projects, convert them to COMBINE/OMEX archives, simulate them, and deposit them to the BioSimulations database
-    print('Importing {} projects ...'.format(len(project_ids)))
+    print('Importing {} projects ...'.format(len(projects)))
     for i_project, project in enumerate(projects):
         print('  {}: {} ...'.format(i_project + 1, project['id']))
 
@@ -868,6 +868,22 @@ def import_project(project, simulate, auth, config):
             )
 
         sed_docs = build_combine_archive_for_project(project['id'], project_dirname, project_filename, extra_contents=extra_contents)
+
+        for sed_doc_location, sed_doc in sed_docs.items():
+            sed_sim = sed_doc.simulations[0]
+            if sed_sim.number_of_steps <= 1:
+                msg = 'Simulation {} of {} only has {} steps'.format(sed_doc_location, project['id'], sed_sim.number_of_steps)
+                raise ValueError(msg)
+
+            for output in sed_doc.outputs:
+                if isinstance(output, Report):
+                    if len(output.data_sets) <= 2:
+                        msg = 'Report {} of {} of {} only has {} outputs:\n  - {}'.format(
+                            output.id, sed_doc_location, project['id'], len(output.data_sets),
+                            '  - '.join(sorted(data_set.id for data_set in output.data_sets)),
+                        )
+                        raise ValueError(msg)
+
     else:
         sed_docs = None
 
@@ -890,8 +906,8 @@ def import_project(project, simulate, auth, config):
 
         # verify simulation results
         if sed_docs:
-            for location, sed_doc in sed_docs.items():
-                sed_doc_results = results[location]
+            for sed_doc_location, sed_doc in sed_docs.items():
+                sed_doc_results = results[sed_doc_location]
                 sed_sim = sed_doc.simulations[0]
                 for output in sed_doc.outputs:
                     if isinstance(output, Report):
@@ -899,40 +915,40 @@ def import_project(project, simulate, auth, config):
                         expected_data_set_ids = set(data_set.id for data_set in output.data_sets)
                         data_set_ids = set(report_results.keys())
 
-                        print(expected_data_set_ids)
-                        print(data_set_ids)
-
                         missing_data_set_ids = expected_data_set_ids.difference(data_set_ids)
                         extra_data_set_ids = data_set_ids.difference(expected_data_set_ids)
 
                         if missing_data_set_ids:
                             msg = (
-                                '{} data sets were not produced for report {} of {}:\n  - {}'
+                                '{} data sets were not produced for report {} of {} of {}:\n  - {}'
                             ).format(
                                 len(missing_data_set_ids),
                                 output.id,
-                                location,
+                                sed_doc_location,
+                                project['id'],
                                 '\n  - '.join(sorted(missing_data_set_ids)),
                             )
                             raise ValueError(msg)
 
                         if extra_data_set_ids:
                             msg = (
-                                '{} extra data sets were produced for report {} of {}:\n  - {}'
+                                '{} extra data sets were produced for report {} of {} of {}:\n  - {}'
                             ).format(
                                 len(extra_data_set_ids),
                                 output.id,
-                                location,
+                                sed_doc_location,
+                                project['id'],
                                 '\n  - '.join(sorted(extra_data_set_ids)),
                             )
                             raise ValueError(msg)
 
                         for data_set_id, data_set_results in report_results.items():
-                            if data_set_results.shape != (sed_sim.number_of_points + 1,):
-                                msg = 'Data set {} of report {} of {} has shape ({}), not ({})'.format(
-                                    data_set_id, output.id, location,
+                            if data_set_results.shape != (sed_sim.number_of_steps + 1,):
+                                msg = 'Data set {} of report {} of {} of {} has shape ({}), not ({})'.format(
+                                    data_set_id, output.id, sed_doc_location,
+                                    project['id'],
                                     ', '.join(str(dim_len) for dim_len in data_set_results.shape),
-                                    sed_sim.number_of_points,
+                                    sed_sim.number_of_steps + 1,
                                 )
                                 raise ValueError(msg)
 
@@ -940,10 +956,16 @@ def import_project(project, simulate, auth, config):
                                 raise ValueError('The result of data set {} of report {} of {} includes NaN.')
 
                         time_results = report_results[output.data_sets[0].id]
-                        numpy.testing.assert_allclose(
-                            time_results,
-                            numpy.linspace(sed_sim.output_start_time, sed_sim.output_end_time, sed_sim.number_of_points + 1),
-                        )
+                        expected_time_results = numpy.linspace(
+                            sed_sim.output_start_time, sed_sim.output_end_time, sed_sim.number_of_steps + 1)
+                        time_results_error = numpy.linalg.norm(time_results - expected_time_results, ord=1) / (sed_sim.number_of_steps + 1)
+                        if time_results_error > 5e-3:
+                            msg = 'The points of the report of {} of {} of {} are invalid (err = {}):\n  - {}'.format(
+                                output.id, sed_doc_location, project['id'],
+                                time_results_error,
+                                '\n  - '.join('{}: {}'.format(x, y) for x, y in zip(time_results, expected_time_results)),
+                            )
+                            raise ValueError(msg)
 
     else:
         duration = None
