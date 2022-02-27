@@ -28,7 +28,6 @@ import imghdr
 import lxml.etree
 import natsort
 import numpy
-import numpy.testing
 import os
 import pkg_resources
 import shutil
