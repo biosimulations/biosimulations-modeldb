@@ -10,7 +10,7 @@ from biosimulators_utils.ref.data_model import JournalArticle
 from biosimulators_utils.ref.utils import get_reference, get_pubmed_central_open_access_graphics
 from biosimulators_utils.sedml.data_model import (
     SedDocument, Model, ModelLanguage, UniformTimeCourseSimulation,
-    Task, DataGenerator, Report, DataSet)
+    Task, DataGenerator, Report, DataSet, Symbol)
 from biosimulators_utils.sedml.io import SedmlSimulationWriter
 from biosimulators_utils.sedml.model_utils import get_parameters_variables_outputs_for_simulation
 from biosimulators_utils.utils.core import flatten_nested_list_of_strings
@@ -609,19 +609,30 @@ def create_sedml_for_xpp_file(project_id, project_dirname, rel_filename):
 
         if sed_plots:
             sed_plot = sed_plots[0]
-            sed_doc.outputs.append(sed_plot)
 
             if set_file['id']:
                 sed_plot.id += '_' + set_file['id']
 
             sed_plot.name = set_file['name']
 
-            for sed_curve in sed_plot.curves:
+            for sed_curve in list(sed_plot.curves):
                 if set_file['id']:
                     sed_curve.id += '_' + set_file['id']
 
-                sed_curve.x_data_generator = data_gen_map[sed_curve.x_data_generator.math or 'T']
-                sed_curve.y_data_generator = data_gen_map[sed_curve.y_data_generator.math or 'T']
+                x_data_generator_math = sed_curve.x_data_generator.math or 'T'
+                y_data_generator_math = sed_curve.y_data_generator.math or 'T'
+
+                sed_curve.x_data_generator = data_gen_map[x_data_generator_math]
+                sed_curve.y_data_generator = data_gen_map[y_data_generator_math]
+
+                if (
+                    sed_curve.x_data_generator.variables[0].symbol == Symbol.time.value and
+                    sed_curve.y_data_generator.variables[0].symbol == Symbol.time.value
+                ):
+                    sed_plot.curves.remove(sed_curve)
+
+            if sed_plot.curves:
+                sed_doc.outputs.append(sed_plot)
 
     return sed_doc
 
