@@ -430,6 +430,9 @@ def build_combine_archive_for_project(id, source_project_dirname, final_projects
     if os.path.isdir(final_projects_dirname):
         shutil.rmtree(final_projects_dirname)
     shutil.copytree(source_project_dirname, final_projects_dirname)
+    git_filename = os.path.join(final_projects_dirname, '.git')
+    if os.path.isfile(git_filename):
+        os.remove(git_filename)
 
     # initialize COMBINE/OMEX archive for project
     archive = init_combine_archive_from_dir(source_project_dirname)
