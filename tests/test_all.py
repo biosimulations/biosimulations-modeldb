@@ -804,7 +804,8 @@ class TestCase(unittest.TestCase):
         config = get_config()
 
         id = 57910
-        project_dirname = os.path.join(config['source_projects_dirname'], '57910')
+        source_project_dirname = os.path.join(config['source_projects_dirname'], '57910')
+        final_project_dirname = os.path.join(self.case_dirname, 'archive')
         archive_filename = os.path.join(self.case_dirname, 'archive.omex')
         extra_contents = {
             os.path.join(config['source_projects_dirname'], '57910', 'samplerun.jpg'): CombineArchiveContent(
@@ -816,7 +817,7 @@ class TestCase(unittest.TestCase):
                 format=CombineArchiveContentFormat.TEXT.value,
             ),
         }
-        build_combine_archive_for_project(id, project_dirname, archive_filename, extra_contents)
+        build_combine_archive_for_project(id, source_project_dirname, final_project_dirname, archive_filename, extra_contents)
 
         archive_dirname = os.path.join(self.case_dirname, 'unpacked')
         archive = CombineArchiveReader().run(archive_filename, archive_dirname)
@@ -825,7 +826,8 @@ class TestCase(unittest.TestCase):
         config = get_config()
 
         id = 57910
-        project_dirname = os.path.join(config['source_projects_dirname'], '57910')
+        source_project_dirname = os.path.join(config['source_projects_dirname'], '57910')
+        final_project_dirname = os.path.join(self.case_dirname, 'archive')
         archive_filename = os.path.join(self.case_dirname, 'archive.omex')
         extra_contents = {
             os.path.join(config['source_projects_dirname'], '57910', 'samplerun.jpg'): CombineArchiveContent(
@@ -837,7 +839,7 @@ class TestCase(unittest.TestCase):
                 format=CombineArchiveContentFormat.TEXT.value,
             ),
         }
-        build_combine_archive_for_project(id, project_dirname, archive_filename, extra_contents)
+        build_combine_archive_for_project(id, source_project_dirname, final_project_dirname, archive_filename, extra_contents)
 
         archive_dirname = os.path.join(self.case_dirname, 'unpacked')
         archive = CombineArchiveReader().run(archive_filename, archive_dirname)

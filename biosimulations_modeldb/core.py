@@ -33,7 +33,6 @@ import os
 import pkg_resources
 import shutil
 import sys
-import tempfile
 import time
 import warnings
 import yaml
@@ -414,12 +413,13 @@ def export_project_metadata_for_project_to_omex_metadata(project, description, t
         raise ValueError('The metadata is not valid:\n  {}'.format(flatten_nested_list_of_strings(errors).replace('\n', '\n  ')))
 
 
-def build_combine_archive_for_project(id, project_dirname, archive_filename, extra_contents):
+def build_combine_archive_for_project(id, source_project_dirname, final_projects_dirname, archive_filename, extra_contents):
     """ Build a COMBINE/OMEX archive for a project including a SED-ML file
 
     Args:
         id (:obj:`str`): project id
-        project_dirname (:obj:`str`): path to the directory of files for the project
+        source_project_dirname (:obj:`str`): path to the directory of source files for the project
+        final_projects_dirname (:obj:`str`): path to save the final files for the project
         archive_filename (:obj:`str`): path to save the COMBINE/OMEX archive
         extra_contents (:obj:`dict`): dictionary that maps the local path of each additional file that
             should be included in the arrchive to its intended location within the archive and format
@@ -427,28 +427,28 @@ def build_combine_archive_for_project(id, project_dirname, archive_filename, ext
     Returns:
         :obj:`dict`: dictionary that maps the location of each SED document to the document
     """
-    # make temporary directory for archive
-    archive_dirname = tempfile.mkdtemp()
-    shutil.rmtree(archive_dirname)
-    shutil.copytree(project_dirname, archive_dirname)
+    # initialize the directory for archive
+    if os.path.isdir(final_projects_dirname):
+        shutil.rmtree(final_projects_dirname)
+    shutil.copytree(source_project_dirname, final_projects_dirname)
 
     # initialize COMBINE/OMEX archive for project
-    archive = init_combine_archive_from_dir(project_dirname)
+    archive = init_combine_archive_from_dir(source_project_dirname)
 
     # create simulations
     model_filenames = natsort.natsorted(
-        case_insensitive_glob(os.path.join(project_dirname, '**', '*.ode'), recursive=True)
-        + case_insensitive_glob(os.path.join(project_dirname, '**', '*.xpp'), recursive=True)
+        case_insensitive_glob(os.path.join(source_project_dirname, '**', '*.ode'), recursive=True)
+        + case_insensitive_glob(os.path.join(source_project_dirname, '**', '*.xpp'), recursive=True)
     )
 
     sed_docs = {}
     for model_filename in model_filenames:
-        model_location = os.path.relpath(model_filename, project_dirname)
+        model_location = os.path.relpath(model_filename, source_project_dirname)
 
-        sed_doc = create_sedml_for_xpp_file(id, project_dirname, model_location)
+        sed_doc = create_sedml_for_xpp_file(id, source_project_dirname, model_location)
 
         sim_location = os.path.splitext(model_location)[0] + '.sedml'
-        SedmlSimulationWriter().run(sed_doc, os.path.join(archive_dirname, sim_location))
+        SedmlSimulationWriter().run(sed_doc, os.path.join(final_projects_dirname, sim_location))
         archive.contents.append(CombineArchiveContent(
             location=sim_location,
             format=CombineArchiveContentFormat.SED_ML.value,
@@ -459,17 +459,14 @@ def build_combine_archive_for_project(id, project_dirname, archive_filename, ext
 
     # add metadata and thumbnails
     for local_path, extra_content in extra_contents.items():
-        extra_content_dirname = os.path.dirname(os.path.join(archive_dirname, extra_content.location))
+        extra_content_dirname = os.path.dirname(os.path.join(final_projects_dirname, extra_content.location))
         if not os.path.isdir(extra_content_dirname):
             os.makedirs(extra_content_dirname)
-        shutil.copyfile(local_path, os.path.join(archive_dirname, extra_content.location))
+        shutil.copyfile(local_path, os.path.join(final_projects_dirname, extra_content.location))
         archive.contents.append(extra_content)
 
     # save archive to file
-    CombineArchiveWriter().run(archive, archive_dirname, archive_filename)
-
-    # clean up temporary directory for archive
-    shutil.rmtree(archive_dirname)
+    CombineArchiveWriter().run(archive, final_projects_dirname, archive_filename)
 
     return sed_docs
 
@@ -827,13 +824,14 @@ def import_project(project, simulate, auth, config):
             * :obj:`float`: duration of the simulation of the project
             * :obj:`str`: BioSimulations id for the run of the project
     """
-    project_dirname = os.path.join(config['source_projects_dirname'], str(project['id']))
+    source_project_dirname = os.path.join(config['source_projects_dirname'], str(project['id']))
+    final_projects_dirname = os.path.join(config['final_projects_dirname'], str(project['id']))
 
     # get additional metadata about the project
     print('    Getting metadata ...', end='')
     sys.stdout.flush()
 
-    description, taxa, references, thumbnails = get_metadata_for_project(project, project_dirname, config)
+    description, taxa, references, thumbnails = get_metadata_for_project(project, source_project_dirname, config)
 
     print(' done')
 
@@ -867,7 +865,8 @@ def import_project(project, simulate, auth, config):
                 format='http://purl.org/NET/mediatypes/image/' + thumbnail['format'],
             )
 
-        sed_docs = build_combine_archive_for_project(project['id'], project_dirname, project_filename, extra_contents=extra_contents)
+        sed_docs = build_combine_archive_for_project(project['id'], source_project_dirname, final_projects_dirname,
+                                                     project_filename, extra_contents=extra_contents)
 
         for sed_doc_location, sed_doc in sed_docs.items():
             sed_sim = sed_doc.simulations[0]
