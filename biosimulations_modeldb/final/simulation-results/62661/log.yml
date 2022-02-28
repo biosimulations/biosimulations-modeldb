@@ -1,4 +1,4 @@
-duration: 0.808539
+duration: 0.743377
 exception: null
 output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 1 plots:\r\n  Ina_Mar.sedml:\r\n    Tasks (1):\r\n      task\r\n\
@@ -17,7 +17,7 @@ output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tas
   \ 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (2):\r\n    Succeeded: 2\r\n\
   \    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 0.703538
+- duration: 0.62545
   exception: null
   location: Ina_Mar.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -51,7 +51,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_O
       status: SUCCEEDED
-    duration: 0.241529
+    duration: 0.235879
     exception: null
     id: report
     output: ''
@@ -60,7 +60,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.203456
+    duration: 0.196861
     exception: null
     id: plot
     output: ''
@@ -70,7 +70,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000030
-    duration: 0.130045
+    duration: 0.1092
     exception: null
     id: task
     output: ''

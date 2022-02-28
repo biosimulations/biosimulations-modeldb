@@ -1,4 +1,4 @@
-duration: 1.538235
+duration: 1.578093
 exception: null
 output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 0 plots:\r\n  NeuronKATP_Stoch.sedml:\r\n    Tasks (1):\r\n   \
@@ -15,7 +15,7 @@ output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tas
   \  Tasks (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs\
   \ (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 1.43138
+- duration: 1.462917
   exception: null
   location: NeuronKATP_Stoch.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -56,7 +56,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_VS
       status: SUCCEEDED
-    duration: 0.727116
+    duration: 0.758195
     exception: null
     id: report
     output: ''
@@ -66,7 +66,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000030
-    duration: 0.587124
+    duration: 0.611955
     exception: null
     id: task
     output: ''

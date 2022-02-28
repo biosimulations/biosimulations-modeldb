@@ -1,4 +1,4 @@
-duration: 38.028441
+duration: 38.571366
 exception: null
 output: "Archive contains 5 SED-ML documents with 5 models, 5 simulations, 5 tasks,\
   \ 5 reports, and 2 plots:\r\n  TypeIISomaCablePairFig2.sedml:\r\n    Tasks (1):\r\
@@ -52,7 +52,7 @@ output: "Archive contains 5 SED-ML documents with 5 models, 5 simulations, 5 tas
   \    Succeeded: 5\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (7):\r\n    Succeeded:\
   \ 7\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 6.904915
+- duration: 7.223531
   exception: null
   location: TypeIISomaCablePairFig2.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -491,7 +491,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_Y2
       status: SUCCEEDED
-    duration: 5.33594
+    duration: 5.482153
     exception: null
     id: report
     output: ''
@@ -501,7 +501,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 1.260187
+    duration: 1.42988
     exception: null
     id: task
     output: ''
@@ -518,7 +518,7 @@ sedDocuments:
       value: '1'
     skipReason: null
     status: SUCCEEDED
-- duration: 2.219537
+- duration: 2.458639
   exception: null
   location: TypeIISomaPassiveCableFig1.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -647,7 +647,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_Y
       status: SUCCEEDED
-    duration: 1.4887
+    duration: 1.570265
     exception: null
     id: report
     output: ''
@@ -657,7 +657,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 0.450512
+    duration: 0.522935
     exception: null
     id: task
     output: ''
@@ -674,7 +674,7 @@ sedDocuments:
       value: '1'
     skipReason: null
     status: SUCCEEDED
-- duration: 7.383273
+- duration: 7.158687
   exception: null
   location: TypeISomaCable2NaPFig3.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -910,7 +910,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_Y1
       status: SUCCEEDED
-    duration: 5.034304
+    duration: 4.784286
     exception: null
     id: report
     output: ''
@@ -919,7 +919,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.281129
+    duration: 0.290668
     exception: null
     id: plot
     output: ''
@@ -929,7 +929,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 1.569687
+    duration: 1.70119
     exception: null
     id: task
     output: ''
@@ -946,7 +946,7 @@ sedDocuments:
       value: '2'
     skipReason: null
     status: SUCCEEDED
-- duration: 12.712482
+- duration: 12.644122
   exception: null
   location: TypeISomaCablePairFig4.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -1383,7 +1383,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_Y2
       status: SUCCEEDED
-    duration: 9.344603
+    duration: 9.336603
     exception: null
     id: report
     output: ''
@@ -1393,7 +1393,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 3.032364
+    duration: 2.95331
     exception: null
     id: task
     output: ''
@@ -1410,7 +1410,7 @@ sedDocuments:
       value: '2'
     skipReason: null
     status: SUCCEEDED
-- duration: 7.143866
+- duration: 7.399854
   exception: null
   location: TypeISomaCablewHCNFig3.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -1646,7 +1646,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_Y1
       status: SUCCEEDED
-    duration: 4.75065
+    duration: 4.959824
     exception: null
     id: report
     output: ''
@@ -1655,7 +1655,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.28974
+    duration: 0.295856
     exception: null
     id: plot
     output: ''
@@ -1665,7 +1665,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 1.590544
+    duration: 1.653019
     exception: null
     id: task
     output: ''

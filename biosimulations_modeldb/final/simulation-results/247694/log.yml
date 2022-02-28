@@ -1,4 +1,4 @@
-duration: 0.937745
+duration: 1.07447
 exception: null
 output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 0 plots:\r\n  ODE/IP3R_model.sedml:\r\n    Tasks (1):\r\n     \
@@ -15,7 +15,7 @@ output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tas
   \  Tasks (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs\
   \ (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 0.84081
+- duration: 0.965479
   exception: null
   location: ODE/IP3R_model.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -48,7 +48,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_X110
       status: SUCCEEDED
-    duration: 0.501928
+    duration: 0.563236
     exception: null
     id: report
     output: ''
@@ -58,7 +58,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 0.266098
+    duration: 0.283163
     exception: null
     id: task
     output: ''

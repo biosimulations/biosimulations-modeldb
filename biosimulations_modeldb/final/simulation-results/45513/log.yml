@@ -1,30 +1,22 @@
-duration: 1.462968
+duration: 0.795955
 exception: null
-output: "Archive contains 2 SED-ML documents with 3 models, 2 simulations, 2 tasks,\
-  \ 2 reports, and 0 plots:\r\n  DBdep+A.sedml:\r\n    Tasks (1):\r\n      task_figure_9d\r\
-  \n    Reports (1):\r\n      report_figure_9d: 12 data sets\r\n  tmpw3139fuc.sedml:\r\
-  \n    Tasks (1):\r\n      task\r\n    Reports (1):\r\n      report: 12 data sets\r\
-  \n\r\nExecuting SED-ML file 1: DBdep+A.sedml ...\r\n  Found 1 tasks and 1 outputs:\r\
-  \r\n    Tasks:\r\r\n      `task_figure_9d`\r\r\n    Outputs:\r\r\n      `report_figure_9d`\r\
-  \r\n  Executing task 1: `task_figure_9d`\r\r\n    Executing simulation ... \e[34msucceeded\e\
+output: "Archive contains 1 SED-ML documents with 2 models, 1 simulations, 1 tasks,\
+  \ 1 reports, and 0 plots:\r\n  DBdep+A.sedml:\r\n    Tasks (1):\r\n      task_figure_9d\r\
+  \n    Reports (1):\r\n      report_figure_9d: 12 data sets\r\n\r\nExecuting SED-ML\
+  \ file 1: DBdep+A.sedml ...\r\n  Found 1 tasks and 1 outputs:\r\r\n    Tasks:\r\r\
+  \n      `task_figure_9d`\r\r\n    Outputs:\r\r\n      `report_figure_9d`\r\r\n \
+  \ Executing task 1: `task_figure_9d`\r\r\n    Executing simulation ... \e[34msucceeded\e\
   [0m\r\r\n    Generating 1 outputs ...\r\r\n      Generating output 1: `report_figure_9d`\
   \ ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and 1 outputs:\r\r\n  \
   \  Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\
   \n    Outputs:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n      Failed:\
-  \ 0\r\r\nExecuting SED-ML file 2: tmpw3139fuc.sedml ...\r\n  Found 1 tasks and 1\
-  \ outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\r\n      `report`\r\
-  \r\n  Executing task 1: `task`\r\r\n    Executing simulation ... \e[34msucceeded\e\
-  [0m\r\r\n    Generating 1 outputs ...\r\r\n      Generating output 1: `report` ...\
-  \ \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and 1 outputs:\r\r\n    Tasks:\r\
-  \r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\
-  \r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\n\r\nBundling\
-  \ outputs ...\r\nCleaning up ...\r\n\r\n============= SUMMARY =============\r\n\
-  Executed 2 SED documents:\r\n  SED documents (2):\r\n    Succeeded: 2\r\n    Skipped:\
-  \ 0\r\n    Failed: 0\r\n  Tasks (2):\r\n    Succeeded: 2\r\n    Skipped: 0\r\n \
-  \   Failed: 0\r\n  Outputs (2):\r\n    Succeeded: 2\r\n    Skipped: 0\r\n    Failed:\
-  \ 0\r\n\r\n"
+  \ 0\r\r\n\r\nBundling outputs ...\r\nCleaning up ...\r\n\r\n============= SUMMARY\
+  \ =============\r\nExecuted 1 SED documents:\r\n  SED documents (1):\r\n    Succeeded:\
+  \ 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Tasks (1):\r\n    Succeeded: 1\r\n \
+  \   Skipped: 0\r\n    Failed: 0\r\n  Outputs (1):\r\n    Succeeded: 1\r\n    Skipped:\
+  \ 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 0.725973
+- duration: 0.721148
   exception: null
   location: DBdep+A.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task_figure_9d`\r\
@@ -60,7 +52,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_Y_figure_9d
       status: SUCCEEDED
-    duration: 0.35337
+    duration: 0.336307
     exception: null
     id: report_figure_9d
     output: ''
@@ -70,7 +62,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000668
-    duration: 0.287405
+    duration: 0.307826
     exception: null
     id: task_figure_9d
     output: ''
@@ -89,68 +81,6 @@ sedDocuments:
       value: '0.0'
     - key: dt
       value: '1.0'
-    - key: njmp
-      value: '1'
-    skipReason: null
-    status: SUCCEEDED
-- duration: 0.583645
-  exception: null
-  location: tmpw3139fuc.sedml
-  output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
-    \n      `report`\r\n  Executing task 1: `task`\r\n    Executing simulation ...\
-    \ \e[34msucceeded\e[0m\r\n    Generating 1 outputs ...\r\n      Generating output\
-    \ 1: `report` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 1 outputs:\r\
-    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
-    \    Outputs:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n"
-  outputs:
-  - dataSets:
-    - id: data_set_T
-      status: SUCCEEDED
-    - id: data_set_D
-      status: SUCCEEDED
-    - id: data_set_HA
-      status: SUCCEEDED
-    - id: data_set_PERIOD
-      status: SUCCEEDED
-    - id: data_set_PHASE
-      status: SUCCEEDED
-    - id: data_set_S
-      status: SUCCEEDED
-    - id: data_set_TF
-      status: SUCCEEDED
-    - id: data_set_V
-      status: SUCCEEDED
-    - id: data_set_VF
-      status: SUCCEEDED
-    - id: data_set_WF
-      status: SUCCEEDED
-    - id: data_set_WINDOW
-      status: SUCCEEDED
-    - id: data_set_Y
-      status: SUCCEEDED
-    duration: 0.37776
-    exception: null
-    id: report
-    output: ''
-    skipReason: null
-    status: SUCCEEDED
-  skipReason: null
-  status: SUCCEEDED
-  tasks:
-  - algorithm: KISAO_0000032
-    duration: 0.120533
-    exception: null
-    id: task
-    output: ''
-    simulatorDetails:
-    - key: total
-      value: '5000.0'
-    - key: meth
-      value: rungekutta
-    - key: dt
-      value: '1'
-    - key: t0
-      value: '0.0'
     - key: njmp
       value: '1'
     skipReason: null

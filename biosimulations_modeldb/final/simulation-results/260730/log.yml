@@ -1,7 +1,7 @@
-duration: 8.446173
+duration: 4.757452
 exception: null
-output: "Archive contains 8 SED-ML documents with 10 models, 8 simulations, 9 tasks,\
-  \ 9 reports, and 7 plots:\r\n  HR_Hopf.sedml:\r\n    Tasks (1):\r\n      task\r\n\
+output: "Archive contains 5 SED-ML documents with 7 models, 5 simulations, 6 tasks,\
+  \ 6 reports, and 4 plots:\r\n  HR_Hopf.sedml:\r\n    Tasks (1):\r\n      task\r\n\
   \    Reports (1):\r\n      report: 4 data sets\r\n    Plots (1):\r\n      plot:\
   \ 1 curves\r\n  HR_Hopf_2D.sedml:\r\n    Tasks (1):\r\n      task\r\n    Reports\
   \ (1):\r\n      report: 3 data sets\r\n  HR_SNIC.sedml:\r\n    Tasks (1):\r\n  \
@@ -12,44 +12,39 @@ output: "Archive contains 8 SED-ML documents with 10 models, 8 simulations, 9 ta
   \n    Reports (2):\r\n      report_morris_lecar_with_hopf_bifurcation_figure_12:\
   \ 4 data sets\r\n      report_morris_lecar_with_snic_figure_11: 4 data sets\r\n\
   \    Plots (2):\r\n      plot_morris_lecar_with_hopf_bifurcation_figure_12: 1 curves\r\
-  \n      plot_morris_lecar_with_snic_figure_11: 1 curves\r\n  tmpakd4a_0z.sedml:\r\
-  \n    Tasks (1):\r\n      task\r\n    Reports (1):\r\n      report: 4 data sets\r\
-  \n    Plots (1):\r\n      plot: 1 curves\r\n  tmpopab4ttx.sedml:\r\n    Tasks (1):\r\
-  \n      task\r\n    Reports (1):\r\n      report: 4 data sets\r\n    Plots (1):\r\
-  \n      plot: 1 curves\r\n  tmptftefi41.sedml:\r\n    Tasks (1):\r\n      task\r\
-  \n    Reports (1):\r\n      report: 4 data sets\r\n    Plots (1):\r\n      plot:\
-  \ 1 curves\r\n\r\nExecuting SED-ML file 1: HR_Hopf.sedml ...\r\n  Found 1 tasks\
-  \ and 2 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\r\n     \
-  \ `plot`\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing\
+  \n      plot_morris_lecar_with_snic_figure_11: 1 curves\r\n\r\nExecuting SED-ML\
+  \ file 1: HR_Hopf.sedml ...\r\n  Found 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\
+  \n      `task`\r\r\n    Outputs:\r\r\n      `plot`\r\r\n      `report`\r\r\n  Executing\
+  \ task 1: `task`\r\r\n    Executing simulation ... \e[34msucceeded\e[0m\r\r\n  \
+  \  Generating 2 outputs ...\r\r\n      Generating output 1: `report` ... \e[34msucceeded\e\
+  [0m\r\r\n      Generating output 2: `plot` ... \e[34msucceeded\e[0m\r\r\n\r\r\n\
+  \  Executed 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n\
+  \      Skipped: 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 2\r\
+  \r\n      Skipped: 0\r\r\n      Failed: 0\r\r\nExecuting SED-ML file 2: HR_Hopf_2D.sedml\
+  \ ...\r\n  Found 1 tasks and 1 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n\
+  \    Outputs:\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing\
+  \ simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 1 outputs ...\r\r\n  \
+  \    Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed\
+  \ 1 tasks and 1 outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped:\
+  \ 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 1\r\r\n      Skipped:\
+  \ 0\r\r\n      Failed: 0\r\r\nExecuting SED-ML file 3: HR_SNIC.sedml ...\r\n  Found\
+  \ 1 tasks and 2 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\r\
+  \n      `plot`\r\r\n      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing\
   \ simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 2 outputs ...\r\r\n  \
   \    Generating output 1: `report` ... \e[34msucceeded\e[0m\r\r\n      Generating\
   \ output 2: `plot` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and 2\
   \ outputs:\r\r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n \
   \     Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded: 2\r\r\n      Skipped: 0\r\
-  \r\n      Failed: 0\r\r\nExecuting SED-ML file 2: HR_Hopf_2D.sedml ...\r\n  Found\
+  \r\n      Failed: 0\r\r\nExecuting SED-ML file 4: HR_SNIC_2D.sedml ...\r\n  Found\
   \ 1 tasks and 1 outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\r\
   \n      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing simulation ...\
   \ \e[34msucceeded\e[0m\r\r\n    Generating 1 outputs ...\r\r\n      Generating output\
   \ 1: `report` ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and 1 outputs:\r\
   \r\n    Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n      Failed:\
   \ 0\r\r\n    Outputs:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n      Failed:\
-  \ 0\r\r\nExecuting SED-ML file 3: HR_SNIC.sedml ...\r\n  Found 1 tasks and 2 outputs:\r\
-  \r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\r\n      `plot`\r\r\n     \
-  \ `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing simulation ... \e\
-  [34msucceeded\e[0m\r\r\n    Generating 2 outputs ...\r\r\n      Generating output\
-  \ 1: `report` ... \e[34msucceeded\e[0m\r\r\n      Generating output 2: `plot` ...\
-  \ \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and 2 outputs:\r\r\n    Tasks:\r\
-  \r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\
-  \r\n      Succeeded: 2\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\nExecuting\
-  \ SED-ML file 4: HR_SNIC_2D.sedml ...\r\n  Found 1 tasks and 1 outputs:\r\r\n  \
-  \  Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\r\n      `report`\r\r\n  Executing\
-  \ task 1: `task`\r\r\n    Executing simulation ... \e[34msucceeded\e[0m\r\r\n  \
-  \  Generating 1 outputs ...\r\r\n      Generating output 1: `report` ... \e[34msucceeded\e\
-  [0m\r\r\n\r\r\n  Executed 1 tasks and 1 outputs:\r\r\n    Tasks:\r\r\n      Succeeded:\
-  \ 1\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\n    Outputs:\r\r\n      Succeeded:\
-  \ 1\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\nExecuting SED-ML file 5: ML.sedml\
-  \ ...\r\n  Found 2 tasks and 4 outputs:\r\r\n    Tasks:\r\r\n      `task_morris_lecar_with_hopf_bifurcation_figure_12`\r\
-  \r\n      `task_morris_lecar_with_snic_figure_11`\r\r\n    Outputs:\r\r\n      `plot_morris_lecar_with_hopf_bifurcation_figure_12`\r\
+  \ 0\r\r\nExecuting SED-ML file 5: ML.sedml ...\r\n  Found 2 tasks and 4 outputs:\r\
+  \r\n    Tasks:\r\r\n      `task_morris_lecar_with_hopf_bifurcation_figure_12`\r\r\
+  \n      `task_morris_lecar_with_snic_figure_11`\r\r\n    Outputs:\r\r\n      `plot_morris_lecar_with_hopf_bifurcation_figure_12`\r\
   \r\n      `plot_morris_lecar_with_snic_figure_11`\r\r\n      `report_morris_lecar_with_hopf_bifurcation_figure_12`\r\
   \r\n      `report_morris_lecar_with_snic_figure_11`\r\r\n  Executing task 1: `task_morris_lecar_with_snic_figure_11`\r\
   \r\n    Executing simulation ... \e[34msucceeded\e[0m\r\r\n    Generating 4 outputs\
@@ -66,37 +61,13 @@ output: "Archive contains 8 SED-ML documents with 10 models, 8 simulations, 9 ta
   \ ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 2 tasks and 4 outputs:\r\r\n  \
   \  Tasks:\r\r\n      Succeeded: 2\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\
   \n    Outputs:\r\r\n      Succeeded: 4\r\r\n      Skipped: 0\r\r\n      Failed:\
-  \ 0\r\r\nExecuting SED-ML file 6: tmpakd4a_0z.sedml ...\r\n  Found 1 tasks and 2\
-  \ outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\r\n      `plot`\r\
-  \r\n      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing simulation\
-  \ ... \e[34msucceeded\e[0m\r\r\n    Generating 2 outputs ...\r\r\n      Generating\
-  \ output 1: `report` ... \e[34msucceeded\e[0m\r\r\n      Generating output 2: `plot`\
-  \ ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and 2 outputs:\r\r\n  \
-  \  Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\
-  \n    Outputs:\r\r\n      Succeeded: 2\r\r\n      Skipped: 0\r\r\n      Failed:\
-  \ 0\r\r\nExecuting SED-ML file 7: tmpopab4ttx.sedml ...\r\n  Found 1 tasks and 2\
-  \ outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\r\n      `plot`\r\
-  \r\n      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing simulation\
-  \ ... \e[34msucceeded\e[0m\r\r\n    Generating 2 outputs ...\r\r\n      Generating\
-  \ output 1: `report` ... \e[34msucceeded\e[0m\r\r\n      Generating output 2: `plot`\
-  \ ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and 2 outputs:\r\r\n  \
-  \  Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\
-  \n    Outputs:\r\r\n      Succeeded: 2\r\r\n      Skipped: 0\r\r\n      Failed:\
-  \ 0\r\r\nExecuting SED-ML file 8: tmptftefi41.sedml ...\r\n  Found 1 tasks and 2\
-  \ outputs:\r\r\n    Tasks:\r\r\n      `task`\r\r\n    Outputs:\r\r\n      `plot`\r\
-  \r\n      `report`\r\r\n  Executing task 1: `task`\r\r\n    Executing simulation\
-  \ ... \e[34msucceeded\e[0m\r\r\n    Generating 2 outputs ...\r\r\n      Generating\
-  \ output 1: `report` ... \e[34msucceeded\e[0m\r\r\n      Generating output 2: `plot`\
-  \ ... \e[34msucceeded\e[0m\r\r\n\r\r\n  Executed 1 tasks and 2 outputs:\r\r\n  \
-  \  Tasks:\r\r\n      Succeeded: 1\r\r\n      Skipped: 0\r\r\n      Failed: 0\r\r\
-  \n    Outputs:\r\r\n      Succeeded: 2\r\r\n      Skipped: 0\r\r\n      Failed:\
   \ 0\r\r\n\r\nBundling outputs ...\r\nCleaning up ...\r\n\r\n============= SUMMARY\
-  \ =============\r\nExecuted 8 SED documents:\r\n  SED documents (8):\r\n    Succeeded:\
-  \ 8\r\n    Skipped: 0\r\n    Failed: 0\r\n  Tasks (9):\r\n    Succeeded: 9\r\n \
-  \   Skipped: 0\r\n    Failed: 0\r\n  Outputs (16):\r\n    Succeeded: 16\r\n    Skipped:\
+  \ =============\r\nExecuted 5 SED documents:\r\n  SED documents (5):\r\n    Succeeded:\
+  \ 5\r\n    Skipped: 0\r\n    Failed: 0\r\n  Tasks (6):\r\n    Succeeded: 6\r\n \
+  \   Skipped: 0\r\n    Failed: 0\r\n  Outputs (10):\r\n    Succeeded: 10\r\n    Skipped:\
   \ 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 0.938589
+- duration: 0.735173
   exception: null
   location: HR_Hopf.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -116,7 +87,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_Z
       status: SUCCEEDED
-    duration: 0.218203
+    duration: 0.255057
     exception: null
     id: report
     output: ''
@@ -125,7 +96,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.305575
+    duration: 0.27709
     exception: null
     id: plot
     output: ''
@@ -135,7 +106,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000019
-    duration: 0.14778
+    duration: 0.104389
     exception: null
     id: task
     output: ''
@@ -154,7 +125,7 @@ sedDocuments:
       value: '1'
     skipReason: null
     status: SUCCEEDED
-- duration: 0.485292
+- duration: 0.391493
   exception: null
   location: HR_Hopf_2D.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -171,7 +142,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_Y
       status: SUCCEEDED
-    duration: 0.195333
+    duration: 0.18388
     exception: null
     id: report
     output: ''
@@ -181,7 +152,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000019
-    duration: 0.106425
+    duration: 0.103478
     exception: null
     id: task
     output: ''
@@ -200,7 +171,7 @@ sedDocuments:
       value: '1'
     skipReason: null
     status: SUCCEEDED
-- duration: 0.798032
+- duration: 0.803722
   exception: null
   location: HR_SNIC.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -220,7 +191,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_Z
       status: SUCCEEDED
-    duration: 0.224581
+    duration: 0.220122
     exception: null
     id: report
     output: ''
@@ -229,7 +200,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.282074
+    duration: 0.326106
     exception: null
     id: plot
     output: ''
@@ -239,7 +210,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000019
-    duration: 0.118446
+    duration: 0.139754
     exception: null
     id: task
     output: ''
@@ -258,7 +229,7 @@ sedDocuments:
       value: '1'
     skipReason: null
     status: SUCCEEDED
-- duration: 0.369799
+- duration: 0.331469
   exception: null
   location: HR_SNIC_2D.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -275,7 +246,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_Y
       status: SUCCEEDED
-    duration: 0.135894
+    duration: 0.141357
     exception: null
     id: report
     output: ''
@@ -285,7 +256,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000019
-    duration: 0.113403
+    duration: 0.08556
     exception: null
     id: task
     output: ''
@@ -304,7 +275,7 @@ sedDocuments:
       value: '1'
     skipReason: null
     status: SUCCEEDED
-- duration: 2.056371
+- duration: 2.08791
   exception: null
   location: ML.sedml
   output: "  Found 2 tasks and 4 outputs:\r\n    Tasks:\r\n      `task_morris_lecar_with_hopf_bifurcation_figure_12`\r\
@@ -335,7 +306,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_Z_morris_lecar_with_snic_figure_11
       status: SUCCEEDED
-    duration: 0.285106
+    duration: 0.304834
     exception: null
     id: report_morris_lecar_with_snic_figure_11
     output: ''
@@ -344,7 +315,7 @@ sedDocuments:
   - curves:
     - id: curve_1_morris_lecar_with_snic_figure_11
       status: SUCCEEDED
-    duration: 0.343111
+    duration: 0.397272
     exception: null
     id: plot_morris_lecar_with_snic_figure_11
     output: ''
@@ -359,7 +330,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_Z_morris_lecar_with_hopf_bifurcation_figure_12
       status: SUCCEEDED
-    duration: 0.275411
+    duration: 0.27555
     exception: null
     id: report_morris_lecar_with_hopf_bifurcation_figure_12
     output: ''
@@ -368,7 +339,7 @@ sedDocuments:
   - curves:
     - id: curve_1_morris_lecar_with_hopf_bifurcation_figure_12
       status: SUCCEEDED
-    duration: 0.327646
+    duration: 0.316145
     exception: null
     id: plot_morris_lecar_with_hopf_bifurcation_figure_12
     output: ''
@@ -378,7 +349,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000019
-    duration: 0.112374
+    duration: 0.16564
     exception: null
     id: task_morris_lecar_with_snic_figure_11
     output: ''
@@ -400,7 +371,7 @@ sedDocuments:
     skipReason: null
     status: SUCCEEDED
   - algorithm: KISAO_0000019
-    duration: 0.131224
+    duration: 0.113371
     exception: null
     id: task_morris_lecar_with_hopf_bifurcation_figure_12
     output: ''
@@ -413,180 +384,6 @@ sedDocuments:
       value: 1e-07
     - key: atoler
       value: '0.001'
-    - key: t0
-      value: '0.0'
-    - key: dt
-      value: '1.0'
-    - key: njmp
-      value: '1'
-    skipReason: null
-    status: SUCCEEDED
-- duration: 0.885851
-  exception: null
-  location: tmpakd4a_0z.sedml
-  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
-    \n      `plot`\r\n      `report`\r\n  Executing task 1: `task`\r\n    Executing\
-    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
-    \  Generating output 1: `report` ... \e[34msucceeded\e[0m\r\n      Generating\
-    \ output 2: `plot` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 2 outputs:\r\
-    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
-    \    Outputs:\r\n      Succeeded: 2\r\n      Skipped: 0\r\n      Failed: 0\r\n"
-  outputs:
-  - dataSets:
-    - id: data_set_T
-      status: SUCCEEDED
-    - id: data_set_V
-      status: SUCCEEDED
-    - id: data_set_W
-      status: SUCCEEDED
-    - id: data_set_Z
-      status: SUCCEEDED
-    duration: 0.269481
-    exception: null
-    id: report
-    output: ''
-    skipReason: null
-    status: SUCCEEDED
-  - curves:
-    - id: curve_1
-      status: SUCCEEDED
-    duration: 0.335233
-    exception: null
-    id: plot
-    output: ''
-    skipReason: null
-    status: SUCCEEDED
-  skipReason: null
-  status: SUCCEEDED
-  tasks:
-  - algorithm: KISAO_0000019
-    duration: 0.114481
-    exception: null
-    id: task
-    output: ''
-    simulatorDetails:
-    - key: meth
-      value: cvode
-    - key: total
-      value: '10000.0'
-    - key: toler
-      value: '1.0e-7'
-    - key: t0
-      value: '0.0'
-    - key: dt
-      value: '1.0'
-    - key: njmp
-      value: '1'
-    skipReason: null
-    status: SUCCEEDED
-- duration: 0.909554
-  exception: null
-  location: tmpopab4ttx.sedml
-  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
-    \n      `plot`\r\n      `report`\r\n  Executing task 1: `task`\r\n    Executing\
-    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
-    \  Generating output 1: `report` ... \e[34msucceeded\e[0m\r\n      Generating\
-    \ output 2: `plot` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 2 outputs:\r\
-    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
-    \    Outputs:\r\n      Succeeded: 2\r\n      Skipped: 0\r\n      Failed: 0\r\n"
-  outputs:
-  - dataSets:
-    - id: data_set_T
-      status: SUCCEEDED
-    - id: data_set_V
-      status: SUCCEEDED
-    - id: data_set_W
-      status: SUCCEEDED
-    - id: data_set_Z
-      status: SUCCEEDED
-    duration: 0.284399
-    exception: null
-    id: report
-    output: ''
-    skipReason: null
-    status: SUCCEEDED
-  - curves:
-    - id: curve_1
-      status: SUCCEEDED
-    duration: 0.324623
-    exception: null
-    id: plot
-    output: ''
-    skipReason: null
-    status: SUCCEEDED
-  skipReason: null
-  status: SUCCEEDED
-  tasks:
-  - algorithm: KISAO_0000019
-    duration: 0.12234
-    exception: null
-    id: task
-    output: ''
-    simulatorDetails:
-    - key: meth
-      value: cvode
-    - key: total
-      value: '10000.0'
-    - key: toler
-      value: '1.0e-7'
-    - key: t0
-      value: '0.0'
-    - key: dt
-      value: '1.0'
-    - key: njmp
-      value: '1'
-    skipReason: null
-    status: SUCCEEDED
-- duration: 1.029772
-  exception: null
-  location: tmptftefi41.sedml
-  output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
-    \n      `plot`\r\n      `report`\r\n  Executing task 1: `task`\r\n    Executing\
-    \ simulation ... \e[34msucceeded\e[0m\r\n    Generating 2 outputs ...\r\n    \
-    \  Generating output 1: `report` ... \e[34msucceeded\e[0m\r\n      Generating\
-    \ output 2: `plot` ... \e[34msucceeded\e[0m\r\n\r\n  Executed 1 tasks and 2 outputs:\r\
-    \n    Tasks:\r\n      Succeeded: 1\r\n      Skipped: 0\r\n      Failed: 0\r\n\
-    \    Outputs:\r\n      Succeeded: 2\r\n      Skipped: 0\r\n      Failed: 0\r\n"
-  outputs:
-  - dataSets:
-    - id: data_set_T
-      status: SUCCEEDED
-    - id: data_set_V
-      status: SUCCEEDED
-    - id: data_set_W
-      status: SUCCEEDED
-    - id: data_set_Z
-      status: SUCCEEDED
-    duration: 0.26075
-    exception: null
-    id: report
-    output: ''
-    skipReason: null
-    status: SUCCEEDED
-  - curves:
-    - id: curve_1
-      status: SUCCEEDED
-    duration: 0.460591
-    exception: null
-    id: plot
-    output: ''
-    skipReason: null
-    status: SUCCEEDED
-  skipReason: null
-  status: SUCCEEDED
-  tasks:
-  - algorithm: KISAO_0000019
-    duration: 0.116431
-    exception: null
-    id: task
-    output: ''
-    simulatorDetails:
-    - key: meth
-      value: cvode
-    - key: total
-      value: '10000.0'
-    - key: toler
-      value: '1.0e-7'
     - key: t0
       value: '0.0'
     - key: dt

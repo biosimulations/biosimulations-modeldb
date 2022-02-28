@@ -1,4 +1,4 @@
-duration: 218.821164
+duration: 220.954838
 exception: null
 output: "Archive contains 5 SED-ML documents with 5 models, 5 simulations, 5 tasks,\
   \ 5 reports, and 5 plots:\r\n  tenStim1electr.sedml:\r\n    Tasks (1):\r\n     \
@@ -57,7 +57,7 @@ output: "Archive contains 5 SED-ML documents with 5 models, 5 simulations, 5 tas
   \   Failed: 0\r\n  Outputs (10):\r\n    Succeeded: 10\r\n    Skipped: 0\r\n    Failed:\
   \ 0\r\n\r\n"
 sedDocuments:
-- duration: 49.827509
+- duration: 50.254363
   exception: null
   location: tenStim1electr.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -321,7 +321,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_Y1
       status: SUCCEEDED
-    duration: 5.257002
+    duration: 5.371229
     exception: null
     id: report
     output: ''
@@ -330,7 +330,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.327796
+    duration: 0.329846
     exception: null
     id: plot
     output: ''
@@ -340,7 +340,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000672
-    duration: 43.730419
+    duration: 44.041822
     exception: null
     id: task
     output: ''
@@ -357,7 +357,7 @@ sedDocuments:
       value: '1'
     skipReason: null
     status: SUCCEEDED
-- duration: 40.721682
+- duration: 41.077562
   exception: null
   location: tenStim2electr_v1.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -631,7 +631,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_Y2
       status: SUCCEEDED
-    duration: 5.69381
+    duration: 5.629716
     exception: null
     id: report
     output: ''
@@ -640,7 +640,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.306786
+    duration: 0.294001
     exception: null
     id: plot
     output: ''
@@ -650,7 +650,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000672
-    duration: 34.30581
+    duration: 34.742617
     exception: null
     id: task
     output: ''
@@ -667,7 +667,7 @@ sedDocuments:
       value: '1'
     skipReason: null
     status: SUCCEEDED
-- duration: 41.936028
+- duration: 42.127133
   exception: null
   location: tenStim2electr_v2.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -941,7 +941,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_Y2
       status: SUCCEEDED
-    duration: 5.368089
+    duration: 5.709803
     exception: null
     id: report
     output: ''
@@ -950,7 +950,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.284019
+    duration: 0.291601
     exception: null
     id: plot
     output: ''
@@ -960,7 +960,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000672
-    duration: 35.873637
+    duration: 35.575852
     exception: null
     id: task
     output: ''
@@ -977,7 +977,7 @@ sedDocuments:
       value: '1'
     skipReason: null
     status: SUCCEEDED
-- duration: 41.962416
+- duration: 42.580738
   exception: null
   location: tenStim3electr_v1.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -1261,7 +1261,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_Y3
       status: SUCCEEDED
-    duration: 5.624676
+    duration: 5.734984
     exception: null
     id: report
     output: ''
@@ -1270,7 +1270,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.281351
+    duration: 0.304103
     exception: null
     id: plot
     output: ''
@@ -1280,7 +1280,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000672
-    duration: 35.619839
+    duration: 36.135014
     exception: null
     id: task
     output: ''
@@ -1297,7 +1297,7 @@ sedDocuments:
       value: '1'
     skipReason: null
     status: SUCCEEDED
-- duration: 42.696237
+- duration: 43.198743
   exception: null
   location: tenStim3electr_v2.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -1581,7 +1581,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_Y3
       status: SUCCEEDED
-    duration: 6.097982
+    duration: 5.770093
     exception: null
     id: report
     output: ''
@@ -1590,7 +1590,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.29122
+    duration: 0.334456
     exception: null
     id: plot
     output: ''
@@ -1600,7 +1600,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000672
-    duration: 35.784115
+    duration: 36.679208
     exception: null
     id: task
     output: ''

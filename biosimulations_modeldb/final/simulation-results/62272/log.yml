@@ -1,4 +1,4 @@
-duration: 1.135032
+duration: 1.073306
 exception: null
 output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 1 plots:\r\n  GH3_Katp.sedml:\r\n    Tasks (1):\r\n      task\r\
@@ -17,7 +17,7 @@ output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tas
   \ 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (2):\r\n    Succeeded: 2\r\n\
   \    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 1.022699
+- duration: 0.983181
   exception: null
   location: GH3_Katp.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -47,7 +47,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V
       status: SUCCEEDED
-    duration: 0.487154
+    duration: 0.443172
     exception: null
     id: report
     output: ''
@@ -56,7 +56,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.292299
+    duration: 0.257698
     exception: null
     id: plot
     output: ''
@@ -66,7 +66,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000019
-    duration: 0.175685
+    duration: 0.177995
     exception: null
     id: task
     output: ''

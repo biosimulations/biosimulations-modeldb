@@ -1,4 +1,4 @@
-duration: 1.456308
+duration: 1.528709
 exception: null
 output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 0 plots:\r\n  Yu_et_al_04_R15_model.sedml:\r\n    Tasks (1):\r\n\
@@ -15,7 +15,7 @@ output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tas
   \  Tasks (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs\
   \ (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 1.341908
+- duration: 1.408174
   exception: null
   location: Yu_et_al_04_R15_model.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -66,7 +66,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V
       status: SUCCEEDED
-    duration: 0.923382
+    duration: 0.980282
     exception: null
     id: report
     output: ''
@@ -76,7 +76,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000019
-    duration: 0.317413
+    duration: 0.336976
     exception: null
     id: task
     output: ''

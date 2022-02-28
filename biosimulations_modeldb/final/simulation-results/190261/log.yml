@@ -1,4 +1,4 @@
-duration: 4.034683
+duration: 4.140329
 exception: null
 output: "Archive contains 4 SED-ML documents with 4 models, 4 simulations, 4 tasks,\
   \ 4 reports, and 4 plots:\r\n  2D-BaseModel-PLOS2012.sedml:\r\n    Tasks (1):\r\n\
@@ -47,7 +47,7 @@ output: "Archive contains 4 SED-ML documents with 4 models, 4 simulations, 4 tas
   \    Succeeded: 4\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (8):\r\n    Succeeded:\
   \ 8\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 0.795629
+- duration: 0.799102
   exception: null
   location: 2D-BaseModel-PLOS2012.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -65,7 +65,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_W
       status: SUCCEEDED
-    duration: 0.213745
+    duration: 0.212243
     exception: null
     id: report
     output: ''
@@ -74,7 +74,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.287386
+    duration: 0.29679
     exception: null
     id: plot
     output: ''
@@ -84,7 +84,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000030
-    duration: 0.200057
+    duration: 0.158363
     exception: null
     id: task
     output: ''
@@ -101,7 +101,7 @@ sedDocuments:
       value: '20'
     skipReason: null
     status: SUCCEEDED
-- duration: 0.96379
+- duration: 0.955578
   exception: null
   location: 3D-BaseModel +Noise+Adaptation-PLOS2012.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -121,7 +121,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_Z
       status: SUCCEEDED
-    duration: 0.288749
+    duration: 0.349231
     exception: null
     id: report
     output: ''
@@ -130,7 +130,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.298651
+    duration: 0.336616
     exception: null
     id: plot
     output: ''
@@ -140,7 +140,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000030
-    duration: 0.230851
+    duration: 0.183663
     exception: null
     id: task
     output: ''
@@ -157,7 +157,7 @@ sedDocuments:
       value: '20'
     skipReason: null
     status: SUCCEEDED
-- duration: 0.920429
+- duration: 0.909745
   exception: null
   location: 3D-BaseModel+SlowNaInactivation-PLOS2012.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -177,7 +177,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_W
       status: SUCCEEDED
-    duration: 0.256938
+    duration: 0.305931
     exception: null
     id: report
     output: ''
@@ -186,7 +186,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.300688
+    duration: 0.296926
     exception: null
     id: plot
     output: ''
@@ -196,7 +196,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000030
-    duration: 0.232459
+    duration: 0.189296
     exception: null
     id: task
     output: ''
@@ -213,7 +213,7 @@ sedDocuments:
       value: '20'
     skipReason: null
     status: SUCCEEDED
-- duration: 0.932847
+- duration: 0.958599
   exception: null
   location: 3D-UngroupedModel-PLOS2012.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -235,7 +235,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_YNA
       status: SUCCEEDED
-    duration: 0.291184
+    duration: 0.319253
     exception: null
     id: report
     output: ''
@@ -244,7 +244,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.262312
+    duration: 0.303817
     exception: null
     id: plot
     output: ''
@@ -254,7 +254,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000030
-    duration: 0.239352
+    duration: 0.241314
     exception: null
     id: task
     output: ''

@@ -1,4 +1,4 @@
-duration: 1.01398
+duration: 1.101722
 exception: null
 output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 0 plots:\r\n  Neuron_OXC.sedml:\r\n    Tasks (1):\r\n      task\r\
@@ -15,7 +15,7 @@ output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tas
   \  Tasks (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs\
   \ (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 0.931004
+- duration: 0.995838
   exception: null
   location: Neuron_OXC.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -54,7 +54,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_VS
       status: SUCCEEDED
-    duration: 0.669184
+    duration: 0.670534
     exception: null
     id: report
     output: ''
@@ -64,7 +64,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000019
-    duration: 0.178726
+    duration: 0.220559
     exception: null
     id: task
     output: ''

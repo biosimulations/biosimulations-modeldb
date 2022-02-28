@@ -1,4 +1,4 @@
-duration: 125.324993
+duration: 126.316472
 exception: null
 output: "Archive contains 2 SED-ML documents with 5 models, 2 simulations, 3 tasks,\
   \ 3 reports, and 3 plots:\r\n  rubin_terman_dbs.sedml:\r\n    Tasks (1):\r\n   \
@@ -42,7 +42,7 @@ output: "Archive contains 2 SED-ML documents with 5 models, 2 simulations, 3 tas
   \  Tasks (3):\r\n    Succeeded: 3\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs\
   \ (6):\r\n    Succeeded: 6\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 40.047613
+- duration: 40.564207
   exception: null
   location: rubin_terman_dbs.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task_normal_with_periodic_dbs_stimulation`\r\
@@ -736,7 +736,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_Z2_normal_with_periodic_dbs_stimulation
       status: SUCCEEDED
-    duration: 17.783699
+    duration: 18.248463
     exception: null
     id: report_normal_with_periodic_dbs_stimulation
     output: ''
@@ -745,7 +745,7 @@ sedDocuments:
   - curves:
     - id: curve_1_normal_with_periodic_dbs_stimulation
       status: SUCCEEDED
-    duration: 0.330749
+    duration: 0.398987
     exception: null
     id: plot_normal_with_periodic_dbs_stimulation
     output: ''
@@ -755,7 +755,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000672
-    duration: 21.156211
+    duration: 21.134909
     exception: null
     id: task_normal_with_periodic_dbs_stimulation
     output: ''
@@ -780,7 +780,7 @@ sedDocuments:
       value: '1'
     skipReason: null
     status: SUCCEEDED
-- duration: 83.617528
+- duration: 83.939057
   exception: null
   location: rubin_terman_pd.sedml
   output: "  Found 2 tasks and 4 outputs:\r\n    Tasks:\r\n      `task_normal_figure_5c`\r\
@@ -1477,7 +1477,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_Z2_normal_figure_5c
       status: SUCCEEDED
-    duration: 17.57552
+    duration: 18.100901
     exception: null
     id: report_normal_figure_5c
     output: ''
@@ -1486,7 +1486,7 @@ sedDocuments:
   - curves:
     - id: curve_1_normal_figure_5c
       status: SUCCEEDED
-    duration: 0.413407
+    duration: 0.410958
     exception: null
     id: plot_normal_figure_5c
     output: ''
@@ -2167,7 +2167,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_Z2_parkinsons_disease_figure_5d
       status: SUCCEEDED
-    duration: 18.114662
+    duration: 17.86057
     exception: null
     id: report_parkinsons_disease_figure_5d
     output: ''
@@ -2176,7 +2176,7 @@ sedDocuments:
   - curves:
     - id: curve_1_parkinsons_disease_figure_5d
       status: SUCCEEDED
-    duration: 0.396866
+    duration: 0.308749
     exception: null
     id: plot_parkinsons_disease_figure_5d
     output: ''
@@ -2186,7 +2186,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000672
-    duration: 22.541119
+    duration: 22.536005
     exception: null
     id: task_normal_figure_5c
     output: ''
@@ -2212,7 +2212,7 @@ sedDocuments:
     skipReason: null
     status: SUCCEEDED
   - algorithm: KISAO_0000672
-    duration: 22.781937
+    duration: 22.795034
     exception: null
     id: task_parkinsons_disease_figure_5d
     output: ''

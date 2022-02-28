@@ -1,4 +1,4 @@
-duration: 2.098706
+duration: 2.14536
 exception: null
 output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 1 plots:\r\n  Fig. 2/B/Bazh_PY_altKCC2_Ko_Cli_min_burst_Ko_Cli_fix_NEW.sedml:\r\
@@ -17,7 +17,7 @@ output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tas
   \    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (2):\r\n    Succeeded:\
   \ 2\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 1.74592
+- duration: 1.806101
   exception: null
   location: Fig. 2/B/Bazh_PY_altKCC2_Ko_Cli_min_burst_Ko_Cli_fix_NEW.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -65,7 +65,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_VS
       status: SUCCEEDED
-    duration: 0.812454
+    duration: 0.854278
     exception: null
     id: report
     output: ''
@@ -74,7 +74,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.269917
+    duration: 0.303541
     exception: null
     id: plot
     output: ''
@@ -84,7 +84,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000030
-    duration: 0.560105
+    duration: 0.570544
     exception: null
     id: task
     output: ''

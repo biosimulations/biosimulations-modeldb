@@ -1,4 +1,4 @@
-duration: 2.215155
+duration: 1.963696
 exception: null
 output: "Archive contains 2 SED-ML documents with 2 models, 2 simulations, 2 tasks,\
   \ 2 reports, and 0 plots:\r\n  One_full_cell_fixed_Ko_and_Nai.sedml:\r\n    Tasks\
@@ -24,7 +24,7 @@ output: "Archive contains 2 SED-ML documents with 2 models, 2 simulations, 2 tas
   \ 2\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (2):\r\n    Succeeded: 2\r\n\
   \    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 0.556885
+- duration: 0.469433
   exception: null
   location: One_full_cell_fixed_Ko_and_Nai.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -43,7 +43,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V
       status: SUCCEEDED
-    duration: 0.243776
+    duration: 0.208253
     exception: null
     id: report
     output: ''
@@ -53,7 +53,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 0.208839
+    duration: 0.173187
     exception: null
     id: task
     output: ''
@@ -70,7 +70,7 @@ sedDocuments:
       value: '2'
     skipReason: null
     status: SUCCEEDED
-- duration: 1.443999
+- duration: 1.312499
   exception: null
   location: One_full_cell_with_dyn_ion_conc.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -93,7 +93,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V
       status: SUCCEEDED
-    duration: 0.388438
+    duration: 0.344264
     exception: null
     id: report
     output: ''
@@ -103,7 +103,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 0.932707
+    duration: 0.850366
     exception: null
     id: task
     output: ''

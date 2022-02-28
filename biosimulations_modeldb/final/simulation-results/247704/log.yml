@@ -1,4 +1,4 @@
-duration: 25.735985
+duration: 26.723537
 exception: null
 output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 1 plots:\r\n  TC_RT_CT_twodelaymodel.sedml:\r\n    Tasks (1):\r\
@@ -17,7 +17,7 @@ output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tas
   \    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (2):\r\n    Succeeded:\
   \ 2\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 25.580451
+- duration: 26.595713
   exception: null
   location: TC_RT_CT_twodelaymodel.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -93,7 +93,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_VTC
       status: SUCCEEDED
-    duration: 1.385772
+    duration: 1.628661
     exception: null
     id: report
     output: ''
@@ -106,7 +106,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: curve_3
       status: SUCCEEDED
-    duration: 0.502669
+    duration: 0.55515
     exception: null
     id: plot
     output: ''
@@ -116,7 +116,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 23.579893
+    duration: 24.307776
     exception: null
     id: task
     output: ''

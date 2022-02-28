@@ -1,4 +1,4 @@
-duration: 0.798315
+duration: 0.76974
 exception: null
 output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 1 plots:\r\n  afterdischarge-Prescott.sedml:\r\n    Tasks (1):\r\
@@ -17,7 +17,7 @@ output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tas
   \    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (2):\r\n    Succeeded:\
   \ 2\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 0.653024
+- duration: 0.655156
   exception: null
   location: afterdischarge-Prescott.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -45,7 +45,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_Z
       status: SUCCEEDED
-    duration: 0.180005
+    duration: 0.183395
     exception: null
     id: report
     output: ''
@@ -54,7 +54,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.222101
+    duration: 0.231092
     exception: null
     id: plot
     output: ''
@@ -64,7 +64,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000030
-    duration: 0.142564
+    duration: 0.142225
     exception: null
     id: task
     output: ''

@@ -1,4 +1,4 @@
-duration: 2.641275
+duration: 2.649735
 exception: null
 output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 1 plots:\r\n  DAandGABAneurons.sedml:\r\n    Tasks (1):\r\n   \
@@ -17,7 +17,7 @@ output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tas
   \ 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (2):\r\n    Succeeded: 2\r\n\
   \    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 2.496387
+- duration: 2.539065
   exception: null
   location: DAandGABAneurons.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -51,7 +51,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_VGABA
       status: SUCCEEDED
-    duration: 0.493613
+    duration: 0.55084
     exception: null
     id: report
     output: ''
@@ -60,7 +60,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.318472
+    duration: 0.319786
     exception: null
     id: plot
     output: ''
@@ -70,7 +70,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000668
-    duration: 1.557931
+    duration: 1.575473
     exception: null
     id: task
     output: ''

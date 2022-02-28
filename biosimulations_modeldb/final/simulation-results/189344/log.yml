@@ -1,4 +1,4 @@
-duration: 0.669442
+duration: 0.689894
 exception: null
 output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 0 plots:\r\n  ca_bifurcation_xpp_TH.sedml:\r\n    Tasks (1):\r\n\
@@ -15,7 +15,7 @@ output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tas
   \  Tasks (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs\
   \ (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 0.599063
+- duration: 0.602709
   exception: null
   location: ca_bifurcation_xpp_TH.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -36,7 +36,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_H
       status: SUCCEEDED
-    duration: 0.255115
+    duration: 0.26294
     exception: null
     id: report
     output: ''
@@ -46,7 +46,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 0.222062
+    duration: 0.236231
     exception: null
     id: task
     output: ''

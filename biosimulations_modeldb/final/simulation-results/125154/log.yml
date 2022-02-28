@@ -1,4 +1,4 @@
-duration: 30.089307
+duration: 29.049665
 exception: null
 output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 0 plots:\r\n  hh200x50-LEV01.sedml:\r\n    Tasks (1):\r\n     \
@@ -15,7 +15,7 @@ output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tas
   \  Tasks (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs\
   \ (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 26.981675
+- duration: 26.238531
   exception: null
   location: hh200x50-LEV01.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -3528,7 +3528,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_VI49
       status: SUCCEEDED
-    duration: 15.1181
+    duration: 14.896436
     exception: null
     id: report
     output: ''
@@ -3538,7 +3538,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000030
-    duration: 10.267318
+    duration: 9.981253
     exception: null
     id: task
     output: ''

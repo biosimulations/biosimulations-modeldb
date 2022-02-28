@@ -1,4 +1,4 @@
-duration: 0.63081
+duration: 0.590361
 exception: null
 output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 0 plots:\r\n  Cressman_et_al_JCNS_1_reducedmodel.sedml:\r\n   \
@@ -16,7 +16,7 @@ output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tas
   \   Skipped: 0\r\n    Failed: 0\r\n  Outputs (1):\r\n    Succeeded: 1\r\n    Skipped:\
   \ 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 0.536439
+- duration: 0.508381
   exception: null
   location: Cressman_et_al_JCNS_1_reducedmodel.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -33,7 +33,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_NAI
       status: SUCCEEDED
-    duration: 0.180329
+    duration: 0.182579
     exception: null
     id: report
     output: ''
@@ -43,7 +43,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 0.237917
+    duration: 0.235295
     exception: null
     id: task
     output: ''

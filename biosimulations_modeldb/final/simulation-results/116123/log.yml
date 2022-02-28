@@ -1,4 +1,4 @@
-duration: 2.512494
+duration: 2.428478
 exception: null
 output: "Archive contains 2 SED-ML documents with 2 models, 2 simulations, 2 tasks,\
   \ 2 reports, and 2 plots:\r\n  2d-ML.sedml:\r\n    Tasks (1):\r\n      task\r\n\
@@ -26,7 +26,7 @@ output: "Archive contains 2 SED-ML documents with 2 models, 2 simulations, 2 tas
   \    Succeeded: 2\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (4):\r\n    Succeeded:\
   \ 4\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 1.075776
+- duration: 0.990074
   exception: null
   location: 2d-ML.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -44,7 +44,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_W
       status: SUCCEEDED
-    duration: 0.243074
+    duration: 0.197964
     exception: null
     id: report
     output: ''
@@ -53,7 +53,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.29136
+    duration: 0.277261
     exception: null
     id: plot
     output: ''
@@ -63,7 +63,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000030
-    duration: 0.441367
+    duration: 0.419579
     exception: null
     id: task
     output: ''
@@ -80,7 +80,7 @@ sedDocuments:
       value: '100'
     skipReason: null
     status: SUCCEEDED
-- duration: 1.21787
+- duration: 1.258282
   exception: null
   location: 3d-ML.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -100,7 +100,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_Z
       status: SUCCEEDED
-    duration: 0.242198
+    duration: 0.250246
     exception: null
     id: report
     output: ''
@@ -109,7 +109,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.279218
+    duration: 0.293598
     exception: null
     id: plot
     output: ''
@@ -119,7 +119,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000030
-    duration: 0.594318
+    duration: 0.599645
     exception: null
     id: task
     output: ''

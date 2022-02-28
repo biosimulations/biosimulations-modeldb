@@ -1,4 +1,4 @@
-duration: 22.975849
+duration: 23.315265
 exception: null
 output: "Archive contains 2 SED-ML documents with 2 models, 2 simulations, 2 tasks,\
   \ 2 reports, and 0 plots:\r\n  six_sub_protein_cascade_graupner2007_lower_branch.sedml:\r\
@@ -25,7 +25,7 @@ output: "Archive contains 2 SED-ML documents with 2 models, 2 simulations, 2 tas
   \    Succeeded: 2\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (2):\r\n    Succeeded:\
   \ 2\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 11.574409
+- duration: 11.471117
   exception: null
   location: six_sub_protein_cascade_graupner2007_lower_branch.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -72,7 +72,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_TA
       status: SUCCEEDED
-    duration: 0.777508
+    duration: 0.771177
     exception: null
     id: report
     output: ''
@@ -82,7 +82,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 10.715997
+    duration: 10.577615
     exception: null
     id: task
     output: ''
@@ -99,7 +99,7 @@ sedDocuments:
       value: '0.0'
     skipReason: null
     status: SUCCEEDED
-- duration: 11.224439
+- duration: 11.638346
   exception: null
   location: six_sub_protein_cascade_graupner2007_upper_branch.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -146,7 +146,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_TA
       status: SUCCEEDED
-    duration: 0.822392
+    duration: 0.847519
     exception: null
     id: report
     output: ''
@@ -156,7 +156,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 10.292117
+    duration: 10.627684
     exception: null
     id: task
     output: ''

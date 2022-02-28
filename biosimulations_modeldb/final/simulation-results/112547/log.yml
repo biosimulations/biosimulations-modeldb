@@ -1,4 +1,4 @@
-duration: 0.936563
+duration: 0.876701
 exception: null
 output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 1 plots:\r\n  Ca-Oscil-Astrocyte.sedml:\r\n    Tasks (1):\r\n \
@@ -17,7 +17,7 @@ output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tas
   \ 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (2):\r\n    Succeeded: 2\r\n\
   \    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 0.809853
+- duration: 0.780401
   exception: null
   location: Ca-Oscil-Astrocyte.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -37,7 +37,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_Z
       status: SUCCEEDED
-    duration: 0.222865
+    duration: 0.218264
     exception: null
     id: report
     output: ''
@@ -46,7 +46,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.285907
+    duration: 0.30045
     exception: null
     id: plot
     output: ''
@@ -56,7 +56,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000030
-    duration: 0.190784
+    duration: 0.182462
     exception: null
     id: task
     output: ''

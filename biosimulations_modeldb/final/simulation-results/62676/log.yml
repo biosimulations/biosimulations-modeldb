@@ -1,4 +1,4 @@
-duration: 1.272456
+duration: 1.216279
 exception: null
 output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 1 plots:\r\n  Ik_1_sim.sedml:\r\n    Tasks (1):\r\n      task\r\
@@ -17,7 +17,7 @@ output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tas
   \ 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (2):\r\n    Succeeded: 2\r\n\
   \    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 1.149239
+- duration: 1.109115
   exception: null
   location: Ik_1_sim.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -53,7 +53,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_O1
       status: SUCCEEDED
-    duration: 0.543324
+    duration: 0.543229
     exception: null
     id: report
     output: ''
@@ -62,7 +62,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.297441
+    duration: 0.286838
     exception: null
     id: plot
     output: ''
@@ -72,7 +72,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000030
-    duration: 0.208953
+    duration: 0.194854
     exception: null
     id: task
     output: ''

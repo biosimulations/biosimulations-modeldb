@@ -1,4 +1,4 @@
-duration: 1.047332
+duration: 1.017098
 exception: null
 output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 0 plots:\r\n  Neuron_EUG01.sedml:\r\n    Tasks (1):\r\n      task\r\
@@ -15,7 +15,7 @@ output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tas
   \  Tasks (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs\
   \ (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 0.948051
+- duration: 0.911215
   exception: null
   location: Neuron_EUG01.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -50,7 +50,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_VS
       status: SUCCEEDED
-    duration: 0.615791
+    duration: 0.587716
     exception: null
     id: report
     output: ''
@@ -60,7 +60,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000019
-    duration: 0.185191
+    duration: 0.200612
     exception: null
     id: task
     output: ''

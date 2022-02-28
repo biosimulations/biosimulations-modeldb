@@ -1,4 +1,4 @@
-duration: 1.231807
+duration: 1.241245
 exception: null
 output: "Archive contains 3 SED-ML documents with 3 models, 3 simulations, 3 tasks,\
   \ 3 reports, and 0 plots:\r\n  NNF.sedml:\r\n    Tasks (1):\r\n      task\r\n  \
@@ -31,7 +31,7 @@ output: "Archive contains 3 SED-ML documents with 3 models, 3 simulations, 3 tas
   \   Skipped: 0\r\n    Failed: 0\r\n  Outputs (3):\r\n    Succeeded: 3\r\n    Skipped:\
   \ 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 0.310496
+- duration: 0.39491
   exception: null
   location: NNF.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -54,7 +54,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_R
       status: SUCCEEDED
-    duration: 0.060416
+    duration: 0.076097
     exception: null
     id: report
     output: ''
@@ -64,7 +64,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000668
-    duration: 0.137612
+    duration: 0.182801
     exception: null
     id: task
     output: ''
@@ -81,7 +81,7 @@ sedDocuments:
       value: '1'
     skipReason: null
     status: SUCCEEDED
-- duration: 0.299749
+- duration: 0.27168
   exception: null
   location: PNF.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -104,7 +104,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_R
       status: SUCCEEDED
-    duration: 0.062142
+    duration: 0.058777
     exception: null
     id: report
     output: ''
@@ -114,7 +114,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000668
-    duration: 0.132671
+    duration: 0.113016
     exception: null
     id: task
     output: ''
@@ -131,7 +131,7 @@ sedDocuments:
       value: '1'
     skipReason: null
     status: SUCCEEDED
-- duration: 0.309795
+- duration: 0.294911
   exception: null
   location: SNF.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -150,7 +150,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_PC
       status: SUCCEEDED
-    duration: 0.060647
+    duration: 0.068051
     exception: null
     id: report
     output: ''
@@ -160,7 +160,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000668
-    duration: 0.126
+    duration: 0.123786
     exception: null
     id: task
     output: ''

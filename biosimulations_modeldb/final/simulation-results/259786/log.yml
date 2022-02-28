@@ -1,4 +1,4 @@
-duration: 4.824102
+duration: 4.487846
 exception: null
 output: "Archive contains 3 SED-ML documents with 3 models, 3 simulations, 3 tasks,\
   \ 3 reports, and 3 plots:\r\n  3p/3p.sedml:\r\n    Tasks (1):\r\n      task\r\n\
@@ -36,7 +36,7 @@ output: "Archive contains 3 SED-ML documents with 3 models, 3 simulations, 3 tas
   \ 3\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (6):\r\n    Succeeded: 6\r\n\
   \    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 1.279948
+- duration: 1.243874
   exception: null
   location: 3p/3p.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -70,7 +70,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V3
       status: SUCCEEDED
-    duration: 0.535288
+    duration: 0.543753
     exception: null
     id: report
     output: ''
@@ -79,7 +79,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.314385
+    duration: 0.318578
     exception: null
     id: plot
     output: ''
@@ -89,7 +89,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000672
-    duration: 0.299911
+    duration: 0.264787
     exception: null
     id: task
     output: ''
@@ -106,7 +106,7 @@ sedDocuments:
       value: '1'
     skipReason: null
     status: SUCCEEDED
-- duration: 1.550693
+- duration: 1.434288
   exception: null
   location: 4p-e/4p-e.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -146,7 +146,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V4
       status: SUCCEEDED
-    duration: 0.658066
+    duration: 0.658193
     exception: null
     id: report
     output: ''
@@ -155,7 +155,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.370607
+    duration: 0.299826
     exception: null
     id: plot
     output: ''
@@ -165,7 +165,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000672
-    duration: 0.387806
+    duration: 0.335893
     exception: null
     id: task
     output: ''
@@ -182,7 +182,7 @@ sedDocuments:
       value: '1'
     skipReason: null
     status: SUCCEEDED
-- duration: 1.593673
+- duration: 1.398171
   exception: null
   location: 4p-r/4p-r.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -222,7 +222,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V4
       status: SUCCEEDED
-    duration: 0.668086
+    duration: 0.667389
     exception: null
     id: report
     output: ''
@@ -231,7 +231,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.383306
+    duration: 0.296772
     exception: null
     id: plot
     output: ''
@@ -241,7 +241,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000672
-    duration: 0.387436
+    duration: 0.331741
     exception: null
     id: task
     output: ''
