@@ -4,6 +4,7 @@ from ._version import __version__
 from biosimulators_utils.config import get_config as get_biosimulators_config
 import biosimulators_utils.biosimulations.utils
 import cement
+import collections
 import requests
 import sys
 import yaml
@@ -166,23 +167,25 @@ class PublishRunsController(cement.Controller):
             projects = yaml.load(file, Loader=yaml.Loader)
 
         # check status
-        failures = []
+        failures = collections.OrderedDict()
         for id, project in projects.items():
             if project['runbiosimulationsId']:
                 response = requests.get(biosimulators_config.BIOSIMULATIONS_API_ENDPOINT + 'runs/' + project['runbiosimulationsId'])
                 response.raise_for_status()
                 project['runbiosimulationsStatus'] = response.json()['status']
                 if project['runbiosimulationsStatus'] != 'SUCCEEDED':
-                    failures.append('{}: {}'.format(id, project['runbiosimulationsStatus']))
+                    failures[id] = '{}: {}'.format(id, project['runbiosimulationsStatus'])
             else:
-                failures.append('{}: {}'.format(id, 'not submitted'))
-        if failures:
-            raise SystemExit('{} simulation runs did not succeed:\n  {}'.format(len(failures), '\n  '.join(sorted(failures))))
+                failures[id] = '{}: {}'.format(id, 'not submitted')
+        if len(failures):
+            raise SystemExit('{} simulation runs did not succeed:\n  {}'.format(len(failures), '\n  '.join(sorted(failures.values()))))
 
         # login to publish projects
         auth_headers = {
             'Authorization': biosimulators_utils.biosimulations.utils.get_authorization_for_client(
-                config['biosimulations_api_client_id'], config['biosimulations_api_client_secret'])
+                config['biosimulations_api_client_id'],
+                config['biosimulations_api_client_secret'],
+            )
         }
 
         # publish projects
