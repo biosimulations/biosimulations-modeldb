@@ -122,7 +122,10 @@ def get_project(id, config):
     elif config['update_project_sources']:
         project_repo = git.Repo(project_dirname)
         project_repo.head.reset(index=True, working_tree=True)
-        project_repo.remotes.origin.pull()
+        # project_repo.remotes.origin.pull()
+
+        raw_project_repo = git.Git(project_dirname)
+        raw_project_repo.pull('origin', project_repo.branches[0].name)
 
     # return the details of the project
     return project
