@@ -29,6 +29,7 @@ def get_config(
         simulate_projects=True,
         publish_projects=True,
         entrez_delay=5.,
+        max_number_of_simulation_steps=1000,
         bucket_endpoint=None,
         bucket_name=None,
         bucket_access_key_id=None,
@@ -59,6 +60,7 @@ def get_config(
         simulate_projects (:obj:`bool`, optional): whether to simulate projects; used for testing
         publish_projects (:obj:`bool`, optional): whether to pushlish projects; used for testing
         entrez_delay (:obj:`float`, optional): delay in between Entrez queries
+        max_number_of_simulation_steps (:obj:`int`, optional): maximum number of simulation steps for generated SED-ML simulations
         bucket_endpoint (:obj:`str`, optional): endpoint for storage bucket
         bucket_name (:obj:`str`, optional): name of storage bucket
         bucket_access_key_id (:obj:`str`, optional): key id for storage bucket
@@ -147,6 +149,7 @@ def get_config(
         'simulate_projects': simulate_projects,
         'publish_projects': publish_projects,
         'entrez_delay': entrez_delay,
+        'max_number_of_simulation_steps': max_number_of_simulation_steps,
         'bucket_endpoint': bucket_endpoint,
         'bucket_name': bucket_name,
         'bucket_access_key_id': bucket_access_key_id,

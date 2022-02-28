@@ -412,7 +412,8 @@ def export_project_metadata_for_project_to_omex_metadata(project, description, t
         raise ValueError('The metadata is not valid:\n  {}'.format(flatten_nested_list_of_strings(errors).replace('\n', '\n  ')))
 
 
-def build_combine_archive_for_project(id, source_project_dirname, final_projects_dirname, archive_filename, extra_contents):
+def build_combine_archive_for_project(id, source_project_dirname, final_projects_dirname, archive_filename, extra_contents,
+                                      max_number_of_simulation_steps=1000):
     """ Build a COMBINE/OMEX archive for a project including a SED-ML file
 
     Args:
@@ -422,6 +423,7 @@ def build_combine_archive_for_project(id, source_project_dirname, final_projects
         archive_filename (:obj:`str`): path to save the COMBINE/OMEX archive
         extra_contents (:obj:`dict`): dictionary that maps the local path of each additional file that
             should be included in the arrchive to its intended location within the archive and format
+        max_number_of_simulation_steps (:obj:`int`, optional): maximum number of simulation steps for generated SED-ML simulations
 
     Returns:
         :obj:`dict`: dictionary that maps the location of each SED document to the document
@@ -452,7 +454,8 @@ def build_combine_archive_for_project(id, source_project_dirname, final_projects
     for model_filename in model_filenames:
         model_location = os.path.relpath(model_filename, source_project_dirname)
 
-        sed_doc = create_sedml_for_xpp_file(id, source_project_dirname, model_location)
+        sed_doc = create_sedml_for_xpp_file(id, source_project_dirname, model_location,
+                                            max_number_of_simulation_steps=max_number_of_simulation_steps)
 
         sim_location = os.path.splitext(model_location)[0] + '.sedml'
         SedmlSimulationWriter().run(sed_doc, os.path.join(final_projects_dirname, sim_location))
@@ -478,13 +481,14 @@ def build_combine_archive_for_project(id, source_project_dirname, final_projects
     return sed_docs
 
 
-def create_sedml_for_xpp_file(project_id, project_dirname, rel_filename):
+def create_sedml_for_xpp_file(project_id, project_dirname, rel_filename, max_number_of_simulation_steps=1000):
     """ Generate a SED-ML document for an XPP ODE file
 
     Args:
         project_id (:obj`int`): id of the parent project for the XPP ODE file
         project_dirname (:obj:`str`): path to the directory for the parent project of the XPP ODE file
         rel_filename (:obj:`str`): path to the XPP ODE file relative to :obj:`project_dirname`
+        max_number_of_simulation_steps (:obj:`int`, optional): maximum number of simulation steps for generated SED-ML simulations
 
     Returns:
         :obj:`SedDocument`: SED-ML document for the XPP ODE file
@@ -521,7 +525,7 @@ def create_sedml_for_xpp_file(project_id, project_dirname, rel_filename):
             model_language_options={
                 ModelLanguage.XPP: {
                     'set_filename': set_file['filename'],
-                    'max_number_of_steps': 10000,
+                    'max_number_of_steps': max_number_of_simulation_steps,
                 },
             })
 
@@ -885,7 +889,9 @@ def import_project(project, simulate, auth, config):
             )
 
         sed_docs = build_combine_archive_for_project(project['id'], source_project_dirname, final_projects_dirname,
-                                                     project_filename, extra_contents=extra_contents)
+                                                     project_filename,
+                                                     extra_contents=extra_contents,
+                                                     max_number_of_simulation_steps=config['max_number_of_simulation_steps'])
 
         for sed_doc_location, sed_doc in sed_docs.items():
             sed_sim = sed_doc.simulations[0]
