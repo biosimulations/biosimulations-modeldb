@@ -15,3 +15,5 @@ python_dateutil
 python_dotenv
 requests_cache
 setuptools
+simplejson
+termcolor

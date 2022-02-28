@@ -2,6 +2,11 @@ name: Publish previously executed runs of simulations to BioSimulations
 
 on:
   workflow_dispatch:
+    inputs:
+      ignoreErrors:
+        description: 'Whether to publish runs even if some did not succeed: "0" (default) or "1"'
+        required: false
+        default: '0'
 
 jobs:
   verify:
@@ -44,4 +49,11 @@ jobs:
 
       # Publish previously executed runs of simulations to BioSimulations
       - name: Publish previously executed runs of simulations to BioSimulations
-        run: biosimulations-modeldb publish-runs
+        run: |
+          args=""
+
+          if [ "${{ github.event.inputs.ignoreErrors }}" = "1" ]; then
+            args="$args --ignore-errors"
+          fi
+
+          biosimulations-modeldb publish-runs $args

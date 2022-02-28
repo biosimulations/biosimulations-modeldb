@@ -2,11 +2,15 @@ from .config import get_config
 from .core import import_projects
 from ._version import __version__
 from biosimulators_utils.config import get_config as get_biosimulators_config
+from biosimulators_utils.warnings import warn
 import biosimulators_utils.biosimulations.utils
 import cement
 import collections
 import requests
+import requests.exceptions
+import simplejson.errors
 import sys
+import termcolor
 import yaml
 
 
@@ -154,10 +158,20 @@ class PublishRunsController(cement.Controller):
         stacked_type = 'nested'
         help = "Publish runs of simulations to BioSimulations"
         description = "Publish runs of simulations of ModelDB projects to BioSimulations"
-        arguments = []
+        arguments = [
+            (
+                ['--ignore-errors'],
+                dict(
+                    action='store_true',
+                    help='If set, publish runs even if some did not succeed. Used for testing.'
+                ),
+            ),
+        ]
 
     @ cement.ex(hide=True)
     def _default(self):
+        args = self.app.pargs
+
         config = get_config()
         biosimulators_config = get_biosimulators_config()
 
@@ -178,7 +192,11 @@ class PublishRunsController(cement.Controller):
             else:
                 failures[id] = '{}: {}'.format(id, 'not submitted')
         if len(failures):
-            raise SystemExit('{} simulation runs did not succeed:\n  {}'.format(len(failures), '\n  '.join(sorted(failures.values()))))
+            msg = '{} simulation runs did not succeed:\n  {}'.format(len(failures), '\n  '.join(sorted(failures.values())))
+            if args.ignore_errors:
+                warn(msg, UserWarning)
+            else:
+                raise SystemExit(msg)
 
         # login to publish projects
         auth_headers = {
@@ -190,9 +208,18 @@ class PublishRunsController(cement.Controller):
 
         # publish projects
         print('Publishing or updating {} projects ...'.format(len(projects)))
+        projects_already_up_to_date = []
+        create_projects_succeeded = []
+        update_projects_succeeded = []
+        create_projects_failed = []
+        update_projects_failed = []
         for i_project, (id, project) in enumerate(projects.items()):
             print('  {}: {} ... '.format(i_project + 1, id), end='')
             sys.stdout.flush()
+
+            if id in failures:
+                print('run failed.')
+                continue
 
             if project.get('biosimulationsId', None) is not None:
                 endpoint = biosimulators_config.BIOSIMULATIONS_API_ENDPOINT + 'projects/' + project['biosimulationsId']
@@ -227,13 +254,42 @@ class PublishRunsController(cement.Controller):
                                           'id': project['biosimulationsId'],
                                           'simulationRun': project['runbiosimulationsId']
                                       })
-                response.raise_for_status()
+                try:
+                    response.raise_for_status()
+                    print('done.')
+                    if api_method == requests.post:
+                        create_projects_succeeded.append(id)
+                    else:
+                        update_projects_succeeded.append(id)
 
-            print('done.')
+                except requests.exceptions.RequestException as exception:
+                    print(termcolor.colored('failed: {}.'.format(str(exception)), 'red'))
+                    try:
+                        print(termcolor.colored('    ' + response.json()['error'][0]['detail'].replace('\n', '\n    '), 'red'))
+                    except simplejson.errors.JSONDecodeError:
+                        pass
+                    if api_method == requests.post:
+                        create_projects_failed.append(id)
+                    else:
+                        update_projects_failed.append(id)
+
+            else:
+                print('done.')
+                projects_already_up_to_date.append(id)
         print('')
 
         # print message
-        print('All {} projects were successfully published or updated'.format(len(projects)))
+        if create_projects_failed or update_projects_failed or failures:
+            print('{} projects were already up to date.'.format(len(projects_already_up_to_date)))
+            print('{} projects were successfully created.'.format(len(create_projects_succeeded)))
+            print('{} projects were successfully updated.'.format(len(update_projects_succeeded)))
+            print(termcolor.colored('{} projects could not be created.'.format(len(create_projects_failed)), 'red'))
+            print(termcolor.colored('{} projects could not be updated.'.format(len(update_projects_failed)), 'red'))
+            print(termcolor.colored('{} projects could not be created or updated because the run failed.'.format(
+                len(failures)), 'yellow'))
+        else:
+            print(termcolor.colored('All {} projects were successfully published or updated or were already up to date!'.format(
+                len(projects)), 'green'))
 
 
 class VerifyPublicationController(cement.Controller):
