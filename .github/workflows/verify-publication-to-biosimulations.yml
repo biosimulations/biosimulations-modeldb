@@ -5,6 +5,11 @@ on:
     - cron: '0 7 * * 0' # weekly at 7:00 am on Sundays
 
   workflow_dispatch:
+    inputs:
+      projectIds:
+        description: 'Space-separate list of ids of projects to verify (e.g., "xxx" or "xxx yyy")'
+        required: false
+        default: ''
 
 jobs:
   verify:
@@ -43,4 +48,11 @@ jobs:
 
       # Verify that each project was successfully published
       - name: Verify that each project was successfully published
-        run: biosimulations-modeldb verify-publication
+        run: |
+          args=""
+
+          if [ ! -z "${{ github.event.inputs.projectIds }}" ]; then
+            args="$args --project ${{ github.event.inputs.projectIds }}"
+          fi
+
+          biosimulations-modeldb verify-publication $args

@@ -160,6 +160,15 @@ class PublishRunsController(cement.Controller):
         description = "Publish runs of simulations of ModelDB projects to BioSimulations"
         arguments = [
             (
+                ['--project'],
+                dict(
+                    type=int,
+                    nargs='+',
+                    action='extend',
+                    help='Id of a project to publish. Used for testing.',
+                ),
+            ),
+            (
                 ['--ignore-errors'],
                 dict(
                     action='store_true',
@@ -179,6 +188,10 @@ class PublishRunsController(cement.Controller):
         projects_filename = config['status_filename']
         with open(projects_filename, 'r') as file:
             projects = yaml.load(file, Loader=yaml.Loader)
+
+        # filter to selected projects
+        if args.project is not None:
+            projects = {id: project for id, project in projects.items() if int(id) in args.project}
 
         # check status
         failures = collections.OrderedDict()
@@ -301,10 +314,22 @@ class VerifyPublicationController(cement.Controller):
         stacked_type = 'nested'
         help = "Verify that projects have been published to BioSimulations"
         description = "Verify that projects from ModelDB have been successfully published to BioSimulations"
-        arguments = []
+        arguments = [
+            (
+                ['--project'],
+                dict(
+                    type=int,
+                    nargs='+',
+                    action='extend',
+                    help='Id of a project to verify. Used for testing.',
+                ),
+            ),
+        ]
 
     @ cement.ex(hide=True)
     def _default(self):
+        args = self.app.pargs
+
         config = get_config()
         biosimulators_config = get_biosimulators_config()
 
@@ -312,6 +337,10 @@ class VerifyPublicationController(cement.Controller):
         source_projects_filename = config['status_filename']
         with open(source_projects_filename, 'r') as file:
             source_projects = yaml.load(file, Loader=yaml.Loader)
+
+        # filter to selected projects
+        if args.project is not None:
+            source_projects = {id: project for id, project in source_projects.items() if int(id) in args.project}
 
         # get BioSimulations projects
         biosimulations_api_endpoint = biosimulators_config.BIOSIMULATIONS_API_ENDPOINT

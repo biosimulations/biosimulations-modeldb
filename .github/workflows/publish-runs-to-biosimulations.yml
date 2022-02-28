@@ -3,6 +3,10 @@ name: Publish previously executed runs of simulations to BioSimulations
 on:
   workflow_dispatch:
     inputs:
+      projectIds:
+        description: 'Space-separate list of ids of projects to publish (e.g., "xxx" or "xxx yyy")'
+        required: false
+        default: ''
       ignoreErrors:
         description: 'Whether to publish runs even if some did not succeed: "0" (default) or "1"'
         required: false
@@ -51,6 +55,10 @@ jobs:
       - name: Publish previously executed runs of simulations to BioSimulations
         run: |
           args=""
+
+          if [ ! -z "${{ github.event.inputs.projectIds }}" ]; then
+            args="$args --project ${{ github.event.inputs.projectIds }}"
+          fi
 
           if [ "${{ github.event.inputs.ignoreErrors }}" = "1" ]; then
             args="$args --ignore-errors"
