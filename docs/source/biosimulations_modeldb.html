@@ -1,0 +1,359 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>biosimulations_modeldb package &#8212; BioSimulations-ModelDB 0.0.2 documentation</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/basic.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/biosimulations.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <link rel="author" title="About these documents" href="../about.html" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="About BioSimulations-ModelDB" href="../about.html" />
+    <link rel="prev" title="Tutorial" href="../tutorial.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+      
+      <link rel="icon" sizes="16x16" href="https://github.com/biosimulations/biosimulations/raw/dev/libs/shared/assets/src/assets/icons/favicon-16x16.png">
+      
+    
+      
+      <link rel="icon" sizes="32x32" href="https://github.com/biosimulations/biosimulations/raw/dev/libs/shared/assets/src/assets/icons/favicon-32x32.png">
+      
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+
+  <div id="navbar-start">
+    
+    
+
+<a class="navbar-brand" href="../index.html">
+  <img src="../_static/biosimulations-logo.svg" class="logo" alt="logo">
+</a>
+
+
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Quick links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/biosimulations/biosimulations-modeldb" rel="noopener" target="_blank" title="GitHub">
+            <span><i class="fab fa-github"></i></span>
+            <label class="sr-only">GitHub</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/bio_sims" rel="noopener" target="_blank" title="Twitter">
+            <span><i class="fab fa-twitter"></i></span>
+            <label class="sr-only">Twitter</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mailto:info@biosimulations.org" rel="noopener" target="_blank" title="Email">
+            <span><i class="fas fa-envelope"></i></span>
+            <label class="sr-only">Email</label>
+          </a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Enter text to search for ..." aria-label="Enter text to search for ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <div class="bd-toc-item active">
+    
+  </div>
+</nav>
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            
+              
+              <div class="toc-item">
+                
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#submodules">
+   Submodules
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#module-biosimulations_modeldb.config">
+   biosimulations_modeldb.config module
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#module-biosimulations_modeldb.core">
+   biosimulations_modeldb.core module
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#module-biosimulations_modeldb.utils">
+   biosimulations_modeldb.utils module
+  </a>
+ </li>
+</ul>
+
+</nav>
+              </div>
+              
+              <div class="toc-item">
+                
+
+<div class="tocsection editthispage">
+    <a href="https://github.com/biosimulations/biosimulations-modeldb/edit/dev/docs-src/source/biosimulations_modeldb.rst">
+        <i class="fas fa-pencil-alt"></i> Edit this page
+    </a>
+</div>
+
+              </div>
+              
+            
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
+  <div class="section" id="module-biosimulations_modeldb">
+<span id="biosimulations-modeldb-package"></span><h1>biosimulations_modeldb package<a class="headerlink" href="#module-biosimulations_modeldb" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-biosimulations_modeldb.config">
+<span id="biosimulations-modeldb-config-module"></span><h2>biosimulations_modeldb.config module<a class="headerlink" href="#module-biosimulations_modeldb.config" title="Permalink to this headline">¶</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="biosimulations_modeldb.config.get_config">
+<span class="sig-prename descclassname"><span class="pre">biosimulations_modeldb.config.</span></span><span class="sig-name descname"><span class="pre">get_config</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">source_api_endpoint</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'http://modeldb.science/api/v1'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">source_projects_git_repository_organization</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'https://github.com/ModelDBRepository'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">base_dirname</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">source_dirname</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sessions_dirname</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">final_dirname</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">curators_filename</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">issues_filename</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">status_filename</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">project_ids</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">first_project</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_projects</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">update_project_sources</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">update_combine_archives</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">update_simulations</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">update_simulation_runs</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">simulate_projects</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">publish_projects</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">entrez_delay</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">5.0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bucket_endpoint</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bucket_name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bucket_access_key_id</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bucket_secret_access_key</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">biosimulations_api_client_id</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">biosimulations_api_client_secret</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dry_run</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/biosimulations/biosimulations-modeldb/blob/dev/biosimulations_modeldb/config.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#biosimulations_modeldb.config.get_config" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a configuration</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>(</strong><strong>obj</strong> (<em>status_filename</em>) – <cite>str</cite>, optional): endpoint for retrieving metadata about ModelDB projects</p></li>
+<li><p><strong>(</strong><strong>obj</strong> – <cite>str</cite>, optional): organization for git repositories for ModelDB projects</p></li>
+<li><p><strong>base_dirname</strong> (<code class="xref py py-obj docutils literal notranslate"><span class="pre">str</span></code>, optional) – base directory for data</p></li>
+<li><p><strong>(</strong><strong>obj</strong> – <cite>str</cite>, optional): directory where source projects, metabolic flux maps, and thumbnails should be stored</p></li>
+<li><p><strong>(</strong><strong>obj</strong> – <cite>str</cite>, optional): directory where cached HTTP sessions should be stored</p></li>
+<li><p><strong>(</strong><strong>obj</strong> – <cite>str</cite>, optional): directory where created SED-ML, metadata, and COMBINE/OMEX archives should be stored</p></li>
+<li><p><strong>(</strong><strong>obj</strong> – <cite>str</cite>, optional): path which describes the people who helped curator the repository</p></li>
+<li><p><strong>(</strong><strong>obj</strong> – <cite>str</cite>, optional): path to issues which prevent some projects from being imported</p></li>
+<li><p><strong>(</strong><strong>obj</strong> – <cite>str</cite>, optional): path to save the import status of each project</p></li>
+<li><p><strong>project_ids</strong> (<code class="xref py py-obj docutils literal notranslate"><span class="pre">list</span></code> of <code class="xref py py-obj docutils literal notranslate"><span class="pre">str</span></code>, optional) – ids of projects to import</p></li>
+<li><p><strong>first_project</strong> (<code class="xref py py-obj docutils literal notranslate"><span class="pre">int</span></code>, optional) – iteration through projects at which to begin importing</p></li>
+<li><p><strong>max_projects</strong> (<code class="xref py py-obj docutils literal notranslate"><span class="pre">int</span></code>, optional) – maximum number of projects to download, convert, execute, and submit; used for testing</p></li>
+<li><p><strong>update_project_sources</strong> (<code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code>, optional) – whether to update the source files for the projects; used for testing</p></li>
+<li><p><strong>update_combine_archives</strong> (<code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code>, optional) – whether to update COMBINE archives even if they already exist; used for testing</p></li>
+<li><p><strong>update_simulations</strong> (<code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code>, optional) – whether to re-run COMBINE archives even if they have already been run; used for testing</p></li>
+<li><p><strong>update_simulation_runs</strong> (<code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code>, optional) – whether to update projects even if they have already been imported; used for testing</p></li>
+<li><p><strong>simulate_projects</strong> (<code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code>, optional) – whether to simulate projects; used for testing</p></li>
+<li><p><strong>publish_projects</strong> (<code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code>, optional) – whether to pushlish projects; used for testing</p></li>
+<li><p><strong>entrez_delay</strong> (<code class="xref py py-obj docutils literal notranslate"><span class="pre">float</span></code>, optional) – delay in between Entrez queries</p></li>
+<li><p><strong>bucket_endpoint</strong> (<code class="xref py py-obj docutils literal notranslate"><span class="pre">str</span></code>, optional) – endpoint for storage bucket</p></li>
+<li><p><strong>bucket_name</strong> (<code class="xref py py-obj docutils literal notranslate"><span class="pre">str</span></code>, optional) – name of storage bucket</p></li>
+<li><p><strong>bucket_access_key_id</strong> (<code class="xref py py-obj docutils literal notranslate"><span class="pre">str</span></code>, optional) – key id for storage bucket</p></li>
+<li><p><strong>bucket_secret_access_key</strong> (<code class="xref py py-obj docutils literal notranslate"><span class="pre">str</span></code>, optional) – access key for storage bucket</p></li>
+<li><p><strong>biosimulations_api_client_id</strong> (<code class="xref py py-obj docutils literal notranslate"><span class="pre">str</span></code>, optional) – id for client to the BioSimulations API</p></li>
+<li><p><strong>biosimulations_api_client_secret</strong> (<code class="xref py py-obj docutils literal notranslate"><span class="pre">str</span></code>, optional) – secret for client to the BioSimulations API</p></li>
+<li><p><strong>dry_run</strong> (<code class="xref py py-obj docutils literal notranslate"><span class="pre">bool</span></code>, optional) – whether to submit projects to BioSimulations or not; used for testing</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><cite>dict</cite>: configuration</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>obj</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="module-biosimulations_modeldb.core">
+<span id="biosimulations-modeldb-core-module"></span><h2>biosimulations_modeldb.core module<a class="headerlink" href="#module-biosimulations_modeldb.core" title="Permalink to this headline">¶</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="biosimulations_modeldb.core.import_projects">
+<span class="sig-prename descclassname"><span class="pre">biosimulations_modeldb.core.</span></span><span class="sig-name descname"><span class="pre">import_projects</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">config</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/biosimulations/biosimulations-modeldb/blob/dev/biosimulations_modeldb/core.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#biosimulations_modeldb.core.import_projects" title="Permalink to this definition">¶</a></dt>
+<dd><p>Download the source database, convert into COMBINE/OMEX archives, simulate the archives, and submit them to BioSimulations</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>config</strong> (<code class="xref py py-obj docutils literal notranslate"><span class="pre">dict</span></code>) – configuration</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="module-biosimulations_modeldb.utils">
+<span id="biosimulations-modeldb-utils-module"></span><h2>biosimulations_modeldb.utils module<a class="headerlink" href="#module-biosimulations_modeldb.utils" title="Permalink to this headline">¶</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="biosimulations_modeldb.utils.case_insensitive_glob">
+<span class="sig-prename descclassname"><span class="pre">biosimulations_modeldb.utils.</span></span><span class="sig-name descname"><span class="pre">case_insensitive_glob</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pattern</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/biosimulations/biosimulations-modeldb/blob/dev/biosimulations_modeldb/utils.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#biosimulations_modeldb.utils.case_insensitive_glob" title="Permalink to this definition">¶</a></dt>
+<dd><p>Glob without case sensitivity</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>pattern</strong> (<code class="xref py py-obj docutils literal notranslate"><span class="pre">str</span></code>) – glob pattern</p></li>
+<li><p><strong>**kwargs</strong> – </p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>path of files that match the glob pattern</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">list</span></code> of <code class="xref py py-obj docutils literal notranslate"><span class="pre">str</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="biosimulations_modeldb.utils.get_file_extension_combine_uri_map">
+<span class="sig-prename descclassname"><span class="pre">biosimulations_modeldb.utils.</span></span><span class="sig-name descname"><span class="pre">get_file_extension_combine_uri_map</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference external" href="https://github.com/biosimulations/biosimulations-modeldb/blob/dev/biosimulations_modeldb/utils.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#biosimulations_modeldb.utils.get_file_extension_combine_uri_map" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get a map from file extensions to URIs for use with manifests of COMBINE/OMEX archives</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>config</strong> (<code class="xref py py-obj docutils literal notranslate"><span class="pre">Config</span></code>, optional) – configuration</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>which maps extensions to lists of associated URIs</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">dict</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="biosimulations_modeldb.utils.get_images_for_project">
+<span class="sig-prename descclassname"><span class="pre">biosimulations_modeldb.utils.</span></span><span class="sig-name descname"><span class="pre">get_images_for_project</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dirname</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/biosimulations/biosimulations-modeldb/blob/dev/biosimulations_modeldb/utils.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#biosimulations_modeldb.utils.get_images_for_project" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the images for a project</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>dirname</strong> (<code class="xref py py-obj docutils literal notranslate"><span class="pre">str</span></code>) – directory for project</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>paths to the images</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">list</span></code> of <code class="xref py py-obj docutils literal notranslate"><span class="pre">str</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="biosimulations_modeldb.utils.get_readme">
+<span class="sig-prename descclassname"><span class="pre">biosimulations_modeldb.utils.</span></span><span class="sig-name descname"><span class="pre">get_readme</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">filename</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">project_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">project_dirname</span></span></em><span class="sig-paren">)</span><a class="reference external" href="https://github.com/biosimulations/biosimulations-modeldb/blob/dev/biosimulations_modeldb/utils.py"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#biosimulations_modeldb.utils.get_readme" title="Permalink to this definition">¶</a></dt>
+<dd><p>Read the content of a README file</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>filename</strong> (<code class="xref py py-obj docutils literal notranslate"><span class="pre">str</span></code>) – path to README file</p></li>
+<li><p><strong>project_id</strong> (<code class="xref py py-obj docutils literal notranslate"><span class="pre">str</span></code>) – project id</p></li>
+<li><p><strong>project_dirname</strong> (<code class="xref py py-obj docutils literal notranslate"><span class="pre">str</span></code>) – project directory</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Markdown-formatted content of the file</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">str</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+</div>
+
+
+              </div>
+              
+              
+          </main>
+          
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  <footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    
+    <div class="footer-item">
+      <p class="copyright">
+    &copy; Copyright 2022, BioSimulations Team.<br/>
+</p>
+    </div>
+    
+  </div>
+</footer>
+  </body>
+</html>

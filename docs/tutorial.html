@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tutorial &#8212; BioSimulations-ModelDB 0.0.2 documentation</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet" />
+  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/biosimulations.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="author" title="About these documents" href="about.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="biosimulations_modeldb package" href="source/biosimulations_modeldb.html" />
+    <link rel="prev" title="Installation instructions" href="installation.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+      
+      <link rel="icon" sizes="16x16" href="https://github.com/biosimulations/biosimulations/raw/dev/libs/shared/assets/src/assets/icons/favicon-16x16.png">
+      
+    
+      
+      <link rel="icon" sizes="32x32" href="https://github.com/biosimulations/biosimulations/raw/dev/libs/shared/assets/src/assets/icons/favicon-32x32.png">
+      
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+
+  <div id="navbar-start">
+    
+    
+
+<a class="navbar-brand" href="index.html">
+  <img src="_static/biosimulations-logo.svg" class="logo" alt="logo">
+</a>
+
+
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Quick links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/biosimulations/biosimulations-modeldb" rel="noopener" target="_blank" title="GitHub">
+            <span><i class="fab fa-github"></i></span>
+            <label class="sr-only">GitHub</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/bio_sims" rel="noopener" target="_blank" title="Twitter">
+            <span><i class="fab fa-twitter"></i></span>
+            <label class="sr-only">Twitter</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mailto:info@biosimulations.org" rel="noopener" target="_blank" title="Email">
+            <span><i class="fas fa-envelope"></i></span>
+            <label class="sr-only">Email</label>
+          </a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Enter text to search for ..." aria-label="Enter text to search for ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <div class="bd-toc-item active">
+    
+  </div>
+</nav>
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            
+              
+              <div class="toc-item">
+                
+
+<nav id="bd-toc-nav">
+    
+</nav>
+              </div>
+              
+              <div class="toc-item">
+                
+
+<div class="tocsection editthispage">
+    <a href="https://github.com/biosimulations/biosimulations-modeldb/edit/dev/docs-src/tutorial.rst">
+        <i class="fas fa-pencil-alt"></i> Edit this page
+    </a>
+</div>
+
+              </div>
+              
+            
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
+  <div class="section" id="tutorial">
+<h1>Tutorial<a class="headerlink" href="#tutorial" title="Permalink to this headline">¶</a></h1>
+<p>First, set the following environment variables</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">ENTREZ_EMAIL</span></code>: email address to credit queries to NCBI Entrez to (e.g., <code class="docutils literal notranslate"><span class="pre">biosimulations.daemon&#64;gmail.com</span></code>)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">BIOSIMULATIONS_API_CLIENT_ID</span></code>: id of the client for the BioSimulations API</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">BIOSIMULATIONS_API_CLIENT_SECRET</span></code>: secret for this client</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">BUCKET_ENDPOINT</span></code>: Endpoint for uploading COMBINE/OMEX archives to be published to an S3 bucket</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">BUCKET_NAME</span></code>: Name of the bucket</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">BUCKET_ACCESS_KEY_ID</span></code>: Access key for the bucket</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">BUCKET_SECRET_ACCESS_KEY</span></code>: Secret for the access key</p></li>
+</ul>
+<p>Second, run the following command-line program to published the models in the ModelDB repository to BioSimulations. This program downloads models from ModelDB, converts them to COMBINE/OMEX archives, submits the archives to runBioSimulations, and publishes their simulation runs to BioSimulations. This program provides several optional arguments for forcing updates, skipping simulations, skipping publication, and more.:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">biosimulations</span><span class="o">-</span><span class="n">modeldb</span> <span class="n">run</span><span class="o">-</span><span class="n">projects</span><span class="o">-</span><span class="ow">and</span><span class="o">-</span><span class="n">publish</span>
+</pre></div>
+</div>
+<p>Third, the following command-line program can optionally be run to publish the runs of each model to BioSimulations. This is useful if the above publication program was run with the <code class="docutils literal notranslate"><span class="pre">--skip-publication</span></code> option.:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">biosimulations</span><span class="o">-</span><span class="n">modeldb</span> <span class="n">publish</span><span class="o">-</span><span class="n">runs</span>
+</pre></div>
+</div>
+<p>Fourth, run the following command-line program to verify that each model was successfully published to BioSimulations. This should be run several minutes after the publication step was run.:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">biosimulations</span><span class="o">-</span><span class="n">modeldb</span> <span class="n">verify</span><span class="o">-</span><span class="n">publication</span>
+</pre></div>
+</div>
+<p>Help for the command-line program is available inline by running:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">biosimulations</span><span class="o">-</span><span class="n">modeldb</span> <span class="o">--</span><span class="n">help</span>
+</pre></div>
+</div>
+<p>The command-line program imports each ModelDB models into BioSimulations as follows:</p>
+<ol class="arabic simple">
+<li><p>Checks <code class="docutils literal notranslate"><span class="pre">biosimulations_modeldb/final/issues.yml</span></code> for any known issues about the model which prevent it from being imported in BioSimulations (e.g., the files are not valid SBML or no reference is available). Issues with models should be reported to the <a class="reference external" href="mailto:curator&#37;&#52;&#48;modeldb&#46;science">ModelDB curators</a>.</p></li>
+<li><p>Checks the import status of the model in <code class="docutils literal notranslate"><span class="pre">biosimulations_modeldb/final/status.yml</span></code> and determines whether the model hasn’t yet been imported into BioSimuations or needs to be re-imported because it has been updated in ModelDB since it was imported into BioSimulations.</p></li>
+<li><p>Retrieves the model and metadata about the model from ModelDB.</p></li>
+<li><p>If applicable, retrieves <a class="reference external" href="https://escher.github.io/">Escher</a> flux maps for the model from ModelDB.</p></li>
+<li><p>Uses <a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a> and <a class="reference external" href="https://crossref.org/">CrossRef</a> to get information about the publication cited for the model.</p></li>
+<li><p>If possible, uses the <a class="reference external" href="https://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/">open access subset of PubMed Central</a> to retrive thumbnail images for the model.</p></li>
+<li><p>Creates a <a class="reference external" href="http://sed-ml.org/">Simulation Experiment Description Markup Langauge</a> (SED-ML) file which describes a flux balance analysis simulation of the model.</p></li>
+<li><p>Converts the Escher flux maps to <a class="reference external" href="https://vega.github.io/vega/">Vega</a> data visualizations.</p></li>
+<li><p>Exports the metadata to a OMEX metadata-compliant RDF file. The list of curators is determined by <code class="docutils literal notranslate"><span class="pre">biosimulations_modeldb/final/curators.yml</span></code>. Individuals who contribute should add their name to this document.</p></li>
+<li><p>Packages the model, SED-ML, Escher and Vega flux maps, images, and metadata files into a <a class="reference external" href="https://combinearchive.org/">COMBINE/OMEX archive</a>.</p></li>
+<li><p>Uses <a class="reference external" href="https://github.com/biosimulators/Biosimulators_COBRApy">BioSimulators-COBRApy</a> to test the execution the COMBINE/OMEX archive.</p></li>
+<li><p>Checks that the optimal objective value is positive.</p></li>
+<li><p>Submits the COMBINE/OMEX archive to runBioSimulations.</p></li>
+<li><p>Publishes the run of the archive to BioSimulations.</p></li>
+<li><p>Updates the import status of the model in <code class="docutils literal notranslate"><span class="pre">biosimulations_modeldb/final/status.yml</span></code></p></li>
+</ol>
+</div>
+
+
+              </div>
+              
+              
+          </main>
+          
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  <footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    
+    <div class="footer-item">
+      <p class="copyright">
+    &copy; Copyright 2022, BioSimulations Team.<br/>
+</p>
+    </div>
+    
+  </div>
+</footer>
+  </body>
+</html>
