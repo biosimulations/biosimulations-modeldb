@@ -1,5 +1,5 @@
 BioSimulations-ModelDB documentation
-=================================
+====================================
 
 BioSimulations-ModelDB provides a command-line application for publishing the `ModelDB model repository <http://modeldb.science/>`_ of neural models to the `BioSimulations <https://biosimulations.org>`_ repository for simulation projects.
 
