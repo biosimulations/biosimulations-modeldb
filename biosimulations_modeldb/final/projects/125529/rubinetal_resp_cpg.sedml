@@ -70,7 +70,7 @@
     </model>
   </listOfModels>
   <listOfSimulations>
-    <uniformTimeCourse id="simulation" name="Simulation" initialTime="0" outputStartTime="0" outputEndTime="10000" numberOfPoints="10000">
+    <uniformTimeCourse id="simulation" name="Simulation" initialTime="0" outputStartTime="0" outputEndTime="10000" numberOfPoints="1000">
       <algorithm kisaoID="KISAO:0000672"/>
     </uniformTimeCourse>
   </listOfSimulations>

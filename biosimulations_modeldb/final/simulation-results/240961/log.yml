@@ -1,4 +1,4 @@
-duration: 3.096867
+duration: 2.345739
 exception: null
 output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 1 plots:\r\n  Rotenone_ChemAut.sedml:\r\n    Tasks (1):\r\n   \
@@ -17,7 +17,7 @@ output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tas
   \ 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (2):\r\n    Succeeded: 2\r\n\
   \    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 2.967201
+- duration: 2.236703
   exception: null
   location: Rotenone_ChemAut.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -51,7 +51,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V
       status: SUCCEEDED
-    duration: 0.559094
+    duration: 0.09485
     exception: null
     id: report
     output: ''
@@ -60,7 +60,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.31652
+    duration: 0.140098
     exception: null
     id: plot
     output: ''
@@ -70,7 +70,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 1.972246
+    duration: 1.890692
     exception: null
     id: task
     output: ''
@@ -84,7 +84,7 @@ sedDocuments:
     - key: t0
       value: '0.0'
     - key: njmp
-      value: '10'
+      value: '100'
     skipReason: null
     status: SUCCEEDED
 skipReason: null

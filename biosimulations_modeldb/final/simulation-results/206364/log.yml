@@ -1,4 +1,4 @@
-duration: 0.419211
+duration: 0.374292
 exception: null
 output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 0 plots:\r\n  XPP/aEIF.sedml:\r\n    Tasks (1):\r\n      task\r\
@@ -15,7 +15,7 @@ output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tas
   \  Tasks (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs\
   \ (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 0.242513
+- duration: 0.208809
   exception: null
   location: XPP/aEIF.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -32,7 +32,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_W
       status: SUCCEEDED
-    duration: 0.084059
+    duration: 0.065004
     exception: null
     id: report
     output: ''
@@ -42,7 +42,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000030
-    duration: 0.089673
+    duration: 0.084732
     exception: null
     id: task
     output: ''
@@ -51,12 +51,12 @@ sedDocuments:
       value: euler
     - key: total
       value: '100.0'
-    - key: t0
-      value: '0.0'
     - key: dt
       value: '0.05'
+    - key: t0
+      value: '0.0'
     - key: njmp
-      value: '1'
+      value: '2'
     skipReason: null
     status: SUCCEEDED
 skipReason: null

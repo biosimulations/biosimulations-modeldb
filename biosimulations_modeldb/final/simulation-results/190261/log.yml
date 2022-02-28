@@ -1,4 +1,4 @@
-duration: 4.140329
+duration: 2.360859
 exception: null
 output: "Archive contains 4 SED-ML documents with 4 models, 4 simulations, 4 tasks,\
   \ 4 reports, and 4 plots:\r\n  2D-BaseModel-PLOS2012.sedml:\r\n    Tasks (1):\r\n\
@@ -47,7 +47,7 @@ output: "Archive contains 4 SED-ML documents with 4 models, 4 simulations, 4 tas
   \    Succeeded: 4\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (8):\r\n    Succeeded:\
   \ 8\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 0.799102
+- duration: 0.47948
   exception: null
   location: 2D-BaseModel-PLOS2012.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -65,7 +65,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_W
       status: SUCCEEDED
-    duration: 0.212243
+    duration: 0.06218
     exception: null
     id: report
     output: ''
@@ -74,7 +74,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.29679
+    duration: 0.151591
     exception: null
     id: plot
     output: ''
@@ -84,7 +84,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000030
-    duration: 0.158363
+    duration: 0.144946
     exception: null
     id: task
     output: ''
@@ -94,14 +94,14 @@ sedDocuments:
     - key: meth
       value: euler
     - key: dt
-      value: '.05'
+      value: '0.05'
     - key: t0
       value: '0.0'
     - key: njmp
-      value: '20'
+      value: '200'
     skipReason: null
     status: SUCCEEDED
-- duration: 0.955578
+- duration: 0.459545
   exception: null
   location: 3D-BaseModel +Noise+Adaptation-PLOS2012.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -121,7 +121,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_Z
       status: SUCCEEDED
-    duration: 0.349231
+    duration: 0.063292
     exception: null
     id: report
     output: ''
@@ -130,7 +130,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.336616
+    duration: 0.124597
     exception: null
     id: plot
     output: ''
@@ -140,7 +140,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000030
-    duration: 0.183663
+    duration: 0.157277
     exception: null
     id: task
     output: ''
@@ -150,14 +150,14 @@ sedDocuments:
     - key: meth
       value: euler
     - key: dt
-      value: '.05'
+      value: '0.05'
     - key: t0
       value: '0.0'
     - key: njmp
-      value: '20'
+      value: '200'
     skipReason: null
     status: SUCCEEDED
-- duration: 0.909745
+- duration: 0.546592
   exception: null
   location: 3D-BaseModel+SlowNaInactivation-PLOS2012.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -177,7 +177,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_W
       status: SUCCEEDED
-    duration: 0.305931
+    duration: 0.071299
     exception: null
     id: report
     output: ''
@@ -186,7 +186,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.296926
+    duration: 0.123796
     exception: null
     id: plot
     output: ''
@@ -196,7 +196,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000030
-    duration: 0.189296
+    duration: 0.166981
     exception: null
     id: task
     output: ''
@@ -206,14 +206,14 @@ sedDocuments:
     - key: meth
       value: euler
     - key: dt
-      value: '.05'
+      value: '0.05'
     - key: t0
       value: '0.0'
     - key: njmp
-      value: '20'
+      value: '200'
     skipReason: null
     status: SUCCEEDED
-- duration: 0.958599
+- duration: 0.492476
   exception: null
   location: 3D-UngroupedModel-PLOS2012.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -235,7 +235,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_YNA
       status: SUCCEEDED
-    duration: 0.319253
+    duration: 0.077856
     exception: null
     id: report
     output: ''
@@ -244,7 +244,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.303817
+    duration: 0.11893
     exception: null
     id: plot
     output: ''
@@ -254,7 +254,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000030
-    duration: 0.241314
+    duration: 0.202302
     exception: null
     id: task
     output: ''
@@ -264,11 +264,11 @@ sedDocuments:
     - key: meth
       value: euler
     - key: dt
-      value: '.05'
+      value: '0.05'
     - key: t0
       value: '0.0'
     - key: njmp
-      value: '20'
+      value: '200'
     skipReason: null
     status: SUCCEEDED
 skipReason: null

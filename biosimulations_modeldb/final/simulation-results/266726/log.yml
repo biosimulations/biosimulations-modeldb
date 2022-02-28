@@ -1,4 +1,4 @@
-duration: 18.671227
+duration: 17.618292
 exception: null
 output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 1 plots:\r\n  RB-INa-Molecules.sedml:\r\n    Tasks (1):\r\n   \
@@ -17,7 +17,7 @@ output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tas
   \ 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (2):\r\n    Succeeded: 2\r\n\
   \    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 18.534907
+- duration: 17.505249
   exception: null
   location: RB-INa-Molecules.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -61,7 +61,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V
       status: SUCCEEDED
-    duration: 0.722358
+    duration: 0.118283
     exception: null
     id: report
     output: ''
@@ -70,7 +70,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.266346
+    duration: 0.142032
     exception: null
     id: plot
     output: ''
@@ -80,7 +80,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000030
-    duration: 17.453811
+    duration: 17.171348
     exception: null
     id: task
     output: ''
@@ -90,9 +90,9 @@ sedDocuments:
     - key: total
       value: '80.0'
     - key: njmp
-      value: '800'
+      value: '8000'
     - key: dt
-      value: 1e-5
+      value: 1e-05
     - key: t0
       value: '0.0'
     skipReason: null

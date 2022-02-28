@@ -1,4 +1,4 @@
-duration: 38.571366
+duration: 12.581509
 exception: null
 output: "Archive contains 5 SED-ML documents with 5 models, 5 simulations, 5 tasks,\
   \ 5 reports, and 2 plots:\r\n  TypeIISomaCablePairFig2.sedml:\r\n    Tasks (1):\r\
@@ -52,7 +52,7 @@ output: "Archive contains 5 SED-ML documents with 5 models, 5 simulations, 5 tas
   \    Succeeded: 5\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (7):\r\n    Succeeded:\
   \ 7\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 7.223531
+- duration: 2.16253
   exception: null
   location: TypeIISomaCablePairFig2.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -491,7 +491,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_Y2
       status: SUCCEEDED
-    duration: 5.482153
+    duration: 0.979298
     exception: null
     id: report
     output: ''
@@ -501,7 +501,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 1.42988
+    duration: 0.857414
     exception: null
     id: task
     output: ''
@@ -515,10 +515,10 @@ sedDocuments:
     - key: t0
       value: '0.0'
     - key: njmp
-      value: '1'
+      value: '6'
     skipReason: null
     status: SUCCEEDED
-- duration: 2.458639
+- duration: 1.000909
   exception: null
   location: TypeIISomaPassiveCableFig1.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -647,7 +647,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_Y
       status: SUCCEEDED
-    duration: 1.570265
+    duration: 0.341635
     exception: null
     id: report
     output: ''
@@ -657,7 +657,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 0.522935
+    duration: 0.30969
     exception: null
     id: task
     output: ''
@@ -671,10 +671,10 @@ sedDocuments:
     - key: t0
       value: '0.0'
     - key: njmp
-      value: '1'
+      value: '6'
     skipReason: null
     status: SUCCEEDED
-- duration: 7.158687
+- duration: 2.149085
   exception: null
   location: TypeISomaCable2NaPFig3.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -910,7 +910,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_Y1
       status: SUCCEEDED
-    duration: 4.784286
+    duration: 0.522161
     exception: null
     id: report
     output: ''
@@ -919,7 +919,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.290668
+    duration: 0.135429
     exception: null
     id: plot
     output: ''
@@ -929,7 +929,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 1.70119
+    duration: 1.086329
     exception: null
     id: task
     output: ''
@@ -943,10 +943,10 @@ sedDocuments:
     - key: t0
       value: '0.0'
     - key: njmp
-      value: '2'
+      value: '20'
     skipReason: null
     status: SUCCEEDED
-- duration: 12.644122
+- duration: 3.438597
   exception: null
   location: TypeISomaCablePairFig4.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -1383,7 +1383,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_Y2
       status: SUCCEEDED
-    duration: 9.336603
+    duration: 0.966211
     exception: null
     id: report
     output: ''
@@ -1393,7 +1393,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 2.95331
+    duration: 2.14568
     exception: null
     id: task
     output: ''
@@ -1403,14 +1403,14 @@ sedDocuments:
     - key: meth
       value: rungekutta
     - key: dt
-      value: '.05'
+      value: '0.05'
     - key: t0
       value: '0.0'
     - key: njmp
-      value: '2'
+      value: '20'
     skipReason: null
     status: SUCCEEDED
-- duration: 7.399854
+- duration: 2.120217
   exception: null
   location: TypeISomaCablewHCNFig3.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -1646,7 +1646,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_Y1
       status: SUCCEEDED
-    duration: 4.959824
+    duration: 0.5117
     exception: null
     id: report
     output: ''
@@ -1655,7 +1655,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.295856
+    duration: 0.127629
     exception: null
     id: plot
     output: ''
@@ -1665,7 +1665,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 1.653019
+    duration: 1.104145
     exception: null
     id: task
     output: ''
@@ -1679,7 +1679,7 @@ sedDocuments:
     - key: t0
       value: '0.0'
     - key: njmp
-      value: '2'
+      value: '20'
     skipReason: null
     status: SUCCEEDED
 skipReason: null

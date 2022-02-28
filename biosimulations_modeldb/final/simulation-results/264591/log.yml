@@ -1,4 +1,4 @@
-duration: 1.461051
+duration: 1.082127
 exception: null
 output: "Archive contains 2 SED-ML documents with 2 models, 2 simulations, 2 tasks,\
   \ 2 reports, and 0 plots:\r\n  XPP/CIPN_HillPax.sedml:\r\n    Tasks (1):\r\n   \
@@ -23,7 +23,7 @@ output: "Archive contains 2 SED-ML documents with 2 models, 2 simulations, 2 tas
   \  Tasks (2):\r\n    Succeeded: 2\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs\
   \ (2):\r\n    Succeeded: 2\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 0.850483
+- duration: 0.524604
   exception: null
   location: XPP/CIPN_HillPax.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -54,7 +54,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V
       status: SUCCEEDED
-    duration: 0.431072
+    duration: 0.116472
     exception: null
     id: report
     output: ''
@@ -64,7 +64,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 0.333412
+    duration: 0.312346
     exception: null
     id: task
     output: ''
@@ -73,15 +73,15 @@ sedDocuments:
       value: '1000.0'
     - key: meth
       value: rungekutta
-    - key: t0
-      value: '0.0'
     - key: dt
       value: '0.05'
+    - key: t0
+      value: '0.0'
     - key: njmp
-      value: '2'
+      value: '20'
     skipReason: null
     status: SUCCEEDED
-- duration: 0.461326
+- duration: 0.369453
   exception: null
   location: XPP/DRG.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -128,7 +128,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V
       status: SUCCEEDED
-    duration: 0.183337
+    duration: 0.116165
     exception: null
     id: report
     output: ''
@@ -138,7 +138,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 0.150098
+    duration: 0.144018
     exception: null
     id: task
     output: ''
@@ -147,12 +147,12 @@ sedDocuments:
       value: '100.0'
     - key: meth
       value: rungekutta
-    - key: t0
-      value: '0.0'
     - key: dt
       value: '0.05'
+    - key: t0
+      value: '0.0'
     - key: njmp
-      value: '1'
+      value: '2'
     skipReason: null
     status: SUCCEEDED
 skipReason: null

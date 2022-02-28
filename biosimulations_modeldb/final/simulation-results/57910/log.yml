@@ -1,4 +1,4 @@
-duration: 0.838048
+duration: 0.371698
 exception: null
 output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 0 plots:\r\n  kir_sim.sedml:\r\n    Tasks (1):\r\n      task\r\n\
@@ -15,7 +15,7 @@ output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tas
   \    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (1):\r\n    Succeeded:\
   \ 1\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 0.77159
+- duration: 0.309261
   exception: null
   location: kir_sim.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -42,7 +42,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V
       status: SUCCEEDED
-    duration: 0.522059
+    duration: 0.102459
     exception: null
     id: report
     output: ''
@@ -52,7 +52,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000030
-    duration: 0.160321
+    duration: 0.11616
     exception: null
     id: task
     output: ''
@@ -66,7 +66,7 @@ sedDocuments:
     - key: t0
       value: '0.0'
     - key: njmp
-      value: '1'
+      value: '14'
     skipReason: null
     status: SUCCEEDED
 skipReason: null

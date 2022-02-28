@@ -1,4 +1,4 @@
-duration: 6.291208
+duration: 5.708039
 exception: null
 output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 0 plots:\r\n  jtb-kk.sedml:\r\n    Tasks (1):\r\n      task\r\n\
@@ -15,7 +15,7 @@ output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tas
   \    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (1):\r\n    Succeeded:\
   \ 1\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 6.182899
+- duration: 5.625128
   exception: null
   location: jtb-kk.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -44,7 +44,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V
       status: SUCCEEDED
-    duration: 0.497714
+    duration: 0.083739
     exception: null
     id: report
     output: ''
@@ -54,7 +54,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 5.59728
+    duration: 5.470179
     exception: null
     id: task
     output: ''
@@ -68,7 +68,7 @@ sedDocuments:
     - key: t0
       value: '0.0'
     - key: njmp
-      value: '150'
+      value: '1500'
     skipReason: null
     status: SUCCEEDED
 skipReason: null

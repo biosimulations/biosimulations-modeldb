@@ -23,10 +23,10 @@
     </model>
   </listOfModels>
   <listOfSimulations>
-    <uniformTimeCourse id="simulation" name="Simulation" initialTime="0" outputStartTime="0" outputEndTime="18" numberOfPoints="1800">
+    <uniformTimeCourse id="simulation" name="Simulation" initialTime="0" outputStartTime="0" outputEndTime="18" numberOfPoints="1000">
       <algorithm kisaoID="KISAO:0000030">
         <listOfAlgorithmParameters>
-          <algorithmParameter kisaoID="KISAO:0000483" value="0.01"/>
+          <algorithmParameter kisaoID="KISAO:0000483" value="0.009"/>
         </listOfAlgorithmParameters>
       </algorithm>
     </uniformTimeCourse>

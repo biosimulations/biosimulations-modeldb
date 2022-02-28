@@ -1,4 +1,4 @@
-duration: 0.795955
+duration: 0.420584
 exception: null
 output: "Archive contains 1 SED-ML documents with 2 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 0 plots:\r\n  DBdep+A.sedml:\r\n    Tasks (1):\r\n      task_figure_9d\r\
@@ -16,7 +16,7 @@ output: "Archive contains 1 SED-ML documents with 2 models, 1 simulations, 1 tas
   \   Skipped: 0\r\n    Failed: 0\r\n  Outputs (1):\r\n    Succeeded: 1\r\n    Skipped:\
   \ 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 0.721148
+- duration: 0.352011
   exception: null
   location: DBdep+A.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task_figure_9d`\r\
@@ -52,7 +52,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_Y_figure_9d
       status: SUCCEEDED
-    duration: 0.336307
+    duration: 0.11721
     exception: null
     id: report_figure_9d
     output: ''
@@ -62,7 +62,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000668
-    duration: 0.307826
+    duration: 0.146369
     exception: null
     id: task_figure_9d
     output: ''
@@ -80,7 +80,7 @@ sedDocuments:
     - key: t0
       value: '0.0'
     - key: dt
-      value: '1.0'
+      value: '5'
     - key: njmp
       value: '1'
     skipReason: null

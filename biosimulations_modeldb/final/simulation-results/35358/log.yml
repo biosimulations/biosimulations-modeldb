@@ -1,4 +1,4 @@
-duration: 0.666676
+duration: 0.38965
 exception: null
 output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 0 plots:\r\n  booth_bose.sedml:\r\n    Tasks (1):\r\n      task\r\
@@ -15,7 +15,7 @@ output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tas
   \  Tasks (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs\
   \ (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 0.490319
+- duration: 0.303034
   exception: null
   location: booth_bose.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -48,7 +48,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_VS
       status: SUCCEEDED
-    duration: 0.294971
+    duration: 0.108471
     exception: null
     id: report
     output: ''
@@ -58,7 +58,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000019
-    duration: 0.10471
+    duration: 0.100606
     exception: null
     id: task
     output: ''
@@ -74,7 +74,7 @@ sedDocuments:
     - key: t0
       value: '0.0'
     - key: dt
-      value: '0.3'
+      value: '1.5'
     - key: njmp
       value: '1'
     skipReason: null

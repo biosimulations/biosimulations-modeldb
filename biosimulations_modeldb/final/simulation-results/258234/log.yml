@@ -1,4 +1,4 @@
-duration: 4.368945
+duration: 2.380722
 exception: null
 output: "Archive contains 2 SED-ML documents with 2 models, 2 simulations, 2 tasks,\
   \ 2 reports, and 2 plots:\r\n  VSmn.sedml:\r\n    Tasks (1):\r\n      task\r\n \
@@ -26,7 +26,7 @@ output: "Archive contains 2 SED-ML documents with 2 models, 2 simulations, 2 tas
   \    Succeeded: 2\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (4):\r\n    Succeeded:\
   \ 4\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 1.560968
+- duration: 0.734319
   exception: null
   location: VSmn.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -68,7 +68,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_VS
       status: SUCCEEDED
-    duration: 0.719561
+    duration: 0.148366
     exception: null
     id: report
     output: ''
@@ -77,7 +77,7 @@ sedDocuments:
   - curves:
     - id: curve_2
       status: SUCCEEDED
-    duration: 0.314972
+    duration: 0.190772
     exception: null
     id: plot
     output: ''
@@ -87,7 +87,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000672
-    duration: 0.376454
+    duration: 0.285057
     exception: null
     id: task
     output: ''
@@ -99,12 +99,12 @@ sedDocuments:
     - key: t0
       value: '0.0'
     - key: dt
-      value: '1.0'
+      value: '10'
     - key: njmp
       value: '1'
     skipReason: null
     status: SUCCEEDED
-- duration: 2.587666
+- duration: 1.373375
   exception: null
   location: VSmn_inh.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -160,7 +160,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_VS
       status: SUCCEEDED
-    duration: 1.016904
+    duration: 0.137236
     exception: null
     id: report
     output: ''
@@ -171,7 +171,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: curve_3
       status: SUCCEEDED
-    duration: 0.487923
+    duration: 0.157149
     exception: null
     id: plot
     output: ''
@@ -181,7 +181,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000672
-    duration: 0.959856
+    duration: 0.973542
     exception: null
     id: task
     output: ''
@@ -193,7 +193,7 @@ sedDocuments:
     - key: t0
       value: '0.0'
     - key: dt
-      value: '1.0'
+      value: '10'
     - key: njmp
       value: '1'
     skipReason: null

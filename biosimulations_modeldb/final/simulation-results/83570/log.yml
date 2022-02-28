@@ -1,4 +1,4 @@
-duration: 1.651693
+duration: 0.585232
 exception: null
 output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 0 plots:\r\n  NoisyRing.sedml:\r\n    Tasks (1):\r\n      task\r\
@@ -15,7 +15,7 @@ output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tas
   \  Tasks (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs\
   \ (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 1.556611
+- duration: 0.467009
   exception: null
   location: NoisyRing.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -74,7 +74,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_R1
       status: SUCCEEDED
-    duration: 1.116909
+    duration: 0.164939
     exception: null
     id: report
     output: ''
@@ -84,7 +84,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000030
-    duration: 0.32992
+    duration: 0.198027
     exception: null
     id: task
     output: ''
@@ -98,7 +98,7 @@ sedDocuments:
     - key: t0
       value: '0.0'
     - key: njmp
-      value: '2'
+      value: '20'
     skipReason: null
     status: SUCCEEDED
 skipReason: null

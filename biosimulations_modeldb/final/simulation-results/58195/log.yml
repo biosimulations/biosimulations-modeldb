@@ -1,4 +1,4 @@
-duration: 0.926395
+duration: 0.49687
 exception: null
 output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 1 plots:\r\n  IKCa_HCA.sedml:\r\n    Tasks (1):\r\n      task\r\
@@ -17,7 +17,7 @@ output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tas
   \ 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (2):\r\n    Succeeded: 2\r\n\
   \    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 0.805019
+- duration: 0.383171
   exception: null
   location: IKCa_HCA.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -53,7 +53,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_O4
       status: SUCCEEDED
-    duration: 0.300454
+    duration: 0.095996
     exception: null
     id: report
     output: ''
@@ -62,7 +62,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.265343
+    duration: 0.115879
     exception: null
     id: plot
     output: ''
@@ -72,7 +72,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000030
-    duration: 0.141659
+    duration: 0.097777
     exception: null
     id: task
     output: ''
@@ -82,11 +82,11 @@ sedDocuments:
     - key: total
       value: '50.0'
     - key: dt
-      value: '.01'
+      value: '0.01'
     - key: t0
       value: '0.0'
     - key: njmp
-      value: '1'
+      value: '5'
     skipReason: null
     status: SUCCEEDED
 skipReason: null

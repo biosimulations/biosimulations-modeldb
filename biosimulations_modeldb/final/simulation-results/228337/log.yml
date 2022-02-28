@@ -1,4 +1,4 @@
-duration: 30.505386
+duration: 26.642065
 exception: null
 output: "Archive contains 13 SED-ML documents with 13 models, 13 simulations, 13 tasks,\
   \ 13 reports, and 13 plots:\r\n  Fig2/Fig2B.sedml:\r\n    Tasks (1):\r\n      task\r\
@@ -135,7 +135,7 @@ output: "Archive contains 13 SED-ML documents with 13 models, 13 simulations, 13
   \ 13\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (26):\r\n    Succeeded: 26\r\
   \n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 1.493664
+- duration: 1.227045
   exception: null
   location: Fig2/Fig2B.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -193,7 +193,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V_GAB
       status: SUCCEEDED
-    duration: 0.213547
+    duration: 0.14608
     exception: null
     id: report
     output: ''
@@ -202,7 +202,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.162247
+    duration: 0.131312
     exception: null
     id: plot
     output: ''
@@ -212,7 +212,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 0.747857
+    duration: 0.694431
     exception: null
     id: task
     output: ''
@@ -222,14 +222,14 @@ sedDocuments:
     - key: meth
       value: rungekutta
     - key: njmp
-      value: '20'
+      value: '30'
     - key: dt
       value: '0.005'
     - key: t0
       value: '0.0'
     skipReason: null
     status: SUCCEEDED
-- duration: 1.479426
+- duration: 1.202193
   exception: null
   location: Fig3/Fig3B.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -287,7 +287,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V_GAB
       status: SUCCEEDED
-    duration: 0.213803
+    duration: 0.135172
     exception: null
     id: report
     output: ''
@@ -296,7 +296,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.161787
+    duration: 0.130094
     exception: null
     id: plot
     output: ''
@@ -306,7 +306,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 0.817198
+    duration: 0.686083
     exception: null
     id: task
     output: ''
@@ -316,14 +316,14 @@ sedDocuments:
     - key: meth
       value: rungekutta
     - key: njmp
-      value: '20'
+      value: '30'
     - key: dt
       value: '0.005'
     - key: t0
       value: '0.0'
     skipReason: null
     status: SUCCEEDED
-- duration: 4.566242
+- duration: 3.537462
   exception: null
   location: Fig6/Fig6.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -381,7 +381,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V_GAB
       status: SUCCEEDED
-    duration: 0.824954
+    duration: 0.141991
     exception: null
     id: report
     output: ''
@@ -390,7 +390,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.261589
+    duration: 0.145921
     exception: null
     id: plot
     output: ''
@@ -400,7 +400,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 3.179563
+    duration: 2.97774
     exception: null
     id: task
     output: ''
@@ -410,14 +410,14 @@ sedDocuments:
     - key: meth
       value: rungekutta
     - key: njmp
-      value: '20'
+      value: '150'
     - key: dt
       value: '0.001'
     - key: t0
       value: '0.0'
     skipReason: null
     status: SUCCEEDED
-- duration: 1.390033
+- duration: 1.352931
   exception: null
   location: FigS4/FigS4-Aleft.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -475,7 +475,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V_GAB
       status: SUCCEEDED
-    duration: 0.205615
+    duration: 0.145328
     exception: null
     id: report
     output: ''
@@ -484,7 +484,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.160796
+    duration: 0.203888
     exception: null
     id: plot
     output: ''
@@ -494,7 +494,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 0.742627
+    duration: 0.731085
     exception: null
     id: task
     output: ''
@@ -504,14 +504,14 @@ sedDocuments:
     - key: meth
       value: rungekutta
     - key: njmp
-      value: '20'
+      value: '30'
     - key: dt
       value: '0.005'
     - key: t0
       value: '0.0'
     skipReason: null
     status: SUCCEEDED
-- duration: 1.342269
+- duration: 1.351869
   exception: null
   location: FigS4/FigS4-Aright.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -569,7 +569,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V_GAB
       status: SUCCEEDED
-    duration: 0.215054
+    duration: 0.135986
     exception: null
     id: report
     output: ''
@@ -578,7 +578,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.163846
+    duration: 0.199526
     exception: null
     id: plot
     output: ''
@@ -588,7 +588,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 0.678849
+    duration: 0.733234
     exception: null
     id: task
     output: ''
@@ -598,14 +598,14 @@ sedDocuments:
     - key: meth
       value: rungekutta
     - key: njmp
-      value: '20'
+      value: '30'
     - key: dt
       value: '0.005'
     - key: t0
       value: '0.0'
     skipReason: null
     status: SUCCEEDED
-- duration: 1.529792
+- duration: 1.379894
   exception: null
   location: FigS4/FigS4-Bleft.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -663,7 +663,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V_GAB
       status: SUCCEEDED
-    duration: 0.220168
+    duration: 0.155642
     exception: null
     id: report
     output: ''
@@ -672,7 +672,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.155625
+    duration: 0.137005
     exception: null
     id: plot
     output: ''
@@ -682,7 +682,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 0.761552
+    duration: 0.785781
     exception: null
     id: task
     output: ''
@@ -692,14 +692,14 @@ sedDocuments:
     - key: meth
       value: rungekutta
     - key: njmp
-      value: '20'
+      value: '30'
     - key: dt
       value: '0.005'
     - key: t0
       value: '0.0'
     skipReason: null
     status: SUCCEEDED
-- duration: 1.44878
+- duration: 1.353125
   exception: null
   location: FigS4/FigS4-Bright.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -757,7 +757,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V_GAB
       status: SUCCEEDED
-    duration: 0.272758
+    duration: 0.154594
     exception: null
     id: report
     output: ''
@@ -766,7 +766,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.174944
+    duration: 0.12696
     exception: null
     id: plot
     output: ''
@@ -776,7 +776,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 0.655277
+    duration: 0.764214
     exception: null
     id: task
     output: ''
@@ -786,14 +786,14 @@ sedDocuments:
     - key: meth
       value: rungekutta
     - key: njmp
-      value: '20'
+      value: '30'
     - key: dt
       value: '0.005'
     - key: t0
       value: '0.0'
     skipReason: null
     status: SUCCEEDED
-- duration: 1.452488
+- duration: 1.293422
   exception: null
   location: FigS4/FigS4-Cleft.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -851,7 +851,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V_GAB
       status: SUCCEEDED
-    duration: 0.223577
+    duration: 0.137651
     exception: null
     id: report
     output: ''
@@ -860,7 +860,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.175561
+    duration: 0.158498
     exception: null
     id: plot
     output: ''
@@ -870,7 +870,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 0.746399
+    duration: 0.71876
     exception: null
     id: task
     output: ''
@@ -880,14 +880,14 @@ sedDocuments:
     - key: meth
       value: rungekutta
     - key: njmp
-      value: '20'
+      value: '30'
     - key: dt
       value: '0.005'
     - key: t0
       value: '0.0'
     skipReason: null
     status: SUCCEEDED
-- duration: 1.312437
+- duration: 1.188994
   exception: null
   location: FigS4/FigS4-Cright.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -945,7 +945,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V_GAB
       status: SUCCEEDED
-    duration: 0.199354
+    duration: 0.157489
     exception: null
     id: report
     output: ''
@@ -954,7 +954,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.151055
+    duration: 0.1295
     exception: null
     id: plot
     output: ''
@@ -964,7 +964,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 0.653646
+    duration: 0.608672
     exception: null
     id: task
     output: ''
@@ -974,14 +974,14 @@ sedDocuments:
     - key: meth
       value: rungekutta
     - key: njmp
-      value: '20'
+      value: '30'
     - key: dt
       value: '0.005'
     - key: t0
       value: '0.0'
     skipReason: null
     status: SUCCEEDED
-- duration: 1.546771
+- duration: 1.455541
   exception: null
   location: FigS4/FigS4-Dleft.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -1039,7 +1039,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V_GAB
       status: SUCCEEDED
-    duration: 0.200584
+    duration: 0.151117
     exception: null
     id: report
     output: ''
@@ -1048,7 +1048,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.172016
+    duration: 0.161468
     exception: null
     id: plot
     output: ''
@@ -1058,7 +1058,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 0.750363
+    duration: 0.797748
     exception: null
     id: task
     output: ''
@@ -1068,14 +1068,14 @@ sedDocuments:
     - key: meth
       value: rungekutta
     - key: njmp
-      value: '20'
+      value: '30'
     - key: dt
       value: '0.005'
     - key: t0
       value: '0.0'
     skipReason: null
     status: SUCCEEDED
-- duration: 1.443957
+- duration: 1.268212
   exception: null
   location: FigS4/FigS4-Dright.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -1133,7 +1133,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V_GAB
       status: SUCCEEDED
-    duration: 0.231455
+    duration: 0.136222
     exception: null
     id: report
     output: ''
@@ -1142,7 +1142,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.178176
+    duration: 0.138835
     exception: null
     id: plot
     output: ''
@@ -1152,7 +1152,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 0.729746
+    duration: 0.707906
     exception: null
     id: task
     output: ''
@@ -1162,14 +1162,14 @@ sedDocuments:
     - key: meth
       value: rungekutta
     - key: njmp
-      value: '20'
+      value: '30'
     - key: dt
       value: '0.005'
     - key: t0
       value: '0.0'
     skipReason: null
     status: SUCCEEDED
-- duration: 5.037875
+- duration: 3.482808
   exception: null
   location: FigS5/FigS5A.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -1235,7 +1235,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V_GAB
       status: SUCCEEDED
-    duration: 1.291004
+    duration: 0.158953
     exception: null
     id: report
     output: ''
@@ -1244,7 +1244,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.298819
+    duration: 0.12853
     exception: null
     id: plot
     output: ''
@@ -1254,7 +1254,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 3.112939
+    duration: 2.885136
     exception: null
     id: task
     output: ''
@@ -1268,10 +1268,10 @@ sedDocuments:
     - key: t0
       value: '0.0'
     - key: njmp
-      value: '14'
+      value: '140'
     skipReason: null
     status: SUCCEEDED
-- duration: 3.718196
+- duration: 3.679611
   exception: null
   location: FigS5/FigS5B.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -1335,7 +1335,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V_GAB
       status: SUCCEEDED
-    duration: 0.150952
+    duration: 0.119366
     exception: null
     id: report
     output: ''
@@ -1344,7 +1344,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.142866
+    duration: 0.140464
     exception: null
     id: plot
     output: ''
@@ -1354,7 +1354,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 3.085493
+    duration: 3.09998
     exception: null
     id: task
     output: ''

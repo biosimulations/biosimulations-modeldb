@@ -1,4 +1,4 @@
-duration: 0.826349
+duration: 0.675615
 exception: null
 output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 1 plots:\r\n  IERG_Mar.sedml:\r\n    Tasks (1):\r\n      task\r\
@@ -17,7 +17,7 @@ output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tas
   \ 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (2):\r\n    Succeeded: 2\r\n\
   \    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 0.749785
+- duration: 0.58719
   exception: null
   location: IERG_Mar.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -43,7 +43,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_O
       status: SUCCEEDED
-    duration: 0.28774
+    duration: 0.172306
     exception: null
     id: report
     output: ''
@@ -52,7 +52,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.268486
+    duration: 0.178782
     exception: null
     id: plot
     output: ''
@@ -62,7 +62,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000030
-    duration: 0.100772
+    duration: 0.102399
     exception: null
     id: task
     output: ''
@@ -72,11 +72,11 @@ sedDocuments:
     - key: total
       value: '800.0'
     - key: dt
-      value: '.1'
+      value: '0.1'
     - key: t0
       value: '0.0'
     - key: njmp
-      value: '1'
+      value: '8'
     skipReason: null
     status: SUCCEEDED
 skipReason: null

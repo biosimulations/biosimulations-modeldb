@@ -1,4 +1,4 @@
-duration: 9.699395
+duration: 7.520903
 exception: null
 output: "Archive contains 3 SED-ML documents with 3 models, 3 simulations, 3 tasks,\
   \ 3 reports, and 3 plots:\r\n  ACCPersistentSpiking-Ratte2018.sedml:\r\n    Tasks\
@@ -37,7 +37,7 @@ output: "Archive contains 3 SED-ML documents with 3 models, 3 simulations, 3 tas
   \    Succeeded: 3\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (6):\r\n    Succeeded:\
   \ 6\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 6.734091
+- duration: 5.860246
   exception: null
   location: ACCPersistentSpiking-Ratte2018.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -67,7 +67,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_W
       status: SUCCEEDED
-    duration: 0.539549
+    duration: 0.084474
     exception: null
     id: report
     output: ''
@@ -76,7 +76,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.345885
+    duration: 0.136054
     exception: null
     id: plot
     output: ''
@@ -86,7 +86,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 5.734421
+    duration: 5.52127
     exception: null
     id: task
     output: ''
@@ -96,14 +96,14 @@ sedDocuments:
     - key: meth
       value: rungekutta
     - key: dt
-      value: '.1'
+      value: '0.1'
     - key: t0
       value: '0.0'
     - key: njmp
-      value: '100'
+      value: '1000'
     skipReason: null
     status: SUCCEEDED
-- duration: 1.353128
+- duration: 0.712945
   exception: null
   location: ACCPersistentSpiking-Ratte2018_ca.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -133,7 +133,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_W
       status: SUCCEEDED
-    duration: 0.460495
+    duration: 0.087992
     exception: null
     id: report
     output: ''
@@ -142,7 +142,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.302786
+    duration: 0.184395
     exception: null
     id: plot
     output: ''
@@ -152,7 +152,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 0.442989
+    duration: 0.332735
     exception: null
     id: task
     output: ''
@@ -162,14 +162,14 @@ sedDocuments:
     - key: meth
       value: rungekutta
     - key: dt
-      value: '.1'
+      value: '0.1'
     - key: t0
       value: '0.0'
     - key: njmp
-      value: '4'
+      value: '40'
     skipReason: null
     status: SUCCEEDED
-- duration: 1.274697
+- duration: 0.641055
   exception: null
   location: ACCPersistentSpiking-Ratte2018_v.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -199,7 +199,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_W
       status: SUCCEEDED
-    duration: 0.467273
+    duration: 0.080322
     exception: null
     id: report
     output: ''
@@ -208,7 +208,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.302575
+    duration: 0.139895
     exception: null
     id: plot
     output: ''
@@ -218,7 +218,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 0.365037
+    duration: 0.319118
     exception: null
     id: task
     output: ''
@@ -228,11 +228,11 @@ sedDocuments:
     - key: meth
       value: rungekutta
     - key: dt
-      value: '.1'
+      value: '0.1'
     - key: t0
       value: '0.0'
     - key: njmp
-      value: '4'
+      value: '40'
     skipReason: null
     status: SUCCEEDED
 skipReason: null

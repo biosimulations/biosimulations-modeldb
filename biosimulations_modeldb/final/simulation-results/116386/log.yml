@@ -1,4 +1,4 @@
-duration: 3.369117
+duration: 2.48835
 exception: null
 output: "Archive contains 2 SED-ML documents with 2 models, 2 simulations, 2 tasks,\
   \ 2 reports, and 2 plots:\r\n  ML(noNainactivation).sedml:\r\n    Tasks (1):\r\n\
@@ -31,7 +31,7 @@ output: "Archive contains 2 SED-ML documents with 2 models, 2 simulations, 2 tas
   \    Succeeded: 2\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (4):\r\n    Succeeded:\
   \ 4\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 1.380707
+- duration: 1.135544
   exception: null
   location: ML(noNainactivation).sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -60,7 +60,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_ZM
       status: SUCCEEDED
-    duration: 0.319338
+    duration: 0.100234
     exception: null
     id: report
     output: ''
@@ -69,7 +69,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.292417
+    duration: 0.160449
     exception: null
     id: plot
     output: "/home/jonrkarr/Documents/Biosimulators_utils/biosimulators_utils/viz/io.py:35:\
@@ -83,7 +83,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000030
-    duration: 0.68119
+    duration: 0.769408
     exception: null
     id: task
     output: ''
@@ -93,14 +93,14 @@ sedDocuments:
     - key: meth
       value: euler
     - key: dt
-      value: '.1'
+      value: '0.1'
     - key: t0
       value: '0.0'
     - key: njmp
-      value: '100'
+      value: '1000'
     skipReason: null
     status: SUCCEEDED
-- duration: 1.775527
+- duration: 1.152375
   exception: null
   location: ML(withNainactivation).sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -126,7 +126,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_ZM
       status: SUCCEEDED
-    duration: 0.4171
+    duration: 0.095
     exception: null
     id: report
     output: ''
@@ -135,7 +135,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.386697
+    duration: 0.147411
     exception: null
     id: plot
     output: ''
@@ -145,7 +145,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000030
-    duration: 0.778667
+    duration: 0.810282
     exception: null
     id: task
     output: ''
@@ -155,11 +155,11 @@ sedDocuments:
     - key: meth
       value: euler
     - key: dt
-      value: '.1'
+      value: '0.1'
     - key: t0
       value: '0.0'
     - key: njmp
-      value: '100'
+      value: '1000'
     skipReason: null
     status: SUCCEEDED
 skipReason: null

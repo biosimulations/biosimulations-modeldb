@@ -1,4 +1,4 @@
-duration: 2.258972
+duration: 0.967432
 exception: null
 output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 1 plots:\r\n  twocompart_mnmodel.sedml:\r\n    Tasks (1):\r\n \
@@ -17,7 +17,7 @@ output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tas
   \    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (2):\r\n    Succeeded:\
   \ 2\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 2.128492
+- duration: 0.856184
   exception: null
   location: twocompart_mnmodel.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -77,7 +77,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_VS
       status: SUCCEEDED
-    duration: 1.069117
+    duration: 0.171947
     exception: null
     id: report
     output: ''
@@ -86,7 +86,7 @@ sedDocuments:
   - curves:
     - id: curve_2
       status: SUCCEEDED
-    duration: 0.381218
+    duration: 0.141679
     exception: null
     id: plot
     output: ''
@@ -96,7 +96,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000672
-    duration: 0.565303
+    duration: 0.448825
     exception: null
     id: task
     output: ''
@@ -108,7 +108,7 @@ sedDocuments:
     - key: t0
       value: '0.0'
     - key: dt
-      value: '1.0'
+      value: '10'
     - key: njmp
       value: '1'
     skipReason: null

@@ -32,7 +32,7 @@
     </model>
   </listOfModels>
   <listOfSimulations>
-    <uniformTimeCourse id="simulation" name="Simulation" initialTime="0" outputStartTime="0" outputEndTime="150" numberOfPoints="10000">
+    <uniformTimeCourse id="simulation" name="Simulation" initialTime="0" outputStartTime="0" outputEndTime="150" numberOfPoints="1000">
       <algorithm kisaoID="KISAO:0000032">
         <listOfAlgorithmParameters>
           <algorithmParameter kisaoID="KISAO:0000483" value="0.0001"/>

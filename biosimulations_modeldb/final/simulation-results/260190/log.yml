@@ -1,4 +1,4 @@
-duration: 11.528348
+duration: 8.652431
 exception: null
 output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 0 plots:\r\n  boxwell.sedml:\r\n    Tasks (1):\r\n      task\r\n\
@@ -15,7 +15,7 @@ output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tas
   \  Tasks (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs\
   \ (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 11.384173
+- duration: 8.508458
   exception: null
   location: boxwell.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -188,7 +188,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_Z10
       status: SUCCEEDED
-    duration: 3.263968
+    duration: 0.408144
     exception: null
     id: report
     output: ''
@@ -198,7 +198,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 8.022721
+    duration: 7.931373
     exception: null
     id: task
     output: ''
@@ -212,7 +212,7 @@ sedDocuments:
     - key: t0
       value: '0.0'
     - key: njmp
-      value: '24'
+      value: '240'
     skipReason: null
     status: SUCCEEDED
 skipReason: null

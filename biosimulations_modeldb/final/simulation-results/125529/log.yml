@@ -1,4 +1,4 @@
-duration: 1.475146
+duration: 0.714111
 exception: null
 output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 1 plots:\r\n  rubinetal_resp_cpg.sedml:\r\n    Tasks (1):\r\n \
@@ -17,7 +17,7 @@ output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tas
   \    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (2):\r\n    Succeeded:\
   \ 2\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 1.369565
+- duration: 0.519416
   exception: null
   location: rubinetal_resp_cpg.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -57,7 +57,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V4
       status: SUCCEEDED
-    duration: 0.665168
+    duration: 0.113787
     exception: null
     id: report
     output: ''
@@ -66,7 +66,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.322828
+    duration: 0.158347
     exception: null
     id: plot
     output: ''
@@ -76,7 +76,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000672
-    duration: 0.280209
+    duration: 0.171093
     exception: null
     id: task
     output: ''
@@ -88,7 +88,7 @@ sedDocuments:
     - key: t0
       value: '0.0'
     - key: dt
-      value: '1.0'
+      value: '10'
     - key: njmp
       value: '1'
     skipReason: null

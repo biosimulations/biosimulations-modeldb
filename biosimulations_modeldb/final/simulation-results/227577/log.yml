@@ -1,4 +1,4 @@
-duration: 247.977035
+duration: 176.117991
 exception: null
 output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 1 plots:\r\n  Corbit2016_basic_PS.sedml:\r\n    Tasks (1):\r\n\
@@ -17,7 +17,7 @@ output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tas
   \    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (2):\r\n    Succeeded:\
   \ 2\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 246.248956
+- duration: 174.420228
   exception: null
   location: Corbit2016_basic_PS.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -2149,7 +2149,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_S_M2M40
       status: SUCCEEDED
-    duration: 50.551147
+    duration: 4.736318
     exception: null
     id: report
     output: ''
@@ -2158,7 +2158,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.367361
+    duration: 0.131507
     exception: null
     id: plot
     output: ''
@@ -2168,7 +2168,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000672
-    duration: 194.140996
+    duration: 168.387253
     exception: null
     id: task
     output: ''
@@ -2182,7 +2182,7 @@ sedDocuments:
     - key: t0
       value: '0.0'
     - key: dt
-      value: '0.2'
+      value: '2'
     - key: njmp
       value: '1'
     skipReason: null

@@ -1,4 +1,4 @@
-duration: 23.315265
+duration: 21.369641
 exception: null
 output: "Archive contains 2 SED-ML documents with 2 models, 2 simulations, 2 tasks,\
   \ 2 reports, and 0 plots:\r\n  six_sub_protein_cascade_graupner2007_lower_branch.sedml:\r\
@@ -25,7 +25,7 @@ output: "Archive contains 2 SED-ML documents with 2 models, 2 simulations, 2 tas
   \    Succeeded: 2\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (2):\r\n    Succeeded:\
   \ 2\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 11.471117
+- duration: 10.63843
   exception: null
   location: six_sub_protein_cascade_graupner2007_lower_branch.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -72,7 +72,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_TA
       status: SUCCEEDED
-    duration: 0.771177
+    duration: 0.132091
     exception: null
     id: report
     output: ''
@@ -82,7 +82,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 10.577615
+    duration: 10.406882
     exception: null
     id: task
     output: ''
@@ -90,7 +90,7 @@ sedDocuments:
     - key: total
       value: '1000.0'
     - key: njmp
-      value: '100'
+      value: '1000'
     - key: meth
       value: rungekutta
     - key: dt
@@ -99,7 +99,7 @@ sedDocuments:
       value: '0.0'
     skipReason: null
     status: SUCCEEDED
-- duration: 11.638346
+- duration: 10.539159
   exception: null
   location: six_sub_protein_cascade_graupner2007_upper_branch.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -146,7 +146,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_TA
       status: SUCCEEDED
-    duration: 0.847519
+    duration: 0.155721
     exception: null
     id: report
     output: ''
@@ -156,7 +156,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 10.627684
+    duration: 10.296533
     exception: null
     id: task
     output: ''
@@ -164,7 +164,7 @@ sedDocuments:
     - key: total
       value: '1000.0'
     - key: njmp
-      value: '100'
+      value: '1000'
     - key: meth
       value: rungekutta
     - key: dt

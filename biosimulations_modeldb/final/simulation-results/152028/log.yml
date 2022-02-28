@@ -1,4 +1,4 @@
-duration: 3.709224
+duration: 2.918999
 exception: null
 output: "Archive contains 2 SED-ML documents with 2 models, 2 simulations, 2 tasks,\
   \ 2 reports, and 0 plots:\r\n  xpp-models/ball-and-stick.sedml:\r\n    Tasks (1):\r\
@@ -24,7 +24,7 @@ output: "Archive contains 2 SED-ML documents with 2 models, 2 simulations, 2 tas
   \   Skipped: 0\r\n    Failed: 0\r\n  Outputs (2):\r\n    Succeeded: 2\r\n    Skipped:\
   \ 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 2.0649
+- duration: 1.53674
   exception: null
   location: xpp-models/ball-and-stick.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -75,7 +75,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_VM
       status: SUCCEEDED
-    duration: 0.580905
+    duration: 0.131979
     exception: null
     id: report
     output: ''
@@ -85,7 +85,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000030
-    duration: 1.366509
+    duration: 1.297205
     exception: null
     id: task
     output: ''
@@ -95,14 +95,14 @@ sedDocuments:
     - key: meth
       value: euler
     - key: njmp
-      value: '100'
+      value: '600'
     - key: dt
-      value: '.001'
+      value: '0.001'
     - key: t0
       value: '0.0'
     skipReason: null
     status: SUCCEEDED
-- duration: 1.253051
+- duration: 0.989309
   exception: null
   location: xpp-models/isopotential.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -139,7 +139,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V
       status: SUCCEEDED
-    duration: 0.347943
+    duration: 0.102367
     exception: null
     id: report
     output: ''
@@ -149,7 +149,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000030
-    duration: 0.80099
+    duration: 0.784157
     exception: null
     id: task
     output: ''
@@ -159,9 +159,9 @@ sedDocuments:
     - key: meth
       value: euler
     - key: njmp
-      value: '100'
+      value: '530'
     - key: dt
-      value: '.001'
+      value: '0.001'
     - key: t0
       value: '0.0'
     skipReason: null

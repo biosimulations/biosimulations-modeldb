@@ -1,4 +1,4 @@
-duration: 0.560037
+duration: 0.419607
 exception: null
 output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 1 plots:\r\n  wc.sedml:\r\n    Tasks (1):\r\n      task\r\n   \
@@ -16,7 +16,7 @@ output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tas
   \  Tasks (1):\r\n    Succeeded: 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs\
   \ (2):\r\n    Succeeded: 2\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 0.48262
+- duration: 0.328098
   exception: null
   location: wc.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -34,7 +34,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V
       status: SUCCEEDED
-    duration: 0.04735
+    duration: 0.048621
     exception: null
     id: report
     output: ''
@@ -43,7 +43,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.227324
+    duration: 0.115595
     exception: null
     id: plot
     output: ''
@@ -53,7 +53,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 0.135089
+    duration: 0.094871
     exception: null
     id: task
     output: ''

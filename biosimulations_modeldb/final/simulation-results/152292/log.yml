@@ -1,4 +1,4 @@
-duration: 4.579778
+duration: 2.557829
 exception: null
 output: "Archive contains 1 SED-ML documents with 4 models, 1 simulations, 3 tasks,\
   \ 3 reports, and 3 plots:\r\n  OneCellTwoOsc.sedml:\r\n    Tasks (3):\r\n      task_figure_2a\r\
@@ -39,7 +39,7 @@ output: "Archive contains 1 SED-ML documents with 4 models, 1 simulations, 3 tas
   \  Tasks (3):\r\n    Succeeded: 3\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs\
   \ (6):\r\n    Succeeded: 6\r\n    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 4.291598
+- duration: 2.407595
   exception: null
   location: OneCellTwoOsc.sedml
   output: "  Found 3 tasks and 6 outputs:\r\n    Tasks:\r\n      `task_figure_2a`\r\
@@ -90,7 +90,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V_figure_2a
       status: SUCCEEDED
-    duration: 0.485997
+    duration: 0.094773
     exception: null
     id: report_figure_2a
     output: ''
@@ -99,7 +99,7 @@ sedDocuments:
   - curves:
     - id: curve_1_figure_2a
       status: SUCCEEDED
-    duration: 0.327459
+    duration: 0.207479
     exception: null
     id: plot_figure_2a
     output: ''
@@ -124,7 +124,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V_figure_2b
       status: SUCCEEDED
-    duration: 0.461583
+    duration: 0.111049
     exception: null
     id: report_figure_2b
     output: ''
@@ -133,7 +133,7 @@ sedDocuments:
   - curves:
     - id: curve_1_figure_2b
       status: SUCCEEDED
-    duration: 0.30723
+    duration: 0.169483
     exception: null
     id: plot_figure_2b
     output: ''
@@ -158,7 +158,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V_figure_2c
       status: SUCCEEDED
-    duration: 0.487187
+    duration: 0.103786
     exception: null
     id: report_figure_2c
     output: ''
@@ -167,7 +167,7 @@ sedDocuments:
   - curves:
     - id: curve_1_figure_2c
       status: SUCCEEDED
-    duration: 0.364215
+    duration: 0.238017
     exception: null
     id: plot_figure_2c
     output: ''
@@ -177,7 +177,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000672
-    duration: 0.244387
+    duration: 0.117826
     exception: null
     id: task_figure_2a
     output: ''
@@ -197,13 +197,13 @@ sedDocuments:
     - key: t0
       value: '0.0'
     - key: dt
-      value: '1.0'
+      value: '10'
     - key: njmp
       value: '1'
     skipReason: null
     status: SUCCEEDED
   - algorithm: KISAO_0000672
-    duration: 0.221634
+    duration: 0.186775
     exception: null
     id: task_figure_2b
     output: ''
@@ -223,13 +223,13 @@ sedDocuments:
     - key: t0
       value: '0.0'
     - key: dt
-      value: '1.0'
+      value: '10'
     - key: njmp
       value: '1'
     skipReason: null
     status: SUCCEEDED
   - algorithm: KISAO_0000672
-    duration: 0.27258
+    duration: 0.124255
     exception: null
     id: task_figure_2c
     output: ''
@@ -249,7 +249,7 @@ sedDocuments:
     - key: t0
       value: '0.0'
     - key: dt
-      value: '1.0'
+      value: '10'
     - key: njmp
       value: '1'
     skipReason: null

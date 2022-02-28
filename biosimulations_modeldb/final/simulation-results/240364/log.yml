@@ -1,4 +1,4 @@
-duration: 0.756811
+duration: 0.557768
 exception: null
 output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 1 plots:\r\n  xpp/bifurcation.sedml:\r\n    Tasks (1):\r\n    \
@@ -17,7 +17,7 @@ output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tas
   \ 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (2):\r\n    Succeeded: 2\r\n\
   \    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 0.626878
+- duration: 0.466867
   exception: null
   location: xpp/bifurcation.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -45,7 +45,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V
       status: SUCCEEDED
-    duration: 0.170548
+    duration: 0.079639
     exception: null
     id: report
     output: ''
@@ -54,7 +54,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.213803
+    duration: 0.20155
     exception: null
     id: plot
     output: ''
@@ -64,7 +64,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 0.152382
+    duration: 0.109528
     exception: null
     id: task
     output: ''
@@ -74,11 +74,11 @@ sedDocuments:
     - key: meth
       value: rungekutta
     - key: dt
-      value: '.2'
+      value: '0.2'
     - key: t0
       value: '0.0'
     - key: njmp
-      value: '1'
+      value: '3'
     skipReason: null
     status: SUCCEEDED
 skipReason: null

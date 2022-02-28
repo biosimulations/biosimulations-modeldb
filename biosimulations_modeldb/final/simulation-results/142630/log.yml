@@ -1,4 +1,4 @@
-duration: 1.963696
+duration: 1.523951
 exception: null
 output: "Archive contains 2 SED-ML documents with 2 models, 2 simulations, 2 tasks,\
   \ 2 reports, and 0 plots:\r\n  One_full_cell_fixed_Ko_and_Nai.sedml:\r\n    Tasks\
@@ -24,7 +24,7 @@ output: "Archive contains 2 SED-ML documents with 2 models, 2 simulations, 2 tas
   \ 2\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (2):\r\n    Succeeded: 2\r\n\
   \    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 0.469433
+- duration: 0.290572
   exception: null
   location: One_full_cell_fixed_Ko_and_Nai.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -43,7 +43,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V
       status: SUCCEEDED
-    duration: 0.208253
+    duration: 0.068713
     exception: null
     id: report
     output: ''
@@ -53,7 +53,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 0.173187
+    duration: 0.152125
     exception: null
     id: task
     output: ''
@@ -62,15 +62,15 @@ sedDocuments:
       value: '1000.0'
     - key: meth
       value: rungekutta
-    - key: t0
-      value: '0.0'
     - key: dt
       value: '0.05'
+    - key: t0
+      value: '0.0'
     - key: njmp
-      value: '2'
+      value: '20'
     skipReason: null
     status: SUCCEEDED
-- duration: 1.312499
+- duration: 1.090376
   exception: null
   location: One_full_cell_with_dyn_ion_conc.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -93,7 +93,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V
       status: SUCCEEDED
-    duration: 0.344264
+    duration: 0.074273
     exception: null
     id: report
     output: ''
@@ -103,7 +103,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000032
-    duration: 0.850366
+    duration: 0.909897
     exception: null
     id: task
     output: ''
@@ -112,12 +112,12 @@ sedDocuments:
       value: '10000.0'
     - key: meth
       value: rungekutta
-    - key: t0
-      value: '0.0'
     - key: dt
       value: '0.05'
+    - key: t0
+      value: '0.0'
     - key: njmp
-      value: '20'
+      value: '200'
     skipReason: null
     status: SUCCEEDED
 skipReason: null

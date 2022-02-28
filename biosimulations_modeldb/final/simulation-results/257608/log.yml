@@ -1,4 +1,4 @@
-duration: 6.867504
+duration: 2.352294
 exception: null
 output: "Archive contains 3 SED-ML documents with 6 models, 3 simulations, 3 tasks,\
   \ 3 reports, and 2 plots:\r\n  basenet.sedml:\r\n    Tasks (1):\r\n      task_baseline\r\
@@ -39,7 +39,7 @@ output: "Archive contains 3 SED-ML documents with 6 models, 3 simulations, 3 tas
   \   Failed: 0\r\n  Outputs (5):\r\n    Succeeded: 5\r\n    Skipped: 0\r\n    Failed:\
   \ 0\r\n\r\n"
 sedDocuments:
-- duration: 1.898741
+- duration: 0.651516
   exception: null
   location: basenet.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task_baseline`\r\
@@ -94,7 +94,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V4_baseline
       status: SUCCEEDED
-    duration: 1.051839
+    duration: 0.154889
     exception: null
     id: report_baseline
     output: ''
@@ -103,7 +103,7 @@ sedDocuments:
   - curves:
     - id: curve_1_baseline
       status: SUCCEEDED
-    duration: 0.332288
+    duration: 0.139029
     exception: null
     id: plot_baseline
     output: ''
@@ -113,7 +113,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000672
-    duration: 0.354951
+    duration: 0.241395
     exception: null
     id: task_baseline
     output: ''
@@ -133,12 +133,12 @@ sedDocuments:
     - key: t0
       value: '0.0'
     - key: dt
-      value: '1.0'
+      value: '10'
     - key: njmp
       value: '1'
     skipReason: null
     status: SUCCEEDED
-- duration: 2.387275
+- duration: 0.65017
   exception: null
   location: basenetTA.sedml
   output: "  Found 1 tasks and 1 outputs:\r\n    Tasks:\r\n      `task_with_pico`\r\
@@ -192,7 +192,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V4_with_pico
       status: SUCCEEDED
-    duration: 1.044038
+    duration: 0.139684
     exception: null
     id: report_with_pico
     output: ''
@@ -202,7 +202,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000672
-    duration: 1.220313
+    duration: 0.40939
     exception: null
     id: task_with_pico
     output: ''
@@ -224,12 +224,12 @@ sedDocuments:
     - key: t0
       value: '0.0'
     - key: dt
-      value: '0.5'
+      value: '5'
     - key: njmp
       value: '1'
     skipReason: null
     status: SUCCEEDED
-- duration: 2.194787
+- duration: 0.693923
   exception: null
   location: basenetpico3.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task_without_pico_block_of_inhibition`\r\
@@ -291,7 +291,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_V5_without_pico_block_of_inhibition
       status: SUCCEEDED
-    duration: 1.205507
+    duration: 0.167777
     exception: null
     id: report_without_pico_block_of_inhibition
     output: ''
@@ -300,7 +300,7 @@ sedDocuments:
   - curves:
     - id: curve_1_without_pico_block_of_inhibition
       status: SUCCEEDED
-    duration: 0.385698
+    duration: 0.134995
     exception: null
     id: plot_without_pico_block_of_inhibition
     output: ''
@@ -310,7 +310,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000672
-    duration: 0.445909
+    duration: 0.257808
     exception: null
     id: task_without_pico_block_of_inhibition
     output: ''
@@ -330,7 +330,7 @@ sedDocuments:
     - key: t0
       value: '0.0'
     - key: dt
-      value: '1.0'
+      value: '10'
     - key: njmp
       value: '1'
     skipReason: null

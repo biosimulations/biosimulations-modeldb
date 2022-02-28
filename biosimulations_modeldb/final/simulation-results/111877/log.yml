@@ -1,4 +1,4 @@
-duration: 0.647157
+duration: 0.498016
 exception: null
 output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tasks,\
   \ 1 reports, and 1 plots:\r\n  Ikca_Mocz.sedml:\r\n    Tasks (1):\r\n      task\r\
@@ -17,7 +17,7 @@ output: "Archive contains 1 SED-ML documents with 1 models, 1 simulations, 1 tas
   \ 1\r\n    Skipped: 0\r\n    Failed: 0\r\n  Outputs (2):\r\n    Succeeded: 2\r\n\
   \    Skipped: 0\r\n    Failed: 0\r\n\r\n"
 sedDocuments:
-- duration: 0.522705
+- duration: 0.407405
   exception: null
   location: Ikca_Mocz.sedml
   output: "  Found 1 tasks and 2 outputs:\r\n    Tasks:\r\n      `task`\r\n    Outputs:\r\
@@ -37,7 +37,7 @@ sedDocuments:
       status: SUCCEEDED
     - id: data_set_VM
       status: SUCCEEDED
-    duration: 0.096726
+    duration: 0.06516
     exception: null
     id: report
     output: ''
@@ -46,7 +46,7 @@ sedDocuments:
   - curves:
     - id: curve_1
       status: SUCCEEDED
-    duration: 0.204931
+    duration: 0.161574
     exception: null
     id: plot
     output: ''
@@ -56,7 +56,7 @@ sedDocuments:
   status: SUCCEEDED
   tasks:
   - algorithm: KISAO_0000030
-    duration: 0.124982
+    duration: 0.108636
     exception: null
     id: task
     output: ''
@@ -66,11 +66,11 @@ sedDocuments:
     - key: meth
       value: euler
     - key: dt
-      value: '0.01'
+      value: '0.009'
     - key: t0
       value: '0.0'
     - key: njmp
-      value: '1'
+      value: '2'
     skipReason: null
     status: SUCCEEDED
 skipReason: null
