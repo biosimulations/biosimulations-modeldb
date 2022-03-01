@@ -108,6 +108,8 @@ jobs:
         with:
           fetch-depth: 1
           ref: dev
+          submodules: recursive
+          lfs: true
 
       # install Python and Pip
       - name: Install Python
