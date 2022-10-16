@@ -1,7 +1,7 @@
 beautifulsoup4
 biopython
-biosimulators_xpp >= 0.0.13
-biosimulators_utils >= 0.1.167
+biosimulators_xpp ==0.0.13
+biosimulators_utils ==0.1.171
 boto3
 cement
 gitpython
